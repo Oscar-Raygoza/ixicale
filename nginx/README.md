@@ -80,6 +80,19 @@ sudo ln -s /etc/nginx/sites-available/clv-productions-api /etc/nginx/sites-enabl
 sudo systemctl restart nginx
 ```
 
-### 5- Verificar conexión
+### 5- Instalar composer en el proyecto
+
+#### 5.1- Desplazarse a la carpeta del proyecto 
+
+> cd /var/www/html/clv-productions-api
+
+
+#### 5.2- Ejecutar el siguiente comando
+
+> composer install
+
+### 6- Verificar conexión
+
 > Url:
-  **http://dev.clever-api-productions.local/**
+  **http://dev.clever-api-productions.local/ **
+
