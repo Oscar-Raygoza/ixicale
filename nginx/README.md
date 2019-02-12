@@ -93,8 +93,6 @@ sudo systemctl restart nginx
 
 ### 6- Verificar conexión
 
-> Url:
-  **
-  http://dev.clever-api-productions.local/
-  **
+> Url: http://dev.clever-api-productions.local/
+ 
 
