@@ -13,26 +13,26 @@ sudo nano /etc/hosts
 Agregar la siguiente linea al archivo:
 
 ```
-127.0.0.1	dev.clever-api-products.local	# FIN
+127.0.0.1	dev.clever-api-productions.local	# FIN
 ```
 
 ### 2- Crear Virtual Host
 
 ```
-sudo nano /etc/nginx/sites-available/clv-products-api
+sudo nano /etc/nginx/sites-available/clv-productions-api
 ```
 
 Usar la siguiente configuracion
 
 ```
 server {
-	server_name dev.clever-api-products.local;
-	set $root_path '/var/www/html/clv-products-api/public';
-	access_log /var/log/nginx/clever_products_api_access.log;
-	error_log /var/log/nginx/clever_products_api_error.log;
-	error_log /var/log/nginx/clever_products_api_error.log notice;
-	error_log /var/log/nginx/clever_products_api_error.log info;
-	error_log /var/log/nginx/clever_products_api_error.log error;
+	server_name dev.clever-api-productions.local;
+	set $root_path '/var/www/html/clv-productions-api/public';
+	access_log /var/log/nginx/clever_productions_api_access.log;
+	error_log /var/log/nginx/clever_productions_api_error.log;
+	error_log /var/log/nginx/clever_productions_api_error.log notice;
+	error_log /var/log/nginx/clever_productions_api_error.log info;
+	error_log /var/log/nginx/clever_productions_api_error.log error;
 	root $root_path;
 
 	index index.php index.html;
@@ -71,7 +71,7 @@ server {
 ### 3- Crear enlace simbolico
 
 ```
-sudo ln -s /etc/nginx/sites-available/clv-products-api /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/clv-productions-api /etc/nginx/sites-enabled/
 ```
 
 ### 4- Reiniciar el servidor
@@ -82,4 +82,4 @@ sudo systemctl restart nginx
 
 ### 5- Verificar conexión
 > Url:
-  **http://dev.clever-api-products.local/**
+  **http://dev.clever-api-productions.local/**
