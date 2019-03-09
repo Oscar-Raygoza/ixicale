@@ -1,4 +1,4 @@
-# Configuracion común para Nginx 
+# Configuracion común para levantar servicios usando Nginx 
 
 Configura cualquier virtual host con la siguiente guía para tus proyectos
 
@@ -82,7 +82,7 @@ sudo systemctl restart nginx
 
 ### 5- Instalar composer en el proyecto
 
-#### 5.1- Desplazarse a la carpeta del proyecto 
+#### 5.1- Desplazarse a la carpeta del proyecto
 
 > cd /var/www/html/clv-productions-api
 
@@ -94,5 +94,3 @@ sudo systemctl restart nginx
 ### 6- Verificar conexión
 
 > Url: http://dev.clever-api-productions.local/
- 
-
