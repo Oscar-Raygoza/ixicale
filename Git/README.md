@@ -73,19 +73,19 @@ git push -u origin master
 1. **Mover al repositorio**
 
 _Dirigirse al repositorio local_
-```
-cd _RUTA/LOCALIZACION/MI_REPOSITORIO_EJEMPLO_
-```
+
+> cd _RUTA/LOCALIZACION/MI_REPOSITORIO_EJEMPLO_
+
 
 _Clonar el repositorio donde obtendrá ambos cambios (opcional)_
-```
-git clone <SHH>
-```
+
+> git clone <SHH>
+
 
 
 2. **Abrir url del repositorio a fusionar**
 
-_Copiar enlace shh (Ejemplo: git@github.com:USUARIO/MI_REPOSITORIO_EJEMPLO_.git)_
+Copiar enlace shh _(Ejemplo: git@github.com:USUARIO/MI_REPOSITORIO_EJEMPLO.git)_
 
 
 3. **Fusionar repositorios**
@@ -108,26 +108,27 @@ Toda palabra en mayuscula debe ser reemplazada según el caso.
 ```
 
 _Bajar historial del repositorio externo_
-```
-git remote add -f ETIQUETA_IDENTIFICACION ENLACE_SSH
-```
+
+> git remote add -f ETIQUETA_IDENTIFICACION ENLACE_SSH
+
 
 _Fusion del repositorio externo con el actual_
-```
-git merge --allow-unrelated-histories ETIQUETA_IDENTIFICACION/RAMA
-```
+
+> git merge --allow-unrelated-histories ETIQUETA_IDENTIFICACION/RAMA
+
 
 
 4. **Finalizar**
 ```
-Se recomienda repetir el paso 2 (en caso de fusionar 
-más repositorios) antes de continuar.
+¡ADVERTENCIA!
+
+Se recomienda repetir el paso 2 (en caso de fusionar más repositorios) antes de continuar.
 ```
 
 *Enlazar nuestro repositorio en git*
-```
-git remote add origin git@github.com:USUARIO/MI_REPOSITORIO_FUSION.git
-```
+
+> git remote add origin git@github.com:USUARIO/MI_REPOSITORIO_FUSION.git
+
 ```
 En caso de obtener el error: 
 "fatal: remote origin already exists."
@@ -136,10 +137,7 @@ Fue por que la carpeta ha sido sincronizada con algn enlace. Continuar con el si
 ```
 
 *Publicar nuestros cambios en el repositorio git*
-```
-git push -u origin master
-```
 
-
+> git push -u origin master
 
 
