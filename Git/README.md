@@ -72,14 +72,13 @@ git push -u origin master
 ## Merge entre 2 repositorios mediante ramas
 1. **Mover al repositorio**
 
+_Clonar el repositorio donde obtendrá ambos cambios (opcional)_
+
+> git clone git@github.com:USUARIO/MI_REPOSITORIO_FUSION.git
+
 _Dirigirse al repositorio local_
 
 > cd _RUTA/LOCALIZACION/MI_REPOSITORIO_FUSION_
-
-
-_Clonar el repositorio donde obtendrá ambos cambios (opcional)_
-
-> git clone SHH
 
 
 
@@ -112,7 +111,7 @@ _Bajar historial del repositorio externo_
 > git remote add -f ETIQUETA_IDENTIFICACION ENLACE_SSH
 
 
-_Fusion del repositorio externo con el actual_
+_Fusion del repositorio externo con el actual, apuntando a una rama especifica (**puede ser master u otro**)_
 
 > git merge **--allow-unrelated-histories** ETIQUETA_IDENTIFICACION/RAMA
 
@@ -138,7 +137,7 @@ Fue por que la carpeta ha sido sincronizada con algún enlace. Continuar con el 
 
 *Publicar nuestros cambios en el repositorio git (**puede ser master u otro**)*
 
-> git push -u origin RAMA_FUSION 
+> git push -u origin master 
 
 
 
