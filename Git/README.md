@@ -74,12 +74,12 @@ git push -u origin master
 
 _Dirigirse al repositorio local_
 
-> cd _RUTA/LOCALIZACION/MI_REPOSITORIO_EJEMPLO_
+> cd _RUTA/LOCALIZACION/MI_REPOSITORIO_FUSION_
 
 
 _Clonar el repositorio donde obtendrá ambos cambios (opcional)_
 
-> git clone <SHH>
+> git clone SHH
 
 
 
@@ -114,7 +114,7 @@ _Bajar historial del repositorio externo_
 
 _Fusion del repositorio externo con el actual_
 
-> git merge --allow-unrelated-histories ETIQUETA_IDENTIFICACION/RAMA
+> git merge **--allow-unrelated-histories** ETIQUETA_IDENTIFICACION/RAMA
 
 
 
@@ -133,11 +133,12 @@ Se recomienda repetir el paso 2 (en caso de fusionar más repositorios) antes de
 En caso de obtener el error: 
 "fatal: remote origin already exists."
 
-Fue por que la carpeta ha sido sincronizada con algn enlace. Continuar con el siguiente paso.
+Fue por que la carpeta ha sido sincronizada con algún enlace. Continuar con el siguiente paso.
 ```
 
-*Publicar nuestros cambios en el repositorio git*
+*Publicar nuestros cambios en el repositorio git (**puede ser master u otro**)*
 
-> git push -u origin master
+> git push -u origin RAMA_FUSION 
+
 
 
