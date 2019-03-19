@@ -72,14 +72,13 @@ git push -u origin master
 ## Merge entre 2 repositorios mediante ramas
 1. **Mover al repositorio**
 
-_Dirigirse al repositorio local_
-
-> cd _RUTA/LOCALIZACION/MI_REPOSITORIO_EJEMPLO_
-
-
 _Clonar el repositorio donde obtendrá ambos cambios (opcional)_
 
-> git clone <SHH>
+> git clone git@github.com:USUARIO/MI_REPOSITORIO_FUSION.git
+
+_Dirigirse al repositorio local_
+
+> cd _RUTA/LOCALIZACION/MI_REPOSITORIO_FUSION_
 
 
 
@@ -112,9 +111,9 @@ _Bajar historial del repositorio externo_
 > git remote add -f ETIQUETA_IDENTIFICACION ENLACE_SSH
 
 
-_Fusion del repositorio externo con el actual_
+_Fusion del repositorio externo con el actual, apuntando a una rama especifica (**puede ser master u otro**)_
 
-> git merge --allow-unrelated-histories ETIQUETA_IDENTIFICACION/RAMA
+> git merge **--allow-unrelated-histories** ETIQUETA_IDENTIFICACION/RAMA
 
 
 
@@ -133,11 +132,12 @@ Se recomienda repetir el paso 2 (en caso de fusionar más repositorios) antes de
 En caso de obtener el error: 
 "fatal: remote origin already exists."
 
-Fue por que la carpeta ha sido sincronizada con algn enlace. Continuar con el siguiente paso.
+Fue por que la carpeta ha sido sincronizada con algún enlace. Continuar con el siguiente paso.
 ```
 
-*Publicar nuestros cambios en el repositorio git*
+*Publicar nuestros cambios en el repositorio git (**puede ser master u otro**)*
 
-> git push -u origin master
+> git push -u origin master 
+
 
 
