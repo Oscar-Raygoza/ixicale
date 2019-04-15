@@ -1,0 +1,8 @@
+
+[Desktop Entry]
+Name=Android Studio
+Comment=IDE Android Studio
+Exec=/home/javierlight/Android-Studio-IDE/bin/studio.sh
+Icon=/home/usuario/Imagenes/Iconos/androidstudio.png
+Terminal=false
+Type=Application
