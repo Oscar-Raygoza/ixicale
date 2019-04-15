@@ -14,6 +14,8 @@ do
   # echo $var
 done < "$input"
 
+# validaciones con man test
+
 # Entorno virtual del proyecto
 if  [ -d ${rows[1]}/bin ]
 then
