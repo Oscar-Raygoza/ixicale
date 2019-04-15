@@ -14,8 +14,8 @@ A continuación, editaremos el archivo que estamos creando. Debemos añadir las 
 [Desktop Entry]
 Name=Nombre del programa
 Comment=Comentario sobre el programa
-Exec=/home/usuario/carpetaPrograma/bin/programa.sh
-Icon=/home/usuario/Images/iconoPrograma
+Exec=/$HOME/carpetaPrograma/bin/programa.sh
+Icon=/$HOME/Imagenes/iconoPrograma
 Terminal=false
 Type=Application
 ```
@@ -26,8 +26,8 @@ Por si acaso hay dudas, voy a poner un ejemplo. Este es el archivo AndroidStudio
 [Desktop Entry]
 Name=Android Studio
 Comment=IDE Android Studio
-Exec=/home/javierlight/Android-Studio-IDE/bin/studio.sh
-Icon=/home/usuario/Imagenes/Iconos/androidstudio.png
+Exec=/$HOME/Android-Studio-IDE/bin/studio.sh
+Icon=/$HOME/Imagenes/Iconos/androidstudio.png
 Terminal=false
 Type=Application
 ```
