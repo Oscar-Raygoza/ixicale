@@ -1,0 +1,78 @@
+[
+  {
+    title: "clv-utility-api"
+    group: "clv-utility-api"
+    paths: [
+      "/var/www/html/clv-utility-api"
+      "/home/isaias/ixicale"
+      "/var/www/html/Testing/SteampunkFactory-Python"
+    ]
+    color: "pink"
+  }
+  {
+    title: "bash"
+    group: "bash"
+    paths: [
+      "/home/isaias/ixicale"
+    ]
+    color: "cyan"
+    devMode: true
+  }
+  {
+    title: "SteampunkFactory"
+    group: "SteampunkFactory"
+    paths: [
+      "/var/www/html/Testing/SteampunkFactory-MySettings"
+      "/var/www/html/Testing/SteampunkFactory-React"
+      "/var/www/html/Testing/SteampunkFactory-Python"
+      "/var/www/html/Testing/SteampunkFactory-ThreeJS"
+      "/var/www/html/Testing/SteampunkFactory-Godot"
+      "/home/isaias/ixicale"
+    ]
+    color: "cyan"
+  }
+  {
+    title: "clv-supplier"
+    group: "clv-supplier"
+    paths: [
+      "/var/www/html/clv-supplier-api"
+      "/var/www/html/Testing/codigo_crudo"
+      "/var/www/html/Testing/bd_updates"
+      "/var/www/html/clv-supplier-fe"
+    ]
+    color: "lightgreen"
+  }
+  {
+    title: "clv-events"
+    group: "clv-events"
+    paths: [
+      "/var/www/html/clv-events-api"
+      "/var/www/html/Testing/codigo_crudo"
+      "/var/www/html/Testing/bd_updates"
+      "/var/www/html/clv-events-fe"
+    ]
+    color: "lightgreen"
+  }
+  {
+    title: "clv-productions"
+    group: "clv-productions"
+    paths: [
+      "/var/www/html/clv-productions-api"
+      "/var/www/html/Testing/codigo_crudo"
+      "/var/www/html/Testing/bd_updates"
+      "/var/www/html/clv-productions-fe"
+    ]
+    color: "lightgreen"
+  }
+  {
+    title: "clv-products"
+    group: "clv-products"
+    paths: [
+      "/var/www/html/clv-products-api"
+      "/var/www/html/Testing/codigo_crudo"
+      "/var/www/html/Testing/bd_updates"
+      "/var/www/html/clv-products-fe"
+    ]
+    color: "lightgreen"
+  }
+]
