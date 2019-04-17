@@ -44,13 +44,13 @@ fi
 if  [ -f ${rows[0]} ]
 then
     echo "[...]"
-    echo "python3 ${rows[0]} [...] OK
-    "
     echo "========== Comenzando ============
 
 
     "
-    python3 ${rows[0]}
+    python ${rows[0]} --help-commands
+    echo "python ${rows[0]} --help-commands [...] OK
+    "
 else
     echo "Error, Script Python '${rows[0]}' no valido"
 fi
