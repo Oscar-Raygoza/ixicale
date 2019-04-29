@@ -17,6 +17,7 @@ Reiniciar la configuración existente (Opcional)
     - [x] **[linter](https://atom.io/packages/linter "Herramienta de localización de errores de código, bugs, formatos, etc")**
     - [x] **[linter-ui-default](https://atom.io/packages/linter-ui-default "Extensión requerida para linter")**
     - [x] **[minimap](https://atom.io/packages/minimap "vista previa de posición de código")**
+    - [x] **[project-manager](https://atom.io/packages/platformio-ide-terminal "Terminal para casos especiales")**
     - [x] **[platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal "Terminal para casos especiales")**
     - [ ] **[~~busy-signal~~](https://atom.io/packages/busy-signal "Verifica que las api funcionen correctamente")**
     - [ ] **[intentions](https://atom.io/packages/intentions "Autocompletado de sentencias")**
