@@ -12,3 +12,10 @@ crash.log
 
 # Ignore fontconfig .uuid files
 .uuid
+
+# custom files
+custom/
+
+# temp files directories
+cache/
+log/
