@@ -13,26 +13,26 @@ sudo nano /etc/hosts
 Agregar la siguiente linea al archivo:
 
 ```
-127.0.0.1	dev.clever-fe-supplier.local
+127.0.0.1	dev.clever-api-benefit.local
 ```
 
 ### 2- Crear Virtual Host
 
 ```
-sudo nano /etc/nginx/sites-available/clv-supplier-fe
+sudo nano /etc/nginx/sites-available/clv-benefit-api
 ```
 
 Usar la siguiente configuracion
 
-```coffee
+```cofapie
 server {
-	server_name dev.clever-fe-supplier.local;
-	set $root_path '/var/www/html/clv-supplier-fe/public';
-	access_log /var/log/nginx/clever_supplier_fe_access.log;
-	error_log /var/log/nginx/clever_supplier_fe_error.log;
-	error_log /var/log/nginx/clever_supplier_fe_error.log notice;
-	error_log /var/log/nginx/clever_supplier_fe_error.log info;
-	error_log /var/log/nginx/clever_supplier_fe_error.log error;
+	server_name dev.clever-api-benefit.local;
+	set $root_path '/var/www/html/clv-benefit-api/public';
+	access_log /var/log/nginx/clever_benefit_api_access.log;
+	error_log /var/log/nginx/clever_benefit_api_error.log;
+	error_log /var/log/nginx/clever_benefit_api_error.log notice;
+	error_log /var/log/nginx/clever_benefit_api_error.log info;
+	error_log /var/log/nginx/clever_benefit_api_error.log error;
 	root $root_path;
 
 	index index.php index.html;
@@ -71,7 +71,7 @@ server {
 ### 3- Crear enlace simbolico
 
 ```
-sudo ln -s /etc/nginx/sites-available/clv-supplier-fe /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/clv-benefit-api /etc/nginx/sites-enabled/
 ```
 
 ### 4- Reiniciar el servidor
@@ -84,7 +84,7 @@ sudo systemctl restart nginx
 
 #### 5.1- Desplazarse a la carpeta del proyecto
 
-> cd /var/www/html/clv-supplier-fe
+> cd /var/www/html/clv-benefit-api
 
 
 #### 5.2- Ejecutar el siguiente comando
@@ -93,4 +93,4 @@ sudo systemctl restart nginx
 
 ### 6- Verificar conexión
 
-> Url: http://dev.clever-fe-supplier.local/
+> Url: http://dev.clever-api-benefit.local/
