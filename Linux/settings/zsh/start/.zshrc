@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/isaias/.oh-my-zsh"
+    export ZSH="/home/isaias/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -94,8 +94,13 @@ source $ZSH/oh-my-zsh.sh
 
 
 # Set envoirement linux's variables
-	export XIDE_CLV_UTILITY="/var/www/html/clv-utility-api"
 	export XIDE_MY_BASH="$HOME/ixicale"
 	export EDITOR=atom
-	export XIDE_PATH_HTML="/var/www/html/"
-	export XIDE_PATH_TESTING="/var/www/html/"
+	export DB_DBEAVER=~/dbeaver/dbeaver
+	export XIDE_PATH_HTML="/var/www/html"
+	export XIDE_PATH_TESTING="/var/www/html/Testing"
+	export XIDE_PATH_SUPPLIER_API="/var/www/html/clv-supplier-api"
+	export XIDE_CLV_UTILITY="/var/www/html/clv-utility-api"
+	export XIDE_PATH_SUPPLIER_FE="/var/www/html/clv-supplier-fe"
+    export XIDE_PATH_BENEFIT_API="/var/www/html/clv-benefit-api"
+    export XIDE_PATH_BENEFIT_FE="/var/www/html/clv-benefit-fe"
