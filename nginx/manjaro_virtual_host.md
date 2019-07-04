@@ -1,7 +1,7 @@
 # Crear Virtual Host
 
 ```
-sudo nano /etc/nginx/sites-available/clv-benefit-api
+sudo nano /etc/nginx/sites-available/clv-events-api
 ```
 
 Usar/adaptar la siguiente configuracion
