@@ -7,16 +7,15 @@ sudo nano /etc/nginx/sites-available/clv-events-api
 Usar/adaptar la siguiente configuracion
 
 ```conf
-
 server {
 
-    server_name dev.clever-api-events.local;
-    set $root_path '/srv/http/clv-events-api/public';
-    access_log /var/log/nginx/clv_events_api_access.log;
-    error_log /var/log/nginx/clv_events_api_error.log;
-    error_log /var/log/nginx/clv_events_api_error.log notice;
-    error_log /var/log/nginx/clv_events_api_error.log info;
-    error_log /var/log/nginx/clv_events_api_error.log error;
+    server_name dev.clever-api-benefit.local;
+    set $root_path '/srv/http/clv-benefit-api/public';
+    access_log /var/log/nginx/clv_benefit_api_access.log;
+    error_log /var/log/nginx/clv_benefit_api_error.log;
+    error_log /var/log/nginx/clv_benefit_api_error.log notice;
+    error_log /var/log/nginx/clv_benefit_api_error.log info;
+    error_log /var/log/nginx/clv_benefit_api_error.log error;
     root $root_path;
 
     index index.php index.html;
