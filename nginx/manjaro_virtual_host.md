@@ -1,3 +1,13 @@
+# Crear Virtual Host
+
+```
+sudo nano /etc/nginx/sites-available/clv-benefit-api
+```
+
+Usar/adaptar la siguiente configuracion
+
+```conf
+
 server {
 
     server_name dev.clever-api-events.local;
@@ -39,3 +49,4 @@ server {
         deny all;
     }
 }
+```
