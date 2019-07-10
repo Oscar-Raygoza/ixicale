@@ -93,7 +93,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-# Set envoirement linux's variables
+# Set envoirement variables
 	export UBUNTU_MY_BASH="$HOME/ixicale"
 	export UBUNTU_PATH_HTML="/var/www/html"
 	export UBUNTU_PATH_TESTING="/var/www/html/Testing"
