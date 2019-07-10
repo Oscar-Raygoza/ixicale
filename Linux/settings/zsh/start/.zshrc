@@ -94,13 +94,20 @@ source $ZSH/oh-my-zsh.sh
 
 
 # Set envoirement linux's variables
-	export XIDE_MY_BASH="$HOME/ixicale"
-	export EDITOR=atom
-	export DB_DBEAVER=~/dbeaver/dbeaver
-	export XIDE_PATH_HTML="/var/www/html"
-	export XIDE_PATH_TESTING="/var/www/html/Testing"
-	export XIDE_PATH_SUPPLIER_API="/var/www/html/clv-supplier-api"
-	export XIDE_CLV_UTILITY="/var/www/html/clv-utility-api"
-	export XIDE_PATH_SUPPLIER_FE="/var/www/html/clv-supplier-fe"
-    export XIDE_PATH_BENEFIT_API="/var/www/html/clv-benefit-api"
-    export XIDE_PATH_BENEFIT_FE="/var/www/html/clv-benefit-fe"
+	export UBUNTU_MY_BASH="$HOME/ixicale"
+	export UBUNTU_PATH_HTML="/var/www/html"
+	export UBUNTU_PATH_TESTING="/var/www/html/Testing"
+	export UBUNTU_PATH_SUPPLIER_API="/var/www/html/clv-supplier-api"
+	export UBUNTU_CLV_UTILITY="/var/www/html/clv-utility-api"
+	export UBUNTU_PATH_SUPPLIER_FE="/var/www/html/clv-supplier-fe"
+    export UBUNTU_PATH_BENEFIT_API="/var/www/html/clv-benefit-api"
+    export UBUNTU_PATH_BENEFIT_FE="/var/www/html/clv-benefit-fe"
+
+	export MANJARO_PATH_BENEFIT_API="/srv/http/clv-benefit-api"
+	export MANJARO_PATH_BENEFIT_FE="/srv/http/clv-benefit-fe"
+	export MANJARO_PATH_HTTP="/srv/http"
+	export MANJARO_PATH_X_FACTORY="/srv/http/x_factor"
+	export MANJARO_PATH_MY_BASH="/srv/http/x_factor/SteampunkFactory-Bash"
+	export MANJARO_PATH_MY_LOOT="/srv/http/x_factor/SteampunkFactory-Loot"
+	export MANJARO_PATH_MY_SETTINGS="/srv/http/x_factor/SteampunkFactory-MySettings"
+	export MANJARO_PATH_MY_PYTHON="/srv/http/x_factor/SteampunkFactory-Python"
