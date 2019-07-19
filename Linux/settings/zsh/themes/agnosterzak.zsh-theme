@@ -89,7 +89,7 @@ prompt_context() {
 
 # Context: user@hostname (who am I and where am I)
 prompt_user() {
-    prompt_segment black yellow "%{$fg_bold[yellow]%(!.%{%F{white}%}.)%}$USER%{$fg_no_bold[white]%}"
+    prompt_segment black yellow "%{$fg_bold[yellow]%(!.%{%F{white}%}.)%} $SYMBOL_1 $USER$SYMBOL_1 %{$fg_no_bold[white]%}"
 }
 # Battery Level
 prompt_battery() {
@@ -386,5 +386,5 @@ build_prompt() {
 }
 
 PROMPT='%{%f%b%k%}$(build_prompt)
-༆  '
+'
 RPROMPT='$(prompt_context)'
