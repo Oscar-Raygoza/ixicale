@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-    export ZSH="/home/isaias/.oh-my-zsh"
+ZSH=/usr/share/oh-my-zsh/
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -24,10 +24,16 @@ ZSH_THEME="agnosterzak"
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
+
+# Uncomment the following line to automatically update without prompting.
+# DISABLE_UPDATE_PROMPT="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS=true
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -64,7 +70,6 @@ ZSH_THEME="agnosterzak"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -92,22 +97,30 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
+if [[ ! -d $ZSH_CACHE_DIR ]]; then
+  mkdir $ZSH_CACHE_DIR
+fi
 
-# Set envoirement variables
-	export UBUNTU_MY_BASH="$HOME/ixicale"
-	export UBUNTU_PATH_HTML="/var/www/html"
-	export UBUNTU_PATH_TESTING="/var/www/html/Testing"
-	export UBUNTU_PATH_SUPPLIER_API="/var/www/html/clv-supplier-api"
-	export UBUNTU_CLV_UTILITY="/var/www/html/clv-utility-api"
-	export UBUNTU_PATH_SUPPLIER_FE="/var/www/html/clv-supplier-fe"
-    export UBUNTU_PATH_BENEFIT_API="/var/www/html/clv-benefit-api"
-    export UBUNTU_PATH_BENEFIT_FE="/var/www/html/clv-benefit-fe"
+source $ZSH/oh-my-zsh.sh
 
-	export MANJARO_PATH_BENEFIT_API="/srv/http/clv-benefit-api"
-	export MANJARO_PATH_BENEFIT_FE="/srv/http/clv-benefit-fe"
-	export MANJARO_PATH_HTTP="/srv/http"
-	export MANJARO_PATH_X_FACTORY="/srv/http/x_factor"
-	export MANJARO_PATH_MY_BASH="/srv/http/x_factor/SteampunkFactory-Bash"
-	export MANJARO_PATH_MY_LOOT="/srv/http/x_factor/SteampunkFactory-Loot"
-	export MANJARO_PATH_MY_SETTINGS="/srv/http/x_factor/SteampunkFactory-MySettings"
-	export MANJARO_PATH_MY_PYTHON="/srv/http/x_factor/SteampunkFactory-Python"
+# Set envoirement linux's variables
+    export MNJR_P_HTTP="/srv/http"
+    export MNJR_PYTHON="$MNJR_P_HTTP/clv_python"
+    export MNJR_NODE="$MNJR_P_HTTP/clv_nodejs"
+    export MNJR_PHP="$MNJR_P_HTTP/clv_php"
+# Set DEV's path projects
+    export MANJARO_DEV_CLV_BENEFIT_API="$MNJR_PHP/clv-benefit-api"
+    export MANJARO_DEV_CLV_BENEFIT_FE="$MNJR_NODE/clv-benefit-fe"
+    export MANJARO_DEV_CLV_REPORT_API="$MNJR_PYTHON/clv-report-api"
+    export MANJARO_DEV_CLV_COMMON_PY="$MNJR_PYTHON/clv_common_py"
+# Set own project's path
+    export MANJARO_PATH_X_FACTORY="$MNJR_P_HTTP/x_factor"
+    export MANJARO_PATH_MY_LOOT="$MNJR_P_HTTP/x_factor/SteampunkFactory-Loot"
+    export MANJARO_PATH_MY_SETTINGS="$MNJR_P_HTTP/x_factor/SteampunkFactory-MySettings"
+    export MANJARO_PATH_MY_PYTHON="$MNJR_P_HTTP/x_factor/SteampunkFactory-Python"
+    export MANJARO_PATH_MY_BASH="/home/isaias/SteampunkFactory-Bash"
+# Set easy access commands
+    export EDIT_ZSH=$(atom ~/.zshrc)
+    export PYTHON_INIT_VENV=$(~/SteampunkFactory-Bash/python_executer.setup_install.sh)
+    export PYTHON_EXEC=$(~/SteampunkFactory-Bash/python_executer.sh)
