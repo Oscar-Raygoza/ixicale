@@ -121,6 +121,6 @@ source $ZSH/oh-my-zsh.sh
     export MANJARO_PATH_MY_PYTHON="$MNJR_P_HTTP/x_factor/SteampunkFactory-Python"
     export MANJARO_PATH_MY_BASH="/home/isaias/SteampunkFactory-Bash"
 # Set easy access commands
-    export EDIT_ZSH=$(atom ~/.zshrc)
-    export PYTHON_INIT_VENV=$(~/SteampunkFactory-Bash/python_executer.setup_install.sh)
-    export PYTHON_EXEC=$(~/SteampunkFactory-Bash/python_executer.sh)
+    export EDIT_ZSH='atom ~/.zshrc'
+    export PYTHON_INIT_VENV='bash ~/SteampunkFactory-Bash/python_executer.setup_install.sh'
+    export PYTHON_EXEC='bash ~/SteampunkFactory-Bash/python_executer.sh'
