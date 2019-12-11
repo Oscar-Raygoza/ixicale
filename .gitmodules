@@ -1,3 +1,6 @@
 [submodule "Linux/package_apps/Linux/package_apps/fonts"]
 	path = Linux/package_apps/Linux/package_apps/fonts
 	url = https://github.com/powerline/fonts.git
+[submodule "Linux/package_apps/ohmyzsh"]
+	path = Linux/package_apps/ohmyzsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git
