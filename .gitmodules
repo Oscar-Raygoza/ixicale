@@ -1,0 +1,3 @@
+[submodule "Linux/package_apps/Linux/package_apps/fonts"]
+	path = Linux/package_apps/Linux/package_apps/fonts
+	url = https://github.com/powerline/fonts.git
