@@ -104,23 +104,25 @@ fi
 
 source $ZSH/oh-my-zsh.sh
 
+#region
 # Set envoirement linux's variables
-    export MNJR_P_HTTP="/srv/http"
-    export MNJR_PYTHON="$MNJR_P_HTTP/clv_python"
-    export MNJR_NODE="$MNJR_P_HTTP/clv_nodejs"
-    export MNJR_PHP="$MNJR_P_HTTP/clv_php"
+export MNJR_P_HTTP="/srv/http"
+export MNJR_PYTHON="$MNJR_P_HTTP/clv_python"
+export MNJR_NODE="$MNJR_P_HTTP/clv_nodejs"
+export MNJR_PHP="$MNJR_P_HTTP/clv_php"
 # Set DEV's path projects
-    export MANJARO_DEV_CLV_BENEFIT_API="$MNJR_PHP/clv-benefit-api"
-    export MANJARO_DEV_CLV_BENEFIT_FE="$MNJR_NODE/clv-benefit-fe"
-    export MANJARO_DEV_CLV_REPORT_API="$MNJR_PYTHON/clv-report-api"
-    export MANJARO_DEV_CLV_COMMON_PY="$MNJR_PYTHON/clv_common_py"
+export MANJARO_DEV_CLV_BENEFIT_API="$MNJR_PHP/clv-benefit-api"
+export MANJARO_DEV_CLV_BENEFIT_FE="$MNJR_NODE/clv-benefit-fe"
+export MANJARO_DEV_CLV_REPORT_API="$MNJR_PYTHON/clv-report-api"
+export MANJARO_DEV_CLV_COMMON_PY="$MNJR_PYTHON/clv_common_py"
 # Set own project's path
-    export MANJARO_PATH_X_FACTORY="$MNJR_P_HTTP/x_factor"
-    export MANJARO_PATH_MY_LOOT="$MNJR_P_HTTP/x_factor/SteampunkFactory-Loot"
-    export MANJARO_PATH_MY_SETTINGS="$MNJR_P_HTTP/x_factor/SteampunkFactory-MySettings"
-    export MANJARO_PATH_MY_PYTHON="$MNJR_P_HTTP/x_factor/SteampunkFactory-Python"
-    export MANJARO_PATH_MY_BASH="/home/isaias/SteampunkFactory-Bash"
+export MANJARO_PATH_X_FACTORY="$MNJR_P_HTTP/x_factor"
+export MANJARO_PATH_MY_LOOT="$MNJR_P_HTTP/x_factor/SteampunkFactory-Loot"
+export MANJARO_PATH_MY_SETTINGS="$MNJR_P_HTTP/x_factor/SteampunkFactory-MySettings"
+export MANJARO_PATH_MY_PYTHON="$MNJR_P_HTTP/x_factor/SteampunkFactory-Python"
+export MANJARO_PATH_MY_BASH="/home/isaias/SteampunkFactory-Bash"
 # Set easy access commands
-    export EDIT_ZSH='atom ~/.zshrc'
-    export PYTHON_INIT_VENV='bash ~/SteampunkFactory-Bash/python_executer.setup_install.sh'
-    export PYTHON_EXEC='bash ~/SteampunkFactory-Bash/python_executer.sh'
+export EDIT_ZSH='atom ~/.zshrc'
+export PYTHON_INIT_VENV='bash ~/SteampunkFactory-Bash/python_executer.setup_install.sh'
+export PYTHON_EXEC='bash ~/SteampunkFactory-Bash/python_executer.sh'
+#endregion
