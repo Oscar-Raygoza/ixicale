@@ -39,7 +39,7 @@
 - sudo gedit nginx.conf # Uncomment 'server_tokens off;' and save, then close
 - sudo gedit sites-available/default #change below and save, then close
 
-```console
+```shell
 location ~ \.php$ {
             include snippets/fastcgi-php.conf;
     #
@@ -92,7 +92,23 @@ $?>
 
 
 ## Generando clave SSH
-- cd ~/.ssh
+- cd ~/.ssh # create if it does not exists
 - ls
 - ssh-keygen #only enter
 - cat ~/.ssh/id_rsa.pub
+
+## install dbeaver
+- cd $HOME/.my_temp_downloads
+
+### install java
+- sudo apt -y  install openjdk-11-jdk openjdk-11-jre
+- java -version
+
+### Add Debian repository and Install DBeaver CE
+- wget -O - https://dbeaver.io/debs/dbeaver.gpg.key | sudo apt-key add -
+- echo "deb https://dbeaver.io/debs/dbeaver-ce /" | sudo tee /etc/apt/sources.list.d/dbeaver.list
+
+- sudo apt update
+- sudo apt -y  install dbeaver-ce
+- apt policy  dbeaver-ce 
+
