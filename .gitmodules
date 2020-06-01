@@ -1,0 +1,8 @@
+[submodule "ohmyzsh"]
+	path = Linux/package_apps/ohmyzsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git
+	branch = master
+[submodule "fonts"]
+	path = Linux/package_apps/fonts
+	url = https://github.com/powerline/fonts.git
+	branch = master
