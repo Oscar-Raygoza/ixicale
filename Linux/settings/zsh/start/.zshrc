@@ -2,17 +2,17 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-ZSH=/usr/share/oh-my-zsh/
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="agnosterzak"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
+# a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
@@ -24,7 +24,7 @@ ZSH_THEME="agnosterzak"
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
-DISABLE_AUTO_UPDATE="true"
+# DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to automatically update without prompting.
 # DISABLE_UPDATE_PROMPT="true"
@@ -64,12 +64,13 @@ DISABLE_AUTO_UPDATE="true"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Which plugins would you like to load?
-# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -97,32 +98,48 @@ plugins=(git)
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
-if [[ ! -d $ZSH_CACHE_DIR ]]; then
-  mkdir $ZSH_CACHE_DIR
-fi
-
-source $ZSH/oh-my-zsh.sh
-
-#region
+#region vars
 # Set envoirement linux's variables
-export MNJR_P_HTTP="/srv/http"
-export MNJR_PYTHON="$MNJR_P_HTTP/clv_python"
-export MNJR_NODE="$MNJR_P_HTTP/clv_nodejs"
-export MNJR_PHP="$MNJR_P_HTTP/clv_php"
-# Set DEV's path projects
-export MANJARO_DEV_CLV_BENEFIT_API="$MNJR_PHP/clv-benefit-api"
-export MANJARO_DEV_CLV_BENEFIT_FE="$MNJR_NODE/clv-benefit-fe"
-export MANJARO_DEV_CLV_REPORT_API="$MNJR_PYTHON/clv-report-api"
-export MANJARO_DEV_CLV_COMMON_PY="$MNJR_PYTHON/clv_common_py"
-# Set own project's path
-export MANJARO_PATH_X_FACTORY="$MNJR_P_HTTP/x_factor"
-export MANJARO_PATH_MY_LOOT="$MNJR_P_HTTP/x_factor/SteampunkFactory-Loot"
-export MANJARO_PATH_MY_SETTINGS="$MNJR_P_HTTP/x_factor/SteampunkFactory-MySettings"
-export MANJARO_PATH_MY_PYTHON="$MNJR_P_HTTP/x_factor/SteampunkFactory-Python"
-export MANJARO_PATH_MY_BASH="/home/isaias/SteampunkFactory-Bash"
+export UBUN_HTTP="/var/www/html"
+export PYTHON="$UBUN_HTTP/PYTHON"
+export NODE="$UBUN_HTTP/NODE"
+export PHP="$UBUN_HTTP/PHP"
+
+export SF="$HOME/._sf"
+export MY_BASH="$SF/SteampunkFactory-Bash"
+export MY_LOOT="$SF/SteampunkFactory-Loot"
+export MY_CONF="$SF/SteampunkFactory-MySettings"
+# # Set envoirement linux's variables
+# export MNJR_P_HTTP="/srv/http"
+# export MNJR_PYTHON="$MNJR_P_HTTP/clv_python"
+# export MNJR_NODE="$MNJR_P_HTTP/NODE"
+# export MNJR_PHP="$MNJR_P_HTTP/PHP"
+# # Set DEV's path projects
+# export MANJARO_DEV_CLV_BENEFIT_API="$MNJR_PHP/clv-benefit-api"
+# export MANJARO_DEV_CLV_BENEFIT_FE="$MNJR_NODE/clv-benefit-fe"
+# export MANJARO_DEV_CLV_REPORT_API="$MNJR_PYTHON/clv-report-api"
+# export MANJARO_DEV_CLV_COMMON_PY="$MNJR_PYTHON/clv_common_py"
+# # Set own project's path
+# export MANJARO_PATH_X_FACTORY="$MNJR_P_HTTP/x_factor"
+# export MANJARO_PATH_MY_LOOT="$MNJR_P_HTTP/x_factor/SteampunkFactory-Loot"
+# export MANJARO_PATH_MY_SETTINGS="$MNJR_P_HTTP/x_factor/SteampunkFactory-MySettings"
+# export MANJARO_PATH_MY_PYTHON="$MNJR_P_HTTP/x_factor/SteampunkFactory-Python"
+# export MANJARO_PATH_MY_BASH="/home/isaias/SteampunkFactory-Bash"
 # Set easy access commands
-export EDIT_ZSH='atom ~/.zshrc'
-export PYTHON_INIT_VENV='bash ~/SteampunkFactory-Bash/python_executer.setup_install.sh'
-export PYTHON_EXEC='bash ~/SteampunkFactory-Bash/python_executer.sh'
+# export EDIT_ZSH='atom ~/.zshrc'
+# export PYTHON_INIT_VENV='bash ~/SteampunkFactory-Bash/python_executer.setup_install.sh'
+# export PYTHON_EXEC='bash ~/SteampunkFactory-Bash/python_executer.sh'
+#endregion
+
+
+#region alias
+alias postman='~/Postman/Postman'
+alias gis='git status'
+alias gic='git checkout'
+alias gif='git fetch'
+alias gim='git merge'
+alias gips='git push'
+alias gipl='git pull'
+alias gicx='git checkout ixicale'
+
 #endregion
