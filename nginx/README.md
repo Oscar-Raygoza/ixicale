@@ -84,12 +84,12 @@ sudo systemctl restart nginx
 
 #### 5.1- Desplazarse a la carpeta del proyecto
 
-> cd /var/www/html/clv-benefit-api
+> cd /var/www/html/PHP/clv-benefit-api
 
 
 #### 5.2- Ejecutar el siguiente comando
 
-> composer install
+> composer install --ignore-platform-reqs
 
 ### 6- Verificar conexión
 

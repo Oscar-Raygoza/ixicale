@@ -27,13 +27,13 @@
 
 ## install PHP 7.4 and link nginx
 
-- sudo apt install php-fpm php-cli php-curl php-mysql php-curl php-gd php-mbstring - php-pear -y
-- cd /etc/php/7.4/fpm/
-- sudo apt install php7.4-dev
+- sudo apt-get install php7.2 php7.2-cli php7.2-common php7.2-json php7.2-opcache php7.2-mysql php7.2-mbstring php7.2-mcrypt php7.2-zip php7.2-fpm
+- cd /etc/php/7.2/fpm/
+- sudo apt install php7.2-dev
 - sudo gedit php.ini # change 'cgi.fix_pathinfo = 0' and save, then close
-- sudo systemctl start php7.4-fpm
-- sudo systemctl enable php7.4-fpm
-- sudo systemctl status php7.4-fpm
+- sudo systemctl start php7.2-fpm
+- sudo systemctl enable php7.2-fpm
+- sudo systemctl status php7.2-fpm
 - ss -pl | grep php
 - cd /etc/nginx/
 - sudo gedit nginx.conf # Uncomment 'server_tokens off;' and save, then close
@@ -44,7 +44,7 @@ location ~ \.php$ {
             include snippets/fastcgi-php.conf;
     #
     #       # With php-fpm (or other unix sockets):
-            fastcgi_pass unix:/run/php/php7.4-fpm.sock;
+            fastcgi_pass unix:/run/php/php7.2-fpm.sock;
     #       # With php-cgi (or other tcp sockets):
     #       fastcgi_pass 127.2.0.1:9000;
 }
@@ -78,7 +78,7 @@ $?>
 - cd cphalcon
 - git checkout 3.4.x
 - cd build
-- sudo ./install
+- ./install
 - sudo gedit /etc/php/7.4/fpm/php.ini # add extension 'extension=phalcon.so' save and - then close
 
 

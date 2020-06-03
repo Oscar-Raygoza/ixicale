@@ -9,7 +9,7 @@ Usar/adaptar la siguiente configuracion
 ```cofapie
 server {
 	server_name dev.clever-api-benefit.local;
-	set $root_path '/var/www/html/clv-benefit-api/public';
+	set $root_path '/var/www/html/PHP/clv-benefit-api/public';
 	access_log /var/log/nginx/clever_benefit_api_access.log;
 	error_log /var/log/nginx/clever_benefit_api_error.log;
 	error_log /var/log/nginx/clever_benefit_api_error.log notice;
