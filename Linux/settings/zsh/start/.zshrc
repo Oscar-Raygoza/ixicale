@@ -105,8 +105,9 @@ export PYTHON="$UBUN_HTTP/PYTHON"
 export NODE="$UBUN_HTTP/NODE"
 export PHP="$UBUN_HTTP/PHP"
 
-export SF="$HOME/._sf"
+export SF="$HOME/.sf"
 export MY_BASH="$SF/SteampunkFactory-Bash"
+export POSTMAN_LOG="$MY_BASH/logger/postman"
 export MY_LOOT="$SF/SteampunkFactory-Loot"
 export MY_CONF="$SF/SteampunkFactory-MySettings"
 # # Set envoirement linux's variables
@@ -136,10 +137,11 @@ export MY_CONF="$SF/SteampunkFactory-MySettings"
 alias postman='~/Postman/Postman'
 alias gis='git status'
 alias gic='git checkout'
-alias gif='git fetch'
-alias gim='git merge'
+alias gif='git fetch --all'
+alias gime='git merge'
 alias gips='git push'
 alias gipl='git pull'
 alias gicx='git checkout ixicale'
+alias gimex='git merge ixicale'
 
 #endregion
