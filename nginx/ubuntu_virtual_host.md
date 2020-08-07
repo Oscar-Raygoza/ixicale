@@ -1,4 +1,4 @@
-# Nginx Virtual Host - Ubuntu
+# Nginx Virtual Host - Ubuntu - events
 
 ## 1- Editar el archivo `/etc/hosts`
 
