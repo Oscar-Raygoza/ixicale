@@ -1,17 +1,17 @@
 <h1 id="index-page">Paquetes para desarrollo</h1>
 Ayuda para instalar los diferentes software para permitir el desarrollo dentro de CEDIS
 
-1. [Instalar git]("#git-install")
-1. [Crear la llave SSH]("#ssh-create")
-1. [Instalacion PHP7.2 por ppa]("#PHP72-install")
-1. [Instalar NGINX]("#NGINX-install")
-1. [Instalar Composer]("#Composer-install")
-1. [Instalar DBeaver]("#DBeaver-install")
-1. [Instalar node & npm por curl]("#nodejs-install")
-1. [Crear carpeta tmp_repos]("#tmp_repos-Crear")
-1. [Instalar cphalcon 3.4.x por repositorio]("#phalcon-install")
-1. [Agregar phalcon a php7.2-fpm]("#phalcon-php72")
-1. [Palo Alto - GlobalProtect]("#NGINX-install")
+1. [Instalar git](#git-install)
+1. [Crear la llave SSH](#ssh-create)
+1. [Instalacion PHP7.2 por ppa](#PHP72-install)
+1. [Instalar NGINX](#NGINX-install)
+1. [Instalar Composer](#Composer-install)
+1. [Instalar DBeaver](#DBeaver-install)
+1. [Instalar node & npm por curl](#nodejs-install)
+1. [Crear carpeta tmp_repos](#tmp_repos-Crear)
+1. [Instalar cphalcon 3.4.x por repositorio](#phalcon-install)
+1. [Agregar phalcon a php7.2-fpm](#phalcon-php72)
+1. [Palo Alto - GlobalProtect](#NGINX-install)
 
 <details>
 <summary>
