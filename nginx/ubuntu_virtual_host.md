@@ -87,4 +87,4 @@ composer install --ignore-platform-reqs
 
 ### Verificar conexión
 
-> Url: **http://dev.clever-api-events.local/**
+> Url: **<http://dev.clever-api-events.local/>**
