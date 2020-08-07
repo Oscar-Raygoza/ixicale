@@ -1,17 +1,24 @@
 <h1 id="index-page">Paquetes para desarrollo</h1>
 Ayuda para instalar los diferentes software para permitir el desarrollo dentro de CEDIS
 
-1. [Instalar git](#git-install)
-1. [Crear la llave SSH](#ssh-create)
-1. [Instalacion PHP7.2 por ppa](#PHP72-install)
-1. [Instalar NGINX](#NGINX-install)
-1. [Instalar Composer](#Composer-install)
-1. [Instalar DBeaver](#DBeaver-install)
-1. [Instalar node & npm por curl](#nodejs-install)
-1. [Crear carpeta tmp_repos](#tmp_repos-Crear)
-1. [Instalar cphalcon 3.4.x por repositorio](#phalcon-install)
-1. [Agregar phalcon a php7.2-fpm](#phalcon-php72)
-1. [Palo Alto - GlobalProtect](#GlobalProtect-install)
+- [Software desarrollo](#software-desarrollo)
+    1. [Instalar git](#git-install)
+    1. [Crear la llave SSH](#ssh-create)
+    1. [Instalacion PHP7.2 por ppa](#PHP72-install)
+    1. [Instalar NGINX](#NGINX-install)
+    1. [Instalar Composer](#Composer-install)
+    1. [Instalar DBeaver](#DBeaver-install)
+    1. [Instalar node & npm por curl](#nodejs-install)
+    1. [Crear carpeta tmp_repos](#tmp_repos-Crear)
+    1. [Instalar cphalcon 3.4.x por repositorio](#phalcon-install)
+    1. [Agregar phalcon a php7.2-fpm](#phalcon-php72)
+    1. [Palo Alto - GlobalProtect](#GlobalProtect-install)
+
+- [Software personalizado](#personalizados)
+    1. [Instalar Terminator](#terminator-install)
+    1. [Instalar Oh My ZSH](#zsh-install)
+
+## Software desarrollo
 
 <details>
 <summary>
@@ -220,7 +227,7 @@ sudo systemctl status php7.2-fpm.service
 </summary>
 <p>
 
-Descargar (Palace2020) https://nextcloud.palaceresorts.com/s/ASE7XNyPk7QLpBX
+Descargar (Palace2020) [PanGPLinux-5.1.1-c17](https://nextcloud.palaceresorts.com/s/ASE7XNyPk7QLpBX)
 
 Descomprimir todos los `tgz` (3, verificar nombres `GlobalProtect_*`) y aplicar make con sudo
 
@@ -228,6 +235,44 @@ Descomprimir todos los `tgz` (3, verificar nombres `GlobalProtect_*`) y aplicar 
 cd ~/Descargas/PanGPLinux-5.1.1-c17/GlobalProtect_tar-5.1.1.0-17;sudo make;
 cd ~/Descargas/PanGPLinux-5.1.1-c17/GlobalProtect_tar_arm-5.1.1.0-17;sudo make;
 cd ~/Descargas/PanGPLinux-5.1.1-c17/GlobalProtect_UI_tar-5.1.1.0-17;sudo make;
+```
+
+</p>
+</details>
+
+---
+
+## Personalizados
+
+<details>
+<summary>
+<b >Instalar Terminator</b>
+<a id="terminator-install" href="#index-page">[↑]</a>
+</summary>
+<p>
+
+```sh
+sudo apt update; sudo apt -y upgrade;
+sudo apt-get install terminator; terminator & exit
+```
+
+</p>
+</details>
+
+<details>
+<summary>
+<b >Instalar Oh My ZSH</b>
+<a id="zsh-install" href="#index-page">[↑]</a>
+</summary>
+<p>
+
+```sh
+sudo apt update; sudo apt -y upgrade;
+sudo apt install zsh
+zsh --version
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+gedit ~/.zshrc # edita si gustas!
+source ~/.zshrc
 ```
 
 </p>
