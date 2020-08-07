@@ -1,4 +1,4 @@
-# Nginx Virtual Host - Ubuntu - events
+# Nginx Virtual Host - Ubuntu - benefit
 
 ## 1- Editar el archivo `/etc/hosts`
 
@@ -9,26 +9,26 @@ sudo nano /etc/hosts
 Agregar la siguiente linea al archivo:
 
 ```nix
-127.0.0.1    dev.clever-api-events.local    # FIN
+127.0.0.1    dev.clever-api-benefit.local
 ```
 
 ## 2- Crear Virtual Host
 
 ```console
-sudo nano /etc/nginx/sites-available/clv-events-api
+sudo nano /etc/nginx/sites-available/clv-benefit-api
 ```
 
 Usar la siguiente configuracion
 
 ```Nginx
 server {
-    server_name dev.clever-api-events.local;
-    set $root_path '/var/www/html/clv-events-api/public';
-    access_log /var/log/nginx/clever_events_api_access.log;
-    error_log /var/log/nginx/clever_events_api_error.log;
-    error_log /var/log/nginx/clever_events_api_error.log notice;
-    error_log /var/log/nginx/clever_events_api_error.log info;
-    error_log /var/log/nginx/clever_events_api_error.log error;
+    server_name dev.clever-api-benefit.local;
+    set $root_path '/var/www/html/clv-benefit-api/public';
+    access_log /var/log/nginx/clever_benefit_api_access.log;
+    error_log /var/log/nginx/clever_benefit_api_error.log;
+    error_log /var/log/nginx/clever_benefit_api_error.log notice;
+    error_log /var/log/nginx/clever_benefit_api_error.log info;
+    error_log /var/log/nginx/clever_benefit_api_error.log error;
     root $root_path;
 
     index index.php index.html;
@@ -67,7 +67,7 @@ server {
 ## 3- Crear enlace simbolico
 
 ```console
-sudo ln -s /etc/nginx/sites-available/clv-events-api /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/clv-benefit-api /etc/nginx/sites-enabled/
 ```
 
 ## 4- Reiniciar el servidor
@@ -81,10 +81,10 @@ sudo systemctl status nginx
 ## 5- Ir al proyecto e instalar composer
 
 ```console
-cd /var/www/html/clv-events-api
+cd /var/www/html/clv-benefit-api
 composer install --ignore-platform-reqs
 ```
 
 ### Verificar conexión
 
-> Url: **<http://dev.clever-api-events.local/>**
+> Url: **<http://dev.clever-api-benefit.local/>**
