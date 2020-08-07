@@ -11,7 +11,7 @@ Ayuda para instalar los diferentes software para permitir el desarrollo dentro d
 1. [Crear carpeta tmp_repos](#tmp_repos-Crear)
 1. [Instalar cphalcon 3.4.x por repositorio](#phalcon-install)
 1. [Agregar phalcon a php7.2-fpm](#phalcon-php72)
-1. [Palo Alto - GlobalProtect](#NGINX-install)
+1. [Palo Alto - GlobalProtect](#GlobalProtect-install)
 
 <details>
 <summary>
@@ -216,7 +216,7 @@ sudo systemctl status php7.2-fpm.service
 <details>
 <summary>
 <b >Palo Alto - GlobalProtect</b>
-<a id="NGINX-install" href="#index-page">[↑]</a>
+<a id="GlobalProtect-install" href="#index-page">[↑]</a>
 </summary>
 <p>
 
