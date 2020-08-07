@@ -63,14 +63,14 @@ cat ~/.ssh/id_rsa.pub # agregar a github en configuraciones
 ```sh
 sudo apt update; sudo apt -y upgrade;
 sudo add-apt-repository ppa:ondrej/php
-sudo apt-get install php7.2-dev php7.2-curl php7.2-mbstring php7.2-json php7.2-fpm
+sudo apt-get install php7.2-dev php7.2-curl php7.2-mbstring php7.2-json php7.2-mysql php7.2-fpm
 ss -pl | grep php
 sudo systemctl status php7.2-fpm
 sudo chown -R $USER:$USER /var/www/html
 echo -e "<?php\nphpinfo();\n" > /var/www/html/info.php
 ```
 
-try to open php info: http://localhost/info.php
+try to open php info: <http://localhost/info.php>
 
 </p>
 </details>
