@@ -1,0 +1,1943 @@
+code $PYTHON                                                                                                                     hostname: [ix]
+
+  ༆ ixicale༆   ⎣08:46:33⎤  🚦 ~ 
+                                                                                                                                 hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣08:54:58⎤  🚦 ~ 
+
+  ༆ ixicale༆   ⎣08:55:11⎤  🚦 ~ 
+                                                                                                 hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣08:55:14⎤  🚦 ~ 
+ifconfig                                                                                         hostname: [ix]
+eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.250.79  netmask 255.255.255.0  broadcast 192.168.250.255
+        inet6 fe80::4f73:bf7d:437:ce9c  prefixlen 64  scopeid 0x20<link>
+        ether f4:39:09:24:d0:73  txqueuelen 1000  (Ethernet)
+        RX packets 82516  bytes 110440054 (110.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 59932  bytes 7634381 (7.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  memory 0xf0100000-f0120000  
+
+gpd0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1400
+        inet 10.0.200.37  netmask 255.255.255.255  destination 10.0.200.37        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 500  (UNSPEC)
+        RX packets 629  bytes 86727 (86.7 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 743  bytes 49942 (49.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 465  bytes 79881 (79.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 465  bytes 79881 (79.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+  ༆ ixicale༆   ⎣08:55:18⎤  🚦 ~ 
+xclip                                                                                            hostname: [ix]
+zsh: command not found: xclip
+
+  ༆ ixicale༆  ✘  ⎣08:56:42⎤  🚦 ~ 
+sudo apt update; sudo apt upgrade                                                                hostname: [ix]
+[sudo] contraseña para ixicale: 
+Obj:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Obj:2 http://ppa.launchpad.net/ondrej/php/ubuntu focal InRelease                                               
+Des:3 http://security.ubuntu.com/ubuntu focal-security InRelease [107 kB]                                      
+Obj:4 http://mx.archive.ubuntu.com/ubuntu focal InRelease                                                      
+Obj:5 https://deb.nodesource.com/node_12.x focal InRelease                                                     
+Des:6 http://mx.archive.ubuntu.com/ubuntu focal-updates InRelease [111 kB]                                     
+Obj:7 https://dbeaver.io/debs/dbeaver-ce  InRelease                                                    
+Des:8 http://security.ubuntu.com/ubuntu focal-security/main amd64 DEP-11 Metadata [24.2 kB]   
+Des:9 http://mx.archive.ubuntu.com/ubuntu focal-backports InRelease [98.3 kB]
+Des:10 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [509 kB]     
+Des:11 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 DEP-11 Metadata [229 kB]
+Des:12 http://mx.archive.ubuntu.com/ubuntu focal-updates/universe amd64 DEP-11 Metadata [202 kB]
+Des:13 http://mx.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 DEP-11 Metadata [2 468 B]      
+Des:14 http://mx.archive.ubuntu.com/ubuntu focal-backports/universe amd64 DEP-11 Metadata [1 768 B]         
+Des:15 http://security.ubuntu.com/ubuntu focal-security/universe i386 Packages [408 kB]
+Des:16 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [64.2 kB]
+Des:17 http://security.ubuntu.com/ubuntu focal-security/universe amd64 DEP-11 Metadata [55.7 kB]
+100% [15 Packages store 0 B573 kB/s)                                  
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Se pueden actualizar 8 paquetes. Ejecute «apt list --upgradable» para verlos.
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Calculando la actualización... Hecho
+Se actualizarán los siguientes paquetes:
+  apport apport-gtk google-chrome-stable libcryptsetup12 libnetplan0 netplan.io python3-apport
+  python3-problem-report
+8 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Se necesita descargar 71.7 MB de archivos.
+Se utilizarán 101 kB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+Des:1 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 libcryptsetup12 amd64 2:2.2.2-3ubuntu2.3 [183 kB]
+Des:2 http://dl.google.com/linux/chrome/deb stable/main amd64 google-chrome-stable amd64 86.0.4240.111-1 [71.2 MB]
+Des:3 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 libnetplan0 amd64 0.100-0ubuntu4~20.04.2 [28.9 kB]
+Des:4 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 netplan.io amd64 0.100-0ubuntu4~20.04.2 [83.4 kB]
+Des:5 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-problem-report all 2.20.11-0ubuntu27.10 [9 728 B]
+Des:6 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-apport all 2.20.11-0ubuntu27.10 [84.4 kB]
+Des:7 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 apport all 2.20.11-0ubuntu27.10 [128 kB]
+Des:8 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 apport-gtk all 2.20.11-0ubuntu27.10 [9 724 B]
+Descargados 71.7 MB en 3min 33s (337 kB/s)                                                                     
+(Leyendo la base de datos ... 203997 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../0-google-chrome-stable_86.0.4240.111-1_amd64.deb ...
+Desempaquetando google-chrome-stable (86.0.4240.111-1) sobre (86.0.4240.75-1) ...
+Preparando para desempaquetar .../1-libcryptsetup12_2%3a2.2.2-3ubuntu2.3_amd64.deb ...
+Desempaquetando libcryptsetup12:amd64 (2:2.2.2-3ubuntu2.3) sobre (2:2.2.2-3ubuntu2.2) ...
+Preparando para desempaquetar .../2-libnetplan0_0.100-0ubuntu4~20.04.2_amd64.deb ...
+Desempaquetando libnetplan0:amd64 (0.100-0ubuntu4~20.04.2) sobre (0.99-0ubuntu3~20.04.2) ...
+Preparando para desempaquetar .../3-netplan.io_0.100-0ubuntu4~20.04.2_amd64.deb ...
+Desempaquetando netplan.io (0.100-0ubuntu4~20.04.2) sobre (0.99-0ubuntu3~20.04.2) ...Preparando para desempaquetar .../4-python3-problem-report_2.20.11-0ubuntu27.10_all.deb ...
+Desempaquetando python3-problem-report (2.20.11-0ubuntu27.10) sobre (2.20.11-0ubuntu27.9) ...
+Preparando para desempaquetar .../5-python3-apport_2.20.11-0ubuntu27.10_all.deb ...
+Desempaquetando python3-apport (2.20.11-0ubuntu27.10) sobre (2.20.11-0ubuntu27.9) ...
+Preparando para desempaquetar .../6-apport_2.20.11-0ubuntu27.10_all.deb ...
+Desempaquetando apport (2.20.11-0ubuntu27.10) sobre (2.20.11-0ubuntu27.9) ...
+Preparando para desempaquetar .../7-apport-gtk_2.20.11-0ubuntu27.10_all.deb ...
+Desempaquetando apport-gtk (2.20.11-0ubuntu27.10) sobre (2.20.11-0ubuntu27.9) ...
+Configurando google-chrome-stable (86.0.4240.111-1) ...
+Configurando python3-problem-report (2.20.11-0ubuntu27.10) ...
+Configurando libnetplan0:amd64 (0.100-0ubuntu4~20.04.2) ...
+Configurando python3-apport (2.20.11-0ubuntu27.10) ...
+Configurando netplan.io (0.100-0ubuntu4~20.04.2) ...
+Configurando libcryptsetup12:amd64 (2:2.2.2-3ubuntu2.3) ...
+Configurando apport (2.20.11-0ubuntu27.10) ...
+apport-autoreport.service is a disabled or a static unit, not starting it.
+Configurando apport-gtk (2.20.11-0ubuntu27.10) ...
+Procesando disparadores para mime-support (3.64ubuntu1) ...
+Procesando disparadores para hicolor-icon-theme (0.17-2) ...
+Procesando disparadores para gnome-menus (3.36.0-1ubuntu1) ...
+Procesando disparadores para libc-bin (2.31-0ubuntu9.1) ...
+Procesando disparadores para systemd (245.4-4ubuntu3.2) ...
+Procesando disparadores para man-db (2.9.1-1) ...
+Procesando disparadores para dbus (1.12.16-2ubuntu2.1) ...
+Procesando disparadores para desktop-file-utils (0.24-1ubuntu3) ...
+
+  ༆ ixicale༆   ⎣09:00:47⎤  🚦 ~ 
+sudo apt update; sudo apt upgrade                                                                hostname: [ix]
+Obj:1 http://mx.archive.ubuntu.com/ubuntu focal InRelease
+Obj:2 http://ppa.launchpad.net/ondrej/php/ubuntu focal InRelease                                               
+Obj:3 http://mx.archive.ubuntu.com/ubuntu focal-updates InRelease                                              
+Obj:4 http://security.ubuntu.com/ubuntu focal-security InRelease                                               
+Obj:5 https://deb.nodesource.com/node_12.x focal InRelease                                                     
+Obj:6 http://mx.archive.ubuntu.com/ubuntu focal-backports InRelease                                            
+Obj:7 https://dbeaver.io/debs/dbeaver-ce  InRelease                                             
+Obj:8 http://dl.google.com/linux/chrome/deb stable InRelease
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... HechoTodos los paquetes están actualizados.
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Calculando la actualización... Hecho
+0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+
+  ༆ ixicale༆   ⎣09:02:18⎤  🚦 ~ 
+sudo apt install xclip                                                                           hostname: [ix]
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Se instalarán los siguientes paquetes NUEVOS:
+  xclip
+0 actualizados, 1 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Se necesita descargar 18.4 kB de archivos.
+Se utilizarán 60.4 kB de espacio de disco adicional después de esta operación.
+Des:1 http://mx.archive.ubuntu.com/ubuntu focal/universe amd64 xclip amd64 0.13-1 [18.4 kB]
+Descargados 18.4 kB en 1s (30.6 kB/s)
+Seleccionando el paquete xclip previamente no seleccionado.
+(Leyendo la base de datos ... 204000 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../xclip_0.13-1_amd64.deb ...
+Desempaquetando xclip (0.13-1) ...
+Configurando xclip (0.13-1) ...
+Procesando disparadores para man-db (2.9.1-1) ...
+
+  ༆ ixicale༆   ⎣09:02:32⎤  🚦 ~ 
+xclip -h                                                                                         hostname: [ix]
+Usage: xclip [OPTION] [FILE]...
+Access an X server selection for reading or writing.
+
+  -i, -in          read text into X selection from standard input or files
+                   (default)
+  -o, -out         prints the selection to standard out (generally for
+                   piping to a file or program)
+  -l, -loops       number of selection requests to wait for before exiting
+  -d, -display     X display to connect to (eg localhost:0")
+  -h, -help        usage information
+      -selection   selection to access ("primary", "secondary", "clipboard" or "buffer-cut")
+      -noutf8      don't treat text as utf-8, use old unicode
+      -target      use the given target atom
+      -rmlastnl    remove the last newline character if present
+      -version     version information
+      -silent      errors only, run in background (default)
+      -quiet       run in foreground, show what's happening
+      -verbose     running commentary
+
+Report bugs to <astrand@lysator.liu.se>
+  ༆ ixicale༆   ⎣09:02:51⎤  🚦 ~ 
+xclip -o > ifconfig                                                                              hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:03:53⎤  🚦 ~ 
+xclip -i > ifconfig                                                                              hostname: [ix]
+^[[A^[[B^C
+
+  ༆ ixicale༆  ✘  ⎣09:04:04⎤  🚦 ~ 
+xclip -o >ifconfig                                                                               hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:04:13⎤  🚦 ~ 
+xclip -i > ifconfig                                                                              hostname: [ix]
+^C   
+
+  ༆ ixicale༆  ✘  ⎣09:04:29⎤  🚦 ~ 
+xclip -o >ifconfig                                                                               hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:04:33⎤  🚦 ~ 
+xclip -i >ifconfig                                                                               hostname: [ix]
+^C
+
+  ༆ ixicale༆  ✘  ⎣09:04:48⎤  🚦 ~ 
+ifconfig | xclip                                                                                 hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:05:39⎤  🚦 ~ 
+ifconfig | xclip                                                                                 hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:05:51⎤  🚦 ~ 
+eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500                                       hostname: [ix]
+        inet 192.168.250.79  netmask 255.255.255.0  broadcast 192.168.250.255
+        inet6 fe80::4f73:bf7d:437:ce9c  prefixlen 64  scopeid 0x20<link>
+        ether f4:39:09:24:d0:73  txqueuelen 1000  (Ethernet)
+        RX packets 138705  bytes 190318608 (190.3 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 97398  bytes 11213888 (11.2 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  memory 0xf0100000-f0120000  
+
+gpd0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1400
+        inet 10.0.200.37  netmask 255.255.255.255  destination 10.0.200.37
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 500  (UNSPEC)
+        RX packets 756  bytes 103853 (103.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 882  bytes 59031 (59.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 466  bytes 79954 (79.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 466  bytes 79954 (79.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+  ༆ ixicale༆  ✘  ⎣09:05:57⎤  🚦 ~ 
+ifconfig | xclip                                                                                 hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:06:00⎤  🚦 ~ 
+ifconfig | xclip -selection                                                                      hostname: [ix]
+xclip: -selection: No such file or directory
+
+  ༆ ixicale༆  ✘  ⎣09:06:17⎤  🚦 ~ 
+ifconfig | xclip -sel clip                                                                       hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:06:56⎤  🚦 ~ 
+eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500                                       hostname: [ix]
+        inet 192.168.250.79  netmask 255.255.255.0  broadcast 192.168.250.255
+        inet6 fe80::4f73:bf7d:437:ce9c  prefixlen 64  scopeid 0x20<link>
+        ether f4:39:09:24:d0:73  txqueuelen 1000  (Ethernet)
+        RX packets 140498  bytes 192197579 (192.1 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 98864  bytes 11454844 (11.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  memory 0xf0100000-f0120000  
+
+gpd0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1400
+        inet 10.0.200.37  netmask 255.255.255.255  destination 10.0.200.37
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 500  (UNSPEC)
+        RX packets 803  bytes 110929 (110.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 934  bytes 62333 (62.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 466  bytes 79954 (79.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 466  bytes 79954 (79.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+  ༆ ixicale༆  ✘  ⎣09:07:01⎤  🚦 ~ 
+ifconfig | xclip -sel clip                                                                       hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:07:03⎤  🚦 ~ 
+ifconfig | xclip -sel clip                                                                       hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:07:08⎤  🚦 ~ 
+s 0  carriereno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500                           hostname: [ix]
+        inet 192.168.250.79  netmask 255.255.255.0  broadcast 192.168.250.255
+        inet6 fe80::4f73:bf7d:437:ce9c  prefixlen 64  scopeid 0x20<link>
+        ether f4:39:09:24:d0:73  txqueuelen 1000  (Ethernet)
+        RX packets 140549  bytes 192204697 (192.2 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 98922  bytes 11462754 (11.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  memory 0xf0100000-f0120000
+
+gpd0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1400
+        inet 10.0.200.37  netmask 255.255.255.255  destination 10.0.200.37
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 500  (UNSPEC)
+        RX packets 804  bytes 111086 (111.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 935  bytes 62402 (62.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 466  bytes 79954 (79.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 466  bytes 79954 (79.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+
+  ༆ ixicale༆  ✘  ⎣09:07:13⎤  🚦 ~         inet6 fe80::4f73:bf7d:437:ce9c  prefixlen 64  scopeid 0x20<link>
+        ether f4:39:09:24:d0:73  txqueuelen 1000  (Ethernet)
+        RX packets 140498  bytes 192197579 (192.1 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 98864  bytes 11454844 (11.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  memory 0xf0100000-f0120000
+
+gpd0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1400
+        inet 10.0.200.37  netmask 255.255.255.255  destination 10.0.200.37
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 500  (UNSPEC)
+        RX packets 803  bytes 110929 (110.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 934  bytes 62333 (62.3 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 466  bytes 79954 (79.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 466  bytes 79954 (79.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+
+  ༆ ixicale༆  ✘  ⎣09:07:01⎤  🚦 ~ 
+ifconfig | xclip -sel clip                 hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:07:03⎤  🚦 ~ 
+ifconfig | xclip -sel clip                 hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:07:08⎤  🚦 ~ 
+s 0  carriereno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500                 hostname: [ix]
+        inet 192.168.250.79  netmask 255.255.255.0  broadcast 192.168.250.255
+        inet6 fe80::4f73:bf7d:437:ce9c  prefixlen 64  scopeid 0x20<link>
+        ether f4:39:09:24:d0:73  txqueuelen 1000  (Ethernet)
+        RX packets 140549  bytes 192204697 (192.2 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 98922  bytes 11462754 (11.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  memory 0xf0100000-f0120000
+
+gpd0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1400
+        inet 10.0.200.37  netmask 255.255.255.255  destination 10.0.200.37
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 500  (UNSPEC)
+        RX packets 804  bytes 111086 (111.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 935  bytes 62402 (62.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 466  bytes 79954 (79.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 466  bytes 79954 (79.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+
+  ༆ ixicale༆  ✘  ⎣09:07:13⎤  🚦 ~ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+"Ingrese 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+Ingrese el nombre de la carpeta (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+ Ingrese el nombre de la carpeta (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter:  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 28: $'content_def Ingrese el nombre de la carpeta del entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 29: $'content_def Ingrese el nombre del script (sin \'.sh\') para preparar entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+folder_name ' '
+file_name ' .sh'
+/home/ixicale/.sf/SteampunkFactory-MySettings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 28: $'content_def Ingrese el nombre de la carpeta del entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 29: $'content_def Ingrese el nombre del script (sin \'.sh\') para preparar entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+folder_name ' '
+file_name ' .sh'
+/home/ixicale/.sf/SteampunkFactory-MySettings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 28: $'content_def Ingrese el nombre de la carpeta del entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 29: $'content_def Ingrese el nombre del script (sin \'.sh\') para preparar entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+folder_name ' '
+file_name ' '
+/home/ixicale/.sf/SteampunkFactory-MySettings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 28: $'content_def Ingrese el nombre de la carpeta del entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 29: $'content_def Ingrese el nombre del script (sin \'.sh\') para preparar entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+folder_name ' '
+file_name ' '
+/home/ixicale/.sf/SteampunkFactory-MySettings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 28: $'content_def Ingrese el nombre de la carpeta del entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 29: $'content_def Ingrese el nombre del script (sin \'.sh\') para preparar entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+folder_name ' '
+file_name ' '
+/home/ixicale/.sf/SteampunkFactory-MySettings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 28: $'content_def Ingrese el nombre de la carpeta del entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 29: $'content_def Ingrese el nombre del script (sin \'.sh\') para preparar entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+folder_name ' '
+file_name ' '
+
+  ༆ ixicale༆   ⎣09:56:09⎤  🚦 ~ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 27: $'content_def Ingrese el nombre de la carpeta del entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 28: $'content_def Ingrese el nombre del script (sin \'.sh\') para preparar entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+folder_name ' '
+file_name ' '
+
+  ༆ ixicale༆   ⎣09:57:19⎤  🚦 ~ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 27: $'content_def Ingrese el nombre de la carpeta del entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 28: $'content_def Ingrese el nombre del script (sin \'.sh\') para preparar entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+folder_name ' '
+file_name ' '
+
+  ༆ ixicale༆   ⎣09:57:56⎤  🚦 ~ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 27: $'content_def Ingrese el nombre de la carpeta del entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 28: $'content_def Ingrese el nombre del script (sin \'.sh\') para preparar entorno.\nDebe contar con almenos un caracter: ': orden no encontrada
+folder_name ' '
+file_name ' '
+
+  ༆ ixicale༆   ⎣09:58:09⎤  🚦 ~ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: > 
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: >            
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: >json_postman
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >index
+folder_name ' json_postman'
+file_name ' index'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: >a
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >b
+folder_name 'a'
+file_name 'b'
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 35: error sintáctico cerca del elemento inesperado `fi'
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 35: `if [ -d "$__SF_BASH/$folder_name" ] then rm "$__SF_BASH/$folder_name"; fi;'
+
+  ༆ ixicale༆  ✘  ⎣10:03:03⎤  🚦 ~ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣10:07:41⎤  🚦 ~ 
+cls                                                                                                                              hostname: [ix]
+zsh: command not found: cls
+
+  ༆ ixicale༆  ✘  ⎣10:07:44⎤  🚦 ~ 
+clean                                                                                                                            hostname: [ix]
+zsh: command not found: clean
+
+  ༆ ixicale༆  ✘  ⎣10:07:46⎤  🚦 ~ 
+                                                                                                                                 hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆  ✘  ⎣10:07:48⎤  🚦 ~ clear -x                                                                                                                         hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣10:08:35⎤  🚦 ~ /home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: create_bash
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >index
+folder_name 'create_bash'
+file_name 'index'
+mkdir: no se puede crear el directorio «/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash//create_bash»: No existe el archivo o el directorio
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 39: /home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash//create_bash/index: No existe el archivo o el directorio
+chmod: no se puede acceder a '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash//create_bash/index': No existe el archivo o el directorio
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 42: /home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash//create_bash/index.txt: No existe el archivo o el directorio
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 55: /home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash//create_bash/index.md: No existe el archivo o el directorio
+CREATED '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash//create_bash/index'
+
+  ༆ ixicale༆   ⎣10:13:30⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: create_bash
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >index
+folder_name 'create_bash'
+file_name 'index'
+mkdir: no se puede crear el directorio «/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash»: No existe el archivo o el directorio
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 39: /home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index: No existe el archivo o el directorio
+chmod: no se puede acceder a '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index': No existe el archivo o el directorio
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 42: /home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.txt: No existe el archivo o el directorio
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh: línea 55: /home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.md: No existe el archivo o el directorio
+CREATED '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index'
+
+  ༆ ixicale༆   ⎣10:14:08⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: create_bash
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >index
+folder_name 'create_bash'
+file_name 'index'
+CREATED '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index'
+
+  ༆ ixicale༆   ⎣10:14:39⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: create_bash
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >index^C
+
+  ༆ ixicale༆  ✘  ⎣10:21:08⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: ^C 
+
+  ༆ ixicale༆  ✘  ⎣10:21:17⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+$folder_legend >a
+$file_legend b
+chmod: no se puede acceder a '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/'$'\n\n\n''a/'$'\n\n\n''b': No existe el archivo o el directorio
+CREATED '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/
+
+
+a/
+
+
+b.sh'
+
+  ༆ ixicale༆   ⎣10:23:34⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+\n\n$folder_legend >^C
+  ༆ ixicale༆  ✘  ⎣10:24:09⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+\n\nIngrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: ^C
+
+  ༆ ixicale༆  ✘  ⎣10:25:28⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+\n\necho >^[[A^C
+  ༆ ixicale༆  ✘  ⎣10:25:51⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+\n\nIngrese >^[[A^C
+  ༆ ixicale༆  ✘  ⎣10:26:12⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+\n\nIngrese >^C
+  ༆ ixicale༆  ✘  ⎣10:26:43⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+\n\nIngrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: ^C
+
+  ༆ ixicale༆  ✘  ⎣10:27:05⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: create_bash
+
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >index
+rm: no se puede borrar '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash': Es un directorio
+mkdir: no se puede crear el directorio «/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash»: El archivo ya existe
+CREATED '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh'
+
+  ༆ ixicale༆   ⎣10:27:32⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: create_bash
+
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >index
+chmod: no se puede acceder a '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index': No existe el archivo o el directorio
+CREATED '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh'
+
+  ༆ ixicale༆   ⎣10:27:57⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: create_bash
+
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >index
+CREATED '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh'
+
+  ༆ ixicale༆   ⎣10:28:23⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'index.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/settings/index.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh'
+
+
+  ༆ ixicale༆   ⎣10:28:48⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: >create_bash
+
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >index
+
+CREATED '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh'
+  ༆ ixicale༆   ⎣10:31:44⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: >postman_collection
+
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >index
+
+CREATED '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/index.sh'
+  ༆ ixicale༆   ⎣10:33:02⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-Bash/create_shell_default.sh                                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iniciando programa: create_shell_default.sh 
+
+extrayendo información desde: '/home/ixicale/.sf/SteampunkFactory-Bash/settings/create_shell_default.sh.txt'
+
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: >create_bash
+
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >index          
+
+CREATED '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh'
