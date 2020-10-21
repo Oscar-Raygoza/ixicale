@@ -1,0 +1,23 @@
+#!/bin/bash
+# -*- ENCODING: UTF-8 -*-
+clear -x
+
+__FILENAME="${0##*/}"
+__SF_BASH=$(dirname $0)
+__HELPER="$__SF_BASH/settings/$__FILENAME.txt"
+_time=`date +%Y_%m_%d`
+echo -e "\nRunning date: '$_time'"
+echo -e "\nShell name: '$__FILENAME'"
+echo -e "Dirname: '$__SF_BASH'"
+echo -e "Helper file: '$__HELPER'"
+echo -e "Full path: '$0'\n\n"
+
+#region 'your logic here'
+#: example!
+# SF_LOOT="${__SF_BASH}/../SteampunkFactory-Loot/"
+# SF_LOOT="$( cd $SF_LOOT && pwd )"
+# echo -e "'$SF_LOOT'"
+
+#endregion
+
+exit 0
