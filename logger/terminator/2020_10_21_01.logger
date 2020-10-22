@@ -1941,3 +1941,2450 @@ Ingrese el nombre del script (sin '.sh') para preparar entorno.
 Debe contar con almenos un caracter: >index          
 
 CREATED '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh'
+  ༆ ixicale༆   ⎣10:33:37⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'index.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/settings/index.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh'
+
+
+
+  ༆ ixicale༆   ⎣10:33:52⎤  🚦 ~ /home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh                                                  hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'index.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/settings/index.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh'
+
+
+
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: a
+
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >b
+b.sh
+
+  ༆ ixicale༆   ⎣10:38:28⎤  🚦 ~ 
+$MY_CONF/develop/bash/create_bash/index.sh                                                                                       hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'index.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/settings/index.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh'
+
+
+
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: postman_collection
+
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >index
+mkdir: no se puede crear el directorio «/postman_collection»: Permiso denegado
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh: línea 44: /postman_collection/index.sh: No existe el archivo o el directorio
+chmod: no se puede acceder a '/postman_collection/index.sh': No existe el archivo o el directorio
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh: línea 47: /postman_collection/index.sh.txt: No existe el archivo o el directorio
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh: línea 58: /postman_collection/README.md: No existe el archivo o el directorio
+
+CREATED '/postman_collection/index.sh'
+
+  ༆ ixicale༆   ⎣10:39:25⎤  🚦 ~ 
+$MY_CONF/develop/bash/create_bash/index.sh                                                                                       hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'index.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/settings/index.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh'
+
+
+
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: postman_collection
+
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >index
+cat: /home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/settings/index.sh.txt: No existe el archivo o el directorio
+
+CREATED '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/index.sh'
+
+  ༆ ixicale༆   ⎣10:40:44⎤  🚦 ~ 
+$MY_CONF/develop/bash/create_bash/index.sh                                                                                       hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'index.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/settings/index.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh'
+
+
+
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: postman_collection
+
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >index
+cat: /home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/settings/index.sh.txt: No existe el archivo o el directorio
+
+CREATED '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/index.sh'
+
+  ༆ ixicale༆   ⎣10:45:47⎤  🚦 ~ 
+$MY_CONF/develop/bash/create_bash/index.sh                                                                                       hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'index.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/settings/index.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh'
+
+
+
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: postman_collection
+
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >index
+cat: /home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/settings/index.sh.txt: No existe el archivo o el directorio
+
+CREATED '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/index.sh'
+
+  ༆ ixicale༆   ⎣10:46:31⎤  🚦 ~ 
+$MY_CONF/develop/bash/create_bash/index.sh                                                                                       hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'index.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh'
+
+
+
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: postman_collection
+
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >index
+
+CREATED '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/index.sh'
+
+  ༆ ixicale༆   ⎣10:48:13⎤  🚦 ~ 
+LOG="/var/log/net-uptime$(date +%F\ %T).log"                                                                                     hostname: [ix]
+
+
+  ༆ ixicale༆   ⎣11:00:34⎤  🚦 ~ 
+$LOG                                                                                                                             hostname: [ix]
+zsh: no existe el archivo o el directorio: /var/log/net-uptime2020-10-21 11:00:34.log
+
+  ༆ ixicale༆  ✘  ⎣11:00:37⎤  🚦 ~ 
+$MY_CONF/develop/bash/create_bash/index.sh                                                                                       hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'index.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/create_bash/index.sh'
+
+
+
+Ingrese el nombre de la carpeta del entorno.
+Debe contar con almenos un caracter: ping_bucle
+
+Ingrese el nombre del script (sin '.sh') para preparar entorno.
+Debe contar con almenos un caracter: >curl.3seg
+
+CREATED '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/curl.3seg.sh'
+
+  ༆ ixicale༆   ⎣11:02:11⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/curl.3seg.sh                                               hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'curl.3seg.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/settings/curl.3seg.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/curl.3seg.sh'
+
+
+curl: try 'curl --help' or 'curl --manual' for more information
+curl: try 'curl --help' or 'curl --manual' for more informationcurl: try 'curl --help' or 'curl --manual' for more information
+^C
+
+  ༆ ixicale༆  ✘  ⎣11:04:22⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/curl.3seg.sh localhost                                     hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'curl.3seg.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/settings/curl.3seg.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/curl.3seg.sh'
+
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   597k      0 --:--:-- --:--:-- --:--:--  597k  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   597k      0 --:--:-- --:--:-- --:--:--  597k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   597k      0 --:--:-- --:--:-- --:--:--  597k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   597k      0 --:--:-- --:--:-- --:--:--  597k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   597k      0 --:--:-- --:--:-- --:--:--  597k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   298k      0 --:--:-- --:--:-- --:--:--  298k
+^C
+
+  ༆ ixicale༆  ✘  ⎣11:04:47⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/curl.3seg.sh 8.8.8.8                                       hostname: [ix]
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'curl.3seg.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/settings/curl.3seg.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/curl.3seg.sh'
+
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0^C
+  ༆ ixicale༆  ✘  ⎣11:06:04⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/curl.3seg.sh 8.8.8.8                                       hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'curl.3seg.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/settings/curl.3seg.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/curl.3seg.sh'
+
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0^C
+  ༆ ixicale༆  ✘  ⎣11:07:12⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/curl.3seg.sh 8.8.8.8                                       hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'curl.3seg.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/settings/curl.3seg.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/curl.3seg.sh'
+
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0^C
+  ༆ ixicale༆  ✘  ⎣11:08:27⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/curl.3seg.sh localhost                                     hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'curl.3seg.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/settings/curl.3seg.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/curl.3seg.sh'
+
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   597k      0 --:--:-- --:--:-- --:--:--  597k  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   298k      0 --:--:-- --:--:-- --:--:--  298k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   298k      0 --:--:-- --:--:-- --:--:--  298k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   298k      0 --:--:-- --:--:-- --:--:--  298k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   298k      0 --:--:-- --:--:-- --:--:--  298k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   298k      0 --:--:-- --:--:-- --:--:--  298k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   298k      0 --:--:-- --:--:-- --:--:--  298k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   298k      0 --:--:-- --:--:-- --:--:--  298k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   298k      0 --:--:-- --:--:-- --:--:--  597k
+^C
+
+  ༆ ixicale༆  ✘  ⎣11:08:38⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/curl.3seg.sh localhost                                     hostname: [ix]
+
+
+Running date: '2020_10_21'
+
+Shell name: 'curl.3seg.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/settings/curl.3seg.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/ping_bucle/curl.3seg.sh'
+
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   597k      0 --:--:-- --:--:-- --:--:--  597k  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   298k      0 --:--:-- --:--:-- --:--:--  298k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   298k      0 --:--:-- --:--:-- --:--:--  298k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   597k      0 --:--:-- --:--:-- --:--:--  597k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   298k      0 --:--:-- --:--:-- --:--:--  298k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   298k      0 --:--:-- --:--:-- --:--:--  298k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   298k      0 --:--:-- --:--:-- --:--:--  298k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   597k      0 --:--:-- --:--:-- --:--:--  597k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   612  100   612    0     0   597k      0 --:--:-- --:--:-- --:--:--  597k
+^C
+
+  ༆ ixicale༆  ✘  ⎣11:09:07⎤  🚦 ~ 
+                                                                                                                                 hostname: [ix]
+
+  ༆ ixicale༆  ✘  ⎣11:09:44⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/index.sh                                           hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'index.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/settings/index.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/index.sh'
+
+
+__DIR_SAVE
+
+  ༆ ixicale༆   ⎣11:16:07⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/index.sh ~/Escritorio $PHP/clv-events-api/app/config/routers/events.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'index.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/settings/index.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/index.sh'
+
+
+__DIR_SAVE
+  ༆ ixicale༆   ⎣11:17:59⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/index.sh ~/Escritorio $PHP/clv-events-api/app/config/routers/events.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'index.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/settings/index.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/index.sh'
+
+
+/home/ixicale/Escritorio
+/var/www/html/PHP/clv-events-api/app/config/routers/events.php
+  ༆ ixicale༆   ⎣11:18:17⎤  🚦 ~ 
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/index.sh ~/Escritorio $PHP/clv-events-api/app/config/routers/events.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'index.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/settings/index.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/index.sh'
+
+
+/home/ixicale/Escritorio
+/var/www/html/PHP/clv-events-api/app/config/routers/events.php
+  ༆ ixicale༆   ⎣11:20:46⎤  🚦 ~ 
+$MY_CONF/develop/bash/postman_collection/index.sh events $PHP/clv-events-api/app/config/routers/events.php                       hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'index.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/settings/index.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/index.sh'
+
+
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/events
+/var/www/html/PHP/clv-events-api/app/config/routers/events.php
+  ༆ ixicale༆   ⎣11:21:09⎤  🚦 ~ 
+$MY_CONF/develop/bash/postman_collection/index.sh events $PHP/clv-events-api/app/config/routers/events.php                       hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running date: '2020_10_21'
+
+Shell name: 'index.sh'
+Dirname: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection'
+Helper file: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/settings/index.sh.txt'
+Full path: '/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/index.sh'
+
+
+/home/ixicale/.sf/SteampunkFactory-MySettings/develop/bash/postman_collection/events.2020-10-2111:23:45
+/var/www/html/PHP/clv-events-api/app/config/routers/events.php
+  ༆ ixicale༆   ⎣11:23:45⎤  🚦 ~ 
+cd $NODE/clv-service-web                                                                                                         hostname: [ix]
+
+  ༆ ixicale༆   ⎣12:03:28⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1 ● 
+npm run dev                                                                                                                      hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.development=true
+[1] 
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Run mode: dev
+[0] Listening on port 8080!
+[1] ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+[1] ℹ ｢wds｣: webpack output is served from /
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] ℹ ｢wdm｣: Hash: 99ef0688308200b79f83
+[1] Version: webpack 4.43.0
+[1] Time: 13745ms
+[1] Built at: 2020-10-21 12:03:47
+[1]                                  Asset       Size  Chunks                         Chunk Names
+[1]                                  0.css   1.19 MiB       0  [emitted]              
+[1]   01c1d4a2465f5038ba02952d271b8241.eot   99.1 KiB          [emitted]              
+[1]             02fb8f8b2f21e6aaf999app.js   9.28 MiB     app  [emitted] [immutable]  app
+[1] 0425d661f34ffa46604c9dfa344c03bb.woff2   73.5 KiB          [emitted]              
+[1]   08d519ba55c33fdb7a2928612e092646.ttf   7.71 KiB          [emitted]              
+[1]   0f35616cbb27428d7e988fbd8255b788.ttf   44.1 KiB          [emitted]              
+[1]                                  1.css   22.3 KiB       1  [emitted]              
+[1]  14f22fbed8146dbf3b497bb32d8491b0.woff   16.4 KiB          [emitted]              
+[1]   1898ebd2e3162e7ca8627073d865b893.eot    188 KiB          [emitted]              
+[1]   1899ce309b02a28889f1efb1f7b9208b.png   11.8 KiB          [emitted]              
+[1]   189c0326f75931886d5b60cde8b5628f.ttf    127 KiB          [emitted]              
+[1]  18ea6a671ba47c84656f069a157b43fc.woff   99.3 KiB          [emitted]              
+[1]  1e3f731438bd261b50550bdf1ec77866.woff     33 KiB          [emitted]              
+[1] 1fcf2943496a113eb3be1db3551e840a.woff2   55.2 KiB          [emitted]              
+[1]                                  2.css   2.25 MiB       2  [emitted]              
+[1]   232403f5c7d60dc48d8e50d68373c311.png   19.2 KiB          [emitted]              
+[1]   25ba23a7b18be825303d3338ed22a0c4.ttf   4.96 KiB          [emitted]              
+[1]   2778106629be4e3a63a01bbe0eaf2ec0.ttf    219 KiB          [emitted]              
+[1]   280b9347ffc996c1d302ce1d29fffa41.ttf   58.4 KiB          [emitted]              
+[1]   288cbe9bd05f2ffde8f3b7c85668b9c9.png  668 bytes          [emitted]              
+[1]  2ba1dd96c3ae2a4936133d98f158df9e.woff   46.9 KiB          [emitted]              
+[1]   2d1bf3fb16dddf1f1724ba1d7f0ffb19.png   1.23 KiB          [emitted]              
+[1]   2d568ce5cf29ab70a856457b9afb7ed7.eot   58.6 KiB          [emitted]              
+[1]   2d7a612b847283f93314eb131fb995d9.png  846 bytes          [emitted]              
+[1]               2e06ef9f0b9ad877ced60.js   1.29 KiB       0  [emitted] [immutable]  
+[1] 2e30265a0e131e6f999a7268d0a3854e.woff2   13.9 KiB          [emitted]              
+[1]   2f0e17de5d4309e674717298e674b722.png   1.97 KiB          [emitted]              
+[1]   32be215fba9b3709b12258c14cc866a2.png   5.36 KiB          [emitted]              
+[1]   36b5bab58a18b9c924861a4ccbf1a790.ttf    160 KiB          [emitted]              
+[1]               36bb4e2cf8ebf5b83f7a2.js   1.33 KiB       2  [emitted] [immutable]  
+[1]  3b07923576139de0dd8acfd3f511a023.woff   19.8 KiB          [emitted]              
+[1]   3dba10e1afb786db6704ced33d742cfe.eot    144 KiB          [emitted]              
+[1]   3f7dfc6dfc8a28e0d7aa56d6712cf8e9.svg   30.2 KiB          [emitted]              
+[1]   409ed0b3bf285a0d43e1e482b9a7016f.ttf    123 KiB          [emitted]              
+[1] 413b970d129b05f9eb4cb51e42249160.woff2   30.6 KiB          [emitted]              
+[1]   451b51d8700fb035bcaaa9e8710b384a.eot    128 KiB          [emitted]              
+[1]   465b7979e1ef862c417b50b814b45892.eot   22.2 KiB          [emitted]              
+[1]   475103cd4dca33d33d04a7c34b016385.eot    219 KiB          [emitted]              
+[1] 4ac13350261f8d16d984161187d672ae.woff2   23.6 KiB          [emitted]              
+[1] 4cc04a31c42f2f9d951547bbce75960b.woff2   73.8 KiB          [emitted]              
+[1] 4d7c78ec9d2b5b2cb3389d721e2f6f81.woff2   8.97 KiB          [emitted]              
+[1]   55c31272f83e40502e2a396dc3e77c69.png   1.97 KiB          [emitted]              
+[1]   5673da52c98bb6cb33ada5aaf649703e.ttf    155 KiB          [emitted]              
+[1] 579bf4eef6a8c516b5fedafaad7e9268.woff2   2.54 KiB          [emitted]              
+[1]   5d52a72af83e362533d9718699c19611.ttf   16.5 KiB          [emitted]              
+[1]   5f4170aeb98cf7d22524bbdccf50fb73.ttf   59.4 KiB          [emitted]              
+[1]   6073c4127e04bc29b7e75decdc4878ba.eot   44.3 KiB          [emitted]              
+[1]   60846106f092bc5d8ad6579d8bee7f49.svg   15.8 KiB          [emitted]              
+[1] 609d66e64dfb0bd7bb88439ea18e1f85.woff2   71.4 KiB          [emitted]              
+[1]  617ff7daff2c7de52879c4371cb3cfa9.woff   38.7 KiB          [emitted]              
+[1]   6f8d05823cf433aaa565380dd9552560.png   1.63 KiB          [emitted]              
+[1]   7402deacd4aff7ab10fcc589888b1e3d.ttf   98.9 KiB          [emitted]              
+[1]   763f2f687131adf60e152c41556a711c.eot    215 KiB          [emitted]              
+[1] 772a0f14c850c8b0dfe283a95857583e.woff2   13.3 KiB          [emitted]              
+[1] 7834e58fbcb63f45ce8290a432b5abce.woff2   25.1 KiB          [emitted]              
+[1]  78d1a7db1a3279fa8c0b587e2ce04bb8.woff     33 KiB          [emitted]              
+[1] 814d6a6979f050f9f43526d93b03b8ab.woff2   7.53 KiB          [emitted]              
+[1]   8559d5644fa0fc0977a99d66bb7015c4.eot   5.17 KiB          [emitted]              
+[1]   8570aee9babb103961a481b4f3b468c0.eot   67.9 KiB          [emitted]              
+[1]  85b063debeb5d5f079776ac1a9c924cb.woff   86.3 KiB          [emitted]              
+[1]   872fdfa2c03ad7aa20582602e5257c10.otf   25.7 KiB          [emitted]              
+[1]   8849f635e13c36058df1362caca19650.eot    123 KiB          [emitted]              
+[1]               8e8d6db31bf7080009891.js   1.41 KiB       1  [emitted] [immutable]  
+[1]  90ca1fdea31539237f4f424767bd9631.woff    107 KiB          [emitted]              
+[1]   9230982faf6ed4d1dab07babfb813777.ttf   33.3 KiB          [emitted]              
+[1]   92827f088b9eda87169bdc2b9888ce52.eot   53.3 KiB          [emitted]              
+[1]   94ba232b62328041e387e70c06a785dd.ttf   88.9 KiB          [emitted]              
+[1]   9cb4ca5af3eb042954ec366682a9525a.eot   16.7 KiB          [emitted]              
+[1]   9dbfa9f7a7432ce926ff67d557283eb4.otf   25.4 KiB          [emitted]              
+[1]   9f3e5f399c91e65d1f10072955705898.ttf   57.9 KiB          [emitted]              
+[1] 9f8c2c2987f3f9e9390698204d5bc023.woff2   11.4 KiB          [emitted]              
+[1]   9ff8ed9d73f06e3b7183a58dd183d286.jpg   47.7 KiB          [emitted]              
+[1]  a188c2f768ce5033d3f5d47be7280e25.woff   31.3 KiB          [emitted]              
+[1]   a335ac6654da08d4a0a46b3a9fc48e3b.ttf    215 KiB          [emitted]              
+[1] a5c190fb1bd3d0861e4247af033dedd5.woff2   26.9 KiB          [emitted]              
+[1]   a69209d90e741553f62e8b920c464f20.svg    8.6 KiB          [emitted]              
+[1]                                app.css    184 KiB     app  [emitted]              app
+[1]   b1161bce5381a5fa7aacc073e1a01dd3.ttf    188 KiB          [emitted]              
+[1]  b51832ee9a0a0325cdfee3177d3bf3ba.woff   58.4 KiB          [emitted]              
+[1]   b6579220162705be426ad4db0dc43f6b.eot   33.6 KiB          [emitted]              
+[1]   b78843047ece07fc9a36dd16bbe70af7.otf     24 KiB          [emitted]              
+[1] bc4fde28999efe68109abd4b8a8510f2.woff2   43.6 KiB          [emitted]              
+[1]   bf9656c02c52f178d1090664bf694feb.png   10.7 KiB          [emitted]              
+[1]   c406a021f3e1187bb6bed1e93da4672e.ttf     22 KiB          [emitted]              
+[1]  d0aea1a0975b1fafce16162cf4727bda.woff    9.3 KiB          [emitted]              
+[1]  d1509f06bff29a63dfd9e5238d75096d.woff   75.3 KiB          [emitted]              
+[1]  d15bfec4aecf39221f7084ab841fc442.woff    3.3 KiB          [emitted]              
+[1] d56bcde17a92072b9b88d0c97d673484.woff2   75.9 KiB          [emitted]              
+[1]   d5c46b134c17b2138dcd1bb0efa67049.ttf    159 KiB          [emitted]              
+[1]   d7b3487c50456791d034d77c7b48fcf7.ttf   67.7 KiB          [emitted]              
+[1]  db525089f5101b59a66184d109e6f917.woff   96.1 KiB          [emitted]              
+[1]   e20945d7c929279ef7a6f1db184a4470.ttf   55.6 KiB          [emitted]              
+[1] e3c67aef32bd3c81110b834f8b747b39.woff2   3.75 KiB          [emitted]              
+[1]   ea719e6d7484daca7a87dfa2e9ca6622.png    131 KiB          [emitted]              
+[1]  ebbb65ab3106282c8b4503761fca679c.woff   12.6 KiB          [emitted]              
+[1]   ee806952989c4df14c2d24eb930c39ca.svg    112 KiB          [emitted]              
+[1]  f069e5db447692e64f06a6c2dcd7ae0f.woff   4.79 KiB          [emitted]              
+[1]   f558d3dfca7ce9d2c33f2b95527c4843.eot   89.1 KiB          [emitted]              
+[1]   f6805ba6e16d08fe09138ca28525621f.ttf    143 KiB          [emitted]              
+[1]                            favicon.ico    454 KiB          [emitted]              
+[1]   fe0f94fcf8215edfba354de24a7e8430.eot   7.93 KiB          [emitted]              
+[1]                             index.html  906 bytes          [emitted]              
+[1]                                  sw.js    909 KiB          [emitted]              
+[1] Entrypoint app = app.css 02fb8f8b2f21e6aaf999app.js
+[1] [0] multi (webpack)-dev-server/client?http://0.0.0.0:9000 @babel/polyfill ./src/client/index.js 52 bytes {app} [built]
+[1] [./node_modules/@babel/polyfill/lib/index.js] 686 bytes {app} [built]
+[1] [./node_modules/@babel/polyfill/lib/noConflict.js] 567 bytes {app} [built]
+[1] [./node_modules/core-js/library/fn/global.js] 87 bytes {app} [built]
+[1] [./node_modules/react-dom/index.js] 1.33 KiB {app} [built]
+[1] [./node_modules/react/index.js] 190 bytes {app} [built]
+[1] [./node_modules/strip-ansi/index.js] 161 bytes {app} [built]
+[1] [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:9000] (webpack)-dev-server/client?http://0.0.0.0:9000 4.29 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {app} [built]
+[1] [./src/client/index.js] 424 bytes {app} [built]
+[1]     + 644 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]     [./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html] 990 bytes {0} [built]
+[1]     [./node_modules/lodash/lodash.js] 530 KiB {0} [built]
+[1]     [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {0} [built]
+[1]     [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 497 bytes {0} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/bucket/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/bucket/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/bucket/style.css 18.6 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/base/calendarDay/calendarDayStyle.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/base/calendarDay/calendarDayStyle.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/base/calendarDay/calendarDayStyle.css 46.1 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/base/calendarStyle.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/base/calendarStyle.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/base/calendarStyle.css 11.8 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/dialog/dialog.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/dialog/dialog.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/dialog/dialog.css 6.69 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/collapsible/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/collapsible/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/collapsible/style.css 5.62 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/creditcard/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/creditcard/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/creditcard/style.css 96.5 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/paginator/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/paginator/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/paginator/style.css 3.78 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/_theme.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/_theme.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/_theme.scss 1010 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/getUrl.js] 830 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]         + 73 hidden modules
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/variables/_wedding-variables.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/variables/_wedding-variables.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/variables/_wedding-variables.scss 17 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/wedding-theme.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/wedding-theme.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/wedding-theme.scss 1.9 MiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/getUrl.js] 830 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/amex.png] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/mastercard.png] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/visa.png] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]         + 76 hidden modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]     [./node_modules/@babel/polyfill/lib/index.js] 686 bytes {0} [built]
+[1]     [./node_modules/@babel/polyfill/lib/noConflict.js] 567 bytes {0} [built]
+[1]     [./node_modules/core-js/es6/index.js] 5.78 KiB {0} [built]
+[1]     [./node_modules/core-js/fn/array/flat-map.js] 108 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/array/includes.js] 109 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/entries.js] 109 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/get-own-property-descriptors.js] 148 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/values.js] 107 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/promise/finally.js] 166 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/string/pad-end.js] 108 bytes {0} [built]
+[1]     [./node_modules/core-js/library/fn/global.js] 87 bytes {0} [built]
+[1]     [./node_modules/url-parse/index.js] 12.4 KiB {0} [built]
+[1]     [./src/server/libraries/ResponseFormatter.js] 3.73 KiB {0} [built]
+[1]     [./src/services/fetchHandler.js] 7.62 KiB {0} [built]
+[1]     [./src/services/serviceWorker.js] 393 bytes {0} [built]
+[1]         + 299 hidden modules
+[1] ℹ ｢wdm｣: Compiled successfully.[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Run mode: qa
+[0] Listening on port 8080!
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: ade069308cedfb16c1a4
+[1] Version: webpack 4.43.0
+[1] Time: 2032ms
+[1] Built at: 2020-10-21 12:04:45
+[1]                      Asset       Size  Chunks                         Chunk Names
+[1]                      0.css   1.19 MiB       0  [emitted]              
+[1]                      1.css   22.3 KiB       1  [emitted]              
+[1]                      2.css   2.25 MiB       2  [emitted]              
+[1] 7e9dc9db4845a1b5602aapp.js   9.28 MiB     app  [emitted] [immutable]  app
+[1]   90d13402d1f84a0452d62.js   1.33 KiB       2  [emitted] [immutable]  
+[1]                    app.css    184 KiB     app  [emitted]              app
+[1]   d995b8c2d736e2d8819d0.js   1.29 KiB       0  [emitted] [immutable]  
+[1]   e56964ee4d5ba9080e711.js   1.41 KiB       1  [emitted] [immutable]  
+[1]                favicon.ico    454 KiB          [emitted]              
+[1]                 index.html  906 bytes          [emitted]              
+[1]                      sw.js    909 KiB          [emitted]              
+[1]  + 92 hidden assets
+[1] Entrypoint app = app.css 7e9dc9db4845a1b5602aapp.js
+[1] [./src/client/views/familygifts/index.js] 15.8 KiB {app} [built]
+[1]     + 658 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: 7f1fe0f4715e78c6d56e
+[1] Version: webpack 4.43.0
+[1] Time: 1461ms
+[1] Built at: 2020-10-21 12:05:00
+[1]                      Asset       Size  Chunks                         Chunk Names
+[1] 655b65aafd7bf7100023app.js   9.28 MiB     app  [emitted] [immutable]  app
+[1]                favicon.ico    454 KiB          [emitted]              
+[1]                 index.html  906 bytes          [emitted]              
+[1]                      sw.js    909 KiB          [emitted]              
+[1]  + 99 hidden assets
+[1] Entrypoint app = app.css 655b65aafd7bf7100023app.js
+[1] [./src/client/views/familygifts/index.js] 15.9 KiB {app} [built]
+[1]     + 658 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: 00d49a2d27385e0eb786
+[1] Version: webpack 4.43.0
+[1] Time: 1701ms
+[1] Built at: 2020-10-21 12:05:38
+[1]                      Asset       Size  Chunks                         Chunk Names
+[1] 607025cd37abb1da6d5bapp.js   9.28 MiB     app  [emitted] [immutable]  app
+[1]                favicon.ico    454 KiB          [emitted]              
+[1]                 index.html  906 bytes          [emitted]              
+[1]                      sw.js    909 KiB          [emitted]              
+[1]  + 99 hidden assets
+[1] Entrypoint app = app.css 607025cd37abb1da6d5bapp.js
+[1] [./src/client/views/familygifts/index.js] 15.9 KiB {app} [built]
+[1]     + 658 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: 5d5a4cc32c64321b8807
+[1] Version: webpack 4.43.0
+[1] Time: 1785ms
+[1] Built at: 2020-10-21 12:16:04
+[1]                      Asset       Size  Chunks                         Chunk Names
+[1] 9af127dad220d9a83a2eapp.js   9.28 MiB     app  [emitted] [immutable]  app
+[1]                favicon.ico    454 KiB          [emitted]              
+[1]                 index.html  906 bytes          [emitted]              
+[1]                      sw.js    909 KiB          [emitted]              
+[1]  + 99 hidden assets
+[1] Entrypoint app = app.css 9af127dad220d9a83a2eapp.js
+[1] [./src/client/views/familygifts/index.js] 15.9 KiB {app} [built]
+[1]     + 658 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: 4028396d7a804f86e04f
+[1] Version: webpack 4.43.0
+[1] Time: 3330ms
+[1] Built at: 2020-10-21 12:16:52
+[1]                      Asset       Size  Chunks                         Chunk Names
+[1]                      2.css   2.25 MiB       2  [emitted]              
+[1] 324518eb96c4ba5201b2app.js   9.28 MiB     app  [emitted] [immutable]  app
+[1]   6e023d563d32af49dab12.js   1.33 KiB       2  [emitted] [immutable]  
+[1]                favicon.ico    454 KiB          [emitted]              
+[1]                 index.html  906 bytes          [emitted]              
+[1]                      sw.js    909 KiB          [emitted]              
+[1]  + 94 hidden assets
+[1] Entrypoint app = app.css 324518eb96c4ba5201b2app.js
+[1] [./src/client/docs/styles/themes/wedding-theme.scss] 355 bytes {2} [optional] [built]
+[1]     + 658 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/wedding-theme.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/wedding-theme.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/wedding-theme.scss 1.9 MiB {mini-css-extract-plugin} [built]
+[1]         + 90 hidden modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: a6c4c0a671329b5eb0d2
+[1] Version: webpack 4.43.0
+[1] Time: 1795ms
+[1] Built at: 2020-10-21 12:17:28
+[1]                      Asset       Size  Chunks                         Chunk Names
+[1] 9c660ddc292d0be6b49dapp.js   9.28 MiB     app  [emitted] [immutable]  app
+[1]                favicon.ico    454 KiB          [emitted]              
+[1]                 index.html  906 bytes          [emitted]              
+[1]                      sw.js    909 KiB          [emitted]              
+[1]  + 96 hidden assets
+[1] Entrypoint app = app.css 9c660ddc292d0be6b49dapp.js
+[1] [./src/client/views/familygifts/index.js] 15.9 KiB {app} [built]
+[1]     + 658 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: 1f5e8642f6853eca830b
+[1] Version: webpack 4.43.0
+[1] Time: 1374ms
+[1] Built at: 2020-10-21 12:17:46
+[1]                      Asset       Size  Chunks                         Chunk Names
+[1] 324518eb96c4ba5201b2app.js   9.28 MiB     app  [emitted] [immutable]  app
+[1]                favicon.ico    454 KiB          [emitted]              
+[1]                 index.html  906 bytes          [emitted]              
+[1]                      sw.js    909 KiB          [emitted]              
+[1]  + 96 hidden assets
+[1] Entrypoint app = app.css 324518eb96c4ba5201b2app.js
+[1] [./src/client/views/familygifts/index.js] 15.9 KiB {app} [built]
+[1]     + 658 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.[1] ℹ ｢wdm｣: Compiling...
+[1] ⚠ ｢wdm｣: Hash: a7b8f416f2cfc251052f
+[1] Version: webpack 4.43.0
+[1] Time: 1693ms
+[1] Built at: 2020-10-21 12:19:04
+[1]                      Asset       Size  Chunks                         Chunk Names
+[1] 3d6a6518258012e06baaapp.js   9.28 MiB     app  [emitted] [immutable]  app
+[1]                favicon.ico    454 KiB          [emitted]              
+[1]                 index.html  906 bytes          [emitted]              
+[1]                      sw.js    909 KiB          [emitted]              
+[1]  + 96 hidden assets
+[1] Entrypoint app = app.css 3d6a6518258012e06baaapp.js
+[1] [./src/client/views/familygifts/index.js] 15.8 KiB {app} [built]
+[1]     + 658 hidden modules
+[1] 
+[1] WARNING in ./src/client/views/familygifts/index.js 361:197-206
+[1] "export 'Paginator' was not found in '@components'
+[1]  @ ./src/client/views/index.js
+[1]  @ ./src/client/App.js
+[1]  @ ./src/client/index.js
+[1]  @ multi @babel/polyfill ./src/client/index.js
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled with warnings.
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: af4bbbb49cc867a557fa
+[1] Version: webpack 4.43.0
+[1] Time: 1624ms
+[1] Built at: 2020-10-21 12:21:24
+[1]                      Asset       Size  Chunks                         Chunk Names
+[1] c64d6cd45d4edff181ccapp.js   9.28 MiB     app  [emitted] [immutable]  app
+[1]                favicon.ico    454 KiB          [emitted]              
+[1]                 index.html  906 bytes          [emitted]              
+[1]                      sw.js    909 KiB          [emitted]              
+[1]  + 96 hidden assets
+[1] Entrypoint app = app.css c64d6cd45d4edff181ccapp.js
+[1] [./src/client/components/index.js] 1.84 KiB {app} [built]
+[1]     + 658 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: fd3b988b8cc785c8a7d3
+[1] Version: webpack 4.43.0
+[1] Time: 1495ms
+[1] Built at: 2020-10-21 12:21:29
+[1]                      Asset       Size  Chunks                         Chunk Names
+[1] 382d2719e5a313805a06app.js   9.28 MiB     app  [emitted] [immutable]  app
+[1]                favicon.ico    454 KiB          [emitted]              
+[1]                 index.html  906 bytes          [emitted]              
+[1]                      sw.js    909 KiB          [emitted]              
+[1]  + 96 hidden assets
+[1] Entrypoint app = app.css 382d2719e5a313805a06app.js
+[1] [./src/client/views/familygifts/index.js] 15.9 KiB {app} [built]
+[1]     + 658 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: a713734dc17904c83cdb
+[1] Version: webpack 4.43.0
+[1] Time: 1475ms
+[1] Built at: 2020-10-21 12:22:33
+[1]                      Asset       Size  Chunks                         Chunk Names
+[1] 00501b9b2e30bf7daa68app.js   9.28 MiB     app  [emitted] [immutable]  app
+[1]                favicon.ico    454 KiB          [emitted]              
+[1]                 index.html  906 bytes          [emitted]              
+[1]                      sw.js    909 KiB          [emitted]              
+[1]  + 96 hidden assets
+[1] Entrypoint app = app.css 00501b9b2e30bf7daa68app.js
+[1] [./src/client/components/index.js] 1.84 KiB {app} [built]
+[1]     + 658 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: 03af9d595b69d36d8a97
+[1] Version: webpack 4.43.0
+[1] Time: 1435ms
+[1] Built at: 2020-10-21 12:22:45
+[1]                      Asset       Size  Chunks                         Chunk Names
+[1] 9cb7ecc1450c0a15471fapp.js   9.28 MiB     app  [emitted] [immutable]  app
+[1]                favicon.ico    454 KiB          [emitted]              
+[1]                 index.html  906 bytes          [emitted]              
+[1]                      sw.js    909 KiB          [emitted]              
+[1]  + 96 hidden assets
+[1] Entrypoint app = app.css 9cb7ecc1450c0a15471fapp.js
+[1] [./src/client/views/familygifts/index.js] 15.8 KiB {app} [built]
+[1]     + 658 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+^C[0] npm run server exited with code SIGINT
+[1] npm run client exited with code SIGINT
+
+
+  ༆ ixicale༆  ✘  ⎣12:24:29⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑1 1 ● 
+                                                                                                                                 hostname: [ix]
+
+  ༆ ixicale༆  ✘  ⎣12:24:32⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1 ● 
+gic pre.dev.2020.07.09.1                                                                                                         hostname: [ix]
+Cambiado a rama 'pre.dev.2020.07.09.1'
+Tu rama está detrás de 'origin/pre.dev.2020.07.09.1' por 3 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣12:24:40⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ↓3 ✔ 
+gipl                                                                                                                             hostname: [ix]giActualizando 5ae2c5b7..5f4e969f
+Fast-forward
+ src/client/app/Api.js                     |  1 +
+ src/client/views/roominglist/index.js     | 98 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-----------------------------
+ src/server/app/endpoints.js               |  3 +++
+ src/server/app/router.js                  |  1 +
+ src/server/controllers/EventController.js | 18 ++++++++++++++++++
+ 5 files changed, 91 insertions(+), 30 deletions(-)
+
+  ༆ ixicale༆   ⎣12:24:43⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+gicx                                                                                                                             hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣12:24:44⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gime pre.dev.2020.07.09.1                                                                                                        hostname: [ix]
+fatal: No se puedo leer de '.git/MERGE_MSG': No existe el archivo o el directorio
+
+  ༆ ixicale༆  ✘  ⎣12:26:05⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑4 ✔ 
+gips                                                                                                                             hostname: [ix]
+giEnumerando objetos: 13, listo.
+Contando objetos: 100% (13/13), listo.
+Compresión delta usando hasta 8 hilos
+Comprimiendo objetos: 100% (5/5), listo.
+Escribiendo objetos: 100% (5/5), 550 bytes | 550.00 KiB/s, listo.
+Total 5 (delta 3), reusado 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+c To github.com:fbenitez/clv-service-web.git
+   c677067c..38126f56  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣12:26:13⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.07.09.1                                                                                                         hostname: [ix]
+Cambiado a rama 'pre.dev.2020.07.09.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.07.09.1'.
+
+  ༆ ixicale༆   ⎣12:26:15⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+gicx                                                                                                                             hostname: [ix]
+Cambiado a rama 'ixicale'Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣12:26:19⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+npm run dev                                                                                                                      hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] 
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.development=true
+[1] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Run mode: dev
+[0] Listening on port 8080!
+[1] ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+[1] ℹ ｢wds｣: webpack output is served from /
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] ℹ ｢wdm｣: Hash: 3f853bb6c60cf5712c9c
+[1] Version: webpack 4.43.0
+[1] Time: 12661ms
+[1] Built at: 2020-10-21 12:26:35
+[1]                                  Asset       Size  Chunks                         Chunk Names
+[1]                                  0.css   1.19 MiB       0  [emitted]              
+[1]   01c1d4a2465f5038ba02952d271b8241.eot   99.1 KiB          [emitted]              
+[1] 0425d661f34ffa46604c9dfa344c03bb.woff2   73.5 KiB          [emitted]              
+[1]   08d519ba55c33fdb7a2928612e092646.ttf   7.71 KiB          [emitted]              
+[1]   0f35616cbb27428d7e988fbd8255b788.ttf   44.1 KiB          [emitted]              
+[1]                                  1.css   22.3 KiB       1  [emitted]              
+[1]  14f22fbed8146dbf3b497bb32d8491b0.woff   16.4 KiB          [emitted]              
+[1]   1898ebd2e3162e7ca8627073d865b893.eot    188 KiB          [emitted]              
+[1]   1899ce309b02a28889f1efb1f7b9208b.png   11.8 KiB          [emitted]              
+[1]   189c0326f75931886d5b60cde8b5628f.ttf    127 KiB          [emitted]              
+[1]  18ea6a671ba47c84656f069a157b43fc.woff   99.3 KiB          [emitted]              
+[1]  1e3f731438bd261b50550bdf1ec77866.woff     33 KiB          [emitted]              
+[1] 1fcf2943496a113eb3be1db3551e840a.woff2   55.2 KiB          [emitted]              
+[1]                                  2.css   2.25 MiB       2  [emitted]              
+[1]   232403f5c7d60dc48d8e50d68373c311.png   19.2 KiB          [emitted]              
+[1]   25ba23a7b18be825303d3338ed22a0c4.ttf   4.96 KiB          [emitted]              
+[1]   2778106629be4e3a63a01bbe0eaf2ec0.ttf    219 KiB          [emitted]              
+[1]   280b9347ffc996c1d302ce1d29fffa41.ttf   58.4 KiB          [emitted]              
+[1]   288cbe9bd05f2ffde8f3b7c85668b9c9.png  668 bytes          [emitted]              
+[1]             28fd74d4e33659b3a5b5app.js   9.28 MiB     app  [emitted] [immutable]  app
+[1]  2ba1dd96c3ae2a4936133d98f158df9e.woff   46.9 KiB          [emitted]              
+[1]   2d1bf3fb16dddf1f1724ba1d7f0ffb19.png   1.23 KiB          [emitted]              
+[1]   2d568ce5cf29ab70a856457b9afb7ed7.eot   58.6 KiB          [emitted]              
+[1]   2d7a612b847283f93314eb131fb995d9.png  846 bytes          [emitted]              
+[1] 2e30265a0e131e6f999a7268d0a3854e.woff2   13.9 KiB          [emitted]              
+[1]   2f0e17de5d4309e674717298e674b722.png   1.97 KiB          [emitted]              
+[1]   32be215fba9b3709b12258c14cc866a2.png   5.36 KiB          [emitted]              
+[1]   36b5bab58a18b9c924861a4ccbf1a790.ttf    160 KiB          [emitted]              
+[1]  3b07923576139de0dd8acfd3f511a023.woff   19.8 KiB          [emitted]              
+[1]   3dba10e1afb786db6704ced33d742cfe.eot    144 KiB          [emitted]              
+[1]   3f7dfc6dfc8a28e0d7aa56d6712cf8e9.svg   30.2 KiB          [emitted]              
+[1]   409ed0b3bf285a0d43e1e482b9a7016f.ttf    123 KiB          [emitted]              
+[1] 413b970d129b05f9eb4cb51e42249160.woff2   30.6 KiB          [emitted]              
+[1]               437d9fe8497b174e2f460.js   1.29 KiB       0  [emitted] [immutable]  
+[1]   451b51d8700fb035bcaaa9e8710b384a.eot    128 KiB          [emitted]              
+[1]   465b7979e1ef862c417b50b814b45892.eot   22.2 KiB          [emitted]              
+[1]   475103cd4dca33d33d04a7c34b016385.eot    219 KiB          [emitted]              
+[1] 4ac13350261f8d16d984161187d672ae.woff2   23.6 KiB          [emitted]              
+[1] 4cc04a31c42f2f9d951547bbce75960b.woff2   73.8 KiB          [emitted]              
+[1] 4d7c78ec9d2b5b2cb3389d721e2f6f81.woff2   8.97 KiB          [emitted]              
+[1]   55c31272f83e40502e2a396dc3e77c69.png   1.97 KiB          [emitted]              
+[1]   5673da52c98bb6cb33ada5aaf649703e.ttf    155 KiB          [emitted]              
+[1] 579bf4eef6a8c516b5fedafaad7e9268.woff2   2.54 KiB          [emitted]              
+[1]   5d52a72af83e362533d9718699c19611.ttf   16.5 KiB          [emitted]              
+[1]   5f4170aeb98cf7d22524bbdccf50fb73.ttf   59.4 KiB          [emitted]              
+[1]   6073c4127e04bc29b7e75decdc4878ba.eot   44.3 KiB          [emitted]              
+[1]   60846106f092bc5d8ad6579d8bee7f49.svg   15.8 KiB          [emitted]              
+[1] 609d66e64dfb0bd7bb88439ea18e1f85.woff2   71.4 KiB          [emitted]              
+[1]  617ff7daff2c7de52879c4371cb3cfa9.woff   38.7 KiB          [emitted]              
+[1]   6f8d05823cf433aaa565380dd9552560.png   1.63 KiB          [emitted]              
+[1]               724fe2d8baa4749f01e71.js   1.41 KiB       1  [emitted] [immutable]  
+[1]   7402deacd4aff7ab10fcc589888b1e3d.ttf   98.9 KiB          [emitted]              
+[1]   763f2f687131adf60e152c41556a711c.eot    215 KiB          [emitted]              
+[1] 772a0f14c850c8b0dfe283a95857583e.woff2   13.3 KiB          [emitted]              
+[1] 7834e58fbcb63f45ce8290a432b5abce.woff2   25.1 KiB          [emitted]              
+[1]  78d1a7db1a3279fa8c0b587e2ce04bb8.woff     33 KiB          [emitted]              
+[1] 814d6a6979f050f9f43526d93b03b8ab.woff2   7.53 KiB          [emitted]              
+[1]   8559d5644fa0fc0977a99d66bb7015c4.eot   5.17 KiB          [emitted]              
+[1]   8570aee9babb103961a481b4f3b468c0.eot   67.9 KiB          [emitted]              
+[1]  85b063debeb5d5f079776ac1a9c924cb.woff   86.3 KiB          [emitted]              
+[1]   872fdfa2c03ad7aa20582602e5257c10.otf   25.7 KiB          [emitted]              
+[1]   8849f635e13c36058df1362caca19650.eot    123 KiB          [emitted]              
+[1]  90ca1fdea31539237f4f424767bd9631.woff    107 KiB          [emitted]              
+[1]   9230982faf6ed4d1dab07babfb813777.ttf   33.3 KiB          [emitted]              
+[1]   92827f088b9eda87169bdc2b9888ce52.eot   53.3 KiB          [emitted]              
+[1]   94ba232b62328041e387e70c06a785dd.ttf   88.9 KiB          [emitted]              
+[1]   9cb4ca5af3eb042954ec366682a9525a.eot   16.7 KiB          [emitted]              
+[1]   9dbfa9f7a7432ce926ff67d557283eb4.otf   25.4 KiB          [emitted]              
+[1]   9f3e5f399c91e65d1f10072955705898.ttf   57.9 KiB          [emitted]              
+[1] 9f8c2c2987f3f9e9390698204d5bc023.woff2   11.4 KiB          [emitted]              
+[1]   9ff8ed9d73f06e3b7183a58dd183d286.jpg   47.7 KiB          [emitted]              
+[1]  a188c2f768ce5033d3f5d47be7280e25.woff   31.3 KiB          [emitted]              
+[1]   a335ac6654da08d4a0a46b3a9fc48e3b.ttf    215 KiB          [emitted]              
+[1] a5c190fb1bd3d0861e4247af033dedd5.woff2   26.9 KiB          [emitted]              
+[1]   a69209d90e741553f62e8b920c464f20.svg    8.6 KiB          [emitted]              
+[1]                                app.css    184 KiB     app  [emitted]              app
+[1]   b1161bce5381a5fa7aacc073e1a01dd3.ttf    188 KiB          [emitted]              
+[1]  b51832ee9a0a0325cdfee3177d3bf3ba.woff   58.4 KiB          [emitted]              
+[1]   b6579220162705be426ad4db0dc43f6b.eot   33.6 KiB          [emitted]              
+[1]   b78843047ece07fc9a36dd16bbe70af7.otf     24 KiB          [emitted]              
+[1] bc4fde28999efe68109abd4b8a8510f2.woff2   43.6 KiB          [emitted]              
+[1]   bf9656c02c52f178d1090664bf694feb.png   10.7 KiB          [emitted]              
+[1]   c406a021f3e1187bb6bed1e93da4672e.ttf     22 KiB          [emitted]              
+[1]  d0aea1a0975b1fafce16162cf4727bda.woff    9.3 KiB          [emitted]              
+[1]  d1509f06bff29a63dfd9e5238d75096d.woff   75.3 KiB          [emitted]              
+[1]  d15bfec4aecf39221f7084ab841fc442.woff    3.3 KiB          [emitted]              
+[1]               d4fbb12406897e900b022.js   1.33 KiB       2  [emitted] [immutable]  
+[1] d56bcde17a92072b9b88d0c97d673484.woff2   75.9 KiB          [emitted]              
+[1]   d5c46b134c17b2138dcd1bb0efa67049.ttf    159 KiB          [emitted]              
+[1]   d7b3487c50456791d034d77c7b48fcf7.ttf   67.7 KiB          [emitted]              
+[1]  db525089f5101b59a66184d109e6f917.woff   96.1 KiB          [emitted]              
+[1]   e20945d7c929279ef7a6f1db184a4470.ttf   55.6 KiB          [emitted]              
+[1] e3c67aef32bd3c81110b834f8b747b39.woff2   3.75 KiB          [emitted]              
+[1]   ea719e6d7484daca7a87dfa2e9ca6622.png    131 KiB          [emitted]              
+[1]  ebbb65ab3106282c8b4503761fca679c.woff   12.6 KiB          [emitted]              
+[1]   ee806952989c4df14c2d24eb930c39ca.svg    112 KiB          [emitted]              
+[1]  f069e5db447692e64f06a6c2dcd7ae0f.woff   4.79 KiB          [emitted]              
+[1]   f558d3dfca7ce9d2c33f2b95527c4843.eot   89.1 KiB          [emitted]              
+[1]   f6805ba6e16d08fe09138ca28525621f.ttf    143 KiB          [emitted]              
+[1]                            favicon.ico    454 KiB          [emitted]              
+[1]   fe0f94fcf8215edfba354de24a7e8430.eot   7.93 KiB          [emitted]              
+[1]                             index.html  906 bytes          [emitted]              
+[1]                                  sw.js    909 KiB          [emitted]              
+[1] Entrypoint app = app.css 28fd74d4e33659b3a5b5app.js
+[1] [0] multi (webpack)-dev-server/client?http://0.0.0.0:9000 @babel/polyfill ./src/client/index.js 52 bytes {app} [built]
+[1] [./node_modules/@babel/polyfill/lib/index.js] 686 bytes {app} [built]
+[1] [./node_modules/@babel/polyfill/lib/noConflict.js] 567 bytes {app} [built]
+[1] [./node_modules/core-js/library/fn/global.js] 87 bytes {app} [built]
+[1] [./node_modules/react-dom/index.js] 1.33 KiB {app} [built]
+[1] [./node_modules/react/index.js] 190 bytes {app} [built]
+[1] [./node_modules/strip-ansi/index.js] 161 bytes {app} [built]
+[1] [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:9000] (webpack)-dev-server/client?http://0.0.0.0:9000 4.29 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {app} [built]
+[1] [./src/client/index.js] 424 bytes {app} [built]
+[1]     + 644 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]     [./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html] 990 bytes {0} [built]
+[1]     [./node_modules/lodash/lodash.js] 530 KiB {0} [built]
+[1]     [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {0} [built]
+[1]     [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 497 bytes {0} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/bucket/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/bucket/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/bucket/style.css 18.6 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/base/calendarDay/calendarDayStyle.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/base/calendarDay/calendarDayStyle.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/base/calendarDay/calendarDayStyle.css 46.1 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/base/calendarStyle.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/base/calendarStyle.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/base/calendarStyle.css 11.8 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/dialog/dialog.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/dialog/dialog.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/dialog/dialog.css 6.69 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/collapsible/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/collapsible/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/collapsible/style.css 5.62 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/creditcard/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/creditcard/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/creditcard/style.css 96.5 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/paginator/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/paginator/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/paginator/style.css 3.78 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/_theme.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/_theme.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/_theme.scss 1010 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/getUrl.js] 830 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]         + 73 hidden modules
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/variables/_wedding-variables.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/variables/_wedding-variables.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/variables/_wedding-variables.scss 17 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/wedding-theme.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/wedding-theme.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/wedding-theme.scss 1.9 MiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/getUrl.js] 830 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/amex.png] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/mastercard.png] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/visa.png] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]         + 76 hidden modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]     [./node_modules/@babel/polyfill/lib/index.js] 686 bytes {0} [built]
+[1]     [./node_modules/@babel/polyfill/lib/noConflict.js] 567 bytes {0} [built]
+[1]     [./node_modules/core-js/es6/index.js] 5.78 KiB {0} [built]
+[1]     [./node_modules/core-js/fn/array/flat-map.js] 108 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/array/includes.js] 109 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/entries.js] 109 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/get-own-property-descriptors.js] 148 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/values.js] 107 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/promise/finally.js] 166 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/string/pad-end.js] 108 bytes {0} [built]
+[1]     [./node_modules/core-js/library/fn/global.js] 87 bytes {0} [built]
+[1]     [./node_modules/url-parse/index.js] 12.4 KiB {0} [built]
+[1]     [./src/server/libraries/ResponseFormatter.js] 3.73 KiB {0} [built]
+[1]     [./src/services/fetchHandler.js] 7.62 KiB {0} [built]
+[1]     [./src/services/serviceWorker.js] 393 bytes {0} [built]
+[1]         + 299 hidden modules
+[1] ℹ ｢wdm｣: Compiled successfully.^C[0] npm run server exited with code SIGINT
+[1] npm run client exited with code SIGINT
+
+
+  ༆ ixicale༆  ✘  ⎣12:26:51⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.07.09.1                                                                                                         hostname: [ix]
+Cambiado a rama 'pre.dev.2020.07.09.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.07.09.1'.
+
+  ༆ ixicale༆   ⎣12:26:54⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+gipl                                                                                                                             hostname: [ix]
+gime Ya está actualizado.
+
+  ༆ ixicale༆   ⎣12:27:00⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+gimex                                                                                                                            hostname: [ix]
+Actualizando 5f4e969f..38126f56
+Fast-forward
+ src/client/components/index.js                           |  1 +
+ src/client/docs/styles/pages/my-wedding/_my-wedding.scss |  1 +
+ src/client/views/familygifts/index.js                    | 33 +++++++++++++++++++++++++--------
+ 3 files changed, 27 insertions(+), 8 deletions(-)
+
+  ༆ ixicale༆   ⎣12:27:01⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ↑2 ✔ 
+gips                                                                                                                             hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-service-web.git
+   5f4e969f..38126f56  pre.dev.2020.07.09.1 -> pre.dev.2020.07.09.1
+
+  ༆ ixicale༆   ⎣12:27:10⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+gicx                                                                                                                             hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣12:27:14⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.07.09.1                                                                                                         hostname: [ix]
+Cambiado a rama 'pre.dev.2020.07.09.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.07.09.1'.
+
+  ༆ ixicale༆   ⎣13:00:25⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ gipl                                                                                                                             hostname: [ix]
+gicYa está actualizado.
+
+  ༆ ixicale༆   ⎣13:00:28⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+gicx                                                                                                                             hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣13:00:31⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gime pre.dev.2020.07.09.1                                                                                                        hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣13:00:34⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.07.09.1                                                                                                         hostname: [ix]
+Cambiado a rama 'pre.dev.2020.07.09.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.07.09.1'.
+
+  ༆ ixicale༆   ⎣13:00:37⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+gimex                                                                                                                            hostname: [ix]
+Actualizando 38126f56..b8bc32b6
+Fast-forward
+ src/client/views/familygifts/index.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+  ༆ ixicale༆   ⎣13:00:38⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ↑1 ✔ 
+gips                                                                                                                             hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-service-web.git
+   38126f56..b8bc32b6  pre.dev.2020.07.09.1 -> pre.dev.2020.07.09.1
+
+  ༆ ixicale༆   ⎣13:00:44⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+gicx                                                                                                                             hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣13:02:09⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+npm run dev                                                                                                                      hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] 
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.development=true
+[1] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Run mode: dev
+[0] Listening on port 8080!
+[1] ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+[1] ℹ ｢wds｣: webpack output is served from /
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] ℹ ｢wdm｣: Hash: f6b886ecf9da74bbd756
+[1] Version: webpack 4.43.0
+[1] Time: 12792ms
+[1] Built at: 2020-10-21 13:23:33
+[1]                                  Asset       Size  Chunks                         Chunk Names
+[1]                                  0.css   1.19 MiB       0  [emitted]              
+[1]   01c1d4a2465f5038ba02952d271b8241.eot   99.1 KiB          [emitted]              
+[1] 0425d661f34ffa46604c9dfa344c03bb.woff2   73.5 KiB          [emitted]              
+[1]   08d519ba55c33fdb7a2928612e092646.ttf   7.71 KiB          [emitted]              
+[1]   0f35616cbb27428d7e988fbd8255b788.ttf   44.1 KiB          [emitted]              
+[1]                                  1.css   22.3 KiB       1  [emitted]              
+[1]  14f22fbed8146dbf3b497bb32d8491b0.woff   16.4 KiB          [emitted]              
+[1]               16cfd6043006d13c540e0.js   1.29 KiB       0  [emitted] [immutable]  
+[1]   1898ebd2e3162e7ca8627073d865b893.eot    188 KiB          [emitted]              
+[1]   1899ce309b02a28889f1efb1f7b9208b.png   11.8 KiB          [emitted]              
+[1]   189c0326f75931886d5b60cde8b5628f.ttf    127 KiB          [emitted]              
+[1]  18ea6a671ba47c84656f069a157b43fc.woff   99.3 KiB          [emitted]              
+[1]  1e3f731438bd261b50550bdf1ec77866.woff     33 KiB          [emitted]              
+[1] 1fcf2943496a113eb3be1db3551e840a.woff2   55.2 KiB          [emitted]              
+[1]                                  2.css   2.25 MiB       2  [emitted]              
+[1]   232403f5c7d60dc48d8e50d68373c311.png   19.2 KiB          [emitted]              
+[1]   25ba23a7b18be825303d3338ed22a0c4.ttf   4.96 KiB          [emitted]              
+[1]   2778106629be4e3a63a01bbe0eaf2ec0.ttf    219 KiB          [emitted]              
+[1]   280b9347ffc996c1d302ce1d29fffa41.ttf   58.4 KiB          [emitted]              
+[1]   288cbe9bd05f2ffde8f3b7c85668b9c9.png  668 bytes          [emitted]              
+[1]  2ba1dd96c3ae2a4936133d98f158df9e.woff   46.9 KiB          [emitted]              
+[1]   2d1bf3fb16dddf1f1724ba1d7f0ffb19.png   1.23 KiB          [emitted]              
+[1]   2d568ce5cf29ab70a856457b9afb7ed7.eot   58.6 KiB          [emitted]              
+[1]   2d7a612b847283f93314eb131fb995d9.png  846 bytes          [emitted]              
+[1] 2e30265a0e131e6f999a7268d0a3854e.woff2   13.9 KiB          [emitted]              
+[1]   2f0e17de5d4309e674717298e674b722.png   1.97 KiB          [emitted]              
+[1]   32be215fba9b3709b12258c14cc866a2.png   5.36 KiB          [emitted]              
+[1]   36b5bab58a18b9c924861a4ccbf1a790.ttf    160 KiB          [emitted]              
+[1]  3b07923576139de0dd8acfd3f511a023.woff   19.8 KiB          [emitted]              
+[1]   3dba10e1afb786db6704ced33d742cfe.eot    144 KiB          [emitted]              
+[1]   3f7dfc6dfc8a28e0d7aa56d6712cf8e9.svg   30.2 KiB          [emitted]              
+[1]   409ed0b3bf285a0d43e1e482b9a7016f.ttf    123 KiB          [emitted]              
+[1] 413b970d129b05f9eb4cb51e42249160.woff2   30.6 KiB          [emitted]              
+[1]   451b51d8700fb035bcaaa9e8710b384a.eot    128 KiB          [emitted]              
+[1]   465b7979e1ef862c417b50b814b45892.eot   22.2 KiB          [emitted]              
+[1]   475103cd4dca33d33d04a7c34b016385.eot    219 KiB          [emitted]              
+[1] 4ac13350261f8d16d984161187d672ae.woff2   23.6 KiB          [emitted]              
+[1] 4cc04a31c42f2f9d951547bbce75960b.woff2   73.8 KiB          [emitted]              
+[1] 4d7c78ec9d2b5b2cb3389d721e2f6f81.woff2   8.97 KiB          [emitted]              
+[1]   55c31272f83e40502e2a396dc3e77c69.png   1.97 KiB          [emitted]              
+[1]   5673da52c98bb6cb33ada5aaf649703e.ttf    155 KiB          [emitted]              
+[1] 579bf4eef6a8c516b5fedafaad7e9268.woff2   2.54 KiB          [emitted]              
+[1]   5d52a72af83e362533d9718699c19611.ttf   16.5 KiB          [emitted]              
+[1]   5f4170aeb98cf7d22524bbdccf50fb73.ttf   59.4 KiB          [emitted]              
+[1]   6073c4127e04bc29b7e75decdc4878ba.eot   44.3 KiB          [emitted]              
+[1]   60846106f092bc5d8ad6579d8bee7f49.svg   15.8 KiB          [emitted]              
+[1] 609d66e64dfb0bd7bb88439ea18e1f85.woff2   71.4 KiB          [emitted]              
+[1]  617ff7daff2c7de52879c4371cb3cfa9.woff   38.7 KiB          [emitted]              
+[1]             6f5935e53064d8b5967fapp.js   9.28 MiB     app  [emitted] [immutable]  app
+[1]   6f8d05823cf433aaa565380dd9552560.png   1.63 KiB          [emitted]              
+[1]   7402deacd4aff7ab10fcc589888b1e3d.ttf   98.9 KiB          [emitted]              
+[1]   763f2f687131adf60e152c41556a711c.eot    215 KiB          [emitted]              
+[1] 772a0f14c850c8b0dfe283a95857583e.woff2   13.3 KiB          [emitted]              
+[1] 7834e58fbcb63f45ce8290a432b5abce.woff2   25.1 KiB          [emitted]              
+[1]  78d1a7db1a3279fa8c0b587e2ce04bb8.woff     33 KiB          [emitted]              
+[1] 814d6a6979f050f9f43526d93b03b8ab.woff2   7.53 KiB          [emitted]              
+[1]   8559d5644fa0fc0977a99d66bb7015c4.eot   5.17 KiB          [emitted]              
+[1]   8570aee9babb103961a481b4f3b468c0.eot   67.9 KiB          [emitted]              
+[1]  85b063debeb5d5f079776ac1a9c924cb.woff   86.3 KiB          [emitted]              
+[1]   872fdfa2c03ad7aa20582602e5257c10.otf   25.7 KiB          [emitted]              
+[1]               87bf2104332a81fcb5201.js   1.41 KiB       1  [emitted] [immutable]  
+[1]   8849f635e13c36058df1362caca19650.eot    123 KiB          [emitted]              
+[1]  90ca1fdea31539237f4f424767bd9631.woff    107 KiB          [emitted]              
+[1]   9230982faf6ed4d1dab07babfb813777.ttf   33.3 KiB          [emitted]              
+[1]   92827f088b9eda87169bdc2b9888ce52.eot   53.3 KiB          [emitted]              
+[1]   94ba232b62328041e387e70c06a785dd.ttf   88.9 KiB          [emitted]              
+[1]   9cb4ca5af3eb042954ec366682a9525a.eot   16.7 KiB          [emitted]              
+[1]   9dbfa9f7a7432ce926ff67d557283eb4.otf   25.4 KiB          [emitted]              
+[1]   9f3e5f399c91e65d1f10072955705898.ttf   57.9 KiB          [emitted]              
+[1] 9f8c2c2987f3f9e9390698204d5bc023.woff2   11.4 KiB          [emitted]              
+[1]   9ff8ed9d73f06e3b7183a58dd183d286.jpg   47.7 KiB          [emitted]              
+[1]  a188c2f768ce5033d3f5d47be7280e25.woff   31.3 KiB          [emitted]              
+[1]   a335ac6654da08d4a0a46b3a9fc48e3b.ttf    215 KiB          [emitted]              
+[1] a5c190fb1bd3d0861e4247af033dedd5.woff2   26.9 KiB          [emitted]              
+[1]   a69209d90e741553f62e8b920c464f20.svg    8.6 KiB          [emitted]              
+[1]                                app.css    184 KiB     app  [emitted]              app
+[1]   b1161bce5381a5fa7aacc073e1a01dd3.ttf    188 KiB          [emitted]              
+[1]  b51832ee9a0a0325cdfee3177d3bf3ba.woff   58.4 KiB          [emitted]              
+[1]   b6579220162705be426ad4db0dc43f6b.eot   33.6 KiB          [emitted]              
+[1]   b78843047ece07fc9a36dd16bbe70af7.otf     24 KiB          [emitted]              
+[1] bc4fde28999efe68109abd4b8a8510f2.woff2   43.6 KiB          [emitted]              
+[1]   bf9656c02c52f178d1090664bf694feb.png   10.7 KiB          [emitted]              
+[1]   c406a021f3e1187bb6bed1e93da4672e.ttf     22 KiB          [emitted]              
+[1]  d0aea1a0975b1fafce16162cf4727bda.woff    9.3 KiB          [emitted]              
+[1]  d1509f06bff29a63dfd9e5238d75096d.woff   75.3 KiB          [emitted]              
+[1]  d15bfec4aecf39221f7084ab841fc442.woff    3.3 KiB          [emitted]              
+[1] d56bcde17a92072b9b88d0c97d673484.woff2   75.9 KiB          [emitted]              
+[1]   d5c46b134c17b2138dcd1bb0efa67049.ttf    159 KiB          [emitted]              
+[1]   d7b3487c50456791d034d77c7b48fcf7.ttf   67.7 KiB          [emitted]              
+[1]  db525089f5101b59a66184d109e6f917.woff   96.1 KiB          [emitted]              
+[1]   e20945d7c929279ef7a6f1db184a4470.ttf   55.6 KiB          [emitted]              
+[1] e3c67aef32bd3c81110b834f8b747b39.woff2   3.75 KiB          [emitted]              
+[1]   ea719e6d7484daca7a87dfa2e9ca6622.png    131 KiB          [emitted]              
+[1]  ebbb65ab3106282c8b4503761fca679c.woff   12.6 KiB          [emitted]              
+[1]   ee806952989c4df14c2d24eb930c39ca.svg    112 KiB          [emitted]              
+[1]  f069e5db447692e64f06a6c2dcd7ae0f.woff   4.79 KiB          [emitted]              
+[1]   f558d3dfca7ce9d2c33f2b95527c4843.eot   89.1 KiB          [emitted]              
+[1]   f6805ba6e16d08fe09138ca28525621f.ttf    143 KiB          [emitted]              
+[1]                            favicon.ico    454 KiB          [emitted]              
+[1]               fcd7a42d0eff0a1717982.js   1.33 KiB       2  [emitted] [immutable]  
+[1]   fe0f94fcf8215edfba354de24a7e8430.eot   7.93 KiB          [emitted]              
+[1]                             index.html  906 bytes          [emitted]              
+[1]                                  sw.js    909 KiB          [emitted]              
+[1] Entrypoint app = app.css 6f5935e53064d8b5967fapp.js
+[1] [0] multi (webpack)-dev-server/client?http://0.0.0.0:9000 @babel/polyfill ./src/client/index.js 52 bytes {app} [built]
+[1] [./node_modules/@babel/polyfill/lib/index.js] 686 bytes {app} [built]
+[1] [./node_modules/@babel/polyfill/lib/noConflict.js] 567 bytes {app} [built]
+[1] [./node_modules/core-js/library/fn/global.js] 87 bytes {app} [built]
+[1] [./node_modules/react-dom/index.js] 1.33 KiB {app} [built]
+[1] [./node_modules/react/index.js] 190 bytes {app} [built]
+[1] [./node_modules/strip-ansi/index.js] 161 bytes {app} [built]
+[1] [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:9000] (webpack)-dev-server/client?http://0.0.0.0:9000 4.29 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {app} [built]
+[1] [./src/client/index.js] 424 bytes {app} [built]
+[1]     + 644 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]     [./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html] 990 bytes {0} [built]
+[1]     [./node_modules/lodash/lodash.js] 530 KiB {0} [built]
+[1]     [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {0} [built]
+[1]     [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 497 bytes {0} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/bucket/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/bucket/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/bucket/style.css 18.6 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/base/calendarDay/calendarDayStyle.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/base/calendarDay/calendarDayStyle.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/base/calendarDay/calendarDayStyle.css 46.1 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/base/calendarStyle.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/base/calendarStyle.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/base/calendarStyle.css 11.8 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/dialog/dialog.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/dialog/dialog.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/dialog/dialog.css 6.69 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/collapsible/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/collapsible/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/collapsible/style.css 5.62 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/creditcard/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/creditcard/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/creditcard/style.css 96.5 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/paginator/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/paginator/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/paginator/style.css 3.78 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/_theme.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/_theme.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/_theme.scss 1010 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/getUrl.js] 830 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]         + 73 hidden modules
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/variables/_wedding-variables.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/variables/_wedding-variables.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/variables/_wedding-variables.scss 17 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/wedding-theme.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/wedding-theme.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/wedding-theme.scss 1.9 MiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/getUrl.js] 830 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/amex.png] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/mastercard.png] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/visa.png] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]         + 76 hidden modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]     [./node_modules/@babel/polyfill/lib/index.js] 686 bytes {0} [built]
+[1]     [./node_modules/@babel/polyfill/lib/noConflict.js] 567 bytes {0} [built]
+[1]     [./node_modules/core-js/es6/index.js] 5.78 KiB {0} [built]
+[1]     [./node_modules/core-js/fn/array/flat-map.js] 108 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/array/includes.js] 109 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/entries.js] 109 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/get-own-property-descriptors.js] 148 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/values.js] 107 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/promise/finally.js] 166 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/string/pad-end.js] 108 bytes {0} [built]
+[1]     [./node_modules/core-js/library/fn/global.js] 87 bytes {0} [built]
+[1]     [./node_modules/url-parse/index.js] 12.4 KiB {0} [built]
+[1]     [./src/server/libraries/ResponseFormatter.js] 3.73 KiB {0} [built]
+[1]     [./src/services/fetchHandler.js] 7.62 KiB {0} [built]
+[1]     [./src/services/serviceWorker.js] 393 bytes {0} [built]
+[1]         + 299 hidden modules
+[1] ℹ ｢wdm｣: Compiled successfully.[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: 78e5a24ac93f21d7d31e
+[1] Version: webpack 4.43.0
+[1] Time: 1993ms
+[1] Built at: 2020-10-21 13:37:23
+[1]                      Asset       Size  Chunks                         Chunk Names
+[1]                      0.css   1.19 MiB       0  [emitted]              
+[1]                      1.css   22.3 KiB       1  [emitted]              
+[1] 1a4b4b957576d4b2a0c8app.js   9.28 MiB     app  [emitted] [immutable]  app
+[1]                      2.css   2.25 MiB       2  [emitted]              
+[1]   25edc39e33061935dc632.js   1.33 KiB       2  [emitted] [immutable]  
+[1]                    app.css    184 KiB     app  [emitted]              app
+[1]   c263c6b5a697dd26eba40.js   1.29 KiB       0  [emitted] [immutable]  
+[1]   f8998b03746165af46731.js   1.41 KiB       1  [emitted] [immutable]  
+[1]                favicon.ico    454 KiB          [emitted]              
+[1]                 index.html  906 bytes          [emitted]              
+[1]                      sw.js    909 KiB          [emitted]              
+[1]  + 92 hidden assets
+[1] Entrypoint app = app.css 1a4b4b957576d4b2a0c8app.js
+[1] [./src/client/views/home/StatusPayment.js] 5.65 KiB {app} [built]
+[1]     + 658 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: f3c16b31172e43efbd07
+[1] Version: webpack 4.43.0
+[1] Time: 1638ms
+[1] Built at: 2020-10-21 14:34:32
+[1]                      Asset       Size  Chunks                         Chunk Names
+[1] a089557b285c6d706e8aapp.js   9.28 MiB     app  [emitted] [immutable]  app
+[1]                favicon.ico    454 KiB          [emitted]              
+[1]                 index.html  906 bytes          [emitted]              
+[1]                      sw.js    909 KiB          [emitted]              
+[1]  + 99 hidden assets
+[1] Entrypoint app = app.css a089557b285c6d706e8aapp.js
+[1] [./src/client/views/home/StatusPayment.js] 5.65 KiB {app} [built]
+[1]     + 658 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: 714c1c56e1651ca4594b
+[1] Version: webpack 4.43.0
+[1] Time: 283ms
+[1] Built at: 2020-10-21 14:34:42
+[1]       Asset       Size  Chunks             Chunk Names
+[1] favicon.ico    454 KiB          [emitted]  
+[1]  index.html  906 bytes          [emitted]  
+[1]       sw.js    909 KiB          [emitted]  
+[1]  + 100 hidden assets
+[1] Entrypoint app = app.css a089557b285c6d706e8aapp.js
+[1] [./src/client/views/home/StatusPayment.js] 5.65 KiB {app} [built]
+[1]     + 658 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: f3c16b31172e43efbd07
+[1] Version: webpack 4.43.0
+[1] Time: 360ms
+[1] Built at: 2020-10-21 14:36:28
+[1]       Asset       Size  Chunks             Chunk Names
+[1] favicon.ico    454 KiB          [emitted]  
+[1]  index.html  906 bytes          [emitted]  
+[1]       sw.js    909 KiB          [emitted]  
+[1]  + 100 hidden assets
+[1] Entrypoint app = app.css a089557b285c6d706e8aapp.js
+[1] [./src/client/views/home/StatusPayment.js] 5.65 KiB {app} [built]
+[1]     + 658 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.^C[0] npm run server exited with code SIGINT
+[1] npm run client exited with code SIGINT
+
+
+  ༆ ixicale༆  ✘  ⎣15:40:42⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.07.09.1                                                                                                         hostname: [ix]
+Cambiado a rama 'pre.dev.2020.07.09.1'
+Tu rama está detrás de 'origin/pre.dev.2020.07.09.1' por 2 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣15:40:44⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ↓2 ✔ 
+gipl                                                                                                                             hostname: [ix]
+gicxremote: Enumerating objects: 27, done.
+remote: Counting objects: 100% (27/27), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 27 (delta 17), reused 26 (delta 16), pack-reused 0
+Desempaquetando objetos: 100% (27/27), 2.94 KiB | 167.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-service-web
+   b073e3cb..043ebc00  pre.dev.2020.07.09.1 -> origin/pre.dev.2020.07.09.1
+   b073e3cb..96b00272  amatos               -> origin/amatos
+   5f4e969f..043ebc00  avsantos             -> origin/avsantos
+Actualizando b8bc32b6..043ebc00
+Fast-forward
+ src/client/views/catalog/index.js                 | 15 ++++++++++++---
+ src/client/views/catalog/views/AdvancedDetails.js | 64 +++++++++++++++++++++++++---------------------------------------
+ 2 files changed, 37 insertions(+), 42 deletions(-)
+
+  ༆ ixicale༆   ⎣15:40:48⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+gicx                                                                                                                             hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣15:40:49⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gime pre.dev.2020.07.09.1                                                                                                        hostname: [ix]
+fatal: No se puedo leer de '.git/MERGE_MSG': No existe el archivo o el directorio
+
+  ༆ ixicale༆  ✘  ⎣15:41:13⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+                                                                                                                                 hostname: [ix]
+
+  ༆ ixicale༆  ✘  ⎣15:41:15⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ gis                                                                                                                              hostname: [ix]
+En la rama ixicale
+Tu rama está actualizada con 'origin/ixicale'.
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣15:41:18⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.07.09.1                                                                                                         hostname: [ix]
+Cambiado a rama 'pre.dev.2020.07.09.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.07.09.1'.
+
+  ༆ ixicale༆   ⎣15:41:21⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+gimex                                                                                                                            hostname: [ix]
+Actualizando 043ebc00..fb2c956a
+Fast-forward
+ src/client/views/home/StatusPayment.js | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+  ༆ ixicale༆   ⎣15:41:25⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ↑2 ✔ 
+gis;git show                                                                                                                     hostname: [ix]
+En la rama pre.dev.2020.07.09.1
+Tu rama está adelantada a 'origin/pre.dev.2020.07.09.1' por 2 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣15:41:29⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ↑2 ✔ 
+gips                                                                                                                             hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-service-web.git
+   043ebc00..fb2c956a  pre.dev.2020.07.09.1 -> pre.dev.2020.07.09.1
+
+  ༆ ixicale༆   ⎣15:41:35⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+git fetch --all                                                                                                                  hostname: [ix]
+Extrayendo origin
+
+  ༆ ixicale༆   ⎣16:25:14⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+                                                                                                                                 hostname: [ix]
+
+  ༆ ixicale༆   ⎣16:25:16⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ gipl                                                                                                                             hostname: [ix]
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 10 (delta 7), reused 10 (delta 7), pack-reused 0
+Desempaquetando objetos: 100% (10/10), 1.09 KiB | 112.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-service-web
+   46914e08..22ac5e27  qa_wedding                   -> origin/qa_wedding
+ * [nuevo tag]         clv-service-web.2020.10.21.1 -> clv-service-web.2020.10.21.1
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣16:55:55⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+gicx                                                                                                                             hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣16:56:01⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gime pre.dev.2020.07.09.1                                                                                                        hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣16:56:07⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+npm run dev                                                                                                                      hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] 
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.development=true
+[1] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Run mode: dev
+[0] Listening on port 8080!
+[1] ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+[1] ℹ ｢wds｣: webpack output is served from /
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] ℹ ｢wdm｣: Hash: 1d6ecb417462897534bf
+[1] Version: webpack 4.43.0
+[1] Time: 12727ms
+[1] Built at: 2020-10-21 16:56:24
+[1]                                  Asset       Size  Chunks                         Chunk Names
+[1]                                  0.css   1.19 MiB       0  [emitted]              
+[1]   01c1d4a2465f5038ba02952d271b8241.eot   99.1 KiB          [emitted]              
+[1] 0425d661f34ffa46604c9dfa344c03bb.woff2   73.5 KiB          [emitted]              
+[1]   08d519ba55c33fdb7a2928612e092646.ttf   7.71 KiB          [emitted]              
+[1]   0f35616cbb27428d7e988fbd8255b788.ttf   44.1 KiB          [emitted]              
+[1]                                  1.css   22.3 KiB       1  [emitted]              
+[1]  14f22fbed8146dbf3b497bb32d8491b0.woff   16.4 KiB          [emitted]              
+[1]   1898ebd2e3162e7ca8627073d865b893.eot    188 KiB          [emitted]              
+[1]   1899ce309b02a28889f1efb1f7b9208b.png   11.8 KiB          [emitted]              
+[1]   189c0326f75931886d5b60cde8b5628f.ttf    127 KiB          [emitted]              
+[1]  18ea6a671ba47c84656f069a157b43fc.woff   99.3 KiB          [emitted]              
+[1]  1e3f731438bd261b50550bdf1ec77866.woff     33 KiB          [emitted]              
+[1] 1fcf2943496a113eb3be1db3551e840a.woff2   55.2 KiB          [emitted]              
+[1]                                  2.css   2.25 MiB       2  [emitted]              
+[1]   232403f5c7d60dc48d8e50d68373c311.png   19.2 KiB          [emitted]              
+[1]   25ba23a7b18be825303d3338ed22a0c4.ttf   4.96 KiB          [emitted]              
+[1]   2778106629be4e3a63a01bbe0eaf2ec0.ttf    219 KiB          [emitted]              
+[1]   280b9347ffc996c1d302ce1d29fffa41.ttf   58.4 KiB          [emitted]              
+[1]   288cbe9bd05f2ffde8f3b7c85668b9c9.png  668 bytes          [emitted]              
+[1]  2ba1dd96c3ae2a4936133d98f158df9e.woff   46.9 KiB          [emitted]              
+[1]   2d1bf3fb16dddf1f1724ba1d7f0ffb19.png   1.23 KiB          [emitted]              
+[1]   2d568ce5cf29ab70a856457b9afb7ed7.eot   58.6 KiB          [emitted]              
+[1]   2d7a612b847283f93314eb131fb995d9.png  846 bytes          [emitted]              
+[1] 2e30265a0e131e6f999a7268d0a3854e.woff2   13.9 KiB          [emitted]              
+[1]   2f0e17de5d4309e674717298e674b722.png   1.97 KiB          [emitted]              
+[1]   32be215fba9b3709b12258c14cc866a2.png   5.36 KiB          [emitted]              
+[1]   36b5bab58a18b9c924861a4ccbf1a790.ttf    160 KiB          [emitted]              
+[1]  3b07923576139de0dd8acfd3f511a023.woff   19.8 KiB          [emitted]              
+[1]   3dba10e1afb786db6704ced33d742cfe.eot    144 KiB          [emitted]              
+[1]   3f7dfc6dfc8a28e0d7aa56d6712cf8e9.svg   30.2 KiB          [emitted]              
+[1]   409ed0b3bf285a0d43e1e482b9a7016f.ttf    123 KiB          [emitted]              
+[1] 413b970d129b05f9eb4cb51e42249160.woff2   30.6 KiB          [emitted]              
+[1]   451b51d8700fb035bcaaa9e8710b384a.eot    128 KiB          [emitted]              
+[1]   465b7979e1ef862c417b50b814b45892.eot   22.2 KiB          [emitted]              
+[1]   475103cd4dca33d33d04a7c34b016385.eot    219 KiB          [emitted]              
+[1] 4ac13350261f8d16d984161187d672ae.woff2   23.6 KiB          [emitted]              
+[1] 4cc04a31c42f2f9d951547bbce75960b.woff2   73.8 KiB          [emitted]              
+[1] 4d7c78ec9d2b5b2cb3389d721e2f6f81.woff2   8.97 KiB          [emitted]              
+[1]             55a98919523b01a10377app.js   9.29 MiB     app  [emitted] [immutable]  app
+[1]   55c31272f83e40502e2a396dc3e77c69.png   1.97 KiB          [emitted]              
+[1]   5673da52c98bb6cb33ada5aaf649703e.ttf    155 KiB          [emitted]              
+[1] 579bf4eef6a8c516b5fedafaad7e9268.woff2   2.54 KiB          [emitted]              
+[1]   5d52a72af83e362533d9718699c19611.ttf   16.5 KiB          [emitted]              
+[1]   5f4170aeb98cf7d22524bbdccf50fb73.ttf   59.4 KiB          [emitted]              
+[1]   6073c4127e04bc29b7e75decdc4878ba.eot   44.3 KiB          [emitted]              
+[1]   60846106f092bc5d8ad6579d8bee7f49.svg   15.8 KiB          [emitted]              
+[1] 609d66e64dfb0bd7bb88439ea18e1f85.woff2   71.4 KiB          [emitted]              
+[1]  617ff7daff2c7de52879c4371cb3cfa9.woff   38.7 KiB          [emitted]              
+[1]   6f8d05823cf433aaa565380dd9552560.png   1.63 KiB          [emitted]              
+[1]   7402deacd4aff7ab10fcc589888b1e3d.ttf   98.9 KiB          [emitted]              
+[1]   763f2f687131adf60e152c41556a711c.eot    215 KiB          [emitted]              
+[1] 772a0f14c850c8b0dfe283a95857583e.woff2   13.3 KiB          [emitted]              
+[1] 7834e58fbcb63f45ce8290a432b5abce.woff2   25.1 KiB          [emitted]              
+[1]  78d1a7db1a3279fa8c0b587e2ce04bb8.woff     33 KiB          [emitted]              
+[1]               7966d550f6d24ca1d92b1.js   1.41 KiB       1  [emitted] [immutable]  
+[1] 814d6a6979f050f9f43526d93b03b8ab.woff2   7.53 KiB          [emitted]              
+[1]   8559d5644fa0fc0977a99d66bb7015c4.eot   5.17 KiB          [emitted]              
+[1]   8570aee9babb103961a481b4f3b468c0.eot   67.9 KiB          [emitted]              
+[1]  85b063debeb5d5f079776ac1a9c924cb.woff   86.3 KiB          [emitted]              
+[1]   872fdfa2c03ad7aa20582602e5257c10.otf   25.7 KiB          [emitted]              
+[1]   8849f635e13c36058df1362caca19650.eot    123 KiB          [emitted]              
+[1]  90ca1fdea31539237f4f424767bd9631.woff    107 KiB          [emitted]              
+[1]   9230982faf6ed4d1dab07babfb813777.ttf   33.3 KiB          [emitted]              
+[1]   92827f088b9eda87169bdc2b9888ce52.eot   53.3 KiB          [emitted]              
+[1]   94ba232b62328041e387e70c06a785dd.ttf   88.9 KiB          [emitted]              
+[1]   9cb4ca5af3eb042954ec366682a9525a.eot   16.7 KiB          [emitted]              
+[1]   9dbfa9f7a7432ce926ff67d557283eb4.otf   25.4 KiB          [emitted]              
+[1]   9f3e5f399c91e65d1f10072955705898.ttf   57.9 KiB          [emitted]              
+[1] 9f8c2c2987f3f9e9390698204d5bc023.woff2   11.4 KiB          [emitted]              
+[1]   9ff8ed9d73f06e3b7183a58dd183d286.jpg   47.7 KiB          [emitted]              
+[1]  a188c2f768ce5033d3f5d47be7280e25.woff   31.3 KiB          [emitted]              
+[1]   a335ac6654da08d4a0a46b3a9fc48e3b.ttf    215 KiB          [emitted]              
+[1] a5c190fb1bd3d0861e4247af033dedd5.woff2   26.9 KiB          [emitted]              
+[1]   a69209d90e741553f62e8b920c464f20.svg    8.6 KiB          [emitted]              
+[1]                                app.css    184 KiB     app  [emitted]              app
+[1]   b1161bce5381a5fa7aacc073e1a01dd3.ttf    188 KiB          [emitted]              
+[1]  b51832ee9a0a0325cdfee3177d3bf3ba.woff   58.4 KiB          [emitted]              
+[1]   b6579220162705be426ad4db0dc43f6b.eot   33.6 KiB          [emitted]              
+[1]   b78843047ece07fc9a36dd16bbe70af7.otf     24 KiB          [emitted]              
+[1] bc4fde28999efe68109abd4b8a8510f2.woff2   43.6 KiB          [emitted]              
+[1]   bf9656c02c52f178d1090664bf694feb.png   10.7 KiB          [emitted]              
+[1]   c406a021f3e1187bb6bed1e93da4672e.ttf     22 KiB          [emitted]              
+[1]  d0aea1a0975b1fafce16162cf4727bda.woff    9.3 KiB          [emitted]              
+[1]  d1509f06bff29a63dfd9e5238d75096d.woff   75.3 KiB          [emitted]              
+[1]  d15bfec4aecf39221f7084ab841fc442.woff    3.3 KiB          [emitted]              
+[1] d56bcde17a92072b9b88d0c97d673484.woff2   75.9 KiB          [emitted]              
+[1]   d5c46b134c17b2138dcd1bb0efa67049.ttf    159 KiB          [emitted]              
+[1]   d7b3487c50456791d034d77c7b48fcf7.ttf   67.7 KiB          [emitted]              
+[1]  db525089f5101b59a66184d109e6f917.woff   96.1 KiB          [emitted]              
+[1]               de3d8662c7bb78e4365a2.js   1.33 KiB       2  [emitted] [immutable]  
+[1]               df215711b0531c615bd50.js   1.29 KiB       0  [emitted] [immutable]  
+[1]   e20945d7c929279ef7a6f1db184a4470.ttf   55.6 KiB          [emitted]              
+[1] e3c67aef32bd3c81110b834f8b747b39.woff2   3.75 KiB          [emitted]              
+[1]   ea719e6d7484daca7a87dfa2e9ca6622.png    131 KiB          [emitted]              
+[1]  ebbb65ab3106282c8b4503761fca679c.woff   12.6 KiB          [emitted]              
+[1]   ee806952989c4df14c2d24eb930c39ca.svg    112 KiB          [emitted]              
+[1]  f069e5db447692e64f06a6c2dcd7ae0f.woff   4.79 KiB          [emitted]              
+[1]   f558d3dfca7ce9d2c33f2b95527c4843.eot   89.1 KiB          [emitted]              
+[1]   f6805ba6e16d08fe09138ca28525621f.ttf    143 KiB          [emitted]              
+[1]                            favicon.ico    454 KiB          [emitted]              
+[1]   fe0f94fcf8215edfba354de24a7e8430.eot   7.93 KiB          [emitted]              
+[1]                             index.html  906 bytes          [emitted]              
+[1]                                  sw.js    909 KiB          [emitted]              
+[1] Entrypoint app = app.css 55a98919523b01a10377app.js
+[1] [0] multi (webpack)-dev-server/client?http://0.0.0.0:9000 @babel/polyfill ./src/client/index.js 52 bytes {app} [built]
+[1] [./node_modules/@babel/polyfill/lib/index.js] 686 bytes {app} [built]
+[1] [./node_modules/@babel/polyfill/lib/noConflict.js] 567 bytes {app} [built]
+[1] [./node_modules/core-js/library/fn/global.js] 87 bytes {app} [built]
+[1] [./node_modules/react-dom/index.js] 1.33 KiB {app} [built]
+[1] [./node_modules/react/index.js] 190 bytes {app} [built]
+[1] [./node_modules/strip-ansi/index.js] 161 bytes {app} [built]
+[1] [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:9000] (webpack)-dev-server/client?http://0.0.0.0:9000 4.29 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {app} [built]
+[1] [./src/client/index.js] 424 bytes {app} [built]
+[1]     + 644 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]     [./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html] 990 bytes {0} [built]
+[1]     [./node_modules/lodash/lodash.js] 530 KiB {0} [built]
+[1]     [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {0} [built]
+[1]     [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 497 bytes {0} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/bucket/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/bucket/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/bucket/style.css 18.6 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/base/calendarDay/calendarDayStyle.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/base/calendarDay/calendarDayStyle.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/base/calendarDay/calendarDayStyle.css 46.1 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/base/calendarStyle.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/base/calendarStyle.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/base/calendarStyle.css 11.8 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/dialog/dialog.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/dialog/dialog.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/dialog/dialog.css 6.69 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/collapsible/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/collapsible/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/collapsible/style.css 5.62 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/creditcard/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/creditcard/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/creditcard/style.css 96.5 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/paginator/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/paginator/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/paginator/style.css 3.78 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/_theme.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/_theme.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/_theme.scss 1010 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/getUrl.js] 830 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]         + 73 hidden modules
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/variables/_wedding-variables.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/variables/_wedding-variables.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/variables/_wedding-variables.scss 17 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/wedding-theme.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/wedding-theme.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/wedding-theme.scss 1.9 MiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/getUrl.js] 830 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/amex.png] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/mastercard.png] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/visa.png] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.ttf] 82 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff] 83 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff2] 84 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.eot] 82 bytes {mini-css-extract-plugin} [built]
+[1]         + 76 hidden modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]     [./node_modules/@babel/polyfill/lib/index.js] 686 bytes {0} [built]
+[1]     [./node_modules/@babel/polyfill/lib/noConflict.js] 567 bytes {0} [built]
+[1]     [./node_modules/core-js/es6/index.js] 5.78 KiB {0} [built]
+[1]     [./node_modules/core-js/fn/array/flat-map.js] 108 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/array/includes.js] 109 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/entries.js] 109 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/get-own-property-descriptors.js] 148 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/values.js] 107 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/promise/finally.js] 166 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/string/pad-end.js] 108 bytes {0} [built]
+[1]     [./node_modules/core-js/library/fn/global.js] 87 bytes {0} [built]
+[1]     [./node_modules/url-parse/index.js] 12.4 KiB {0} [built]
+[1]     [./src/server/libraries/ResponseFormatter.js] 3.73 KiB {0} [built]
+[1]     [./src/services/fetchHandler.js] 7.62 KiB {0} [built]
+[1]     [./src/services/serviceWorker.js] 393 bytes {0} [built]
+[1]         + 299 hidden modules
+[1] ℹ ｢wdm｣: Compiled successfully.
