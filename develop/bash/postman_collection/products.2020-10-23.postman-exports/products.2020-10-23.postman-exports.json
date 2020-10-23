@@ -1,0 +1,5052 @@
+{
+	"info": {
+		"name": "products.2020-10-23.postman-exports",
+		"schema": "/https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/local",
+			"item": [
+		{
+			"name": "/generator",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/generator/",
+							"host": ["{{products-qa}}/generator/"]
+						}
+					}
+				},
+				{
+					"name": "/code/{___tbl___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/generator/code/{tbl:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/generator/code/{tbl:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceservicio",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/",
+							"host": ["{{products-qa}}/serviceservicio/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbymultids/{___ids___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/elementbymultids/{ids:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceservicio/elementbymultids/{ids:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbycategory/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/elementbycategory/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/elementbycategory/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbycategory/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/elementbycategory/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/elementbycategory/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/post",
+							"host": ["{{products-qa}}/serviceservicio/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio_tipo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idservice_evento_coleccion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"aplica_negativo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"aplica_promocion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/put/0",
+							"host": ["{{products-qa}}/serviceservicio/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/prices/service/{___hotel___}/{___tipo___}/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/prices/service/{hotel:a-zA-Z0-9-w]+}/{tipo:0-9]+}/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/prices/service/{hotel:a-zA-Z0-9-w]+}/{tipo:0-9]+}/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getcollectionbyservice/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/getcollectionbyservice/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/getcollectionbyservice/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/collections/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/collections/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/collections/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/gettypecollection/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/gettypecollection/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/gettypecollection/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceservicio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/collectionbyservice/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/collectionbyservice/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/collectionbyservice/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/searchitemcustom/{___limit___}/{___word___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/searchitemcustom/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}",
+							"host": ["{{products-qa}}/serviceservicio/searchitemcustom/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}"]
+						}
+					}
+				},
+				{
+					"name": "/searchitemcustomcategory/{___limit___}/{___word___}/{___idcategory___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/searchitemcustomcategory/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}/{idcategory:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/searchitemcustomcategory/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}/{idcategory:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/item/search/{___limit___}/{___word___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/item/search/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}",
+							"host": ["{{products-qa}}/serviceservicio/item/search/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}"]
+						}
+					}
+				},
+				{
+					"name": "/category/search/{___id___}/{___limit___}/{___word___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/category/search/{id:0-9]+}/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}",
+							"host": ["{{products-qa}}/serviceservicio/category/search/{id:0-9]+}/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}"]
+						}
+					}
+				},
+				{
+					"name": "/business/search/{___id___}/{___limit___}/{___word___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/business/search/{id:0-9]+}/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}",
+							"host": ["{{products-qa}}/serviceservicio/business/search/{id:0-9]+}/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/search",
+							"host": ["{{products-qa}}/serviceservicio/search"]
+						}
+					}
+				},
+				{
+					"name": "/servicewithimage",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/servicewithimage",
+							"host": ["{{products-qa}}/serviceservicio/servicewithimage"]
+						}
+					}
+				},
+				{
+					"name": "/servicewithimagebyId/{___Idservicio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/servicewithimagebyId/{Idservicio:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/servicewithimagebyId/{Idservicio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicewithimagecustom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/servicewithimagecustom",
+							"host": ["{{products-qa}}/serviceservicio/servicewithimagecustom"]
+						}
+					}
+				},
+				{
+					"name": "/servicewithimagebycategory/{___categoryid___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/servicewithimagebycategory/{categoryid:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/servicewithimagebycategory/{categoryid:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicewithimagebycategorycustom/{___categoryid___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/servicewithimagebycategorycustom/{categoryid:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/servicewithimagebycategorycustom/{categoryid:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/post",
+							"host": ["{{products-qa}}/serviceservicio/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/put/0",
+							"host": ["{{products-qa}}/serviceservicio/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/servicebycategoryandtag/{___category___}/{___idtag___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/servicebycategoryandtag/{category:0-9]+}/{idtag:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/servicebycategoryandtag/{category:0-9]+}/{idtag:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicesbystatus/{___estado___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/getservicesbystatus/{estado:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/getservicesbystatus/{estado:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicebyterm/{___termino___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/servicebyterm/{termino:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/servicebyterm/{termino:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicebypers/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/servicebypers/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceservicio/servicebypers/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/actives",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/actives",
+							"host": ["{{products-qa}}/serviceservicio/actives"]
+						}
+					}
+				},
+				{
+					"name": "/servicewithimagebyIdall/{___Idservicio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/servicewithimagebyIdall/{Idservicio:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/servicewithimagebyIdall/{Idservicio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "///servicebybusinessunitandtype/{___bussines___}/{___type___}/{___description___}//no agregado a lista de permisos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio///servicebybusinessunitandtype/{bussines:0-9]+}/{type:0-9]+}/{description:a-zA-Z0-9-s]+}//no agregado a lista de permisos",
+							"host": ["{{products-qa}}/serviceservicio///servicebybusinessunitandtype/{bussines:0-9]+}/{type:0-9]+}/{description:a-zA-Z0-9-s]+}//no agregado a lista de permisos"]
+						}
+					}
+				},
+				{
+					"name": "/getcollection//no agregado a lista de permisos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/getcollection//no agregado a lista de permisos",
+							"host": ["{{products-qa}}/serviceservicio/getcollection//no agregado a lista de permisos"]
+						}
+					}
+				},
+				{
+					"name": "/servicebyUnit/{___unit___}//no agregado a lista de permisos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/servicebyUnit/{unit:0-9]+}//no agregado a lista de permisos",
+							"host": ["{{products-qa}}/serviceservicio/servicebyUnit/{unit:0-9]+}//no agregado a lista de permisos"]
+						}
+					}
+				},
+				{
+					"name": "/getunitbyserv/{___byservice___}//no agregado a lista de permisos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/getunitbyserv/{byservice:0-9]+}//no agregado a lista de permisos",
+							"host": ["{{products-qa}}/serviceservicio/getunitbyserv/{byservice:0-9]+}//no agregado a lista de permisos"]
+						}
+					}
+				},
+				{
+					"name": "/servicebytypefordropdown/{___id___}//no agregado a lista de permisos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/servicebytypefordropdown/{id:0-9]+}//no agregado a lista de permisos",
+							"host": ["{{products-qa}}/serviceservicio/servicebytypefordropdown/{id:0-9]+}//no agregado a lista de permisos"]
+						}
+					}
+				},
+				{
+					"name": "/servicebytypeandcollect/{___validate___}/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/servicebytypeandcollect/{validate:0-9]+}/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/servicebytypeandcollect/{validate:0-9]+}/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicebytypeandcollect/{___validate___}/{___id___}/{___status___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/servicebytypeandcollect/{validate:0-9]+}/{id:0-9]+}/{status:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/servicebytypeandcollect/{validate:0-9]+}/{id:0-9]+}/{status:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicebytypeandcollect/{___validate___}/{___id___}/{___status___}/{___resort___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/servicebytypeandcollect/{validate:0-9]+}/{id:0-9]+}/{status:0-9]+}/{resort:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceservicio/servicebytypeandcollect/{validate:0-9]+}/{id:0-9]+}/{status:0-9]+}/{resort:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicesbyhotel/{___key___}/{___value___}/{___hotel___}//no agregado a lista de permisos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/getservicesbyhotel/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}/{hotel:a-zA-Z0-9-w]+}//no agregado a lista de permisos",
+							"host": ["{{products-qa}}/serviceservicio/getservicesbyhotel/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}/{hotel:a-zA-Z0-9-w]+}//no agregado a lista de permisos"]
+						}
+					}
+				},
+				{
+					"name": "/getbusinessbyservice/{___ids:azAZ09w/]___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/getbusinessbyservice/{ids:a-zA-Z0-9-w/]+}",
+							"host": ["{{products-qa}}/serviceservicio/getbusinessbyservice/{ids:a-zA-Z0-9-w/]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getDetailsService/{___idservicetermino___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/getDetailsService/{idservicetermino:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/getDetailsService/{idservicetermino:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getInfoService/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/getInfoService/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/getInfoService/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicecustomizablebyidbussines/{___bussinesID___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/getservicecustomizablebyidbussines/{bussinesID:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/getservicecustomizablebyidbussines/{bussinesID:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicebyidbussines/{___bussinesID___}/{___option___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/getservicebyidbussines/{bussinesID:0-9]+}/{option:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/getservicebyidbussines/{bussinesID:0-9]+}/{option:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicebyidbussines/{___bussinesID___}/{___option___}/{___servicestatus___}/{___servicetipestatus___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/getservicebyidbussines/{bussinesID:0-9]+}/{option:0-9]+}/{servicestatus:0-9]+}/{servicetipestatus:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/getservicebyidbussines/{bussinesID:0-9]+}/{option:0-9]+}/{servicestatus:0-9]+}/{servicetipestatus:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicebyUnitAndHotel/{___unit___}/{___hotel___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/servicebyUnitAndHotel/{unit:0-9]+}/{hotel:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceservicio/servicebyUnitAndHotel/{unit:0-9]+}/{hotel:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getCollections/{___service___}/{___propiedad___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/getCollections/{service:0-9]+}/{propiedad:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceservicio/getCollections/{service:0-9]+}/{propiedad:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getImageAndInfoService/{___servicio___}/{___idioma___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicio/getImageAndInfoService/{servicio:0-9]+}/{idioma:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicio/getImageAndInfoService/{servicio:0-9]+}/{idioma:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceservicioasset",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioasset/",
+							"host": ["{{products-qa}}/serviceservicioasset/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyservice/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioasset/elementbyservice/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicioasset/elementbyservice/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioasset/search",
+							"host": ["{{products-qa}}/serviceservicioasset/search"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___} // Alan lo agregó",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioasset/elementbyid/{id:0-9]+} // Alan lo agregó",
+							"host": ["{{products-qa}}/serviceservicioasset/elementbyid/{id:0-9]+} // Alan lo agregó"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioasset/post",
+							"host": ["{{products-qa}}/serviceservicioasset/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioasset/put/0",
+							"host": ["{{products-qa}}/serviceservicioasset/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyservice/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioasset/elementbyservice/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicioasset/elementbyservice/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/multiple/services/assets/{___ids___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioasset/multiple/services/assets/{ids:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceservicioasset/multiple/services/assets/{ids:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getthumbServices/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioasset/getthumbServices/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicioasset/getthumbServices/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceserviciocliente",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciocliente/",
+							"host": ["{{products-qa}}/serviceserviciocliente/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciocliente/search",
+							"host": ["{{products-qa}}/serviceserviciocliente/search"]
+						}
+					}
+				},
+				{
+					"name": "/servicebyclient/{___idservice_servicio_tipo___}/{___id_cliente___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciocliente/servicebyclient/{idservice_servicio_tipo:0-9]+}/{id_cliente:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciocliente/servicebyclient/{idservice_servicio_tipo:0-9]+}/{id_cliente:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/validate/{___id_client___}/{___id_service___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciocliente/validate/{id_client:0-9]+}/{id_service:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciocliente/validate/{id_client:0-9]+}/{id_service:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciocliente/post",
+							"host": ["{{products-qa}}/serviceserviciocliente/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"id_cliente\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciocliente/put/0",
+							"host": ["{{products-qa}}/serviceserviciocliente/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/validateservice/{___idservice_servicio___}/{___id_cliente___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciocliente/validateservice/{idservice_servicio:0-9]+}/{id_cliente:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciocliente/validateservice/{idservice_servicio:0-9]+}/{id_cliente:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceserviciopropiedad",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciopropiedad/",
+							"host": ["{{products-qa}}/serviceserviciopropiedad/"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciopropiedad/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciopropiedad/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicebyproperty/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciopropiedad/servicebyproperty/{id:a-zA-Z0-9-s]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciopropiedad/servicebyproperty/{id:a-zA-Z0-9-s]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciopropiedad/post",
+							"host": ["{{products-qa}}/serviceserviciopropiedad/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciopropiedad/put/0",
+							"host": ["{{products-qa}}/serviceserviciopropiedad/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/getfamiliespropiety/{___propiedad___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciopropiedad/getfamiliespropiety/{propiedad:a-zA-Z0-9-s]+}",
+							"host": ["{{products-qa}}/serviceserviciopropiedad/getfamiliespropiety/{propiedad:a-zA-Z0-9-s]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getfamiliespropiety/{___propiedad___}/{___unidad___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciopropiedad/getfamiliespropiety/{propiedad:a-zA-Z0-9-s]+}/{unidad:a-zA-Z0-9-s]+}",
+							"host": ["{{products-qa}}/serviceserviciopropiedad/getfamiliespropiety/{propiedad:a-zA-Z0-9-s]+}/{unidad:a-zA-Z0-9-s]+}"]
+						}
+					}
+				},
+				{
+					"name": "/validateservice/{___idservice_servicio___}/{___idpropiedad___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciopropiedad/validateservice/{idservice_servicio:0-9]+}/{idpropiedad:a-zA-Z0-9-s]+}",
+							"host": ["{{products-qa}}/serviceserviciopropiedad/validateservice/{idservice_servicio:0-9]+}/{idpropiedad:a-zA-Z0-9-s]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicebytypeandresort/{___idservice_servicio_tipo___}/{___idpropiedad___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciopropiedad/servicebytypeandresort/{idservice_servicio_tipo:0-9]+}/{idpropiedad:a-zA-Z0-9-s]+}",
+							"host": ["{{products-qa}}/serviceserviciopropiedad/servicebytypeandresort/{idservice_servicio_tipo:0-9]+}/{idpropiedad:a-zA-Z0-9-s]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceservicioproveedor",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedor/",
+							"host": ["{{products-qa}}/serviceservicioproveedor/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedor/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicioproveedor/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/serviceid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedor/serviceid/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicioproveedor/serviceid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/serviceid/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedor/serviceid/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicioproveedor/serviceid/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedor/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicioproveedor/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedor/post",
+							"host": ["{{products-qa}}/serviceservicioproveedor/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedor/put/0",
+							"host": ["{{products-qa}}/serviceservicioproveedor/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/providerbyservicedropdown/{___idservice___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedor/providerbyservicedropdown/{idservice:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceservicioproveedor/providerbyservicedropdown/{idservice:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/searchserviceproveedor/{___idservicio___}/{___idproveedor___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedor/searchserviceproveedor/{idservicio:0-9]+}/{idproveedor:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicioproveedor/searchserviceproveedor/{idservicio:0-9]+}/{idproveedor:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getpricebyserviceproviderhotel/{___idservice___}/{___idprovider___}/{___hotel___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedor/getpricebyserviceproviderhotel/{idservice:0-9]+}/{idprovider:0-9]+}/{hotel:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceservicioproveedor/getpricebyserviceproviderhotel/{idservice:0-9]+}/{idprovider:0-9]+}/{hotel:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/gettextpricebyserviceproviderhotel/{___idioma___}/{___idservice___}/{___idprovider___}/{___hotel___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedor/gettextpricebyserviceproviderhotel/{idioma:0-9]+}/{idservice:0-9]+}/{idprovider:0-9]+}/{hotel:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceservicioproveedor/gettextpricebyserviceproviderhotel/{idioma:0-9]+}/{idservice:0-9]+}/{idprovider:0-9]+}/{hotel:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/gettarifaproveedor/{___servicio___}/{___propiedad___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedor/gettarifaproveedor/{servicio:0-9]+}/{propiedad:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceservicioproveedor/gettarifaproveedor/{servicio:0-9]+}/{propiedad:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceservicioproveedortarifa",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedortarifa/",
+							"host": ["{{products-qa}}/serviceservicioproveedortarifa/"]
+						}
+					}
+				},
+				{
+					"name": "///getelementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedortarifa///getelementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicioproveedortarifa///getelementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedortarifa/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicioproveedortarifa/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/idserviceproveedor/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedortarifa/idserviceproveedor/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicioproveedortarifa/idserviceproveedor/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/idserviceproveedor/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedortarifa/idserviceproveedor/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicioproveedortarifa/idserviceproveedor/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedortarifa/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceservicioproveedortarifa/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/searchbyelements/{___proveedor___}/{___propiedad___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedortarifa/searchbyelements/{proveedor:0-9]+}/{propiedad:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceservicioproveedortarifa/searchbyelements/{proveedor:0-9]+}/{propiedad:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedortarifa/post",
+							"host": ["{{products-qa}}/serviceservicioproveedortarifa/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio_proveedor\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"precio_venta_min\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"precio_venta_max\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceservicioproveedortarifa/put/0",
+							"host": ["{{products-qa}}/serviceservicioproveedortarifa/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceserviciotexto",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotexto/",
+							"host": ["{{products-qa}}/serviceserviciotexto/"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotexto/post",
+							"host": ["{{products-qa}}/serviceserviciotexto/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotexto/put/0",
+							"host": ["{{products-qa}}/serviceserviciotexto/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotexto/search",
+							"host": ["{{products-qa}}/serviceserviciotexto/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotexto/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciotexto/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/gettextservice/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotexto/gettextservice/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciotexto/gettextservice/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/gettranslation/{___idlang___}/{___idservices___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotexto/gettranslation/{idlang:0-9]+}/{idservices:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceserviciotexto/gettranslation/{idlang:0-9]+}/{idservices:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdetailsservice/{___idlang___}/{___idservice___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotexto/getdetailsservice/{idlang:0-9]+}/{idservice:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciotexto/getdetailsservice/{idlang:0-9]+}/{idservice:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdetailsservices/{___idlang___}/{___idservices___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotexto/getdetailsservices/{idlang:0-9]+}/{idservices:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceserviciotexto/getdetailsservices/{idlang:0-9]+}/{idservices:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotexto/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciotexto/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "///getelementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotexto///getelementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciotexto///getelementbyid/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceserviciotipo",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotipo/",
+							"host": ["{{products-qa}}/serviceserviciotipo/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotipo/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciotipo/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbymultids/{___ids___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotipo/elementbymultids/{ids:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceserviciotipo/elementbymultids/{ids:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotipo/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciotipo/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/listall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotipo/listall",
+							"host": ["{{products-qa}}/serviceserviciotipo/listall"]
+						}
+					}
+				},
+				{
+					"name": "/getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotipo/getall",
+							"host": ["{{products-qa}}/serviceserviciotipo/getall"]
+						}
+					}
+				},
+				{
+					"name": "///search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotipo///search",
+							"host": ["{{products-qa}}/serviceserviciotipo///search"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotipo/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceserviciotipo/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotipo/post",
+							"host": ["{{products-qa}}/serviceserviciotipo/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotipo/put/0",
+							"host": ["{{products-qa}}/serviceserviciotipo/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/getservicetypebybussines/{___id___}//no agregado a lista de permisos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotipo/getservicetypebybussines/{id:0-9]+}//no agregado a lista de permisos",
+							"host": ["{{products-qa}}/serviceserviciotipo/getservicetypebybussines/{id:0-9]+}//no agregado a lista de permisos"]
+						}
+					}
+				},
+				{
+					"name": "/getservicesbyunit/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciotipo/getservicesbyunit/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciotipo/getservicesbyunit/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceunidadnegocio",
+			"item": [
+				
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceunidadnegocio/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceunidadnegocio/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicetypebybusinessunit/{___idbusinessunit___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceunidadnegocio/getservicetypebybusinessunit/{idbusinessunit:0-9]+}",
+							"host": ["{{products-qa}}/serviceunidadnegocio/getservicetypebybusinessunit/{idbusinessunit:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceunidadnegocio/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceunidadnegocio/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/listall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceunidadnegocio/listall",
+							"host": ["{{products-qa}}/serviceunidadnegocio/listall"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceunidadnegocio/search",
+							"host": ["{{products-qa}}/serviceunidadnegocio/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceunidadnegocio/search/{limit:0-1]}",
+							"host": ["{{products-qa}}/serviceunidadnegocio/search/{limit:0-1]}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceunidadnegocio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceunidadnegocio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdownbydireccion/{___key___}/{___value___}/{___direccion___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceunidadnegocio/dropdownbydireccion/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}/{direccion:0-9]+}",
+							"host": ["{{products-qa}}/serviceunidadnegocio/dropdownbydireccion/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}/{direccion:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceunidadnegocio/",
+							"host": ["{{products-qa}}/serviceunidadnegocio/"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/serviceunidadnegocio/post",
+							"host": ["{{products-qa}}/serviceunidadnegocio/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"fecha_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"direccion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"segmento_negocio\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceunidadnegocio/put/0",
+							"host": ["{{products-qa}}/serviceunidadnegocio/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/getbusiness",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceunidadnegocio/getbusiness",
+							"host": ["{{products-qa}}/serviceunidadnegocio/getbusiness"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/servicetermino",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetermino/",
+							"host": ["{{products-qa}}/servicetermino/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetermino/search",
+							"host": ["{{products-qa}}/servicetermino/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetermino/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/servicetermino/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetermino/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/servicetermino/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbystatus/{___estado___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetermino/elementbystatus/{estado:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/servicetermino/elementbystatus/{estado:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/gettermbyservices/{___ids___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetermino/gettermbyservices/{ids:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/servicetermino/gettermbyservices/{ids:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getTermByServicesLanguage/{___idioma___}/{___ids___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetermino/getTermByServicesLanguage/{idioma:0-9]+}/{ids:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/servicetermino/getTermByServicesLanguage/{idioma:0-9]+}/{ids:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetermino/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/servicetermino/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/servicetermino/post",
+							"host": ["{{products-qa}}/servicetermino/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetermino/put/0",
+							"host": ["{{products-qa}}/servicetermino/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/servicetextotermino",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetextotermino/",
+							"host": ["{{products-qa}}/servicetextotermino/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetextotermino/search",
+							"host": ["{{products-qa}}/servicetextotermino/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetextotermino/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/servicetextotermino/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetextotermino/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/servicetextotermino/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getElementByTerm/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetextotermino/getElementByTerm/{id:0-9]+}",
+							"host": ["{{products-qa}}/servicetextotermino/getElementByTerm/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetextotermino/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/servicetextotermino/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/servicetextotermino/post",
+							"host": ["{{products-qa}}/servicetextotermino/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetextotermino/put/0",
+							"host": ["{{products-qa}}/servicetextotermino/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/getLanguage/{___language___}/{___idtermino___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicetextotermino/getLanguage/{language:0-9]+}/{idtermino:0-9]+}",
+							"host": ["{{products-qa}}/servicetextotermino/getLanguage/{language:0-9]+}/{idtermino:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/servicematerial",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicematerial/",
+							"host": ["{{products-qa}}/servicematerial/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicematerial/search",
+							"host": ["{{products-qa}}/servicematerial/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicematerial/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/servicematerial/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicematerial/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/servicematerial/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicematerial/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/servicematerial/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/servicematerial/post",
+							"host": ["{{products-qa}}/servicematerial/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idsap_material\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"nombre\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicematerial/put/0",
+							"host": ["{{products-qa}}/servicematerial/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/servicereceta",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicereceta/",
+							"host": ["{{products-qa}}/servicereceta/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicereceta/search",
+							"host": ["{{products-qa}}/servicereceta/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicereceta/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/servicereceta/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicereceta/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/servicereceta/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicereceta/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/servicereceta/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/servicereceta/post",
+							"host": ["{{products-qa}}/servicereceta/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicereceta/put/0",
+							"host": ["{{products-qa}}/servicereceta/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/retabyidservice/{___id___} //endpoint no agregada a la lista de permisos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicereceta/retabyidservice/{id:0-9]+} //endpoint no agregada a la lista de permisos",
+							"host": ["{{products-qa}}/servicereceta/retabyidservice/{id:0-9]+} //endpoint no agregada a la lista de permisos"]
+						}
+					}
+				},
+		{
+			"name": "/servicematerialproveedor",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicematerialproveedor/",
+							"host": ["{{products-qa}}/servicematerialproveedor/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicematerialproveedor/search",
+							"host": ["{{products-qa}}/servicematerialproveedor/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicematerialproveedor/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/servicematerialproveedor/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicematerialproveedor/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/servicematerialproveedor/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicematerialproveedor/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/servicematerialproveedor/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/materialbyprovider/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicematerialproveedor/materialbyprovider/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/servicematerialproveedor/materialbyprovider/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/servicematerialproveedor/post",
+							"host": ["{{products-qa}}/servicematerialproveedor/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicematerialproveedor/put/0",
+							"host": ["{{products-qa}}/servicematerialproveedor/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/servicerecetadetalle",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicerecetadetalle/",
+							"host": ["{{products-qa}}/servicerecetadetalle/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicerecetadetalle/search",
+							"host": ["{{products-qa}}/servicerecetadetalle/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicerecetadetalle/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/servicerecetadetalle/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicerecetadetalle/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/servicerecetadetalle/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicerecetadetalle/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/servicerecetadetalle/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdetallereceta/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicerecetadetalle/getdetallereceta/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/servicerecetadetalle/getdetallereceta/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/servicerecetadetalle/post",
+							"host": ["{{products-qa}}/servicerecetadetalle/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_receta\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idservice_material\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicerecetadetalle/put/0",
+							"host": ["{{products-qa}}/servicerecetadetalle/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/getdetalle/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicerecetadetalle/getdetalle/{id:0-9]+}",
+							"host": ["{{products-qa}}/servicerecetadetalle/getdetalle/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/servicerecursos",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicerecursos/",
+							"host": ["{{products-qa}}/servicerecursos/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicerecursos/search",
+							"host": ["{{products-qa}}/servicerecursos/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicerecursos/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/servicerecursos/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicerecursos/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/servicerecursos/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicerecursos/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/servicerecursos/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/servicerecursos/post",
+							"host": ["{{products-qa}}/servicerecursos/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicerecursos/put/0",
+							"host": ["{{products-qa}}/servicerecursos/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/getrecursodetail/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/servicerecursos/getrecursodetail/{id:0-9]+}",
+							"host": ["{{products-qa}}/servicerecursos/getrecursodetail/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceserviciorecursos",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciorecursos/",
+							"host": ["{{products-qa}}/serviceserviciorecursos/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciorecursos/search",
+							"host": ["{{products-qa}}/serviceserviciorecursos/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciorecursos/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciorecursos/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciorecursos/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciorecursos/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciorecursos/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceserviciorecursos/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciorecursos/post",
+							"host": ["{{products-qa}}/serviceserviciorecursos/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciorecursos/put/0",
+							"host": ["{{products-qa}}/serviceserviciorecursos/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/getdetallebyrecurso/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciorecursos/getdetallebyrecurso/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciorecursos/getdetallebyrecurso/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdetallebyservice/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciorecursos/getdetallebyservice/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciorecursos/getdetallebyservice/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdetallebyrecursopagination/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceserviciorecursos/getdetallebyrecursopagination/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceserviciorecursos/getdetallebyrecursopagination/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/tagtiposervicio",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tagtiposervicio/",
+							"host": ["{{products-qa}}/tagtiposervicio/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tagtiposervicio/search",
+							"host": ["{{products-qa}}/tagtiposervicio/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tagtiposervicio/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/tagtiposervicio/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tagtiposervicio/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/tagtiposervicio/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tagtiposervicio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/tagtiposervicio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/tagtiposervicio/post",
+							"host": ["{{products-qa}}/tagtiposervicio/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio_tipo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idservice_tag\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tagtiposervicio/put/0",
+							"host": ["{{products-qa}}/tagtiposervicio/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/gettagbyservicetype/{___idservicio_tipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tagtiposervicio/gettagbyservicetype/{idservicio_tipo:0-9]+}",
+							"host": ["{{products-qa}}/tagtiposervicio/gettagbyservicetype/{idservicio_tipo:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/tagservicio",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tagservicio/",
+							"host": ["{{products-qa}}/tagservicio/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tagservicio/search",
+							"host": ["{{products-qa}}/tagservicio/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tagservicio/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/tagservicio/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tagservicio/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/tagservicio/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tagservicio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/tagservicio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/tagservicio/post",
+							"host": ["{{products-qa}}/tagservicio/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tagservicio/put/0",
+							"host": ["{{products-qa}}/tagservicio/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/getservicebytagandservicetype/{___idservice_tag___}/{___idservice_servicio_tipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tagservicio/getservicebytagandservicetype/{idservice_tag:0-9]+}/{idservice_servicio_tipo:0-9]+}",
+							"host": ["{{products-qa}}/tagservicio/getservicebytagandservicetype/{idservice_tag:0-9]+}/{idservice_servicio_tipo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicebytag/{___idtag___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tagservicio/getservicebytag/{idtag:0-9]+}",
+							"host": ["{{products-qa}}/tagservicio/getservicebytag/{idtag:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/direccion",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/direccion/",
+							"host": ["{{products-qa}}/direccion/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/direccion/search",
+							"host": ["{{products-qa}}/direccion/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/direccion/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/direccion/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/direccion/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/direccion/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/direccion/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/direccion/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/direccion/post",
+							"host": ["{{products-qa}}/direccion/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/direccion/put/0",
+							"host": ["{{products-qa}}/direccion/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/unidadalmacen",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/unidadalmacen/",
+							"host": ["{{products-qa}}/unidadalmacen/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/unidadalmacen/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/unidadalmacen/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/unidadalmacen/search",
+							"host": ["{{products-qa}}/unidadalmacen/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/unidadalmacen/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/unidadalmacen/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/unidadalmacen/post",
+							"host": ["{{products-qa}}/unidadalmacen/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_unidad_negocio\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/unidadalmacen/put/0",
+							"host": ["{{products-qa}}/unidadalmacen/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/getstorages",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/unidadalmacen/getstorages",
+							"host": ["{{products-qa}}/unidadalmacen/getstorages"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/unidadalmacen/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/unidadalmacen/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getstoragebynegocio/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/unidadalmacen/getstoragebynegocio/{id:0-9]+}",
+							"host": ["{{products-qa}}/unidadalmacen/getstoragebynegocio/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/inventario",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/inventario/",
+							"host": ["{{products-qa}}/inventario/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/inventario/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/inventario/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/inventario/search",
+							"host": ["{{products-qa}}/inventario/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/inventario/post",
+							"host": ["{{products-qa}}/inventario/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/inventario/put/0",
+							"host": ["{{products-qa}}/inventario/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/inventario/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/inventario/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getinvclose",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/inventario/getinvclose",
+							"host": ["{{products-qa}}/inventario/getinvclose"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/inventarioitem",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/inventarioitem/",
+							"host": ["{{products-qa}}/inventarioitem/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/inventarioitem/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/inventarioitem/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/inventarioitem/search",
+							"host": ["{{products-qa}}/inventarioitem/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/inventarioitem/post",
+							"host": ["{{products-qa}}/inventarioitem/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/inventarioitem/put/0",
+							"host": ["{{products-qa}}/inventarioitem/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/inventarioitem/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/inventarioitem/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyinventario/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/inventarioitem/elementbyinventario/{id:0-9]+}",
+							"host": ["{{products-qa}}/inventarioitem/elementbyinventario/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getElementBySerie/{___serie___}/{___inv___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/inventarioitem/getElementBySerie/{serie:a-zA-Z0-9-w]+}/{inv:0-9]+}",
+							"host": ["{{products-qa}}/inventarioitem/getElementBySerie/{serie:a-zA-Z0-9-w]+}/{inv:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getReporteInventario/{___inv___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/inventarioitem/getReporteInventario/{inv:0-9]+}",
+							"host": ["{{products-qa}}/inventarioitem/getReporteInventario/{inv:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/pdfinvalmacen/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/inventarioitem/pdfinvalmacen/{almacen:0-9]+}",
+							"host": ["{{products-qa}}/inventarioitem/pdfinvalmacen/{almacen:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/item",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/",
+							"host": ["{{products-qa}}/item/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/item/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/generalinfoitem/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/generalinfoitem/{id:0-9]+}",
+							"host": ["{{products-qa}}/item/generalinfoitem/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/search",
+							"host": ["{{products-qa}}/item/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/item/post",
+							"host": ["{{products-qa}}/item/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idinv_almacen\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idinv_marca\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idinv_modelo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"serie\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"seriado\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"tag\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"picking\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/put/0",
+							"host": ["{{products-qa}}/item/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/item/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/stockservice/{___idservice_servicio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/stockservice/{idservice_servicio:0-9]+}",
+							"host": ["{{products-qa}}/item/stockservice/{idservice_servicio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbySerie/{___serie___}/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/elementbySerie/{serie:a-zA-Z0-9-w]+}/{almacen:0-9]+}",
+							"host": ["{{products-qa}}/item/elementbySerie/{serie:a-zA-Z0-9-w]+}/{almacen:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyNum/{___num___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/elementbyNum/{num:0-9-w]+}",
+							"host": ["{{products-qa}}/item/elementbyNum/{num:0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getCompare/{___inv___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/getCompare/{inv:0-9]+}",
+							"host": ["{{products-qa}}/item/getCompare/{inv:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getStockService/{___idservice_servicio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/getStockService/{idservice_servicio:0-9]+}",
+							"host": ["{{products-qa}}/item/getStockService/{idservice_servicio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getReportInventario/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/getReportInventario/{id:0-9]+}",
+							"host": ["{{products-qa}}/item/getReportInventario/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getitemsdescriptions/{___folio___}/{___almacen___}/{___estado___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/getitemsdescriptions/{folio:0-9]+}/{almacen:0-9]+}/{estado:0-9]+}",
+							"host": ["{{products-qa}}/item/getitemsdescriptions/{folio:0-9]+}/{almacen:0-9]+}/{estado:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getItemsBySeries",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/item/getItemsBySeries",
+							"host": ["{{products-qa}}/item/getItemsBySeries"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/getItemsBySeriesByOrden",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/item/getItemsBySeriesByOrden",
+							"host": ["{{products-qa}}/item/getItemsBySeriesByOrden"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Not Found\",\"code\":\"404\",\"message\":\"Data Not Found\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/gettimebyitem/{___negocio___}/{___familia___}/{___marca___}/{___fecha_inicio___}/{___fecha_final___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/gettimebyitem/{negocio:a-zA-Z0-9-w]+}/{familia:a-zA-Z0-9-w]+}/{marca:a-zA-Z0-9-w]+}/{fecha_inicio:a-zA-Z0-9-w]+}/{fecha_final:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/item/gettimebyitem/{negocio:a-zA-Z0-9-w]+}/{familia:a-zA-Z0-9-w]+}/{marca:a-zA-Z0-9-w]+}/{fecha_inicio:a-zA-Z0-9-w]+}/{fecha_final:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getstatusbyitem/{___negocio___}/{___familia___}/{___marca___}/{___fecha_inicio___}/{___fecha_final___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/getstatusbyitem/{negocio:a-zA-Z0-9-w]+}/{familia:a-zA-Z0-9-w]+}/{marca:a-zA-Z0-9-w]+}/{fecha_inicio:a-zA-Z0-9-w]+}/{fecha_final:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/item/getstatusbyitem/{negocio:a-zA-Z0-9-w]+}/{familia:a-zA-Z0-9-w]+}/{marca:a-zA-Z0-9-w]+}/{fecha_inicio:a-zA-Z0-9-w]+}/{fecha_final:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getitembyservice/{___service___}/{___seriado___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/getitembyservice/{service:0-9]+}/{seriado:0-9]+}",
+							"host": ["{{products-qa}}/item/getitembyservice/{service:0-9]+}/{seriado:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getubicacion/{___negocio___}/{___familia___}/{___marca___}/{___fecha_inicio___}/{___fecha_final___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/getubicacion/{negocio:a-zA-Z0-9-w]+}/{familia:a-zA-Z0-9-w]+}/{marca:a-zA-Z0-9-w]+}/{fecha_inicio:a-zA-Z0-9-w]+}/{fecha_final:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/item/getubicacion/{negocio:a-zA-Z0-9-w]+}/{familia:a-zA-Z0-9-w]+}/{marca:a-zA-Z0-9-w]+}/{fecha_inicio:a-zA-Z0-9-w]+}/{fecha_final:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getitemsbystorage/{___negocio___}/{___almacen___}/{___familia___}/{___servicio___}/{___seriado___}/{___estado___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/getitemsbystorage/{negocio:0-9]+}/{almacen:0-9]+}/{familia:0-9]+}/{servicio:0-9]+}/{seriado:0-9]+}/{estado:0-9]+}",
+							"host": ["{{products-qa}}/item/getitemsbystorage/{negocio:0-9]+}/{almacen:0-9]+}/{familia:0-9]+}/{servicio:0-9]+}/{seriado:0-9]+}/{estado:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getstatusservice/{___servicio___}/{___almacen___}/{___marca___}/{___modelo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/getstatusservice/{servicio:0-9]+}/{almacen:0-9]+}/{marca:0-9]+}/{modelo:0-9]+}",
+							"host": ["{{products-qa}}/item/getstatusservice/{servicio:0-9]+}/{almacen:0-9]+}/{marca:0-9]+}/{modelo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getpendingsinventory",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/item/getpendingsinventory",
+							"host": ["{{products-qa}}/item/getpendingsinventory"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/unidadalmacenitem",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/unidadalmacenitem/",
+							"host": ["{{products-qa}}/unidadalmacenitem/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/unidadalmacenitem/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/unidadalmacenitem/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/unidadalmacenitem/search",
+							"host": ["{{products-qa}}/unidadalmacenitem/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/unidadalmacenitem/post",
+							"host": ["{{products-qa}}/unidadalmacenitem/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/unidadalmacenitem/put/0",
+							"host": ["{{products-qa}}/unidadalmacenitem/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/getdatabyiditem/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/unidadalmacenitem/getdatabyiditem/{id:0-9]+}",
+							"host": ["{{products-qa}}/unidadalmacenitem/getdatabyiditem/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/movimientoitem",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/",
+							"host": ["{{products-qa}}/movimientoitem/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitem/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/search",
+							"host": ["{{products-qa}}/movimientoitem/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/post",
+							"host": ["{{products-qa}}/movimientoitem/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idinv_item\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"inv_tipo_movimiento_item\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idevent_montaje_orden\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idsap_proveedor_recepciona\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/put/0",
+							"host": ["{{products-qa}}/movimientoitem/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/getdatabyiditem/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getdatabyiditem/{id:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitem/getdatabyiditem/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getDataByIdItemLast/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getDataByIdItemLast/{id:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitem/getDataByIdItemLast/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getmovientoitembyorden/{___orden___}/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getmovientoitembyorden/{orden:0-9]+}/{almacen:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitem/getmovientoitembyorden/{orden:0-9]+}/{almacen:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getMovimientosItemsByOrden/{___orden___}/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getMovimientosItemsByOrden/{orden:0-9]+}/{almacen:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitem/getMovimientosItemsByOrden/{orden:0-9]+}/{almacen:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/updatefasemovientoitem",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/updatefasemovientoitem",
+							"host": ["{{products-qa}}/movimientoitem/updatefasemovientoitem"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/validateitembyorderphase",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/validateitembyorderphase",
+							"host": ["{{products-qa}}/movimientoitem/validateitembyorderphase"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/movimientoitem/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getDataByMontajeExtra/{___montaje___}/{___extra___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getDataByMontajeExtra/{montaje:0-9]+}/{extra:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitem/getDataByMontajeExtra/{montaje:0-9]+}/{extra:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getitempickup/{___id___}/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getitempickup/{id:0-9]+}/{almacen:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitem/getitempickup/{id:0-9]+}/{almacen:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getitementry/{___id___}/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getitementry/{id:0-9]+}/{almacen:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitem/getitementry/{id:0-9]+}/{almacen:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getfamilymontaje/{___id___}/{___negocio___} /**api para pdfs app/ public/ scripts/ vendor/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getfamilymontaje/{id:0-9]+}/{negocio:0-9]+} /**api para pdfs app/ public/ scripts/ vendor/",
+							"host": ["{{products-qa}}/movimientoitem/getfamilymontaje/{id:0-9]+}/{negocio:0-9]+} /**api para pdfs app/ public/ scripts/ vendor/"]
+						}
+					}
+				},
+				{
+					"name": "/getfamilymontajeextrabyid/{___orden___}/{___negocio___}/{___idextra___}/**api para pdfs app/ public/ scripts/ vendor/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getfamilymontajeextrabyid/{orden:0-9]+}/{negocio:0-9]+}/{idextra:0-9]+}/**api para pdfs app/ public/ scripts/ vendor/",
+							"host": ["{{products-qa}}/movimientoitem/getfamilymontajeextrabyid/{orden:0-9]+}/{negocio:0-9]+}/{idextra:0-9]+}/**api para pdfs app/ public/ scripts/ vendor/"]
+						}
+					}
+				},
+				{
+					"name": "/getfamilymontajeentry/{___orden___}/{___negocio___}/**api para pdfs app/ public/ scripts/ vendor/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getfamilymontajeentry/{orden:0-9]+}/{negocio:0-9]+}/**api para pdfs app/ public/ scripts/ vendor/",
+							"host": ["{{products-qa}}/movimientoitem/getfamilymontajeentry/{orden:0-9]+}/{negocio:0-9]+}/**api para pdfs app/ public/ scripts/ vendor/"]
+						}
+					}
+				},
+				{
+					"name": "/getfamilymontajeentrycomplete/{___orden___}/{___negocio___}/**api para pdfs app/ public/ scripts/ vendor/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getfamilymontajeentrycomplete/{orden:0-9]+}/{negocio:0-9]+}/**api para pdfs app/ public/ scripts/ vendor/",
+							"host": ["{{products-qa}}/movimientoitem/getfamilymontajeentrycomplete/{orden:0-9]+}/{negocio:0-9]+}/**api para pdfs app/ public/ scripts/ vendor/"]
+						}
+					}
+				},
+				{
+					"name": "/getpdfmontajeentryall/{___orden___}/{___negocio___}/**api para pdfs app/ public/ scripts/ vendor/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getpdfmontajeentryall/{orden:0-9]+}/{negocio:0-9]+}/**api para pdfs app/ public/ scripts/ vendor/",
+							"host": ["{{products-qa}}/movimientoitem/getpdfmontajeentryall/{orden:0-9]+}/{negocio:0-9]+}/**api para pdfs app/ public/ scripts/ vendor/"]
+						}
+					}
+				},
+				{
+					"name": "/getitemlocation/{___orden___}/{___item___}/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getitemlocation/{orden:0-9]+}/{item:0-9]+}/{almacen:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitem/getitemlocation/{orden:0-9]+}/{item:0-9]+}/{almacen:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getadditemlocation/{___orden___}/{___item___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getadditemlocation/{orden:0-9]+}/{item:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitem/getadditemlocation/{orden:0-9]+}/{item:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicelocation/{___orden___}/{___almacen___}/{___service___}/{___num___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getservicelocation/{orden:0-9]+}/{almacen:0-9]+}/{service:0-9]+}/{num:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitem/getservicelocation/{orden:0-9]+}/{almacen:0-9]+}/{service:0-9]+}/{num:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicelocationfolio/{___orden___}/{___almacen___}/{___service___}/{___estado___}/{___num___}/{___option___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getservicelocationfolio/{orden:0-9]+}/{almacen:0-9]+}/{service:0-9]+}/{estado:0-9]+}/{num:0-9]+}/{option:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitem/getservicelocationfolio/{orden:0-9]+}/{almacen:0-9]+}/{service:0-9]+}/{estado:0-9]+}/{num:0-9]+}/{option:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getItemsExtrasMountingFolio/{___orden___}/{___negocio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getItemsExtrasMountingFolio/{orden:0-9]+}/{negocio:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitem/getItemsExtrasMountingFolio/{orden:0-9]+}/{negocio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/postitemsbyseries",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/postitemsbyseries",
+							"host": ["{{products-qa}}/movimientoitem/postitemsbyseries"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Not Found\",\"code\":404,\"message\":\"Data Not Found\",\"data\":{\"itemsexternal\":[],\"itemsinternal\":[],\"itemsadded\":[],\"faileditems\":[],\"totalitemesadd\":\"0 of 0\"},\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/postitemsbyseriesbyitem",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/postitemsbyseriesbyitem",
+							"host": ["{{products-qa}}/movimientoitem/postitemsbyseriesbyitem"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Not Found\",\"code\":404,\"message\":\"Data Not Found\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/getnumextrasbyorden/{___orden___}/{___negocio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getnumextrasbyorden/{orden:0-9]+}/{negocio:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitem/getnumextrasbyorden/{orden:0-9]+}/{negocio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getsumuitemsbyfolio/{___fechainicia___}/{___fechafinal___}/{___folio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getsumuitemsbyfolio/{fechainicia:a-zA-Z0-9-w]+}/{fechafinal:a-zA-Z0-9-w]+}/{folio:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitem/getsumuitemsbyfolio/{fechainicia:a-zA-Z0-9-w]+}/{fechafinal:a-zA-Z0-9-w]+}/{folio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getrotationinventory/{___fecha_inicio___}/{___fecha_final___}/{___negocio___}/{___familia___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getrotationinventory/{fecha_inicio:a-zA-Z0-9-w]+}/{fecha_final:a-zA-Z0-9-w]+}/{negocio:a-zA-Z0-9-w]+}/{familia:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/movimientoitem/getrotationinventory/{fecha_inicio:a-zA-Z0-9-w]+}/{fecha_final:a-zA-Z0-9-w]+}/{negocio:a-zA-Z0-9-w]+}/{familia:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/updateitemmultiple",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/updateitemmultiple",
+							"host": ["{{products-qa}}/movimientoitem/updateitemmultiple"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/getdatabyidservice/{___item___}/{___tipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitem/getdatabyidservice/{item:0-9]+}/{tipo:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitem/getdatabyidservice/{item:0-9]+}/{tipo:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/tipomovimiento",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tipomovimiento/",
+							"host": ["{{products-qa}}/tipomovimiento/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tipomovimiento/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/tipomovimiento/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tipomovimiento/search",
+							"host": ["{{products-qa}}/tipomovimiento/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/tipomovimiento/post",
+							"host": ["{{products-qa}}/tipomovimiento/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tipomovimiento/put/0",
+							"host": ["{{products-qa}}/tipomovimiento/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tipomovimiento/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/tipomovimiento/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdownbystatus",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tipomovimiento/dropdownbystatus",
+							"host": ["{{products-qa}}/tipomovimiento/dropdownbystatus"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/reporte",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/reporte/",
+							"host": ["{{products-qa}}/reporte/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/reporte/search",
+							"host": ["{{products-qa}}/reporte/search"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/reporte/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/reporte/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getElementByInv/{___inv___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/reporte/getElementByInv/{inv:0-9]+}",
+							"host": ["{{products-qa}}/reporte/getElementByInv/{inv:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/reporte/post",
+							"host": ["{{products-qa}}/reporte/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"inv_tipo_movimiento_item\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idinv_movimiento_item\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/reporte/put/0",
+							"host": ["{{products-qa}}/reporte/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/marca",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/marca/",
+							"host": ["{{products-qa}}/marca/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/marca/search",
+							"host": ["{{products-qa}}/marca/search"]
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/marca/put/0",
+							"host": ["{{products-qa}}/marca/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/marca/post",
+							"host": ["{{products-qa}}/marca/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"marca\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_ultima_modificacion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/marca/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/marca/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getmarcas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/marca/getmarcas",
+							"host": ["{{products-qa}}/marca/getmarcas"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/modelo",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/modelo/",
+							"host": ["{{products-qa}}/modelo/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/modelo/search",
+							"host": ["{{products-qa}}/modelo/search"]
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/modelo/put/0",
+							"host": ["{{products-qa}}/modelo/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/modelo/post",
+							"host": ["{{products-qa}}/modelo/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/modelobymarcadropdown/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/modelo/modelobymarcadropdown/{id:0-9]+}",
+							"host": ["{{products-qa}}/modelo/modelobymarcadropdown/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/modelo/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/modelo/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/proveedor",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/proveedor/",
+							"host": ["{{products-qa}}/proveedor/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/proveedor/search",
+							"host": ["{{products-qa}}/proveedor/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/proveedor/post",
+							"host": ["{{products-qa}}/proveedor/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_ultima_modificacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_ultima_modificacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/proveedor/put/0",
+							"host": ["{{products-qa}}/proveedor/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/proveedor/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/proveedor/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/proveedor/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/proveedor/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/itemproveedor",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/itemproveedor/",
+							"host": ["{{products-qa}}/itemproveedor/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/itemproveedor/search",
+							"host": ["{{products-qa}}/itemproveedor/search"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/itemproveedor/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/itemproveedor/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyidproveedor/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/itemproveedor/elementbyidproveedor/{id:0-9]+}",
+							"host": ["{{products-qa}}/itemproveedor/elementbyidproveedor/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyidproveedor/{___id___}/{___ViewdropdownData___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/itemproveedor/elementbyidproveedor/{id:0-9]+}/{ViewdropdownData:0-9]+}",
+							"host": ["{{products-qa}}/itemproveedor/elementbyidproveedor/{id:0-9]+}/{ViewdropdownData:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/itemproveedor/post",
+							"host": ["{{products-qa}}/itemproveedor/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/itemproveedor/put/0",
+							"host": ["{{products-qa}}/itemproveedor/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/itemproveedor/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/itemproveedor/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/movimientoitemproveedor",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitemproveedor/",
+							"host": ["{{products-qa}}/movimientoitemproveedor/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitemproveedor/search",
+							"host": ["{{products-qa}}/movimientoitemproveedor/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitemproveedor/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitemproveedor/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitemproveedor/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitemproveedor/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitemproveedor/post",
+							"host": ["{{products-qa}}/movimientoitemproveedor/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitemproveedor/put/0",
+							"host": ["{{products-qa}}/movimientoitemproveedor/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitemproveedor/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/movimientoitemproveedor/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getProviderMontaje/{___folio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitemproveedor/getProviderMontaje/{folio:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitemproveedor/getProviderMontaje/{folio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getProviderMontajeExtra/{___folio___}/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitemproveedor/getProviderMontajeExtra/{folio:0-9]+}/{id:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitemproveedor/getProviderMontajeExtra/{folio:0-9]+}/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getProviderMontajeIdExtra/{___folio___}/{___idextra___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitemproveedor/getProviderMontajeIdExtra/{folio:0-9]+}/{idextra:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitemproveedor/getProviderMontajeIdExtra/{folio:0-9]+}/{idextra:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getProvidersPickupFolio/{___folio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitemproveedor/getProvidersPickupFolio/{folio:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitemproveedor/getProvidersPickupFolio/{folio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getProvidersItemsPickupFolio/{___folio___}/{___proveedor___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitemproveedor/getProvidersItemsPickupFolio/{folio:0-9]+}/{proveedor:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitemproveedor/getProvidersItemsPickupFolio/{folio:0-9]+}/{proveedor:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getSumItemFolio/{___folio___}/{___item___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitemproveedor/getSumItemFolio/{folio:0-9]+}/{item:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitemproveedor/getSumItemFolio/{folio:0-9]+}/{item:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getProviderMontajeEntry/{___folio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitemproveedor/getProviderMontajeEntry/{folio:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitemproveedor/getProviderMontajeEntry/{folio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getProviderMontajeEntryComplete/{___folio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitemproveedor/getProviderMontajeEntryComplete/{folio:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitemproveedor/getProviderMontajeEntryComplete/{folio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getItemsProvidersEntryFolio/{___folio___}/{___proveedor___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/movimientoitemproveedor/getItemsProvidersEntryFolio/{folio:0-9]+}/{proveedor:0-9]+}",
+							"host": ["{{products-qa}}/movimientoitemproveedor/getItemsProvidersEntryFolio/{folio:0-9]+}/{proveedor:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/tag",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tag/",
+							"host": ["{{products-qa}}/tag/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tag/search",
+							"host": ["{{products-qa}}/tag/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tag/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/tag/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/tag/post",
+							"host": ["{{products-qa}}/tag/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tag/put/0",
+							"host": ["{{products-qa}}/tag/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tag/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/tag/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/tag/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/tag/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/apisexternas",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/apisexternas/",
+							"host": ["{{products-qa}}/apisexternas/"]
+						}
+					}
+				},
+				{
+					"name": "/gettiposhabitacion",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/apisexternas/gettiposhabitacion",
+							"host": ["{{products-qa}}/apisexternas/gettiposhabitacion"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"data\":{\"dropdownData\":{\"RV\":\"Deluxe Suite - resort View RV\",\"PM\":\"Posting Master PM\",\"JP\":\"Junior Suite JP\",\"VF4\":\"Grand Villa 4 Bedroom Suite VF4\",\"VT1\":\"Villa Cozumel (2 Bedrooms) VT1\",\"VT2\":\"Villa Cozumel (2 Bedrooms) VT2\",\"VT3\":\"Grand Villa (3 Bedrooms) VT3\",\"VF1\":\"Grand Villa 4 Bedroom Suite VF1\",\"VF2\":\"Grand Villa 4 Bedroom Suite VF2\",\"VF3\":\"Grand Villa 4 Bedroom Suite VF3\",\"JOV\":\"Junior Suite Ocean View JOV\",\"JPO\":\"Junior Suite Partial Ocean View JPO\",\"PO\":\"Superior Deluxe Partial Ocean View PO\",\"CN\":\"Concierge Level CN\",\"F1\":\"Grand Family Deluxe F1\",\"F2\":\"Grand Family Deluxe F2\",\"GS\":\"Governor Suite GS\",\"OV\":\"Superior Deluxe Ocean View Double OV\",\"P1\":\"Royale Presidential Suite King P1\",\"P2\":\"Presidential Suite King P2\",\"JO\":\"Junior Suite JO\",\"OB\":\"Superior Deluxe Ocean View with Balcony OB\",\"ST\":\"Staff rooms double ST\",\"LV\":\"Royale Deluxe Lagoon View LV\",\"PV\":\"Superior Deluxe - Pool View PV\",\"RP\":\"Royale Presidential Suite RP\",\"JR\":\"Ocean View Suite JR\",\"HN\":\"Royale Honeymoon HN\",\"JOF\":\"Ocean Front Suite JOF\",\"JPV\":\"Junior Suite Partial Ocaean View King JPV\",\"JLV\":\"Junior Suite Lagoon View King JLV\",\"WL\":\"Royale Wellness WL\",\"GL\":\"Grand Level GL\",\"V1\":\"Grand Villa (4 Bedrooms) V1\",\"V2\":\"Grand Villa (4 Bedrooms) V2\",\"V3\":\"Grand Villa (4 Bedrooms) V3\",\"V4\":\"Grand Villa (4 Bedrooms) V4\",\"GV\":\"Grand Deluxe Suite Garden View GV\",\"GAQ\":\"Grand Aqua Suite GAQ\",\"SW\":\"Grand Swim up Suite SW\",\"D1\":\"Grand Diamond Presidential Suite D1\",\"D2\":\"Grand Diamond Presidential Suite D2\",\"A2\":\"Grand Aqua Presidential Suite A2\",\"A1\":\"Grand Aqua Presidential Suite A1\",\"S2\":\"Grand Swim up Presidential Suite S2\",\"S1\":\"Grand Swim up Presidential Suite S1\",\"OF\":\"Superior Deluxe Ocean Front OF\",\"RES\":\"Residential Suite RES\",\"AS\":\"Governor Suite AS\",\"G1\":\"Two Bedroom Suite Golf Course G1\",\"G2\":\"Two Bedroom Suite Golf Course G2\",\"VG2\":\"Villa Campo de Golf VG2\",\"VG1\":\"Villa Campo de Golf VG1\",\"NP\":\"Bridal Suite NP\",\"MZK\":\"Loft Suite MZK\",\"HS\":\"Honeymoon Suite HS\",\"WO\":\"Walk out Suite WO\",\"ON\":\"Ocean View ON\",\"P1L\":\"LO Grand Presidential Suite P1L\",\"HNY\":\"Luxury Honeymoon HNY\",\"VT1L\":\"LO Villa Cozumel VT1L\",\"N1\":\"Presidential Suite North N1\",\"N2\":\"Presidential Suite North N2\",\"OSD\":\"Superior Deluxe Standar Ocean View Double OSD\",\"R1\":\"Residence R1\",\"R2\":\"Residence R2\",\"R3\":\"Residence R3\",\"R4\":\"Residence R4\"}},\"error\":false,\"message\":\"\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceformatopedidoitem",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceformatopedidoitem/",
+							"host": ["{{products-qa}}/serviceformatopedidoitem/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceformatopedidoitem/search",
+							"host": ["{{products-qa}}/serviceformatopedidoitem/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceformatopedidoitem/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-qa}}/serviceformatopedidoitem/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-qa}}/serviceformatopedidoitem/post",
+							"host": ["{{products-qa}}/serviceformatopedidoitem/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio_tipo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"formatojson\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceformatopedidoitem/put/0",
+							"host": ["{{products-qa}}/serviceformatopedidoitem/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceformatopedidoitem/elementbyid/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceformatopedidoitem/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/formatbyidtypeservice/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceformatopedidoitem/formatbyidtypeservice/{id:0-9]+}",
+							"host": ["{{products-qa}}/serviceformatopedidoitem/formatbyidtypeservice/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceformatopedidoitem/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-qa}}/serviceformatopedidoitem/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-qa}}/serviceformatopedidoitem/",
+							"host": ["{{products-qa}}/serviceformatopedidoitem/"]
+						}
+					}
+				}
+			]
+		}
+	]
+}

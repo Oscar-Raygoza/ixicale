@@ -87,7 +87,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
 						}
 					}
 				},
@@ -675,7 +675,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idevent_grupo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"id_pago\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"autorizacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"merchant\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"ticket\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"cantidad\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"tipo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
 						}
 					}
 				},
@@ -802,7 +802,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idclv_propiedad\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"id_opera\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idevent_grupo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idevent_tipo_evento\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"blockcode\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"pax\",\"message\":\"Is mandatory\"}]}"
 						}
 					}
 				},
@@ -842,17 +842,6 @@
 						"url": {
 							"raw": "{{events-qa}}/eventevento/geteventbygroup/{idevent_grupo:0-9]+}",
 							"host": ["{{events-qa}}/eventevento/geteventbygroup/{idevent_grupo:0-9]+}"]
-						}
-					}
-				},
-				{
-					"name": "/bin /boot /cdrom /dev /etc /home /lib /lib32 /lib64 /libx32 /lostfound /media /mnt /opt /proc /root /run /sbin /snap /srv /swapfile /sys /tmp /usr /var /geteventbygroupall/{___idevent_grupo___} config/ dist/ Emailtemplates/ node_modules/ postlogin/ public/ scripts/ src/",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "{{events-qa}}/eventevento/bin /boot /cdrom /dev /etc /home /lib /lib32 /lib64 /libx32 /lost+found /media /mnt /opt /proc /root /run /sbin /snap /srv /swapfile /sys /tmp /usr /var /geteventbygroupall/{idevent_grupo:0-9]+} config/ dist/ Email-templates/ node_modules/ postlogin/ public/ scripts/ src/",
-							"host": ["{{events-qa}}/eventevento/bin /boot /cdrom /dev /etc /home /lib /lib32 /lib64 /libx32 /lost+found /media /mnt /opt /proc /root /run /sbin /snap /srv /swapfile /sys /tmp /usr /var /geteventbygroupall/{idevent_grupo:0-9]+} config/ dist/ Email-templates/ node_modules/ postlogin/ public/ scripts/ src/"]
 						}
 					}
 				},
@@ -1015,7 +1004,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
 						}
 					}
 				},
@@ -1280,7 +1269,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idevent_evento\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idservice_evento\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idservice_evento_coleccion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"comentario_recepcion\",\"message\":\"Is mandatory\"}]}"
 						}
 					}
 				},
@@ -1355,7 +1344,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":""
+							"raw":"{\"status\":\"Ok\",\"code\":200,\"message\":\"Response data not async\",\"data\":{\"response_cargo\":[],\"response_events\":{\"error\":false,\"message\":\"response_saveChargueOpera\",\"data\":[]}},\"error\":false}"
 						}
 					}
 				},
@@ -1500,7 +1489,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":""
+							"raw":"{\"status\":\"Create\",\"code\":201,\"message\":\"Data not found\",\"data\":false,\"error\":false}"
 						}
 					}
 				},
@@ -1946,7 +1935,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idclv_propiedad\",\"message\":\"Is mandatory\"}]}"
 						}
 					}
 				},
@@ -2093,7 +2082,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
 						}
 					}
 				},
@@ -2325,7 +2314,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"cover\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"default_event_tipo\",\"message\":\"Is mandatory\"}]}"
 						}
 					}
 				},
@@ -2489,7 +2478,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
 						}
 					}
 				},
@@ -2616,7 +2605,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
 						}
 					}
 				},
@@ -2820,7 +2809,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
 						}
 					}
 				},
@@ -2958,7 +2947,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
 						}
 					}
 				},
@@ -3293,6 +3282,25 @@
 					}
 				},
 				{
+					"name": "/multikeys",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventtraduccionatributo/multikeys",
+							"host": ["{{events-qa}}/eventtraduccionatributo/multikeys"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Not Found\",\"code\":404,\"message\":\"param 'llave_registro' cannot be empty\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
 					"name": "/getTableLanguagebyKey/{___table___}/{___language___}/{___llave_registro___}",
 					"request": {
 						"method": "GET",
@@ -3363,7 +3371,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'event_dashboard_meta.idevent_premios_meta' in 'field list'\"}"
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
 						}
 					}
 				},
@@ -3465,7 +3473,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idevent_premios_meta\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idplanner\",\"message\":\"Is mandatory\"}]}"
 						}
 					}
 				},
@@ -3590,7 +3598,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
 						}
 					}
 				},
@@ -3731,7 +3739,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'event_dashboard_premios.idevent_premios_meta' in 'field list'\"}"
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
 						}
 					}
 				},
@@ -3822,7 +3830,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idevent_dashboard_descripcion_corte\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"clasificador\",\"message\":\"Is mandatory\"}]}"
 						}
 					}
 				},
@@ -3958,7 +3966,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[42S02]: Base table or view not found: 1146 Table 'clv_events.event_dashboard_descripcion_corte' doesn't exist\"}"
 						}
 					}
 				},
@@ -4066,7 +4074,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
 						}
 					}
 				},
@@ -4157,7 +4165,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idevent_grupo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idclv_propiedad\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"id_agencia\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"aprobado\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_aprobacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"folio_confirmacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"nombre_titular_reserva\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"apellido_titular_reserva\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"nombre_agencia_reserva\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"arrival_date\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"departure_date\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"cant_adults\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"cant_childs\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"cant_nights\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"cant_rooms\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
 						}
 					}
 				},
@@ -4290,7 +4298,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
 						}
 					}
 				},
@@ -4387,7 +4395,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
 						}
 					}
 				},
@@ -4536,7 +4544,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"comentario_familiar\",\"message\":\"Is mandatory\"}]}"
 						}
 					}
 				},
@@ -4650,7 +4658,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
 						}
 					}
 				}
@@ -4794,7 +4802,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idevent_grupo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"iddef_sap_sociedad\",\"message\":\"Is mandatory\"}]}"
 						}
 					}
 				},
@@ -4929,7 +4937,7 @@
 						"body": {
 							"mode":"raw",
 							"options":{"raw":{"language":"json"}},
-							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idevent_detalle_item\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"total\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"cargo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"compania\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"trx_codigo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"trx_numero\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"}]}"
 						}
 					}
 				},

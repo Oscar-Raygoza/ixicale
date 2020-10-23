@@ -38,6 +38,8 @@ f_name=${__DIR_SAVE/$__SF_BASH\//}
 
 #: Create folder if not exists
 [ ! -d $__DIR_SAVE ] && mkdir "$__DIR_SAVE"
+__URL='http://products-api-qa.clever.palace-resorts.local'
+__URL='http://dev.clever-api-events.local'
 
 f_export='{\n\t"info": {\n\t\t"name": "'$f_name'",'
 f_export=$f_export'\n\t\t"schema": "/https://schema.getpostman.com/json/collection/v2.1.0/collection.json"\n\t'
@@ -82,7 +84,7 @@ while IFS= read -r line; do
     fi
     if [[ $line == *"->post('"* ]]; then
             f_export="$f_export\"method\": \"POST\",$__BR\t"
-        data="$(curl -X POST -d {} http://dev.clever-api-events.local$link)"
+        data="$(curl -X POST -d {} $__URL$link)"
         echo -e "\n\n\tPOST\n\t=======\n$data"
             f_export="$f_export\"header\": [$__BR\t\t"
                 f_export="$f_export{\"key\":\"Content-Type\",\"name\":\"Content-Type\",\"value\":\"application/json\",\"type\":\"text\"}$__BR\t"
@@ -91,7 +93,7 @@ while IFS= read -r line; do
     if [[ $line == *"->put('"* ]]; then
         link=$(echo $link | sed -e "s/\w*:0-9/0/g" -e "s/{//g" -e "s/\}//g" -e "s/\]+//g")
         echo -e "\n\n\tPUT\n\t=======\n$data"
-        data="$(curl -X PUT -d {} http://dev.clever-api-events.local$link)"
+        data="$(curl -X PUT -d {} $__URL$link)"
             f_export="$f_export\"method\": \"PUT\",$__BR\t"
             f_export="$f_export\"header\": [],$__BR\t"
     fi
