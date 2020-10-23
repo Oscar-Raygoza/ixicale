@@ -1,0 +1,5099 @@
+{
+	"info": {
+		"name": "events.2020-10-23.postman-exports",
+		"schema": "/https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/local",
+			"item": [
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/",
+							"host": ["{{events-qa}}/"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/generator",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/generator/",
+							"host": ["{{events-qa}}/generator/"]
+						}
+					}
+				},
+				{
+					"name": "/code/{___tbl___}/{___mod___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/generator/code/{tbl:a-zA-Z0-9-w]+}/{mod:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/generator/code/{tbl:a-zA-Z0-9-w]+}/{mod:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventgrupo",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/",
+							"host": ["{{events-qa}}/eventgrupo/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/search",
+							"host": ["{{events-qa}}/eventgrupo/search"]
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/put/0",
+							"host": ["{{events-qa}}/eventgrupo/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/Getdate/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/Getdate/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/Getdate/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyidopera/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/elementbyidopera/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/elementbyidopera/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getBlockcode/{___blockcode___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getBlockcode/{blockcode:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventgrupo/getBlockcode/{blockcode:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/roominglist/{___resort___}/{___code___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/roominglist/{resort:a-zA-Z0-9-w]+}/{code:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventgrupo/roominglist/{resort:a-zA-Z0-9-w]+}/{code:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/admin/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/admin/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/admin/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getreportgoalsbyuser/{___fecha_inicia___}/{___fecha_fin___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getreportgoalsbyuser/{fecha_inicia:a-zA-Z0-9-w]+}/{fecha_fin:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventgrupo/getreportgoalsbyuser/{fecha_inicia:a-zA-Z0-9-w]+}/{fecha_fin:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicesbygropups/{___idevent_grupo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getservicesbygropups/{idevent_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/getservicesbygropups/{idevent_grupo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdetailsheet/{___tipo___}/{___ididioma___}/{___idevent_grupo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getdetailsheet/{tipo:1-2]+}/{ididioma:0-9]+}/{idevent_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/getdetailsheet/{tipo:1-2]+}/{ididioma:0-9]+}/{idevent_grupo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "///operational/detailsheet/{___ididioma___}/{___idevent_grupo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo///operational/detailsheet/{ididioma:0-9]+}/{idevent_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo///operational/detailsheet/{ididioma:0-9]+}/{idevent_grupo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdatadetailsheet/{___ididioma___}/{___idevent_grupo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getdatadetailsheet/{ididioma:0-9]+}/{idevent_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/getdatadetailsheet/{ididioma:0-9]+}/{idevent_grupo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getlocationsandservices/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getlocationsandservices/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/getlocationsandservices/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventgrupo/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getallgroups/{___fecha_inicia___}/{___fecha_fin___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getallgroups/{fecha_inicia:a-zA-Z0-9-w]+}/{fecha_fin:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventgrupo/getallgroups/{fecha_inicia:a-zA-Z0-9-w]+}/{fecha_fin:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/geteventbygroup/{___id_grupo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/geteventbygroup/{id_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/geteventbygroup/{id_grupo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getitemsbybr/{___blockcode___}/{___id_grupo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getitemsbybr/{blockcode:a-zA-Z0-9-w]+}/{id_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/getitemsbybr/{blockcode:a-zA-Z0-9-w]+}/{id_grupo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/sendnotificacion",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/sendnotificacion",
+							"host": ["{{events-qa}}/eventgrupo/sendnotificacion"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/post",
+							"host": ["{{events-qa}}/eventgrupo/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/login",
+							"host": ["{{events-qa}}/eventgrupo/login"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"data\":[],\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/uploadcover",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/uploadcover",
+							"host": ["{{events-qa}}/eventgrupo/uploadcover"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Bad Request\",\"code\":400,\"message\":\"Some fields are required.\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/filter",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/filter",
+							"host": ["{{events-qa}}/eventgrupo/filter"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"data\":[],\"message\":\"\",\"status\":404,\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/resetpassword/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/reset-password/0",
+							"host": ["{{events-qa}}/eventgrupo/reset-password/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Not Found\",\"code\":404,\"message\":\"NOT FOUND\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/getGruposBodas/{___tipoevento___}/{___fechainicia___}/{___fechafin___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getGruposBodas/{tipoevento:0-9]+}/{fechainicia:a-zA-Z0-9-w]+}/{fechafin:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventgrupo/getGruposBodas/{tipoevento:0-9]+}/{fechainicia:a-zA-Z0-9-w]+}/{fechafin:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getlocationbygroup/{___idevent_grupo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getlocationbygroup/{idevent_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/getlocationbygroup/{idevent_grupo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getgroupfecha/{___idcliente___}/{___fechainicia___}/{___fechafin___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getgroupfecha/{idcliente:0-9]+}/{fechainicia:a-zA-Z0-9-w]+}/{fechafin:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventgrupo/getgroupfecha/{idcliente:0-9]+}/{fechainicia:a-zA-Z0-9-w]+}/{fechafin:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getgroupfechainternal/{___fechainicia___}/{___fechafin___}/{___cliente___}/{___grupo___}/{___tipoevento___}/{___locacion___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getgroupfechainternal/{fechainicia:a-zA-Z0-9-w]+}/{fechafin:a-zA-Z0-9-w]+}/{cliente:0-9]+}/{grupo:0-9]+}/{tipoevento:0-9]+}/{locacion:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/getgroupfechainternal/{fechainicia:a-zA-Z0-9-w]+}/{fechafin:a-zA-Z0-9-w]+}/{cliente:0-9]+}/{grupo:0-9]+}/{tipoevento:0-9]+}/{locacion:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/sendweddingaccount",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/sendweddingaccount",
+							"host": ["{{events-qa}}/eventgrupo/sendweddingaccount"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Bad Request\",\"code\":400,\"message\":\"Not Params\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/searchByCoord/{___username___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/searchByCoord/{username:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventgrupo/searchByCoord/{username:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/searchGroup",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/searchGroup",
+							"host": ["{{events-qa}}/eventgrupo/searchGroup"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/getGroup",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getGroup",
+							"host": ["{{events-qa}}/eventgrupo/getGroup"]
+						}
+					}
+				},
+				{
+					"name": "/getgroupevents/{___fechainicia___}/{___fechafin___}/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getgroupevents/{fechainicia:a-zA-Z0-9-w]+}/{fechafin:a-zA-Z0-9-w]+}/{almacen:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/getgroupevents/{fechainicia:a-zA-Z0-9-w]+}/{fechafin:a-zA-Z0-9-w]+}/{almacen:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getpaymentsbygroups/{___username___}/{___datebegin___}/{___dateend___}/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getpaymentsbygroups/{username:a-zA-Z0-9-w]+}/{datebegin:a-zA-Z0-9-w]+}/{dateend:a-zA-Z0-9-w]+}/",
+							"host": ["{{events-qa}}/eventgrupo/getpaymentsbygroups/{username:a-zA-Z0-9-w]+}/{datebegin:a-zA-Z0-9-w]+}/{dateend:a-zA-Z0-9-w]+}/"]
+						}
+					}
+				},
+				{
+					"name": "/getpaymentsbygroups/{___username___}/{___datebegin___}/{___dateend___}/{___numreserva___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getpaymentsbygroups/{username:a-zA-Z0-9-w]+}/{datebegin:a-zA-Z0-9-w]+}/{dateend:a-zA-Z0-9-w]+}/{numreserva:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventgrupo/getpaymentsbygroups/{username:a-zA-Z0-9-w]+}/{datebegin:a-zA-Z0-9-w]+}/{dateend:a-zA-Z0-9-w]+}/{numreserva:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/geteventsreport/{___fechainicia___}/{___fechafin___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/geteventsreport/{fechainicia:a-zA-Z0-9-w]+}/{fechafin:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventgrupo/geteventsreport/{fechainicia:a-zA-Z0-9-w]+}/{fechafin:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getcostbyevent/{___description___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getcostbyevent/{description:a-zA-Z0-9-W]+}",
+							"host": ["{{events-qa}}/eventgrupo/getcostbyevent/{description:a-zA-Z0-9-W]+}"]
+						}
+					}
+				},
+				{
+					"name": "/geteventdetail/{___id___}/{___byEvent___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/geteventdetail/{id:0-9]+}/{byEvent:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/geteventdetail/{id:0-9]+}/{byEvent:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservices/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getservices/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/getservices/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getelementbyblockcode/{___blockcode___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getelementbyblockcode/{blockcode:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventgrupo/getelementbyblockcode/{blockcode:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/sendemailtochangepassword",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/sendemailtochangepassword",
+							"host": ["{{events-qa}}/eventgrupo/sendemailtochangepassword"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/changepassword/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/changepassword/0",
+							"host": ["{{events-qa}}/eventgrupo/changepassword/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"\",\"code\":500,\"message\":\"SYSTEM ERROR\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/getinfogroup/{___id_grupo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/getinfogroup/{id_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventgrupo/getinfogroup/{id_grupo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdownFilter/{___cliente___}/{___fechainicio___}/{___fechafin___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventgrupo/dropdownFilter/{cliente:0-9]+}/{fechainicio:a-zA-Z0-9-w]+}/{fechafin:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventgrupo/dropdownFilter/{cliente:0-9]+}/{fechainicio:a-zA-Z0-9-w]+}/{fechafin:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/grupopago",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/grupopago/",
+							"host": ["{{events-qa}}/grupopago/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/grupopago/search",
+							"host": ["{{events-qa}}/grupopago/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/grupopago/post",
+							"host": ["{{events-qa}}/grupopago/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/grupopago/put/0",
+							"host": ["{{events-qa}}/grupopago/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/grupopago/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/grupopago/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyidevent/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/grupopago/elementbyidevent/{id:0-9]+}",
+							"host": ["{{events-qa}}/grupopago/elementbyidevent/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/item/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/grupopago/item/{id:0-9]+}",
+							"host": ["{{events-qa}}/grupopago/item/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/tipocambio",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/grupopago/tipocambio",
+							"host": ["{{events-qa}}/grupopago/tipocambio"]
+						}
+					}
+				},
+				{
+					"name": "/payment",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/grupopago/payment",
+							"host": ["{{events-qa}}/grupopago/payment"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventevento",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/",
+							"host": ["{{events-qa}}/eventevento/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/search",
+							"host": ["{{events-qa}}/eventevento/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/post",
+							"host": ["{{events-qa}}/eventevento/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/put/0",
+							"host": ["{{events-qa}}/eventevento/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventevento/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/geteventbygroup/{___idevent_grupo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/geteventbygroup/{idevent_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventevento/geteventbygroup/{idevent_grupo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/bin /boot /cdrom /dev /etc /home /lib /lib32 /lib64 /libx32 /lostfound /media /mnt /opt /proc /root /run /sbin /snap /srv /swapfile /sys /tmp /usr /var /geteventbygroupall/{___idevent_grupo___} config/ dist/ Emailtemplates/ node_modules/ postlogin/ public/ scripts/ src/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/bin /boot /cdrom /dev /etc /home /lib /lib32 /lib64 /libx32 /lost+found /media /mnt /opt /proc /root /run /sbin /snap /srv /swapfile /sys /tmp /usr /var /geteventbygroupall/{idevent_grupo:0-9]+} config/ dist/ Email-templates/ node_modules/ postlogin/ public/ scripts/ src/",
+							"host": ["{{events-qa}}/eventevento/bin /boot /cdrom /dev /etc /home /lib /lib32 /lib64 /libx32 /lost+found /media /mnt /opt /proc /root /run /sbin /snap /srv /swapfile /sys /tmp /usr /var /geteventbygroupall/{idevent_grupo:0-9]+} config/ dist/ Email-templates/ node_modules/ postlogin/ public/ scripts/ src/"]
+						}
+					}
+				},
+				{
+					"name": "/geteventbygroup/{___idevent_grupo___}/{___ViewdropdownData___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/geteventbygroup/{idevent_grupo:0-9]+}/{ViewdropdownData:0-9]+}",
+							"host": ["{{events-qa}}/eventevento/geteventbygroup/{idevent_grupo:0-9]+}/{ViewdropdownData:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/geteventbygroup2/{___idevent_grupo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/geteventbygroup2/{idevent_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventevento/geteventbygroup2/{idevent_grupo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getsum2/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/getsum2/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventevento/getsum2/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getsum3/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/getsum3/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventevento/getsum3/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/searchblockcode/{___blockcode:azAZ09/w]___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/searchblockcode/{blockcode:a-zA-Z0-9-/w]+}",
+							"host": ["{{events-qa}}/eventevento/searchblockcode/{blockcode:a-zA-Z0-9-/w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdetailsblockid/{___block_id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/getdetailsblockid/{block_id:0-9]+}",
+							"host": ["{{events-qa}}/eventevento/getdetailsblockid/{block_id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/validatereservationbyhotel/{___hotel___}/{___folio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/validatereservationbyhotel/{hotel:a-zA-Z0-9-w]++}/{folio:0-9]+}",
+							"host": ["{{events-qa}}/eventevento/validatereservationbyhotel/{hotel:a-zA-Z0-9-w]++}/{folio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicesgroup/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/getservicesgroup/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventevento/getservicesgroup/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/geteventsandlocations/{___idevent_grupo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/geteventsandlocations/{idevent_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventevento/geteventsandlocations/{idevent_grupo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getEventLocationsCart/{___idevent_grupo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/getEventLocationsCart/{idevent_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventevento/getEventLocationsCart/{idevent_grupo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getEventGroupLocation/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventevento/getEventGroupLocation/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventevento/getEventGroupLocation/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventdetalleasset",
+			"item": [
+				
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleasset/post",
+							"host": ["{{events-qa}}/eventdetalleasset/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleasset/put/0",
+							"host": ["{{events-qa}}/eventdetalleasset/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleasset/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleasset/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleasset/",
+							"host": ["{{events-qa}}/eventdetalleasset/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleasset/search",
+							"host": ["{{events-qa}}/eventdetalleasset/search"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyDetalleItem/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleasset/elementbyDetalleItem/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleasset/elementbyDetalleItem/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyids/{___ids___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleasset/elementbyids/{ids:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventdetalleasset/elementbyids/{ids:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/item/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleasset/item/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleasset/item/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/item2/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleasset/item2/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleasset/item2/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getlogsbyp/{___pk_table___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleasset/getlogsbyp/{pk_table:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleasset/getlogsbyp/{pk_table:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventdetalleextrainfo",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleextrainfo/",
+							"host": ["{{events-qa}}/eventdetalleextrainfo/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleextrainfo/search",
+							"host": ["{{events-qa}}/eventdetalleextrainfo/search"]
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleextrainfo/put/0",
+							"host": ["{{events-qa}}/eventdetalleextrainfo/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleextrainfo/post",
+							"host": ["{{events-qa}}/eventdetalleextrainfo/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/item/{___id___}/{___tipo_extrainfo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleextrainfo/item/{id:0-9]+}/{tipo_extrainfo:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleextrainfo/item/{id:0-9]+}/{tipo_extrainfo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/comments/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleextrainfo/comments/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleextrainfo/comments/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/notes/{___user___}/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleextrainfo/notes/{user:0-9]+}/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleextrainfo/notes/{user:0-9]+}/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/details/{___user___}/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleextrainfo/details/{user:0-9]+}/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleextrainfo/details/{user:0-9]+}/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/itemall/{___id___}/{___tipo_extrainfo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleextrainfo/itemall/{id:0-9]+}/{tipo_extrainfo:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleextrainfo/itemall/{id:0-9]+}/{tipo_extrainfo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getlogsbyp/{___pk_table___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleextrainfo/getlogsbyp/{pk_table:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleextrainfo/getlogsbyp/{pk_table:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/multitem/{___type___}/{___ids___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleextrainfo/multitem/{type:0-9]+}/{ids:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventdetalleextrainfo/multitem/{type:0-9]+}/{ids:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventdetalleitem",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/",
+							"host": ["{{events-qa}}/eventdetalleitem/"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/post",
+							"host": ["{{events-qa}}/eventdetalleitem/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/postadmin",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/postadmin",
+							"host": ["{{events-qa}}/eventdetalleitem/postadmin"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idevent_evento\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idservice_evento\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idservice_evento_coleccion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"comentario_recepcion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/getsumevent/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/getsumevent/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/getsumevent/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getsumevento/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/getsumevento/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/getsumevento/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/put/0",
+							"host": ["{{events-qa}}/eventdetalleitem/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/updatecharguedetalleitem",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/updatecharguedetalleitem",
+							"host": ["{{events-qa}}/eventdetalleitem/updatecharguedetalleitem"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/search",
+							"host": ["{{events-qa}}/eventdetalleitem/search"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/cancelservice/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/cancelservice/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/cancelservice/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/gerservicebyeventandlocation/{___idvent_evento___}/{___id_locacion___}/{___showcanceled___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/gerservicebyeventandlocation/{idvent_evento:0-9]+}/{id_locacion:0-9]+}/{showcanceled:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/gerservicebyeventandlocation/{idvent_evento:0-9]+}/{id_locacion:0-9]+}/{showcanceled:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdetailsitembylocation/{___ids___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/getdetailsitembylocation/{ids:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/getdetailsitembylocation/{ids:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdataitem/{___idevent_grupo___}/{___id_locacion___}/{___idevent_evento___}/{___negocio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/getdataitem/{idevent_grupo:0-9]+}/{id_locacion:0-9]+}/{idevent_evento:0-9]+}/{negocio:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/getdataitem/{idevent_grupo:0-9]+}/{id_locacion:0-9]+}/{idevent_evento:0-9]+}/{negocio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/status/{___lang___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/status/{lang:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/status/{lang:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/status/{___lang___}/{___filterQuotation___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/status/{lang:0-9]+}/{filterQuotation:0-1]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/status/{lang:0-9]+}/{filterQuotation:0-1]+}"]
+						}
+					}
+				},
+				{
+					"name": "/updateservicelocation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/updateservicelocation",
+							"host": ["{{events-qa}}/eventdetalleitem/updateservicelocation"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/payservices",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/payservices",
+							"host": ["{{events-qa}}/eventdetalleitem/payservices"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/chargeopera",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/chargeopera",
+							"host": ["{{events-qa}}/eventdetalleitem/chargeopera"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/getcolectionbyservice/{___idservice_evento_coleccion___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/getcolectionbyservice/{idservice_evento_coleccion:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/getcolectionbyservice/{idservice_evento_coleccion:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/updatedetalleitem/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/updatedetalleitem/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/updatedetalleitem/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdetallesitems/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/getdetallesitems/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/getdetallesitems/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getlogsbyp/{___pk_table___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/getlogsbyp/{pk_table:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/getlogsbyp/{pk_table:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getLocationService/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/getLocationService/{id:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/getLocationService/{id:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getDescriptionService/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/getDescriptionService/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/getDescriptionService/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/updatedetalleitempago",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/updatedetalleitempago",
+							"host": ["{{events-qa}}/eventdetalleitem/updatedetalleitempago"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Ok\",\"code\":200,\"message\":\"Data not found\",\"data\":{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"usuario_ultima_modificacion\",\"message\":\"Is mandatory\"}]},\"error\":false}"
+						}
+					}
+				},
+				{
+					"name": "/sendlinkpayout",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/sendlinkpayout",
+							"host": ["{{events-qa}}/eventdetalleitem/sendlinkpayout"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/getdetailandextrainfo/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/getdetailandextrainfo/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/getdetailandextrainfo/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getDetalleItemDate/{___date___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/getDetalleItemDate/{date:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/getDetalleItemDate/{date:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/prepago",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/prepago",
+							"host": ["{{events-qa}}/eventdetalleitem/prepago"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Ok\",\"code\":200,\"message\":\"OK\",\"data\":{\"error\":true,\"data\":\"null\",\"prepago\":{\"message\":\"Folio and Society can not be empty\"}},\"error\":false}"
+						}
+					}
+				},
+				{
+					"name": "/getShoppingCart/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/getShoppingCart/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/getShoppingCart/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/sendFamilyGift",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/sendFamilyGift",
+							"host": ["{{events-qa}}/eventdetalleitem/sendFamilyGift"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/updateTypeServices",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/updateTypeServices",
+							"host": ["{{events-qa}}/eventdetalleitem/updateTypeServices"]
+						}
+					}
+				},
+				{
+					"name": "/getbyeventlocation/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/getbyeventlocation/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/getbyeventlocation/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getbygroup/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/getbygroup/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetalleitem/getbygroup/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getbygroup/{___id___}/{___asDict___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetalleitem/getbygroup/{id:0-9]+}/{asDict:0-1]}",
+							"host": ["{{events-qa}}/eventdetalleitem/getbygroup/{id:0-9]+}/{asDict:0-1]}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventdetallepago",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetallepago/",
+							"host": ["{{events-qa}}/eventdetallepago/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetallepago/search",
+							"host": ["{{events-qa}}/eventdetallepago/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdetallepago/post",
+							"host": ["{{events-qa}}/eventdetallepago/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idevent_detalle_item\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idevent_grupo_pago\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"id_pago\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"monto_pago\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetallepago/put/0",
+							"host": ["{{events-qa}}/eventdetallepago/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/postsintarjeta",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdetallepago/postsintarjeta",
+							"host": ["{{events-qa}}/eventdetallepago/postsintarjeta"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/getbycurrentweek",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetallepago/getbycurrentweek",
+							"host": ["{{events-qa}}/eventdetallepago/getbycurrentweek"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventdetallesolicitud",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetallesolicitud/",
+							"host": ["{{events-qa}}/eventdetallesolicitud/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetallesolicitud/search",
+							"host": ["{{events-qa}}/eventdetallesolicitud/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdetallesolicitud/post",
+							"host": ["{{events-qa}}/eventdetallesolicitud/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idevent_detalle_item\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetallesolicitud/put/0",
+							"host": ["{{events-qa}}/eventdetallesolicitud/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/quotes/{___item___}/{___status___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetallesolicitud/quotes/{item:0-9]+}/{status:0-9]+}",
+							"host": ["{{events-qa}}/eventdetallesolicitud/quotes/{item:0-9]+}/{status:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/blockid/{___key___}/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdetallesolicitud/blockid/{key:a-zA-Z0-9-w]+}/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdetallesolicitud/blockid/{key:a-zA-Z0-9-w]+}/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventlocacion",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventlocacion/",
+							"host": ["{{events-qa}}/eventlocacion/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventlocacion/search",
+							"host": ["{{events-qa}}/eventlocacion/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventlocacion/post",
+							"host": ["{{events-qa}}/eventlocacion/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventlocacion/put/0",
+							"host": ["{{events-qa}}/eventlocacion/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventlocacion/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventlocacion/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventlocacion/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventlocacion/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyids/{___idclv_propiedad___}/{___default_locacion___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventlocacion/elementbyids/{idclv_propiedad:a-zA-Z0-9-w]+}/{default_locacion:0-9]+}",
+							"host": ["{{events-qa}}/eventlocacion/elementbyids/{idclv_propiedad:a-zA-Z0-9-w]+}/{default_locacion:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbypropiedad/{___idclv_propiedad___}/{___estado___}/{___default_locacion___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventlocacion/elementbypropiedad/{idclv_propiedad:a-zA-Z0-9-w]+}/{estado:0-9]+}/{default_locacion:0-9]+}",
+							"host": ["{{events-qa}}/eventlocacion/elementbypropiedad/{idclv_propiedad:a-zA-Z0-9-w]+}/{estado:0-9]+}/{default_locacion:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventlocacion/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventlocacion/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdownlocationbyhotel/{___key___}/{___value___}/{___hotel___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventlocacion/dropdownlocationbyhotel/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}/{hotel:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventlocacion/dropdownlocationbyhotel/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}/{hotel:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventeventolocacion",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventolocacion/",
+							"host": ["{{events-qa}}/eventeventolocacion/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventolocacion/search",
+							"host": ["{{events-qa}}/eventeventolocacion/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventeventolocacion/post",
+							"host": ["{{events-qa}}/eventeventolocacion/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventolocacion/put/0",
+							"host": ["{{events-qa}}/eventeventolocacion/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventolocacion/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventeventolocacion/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventolocacion/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventeventolocacion/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getlocationsbyevent/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventolocacion/getlocationsbyevent/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventeventolocacion/getlocationsbyevent/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getlocationsbyevents/{___ids___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventolocacion/getlocationsbyevents/{ids:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventeventolocacion/getlocationsbyevents/{ids:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getlocationsbyevent/{___id___}/{___ViewdropdownData___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventolocacion/getlocationsbyevent/{id:0-9]+}/{ViewdropdownData:0-9]+}",
+							"host": ["{{events-qa}}/eventeventolocacion/getlocationsbyevent/{id:0-9]+}/{ViewdropdownData:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getlogsbyp/{___pk_table___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventolocacion/getlogsbyp/{pk_table:0-9]+}",
+							"host": ["{{events-qa}}/eventeventolocacion/getlogsbyp/{pk_table:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getfechalocation/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventolocacion/getfechalocation/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventeventolocacion/getfechalocation/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getinfolocacionbyideventeventolocacion/{___idEventEventoLocacion___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventolocacion/getinfolocacionbyideventeventolocacion/{idEventEventoLocacion:0-9]+}",
+							"host": ["{{events-qa}}/eventeventolocacion/getinfolocacionbyideventeventolocacion/{idEventEventoLocacion:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getinfoeventeventlocation/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventolocacion/getinfoeventeventlocation/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventeventolocacion/getinfoeventeventlocation/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdataeventeventlocation/{___idevent_evento_locacion___}/{___idevent_evento___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventolocacion/getdataeventeventlocation/{idevent_evento_locacion:0-9]+}/{idevent_evento:0-9]+}",
+							"host": ["{{events-qa}}/eventeventolocacion/getdataeventeventlocation/{idevent_evento_locacion:0-9]+}/{idevent_evento:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventreservacobro",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservacobro/",
+							"host": ["{{events-qa}}/eventreservacobro/"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventreservacobro/post",
+							"host": ["{{events-qa}}/eventreservacobro/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idevent_evento\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservacobro/put/0",
+							"host": ["{{events-qa}}/eventreservacobro/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyideventevento/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservacobro/elementbyideventevento/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventreservacobro/elementbyideventevento/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservacobro/search",
+							"host": ["{{events-qa}}/eventreservacobro/search"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventtipoevento",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtipoevento/",
+							"host": ["{{events-qa}}/eventtipoevento/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtipoevento/search",
+							"host": ["{{events-qa}}/eventtipoevento/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventtipoevento/post",
+							"host": ["{{events-qa}}/eventtipoevento/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtipoevento/put/0",
+							"host": ["{{events-qa}}/eventtipoevento/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtipoevento/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventtipoevento/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbydefault/{___default_event_tipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtipoevento/elementbydefault/{default_event_tipo:0-9]+}",
+							"host": ["{{events-qa}}/eventtipoevento/elementbydefault/{default_event_tipo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtipoevento/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventtipoevento/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtipoevento/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventtipoevento/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventtipoeventotexto",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtipoeventotexto/",
+							"host": ["{{events-qa}}/eventtipoeventotexto/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtipoeventotexto/search",
+							"host": ["{{events-qa}}/eventtipoeventotexto/search"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventtipopromocion",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtipopromocion/",
+							"host": ["{{events-qa}}/eventtipopromocion/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtipopromocion/search",
+							"host": ["{{events-qa}}/eventtipopromocion/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtipopromocion/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventtipopromocion/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventtipopromocion/post",
+							"host": ["{{events-qa}}/eventtipopromocion/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtipopromocion/put/0",
+							"host": ["{{events-qa}}/eventtipopromocion/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtipopromocion/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventtipopromocion/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtipopromocion/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventtipopromocion/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventpromocion",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventpromocion/",
+							"host": ["{{events-qa}}/eventpromocion/"]
+						}
+					}
+				},
+				{
+					"name": "/{___idGroup___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventpromocion/{idGroup:0-9]+}",
+							"host": ["{{events-qa}}/eventpromocion/{idGroup:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventpromocion/search",
+							"host": ["{{events-qa}}/eventpromocion/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventpromocion/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventpromocion/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventpromocion/post",
+							"host": ["{{events-qa}}/eventpromocion/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"expresion_logica\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"wording\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"propiedades\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/postJson",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventpromocion/postJson",
+							"host": ["{{events-qa}}/eventpromocion/postJson"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Bad Request\",\"code\":400,\"message\":\"Not Params\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventpromocion/put/0",
+							"host": ["{{events-qa}}/eventpromocion/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/putJson/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventpromocion/putJson/0",
+							"host": ["{{events-qa}}/eventpromocion/putJson/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Bad Request\",\"code\":400,\"message\":\"Not Params\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventpromocion/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventpromocion/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/geteventpromotionbytype/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventpromocion/geteventpromotionbytype/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventpromocion/geteventpromotionbytype/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getpromotionbycode/{___codigo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventpromocion/getpromotionbycode/{codigo:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventpromocion/getpromotionbycode/{codigo:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventpromocion/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventpromocion/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getpromotionbygroup/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventpromocion/getpromotionbygroup/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventpromocion/getpromotionbygroup/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/automaticpromotion",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventpromocion/automaticpromotion",
+							"host": ["{{events-qa}}/eventpromocion/automaticpromotion"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Bad Request\",\"code\":400,\"message\":\"Not Params\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/manualpromotions",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventpromocion/manualpromotions",
+							"host": ["{{events-qa}}/eventpromocion/manualpromotions"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Bad Request\",\"code\":400,\"message\":\"Not Params\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/listmanualpromotions",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventpromocion/listmanualpromotions",
+							"host": ["{{events-qa}}/eventpromocion/listmanualpromotions"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Bad Request\",\"code\":400,\"message\":\"Not Params\",\"data\":[],\"error\":true}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventeventopromocion",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventopromocion/",
+							"host": ["{{events-qa}}/eventeventopromocion/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventopromocion/search",
+							"host": ["{{events-qa}}/eventeventopromocion/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventopromocion/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventeventopromocion/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventeventopromocion/post",
+							"host": ["{{events-qa}}/eventeventopromocion/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventopromocion/put/0",
+							"host": ["{{events-qa}}/eventeventopromocion/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventopromocion/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventeventopromocion/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getpromotionsbygroup/{___idevent_grupo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventopromocion/getpromotionsbygroup/{idevent_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventeventopromocion/getpromotionsbygroup/{idevent_grupo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getpromotionbyblockcode/{___blockcode:azAZ09/w]___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventopromocion/getpromotionbyblockcode/{blockcode:a-zA-Z0-9-/w]+}",
+							"host": ["{{events-qa}}/eventeventopromocion/getpromotionbyblockcode/{blockcode:a-zA-Z0-9-/w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getreservationsbyblockcode",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventeventopromocion/getreservationsbyblockcode",
+							"host": ["{{events-qa}}/eventeventopromocion/getreservationsbyblockcode"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Bad Request\",\"code\":400,\"message\":\"Bad Response\",\"data\":null,\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/getvalidrolauthorized",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventopromocion/getvalidrolauthorized",
+							"host": ["{{events-qa}}/eventeventopromocion/getvalidrolauthorized"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventsoporteeventopromocion",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventsoporteeventopromocion/",
+							"host": ["{{events-qa}}/eventsoporteeventopromocion/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventsoporteeventopromocion/search",
+							"host": ["{{events-qa}}/eventsoporteeventopromocion/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventsoporteeventopromocion/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventsoporteeventopromocion/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventsoporteeventopromocion/post",
+							"host": ["{{events-qa}}/eventsoporteeventopromocion/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventsoporteeventopromocion/put/0",
+							"host": ["{{events-qa}}/eventsoporteeventopromocion/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventsoporteeventopromocion/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventsoporteeventopromocion/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyDetalleItem/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventsoporteeventopromocion/elementbyDetalleItem/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventsoporteeventopromocion/elementbyDetalleItem/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/statistics",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/statistics/",
+							"host": ["{{events-qa}}/statistics/"]
+						}
+					}
+				},
+				{
+					"name": "/detailservicepayment/{___username___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/statistics/detailservicepayment/{username:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/statistics/detailservicepayment/{username:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/balansepaymentservices/{___username___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/statistics/balansepaymentservices/{username:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/statistics/balansepaymentservices/{username:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/salesbyuser/{___username___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/statistics/salesbyuser/{username:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/statistics/salesbyuser/{username:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/salesbyplanner/{___username___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/statistics/salesbyplanner/{username:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/statistics/salesbyplanner/{username:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventreporte",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreporte/",
+							"host": ["{{events-qa}}/eventreporte/"]
+						}
+					}
+				},
+				{
+					"name": "/getlogsitemsbyge/{___username___}/{___blockcode___}/{___id_opera___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreporte/getlogsitemsbyge/{username:a-zA-Z0-9-w]+}/{blockcode:a-zA-Z0-9-w]+}/{id_opera:0-9]+}",
+							"host": ["{{events-qa}}/eventreporte/getlogsitemsbyge/{username:a-zA-Z0-9-w]+}/{blockcode:a-zA-Z0-9-w]+}/{id_opera:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/auth",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/auth/",
+							"host": ["{{events-qa}}/auth/"]
+						}
+					}
+				},
+				{
+					"name": "/login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/auth/login",
+							"host": ["{{events-qa}}/auth/login"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Forbidden\",\"code\":403,\"message\":\"HEADER AUTHORIZATION NOT SENT\",\"data\":[],\"error\":true}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventsaldofavor",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventsaldofavor/",
+							"host": ["{{events-qa}}/eventsaldofavor/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventsaldofavor/search",
+							"host": ["{{events-qa}}/eventsaldofavor/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventsaldofavor/post",
+							"host": ["{{events-qa}}/eventsaldofavor/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventsaldofavor/put/0",
+							"host": ["{{events-qa}}/eventsaldofavor/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventsaldofavor/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventsaldofavor/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/saldofavor/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventsaldofavor/saldofavor/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventsaldofavor/saldofavor/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventtraduccionatributo",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtraduccionatributo/",
+							"host": ["{{events-qa}}/eventtraduccionatributo/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtraduccionatributo/search",
+							"host": ["{{events-qa}}/eventtraduccionatributo/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___lang___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtraduccionatributo/search/{lang:0-9]+}",
+							"host": ["{{events-qa}}/eventtraduccionatributo/search/{lang:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventtraduccionatributo/post",
+							"host": ["{{events-qa}}/eventtraduccionatributo/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"nombre_tabla\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"texto\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtraduccionatributo/put/0",
+							"host": ["{{events-qa}}/eventtraduccionatributo/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtraduccionatributo/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventtraduccionatributo/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getTableLanguage/{___table___}/{___language___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtraduccionatributo/getTableLanguage/{table:a-zA-Z0-9-w]+}/{language:0-9]+}",
+							"host": ["{{events-qa}}/eventtraduccionatributo/getTableLanguage/{table:a-zA-Z0-9-w]+}/{language:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getTableLanguagebyKey/{___table___}/{___language___}/{___llave_registro___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtraduccionatributo/getTableLanguagebyKey/{table:a-zA-Z0-9-w]+}/{language:0-9]+}/{llave_registro:0-9]+}",
+							"host": ["{{events-qa}}/eventtraduccionatributo/getTableLanguagebyKey/{table:a-zA-Z0-9-w]+}/{language:0-9]+}/{llave_registro:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventdashboardmeta",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardmeta/",
+							"host": ["{{events-qa}}/eventdashboardmeta/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardmeta/search",
+							"host": ["{{events-qa}}/eventdashboardmeta/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardmeta/post",
+							"host": ["{{events-qa}}/eventdashboardmeta/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardmeta/put/0",
+							"host": ["{{events-qa}}/eventdashboardmeta/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'event_dashboard_meta.idevent_premios_meta' in 'field list'\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardmeta/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboardmeta/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbydefault/{___default_event_tipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardmeta/elementbydefault/{default_event_tipo:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboardmeta/elementbydefault/{default_event_tipo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardmeta/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboardmeta/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardmeta/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventdashboardmeta/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdatalistpremios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardmeta/getdatalistpremios",
+							"host": ["{{events-qa}}/eventdashboardmeta/getdatalistpremios"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventdashboardplannermeta",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannermeta/",
+							"host": ["{{events-qa}}/eventdashboardplannermeta/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannermeta/search",
+							"host": ["{{events-qa}}/eventdashboardplannermeta/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannermeta/post",
+							"host": ["{{events-qa}}/eventdashboardplannermeta/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannermeta/put/0",
+							"host": ["{{events-qa}}/eventdashboardplannermeta/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannermeta/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboardplannermeta/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbydefault/{___default_event_tipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannermeta/elementbydefault/{default_event_tipo:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboardplannermeta/elementbydefault/{default_event_tipo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannermeta/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboardplannermeta/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannermeta/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventdashboardplannermeta/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventdashboardplannertemp",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannertemp/",
+							"host": ["{{events-qa}}/eventdashboardplannertemp/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannertemp/search",
+							"host": ["{{events-qa}}/eventdashboardplannertemp/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannertemp/post",
+							"host": ["{{events-qa}}/eventdashboardplannertemp/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"id_unidad_negocio\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idplanner\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannertemp/put/0",
+							"host": ["{{events-qa}}/eventdashboardplannertemp/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannertemp/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboardplannertemp/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbydefault/{___default_event_tipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannertemp/elementbydefault/{default_event_tipo:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboardplannertemp/elementbydefault/{default_event_tipo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannertemp/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboardplannertemp/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannertemp/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventdashboardplannertemp/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getallunidadnegociodashboardtemp/{___idunidad_negocio:azAZ09w/]___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannertemp/getallunidadnegociodashboardtemp/{idunidad_negocio:a-zA-Z0-9-w/]+}",
+							"host": ["{{events-qa}}/eventdashboardplannertemp/getallunidadnegociodashboardtemp/{idunidad_negocio:a-zA-Z0-9-w/]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getallunidadnegociodashboardtemp",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannertemp/getallunidadnegociodashboardtemp",
+							"host": ["{{events-qa}}/eventdashboardplannertemp/getallunidadnegociodashboardtemp"]
+						}
+					}
+				},
+				{
+					"name": "/dashboardtempunidadnegocio/{___idunidad_negocio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardplannertemp/dashboardtempunidadnegocio/{idunidad_negocio:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventdashboardplannertemp/dashboardtempunidadnegocio/{idunidad_negocio:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventdashboardpremios",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardpremios/",
+							"host": ["{{events-qa}}/eventdashboardpremios/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardpremios/search",
+							"host": ["{{events-qa}}/eventdashboardpremios/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardpremios/post",
+							"host": ["{{events-qa}}/eventdashboardpremios/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardpremios/put/0",
+							"host": ["{{events-qa}}/eventdashboardpremios/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'event_dashboard_premios.idevent_premios_meta' in 'field list'\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardpremios/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboardpremios/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbydefault/{___default_event_tipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardpremios/elementbydefault/{default_event_tipo:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboardpremios/elementbydefault/{default_event_tipo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardpremios/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboardpremios/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardpremios/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventdashboardpremios/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventdashboardcorte",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardcorte/",
+							"host": ["{{events-qa}}/eventdashboardcorte/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardcorte/search",
+							"host": ["{{events-qa}}/eventdashboardcorte/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardcorte/post",
+							"host": ["{{events-qa}}/eventdashboardcorte/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardcorte/put/0",
+							"host": ["{{events-qa}}/eventdashboardcorte/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardcorte/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboardcorte/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbydefault/{___default_event_tipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardcorte/elementbydefault/{default_event_tipo:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboardcorte/elementbydefault/{default_event_tipo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardcorte/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboardcorte/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardcorte/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventdashboardcorte/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dashboardcorte/{___corte_value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboardcorte/dashboardcorte/{corte_value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventdashboardcorte/dashboardcorte/{corte_value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventdashboarddescripcioncorte",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboarddescripcioncorte/",
+							"host": ["{{events-qa}}/eventdashboarddescripcioncorte/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboarddescripcioncorte/search",
+							"host": ["{{events-qa}}/eventdashboarddescripcioncorte/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboarddescripcioncorte/post",
+							"host": ["{{events-qa}}/eventdashboarddescripcioncorte/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboarddescripcioncorte/put/0",
+							"host": ["{{events-qa}}/eventdashboarddescripcioncorte/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboarddescripcioncorte/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboarddescripcioncorte/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbydefault/{___default_event_tipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboarddescripcioncorte/elementbydefault/{default_event_tipo:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboarddescripcioncorte/elementbydefault/{default_event_tipo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboarddescripcioncorte/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{events-qa}}/eventdashboarddescripcioncorte/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventdashboarddescripcioncorte/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventdashboarddescripcioncorte/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventtransactionlink",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtransactionlink/",
+							"host": ["{{events-qa}}/eventtransactionlink/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtransactionlink/search",
+							"host": ["{{events-qa}}/eventtransactionlink/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventtransactionlink/post",
+							"host": ["{{events-qa}}/eventtransactionlink/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtransactionlink/put/0",
+							"host": ["{{events-qa}}/eventtransactionlink/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtransactionlink/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventtransactionlink/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventtransactionlink/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventtransactionlink/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventreservagrupoagencia",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagencia/",
+							"host": ["{{events-qa}}/eventreservagrupoagencia/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagencia/search",
+							"host": ["{{events-qa}}/eventreservagrupoagencia/search"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagencia/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventreservagrupoagencia/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagencia/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventreservagrupoagencia/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagencia/post",
+							"host": ["{{events-qa}}/eventreservagrupoagencia/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagencia/put/0",
+							"host": ["{{events-qa}}/eventreservagrupoagencia/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/bygroupresort/{___id_group___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagencia/bygroupresort/{id_group:0-9]+}",
+							"host": ["{{events-qa}}/eventreservagrupoagencia/bygroupresort/{id_group:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/bygroupresort/{___idevent_grupo___}/{___idclv_propiedad___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagencia/bygroupresort/{idevent_grupo:0-9]+}/{idclv_propiedad:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventreservagrupoagencia/bygroupresort/{idevent_grupo:0-9]+}/{idclv_propiedad:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/filterbooking/{___idevent_grupo___}",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagencia/filterbooking/{idevent_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventreservagrupoagencia/filterbooking/{idevent_grupo:0-9]+}"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/bookingbyfolio/{___folio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagencia/bookingbyfolio/{folio:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventreservagrupoagencia/bookingbyfolio/{folio:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventreservagrupoagencialink",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagencialink/",
+							"host": ["{{events-qa}}/eventreservagrupoagencialink/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagencialink/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventreservagrupoagencialink/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagencialink/post",
+							"host": ["{{events-qa}}/eventreservagrupoagencialink/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"link\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagencialink/put/0",
+							"host": ["{{events-qa}}/eventreservagrupoagencialink/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/linksbygroupid/{___idevent_grupo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagencialink/linksbygroupid/{idevent_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventreservagrupoagencialink/linksbygroupid/{idevent_grupo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/activelinksbygroupid/{___idevent_grupo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagencialink/activelinksbygroupid/{idevent_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventreservagrupoagencialink/activelinksbygroupid/{idevent_grupo:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventbillingaddress",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventbillingaddress/",
+							"host": ["{{events-qa}}/eventbillingaddress/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventbillingaddress/search",
+							"host": ["{{events-qa}}/eventbillingaddress/search"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventbillingaddress/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventbillingaddress/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventbillingaddress/post",
+							"host": ["{{events-qa}}/eventbillingaddress/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventbillingaddress/put/0",
+							"host": ["{{events-qa}}/eventbillingaddress/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/address/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventbillingaddress/address/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventbillingaddress/address/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/profile/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventbillingaddress/profile/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventbillingaddress/profile/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/default/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventbillingaddress/default/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventbillingaddress/default/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/postInsert",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventbillingaddress/postInsert",
+							"host": ["{{events-qa}}/eventbillingaddress/postInsert"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":false,\"message\":\"Ok\",\"data\":{\"status\":\"error\",\"code\":\"404\",\"messages\":\"URL Not found\"}}"
+						}
+					}
+				},
+				{
+					"name": "/putDomicilios/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventbillingaddress/putDomicilios/0",
+							"host": ["{{events-qa}}/eventbillingaddress/putDomicilios/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/bygroup/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventbillingaddress/bygroup/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventbillingaddress/bygroup/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventreservagrupoagenciagift",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagenciagift/",
+							"host": ["{{events-qa}}/eventreservagrupoagenciagift/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagenciagift/search",
+							"host": ["{{events-qa}}/eventreservagrupoagenciagift/search"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagenciagift/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventreservagrupoagenciagift/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagenciagift/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/eventreservagrupoagenciagift/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagenciagift/post",
+							"host": ["{{events-qa}}/eventreservagrupoagenciagift/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagenciagift/put/0",
+							"host": ["{{events-qa}}/eventreservagrupoagenciagift/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/group/{___idevent_grupo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventreservagrupoagenciagift/group/{idevent_grupo:0-9]+}",
+							"host": ["{{events-qa}}/eventreservagrupoagenciagift/group/{idevent_grupo:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/tagmetadato",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/tagmetadato/",
+							"host": ["{{events-qa}}/tagmetadato/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/tagmetadato/search",
+							"host": ["{{events-qa}}/tagmetadato/search"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/tagmetadato/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/tagmetadato/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/tagmetadato/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/tagmetadato/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/tagmetadato/post",
+							"host": ["{{events-qa}}/tagmetadato/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/tagmetadato/put/0",
+							"host": ["{{events-qa}}/tagmetadato/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/tabulador",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/tabulador/",
+							"host": ["{{events-qa}}/tabulador/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/tabulador/search",
+							"host": ["{{events-qa}}/tabulador/search"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/tabulador/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/tabulador/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyidpromo/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/tabulador/elementbyidpromo/{id:0-9]+}",
+							"host": ["{{events-qa}}/tabulador/elementbyidpromo/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/tabulador/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{events-qa}}/tabulador/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/tabulador/post",
+							"host": ["{{events-qa}}/tabulador/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idevent_promocion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"atributo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"valor_minimo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"valor_maximo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"monto\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"ilimitado\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/tabulador/put/0",
+							"host": ["{{events-qa}}/tabulador/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/grupoaceptatermino",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/grupoaceptatermino/",
+							"host": ["{{events-qa}}/grupoaceptatermino/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/grupoaceptatermino/search",
+							"host": ["{{events-qa}}/grupoaceptatermino/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/grupoaceptatermino/post",
+							"host": ["{{events-qa}}/grupoaceptatermino/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/getDataAcept",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/grupoaceptatermino/getDataAcept",
+							"host": ["{{events-qa}}/grupoaceptatermino/getDataAcept"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Bad Request\",\"code\":400,\"message\":\"Bad Response\",\"data\":[],\"error\":true}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/sapsociedadtermino",
+			"item": [
+				
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/sapsociedadtermino/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/sapsociedadtermino/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/sapsociedadtermino/",
+							"host": ["{{events-qa}}/sapsociedadtermino/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/sapsociedadtermino/search",
+							"host": ["{{events-qa}}/sapsociedadtermino/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/sapsociedadtermino/post",
+							"host": ["{{events-qa}}/sapsociedadtermino/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventcargosservicios",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventcargosservicios/",
+							"host": ["{{events-qa}}/eventcargosservicios/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventcargosservicios/search",
+							"host": ["{{events-qa}}/eventcargosservicios/search"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventcargosservicios/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventcargosservicios/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventcargosservicios/post",
+							"host": ["{{events-qa}}/eventcargosservicios/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventcargosservicios/put/0",
+							"host": ["{{events-qa}}/eventcargosservicios/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/getcharges",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventcargosservicios/getcharges",
+							"host": ["{{events-qa}}/eventcargosservicios/getcharges"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Bad Request\",\"code\":400,\"message\":\"Post data cannot be empty.\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/postcharge",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventcargosservicios/postcharge",
+							"host": ["{{events-qa}}/eventcargosservicios/postcharge"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Bad Request\",\"code\":400,\"message\":\"Post data cannot be empty.\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/getchargesByIdDetalle/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventcargosservicios/getchargesByIdDetalle/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventcargosservicios/getchargesByIdDetalle/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/eventeventopagos",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventopagos/",
+							"host": ["{{events-qa}}/eventeventopagos/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventopagos/search",
+							"host": ["{{events-qa}}/eventeventopagos/search"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventopagos/elementbyid/{id:0-9]+}",
+							"host": ["{{events-qa}}/eventeventopagos/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventeventopagos/post",
+							"host": ["{{events-qa}}/eventeventopagos/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idevent_grupo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"monto\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"residuo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"compania\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"trx_codigo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"trx_numero\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"trx_fecha\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{events-qa}}/eventeventopagos/put/0",
+							"host": ["{{events-qa}}/eventeventopagos/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known\"}"
+						}
+					}
+				},
+				{
+					"name": "/postpayments",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{events-qa}}/eventeventopagos/postpayments",
+							"host": ["{{events-qa}}/eventeventopagos/postpayments"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Ok\",\"code\":200,\"message\":\"Ok\",\"data\":{\"saved\":[],\"notSaved\":[]},\"error\":false}"
+						}
+					}
+				}
+			]
+		}
+	]
+}
