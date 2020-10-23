@@ -1,0 +1,18 @@
+Not disabling GPU
+Main~createDefaultWorkingDir - Default working dir creation already attempted
+1603464230798 main info "Booting Postman 7.34.0, linux-5.4.0-52-generic on x64"
+1603464230798 main info "EventBus~initialize - Success"
+1603464230800 main warn "CloudProxyManager~init: Error while reading proxy configuration from user data - ",{"errno":-2,"code":"ENOENT","syscall":"open","path":"/home/ixicale/.config/Postman/Postman_Config/proxy","name":"Error","message":"ENOENT: no such file or directory, open '/home/ixicale/.config/Postman/Postman_Config/proxy'","stack":"Error: ENOENT: no such file or directory, open '/home/ixicale/.config/Postman/Postman_Config/proxy'"}
+1603464230800 main info "CloudProxyManager~init - Success"
+1603464230805 main info "UpdateHandler~init - Success"
+1603464231061 main info "RuntimeIPCAgent~started: Success"
+1603464231160 main info "LinuxAutoUpdater~Cleanup - Initial cleanup successful"
+1603464231194 main info "Bootstrap-models~bootstrap - Success"
+1603464231407 main info "window-manager~newSharedWindow: Shell loaded"
+1603464233937 main info "Main~AppEvents - Received booted event for process shared"
+1603464235581 main info "UpdateHandler~app-update-events - Received event",{"name":"checkForElectronVersionUpdated","namespace":"appUpdate"}
+INTERCEPTOR CONNECTIVITY: Connecting to Interceptor Bridge
+InterceptorBridge: Trying to connect Native App IPC~Interceptor Bridge
+1603464235591 main info "Main~AppEvents - Received booted event for process requester"
+IPCClient ~ WindowHandler: New event is received { type: 'window-opened' }
+1603493986292 main info "Quitting app"

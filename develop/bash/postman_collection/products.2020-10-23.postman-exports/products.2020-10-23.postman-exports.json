@@ -5,9 +5,6 @@
 	},
 	"item": [
 		{
-			"name": "/local",
-			"item": [
-		{
 			"name": "/generator",
 			"item": [
 				
@@ -5050,3 +5047,4 @@
 		}
 	]
 }
+
