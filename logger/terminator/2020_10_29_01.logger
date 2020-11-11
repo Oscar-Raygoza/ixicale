@@ -1,0 +1,1568 @@
+cd $NODE/clv-products-fe                                                                                                         hostname: [ix]
+
+  ༆ ixicale༆   ⎣08:17:24⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1 ● 
+npm run dev                                                                                                                      hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣08:17:27⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1 ● 
+npm run de                                                                                                                      hostname: [ix]
+
+> clever-products@0.0.1 dev /var/www/html/NODE/clv-products-fe
+> concurrently "npm run server" 
+
+[0] 
+[0] > clever-products@0.0.1 server /var/www/html/NODE/clv-products-fe
+[0] > APP_ENV=QA NODE_ENV=development PORT=9000 nodemon ./src/server/server.js
+[0] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): *.*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built b0bff379bdc109cacded in 4797ms
+[0] ⚠ ｢wdm｣: Hash: b0bff379bdc109cacded
+[0] Version: webpack 4.44.2
+[0] Time: 4797ms
+[0] Built at: 2020-10-29 8:17:35
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  1.99 MiB       0  [emitted]  [big]  main
+[0]                           index.html  1.83 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.41 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [24] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [25] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [35] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [85] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [86] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [89] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [117] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [233] ./src/client/index.js + 81 modules 589 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 301 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (1.99 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (1.99 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.01 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/inv_item
+[0] webpack built ee1352a4515ba60a907a in 14222ms
+[0] ⚠ ｢wdm｣: Hash: ee1352a4515ba60a907a
+[0] Version: webpack 4.44.2
+[0] Time: 14222ms
+[0] Built at: 2020-10-29 8:21:57
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  1.99 MiB       0  [emitted]  [big]  main
+[0]                           index.html  1.83 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.41 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [24] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [25] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [35] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [85] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [86] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [89] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [117] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [233] ./src/client/index.js + 81 modules 590 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 301 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (1.99 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (1.99 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.01 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] ℹ ｢wdm｣: wait until bundle finished: /bundle.js
+[0] ℹ ｢wdm｣: wait until bundle finished: /cleverLibrary/css/materialize.css.map
+[0] webpack built 5432ca00e1a96ce0f8cc in 11944ms
+[0] ⚠ ｢wdm｣: Hash: 5432ca00e1a96ce0f8cc
+[0] Version: webpack 4.44.2
+[0] Time: 11944ms
+[0] Built at: 2020-10-29 8:22:09
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0]                            bundle.js  1.99 MiB       0  [emitted]                    [big]  main
+[0] ee1352a4515ba60a907a.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0]                           index.html  1.83 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.41 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [24] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [25] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [35] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [85] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [86] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [89] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [117] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [233] ./src/client/index.js + 81 modules 590 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 301 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (1.99 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (1.99 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.01 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/inv_item
+[0] webpack built b1169bc76c75fc9fea8f in 13711ms
+[0] ⚠ ｢wdm｣: Hash: b1169bc76c75fc9fea8f
+[0] Version: webpack 4.44.2
+[0] Time: 13711ms
+[0] Built at: 2020-10-29 8:23:56
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  1.99 MiB       0  [emitted]  [big]  main
+[0]                           index.html  1.83 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.41 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [24] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [25] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [35] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [85] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [86] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [89] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [117] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [233] ./src/client/index.js + 81 modules 589 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 301 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (1.99 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (1.99 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.01 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] ℹ ｢wdm｣: wait until bundle finished: /bundle.js
+[0] ℹ ｢wdm｣: wait until bundle finished: /cleverLibrary/css/materialize.css.map
+[0] webpack built 097aa0b012a4baaf23b5 in 11943ms
+[0] ⚠ ｢wdm｣: Hash: 097aa0b012a4baaf23b5
+[0] Version: webpack 4.44.2
+[0] Time: 11943ms
+[0] Built at: 2020-10-29 8:24:08
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0] b1169bc76c75fc9fea8f.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0]                            bundle.js  1.99 MiB       0  [emitted]                    [big]  main
+[0]                           index.html  1.83 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.41 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [24] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [25] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [35] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [85] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [86] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [89] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [117] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [233] ./src/client/index.js + 81 modules 589 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 301 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (1.99 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (1.99 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.01 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] [nodemon] restarting due to changes...
+[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built b1169bc76c75fc9fea8f in 4668ms
+[0] ⚠ ｢wdm｣: Hash: b1169bc76c75fc9fea8f
+[0] Version: webpack 4.44.2
+[0] Time: 4668ms
+[0] Built at: 2020-10-29 8:57:53
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  1.99 MiB       0  [emitted]  [big]  main
+[0]                           index.html  1.83 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.41 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [24] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [25] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [35] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [85] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [86] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [89] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [117] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [233] ./src/client/index.js + 81 modules 589 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 301 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (1.99 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (1.99 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.01 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] webpack built 097aa0b012a4baaf23b5 in 2578ms
+[0] ⚠ ｢wdm｣: Hash: 097aa0b012a4baaf23b5
+[0] Version: webpack 4.44.2
+[0] Time: 2578ms
+[0] Built at: 2020-10-29 8:57:56
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0] b1169bc76c75fc9fea8f.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0]                            bundle.js  1.99 MiB       0  [emitted]                    [big]  main
+[0]                           index.html  1.83 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.41 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [24] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [25] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [35] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [85] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [86] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [89] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [117] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [233] ./src/client/index.js + 81 modules 589 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 301 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (1.99 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (1.99 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.01 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.^C[0] npm run server exited with code null
+
+
+  ༆ ixicale༆  ✘  ⎣08:59:58⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+cd $PHP                                                                                                                          hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:00:03⎤  🚦 /var/www/html/PHP 
+installPHP clv-productions-api                                                                                                   hostname: [ix]
+Project -> clv-productions-api
+Clonando en 'clv-productions-api'...
+remote: Enumerating objects: 227, done.
+remote: Counting objects: 100% (227/227), done.
+remote: Compressing objects: 100% (145/145), done.
+remote: Total 3096 (delta 157), reused 145 (delta 82), pack-reused 2869
+Recibiendo objetos: 100% (3096/3096), 659.52 KiB | 1.95 MiB/s, listo.
+Resolviendo deltas: 100% (2338/2338), listo.
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+Composer could not find a composer.json file in /var/www/html/PHP
+To initialize a project, please create a composer.json file as described in the https://getcomposer.org/ "Getting Started" section
+
+  ༆ ixicale༆  ✘  ⎣09:00:20⎤  🚦 /var/www/html/PHP 
+installPHP clv-productions-api                                                                                                   hostname: [ix]
+Project -> clv-productions-api
+Clonando en 'clv-productions-api'...
+remote: Enumerating objects: 227, done.
+remote: Counting objects: 100% (227/227), done.
+remote: Compressing objects: 100% (145/145), done.
+remote: Total 3096 (delta 157), reused 145 (delta 82), pack-reused 2869
+Recibiendo objetos: 100% (3096/3096), 659.52 KiB | 19.00 KiB/s, listo.
+Resolviendo deltas: 100% (2338/2338), listo.
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+Composer could not find a composer.json file in /var/www/html/PHP
+To initialize a project, please create a composer.json file as described in the https://getcomposer.org/ "Getting Started" section
+
+  ༆ ixicale༆  ✘  ⎣09:01:36⎤  🚦 /var/www/html/PHP 
+clv-productions-api                                                                                                              hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:02:17⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ master ✔ ☗  clv-productions-api.2020.08.03.2  gic dev                                                                                                                          hostname: [ix]
+Rama 'dev' configurada para hacer seguimiento a la rama remota 'dev' de 'origin'.
+Cambiado a nueva rama 'dev'
+
+  ༆ ixicale༆   ⎣09:02:20⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ dev ✔ 
+composer install --ignore-platform-reqs                                                                                          hostname: [ix]
+Loading composer repositories with package information
+Warning from https://repo.packagist.org: You are using an outdated version of Composer. Composer 2.0 is now available and you should upgrade. See https://getcomposer.org/2
+Updating dependencies (including require-dev)
+code ~/.zshrc
+Package operations: 26 installs, 0 updates, 0 removals
+  - Installing myclabs/deep-copy (1.x-dev 00aba97): Cloning 00aba97fc3 from cache
+  - Installing paragonie/random_compat (v9.99.99): Loading from cache
+  - Installing setasign/fpdi (v2.3.4): Loading from cache
+  - Installing psr/log (dev-master dd738d0): Cloning dd738d0b44 from cache
+  - Installing mpdf/mpdf (dev-master 7daf07f): Cloning 7daf07f153 from cache
+  - Installing firebase/php-jwt (v5.2.0): Loading from cache
+  - Installing symfony/polyfill-ctype (dev-main fade6de): Cloning fade6deebd from cache
+  - Installing phpoption/phpoption (dev-master 994eccc): Cloning 994ecccd8f from cache
+  - Installing vlucas/phpdotenv (3.6.x-dev 2065bed): Cloning 2065beda6c from cache
+  - Installing phalcon/migrations (1.2.x-dev d225f61): Cloning d225f6188a from cache
+  - Installing nikic/php-parser (v4.10.2): Loading from cache
+  - Installing symfony/polyfill-php80 (dev-main 3a11f3d): Cloning 3a11f3dfb3 from cache
+  - Installing symfony/polyfill-mbstring (dev-main 401c9d9): Cloning 401c9d9d34 from cache
+  - Installing psr/container (dev-master 381524e): Cloning 381524e856 from cache
+  - Installing symfony/service-contracts (dev-main 0aeee2f): Cloning 0aeee2f70f from cache
+  - Installing symfony/polyfill-php73 (dev-main 8c0d39c): Cloning 8c0d39c152 from cache
+  - Installing dnoegel/php-xdg-base-dir (v0.1.1): Loading from cache
+  - Installing symfony/var-dumper (5.x-dev c78bd92): Cloning c78bd92e4e from cache
+  - Installing symfony/polyfill-intl-normalizer (dev-main 69609f9): Cloning 69609f9f06 from cache
+  - Installing symfony/polyfill-intl-grapheme (dev-main ee2f954): Cloning ee2f954ea0 from cache
+  - Installing symfony/string (5.x-dev 40e975e): Cloning 40e975edad from cache
+  - Installing symfony/console (5.x-dev f372360): Cloning f372360d0d from cache
+  - Installing psy/psysh (dev-master 90216b3): Cloning 90216b389c from cache
+  - Installing phalcon/devtools (dev-master f96c306): Cloning f96c306296 from cache
+  - Installing symfony/deprecation-contracts (dev-main be5a366): Cloning be5a36670f from cache
+  - Installing symfony/dotenv (5.x-dev 29ac2a3): Cloning 29ac2a3e53 from cacheparagonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+setasign/fpdi suggests installing setasign/fpdf (FPDI will extend this class but as it is also possible to use TCPDF or tFPDF as an alternative. There's no fixed dependency configured.)
+mpdf/mpdf suggests installing ext-bcmath (Needed for generation of some types of barcodes)
+mpdf/mpdf suggests installing ext-xml (Needed mainly for SVG manipulation)
+phalcon/migrations suggests installing robmorgan/phinx (Phinx makes it ridiculously easy to manage the database migrations for your PHP app.)
+symfony/service-contracts suggests installing symfony/service-implementation
+symfony/var-dumper suggests installing ext-intl (To show region name in time zone dump)
+symfony/polyfill-intl-normalizer suggests installing ext-intl (For best performance)
+symfony/polyfill-intl-grapheme suggests installing ext-intl (For best performance)
+symfony/console suggests installing symfony/event-dispatcher
+symfony/console suggests installing symfony/lock
+symfony/console suggests installing symfony/process
+psy/psysh suggests installing ext-pdo-sqlite (The doc command requires SQLite to work.)
+psy/psysh suggests installing hoa/console (A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit.)
+Writing lock file
+Generating autoload files
+19 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+
+  ༆ ixicale༆   ⎣09:16:31⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ dev ✔ 
+code ~/.zshrc                                                                                                                    hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:16:31⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ dev ✔ 
+gicx                                                                                                                             hostname: [ix]
+Rama 'ixicale' configurada para hacer seguimiento a la rama remota 'ixicale' de 'origin'.
+Cambiado a nueva rama 'ixicale'
+
+  ༆ ixicale༆   ⎣09:47:57⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+gipl                                                                                                                             hostname: [ix]
+giYa está actualizado.
+
+  ༆ ixicale༆   ⎣09:48:01⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.08.04.1                                                                                                         hostname: [ix]
+Rama 'pre.dev.2020.08.04.1' configurada para hacer seguimiento a la rama remota 'pre.dev.2020.08.04.1' de 'origin'.
+Cambiado a nueva rama 'pre.dev.2020.08.04.1'
+
+  ༆ ixicale༆   ⎣10:18:56⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ pre.dev.2020.08.04.1 ✔ gipl                                                                                                                             hostname: [ix]
+gicxYa está actualizado.
+
+  ༆ ixicale༆   ⎣10:18:59⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ pre.dev.2020.08.04.1 ✔ 
+gicx                                                                                                                             hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣10:19:00⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.08.04.1                                                                                                        hostname: [ix]
+Actualizando 9758aea..bed06df
+Fast-forward
+ app/behaviors/Blameable.php                             |  76 +++++--
+ app/config/.env                                         |  22 ++
+ app/config/apiUrl.php                                   |  30 ++-
+ app/config/config.php                                   |   6 +-
+ app/config/route_files/routeleadquotation.php           |  68 ++++++
+ app/config/router.php                                   | 224 +++++++++++++-----
+ app/config/server.php                                   |  49 ++--
+ app/controllers/ClientesolicitanteController.php        | 146 ++++++++++++
+ app/controllers/CotizacionservicioController.php        | 732 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ app/controllers/DefinicionprovisionController.php       | 314 ++++++++++++++++++++++++++
+ app/controllers/DetallecotizacionassetController.php    |  27 +--
+ app/controllers/DetallecotizacionservicioController.php |  82 ++++++-
+ app/controllers/DetalleordenassetController.php         |  83 +++++++
+ app/controllers/DetalleordenproduccionController.php    | 130 ++++++++++-
+ app/controllers/EventoController.php                    |  69 ++++++
+ app/controllers/EventolocacionController.php            | 108 +++++++++
+ app/controllers/LeadactividadController.php             |  59 +++++
+ app/controllers/LeadcotizacionController.php            |  64 ++++++
+ app/controllers/MontajeController.php                   | 990 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ app/controllers/MontajeextrasController.php             | 142 ++++++++++++
+ app/controllers/MontajefaseController.php               | 199 ++++++++++++++--
+ app/controllers/MontajefreelanceController.php          |   2 +-
+ app/controllers/MontajeordenController.php              |  11 +-
+ app/controllers/MontajepickupController.php             |  59 +++++
+ app/controllers/OrdenassetController.php                | 114 ++++++++++
+ app/controllers/OrdenproduccionController.php           | 453 ++++++++++++++++++++++++++++++++++---
+ app/controllers/PersonalasignadoController.php          | 107 +++++++++
+ app/controllers/ProvisionesController.php               |  88 ++++++++
+ app/controllers/RegistroprovisionController.php         |  85 +++++++
+ app/controllers/RespuestasapprovisionController.php     | 103 +++++++++
+ app/controllers/SolicitanteController.php               |  92 ++++++++
+ app/helpers/BController.php                             |  39 +++-
+ app/helpers/BlameableModel.php                          |  33 +++
+ app/helpers/ChangesLog.php                              |  19 --
+ app/helpers/TraitExecuteQuery.php                       |  49 +++-
+ app/helpers/TraitMpdf.php                               |   4 +-
+ app/helpers/modelGenerator/GeneratorModels.php          |   4 +-
+ app/helpers/modelGenerator/templateController.php       |  72 ++----
+ app/helpers/modelGenerator/templateModel.php            |   7 +-
+ app/models/CotizacionEvento.php                         | 203 +++++++++++++++++
+ app/models/CotizacionEventoLocacion.php                 | 197 ++++++++++++++++
+ app/models/CotizacionLeadActividad.php                  | 175 ++++++++++++++
+ app/models/GrupoLeadCotizacion.php                      | 183 +++++++++++++++
+ app/models/ProdClienteSolicitante.php                   | 165 ++++++++++++++
+ app/models/ProdCotizacionServicio.php                   |  56 ++++-
+ app/models/ProdDefinicionProvision.php                  | 238 +++++++++++++++++++
+ app/models/ProdDetalleCotizacionAsset.php               |  39 ++--
+ app/models/ProdDetalleCotizacionServicio.php            | 154 +++++++++----
+ app/models/ProdDetalleOrdenAsset.php                    | 183 +++++++++++++++
+ app/models/ProdDetalleOrdenProduccion.php               | 106 ++++++---
+ app/models/ProdMontaje.php                              |  49 ++--
+ app/models/ProdMontajeExtras.php                        | 184 +++++++++++++++
+ app/models/ProdMontajeFase.php                          |  57 +++--
+ app/models/ProdMontajePickup.php                        |  19 +-
+ app/models/ProdOrdenAsset.php                           | 187 +++++++++++++++
+ app/models/ProdOrdenProduccion.php                      |  13 +-
+ app/models/ProdPersonalAsignado.php                     | 168 ++++++++++++++
+ app/models/ProdProvisiones.php                          | 300 ++++++++++++++++++++++++
+ app/models/ProdRegistroProvision.php                    | 230 +++++++++++++++++++
+ app/models/ProdRespuestaSapProvision.php                | 187 +++++++++++++++
+ app/models/ProdSolicitante.php                          | 163 ++++++++++++++
+ app/models/ProdUnidadClienteUtilidad.php                |  38 +++-
+ app/pdfassets/CEDIS.png                                 | Bin 0 -> 5636 bytes
+ app/pdfassets/style.css                                 |  20 +-
+ app/pdfassets/style2.css                                |  67 ++++++
+ composer.json                                           |   6 +-
+ public/index.php                                        |  33 ++-
+ public/temp/temp.md                                     |   0
+ scripts/install_dependencies                            |   2 +-
+ 69 files changed, 7874 insertions(+), 509 deletions(-)
+ create mode 100644 app/config/.env
+ create mode 100644 app/config/route_files/routeleadquotation.php
+ create mode 100755 app/controllers/ClientesolicitanteController.php
+ create mode 100755 app/controllers/DefinicionprovisionController.php
+ create mode 100755 app/controllers/DetalleordenassetController.php
+ create mode 100755 app/controllers/EventoController.php
+ create mode 100755 app/controllers/EventolocacionController.php
+ create mode 100755 app/controllers/LeadactividadController.php
+ create mode 100755 app/controllers/LeadcotizacionController.php
+ create mode 100755 app/controllers/MontajeextrasController.php
+ create mode 100755 app/controllers/OrdenassetController.php
+ create mode 100755 app/controllers/PersonalasignadoController.php
+ create mode 100755 app/controllers/ProvisionesController.php
+ create mode 100755 app/controllers/RegistroprovisionController.php
+ create mode 100755 app/controllers/RespuestasapprovisionController.php
+ create mode 100755 app/controllers/SolicitanteController.php
+ create mode 100755 app/models/CotizacionEvento.php
+ create mode 100755 app/models/CotizacionEventoLocacion.php
+ create mode 100755 app/models/CotizacionLeadActividad.php
+ create mode 100755 app/models/GrupoLeadCotizacion.php
+ create mode 100755 app/models/ProdClienteSolicitante.php
+ create mode 100755 app/models/ProdDefinicionProvision.php
+ create mode 100755 app/models/ProdDetalleOrdenAsset.php
+ create mode 100755 app/models/ProdMontajeExtras.php
+ create mode 100755 app/models/ProdOrdenAsset.php
+ create mode 100755 app/models/ProdPersonalAsignado.php
+ create mode 100755 app/models/ProdProvisiones.php
+ create mode 100755 app/models/ProdRegistroProvision.php
+ create mode 100755 app/models/ProdRespuestaSapProvision.php
+ create mode 100755 app/models/ProdSolicitante.php
+ create mode 100644 app/pdfassets/CEDIS.png
+ create mode 100644 app/pdfassets/style2.css
+ create mode 100755 public/temp/temp.md
+%                                                                                            
+  ༆ ixicale༆   ⎣10:19:02⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ↑295 ✔ 
+gips                                                                                                                             hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-productions-api.git
+   9758aea..bed06df  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣10:19:09⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+logPostman                                                                                                                       hostname: [ix]
+/home/ixicale/.sf/SteampunkFactory-MySettings/logger/postman/2020.10oct.29.104113504463120.jueves.logger
+[2] 22937
+
+  ༆ ixicale༆  ⚙  ⎣10:41:13⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale 1 ● 
+(electron) 'getName function' is deprecated and will be removed. Please use 'name property' instead.                             hostname: [ix]
+
+
+  ༆ ixicale༆  ⚙  ⎣10:41:16⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale 1 ● 
+cd $NODE/clv-products-fe                                                                                                         hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣11:05:14⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+npm run dev                                                                                                                      hostname: [ix]
+
+> clever-products@0.0.1 dev /var/www/html/NODE/clv-products-fe
+> concurrently "npm run server" 
+
+[0] 
+[0] > clever-products@0.0.1 server /var/www/html/NODE/clv-products-fe
+[0] > APP_ENV=QA NODE_ENV=development PORT=9000 nodemon ./src/server/server.js
+[0] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): *.*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built b1169bc76c75fc9fea8f in 4788ms
+[0] ⚠ ｢wdm｣: Hash: b1169bc76c75fc9fea8f
+[0] Version: webpack 4.44.2
+[0] Time: 4788ms
+[0] Built at: 2020-10-29 11:05:22
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  1.99 MiB       0  [emitted]  [big]  main
+[0]                           index.html  1.83 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.41 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [24] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [25] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [35] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [85] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [86] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [89] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [117] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [233] ./src/client/index.js + 81 modules 589 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 301 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (1.99 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (1.99 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.01 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.^C[0] npm run server exited with code null
+
+
+  ༆ ixicale༆  ✘ ⚙  ⎣16:44:43⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+^[[200~/var/www/html/PHP/clv-products-api/app/controllers//../pdfassets/CEDIS.png                                                hostname: [ix]
+
+  ༆ ixicale༆  ✘ ⚙  ⎣16:44:49⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+/var/www/html/PHP/clv-products-api/app/controllers//../pdfassets/CEDIS.png                                                       hostname: [ix]
+zsh: permiso denegado: /var/www/html/PHP/clv-products-api/app/controllers//../pdfassets/CEDIS.png
+
+  ༆ ixicale༆  ✘ ⚙  ⎣16:44:51⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+/var/www/html/PHP/clv-products-api/app/controllers/../pdfassets/CEDIS.png                                                        hostname: [ix]
+zsh: permiso denegado: /var/www/html/PHP/clv-products-api/app/controllers/../pdfassets/CEDIS.png
+
+  ༆ ixicale༆  ✘ ⚙  ⎣16:44:56⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+cat /var/www/html/PHP/clv-products-api/app/pdfassets/                                                                            hostname: [ix]
+
+  ༆ ixicale༆  ✘ ⚙  ⎣16:47:10⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+^[[200~/var/www/html/PHP/clv-products-api/app/controllers/../pdfassets/CEDIS.png~                                                hostname: [ix]
+
+  ༆ ixicale༆  ✘ ⚙  ⎣16:47:13⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+/var/www/html/PHP/clv-products-api/app/controllers/../pdfassets/CEDIS.png                                                        hostname: [ix]
+zsh: permiso denegado: /var/www/html/PHP/clv-products-api/app/controllers/../pdfassets/CEDIS.png
+
+  ༆ ixicale༆  ✘ ⚙  ⎣16:47:15⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+cat /var/www/html/PHP/clv-products-api/app/controllers/../pdfassets/CEDIS.png                                                    hostname: [ix]
+�PNG
+�
+IHDRT��!��PLTE����������������������������������������������|�������{vyu��ǥ�̋�Ë����Ő�ʯ�ܠ�ό¿l��?��L����ہ��a��G��8����è��.�����rm���!�����[��k��0�����M�����%�����|��r�� ��_��^��jǽ5��|ýT��pǾZ��t�IDATx��
+A                                                     C�L�
+ �K���LM3/�Z�Z��3�sC��
+                      ��V��mKA��g����!��*���}���f��
+��h6�ѳuF��W�Sy��a۳sY!K�j�ʽ�Q��.[ȩW�ǲY(��)����*؏V_�	}���@L����
+                                                                  `����d��\N<��,"�*��E���FP�Yu��
+                                                                                                �e���z�W�L��G�iQ&�f�U��/*�O�;�*䰿2g�Gt�t�#�j�T�T��eA�����
+�QQ�f��訐)���Յ�)2s9B�j�
+                       ��:��
+�
+��[FDA�w"_-�rU�If�*a��􀩖[��Q�{����aڨ����g[%L��	�)�������*����-��hpx��>�¾�����=��w젓����<���Y���ڔU�<�K��74���C�YM'�NQK������&[�������j���}�����tF�M��U�_]��/�t6����E������p��
+                             ����1�/.�w�Yl�>�����q��E��\zH���Xsx��T�ٗ��ô���L�����/'������S�p��a�=0E����/
+                                                                                                       �R~�?L��Kf؛��,�a�!��}S��
+5[-��7�b��x��L&�Q�N����YUX��e_+�X��q�=|�e�9�P�+�~?������x���٬
+                                 ��e���?����{�S ����h���Y���i�w?TQ�/@�j�+*�U6&�^[`c
+�֛?�I                                                                               �y������3�zCղ \l����?�ūKD1���
+    {���_J�R �ASP��kl>. O(�t��j��F�p���K�lT�eI��懷��h�*�~���g����łd������%�*�M�g���Ҍ�C���v��.��4�d��@��oҧ1'�UAB&+I/��Q�ز?�9t�|/�`8��eIl�~��n��(����W��e�A��B�$m1���j�.���gt���J�t�����}������?����V�o��������ID���V+|Ӟ�����l�+c��~C�j��?�����~�����R�J�*U�T�R�J�*U�T�R�J��OȴmǱ�x��ar�͋X1���P�˲'H'�9��B�4]�4i�V筤�1ľ�b>����<��^����U�Mv@Dm�����-$�&�Q�4J�ъ���zI���W��~���%M�KFv3�fU�^�����@-Z$�t�
+                                                                                               g.�z��
+                                                                                                     F�J]сD��#E���r�^^�o"�;�y�;�;
+Uэ�������s�@��o[Q��+u��CՃP!׸P�<��
+                                 ��}�/"
+?8��G���C����h�X���r�)@���+�ŝ�ʵN������2p�[O��@���e7��b�x�� Zn���)tUG�b8�	5~�?�v�+tZ���O�������(���l����� ˲Ո<��lTץŶ
+                                                                                                                         �]I��<`Uނ�!P��NsT�W��
+                                                                                                                                              ���bz�He�y6Ԇ�wH "�v�j�t�<6Nv}����@��*ow<�b7���CgԦ?k^���T[*�e��B50�
+�-��+�v[j)q[��;�h�d�a�4BKeC�d�xOD��iMט���%GP��PGtQ�p��H��tJ���.�
+}�X.r�C�w�C}��՚�2V�kM
+                     ��Bҗ
+�c����+�}9�<̰�~0��:���d���02�70dR���T\�:��xT���@51T�X�OZT�k;���s=�y?)T���:Įj�<���o(#uE<j���#TT�L4!d�X��O��e��Hj�]���
+                                                                                                                   ���;�m>�j�[�I�S�l'����ޯ�&�Z�mɅc�ǝU�5X��I%x�?u�sT6�bk1H�	���i�{
+                                      1%�S#d�V��Zx�E�&x������߸KE�}�}S
+΁�������$K/����(^���z�OV��ڧ�����w5�4�3���J���7- ��ը�}���D��0T��S3��p���������e�ݹO��j�h�1U��PGh���1�-�J�a��h{/�*��������.��a�:T��P�AC����<:�
+                                                                                                                                           nQ=s(�����Ū.����v�P}��iP/�e�� WQ������T�x�oZP0�����%4MuԡJ�ыT��N��`�P(L���l�d1U� 9ԡ
+                                                                              sy���.5<�O)`WK�Ke@-�Z��\/��9�Q�>�O�������I
+                                                                                                                        ���*o&_S�2�;jx��$���Ӑ��Pj3�Y2���ɉsJ��=ʉ��I���,�"��/����_KZ�C�'ժ�|�D�y^�y���+v��]pNQ�e�$�j�T^d��@
+ �{N��kz�-�j�)��|�O]�"]�/�F��i�mI
+uo�~��@��	B���*ճf��3�,}p
+                              N�2rG�p��S����W�H-b���������3�}T�؟!��@�F-�1�p�jÒ�u�:��K��XC�(�^��P/��T
+                                                                                                    �P�^0�?�=���×*Y<��C\�D�J��^x�EKЉ��'Xj��{|�
+kO�pD�$�:���ɢVw���Ϲa��ím��:�j>�ǣ{q1n
+                                    *^:��V�$&$R"���A���Ϙ��������P���N�L/D�w8E���Άz��FE��5��R�q�A��L��0��k�jĨ���%�/��>��*��P-���z8;�IPb��n3Y�
+                                                                                                                                            ��.@��w�Ǌl:>j�D�d.��|g�{��j�$�=�ŌF%�|����������[Q����<��B��g��ǡ�	��)�M�$���cK�+u�qW�3�~��C�G��d�>>��w�hє2HǢY�>�Q[�zT��F�C�j
+r{���N����Z��E�u������^�|˃�B!�ܟ�FD݊x�Ji�������I�Oo ��oU)������P��H̩��jf���=� ����w�8��+�8ڐ��r�&W�}�*8"FK��ۥm�����qI9�Wkzd�O�zT
+5�4������W�5j����*�*瓌��qS������Q������0�N�3��q*"� �?ؕ�
+��@e3�T���)�=�Z���S����N�S�L8iZOz�i�P���o�J�օ�Ce��n��й�N��o��'_���d�xs���BsT�Y��=��x�#e�
+i��у�bw�^a��K�|��vT6���,E�~�'<Do�< �����(�xD��=~0r}ȾC�9
+^�~��e�y���u���7�K�*U�T�R�J�*U�T�R�J�*��qJ�P���u�(�%ؿ����3y,�����1�W�ױ�
+ hwZG�
+      {z<v��"��io�����i<N��m!K�<��F��lT�����X��\����.�����%��=�:N}������BxC��\�$�o�9�(Ͼl��	�����u7��1�t����w�-�{}�R�T����x���go$E�W��bU�G�M,��\�����������G��1W-ي��׀[ �n}��. ׈��npi_))b�����=��ܰߠP��j>==]�*���駪�+Ju�d�%@�3(ۛAV୕�A8�2/�s�*T�������!��xL��8_�?u����h��eA0�)��b���c�z}��ۛZ�6�+�e����]&3nB���Xg���*���T
+�������*�J��3���s���P�b�J��>7U�}��}���Vp�{�9^�R?vlW��Ә
+n<c_��P��B�;�V�M
+                G��t��a�5s��H�
+                              �Z
+�|�C�����j;ϠY��t�E���D��U��T�ӭ.���Xh"'�*h�sRŁj�j�T����NQ_A)LTCP����S��V崔
+P�w�wJ�IyH��FO��s��ѡ���9Q<�5�]�5`�e�y��~��i�9m^�ىPA�����Պa��N��%�*����nHq����/�c��R�kЕ�.�P[*'c��P3s������`���v�T��R����Q��j�Wro3M��i߼f�PMnf�S�څ�5-q?2���KMcT���Dv�����@�a���/�ޝ�}Į��}.��,[�D�콫a�=��
+                                                    D�8����j�kc��
+                                                                 �QP��j<�b8�xP3��Z#[����
+5�ή�z�k�ۉ������Y��
+<��
+kϟ_���D��Y����@v(��Q�?���+�yc�&Ԍ����(v������	
+                                                ߝJ���o�0Pg���X��2�`��h�
+                                                                       �p��2\��j8;�k�鰘P30��ռ~-ժ���C�B`6e��wNoSC2F��'r������i:�"����}��C�ʨ������Mm��*��PA�^,�q͎F������7�����%�
+�cWeߒ"��Y~J�̧@��LS5$��̛�
+�y�f�7�GR�����:*ww$�g@ͬ�;��4���"g�/إ��{
+                                      %��ט���.�^��u�9P�k$?��9O�"e�����I�3�wr�ϵ� T#r�٩c�s���t��6�;��I��?+��sT���M56T����ӠN�K'�LMω䈔ѿ9���)
+T��WŀZ��<���Yv�S����ٚ���������@	lIW~�)U���D7�(�쓆/�ʞ�
+CuT�,�i�j��P�J�x7=�5�����a�q}U
+                              K�w�Zp���j��?e��������|_��uƽ$[/�C
+                                                               gN璥qר`B	qQ'��n.D]�O�S��Vc��hKE��|����^�@�s^?܅2�@��
+7�/�
+����4n>s{z��Z���9��؎*>(vy���o����"N���]!�K��IEND�B`�%                                                                                          
+  ༆ ixicale༆  ⚙  ⎣16:47:18⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+                                                                                                                                 hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:47:22⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+                                                                                                                                 hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:47:35⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+la                                                                                                                               hostname: [ix]
+total 592K
+-rw-rw-r--   1 ixicale ixicale 1.3K oct 28 16:27 appspec.yml
+-rw-rw-r--   1 ixicale ixicale  234 oct 28 16:27 .babelrc
+-rw-rw-r--   1 ixicale ixicale  655 oct 28 16:27 buildspec.yml
+drwxrwxr-x   2 ixicale ixicale 4.0K oct 28 16:27 config
+drwxrwxr-x   8 ixicale ixicale 4.0K oct 29 16:47 .git
+-rw-rw-r--   1 ixicale ixicale   47 oct 28 16:27 .gitignore
+drwxrwxr-x 809 ixicale ixicale  36K oct 28 16:31 node_modules
+-rw-rw-r--   1 ixicale ixicale  166 oct 28 16:27 .npmrc
+-rw-rw-r--   1 ixicale ixicale 2.3K oct 28 17:25 package.json
+-rw-rw-r--   1 ixicale ixicale 502K oct 28 16:31 package-lock.json
+drwxrwxr-x   5 ixicale ixicale 4.0K oct 28 16:27 public
+-rw-rw-r--   1 ixicale ixicale 3.5K oct 28 16:27 README.md
+drwxrwxr-x   4 ixicale ixicale 4.0K oct 28 16:27 src
+drwxrwxr-x   3 ixicale ixicale 4.0K oct 28 16:27 storybook
+-rw-rw-r--   1 ixicale ixicale 2.2K oct 28 16:27 webpack.config.js
+
+  ༆ ixicale༆  ⚙  ⎣16:52:03⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+la public                                                                                                                        hostname: [ix]
+total 20K
+drwxrwxr-x 3 ixicale ixicale 4.0K oct 28 16:27 css
+-rw-rw-r-- 1 ixicale ixicale 1.2K oct 28 16:27 favicon.ico
+drwxrwxr-x 3 ixicale ixicale 4.0K oct 28 16:27 img
+-rw-rw-r-- 1 ixicale ixicale 1.8K oct 28 16:27 index.html
+drwxrwxr-x 5 ixicale ixicale 4.0K oct 28 16:27 js
+
+  ༆ ixicale༆  ⚙  ⎣16:52:08⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+mkdir public/temp                                                                                                                hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:52:45⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ nano public/temp/ttfontdata                                                                                                      hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:56:20⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la public/temp                                                                                                                   hostname: [ix]
+total 4.0K
+-rw-rw-r-- 1 ixicale ixicale 1 oct 29 16:56 ttfontdata
+
+  ༆ ixicale༆  ⚙  ⎣16:56:37⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+nano public/temp/README.md                                                                                                       hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:57:11⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+rm public/temp/ttfontdata                                                                                                        hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:57:20⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+sudo chown -R www-data:www-data ./public/temp                                                                                    hostname: [ix]
+[sudo] contraseña para ixicale: 
+
+  ༆ ixicale༆  ⚙  ⎣16:57:39⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la public/temp                                                                                                                   hostname: [ix]
+total 4.0K
+-rw-rw-r-- 1 www-data www-data 11 oct 29 16:57 README.md
+
+  ༆ ixicale༆  ⚙  ⎣16:57:50⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la public                                                                                                                        hostname: [ix]
+total 24K
+drwxrwxr-x 3 ixicale  ixicale  4.0K oct 28 16:27 css
+-rw-rw-r-- 1 ixicale  ixicale  1.2K oct 28 16:27 favicon.ico
+drwxrwxr-x 3 ixicale  ixicale  4.0K oct 28 16:27 img
+-rw-rw-r-- 1 ixicale  ixicale  1.8K oct 28 16:27 index.html
+drwxrwxr-x 5 ixicale  ixicale  4.0K oct 28 16:27 js
+drwxrwxr-x 2 www-data www-data 4.0K oct 29 16:57 temp
+
+  ༆ ixicale༆  ⚙  ⎣16:57:59⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la $PHP/clv-productions-api/public                                                                                               hostname: [ix]
+total 12K
+-rw-rw-r-- 1 ixicale ixicale  926 oct 29 09:02 .htaccess
+-rw-rw-r-- 1 ixicale ixicale 2.8K oct 29 10:19 index.php
+drwxrwxr-x 2 ixicale ixicale 4.0K oct 29 10:19 temp
+  ༆ ixicale༆  ⚙  ⎣16:58:26⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la $PHP/clv-productions-api/public/temp                                                                                          hostname: [ix]
+total 0
+-rwxrwxr-x 1 ixicale ixicale 0 oct 29 10:19 temp.md
+
+  ༆ ixicale༆  ⚙  ⎣16:58:34⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+sudo chown -R $USER:$USER ./public                                                                                               hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:58:51⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la public/temp                                                                                                                   hostname: [ix]
+total 4.0K
+-rw-rw-r-- 1 ixicale ixicale 11 oct 29 16:57 README.md
+
+  ༆ ixicale༆  ⚙  ⎣16:58:53⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+cat $PHP/clv-productions-api/public/temp/temp.md                                                                                 hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:59:19⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+echo "" > ./public/temp/temp.md                                                                                                  hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:59:38⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+sudo chmod +x ./public/temp/temp.md                                                                                              hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣17:00:00⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la public/temp                                                                                                                   hostname: [ix]
+total 8.0K
+-rw-rw-r-- 1 ixicale ixicale 11 oct 29 16:57 README.md
+-rwxrwxr-x 1 ixicale ixicale  1 oct 29 16:59 temp.md
+
+  ༆ ixicale༆  ⚙  ⎣17:00:04⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la $PHP/clv-productions-api/public/                                                                                              hostname: [ix]
+total 12K
+-rw-rw-r-- 1 ixicale ixicale  926 oct 29 09:02 .htaccess
+-rw-rw-r-- 1 ixicale ixicale 2.8K oct 29 10:19 index.php
+drwxrwxr-x 2 ixicale ixicale 4.0K oct 29 10:19 temp
+
+  ༆ ixicale༆  ⚙  ⎣17:00:27⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la $PHP/clv-productions-api/public/; echo -e "=================\n"; la ./public/temp                                             hostname: [ix]
+total 12K
+-rw-rw-r-- 1 ixicale ixicale  926 oct 29 09:02 .htaccess
+-rw-rw-r-- 1 ixicale ixicale 2.8K oct 29 10:19 index.php
+drwxrwxr-x 2 ixicale ixicale 4.0K oct 29 10:19 temp
+=================
+total 8.0K
+-rw-rw-r-- 1 ixicale ixicale 11 oct 29 16:57 README.md
+-rwxrwxr-x 1 ixicale ixicale  1 oct 29 16:59 temp.md
+
+  ༆ ixicale༆  ⚙  ⎣17:00:59⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la $PHP/clv-productions-api/public/; echo -e "=================\n"; la ./public                                                  hostname: [ix]
+total 12K
+-rw-rw-r-- 1 ixicale ixicale  926 oct 29 09:02 .htaccess
+-rw-rw-r-- 1 ixicale ixicale 2.8K oct 29 10:19 index.php
+drwxrwxr-x 2 ixicale ixicale 4.0K oct 29 10:19 temp
+=================
+
+total 24K
+drwxrwxr-x 3 ixicale ixicale 4.0K oct 28 16:27 css
+-rw-rw-r-- 1 ixicale ixicale 1.2K oct 28 16:27 favicon.ico
+drwxrwxr-x 3 ixicale ixicale 4.0K oct 28 16:27 img
+-rw-rw-r-- 1 ixicale ixicale 1.8K oct 28 16:27 index.html
+drwxrwxr-x 5 ixicale ixicale 4.0K oct 28 16:27 js
+drwxrwxr-x 2 ixicale ixicale 4.0K oct 29 16:59 temp
+
+  ༆ ixicale༆  ⚙  ⎣17:01:20⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la $PHP/clv-productions-api/public/temp; echo -e "=================\n"; la ./public                                              hostname: [ix]
+total 0
+-rwxrwxr-x 1 ixicale ixicale 0 oct 29 10:19 temp.md
+=================
+
+total 24K
+drwxrwxr-x 3 ixicale ixicale 4.0K oct 28 16:27 css
+-rw-rw-r-- 1 ixicale ixicale 1.2K oct 28 16:27 favicon.ico
+drwxrwxr-x 3 ixicale ixicale 4.0K oct 28 16:27 img
+-rw-rw-r-- 1 ixicale ixicale 1.8K oct 28 16:27 index.html
+drwxrwxr-x 5 ixicale ixicale 4.0K oct 28 16:27 js
+drwxrwxr-x 2 ixicale ixicale 4.0K oct 29 16:59 temp
+
+  ༆ ixicale༆  ⚙  ⎣17:01:41⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la $PHP/clv-productions-api/public/temp; echo -e "=================\n"; la ./public/temp                                         hostname: [ix]
+total 0
+-rwxrwxr-x 1 ixicale ixicale 0 oct 29 10:19 temp.md
+=================
+total 8.0K
+-rw-rw-r-- 1 ixicale ixicale 11 oct 29 16:57 README.md
+-rwxrwxr-x 1 ixicale ixicale  1 oct 29 16:59 temp.md
+
+  ༆ ixicale༆  ⚙  ⎣17:01:45⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la public/                                                                                                                       hostname: [ix]
+total 24K
+drwxrwxr-x 3 ixicale ixicale 4.0K oct 28 16:27 css
+-rw-rw-r-- 1 ixicale ixicale 1.2K oct 28 16:27 favicon.ico
+drwxrwxr-x 3 ixicale ixicale 4.0K oct 28 16:27 img
+-rw-rw-r-- 1 ixicale ixicale 1.8K oct 28 16:27 index.html
+drwxrwxr-x 5 ixicale ixicale 4.0K oct 28 16:27 js
+drwxrwxr-x 2 ixicale ixicale 4.0K oct 29 16:59 temp
+
+  ༆ ixicale༆  ⚙  ⎣17:13:55⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+sudo chown -R www-data:www-data ./public/temp                                                                                    hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣17:14:06⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la public/                                                                                                                       hostname: [ix]
+total 24K
+drwxrwxr-x 3 ixicale  ixicale  4.0K oct 28 16:27 css
+-rw-rw-r-- 1 ixicale  ixicale  1.2K oct 28 16:27 favicon.ico
+drwxrwxr-x 3 ixicale  ixicale  4.0K oct 28 16:27 img
+-rw-rw-r-- 1 ixicale  ixicale  1.8K oct 28 16:27 index.html
+drwxrwxr-x 5 ixicale  ixicale  4.0K oct 28 16:27 js
+drwxrwxr-x 2 www-data www-data 4.0K oct 29 16:59 temp
+
+  ༆ ixicale༆  ⚙  ⎣17:14:17⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+ls -la public/temp                                                                                                               hostname: [ix]
+total 16
+drwxrwxr-x 2 www-data www-data 4096 oct 29 16:59 .
+drwxrwxr-x 6 ixicale  ixicale  4096 oct 29 16:52 ..
+-rw-rw-r-- 1 www-data www-data   11 oct 29 16:57 README.md
+-rwxrwxr-x 1 www-data www-data    1 oct 29 16:59 temp.md
+
+  ༆ ixicale༆  ⚙  ⎣17:14:46⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+rm -rf public/temp                                                                                                               hostname: [ix]
+rm: no se puede borrar 'public/temp/temp.md': Permiso denegado
+rm: no se puede borrar 'public/temp/README.md': Permiso denegado[0] [117] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [233] ./src/client/index.js + 81 modules 589 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 301 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (1.99 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (1.99 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.01 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.
+^C[0] npm run server exited with code null
+
+
+  ༆ ixicale༆  ✘ ⚙  ⎣16:44:43⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+^[[200~/var/www/html/PHP/clv-products-api/app/controllers//../pdfassets/CEDIS.png                                                hostname: [ix]
+
+  ༆ ixicale༆  ✘ ⚙  ⎣16:44:49⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+/var/www/html/PHP/clv-products-api/app/controllers//../pdfassets/CEDIS.png                                                       hostname: [ix]
+zsh: permiso denegado: /var/www/html/PHP/clv-products-api/app/controllers//../pdfassets/CEDIS.png
+
+  ༆ ixicale༆  ✘ ⚙  ⎣16:44:51⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+/var/www/html/PHP/clv-products-api/app/controllers/../pdfassets/CEDIS.png                                                        hostname: [ix]
+zsh: permiso denegado: /var/www/html/PHP/clv-products-api/app/controllers/../pdfassets/CEDIS.png
+
+  ༆ ixicale༆  ✘ ⚙  ⎣16:44:56⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+cat /var/www/html/PHP/clv-products-api/app/pdfassets/                                                                   hostname: [ix]
+
+  ༆ ixicale༆  ✘ ⚙  ⎣16:47:10⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+^[[200~/var/www/html/PHP/clv-products-api/app/controllers/../pdfassets/CEDIS.png~                                                hostname: [ix]
+
+  ༆ ixicale༆  ✘ ⚙  ⎣16:47:13⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+/var/www/html/PHP/clv-products-api/app/controllers/../pdfassets/CEDIS.png                                                        hostname: [ix]
+zsh: permiso denegado: /var/www/html/PHP/clv-products-api/app/controllers/../pdfassets/CEDIS.png
+
+  ༆ ixicale༆  ✘ ⚙  ⎣16:47:15⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+cat /var/www/html/PHP/clv-products-api/app/controllers/../pdfassets/CEDIS.png                                                    hostname: [ix]
+�PNG
+�
+IHDRT��!��PLTE����������������������������������������������|�������{vyu��ǥ�̋�Ë����Ő�ʯ�ܠ�ό¿l��?��L����ہ��a��G��8����è��.�����rm���!�����[��k��0�����M�����%�����|��r�� ��_��^��jǽ5��|ýT��pǾZ��t�IDATx��
+A                                                     C�L�
+ �K���LM3/�Z�Z��3�sC��
+                      ��V��mKA��g����!��*���}���f��
+��h6�ѳuF��W�Sy��a۳sY!K�j�ʽ�Q��.[ȩW�ǲY(��)����*؏V_�	}���@L����
+                                                                  `����d��\N<��,"�*��E���FP�Yu��
+                         �e���z�W�L��G�iQ&�f�U��/*�O�;�*䰿2g�Gt�t�#�j�T�T��eA�����
+�QQ�f��訐)���Յ�)2s9B�j�
+                       ��:��
+�
+��[FDA�w"_-�rU�If�*a��􀩖[��Q�{����aڨ����g[%L��	�)�������*����-��hpx��>�¾�����=��w젓����<���Y���ڔU�<�K��74���C�YM'�NQK������&[�������j���}�����tF�M��U�_]��/�t6����E������p��
+                             ����1�/.�w�Yl�>�����q��E��\zH���Xsx��T�ٗ��ô���L�����/'������S�p��a�=0E����/
+                                �R~�?L��Kf؛��,�a�!��}S��
+5[-��7�b��x��L&�Q�N����YUX��e_+�X��q�=|�e�9�P�+�~?������x���٬
+                                 ��e���?����{�S ����h���Y���i�w?TQ�/@�j�+*�U6&�^[`c
+�֛?�I            �y������3�zCղ \l����?�ūKD1���
+    {���_J�R �ASP��kl>. O(�t��j��F�p���K�lT�eI��懷��h�*�~���g����łd������%�*�M�g���Ҍ�C���v��.��4�d��@��oҧ1'�UAB&+I/��Q�ز?�9t�|/�`8��eIl�~��n��(����W��e�A��B�$m1���j�.���gt���J�t�����}������?����V�o��������ID���V+|Ӟ�����l�+c��~C�j��?�����~�����R�J�*U�T�R�J�*U�T�R�J��OȴmǱ�x��ar�͋X1���P�˲'H'�9��B�4]�4i�V筤�1ľ�b>����<��^����U�Mv@Dm�����-$�&�Q�4J�ъ���zI���W��~���%M�KFv3�fU�^�����@-Z$�t�
+                        g.�z��
+                              F�J]сD��#E���r�^^�o"�;�y�;�;
+Uэ�������s�@��o[Q��+u��CՃP!׸P�<��
+                                 ��}�/"
+?8��G���C����h�X���r�)@���+�ŝ�ʵN������2p�[O��@���e7��b�x�� Zn���)tUG�b8�	5~�?�v�+tZ���O�������(���l����� ˲Ո<��lTץŶ
+                                                  �]I��<`Uނ�!P��NsT�W��
+���bz�He�y6Ԇ�wH "�v�j�t�<6Nv}����@��*ow<�b7���CgԦ?k^���T[*�e��B50�
+�-��+�v[j)q[��;�h�d�a�4BKeC�d�xOD��iMט���%GP��PGtQ�p��H��tJ���.�
+}�X.r�C�w�C}��՚�2V�kM
+                     ��Bҗ
+�c����+�}9�<̰�~0��:���d���02�70dR���T\�:��xT���@51T�X�OZT�k;���s=�y?)T���:Įj�<���o(#uE<j���#TT�L4!d�X��O��e��Hj�]���
+                                            ���;�m>�j�[�I�S�l'����ޯ�&�Z�mɅc�ǝU�5X��I%x�?u�sT6�bk1H�	���i�{
+                                      1%�S#d�V��Zx�E�&x������߸KE�}�}S
+΁�������$K/����(^���z�OV��ڧ�����w5�4�3���J���7- ��ը�}���D��0T��S3��p���������e�ݹO��j�h�1U��PGh���1�-�J�a��h{/�*��������.��a�:T��P�AC����<:�
+                                                                    nQ=s(�����Ū.����v�P}��iP/�e�� WQ������T�x�oZP0�����%4MuԡJ�ыT��N��`�P(L���l�d1U� 9ԡ
+       sy���.5<�O)`WK�Ke@-�Z��\/��9�Q�>�O�������I
+                                                 ���*o&_S�2�;jx��$���Ӑ��Pj3�Y2���ɉsJ��=ʉ��I���,�"��/����_KZ�C�'ժ�|�D�y^�y���+v��]pNQ�e�$�j�T^d��@
+ �{N��kz�-�j�)��|�O]�"]�/�F��i�mI
+uo�~��@��	B���*ճf��3�,}p
+                              N�2rG�p��S����W�H-b���������3�}T�؟!��@�F-�1�p�jÒ�u�:��K��XC�(�^��P/��T
+                             �P�^0�?�=���×*Y<��C\�D�J��^x�EKЉ��'Xj��{|�
+kO�pD�$�:���ɢVw���Ϲa��ím��:�j>�ǣ{q1n
+                                    *^:��V�$&$R"���A���Ϙ��������P���N�L/D�w8E���Άz��FE��5��R�q�A��L��0��k�jĨ���%�/��>��*��P-���z8;�IPb��n3Y�
+                                                                     ��.@��w�Ǌl:>j�D�d.��|g�{��j�$�=�ŌF%�|����������[Q����<��B��g��ǡ�	��)�M�$���cK�+u�qW�3�~��C�G��d�>>��w�hє2HǢY�>�Q[�zT��F�C�j
+r{���N����Z��E�u������^�|˃�B!�ܟ�FD݊x�Ji�������I�Oo ��oU)������P��H̩��jf���=� ����w�8��+�8ڐ��r�&W�}�*8"FK��ۥm�����qI9�Wkzd�O�zT
+5�4������W�5j����*�*瓌��qS������Q������0�N�3��q*"� �?ؕ�
+��@e3�T���)�=�Z���S����N�S�L8iZOz�i�P���o�J�օ�Ce��n��й�N��o��'_���d�xs���BsT�Y��=��x�#e�
+i��у�bw�^a��K�|��vT6���,E�~�'<Do�< �����(�xD��=~0r}ȾC�9
+^�~��e�y���u���7�K�*U�T�R�J�*U�T�R�J�*��qJ�P���u�(�%ؿ����3y,�����1�W�ױ�
+ hwZG�
+      {z<v��"��io�����i<N��m!K�<��F��lT�����X��\����.�����%��=�:N}������BxC��\�$�o�9�(Ͼl��	�����u7��1�t����w�-�{}�R�T����x���go$E�W��bU�G�M,��\�����������G��1W-ي��׀[ �n}��. ׈��npi_))b�����=��ܰߠP��j>==]�*���駪�+Ju�d�%@�3(ۛAV୕�A8�2/�s�*T�������!��xL��8_�?u����h��eA0�)��b���c�z}��ۛZ�6�+�e����]&3nB���Xg���*���T
+�������*�J��3���s���P�b�J��>7U�}��}���Vp�{�9^�R?vlW��Ә
+n<c_��P��B�;�V�M
+                G��t��a�5s��H�
+                              �Z
+�|�C�����j;ϠY��t�E���D��U��T�ӭ.���Xh"'�*h�sRŁj�j�T����NQ_A)LTCP����S��V崔
+P�w�wJ�IyH��FO��s��ѡ���9Q<�5�]�5`�e�y��~��i�9m^�ىPA�����Պa��N��%�*����nHq����/�c��R�kЕ�.�P[*'c��P3s������`���v�T��R����Q��j�Wro3M��i߼f�PMnf�S�څ�5-q?2���KMcT���Dv�����@�a���/�ޝ�}Į��}.��,[�D�콫a�=��
+                                                    D�8����j�kc��
+                                                                 �QP��j<�b8�xP3��Z#[����
+5�ή�z�k�ۉ������Y��
+<��
+kϟ_���D��Y����@v(��Q�?���+�yc�&Ԍ����(v������	
+                                                ߝJ���o�0Pg���X��2�`��h�
+�p��2\��j8;�k�鰘P30��ռ~-ժ���C�B`6e��wNoSC2F��'r������i:�"����}��C�ʨ������Mm��*��PA�^,�q͎F������7�����%�
+�cWeߒ"��Y~J�̧@��LS5$��̛�
+�y�f�7�GR�����:*ww$�g@ͬ�;��4���"g�/إ��{
+                                      %��ט���.�^��u�9P�k$?��9O�"e�����I�3�wr�ϵ� T#r�٩c�s���t��6�;��I��?+��sT���M56T����ӠN�K'�LMω䈔ѿ9���)
+T��WŀZ��<���Yv�S����ٚ���������@	lIW~�)U���D7�(�쓆/�ʞ�
+CuT�,�i�j��P�J�x7=�5�����a�q}U
+                              K�w�Zp���j��?e��������|_��uƽ$[/�C
+                                                               gN璥qר`B	qQ'��n.D]�O�S��Vc��hKE��|����^�@�s^?܅2�@��
+7�/�
+����4n>s{z��Z���9��؎*>(vy���o����"N���]!�K��IEND�B`�%                                                                                           
+  ༆ ixicale༆  ⚙  ⎣16:47:18⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+                                                          hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:47:22⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+                                                          hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:47:35⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+la                                                          hostname: [ix]
+total 592K
+-rw-rw-r--   1 ixicale ixicale 1.3K oct 28 16:27 appspec.yml
+-rw-rw-r--   1 ixicale ixicale  234 oct 28 16:27 .babelrc
+-rw-rw-r--   1 ixicale ixicale  655 oct 28 16:27 buildspec.yml
+drwxrwxr-x   2 ixicale ixicale 4.0K oct 28 16:27 config
+drwxrwxr-x   8 ixicale ixicale 4.0K oct 29 16:47 .git
+-rw-rw-r--   1 ixicale ixicale   47 oct 28 16:27 .gitignore
+drwxrwxr-x 809 ixicale ixicale  36K oct 28 16:31 node_modules
+-rw-rw-r--   1 ixicale ixicale  166 oct 28 16:27 .npmrc
+-rw-rw-r--   1 ixicale ixicale 2.3K oct 28 17:25 package.json
+-rw-rw-r--   1 ixicale ixicale 502K oct 28 16:31 package-lock.json
+drwxrwxr-x   5 ixicale ixicale 4.0K oct 28 16:27 public
+-rw-rw-r--   1 ixicale ixicale 3.5K oct 28 16:27 README.md
+drwxrwxr-x   4 ixicale ixicale 4.0K oct 28 16:27 src
+drwxrwxr-x   3 ixicale ixicale 4.0K oct 28 16:27 storybook
+-rw-rw-r--   1 ixicale ixicale 2.2K oct 28 16:27 webpack.config.js
+
+  ༆ ixicale༆  ⚙  ⎣16:52:03⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+la public                                                           hostname: [ix]
+total 20K
+drwxrwxr-x 3 ixicale ixicale 4.0K oct 28 16:27 css
+-rw-rw-r-- 1 ixicale ixicale 1.2K oct 28 16:27 favicon.ico
+drwxrwxr-x 3 ixicale ixicale 4.0K oct 28 16:27 img
+-rw-rw-r-- 1 ixicale ixicale 1.8K oct 28 16:27 index.html
+drwxrwxr-x 5 ixicale ixicale 4.0K oct 28 16:27 js
+
+  ༆ ixicale༆  ⚙  ⎣16:52:08⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+mkdir public/temp                                                          hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:52:45⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+nano public/temp/ttfontdata                                                          hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:56:20⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la public/temp                                                           hostname: [ix]
+total 4.0K
+-rw-rw-r-- 1 ixicale ixicale 1 oct 29 16:56 ttfontdata
+
+  ༆ ixicale༆  ⚙  ⎣16:56:37⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+nano public/temp/README.md                                                           hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:57:11⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+rm public/temp/ttfontdata                                                           hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:57:20⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+sudo chown -R www-data:www-data ./public/temp                                                           hostname: [ix]
+[sudo] contraseña para ixicale: 
+
+  ༆ ixicale༆  ⚙  ⎣16:57:39⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la public/temp                                                          hostname: [ix]
+total 4.0K
+-rw-rw-r-- 1 www-data www-data 11 oct 29 16:57 README.md
+
+  ༆ ixicale༆  ⚙  ⎣16:57:50⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la public                                                               hostname: [ix]
+total 24K
+drwxrwxr-x 3 ixicale  ixicale  4.0K oct 28 16:27 css
+-rw-rw-r-- 1 ixicale  ixicale  1.2K oct 28 16:27 favicon.ico
+drwxrwxr-x 3 ixicale  ixicale  4.0K oct 28 16:27 img
+-rw-rw-r-- 1 ixicale  ixicale  1.8K oct 28 16:27 index.html
+drwxrwxr-x 5 ixicale  ixicale  4.0K oct 28 16:27 js
+drwxrwxr-x 2 www-data www-data 4.0K oct 29 16:57 temp
+
+  ༆ ixicale༆  ⚙  ⎣16:57:59⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la $PHP/clv-productions-api/public                                                           hostname: [ix]
+total 12K
+-rw-rw-r-- 1 ixicale ixicale  926 oct 29 09:02 .htaccess
+-rw-rw-r-- 1 ixicale ixicale 2.8K oct 29 10:19 index.php
+drwxrwxr-x 2 ixicale ixicale 4.0K oct 29 10:19 temp
+
+  ༆ ixicale༆  ⚙  ⎣16:58:26⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la $PHP/clv-productions-api/public/temp                                                           hostname: [ix]
+total 0
+-rwxrwxr-x 1 ixicale ixicale 0 oct 29 10:19 temp.md
+
+  ༆ ixicale༆  ⚙  ⎣16:58:34⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+sudo chown -R $USER:$USER ./public                                                           hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:58:51⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la public/temp                                                          hostname: [ix]
+total 4.0K
+-rw-rw-r-- 1 ixicale ixicale 11 oct 29 16:57 README.md
+
+  ༆ ixicale༆  ⚙  ⎣16:58:53⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+cat $PHP/clv-productions-api/public/temp/temp.md                                                           hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:59:19⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+echo "" > ./public/temp/temp.md                                                                           hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣16:59:38⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+sudo chmod +x ./public/temp/temp.md                                                           hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣17:00:00⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la public/temp                                                          hostname: [ix]
+total 8.0K
+-rw-rw-r-- 1 ixicale ixicale 11 oct 29 16:57 README.md
+-rwxrwxr-x 1 ixicale ixicale  1 oct 29 16:59 temp.md
+
+  ༆ ixicale༆  ⚙  ⎣17:00:04⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la $PHP/clv-productions-api/public/                                                              hostname: [ix]
+total 12K
+-rw-rw-r-- 1 ixicale ixicale  926 oct 29 09:02 .htaccess
+-rw-rw-r-- 1 ixicale ixicale 2.8K oct 29 10:19 index.php
+drwxrwxr-x 2 ixicale ixicale 4.0K oct 29 10:19 temp
+
+  ༆ ixicale༆  ⚙  ⎣17:00:27⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la $PHP/clv-productions-api/public/; echo -e "=================\n"; la ./public/temp                                             hostname: [ix]
+total 12K
+-rw-rw-r-- 1 ixicale ixicale  926 oct 29 09:02 .htaccess
+-rw-rw-r-- 1 ixicale ixicale 2.8K oct 29 10:19 index.php
+drwxrwxr-x 2 ixicale ixicale 4.0K oct 29 10:19 temp
+=================
+
+total 8.0K
+-rw-rw-r-- 1 ixicale ixicale 11 oct 29 16:57 README.md
+-rwxrwxr-x 1 ixicale ixicale  1 oct 29 16:59 temp.md
+
+  ༆ ixicale༆  ⚙  ⎣17:00:59⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la $PHP/clv-productions-api/public/; echo -e "=================\n"; la ./public                                                  hostname: [ix]
+total 12K
+-rw-rw-r-- 1 ixicale ixicale  926 oct 29 09:02 .htaccess
+-rw-rw-r-- 1 ixicale ixicale 2.8K oct 29 10:19 index.php
+drwxrwxr-x 2 ixicale ixicale 4.0K oct 29 10:19 temp
+=================
+
+total 24K
+drwxrwxr-x 3 ixicale ixicale 4.0K oct 28 16:27 css
+-rw-rw-r-- 1 ixicale ixicale 1.2K oct 28 16:27 favicon.ico
+drwxrwxr-x 3 ixicale ixicale 4.0K oct 28 16:27 img
+-rw-rw-r-- 1 ixicale ixicale 1.8K oct 28 16:27 index.html
+drwxrwxr-x 5 ixicale ixicale 4.0K oct 28 16:27 js
+drwxrwxr-x 2 ixicale ixicale 4.0K oct 29 16:59 temp
+
+  ༆ ixicale༆  ⚙  ⎣17:01:20⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la $PHP/clv-productions-api/public/temp; echo -e "=================\n"; la ./public                                              hostname: [ix]
+total 0
+-rwxrwxr-x 1 ixicale ixicale 0 oct 29 10:19 temp.md
+=================
+
+total 24K
+drwxrwxr-x 3 ixicale ixicale 4.0K oct 28 16:27 css
+-rw-rw-r-- 1 ixicale ixicale 1.2K oct 28 16:27 favicon.ico
+drwxrwxr-x 3 ixicale ixicale 4.0K oct 28 16:27 img
+-rw-rw-r-- 1 ixicale ixicale 1.8K oct 28 16:27 index.html
+drwxrwxr-x 5 ixicale ixicale 4.0K oct 28 16:27 js
+drwxrwxr-x 2 ixicale ixicale 4.0K oct 29 16:59 temp
+
+  ༆ ixicale༆  ⚙  ⎣17:01:41⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la $PHP/clv-productions-api/public/temp; echo -e "=================\n"; la ./public/temp                                         hostname: [ix]
+total 0
+-rwxrwxr-x 1 ixicale ixicale 0 oct 29 10:19 temp.md
+=================
+
+total 8.0K
+-rw-rw-r-- 1 ixicale ixicale 11 oct 29 16:57 README.md
+-rwxrwxr-x 1 ixicale ixicale  1 oct 29 16:59 temp.md
+
+  ༆ ixicale༆  ⚙  ⎣17:01:45⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la public/                                                          hostname: [ix]
+total 24K
+drwxrwxr-x 3 ixicale ixicale 4.0K oct 28 16:27 css
+-rw-rw-r-- 1 ixicale ixicale 1.2K oct 28 16:27 favicon.ico
+drwxrwxr-x 3 ixicale ixicale 4.0K oct 28 16:27 img
+-rw-rw-r-- 1 ixicale ixicale 1.8K oct 28 16:27 index.html
+drwxrwxr-x 5 ixicale ixicale 4.0K oct 28 16:27 js
+drwxrwxr-x 2 ixicale ixicale 4.0K oct 29 16:59 temp
+
+  ༆ ixicale༆  ⚙  ⎣17:13:55⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+sudo chown -R www-data:www-data ./public/temp                                                          hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣17:14:06⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+la public/                                                          hostname: [ix]
+total 24K
+drwxrwxr-x 3 ixicale  ixicale  4.0K oct 28 16:27 css
+-rw-rw-r-- 1 ixicale  ixicale  1.2K oct 28 16:27 favicon.ico
+drwxrwxr-x 3 ixicale  ixicale  4.0K oct 28 16:27 img
+-rw-rw-r-- 1 ixicale  ixicale  1.8K oct 28 16:27 index.html
+drwxrwxr-x 5 ixicale  ixicale  4.0K oct 28 16:27 js
+drwxrwxr-x 2 www-data www-data 4.0K oct 29 16:59 temp
+
+  ༆ ixicale༆  ⚙  ⎣17:14:17⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+ls -la public/temp                                                           hostname: [ix]
+total 16
+drwxrwxr-x 2 www-data www-data 4096 oct 29 16:59 .
+drwxrwxr-x 6 ixicale  ixicale  4096 oct 29 16:52 ..
+-rw-rw-r-- 1 www-data www-data   11 oct 29 16:57 README.md
+-rwxrwxr-x 1 www-data www-data    1 oct 29 16:59 temp.md
+
+  ༆ ixicale༆  ⚙  ⎣17:14:46⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+rm -rf public/temp                                                          hostname: [ix]
+rm: no se puede borrar 'public/temp/temp.md': Permiso denegado
+rm: no se puede borrar 'public/temp/README.md': Permiso denegado
+
+  ༆ ixicale༆  ✘ ⚙  ⎣17:15:30⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+sudo chown -R $USER:$USER ./public                                                                                               hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣17:15:41⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1☀ 
+rm -rf public/temp                                                          hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣17:15:44⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+mkdir public/temp                                                          hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣17:15:48⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+sudo chown -R www-data:www-data ./public/temp                                                          hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣17:15:57⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+cd public                                                                                              hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣17:17:08⎤  🚦 /var/www/html/NODE/clv-products-fe/public   origin ☊ ixicale ✔ 
+sudo chown -R www-data:www-data temp                                                                   hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣17:17:14⎤  🚦 /var/www/html/NODE/clv-products-fe/public   origin ☊ ixicale ✔ 

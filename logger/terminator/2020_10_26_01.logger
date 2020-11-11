@@ -1,0 +1,322 @@
+remote: Enumerating objects: 126, done.
+remote: Counting objects: 100% (126/126), done.
+remote: Compressing objects: 100% (52/52), done.
+remote: Total 93 (delta 58), reused 75 (delta 41), pack-reused 0
+Desempaquetando objetos: 100% (93/93), 48.49 KiB | 39.00 KiB/s, listo.
+Desde https://github.com/ohmyzsh/ohmyzsh
+ * branch            master     -> FETCH_HEAD
+   2657c87..fcb6fa7  master     -> origin/master
+ .github/PULL_REQUEST_TEMPLATE.md         |    2 +
+ lib/cli.zsh                              |   58 +-
+ lib/completion.zsh                       |    2 +-
+ plugins/aws/README.md                    |    2 +-
+ plugins/aws/aws.plugin.zsh               |   62 +-
+ plugins/cargo/_cargo                     |    4 +-
+ plugins/fzf/README.md                    |   51 +-
+ plugins/fzf/fzf.plugin.zsh               |  125 +-
+ plugins/git-prompt/README.md             |    3 +
+ plugins/gitfast/_git                     |  128 +-
+ plugins/gitfast/git-completion.bash      | 2220 +++++++++++++++++-------------
+ plugins/gitfast/git-prompt.sh            |   72 +-
+ plugins/gitfast/update                   |   11 +-
+ plugins/gitfast/updates.patch            |   56 -
+ plugins/globalias/globalias.plugin.zsh   |    6 +-
+ plugins/golang/golang.plugin.zsh         |    2 +-
+ plugins/kubectl/README.md                |   23 +-
+ plugins/kubectl/kubectl.plugin.zsh       |   46 +-
+ plugins/npx/README.md                    |   28 +-
+ plugins/safe-paste/safe-paste.plugin.zsh |    4 +-
+ 20 files changed, 1721 insertions(+), 1184 deletions(-)
+ delete mode 100644 plugins/gitfast/updates.patch
+En primer lugar, rebobinando HEAD para después reproducir tus cambios encima de ésta...
+Avance rápido de master a fcb6fa78a1304f9a8eff2a7563658de04a13d499.
+         __                                     __   
+  ____  / /_     ____ ___  __  __   ____  _____/ /_  
+ / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \ 
+/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / / 
+\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/  
+                        /____/                       
+Hooray! Oh My Zsh has been updated and/or is at the current version.
+To keep up on the latest news and updates, follow us on Twitter: https://twitter.com/ohmyzsh
+Want to get involved in the community? Join our Discord: https://discord.gg/ohmyzsh
+Get your Oh My Zsh swag at: https://shop.planetargon.com/collections/oh-my-zsh
+  ༆ ixicale༆   ⎣07:26:23⎤  🚦 ~ 
+                                                                                                                                 hostname: [ix]
+
+  ༆ ixicale༆   ⎣07:26:26⎤  🚦 ~ 
+cd $PHP/clv-events-api                                                                                                           hostname: [ix]
+
+  ༆ ixicale༆   ⎣07:26:34⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gic pre.dev.2019.12.23.1                                                                                                         hostname: [ix]
+Cambiado a rama 'pre.dev.2019.12.23.1'
+Tu rama está actualizada con 'origin/pre.dev.2019.12.23.1'.
+
+  ༆ ixicale༆   ⎣07:26:37⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2019.12.23.1 ✔ 
+gipl                                                                                                                             hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣07:26:44⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2019.12.23.1 ✔ 
+gicx                                                                                                                             hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣07:26:45⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+cd $PHP/clv-products-api                                                                                                         hostname: [ix]
+
+  ༆ ixicale༆   ⎣07:26:50⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.08.26.1                                                                                                         hostname: [ix]
+Cambiado a rama 'pre.dev.2020.08.26.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.08.26.1'.
+
+  ༆ ixicale༆   ⎣07:26:59⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.08.26.1 ✔ 
+gipl                                                                                                                             hostname: [ix]
+gixremote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Total 6 (delta 5), reused 6 (delta 5), pack-reused 0
+Desempaquetando objetos: 100% (6/6), 565 bytes | 47.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-products-api
+   0851557..5a63622  michan     -> origin/michan
+Ya está actualizado.
+  ༆ ixicale༆   ⎣07:27:03⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.08.26.1 ✔ 
+gicx                                                                                                                             hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣07:27:06⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.08.26.1                                                                                                        hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣07:27:12⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+                                                                                                                                 hostname: [ix]
+
+  ༆ ixicale༆   ⎣07:27:14⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+globalprotect launch-ui                                                                                                          hostname: [ix]
+
+
+  ༆ ixicale༆  ✘  ⎣07:44:23⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+logPostman                                                                                                                       hostname: [ix]
+/home/ixicale/.sf/SteampunkFactory-MySettings/logger/postman/2020.10oct.26.080752877590637.lunes.logger
+[2] 15119
+
+  ༆ ixicale༆  ⚙  ⎣08:07:52⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+(electron) 'getName function' is deprecated and will be removed. Please use 'name property' instead.                             hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆  ⚙  ⎣08:23:57⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ cd $PHP/clv-events-api                                                                                                           hostname: [ix]
+
+  ༆ ixicale༆  ⚙  ⎣10:41:18⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gipl                                                                                                                             hostname: [ix]
+gitYa está actualizado.
+
+  ༆ ixicale༆  ⚙  ⎣10:41:24⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+git fetch --all                                                                                                                  hostname: [ix]
+Extrayendo origin
+gi%                                                                                                                                             
+  ༆ ixicale༆  ⚙  ⎣10:41:27⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gic master.fix.26.05.2020                                                                                                        hostname: [ix]
+Rama 'master.fix.26.05.2020' configurada para hacer seguimiento a la rama remota 'master.fix.26.05.2020' de 'origin'.
+Cambiado a nueva rama 'master.fix.26.05.2020'
+
+  ༆ ixicale༆  ⚙  ⎣10:42:00⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ master.fix.26.05.2020 ✔ 
+gic -b master.fix.2020.10.26                                                                                                     hostname: [ix]
+Cambiado a nueva rama 'master.fix.2020.10.26'
+
+  ༆ ixicale༆  ⚙  ⎣10:42:24⎤  🚦 /var/www/html/PHP/clv-events-api   master.fix.2020.10.26 ✔ 
+gicx                                                                                                                             hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆  ⚙  ⎣10:48:16⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gic -b pre.dev.2020.10.26.1                                                                                                      hostname: [ix]
+Cambiado a nueva rama 'pre.dev.2020.10.26.1'
+
+  ༆ ixicale༆  ⚙  ⎣10:48:57⎤  🚦 /var/www/html/PHP/clv-events-api   pre.dev.2020.10.26.1 ✔ 
+gips -u origin pre.dev.2020.10.26.1                                                                                              hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+remote: 
+remote: Create a pull request for 'pre.dev.2020.10.26.1' on GitHub by visiting:
+remote:      https://github.com/fbenitez/clv-events-api/pull/new/pre.dev.2020.10.26.1
+remote: 
+To github.com:fbenitez/clv-events-api.git
+ * [new branch]      pre.dev.2020.10.26.1 -> pre.dev.2020.10.26.1
+Rama 'pre.dev.2020.10.26.1' configurada para hacer seguimiento a la rama remota 'pre.dev.2020.10.26.1' de 'origin'.
+  ༆ ixicale༆  ⚙  ⎣10:49:09⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.10.26.1 ✔ 
+gic dev                                                                                                                          hostname: [ix]
+Cambiado a rama 'dev'
+Tu rama está detrás de 'origin/dev' por 7 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆  ⚙  ⎣10:49:13⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ dev ↓7 ✔ 
+gipl                                                                                                                             hostname: [ix]
+Actualizando 2c894df..504caf9
+Fast-forward
+ app/config/router.php                                              |  2 +-
+ app/config/routers/events.php                                      |  1 +
+ app/controllers/eventcargosservicios/CargosserviciosController.php | 92 +++++++++++++++++++---------------------------------------------------
+ app/controllers/eventevento/EventoController.php                   | 32 +++++++++++++++++++++++++
+ app/models/eventdetallesolicitud/EventDetalleSolicitud.php         | 16 +++++++++++++
+ 5 files changed, 74 insertions(+), 69 deletions(-)
+
+  ༆ ixicale༆  ⚙  ⎣10:49:16⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ dev ✔ 
+gic qa                                                                                                                           hostname: [ix]
+Rama 'qa' configurada para hacer seguimiento a la rama remota 'qa' de 'origin'.
+Cambiado a nueva rama 'qa'
+
+  ༆ ixicale༆  ⚙  ⎣10:49:18⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ qa ✔ ☗  clv-events-api.qa.2020.10.21.1  
+gipl                                                                                                                             hostname: [ix]
+gicYa está actualizado.
+
+  ༆ ixicale༆  ⚙  ⎣10:49:22⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ qa ✔ ☗  clv-events-api.qa.2020.10.21.1  
+gic pre.dev.2020.10.26.1                                                                                                         hostname: [ix]
+Cambiado a rama 'pre.dev.2020.10.26.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.10.26.1'.
+
+  ༆ ixicale༆  ⚙  ⎣10:49:25⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.10.26.1 ✔ 
+gime dev                                                                                                                         hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆  ⚙  ⎣10:49:27⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.10.26.1 ✔ 
+gic dev                                                                                                                          hostname: [ix]
+Cambiado a rama 'dev'
+Tu rama está actualizada con 'origin/dev'.
+  ༆ ixicale༆  ⚙  ⎣10:49:30⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ dev ✔ 
+gime pre.dev.2020.10.26.1                                                                                                        hostname: [ix]
+Actualizando 504caf9..91291fe
+Fast-forward
+ app/config/routers/events.php                                                 |  1 +
+ app/controllers/eventtraduccionatributo/EventTraduccionAtributoController.php | 45 +++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 46 insertions(+)
+
+  ༆ ixicale༆  ⚙  ⎣10:49:34⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ dev ↑1 ✔ 
+gis;git show                                                                                                                     hostname: [ix]
+En la rama dev
+Tu rama está adelantada a 'origin/dev' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆  ⚙  ⎣10:49:42⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ dev ↑1 ✔ 
+gips                                                                                                                             hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-events-api.git
+   504caf9..91291fe  dev -> dev
+
+  ༆ ixicale༆  ⚙  ⎣10:49:48⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ dev ✔ 
+gic qa                                                                                                                           hostname: [ix]
+Cambiado a rama 'qa'
+Tu rama está actualizada con 'origin/qa'.
+
+  ༆ ixicale༆  ⚙  ⎣10:49:55⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ qa ✔ ☗  clv-events-api.qa.2020.10.21.1  
+gipl                                                                                                                             hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆  ⚙  ⎣10:49:59⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ qa ✔ ☗  clv-events-api.qa.2020.10.21.1  
+gime dev                                                                                                                         hostname: [ix]
+Merge made by the 'recursive' strategy.
+ app/config/routers/events.php                                                 |  1 +
+ app/controllers/eventtraduccionatributo/EventTraduccionAtributoController.php | 45 +++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 46 insertions(+)Rama 'qa' configurada para hacer seguimiento a la rama remota 'qa' de 'origin'.
+Cambiado a nueva rama 'qa'
+
+  ༆ ixicale༆  ⚙  ⎣10:49:18⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ qa ✔ ☗  clv-events-api.qa.2020.10.21.1  
+gipl                                                 hostname: [ix]
+gicYa está actualizado.
+
+  ༆ ixicale༆  ⚙  ⎣10:49:22⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ qa ✔ ☗  clv-events-api.qa.2020.10.21.1  
+gic pre.dev.2020.10.26.1                                                 hostname: [ix]
+Cambiado a rama 'pre.dev.2020.10.26.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.10.26.1'.
+
+  ༆ ixicale༆  ⚙  ⎣10:49:25⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.10.26.1 ✔ 
+gime dev                                                 hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆  ⚙  ⎣10:49:27⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.10.26.1 ✔ 
+gic dev                                                 hostname: [ix]
+Cambiado a rama 'dev'
+Tu rama está actualizada con 'origin/dev'.
+
+  ༆ ixicale༆  ⚙  ⎣10:49:30⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ dev ✔ 
+gime pre.dev.2020.10.26.1                                                 hostname: [ix]
+Actualizando 504caf9..91291fe
+Fast-forward
+ app/config/routers/events.php                                                 |  1 +
+ app/controllers/eventtraduccionatributo/EventTraduccionAtributoController.php | 45 +++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 46 insertions(+)
+
+  ༆ ixicale༆  ⚙  ⎣10:49:34⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ dev ↑1 ✔ 
+gis;git show                                                 hostname: [ix]
+En la rama dev
+Tu rama está adelantada a 'origin/dev' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆  ⚙  ⎣10:49:42⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ dev ↑1 ✔ 
+gips                                                 hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-events-api.git
+   504caf9..91291fe  dev -> dev
+
+  ༆ ixicale༆  ⚙  ⎣10:49:48⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ dev ✔ 
+gic qa                                                 hostname: [ix]
+Cambiado a rama 'qa'
+Tu rama está actualizada con 'origin/qa'.
+
+  ༆ ixicale༆  ⚙  ⎣10:49:55⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ qa ✔ ☗  clv-events-api.qa.2020.10.21.1  
+gipl                                                 hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆  ⚙  ⎣10:49:59⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ qa ✔ ☗  clv-events-api.qa.2020.10.21.1  
+gime dev                                                 hostname: [ix]
+Merge made by the 'recursive' strategy.
+ app/config/routers/events.php                                                 |  1 +
+ app/controllers/eventtraduccionatributo/EventTraduccionAtributoController.php | 45 +++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 46 insertions(+)
+
+  ༆ ixicale༆  ⚙  ⎣10:50:24⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ qa ↑2 ✔ 
+gis;git show                                                 hostname: [ix]
+En la rama qa
+Tu rama está adelantada a 'origin/qa' por 2 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆  ⚙  ⎣10:50:31⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ qa ↑2 ✔ 
+gips                                                 hostname: [ix]
+Enumerando objetos: 13, listo.
+Contando objetos: 100% (13/13), listo.
+Compresión delta usando hasta 8 hilos
+Comprimiendo objetos: 100% (5/5), listo.
+Escribiendo objetos: 100% (5/5), 512 bytes | 512.00 KiB/s, listo.
+Total 5 (delta 4), reusado 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:fbenitez/clv-events-api.git
+   8a6b694..5060585  qa -> qa
+
+  ༆ ixicale༆  ⚙  ⎣10:50:43⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ qa ✔ 
