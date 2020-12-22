@@ -1,0 +1,268 @@
+y
+Updating Oh My Zsh
+remote: Enumerating objects: 139, done.
+remote: Counting objects: 100% (135/135), done.
+remote: Compressing objects: 100% (60/60), done.
+remote: Total 102 (delta 61), reused 83 (delta 42), pack-reused 0
+Recibiendo objetos: 100% (102/102), 22.73 KiB | 3.79 MiB/s, listo.
+Resolviendo deltas: 100% (61/61), completado con 19 objetos locales.
+Desde https://github.com/ohmyzsh/ohmyzsh
+ * branch            master     -> FETCH_HEAD
+   452586e..b28665a  master     -> origin/master
+ .github/CODEOWNERS                               |  1 +
+ lib/git.zsh                                      | 23 +++++++++++----
+ plugins/common-aliases/README.md                 |  4 ++-
+ plugins/common-aliases/common-aliases.plugin.zsh |  2 +-
+ plugins/composer/composer.plugin.zsh             |  2 +-
+ plugins/genpass/README.md                        | 66 +++++++++++++++++++++++++++++++++++++++++
+ plugins/genpass/genpass-apple                    | 79 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ plugins/genpass/genpass-monkey                   | 32 ++++++++++++++++++++
+ plugins/genpass/genpass-xkcd                     | 68 +++++++++++++++++++++++++++++++++++++++++++
+ plugins/genpass/genpass.plugin.zsh               |  1 +
+ plugins/git/git.plugin.zsh                       |  1 +
+ plugins/grc/README.md                            | 37 +++++++++++++++++++++++
+ plugins/grc/grc.plugin.zsh                       | 44 ++++++++++++++++++++++++++++
+ plugins/hanami/README.md                         | 63 ++++++++++++++++++++++++----------------
+ plugins/hanami/hanami.plugin.zsh                 |  6 ++--
+ tools/changelog.sh                               | 19 +++++++++---
+ tools/upgrade.sh                                 |  8 ++++-
+ 17 files changed, 415 insertions(+), 41 deletions(-)
+ create mode 100644 plugins/genpass/README.md
+ create mode 100755 plugins/genpass/genpass-apple
+ create mode 100755 plugins/genpass/genpass-monkey
+ create mode 100755 plugins/genpass/genpass-xkcd
+ create mode 100644 plugins/genpass/genpass.plugin.zsh
+ create mode 100644 plugins/grc/README.md
+ create mode 100644 plugins/grc/grc.plugin.zsh
+En primer lugar, rebobinando HEAD para después reproducir tus cambios encima de ésta...
+Avance rápido de master a b28665aebb4c1b07a57890eb59551bc51d0acf37.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+master
+
+⚠ BREAKING CHANGES:
+
+ - 2826581 The git config option to skip running `git_prompt_info` has changed from `oh-my-zsh.hide-status` to `oh-my-zsh.hide-info` (#9188).
+ - e4082a9 In `common-aliases`, the `fd` alias won't be defined if `fd` is installed (https://github.com/sharkdp/fd).
+
+Features:
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] ℹ ｢wdm｣:    669 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣:    669 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣:    669 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+^C
+
+
+[0] npm run server exited with code SIGINT                                                                
+[1] npm run client exited with code SIGINT
+
+  ༆ ixicale༆  ✘  ⎣09:16:25⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ gs-ixicale 1 ● 
+gicx                                                                                       hostname: [ix]
+M	src/client/App.js
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣09:16:28⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1 ● 
+gipl                                                                                       hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣09:16:32⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1 ● 
+gic pre.co-dev.2020.12.18.1                                                                hostname: [ix]
+M	src/client/App.js
+Rama 'pre.co-dev.2020.12.18.1' configurada para hacer seguimiento a la rama remota 'pre.co-dev.2020.12.18.1' de 'origin'.
+Cambiado a nueva rama 'pre.co-dev.2020.12.18.1'
+
+  ༆ ixicale༆   ⎣09:17:02⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.co-dev.2020.12.18.1 1 ● 
+gipl                                                                                       hostname: [ix]
+gicYa está actualizado.
+
+  ༆ ixicale༆   ⎣09:17:05⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.co-dev.2020.12.18.1 1 ● 
+gi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit 8688900c4b885c72707217a40f09f757ab493b7f (HEAD -> ixicale, origin/pre.co-dev.2020.12.18.1, origin/co-dev, origin/avsantos, origin/angesolis, pre.co-dev.2020.12.18.1)
+Author: avnel santos <avnelsantos@gmail.com>
+Date:   Fri Dec 18 13:13:08 2020 -0600
+
+    mod
+
+diff --git a/src/server/controllers/CommentController.js b/src/server/controllers/CommentController.js
+index 2ec82339..50f72235 100644
+--- a/src/server/controllers/CommentController.js
++++ b/src/server/controllers/CommentController.js
+@@ -90,7 +90,7 @@ class CommentController extends Controller {
+                                .then((res) => {
+                                        const { id, comment, image } = res || {};
+                                        //validamos que traiga una img de lo contrario guardamos sin ella.
+-                                       if(image=='' || image==undefined){
++                                       if(image==undefined || image == '' ){
+                                                let dtaimg = {path:" ", thumb:" "}
+                                                return this.newComment(id, comment, dtaimg);
+                                        }else{
+(END
+commit 8688900c4b885c72707217a40f09f757ab493b7f (HEAD -> ixicale, origin/pre.co-dev.2020.12.18.1, origin/co-dev, origin/avsantos, origin/angesolis, pre.co-dev.2020.12.18.1)
+Author: avnel santos <avnelsantos@gmail.com>
+Date:   Fri Dec 18 13:13:08 2020 -0600
+
+    mod
+
+diff --git a/src/server/controllers/CommentController.js b/src/server/controllers/CommentController.js
+index 2ec82339..50f72235 100644
+--- a/src/server/controllers/CommentController.js
++++ b/src/server/controllers/CommentController.js
+@@ -90,7 +90,7 @@ class CommentController extends Controller {
+                                .then((res) => {
+                                        const { id, comment, image } = res || {};
+                                        //validamos que traiga una img de lo contrario guardamos sin ella.
+-                                       if(image=='' || image==undefined){
++                                       if(image==undefined || image == '' ){
+                                                let dtaimg = {path:" ", thumb:" "}
+                                                return this.newComment(id, comment, dtaimg);
+                                        }else{
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  GNU nano 4.8               /var/www/html/NODE/clv-service-web/.git/MERGE_MSG                            
+  ༆ ixicale༆   ⎣17:37:12⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.02.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.02.1'
+Tu rama está detrás de 'origin/pre.dev.2020.12.02.1' por 7 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣17:37:19⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ↓7 ✔ 
+gipl                                                                                       hostname: [ix]
+Actualizando a8686f7..b12400f
+Fast-forward
+ app/config/router.php                           |  2 ++
+ app/controllers/FormatopedidoitemController.php | 20 +++++++++++++++++++-
+ app/controllers/ServicioController.php          | 46 ++++++++++++++++++++++++++++++++++++++--------
+ 3 files changed, 59 insertions(+), 9 deletions(-)
+
+  ༆ ixicale༆   ⎣17:37:23⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+gic pre.dev.2020.12.16.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.16.1'
+Tu rama está detrás de 'origin/pre.dev.2020.12.16.1' por 6 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣17:37:45⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.16.1 ↓6 ✔ 
+gipl                                                                                       hostname: [ix]
+gicxActualizando b12400f..6e30985
+Fast-forward
+ app/config/router.php                       |  1 +
+ app/controllers/MaterialController.php      | 24 ++++++++++++++++++++++++
+ app/controllers/UnidadnegocioController.php |  6 ++++--
+ app/models/ServiceUnidadNegocio.php         | 26 +++++++++++++++++++++++++-
+ 4 files changed, 54 insertions(+), 3 deletions(-)
+
+  ༆ ixicale༆   ⎣17:37:48⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.16.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.

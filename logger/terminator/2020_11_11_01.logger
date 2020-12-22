@@ -1,0 +1,1063 @@
+code $PHP/clv-products-api/app/config/router.php                                           hostname: [ix]
+
+  ༆ ixicale༆   ⎣10:09:11⎤  🚦 ~ 
+$PHP/clv-products-api                                                                      hostname: [ix]
+
+  ༆ ixicale༆   ⎣10:10:33⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+git fetch --all                                                                            hostname: [ix]
+Extrayendo origin
+
+  ༆ ixicale༆   ⎣10:10:46⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.10.28.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.10.28.1'
+Tu rama está detrás de 'origin/pre.dev.2020.10.28.1' por 10 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣10:11:06⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.10.28.1 ↓10 ✔ 
+gipl                                                                                       hostname: [ix]
+Actualizando 2244252..fce486f
+Fast-forward
+ app/config/router.php                         |  1 +
+ app/controllers/ItemController.php            |  4 ++--
+ app/controllers/ReportsController.php         |  4 ++--
+ app/controllers/ServiciorecursoController.php | 23 +++++++++++++++++++++++
+ app/models/ServiceUnidadNegocio.php           | 13 +++++++++++++
+ 5 files changed, 41 insertions(+), 4 deletions(-)
+
+  ༆ ixicale༆   ⎣10:11:11⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.10.28.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣10:11:45⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.10.28.1                                                                  hostname: [ix]
+Actualizando 2244252..fce486f
+Fast-forward
+ app/config/router.php                         |  1 +
+ app/controllers/ItemController.php            |  4 ++--
+ app/controllers/ReportsController.php         |  4 ++--
+ app/controllers/ServiciorecursoController.php | 23 +++++++++++++++++++++++
+ app/models/ServiceUnidadNegocio.php           | 13 +++++++++++++
+ 5 files changed, 41 insertions(+), 4 deletions(-)
+  ༆ ixicale༆   ⎣10:11:55⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ↑10 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-products-api.git
+   2244252..fce486f  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣10:12:03⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆   ⎣10:12:05⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+$PHP/clv-events-api                                                                        hostname: [ix]
+
+  ༆ ixicale༆   ⎣10:12:21⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ hot-fix-master-2020.09.04 ✔ ☗  clv-events-api.2020.10.29.1  
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣10:12:24⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.10.26.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.10.26.1'
+Tu rama está detrás de 'origin/pre.dev.2020.10.26.1' por 6 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣10:12:31⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.10.26.1 ↓6 ✔ 
+gipl                                                                                       hostname: [ix]
+remote: Enumerating objects: 91, done.
+remote: Counting objects: 100% (91/91), done.
+remote: Total 267 (delta 91), reused 91 (delta 91), pack-reused 176
+Recibiendo objetos: 100% (267/267), 533.12 KiB | 1.45 MiB/s, listo.
+Resolviendo deltas: 100% (176/176), completado con 32 objetos locales.
+Desde github.com:fbenitez/clv-events-api
+   36d1b2e..f7755ca  pre.dev.2020.10.26.1           -> origin/pre.dev.2020.10.26.1
+   a815576..91291fe  amatos                         -> origin/amatos
+   6a27c45..f7755ca  avsantos                       -> origin/avsantos
+   36d1b2e..f7755ca  cacebedo                       -> origin/cacebedo
+   5075c9d..bea6982  cedisapena                     -> origin/cedisapena
+   a0b487e..f028732  detail-sheet                   -> origin/detail-sheet
+   36d1b2e..f7755ca  dev                            -> origin/dev
+   ce89f2d..9028c8e  ftun                           -> origin/ftun
+   9b3104b..ba6c2ab  gadrian                        -> origin/gadrian
+   a0b487e..f7755ca  mmendiola                      -> origin/mmendiola
+   af5a0d8..e3839f1  qa                             -> origin/qa
+   504caf9..bcbf95f  rcan                           -> origin/rcan
+ * [nuevo tag]       clv-events-api-qa.2020.11.10.1 -> clv-events-api-qa.2020.11.10.1 * [nuevo tag]       clv-events-api-qa.2020.11.09.1 -> clv-events-api-qa.2020.11.09.1
+ * [nuevo tag]       clv-events-api.qa.2020.11.05.1 -> clv-events-api.qa.2020.11.05.1
+Actualizando 4914d09..f7755ca
+Fast-forward
+ .gitignore                                                          |    3 +-
+ app/config/apiUrl.php                                               |   12 +-
+ app/config/routers/events.php                                       |   15 +-
+ app/controllers/IndexController.php                                 |    9 +-
+ app/controllers/eventbillingaddress/BillingaddressController.php    |    1 +
+ app/controllers/eventcargosservicios/CargosserviciosController.php  |  122 ++-
+ .../eventcodigotarifaexcluidos/CodigotarifaexcluidosController.php  |   11 +
+ app/controllers/eventdetalleitem/DetalleitemController.php          |  114 ++-
+ .../eventdetallesolicitud/DetallesolicitudController.php            |   16 +-
+ app/controllers/eventevento/EventoController.php                    |   12 +-
+ app/controllers/eventeventopromocion/EventopromocionController.php  |   15 +-
+ app/controllers/eventgrupo/GrupoController.php                      |  816 ++++++++++++++-
+ app/controllers/eventgrupo/pdf-detailsheet/Avenir-Light.ttf         |  Bin 0 -> 91040 bytes
+ app/controllers/eventgrupo/pdf-detailsheet/Avenir-Roman.ttf         |  Bin 0 -> 22484 bytes
+ .../eventgrupo/pdf-detailsheet/PlayfairDisplay-Regular.ttf          |  Bin 0 -> 219908 bytes
+ app/controllers/eventgrupo/pdf-detailsheet/dialog-icon.png          |  Bin 0 -> 634 bytes
+ app/controllers/eventgrupo/pdf-detailsheet/dialog-icon.svg          |    9 +
+ app/controllers/eventgrupo/pdf-detailsheet/palace-resorts.svg       |    1 +
+ app/controllers/eventgrupo/pdf-detailsheet/palace-weddings.svg      |   30 +
+ app/controllers/eventgrupo/pdf-detailsheet/style.css                |  585 +++++++++++
+ app/controllers/eventgrupo/pdf-detailsheet/variables.php            |    6 +
+ app/controllers/eventgrupo/pdf-rooming/Avenir-Roman.ttf             |  Bin 0 -> 22484 bytes
+ app/controllers/eventgrupo/pdf-rooming/PlayfairDisplay-Regular.ttf  |  Bin 0 -> 219908 bytes
+ app/controllers/eventgrupo/pdf-rooming/cancel-icon.svg              |    1 +
+ app/controllers/eventgrupo/pdf-rooming/palace-weddings.svg          |   30 +
+ app/controllers/eventgrupo/pdf-rooming/rooming.jpg                  |  Bin 0 -> 287461 bytes
+ app/controllers/eventgrupo/pdf-rooming/style.css                    |  152 +++
+ app/controllers/eventgrupo/pdf-rooming/variables.php                |   23 +
+ .../eventgrupoaceptatermino/GrupoaceptaterminoController.php        |    2 +
+ app/controllers/eventpromocion/PromocionController.php              |   11 +-
+ .../eventreservagrupoagencia/ReservagrupoagenciaController.php      |   15 +-
+ app/helpers/BController.php                                         |   50 +-
+ app/models/eventdetalleextrainfo/EventDetalleExtrainfo.php          |   52 +-
+ app/models/eventtipopromocion/EventTipoPromocion.php                |   34 +-
+ composer.json                                                       |    5 +-
+ composer.lock                                                       | 1546 -----------------------------
+ public/index.php                                                    |   11 +-
+ 37 files changed, 1992 insertions(+), 1717 deletions(-)
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/Avenir-Light.ttf
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/Avenir-Roman.ttf
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/PlayfairDisplay-Regular.ttf
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/dialog-icon.png
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/dialog-icon.svg
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/palace-resorts.svg
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/palace-weddings.svg
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/style.css
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/variables.php
+ create mode 100644 app/controllers/eventgrupo/pdf-rooming/Avenir-Roman.ttf
+ create mode 100644 app/controllers/eventgrupo/pdf-rooming/PlayfairDisplay-Regular.ttf
+ create mode 100644 app/controllers/eventgrupo/pdf-rooming/cancel-icon.svg
+ create mode 100644 app/controllers/eventgrupo/pdf-rooming/palace-weddings.svg
+ create mode 100644 app/controllers/eventgrupo/pdf-rooming/rooming.jpg
+ create mode 100644 app/controllers/eventgrupo/pdf-rooming/style.css
+ create mode 100644 app/controllers/eventgrupo/pdf-rooming/variables.php
+ delete mode 100644 composer.lock
+  ༆ ixicale༆   ⎣10:12:34⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.10.26.1 ✔ 
+git fetch --all                                                                            hostname: [ix]
+Extrayendo origin
+
+  ༆ ixicale༆   ⎣10:12:39⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.10.26.1 ✔ 
+gipl                                                                                       hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣10:12:42⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.10.26.1 ✔ 
+gic pre.dev.2020.10.26.1                                                                   hostname: [ix]
+Ya en 'pre.dev.2020.10.26.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.10.26.1'.
+
+  ༆ ixicale༆   ⎣10:12:49⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.10.26.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣10:12:51⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.10.26.1                                                                  hostname: [ix]
+Actualizando 4914d09..f7755ca
+Fast-forward
+ .gitignore                                                          |    3 +-
+ app/config/apiUrl.php                                               |   12 +-
+ app/config/routers/events.php                                       |   15 +-
+ app/controllers/IndexController.php                                 |    9 +-
+ app/controllers/eventbillingaddress/BillingaddressController.php    |    1 +
+ app/controllers/eventcargosservicios/CargosserviciosController.php  |  122 ++-
+ .../eventcodigotarifaexcluidos/CodigotarifaexcluidosController.php  |   11 +
+ app/controllers/eventdetalleitem/DetalleitemController.php          |  114 ++-
+ .../eventdetallesolicitud/DetallesolicitudController.php            |   16 +-
+ app/controllers/eventevento/EventoController.php                    |   12 +-
+ app/controllers/eventeventopromocion/EventopromocionController.php  |   15 +-
+ app/controllers/eventgrupo/GrupoController.php                      |  816 ++++++++++++++-
+ app/controllers/eventgrupo/pdf-detailsheet/Avenir-Light.ttf         |  Bin 0 -> 91040 bytes
+ app/controllers/eventgrupo/pdf-detailsheet/Avenir-Roman.ttf         |  Bin 0 -> 22484 bytes
+ .../eventgrupo/pdf-detailsheet/PlayfairDisplay-Regular.ttf          |  Bin 0 -> 219908 bytes
+ app/controllers/eventgrupo/pdf-detailsheet/dialog-icon.png          |  Bin 0 -> 634 bytes
+ app/controllers/eventgrupo/pdf-detailsheet/dialog-icon.svg          |    9 +
+ app/controllers/eventgrupo/pdf-detailsheet/palace-resorts.svg       |    1 +
+ app/controllers/eventgrupo/pdf-detailsheet/palace-weddings.svg      |   30 +
+ app/controllers/eventgrupo/pdf-detailsheet/style.css                |  585 +++++++++++
+ app/controllers/eventgrupo/pdf-detailsheet/variables.php            |    6 +
+ app/controllers/eventgrupo/pdf-rooming/Avenir-Roman.ttf             |  Bin 0 -> 22484 bytes
+ app/controllers/eventgrupo/pdf-rooming/PlayfairDisplay-Regular.ttf  |  Bin 0 -> 219908 bytes
+ app/controllers/eventgrupo/pdf-rooming/cancel-icon.svg              |    1 +
+ app/controllers/eventgrupo/pdf-rooming/palace-weddings.svg          |   30 +
+ app/controllers/eventgrupo/pdf-rooming/rooming.jpg                  |  Bin 0 -> 287461 bytes
+ app/controllers/eventgrupo/pdf-rooming/style.css                    |  152 +++
+ app/controllers/eventgrupo/pdf-rooming/variables.php                |   23 +
+ .../eventgrupoaceptatermino/GrupoaceptaterminoController.php        |    2 +
+ app/controllers/eventpromocion/PromocionController.php              |   11 +-
+ .../eventreservagrupoagencia/ReservagrupoagenciaController.php      |   15 +-
+ app/helpers/BController.php                                         |   50 +-
+ app/models/eventdetalleextrainfo/EventDetalleExtrainfo.php          |   52 +-
+ app/models/eventtipopromocion/EventTipoPromocion.php                |   34 +-
+ composer.json                                                       |    5 +-
+ composer.lock                                                       | 1546 -----------------------------
+ public/index.php                                                    |   11 +-
+ 37 files changed, 1992 insertions(+), 1717 deletions(-)
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/Avenir-Light.ttf
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/Avenir-Roman.ttf
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/PlayfairDisplay-Regular.ttf
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/dialog-icon.png
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/dialog-icon.svg
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/palace-resorts.svg
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/palace-weddings.svg
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/style.css
+ create mode 100644 app/controllers/eventgrupo/pdf-detailsheet/variables.php
+ create mode 100644 app/controllers/eventgrupo/pdf-rooming/Avenir-Roman.ttf
+ create mode 100644 app/controllers/eventgrupo/pdf-rooming/PlayfairDisplay-Regular.ttf
+ create mode 100644 app/controllers/eventgrupo/pdf-rooming/cancel-icon.svg
+ create mode 100644 app/controllers/eventgrupo/pdf-rooming/palace-weddings.svg
+ create mode 100644 app/controllers/eventgrupo/pdf-rooming/rooming.jpg
+ create mode 100644 app/controllers/eventgrupo/pdf-rooming/style.css
+ create mode 100644 app/controllers/eventgrupo/pdf-rooming/variables.php
+ delete mode 100644 composer.lock
+  ༆ ixicale༆   ⎣10:12:55⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ↑79 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-events-api.git
+   4914d09..f7755ca  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣10:13:05⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+$PHP/clv-productions-api                                                                   hostname: [ix]
+
+  ༆ ixicale༆   ⎣10:14:07⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+git fetch --all                                                                            hostname: [ix]
+Extrayendo origin
+remote: Enumerating objects: 96, done.
+remote: Counting objects: 100% (96/96), done.
+remote: Compressing objects: 100% (44/44), done.
+remote: Total 130 (delta 67), reused 80 (delta 52), pack-reused 34
+Recibiendo objetos: 100% (130/130), 40.84 KiB | 459.00 KiB/s, listo.
+Resolviendo deltas: 100% (87/87), completado con 16 objetos locales.
+Desde github.com:fbenitez/clv-productions-api
+   70fcf22..5fa979c  dev                                 -> origin/dev
+   70fcf22..0a3e483  enoc.1.0                            -> origin/enoc.1.0
+ * [nueva rama]      ftun                                -> origin/ftun
+   b58a2b1..5fa979c  michan                              -> origin/michan
+   70fcf22..eec25ee  oldReguzman                         -> origin/oldReguzman
+   70fcf22..5fa979c  pre.dev.2020.08.04.1                -> origin/pre.dev.2020.08.04.1
+   4ae2a30..66da80d  qa                                  -> origin/qa
+   cd67be2..0a3e483  rcan                                -> origin/rcan
+ * [nuevo tag]       clv-productions-api-qa.2020.11.10.1 -> clv-productions-api-qa.2020.11.10.1
+ * [nuevo tag]       clv-productions-api-qa.2020.10.31.1 -> clv-productions-api-qa.2020.10.31.1
+ * [nuevo tag]       clv-productions-api-qa.2020.11.04.1 -> clv-productions-api-qa.2020.11.04.1
+ * [nuevo tag]       clv-productions-api-qa.2020.11.04.2 -> clv-productions-api-qa.2020.11.04.2
+ * [nuevo tag]       clv-productions-api-qa.2020.11.09.1 -> clv-productions-api-qa.2020.11.09.1
+
+  ༆ ixicale༆   ⎣10:15:14⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.08.04.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.08.04.1'
+Tu rama está detrás de 'origin/pre.dev.2020.08.04.1' por 45 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+  ༆ ixicale༆   ⎣10:15:40⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ pre.dev.2020.08.04.1 ↓45 ✔ 
+gipl                                                                                       hostname: [ix]
+giActualizando bed06df..5fa979c
+Fast-forward
+m app/config/route_files/routeleadquotation.php           |   8 +-
+ app/config/router.php                                   |  48 +++-
+ app/controllers/ContactosproveedorController.php        |  64 +++++
+ app/controllers/CotizacionservicioController.php        | 219 ++++++++++-------
+ app/controllers/DetallecotizacionservicioController.php | 166 ++++++++-----
+ app/controllers/DetalleordenproduccionController.php    |  11 +-
+ app/controllers/NotificacionesproveedorController.php   | 553 ++++++++++++++++++++++++++++++++++++++++++
+ app/controllers/ProduccionamadaController.php           | 120 +++++++++
+ app/models/ProdContactosProveedor.php                   | 184 ++++++++++++++
+ app/models/ProdDetalleOrdenProduccion.php               |  16 +-
+ app/models/ProdNotificacionesProveedor.php              | 191 +++++++++++++++
+ app/models/ProdProduccionAmada.php                      | 190 +++++++++++++++
+ 12 files changed, 1612 insertions(+), 158 deletions(-)
+ create mode 100755 app/controllers/ContactosproveedorController.php
+ create mode 100755 app/controllers/NotificacionesproveedorController.php
+ create mode 100755 app/controllers/ProduccionamadaController.php
+ create mode 100755 app/models/ProdContactosProveedor.php
+ create mode 100755 app/models/ProdNotificacionesProveedor.php
+ create mode 100755 app/models/ProdProduccionAmada.php
+
+  ༆ ixicale༆   ⎣10:15:43⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ pre.dev.2020.08.04.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣10:15:47⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.08.04.1                                                                  hostname: [ix]
+Actualizando bed06df..5fa979c
+Fast-forward
+ app/config/route_files/routeleadquotation.php           |   8 +-
+ app/config/router.php                                   |  48 +++-
+ app/controllers/ContactosproveedorController.php        |  64 +++++
+ app/controllers/CotizacionservicioController.php        | 219 ++++++++++-------
+ app/controllers/DetallecotizacionservicioController.php | 166 ++++++++-----
+ app/controllers/DetalleordenproduccionController.php    |  11 +-
+ app/controllers/NotificacionesproveedorController.php   | 553 ++++++++++++++++++++++++++++++++++++++++++
+ app/controllers/ProduccionamadaController.php           | 120 +++++++++
+ app/models/ProdContactosProveedor.php                   | 184 ++++++++++++++
+ app/models/ProdDetalleOrdenProduccion.php               |  16 +-
+ app/models/ProdNotificacionesProveedor.php              | 191 +++++++++++++++
+ app/models/ProdProduccionAmada.php                      | 190 +++++++++++++++
+ 12 files changed, 1612 insertions(+), 158 deletions(-)
+ create mode 100755 app/controllers/ContactosproveedorController.php
+ create mode 100755 app/controllers/NotificacionesproveedorController.php
+ create mode 100755 app/controllers/ProduccionamadaController.php
+ create mode 100755 app/models/ProdContactosProveedor.php
+ create mode 100755 app/models/ProdNotificacionesProveedor.php
+ create mode 100755 app/models/ProdProduccionAmada.phpResolviendo deltas: 100% (87/87), completado con 16 objetos locales.
+Desde github.com:fbenitez/clv-productions-api
+   70fcf22..5fa979c  dev                                 -> origin/dev
+   70fcf22..0a3e483  enoc.1.0                            -> origin/enoc.1.0
+ * [nueva rama]      ftun                                -> origin/ftun
+   b58a2b1..5fa979c  michan                              -> origin/michan
+   70fcf22..eec25ee  oldReguzman                         -> origin/oldReguzman
+   70fcf22..5fa979c  pre.dev.2020.08.04.1                -> origin/pre.dev.2020.08.04.1
+   4ae2a30..66da80d  qa                                  -> origin/qa
+   cd67be2..0a3e483  rcan                                -> origin/rcan
+ * [nuevo tag]       clv-productions-api-qa.2020.11.10.1 -> clv-productions-api-qa.2020.11.10.1
+ * [nuevo tag]       clv-productions-api-qa.2020.10.31.1 -> clv-productions-api-qa.2020.10.31.1
+ * [nuevo tag]       clv-productions-api-qa.2020.11.04.1 -> clv-productions-api-qa.2020.11.04.1
+ * [nuevo tag]       clv-productions-api-qa.2020.11.04.2 -> clv-productions-api-qa.2020.11.04.2
+ * [nuevo tag]       clv-productions-api-qa.2020.11.09.1 -> clv-productions-api-qa.2020.11.09.1
+
+  ༆ ixicale༆   ⎣10:15:14⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.08.04.1            hostname: [ix]
+Cambiado a rama 'pre.dev.2020.08.04.1'
+Tu rama está detrás de 'origin/pre.dev.2020.08.04.1' por 45 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣10:15:40⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ pre.dev.2020.08.04.1 ↓45 ✔ 
+gipl           hostname: [ix]
+giActualizando bed06df..5fa979c
+Fast-forward
+m app/config/route_files/routeleadquotation.php           |   8 +-
+ app/config/router.php                                   |  48 +++-
+ app/controllers/ContactosproveedorController.php        |  64 +++++
+ app/controllers/CotizacionservicioController.php        | 219 ++++++++++-------
+ app/controllers/DetallecotizacionservicioController.php | 166 ++++++++-----
+ app/controllers/DetalleordenproduccionController.php    |  11 +-
+ app/controllers/NotificacionesproveedorController.php   | 553 ++++++++++++++++++++++++++++++++++++++++++
+ app/controllers/ProduccionamadaController.php           | 120 +++++++++
+ app/models/ProdContactosProveedor.php                   | 184 ++++++++++++++
+ app/models/ProdDetalleOrdenProduccion.php               |  16 +-
+ app/models/ProdNotificacionesProveedor.php              | 191 +++++++++++++++
+ app/models/ProdProduccionAmada.php                      | 190 +++++++++++++++
+ 12 files changed, 1612 insertions(+), 158 deletions(-)
+ create mode 100755 app/controllers/ContactosproveedorController.php
+ create mode 100755 app/controllers/NotificacionesproveedorController.php
+ create mode 100755 app/controllers/ProduccionamadaController.php
+ create mode 100755 app/models/ProdContactosProveedor.php
+ create mode 100755 app/models/ProdNotificacionesProveedor.php
+ create mode 100755 app/models/ProdProduccionAmada.php
+
+  ༆ ixicale༆   ⎣10:15:43⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ pre.dev.2020.08.04.1 ✔ 
+gicx           hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣10:15:47⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.08.04.1            hostname: [ix]
+Actualizando bed06df..5fa979c
+Fast-forward
+ app/config/route_files/routeleadquotation.php           |   8 +-
+ app/config/router.php                                   |  48 +++-
+ app/controllers/ContactosproveedorController.php        |  64 +++++
+ app/controllers/CotizacionservicioController.php        | 219 ++++++++++-------
+ app/controllers/DetallecotizacionservicioController.php | 166 ++++++++-----
+ app/controllers/DetalleordenproduccionController.php    |  11 +-
+ app/controllers/NotificacionesproveedorController.php   | 553 ++++++++++++++++++++++++++++++++++++++++++
+ app/controllers/ProduccionamadaController.php           | 120 +++++++++
+ app/models/ProdContactosProveedor.php                   | 184 ++++++++++++++
+ app/models/ProdDetalleOrdenProduccion.php               |  16 +-
+ app/models/ProdNotificacionesProveedor.php              | 191 +++++++++++++++
+ app/models/ProdProduccionAmada.php                      | 190 +++++++++++++++
+ 12 files changed, 1612 insertions(+), 158 deletions(-)
+ create mode 100755 app/controllers/ContactosproveedorController.php
+ create mode 100755 app/controllers/NotificacionesproveedorController.php
+ create mode 100755 app/controllers/ProduccionamadaController.php
+ create mode 100755 app/models/ProdContactosProveedor.php
+ create mode 100755 app/models/ProdNotificacionesProveedor.php
+ create mode 100755 app/models/ProdProduccionAmada.php
+
+  ༆ ixicale༆   ⎣10:15:52⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ↑45 ✔ 
+gips           hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-productions-api.git
+   bed06df..5fa979c  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣10:16:01⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+$PHP/clv-benefit-api            hostname: [ix]
+
+  ༆ ixicale༆   ⎣10:16:43⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ ixicale ✔   ༆ ixicale༆   ⎣12:03:05⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gime pre.dev.2020.08.26.1                                                                                                              hostname: [ix]
+Actualizando e3e67ae..2f5d037
+Fast-forward
+ .gitignore                                                                         |   3 +-
+ clever-component-library/build/node/CleverConfig.js                                | 149 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ package.json                                                                       |   3 +-
+ public/index.html                                                                  |   1 +
+ src/client/views/inventarios/inventario_item/inventario_item.js                    | 139 ++++++++++++++++++++++++++++++++++++++++++++-----------
+ src/client/views/inventarios/inventario_item/tableColumns.js                       |   7 +++
+ storybook/storybook-static.zip                                                     | Bin 3009128 -> 0 bytes
+ storybook/storybook-static/favicon.ico                                             | Bin 32988 -> 0 bytes
+ storybook/storybook-static/iframe.html                                             |  74 -----------------------------
+ storybook/storybook-static/index.html                                              |  19 --------
+ storybook/storybook-static/main.79b66b8a9c398535ef13.bundle.js                     |   2 -
+ storybook/storybook-static/main.79b66b8a9c398535ef13.bundle.js.map                 |   1 -
+ storybook/storybook-static/main.e68804ede24ab43d31c5.bundle.js                     |   1 -
+ storybook/storybook-static/runtime~main.6b70b35614cf83eab770.bundle.js             |   1 -
+ storybook/storybook-static/runtime~main.79b66b8a9c398535ef13.bundle.js             |   2 -
+ storybook/storybook-static/runtime~main.79b66b8a9c398535ef13.bundle.js.map         |   1 -
+ storybook/storybook-static/sb_dll/storybook_ui-manifest.json                       |   1 -
+ storybook/storybook-static/sb_dll/storybook_ui_dll.LICENCE                         | 113 --------------------------------------------
+ storybook/storybook-static/sb_dll/storybook_ui_dll.js                              |   2 -
+ storybook/storybook-static/static/media/logoPalace.948e8a70.png                    | Bin 71122 -> 0 bytes
+ storybook/storybook-static/vendors~main.79b66b8a9c398535ef13.bundle.js             |   3 --
+ storybook/storybook-static/vendors~main.79b66b8a9c398535ef13.bundle.js.LICENSE.txt | 137 ------------------------------------------------------
+ storybook/storybook-static/vendors~main.79b66b8a9c398535ef13.bundle.js.map         |   1 -
+ storybook/storybook-static/vendors~main.cdd1f64f442cdbcd46ac.bundle.js             | 120 -----------------------------------------------
+ 24 files changed, 273 insertions(+), 507 deletions(-)
+ create mode 100644 clever-component-library/build/node/CleverConfig.js
+ delete mode 100644 storybook/storybook-static.zip
+ delete mode 100644 storybook/storybook-static/favicon.ico
+ delete mode 100644 storybook/storybook-static/iframe.html
+ delete mode 100644 storybook/storybook-static/index.html
+ delete mode 100644 storybook/storybook-static/main.79b66b8a9c398535ef13.bundle.js
+ delete mode 100644 storybook/storybook-static/main.79b66b8a9c398535ef13.bundle.js.map
+ delete mode 100644 storybook/storybook-static/main.e68804ede24ab43d31c5.bundle.js
+ delete mode 100644 storybook/storybook-static/runtime~main.6b70b35614cf83eab770.bundle.js
+ delete mode 100644 storybook/storybook-static/runtime~main.79b66b8a9c398535ef13.bundle.js
+ delete mode 100644 storybook/storybook-static/runtime~main.79b66b8a9c398535ef13.bundle.js.map
+ delete mode 100644 storybook/storybook-static/sb_dll/storybook_ui-manifest.json
+ delete mode 100644 storybook/storybook-static/sb_dll/storybook_ui_dll.LICENCE
+ delete mode 100644 storybook/storybook-static/sb_dll/storybook_ui_dll.js
+ delete mode 100644 storybook/storybook-static/static/media/logoPalace.948e8a70.png
+ delete mode 100644 storybook/storybook-static/vendors~main.79b66b8a9c398535ef13.bundle.js
+ delete mode 100644 storybook/storybook-static/vendors~main.79b66b8a9c398535ef13.bundle.js.LICENSE.txt
+ delete mode 100644 storybook/storybook-static/vendors~main.79b66b8a9c398535ef13.bundle.js.map
+ delete mode 100644 storybook/storybook-static/vendors~main.cdd1f64f442cdbcd46ac.bundle.js
+  ༆ ixicale༆   ⎣12:03:10⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ↑8 ✔ 
+gis                                                                                                                                    hostname: [ix]
+En la rama ixicale
+Tu rama está adelantada a 'origin/ixicale' por 8 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣12:03:12⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ↑8 ✔ 
+gis;git show                                                                                                                           hostname: [ix]
+En la rama ixicale
+Tu rama está adelantada a 'origin/ixicale' por 8 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣12:03:18⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ↑8 ✔ 
+gips                                                                                                                                   hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-products-fe.git
+   e3e67ae..2f5d037  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣12:03:23⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+npm run dev                                                                                                                            hostname: [ix]
+
+> clever-products@0.0.1 dev /var/www/html/NODE/clv-products-fe
+> concurrently "npm run server" 
+
+[0] 
+[0] > clever-products@0.0.1 server /var/www/html/NODE/clv-products-fe
+[0] > APP_ENV=QA NODE_ENV=development PORT=9000 nodemon ./src/server/server.js
+[0] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): *.*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built e3943611eabc6f87ae86 in 15044ms
+[0] ✖ ｢wdm｣: Hash: e3943611eabc6f87ae86
+[0] Version: webpack 4.44.2
+[0] Time: 15044ms
+[0] Built at: 2020-11-11 12:03:43
+[0]                                Asset      Size  Chunks  Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          
+[0]                            bundle.js  1.99 MiB       0  main
+[0] Entrypoint main = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.41 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [24] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [25] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [35] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [85] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [86] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [89] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [117] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [233] ./src/client/index.js + 81 modules 594 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 301 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] ERROR in ./src/client/views/inventarios/inventario_item/inventario_item.js
+[0] Module not found: Error: Can't resolve 'xlsx' in '/var/www/html/NODE/clv-products-fe/src/client/views/inventarios/inventario_item'
+[0]  @ ./src/client/views/inventarios/inventario_item/inventario_item.js 10:0-24 360:23-27 361:20-24 362:8-12 368:15-19
+[0]  @ ./src/client/routes.js
+[0]  @ ./src/client/index.js
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Failed to compile.^C[0] npm run server exited with code null
+
+
+  ༆ ixicale༆  ✘  ⎣12:04:00⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+npm i                                                                                                                                  hostname: [ix]
+
+  ༆ ixicale༆  ✘  ⎣12:04:03⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+npm i                                                                                                                                  hostname: [ix]
+npm WARN The package babel-plugin-transform-class-properties is included as both a dev and production dependency.
+npm WARN The package moment is included as both a dev and production dependency.
+npm WARN The package style-loader is included as both a dev and production dependency.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules/watchpack/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+added 13 packages from 3 contributors and audited 1439 packages in 8.057s
+
+34 packages are looking for funding
+  run `npm fund` for details
+
+found 5 vulnerabilities (1 low, 3 moderate, 1 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+  ༆ ixicale༆   ⎣12:04:12⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+npm run dev                                                                                                                            hostname: [ix]
+
+> clever-products@0.0.1 dev /var/www/html/NODE/clv-products-fe
+> concurrently "npm run server" 
+
+[0] 
+[0] > clever-products@0.0.1 server /var/www/html/NODE/clv-products-fe
+[0] > APP_ENV=QA NODE_ENV=development PORT=9000 nodemon ./src/server/server.js
+[0] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): *.*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node ./src/server/server.js`[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built 4715874b34b29e271d52 in 19537ms
+[0] ⚠ ｢wdm｣: Hash: 4715874b34b29e271d52
+[0] Version: webpack 4.44.2
+[0] Time: 19537ms
+[0] Built at: 2020-11-11 12:04:35
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.41 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 594 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built 4715874b34b29e271d52 in 5548ms
+[0] ⚠ ｢wdm｣: Hash: 4715874b34b29e271d52
+[0] Version: webpack 4.44.2
+[0] Time: 5548ms
+[0] Built at: 2020-11-11 12:14:35
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.41 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 594 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built 4715874b34b29e271d52 in 6065ms
+[0] ⚠ ｢wdm｣: Hash: 4715874b34b29e271d52
+[0] Version: webpack 4.44.2
+[0] Time: 6065ms
+[0] Built at: 2020-11-11 12:14:49
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.41 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 594 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.^C[0] npm run server exited with code null
+
+
+  ༆ ixicale༆  ✘  ⎣12:14:49⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1 ● 
+npm run dev                                                                                                                            hostname: [ix]
+
+> clever-products@0.0.1 dev /var/www/html/NODE/clv-products-fe
+> concurrently "npm run server" 
+
+[0] 
+[0] > clever-products@0.0.1 server /var/www/html/NODE/clv-products-fe
+[0] > APP_ENV=DEV NODE_ENV=development PORT=9000 nodemon ./src/server/server.js
+[0] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): *.*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] ℹ ｢wdm｣: wait until bundle finished: /cleverLibrary/css/materialize.css.map
+[0] webpack built 4715874b34b29e271d52 in 6391ms
+[0] ⚠ ｢wdm｣: Hash: 4715874b34b29e271d52
+[0] Version: webpack 4.44.2
+[0] Time: 6391ms
+[0] Built at: 2020-11-11 12:14:59
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.41 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 594 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.^C[0] npm run server exited with code null
+
+
+  ༆ ixicale༆  ✘  ⎣12:15:25⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1 ● 
+logPostman                                                                                                                             hostname: [ix]
+/home/ixicale/.sf/SteampunkFactory-MySettings/logger/postman/2020.11nov.11.121530714456255.miércoles.logger
+[2] 24729
+
+  ༆ ixicale༆  ⚙  ⎣12:15:30⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1 ● 
+(electron) 'getName function' is deprecated and will be removed. Please use 'name property' instead.                                   hostname: [ix]
+npm run dev
+
+  ༆ ixicale༆  ⚙  ⎣12:17:15⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 1 ● 
+npm run dev                                                                                                                            hostname: [ix]
+
+> clever-products@0.0.1 dev /var/www/html/NODE/clv-products-fe
+> concurrently "npm run server" 
+
+[0] 
+[0] > clever-products@0.0.1 server /var/www/html/NODE/clv-products-fe
+[0] > APP_ENV=DEV NODE_ENV=development PORT=9000 nodemon ./src/server/server.js
+[0] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): *.*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/inv_item
+[0] webpack built 4715874b34b29e271d52 in 5445ms
+[0] ⚠ ｢wdm｣: Hash: 4715874b34b29e271d52
+[0] Version: webpack 4.44.2
+[0] Time: 5445ms
+[0] Built at: 2020-11-11 12:17:23
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.41 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 594 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] webpack built 29a216ad25bee81bfa7b in 19102ms
+[0] ⚠ ｢wdm｣: Hash: 29a216ad25bee81bfa7b
+[0] Version: webpack 4.44.2
+[0] Time: 19102ms
+[0] Built at: 2020-11-11 12:19:10
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 0.4715874b34b29e271d52.hot-update.js  5.54 KiB       0  [emitted] [immutable] [hmr]         main
+[0] 4715874b34b29e271d52.hot-update.json  43 bytes          [emitted] [immutable] [hmr]         
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js 0.4715874b34b29e271d52.hot-update.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 594 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.89 MiB)
+[0]       bundle.js
+[0]       0.4715874b34b29e271d52.hot-update.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.

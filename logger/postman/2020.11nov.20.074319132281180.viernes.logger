@@ -1,0 +1,24 @@
+Not disabling GPU
+Main~createDefaultWorkingDir - Default working dir creation already attempted
+1605876200534 main info "Booting Postman 7.34.0, linux-5.4.0-54-generic on x64"
+1605876200535 main info "EventBus~initialize - Success"
+1605876200536 main warn "CloudProxyManager~init: Error while reading proxy configuration from user data - ",{"errno":-2,"code":"ENOENT","syscall":"open","path":"/home/ixicale/.config/Postman/Postman_Config/proxy","name":"Error","message":"ENOENT: no such file or directory, open '/home/ixicale/.config/Postman/Postman_Config/proxy'","stack":"Error: ENOENT: no such file or directory, open '/home/ixicale/.config/Postman/Postman_Config/proxy'"}
+1605876200537 main info "CloudProxyManager~init - Success"
+1605876200540 main info "UpdateHandler~init - Success"
+1605876200808 main info "RuntimeIPCAgent~started: Success"
+1605876200905 main info "LinuxAutoUpdater~Cleanup - Initial cleanup successful"
+1605876200941 main info "Bootstrap-models~bootstrap - Success"
+1605876201136 main info "window-manager~newSharedWindow: Shell loaded"
+1605876202903 main info "Main~AppEvents - Received booted event for process shared"
+1605876204696 main info "UpdateHandler~app-update-events - Received event",{"name":"checkForElectronVersionUpdated","namespace":"appUpdate"}
+INTERCEPTOR CONNECTIVITY: Connecting to Interceptor Bridge
+InterceptorBridge: Trying to connect Native App IPC~Interceptor Bridge
+1605876204708 main info "Main~AppEvents - Received booted event for process requester"
+IPCClient ~ WindowHandler: New event is received { type: 'window-opened' }
+1605876215132 main info "UpdateHandler~app-update-events - Received event",{"data":{"additionalParamsString":"installationId=eb2499d4-31a2-43d6-9bbf-0970e24dc1df&userId=8092764&syncEnabled=true&teamPlan=","appId":"eb2499d4-31a2-43d6-9bbf-0970e24dc1df","arch":"64","channel":"stable","downloadURL":"https://dl.pstmn.io/download/version/7.36.0/linux_64","downloadVersion":"7.36.0","platform":"LINUX","updateServerDomain":"https://dl.pstmn.io/","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Postman/7.34.0 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36","userId":"8092764","version":"7.34.0"},"name":"updateElectron","namespace":"appUpdate"}
+1605876215133 main info "LinuxUpdater~downloadUpdate - UpdateInfo received",{"additionalParamsString":"installationId=eb2499d4-31a2-43d6-9bbf-0970e24dc1df&userId=8092764&syncEnabled=true&teamPlan=","appId":"eb2499d4-31a2-43d6-9bbf-0970e24dc1df","arch":"64","channel":"stable","downloadURL":"https://dl.pstmn.io/download/version/7.36.0/linux_64","downloadVersion":"7.36.0","platform":"LINUX","updateServerDomain":"https://dl.pstmn.io/","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Postman/7.34.0 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36","userId":"8092764","version":"7.34.0"}
+1605876215361 main info "@postman/app-updater: error",{"code":"SELF_SIGNED_CERT_IN_CHAIN","name":"Error","message":"self signed certificate in certificate chain","stack":"Error: self signed certificate in certificate chain\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1317:34)\n    at TLSSocket.emit (events.js:203:13)\n    at TLSSocket.EventEmitter.emit (domain.js:476:20)\n    at TLSSocket._finishInit (_tls_wrap.js:792:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:606:12)"},{"packageName":"Postman","eID":"Postman-1605876215133","downloadURL":"https://dl.pstmn.io/download/version/7.36.0/linux_64","downloadDirectory":"/home/ixicale/Postman","downloadInfo":{"status":"DOWNLOAD_ERROR","error":{"code":"SELF_SIGNED_CERT_IN_CHAIN"},"downloadDirectory":"/home/ixicale/Postman"}}
+1605876215362 main info "UpdateHandler~app-update-events - Received event",{"name":"electronAppUpdateError","namespace":"appUpdate","data":{"error":{"code":"SELF_SIGNED_CERT_IN_CHAIN","name":"Error","message":"self signed certificate in certificate chain","stack":"Error: self signed certificate in certificate chain\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1317:34)\n    at TLSSocket.emit (events.js:203:13)\n    at TLSSocket.EventEmitter.emit (domain.js:476:20)\n    at TLSSocket._finishInit (_tls_wrap.js:792:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:606:12)"},"updateData":{"packageName":"Postman","eID":"Postman-1605876215133","downloadURL":"https://dl.pstmn.io/download/version/7.36.0/linux_64","downloadDirectory":"/home/ixicale/Postman","downloadInfo":{"status":"DOWNLOAD_ERROR","error":{"code":"SELF_SIGNED_CERT_IN_CHAIN"},"downloadDirectory":"/home/ixicale/Postman"}}}}
+1605913197881 main info "WindowManager~closeHandler - Closed Window (id: 3 )"
+IPCClient ~ WindowHandler: New event is received { type: 'window-closed', windowId: 3 }
+1605913197898 main info "Quitting app"

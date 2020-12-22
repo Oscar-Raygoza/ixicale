@@ -1,0 +1,263 @@
+cd $NODE/clv-service-web                                                                   hostname: [ix]
+
+  ༆ ixicale༆   ⎣10:20:58⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+                                                                                           hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣10:20:59⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit d22f786a7998e677e3fdb8a854cbdea9e4a12ea8 (HEAD -> ixicale, origin/pre.dev.2020.12.07.1, origin/lhuh, origin/avsantos, origin/angesolis, pre.dev.2020.12.07.1)
+Author: Luis Huh <lhuh@palaceresorts.com>
+Date:   Thu Dec 17 15:41:18 2020 -0500
+
+    Se valida imagen de portada.
+
+diff --git a/src/client/templates/WeddingTemplate.js b/src/client/templates/WeddingTemplate.js
+index 01c03a57..98232c67 100644
+--- a/src/client/templates/WeddingTemplate.js
++++ b/src/client/templates/WeddingTemplate.js
+@@ -6,6 +6,7 @@
+  */
+ import Api from '@app/Api';
+ import Auth from '@app/Auth';
++import images from '@app/image';
+ import { getParamFromProps } from '@app/Helpers';
+ import ResetScroll from '@app/ResetScroll';
+ import WithContext from '@app/ServiceContext';
+@@ -113,13 +114,15 @@ class WeddingTemplate extends React.Component {
+ 
+        render() {
+                const { pagetitle, isLoading } = this.props.app
++               const info = Auth.userData();
++               const cover = typeof info.cover == 'string'? info.cover.trim() : "";
+ 
+                return (
+                        <Template stylesheet="wedding-theme" {...this.getNewProps()}>
+                                <Navbar />
+                                {!!isLoading ? <Loader /> : null}
+                                <CoverUploader
+-                                       cover={sessionStorage.cover}
++                                       cover={cover || images.banner}
+                                        url={Api.uploadCover()}
+                                        accept="image/jpeg"
+                                        extraParams={[{ key: "id", value: sessionStorage.id }]}
+(END
+commit d22f786a7998e677e3fdb8a854cbdea9e4a12ea8 (HEAD -> ixicale, origin/pre.dev.2020.12.07.1, origin/lhuh, origin/avsantos, origin/angesolis, pre.dev.2020.12.07.1)
+Author: Luis Huh <lhuh@palaceresorts.com>
+Date:   Thu Dec 17 15:41:18 2020 -0500
+
+    Se valida imagen de portada.
+
+diff --git a/src/client/templates/WeddingTemplate.js b/src/client/templates/WeddingTemplate.js
+index 01c03a57..98232c67 100644
+--- a/src/client/templates/WeddingTemplate.js
++++ b/src/client/templates/WeddingTemplate.js
+@@ -6,6 +6,7 @@
+  */
+ import Api from '@app/Api';
+ import Auth from '@app/Auth';
++import images from '@app/image';
+ import { getParamFromProps } from '@app/Helpers';
+ import ResetScroll from '@app/ResetScroll';
+ import WithContext from '@app/ServiceContext';
+@@ -113,13 +114,15 @@ class WeddingTemplate extends React.Component {
+ 
+        render() {
+                const { pagetitle, isLoading } = this.props.app
++               const info = Auth.userData();
++               const cover = typeof info.cover == 'string'? info.cover.trim() : "";
+ 
+                return (
+                        <Template stylesheet="wedding-theme" {...this.getNewProps()}>
+                                <Navbar />
+                                {!!isLoading ? <Loader /> : null}
+                                <CoverUploader
+-                                       cover={sessionStorage.cover}
++                                       cover={cover || images.banner}
+                                        url={Api.uploadCover()}
+                                        accept="image/jpeg"
+                                        extraParams={[{ key: "id", value: sessionStorage.id }]}
+~
+(ENDb gs-ixicale                                                                          hostname: [ix]
+Cambiado a nueva rama 'gs-ixicale'
+
+  ༆ ixicale༆   ⎣11:05:13⎤  🚦 /var/www/html/NODE/clv-service-web   gs-ixicale ✔ 
+gips -u origin gs-ixicale                                                                  hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+remote: 
+remote: Create a pull request for 'gs-ixicale' on GitHub by visiting:
+remote:      https://github.com/fbenitez/clv-service-web/pull/new/gs-ixicale
+remote: 
+To github.com:fbenitez/clv-service-web.git
+ * [new branch]        gs-ixicale -> gs-ixicale
+Rama 'gs-ixicale' configurada para hacer seguimiento a la rama remota 'gs-ixicale' de 'origin'.
+
+  ༆ ixicale༆   ⎣11:06:09⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ gs-ixicale ✔ 
+                                                                                           hostname: [ix]
+rsh       rst       rstart    rstartd   rsync     rsyslogd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣11:06:35⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ gs-ixicale ✔ git branch -D ixicale                                                                      hostname: [ix]
+Eliminada la rama ixicale (era 0ef15d1a)..
+
+  ༆ ixicale༆   ⎣11:06:42⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ gs-ixicale ✔ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está detrás de 'origin/pre.dev.2020.12.07.1' por 2 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣11:06:47⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↓2 ✔ 
+gipl                                                                                       hostname: [ix]
+gicremote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 18 (delta 10), reused 18 (delta 10), pack-reused 0
+Desempaquetando objetos: 100% (18/18), 2.47 KiB | 631.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-service-web
+   50643c16..25081f00  pre.dev.2020.12.07.1 -> origin/pre.dev.2020.12.07.1
+   cd4f2ade..25081f00  alanjimenez          -> origin/alanjimenez
+   cd4f2ade..25081f00  co-dev               -> origin/co-dev
+ * [nueva rama]        co-qa                -> origin/co-qa
+   d22f786a..25081f00  lhuh                 -> origin/lhuh
+Actualizando d22f786a..25081f00
+Fast-forward
+ src/client/components/input/base.js                      |  4 ++++
+ src/client/docs/styles/pages/my-wedding/_my-wedding.scss |  1 +
+ src/client/views/generalinfo/index.js                    | 36 ++++++++++++++++++++----------------
+ 3 files changed, 25 insertions(+), 16 deletions(-)
+
+  ༆ ixicale༆   ⎣11:06:51⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gic -b ixicale                                                                             hostname: [ix]
+Cambiado a nueva rama 'ixicale'
+
+  ༆ ixicale༆   ⎣11:06:55⎤  🚦 /var/www/html/NODE/clv-service-web   ixicale ✔ 
+gips                                                                                       hostname: [ix]
+fatal: La rama actual ixicale no tiene una rama upstream.
+Para realizar un push de la rama actual y configurar el remoto como upstream, use
+
+	git push --set-upstream origin ixicale
+
+  ༆ ixicale༆  ✘  ⎣11:06:57⎤  🚦 /var/www/html/NODE/clv-service-web   ixicale ✔ 
+gips -u origin ixicale                                                                     hostname: [ix]
+To github.com:fbenitez/clv-service-web.git
+ ! [rejected]          ixicale -> ixicale (non-fast-forward)
+error: falló el push de algunas referencias a 'git@github.com:fbenitez/clv-service-web.git'
+ayuda: Actualizaciones fueron rechazadas porque la punta de tu rama actual está
+ayuda: detrás de su contraparte remota. Integra los cambios remotos (es decir
+ayuda: 'git pull ...') antes de hacer push de nuevo.
+ayuda: Mira 'Note about fast-forwards' en 'git push --help' para más detalles.
+
+  ༆ ixicale༆  ✘  ⎣11:07:05⎤  🚦 /var/www/html/NODE/clv-service-web   ixicale ✔ 
+gipl                                                                                       hostname: [ix]
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 5 (delta 3), reused 5 (delta 3), pack-reused 0
+Desempaquetando objetos: 100% (5/5), 543 bytes | 135.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-service-web
+   7d4d53df..ba3e08e9  co-master  -> origin/co-master
+No hay información de rastreo para la rama actual.
+Por favor especifica a qué rama quieres fusionar.
+Ver git-pull(1) para detalles.
+
+    git pull <remoto> <rama>
+
+Si deseas configurar el rastreo de información para esta rama, puedes hacerlo con:
+
+    git branch --set-upstream-to=origin/<rama> ixicale
+
+
+  ༆ ixicale༆  ✘  ⎣11:07:35⎤  🚦 /var/www/html/NODE/clv-service-web   ixicale ✔ 
+gips -u origin ixicale                                                                     hostname: [ix]
+To github.com:fbenitez/clv-service-web.git
+ ! [rejected]          ixicale -> ixicale (non-fast-forward)
+error: falló el push de algunas referencias a 'git@github.com:fbenitez/clv-service-web.git'
+ayuda: Actualizaciones fueron rechazadas porque la punta de tu rama actual está
+ayuda: detrás de su contraparte remota. Integra los cambios remotos (es decir
+ayuda: 'git pull ...') antes de hacer push de nuevo.
+ayuda: Mira 'Note about fast-forwards' en 'git push --help' para más detalles.

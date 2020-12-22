@@ -1,0 +1,1980 @@
+cd $NODE/clv-service-web                                                                   hostname: [ix]
+
+  ༆ ixicale༆   ⎣07:38:44⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+                                                                                           hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣07:40:31⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ $PHP/clv-events-api                                                                        hostname: [ix]
+
+  ༆ ixicale༆   ⎣08:16:02⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.10.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.10.1'
+Tu rama está detrás de 'origin/pre.dev.2020.12.10.1' por 12 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣08:16:11⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.12.10.1 ↓12 ✔ 
+gipl                                                                                       hostname: [ix]
+Actualizando f02723f..a8855e1
+gFast-forward
+ app/config/apiUrl.php                                               |  3 ++
+ app/config/routers/events.php                                       |  3 ++
+ app/controllers/envtagmetadato/TagmetadatoController.php            | 20 +++++++++++++
+ app/controllers/eventdetalleitem/DetalleitemController.php          |  4 +--
+ app/controllers/eventeventopromocion/EventopromocionController.php  |  2 +-
+ app/controllers/eventgrupo/GrupoController.php                      | 26 ++++++++--------
+ app/controllers/eventgrupopago/GrupopagoController.php              | 49 +++++++++++++++----------------
+ app/controllers/eventpromocion/PromocionController.php              |  8 ++++-
+ .../eventreservagrupoagencia/ReservagrupoagenciaController.php      |  5 ++++
+ 9 files changed, 78 insertions(+), 42 deletions(-)
+
+  ༆ ixicale༆   ⎣08:16:14⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.12.10.1 ✔ 
+gic pre.dev.2020.12.10.1                                                                   hostname: [ix]
+Ya en 'pre.dev.2020.12.10.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.10.1'.
+
+  ༆ ixicale༆   ⎣08:16:21⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.12.10.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣08:16:25⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.10.1                                                                  hostname: [ix]
+Actualizando f02723f..a8855e1
+Fast-forward
+ app/config/apiUrl.php                                               |  3 ++
+ app/config/routers/events.php                                       |  3 ++
+ app/controllers/envtagmetadato/TagmetadatoController.php            | 20 +++++++++++++
+ app/controllers/eventdetalleitem/DetalleitemController.php          |  4 +--
+ app/controllers/eventeventopromocion/EventopromocionController.php  |  2 +-
+ app/controllers/eventgrupo/GrupoController.php                      | 26 ++++++++--------
+ app/controllers/eventgrupopago/GrupopagoController.php              | 49 +++++++++++++++----------------
+ app/controllers/eventpromocion/PromocionController.php              |  8 ++++-
+ .../eventreservagrupoagencia/ReservagrupoagenciaController.php      |  5 ++++
+ 9 files changed, 78 insertions(+), 42 deletions(-)
+  ༆ ixicale༆   ⎣08:16:29⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ↑12 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+$PHP/To github.com:fbenitez/clv-events-api.git
+   f02723f..a8855e1  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣08:16:35⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+$PHP/clv-products-api                                                                      hostname: [ix]
+
+  ༆ ixicale༆   ⎣08:16:39⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+gipl                                                                                       hostname: [ix]
+gic preremote: Enumerating objects: 29, done.
+remote: Counting objects: 100% (29/29), done.
+remote: Compressing objects: 100% (7/7), done.
+Desempaquetando objetos: 100% (42/42), 18.11 KiB | 772.00 KiB/s, listo.
+remote: Total 42 (delta 22), reused 27 (delta 22), pack-reused 13
+Desde github.com:fbenitez/clv-products-api
+   be39deb..a8686f7  alanjimenez                          -> origin/alanjimenez
+   33e7dfe..b12400f  cedisapena                           -> origin/cedisapena
+   c4a1e77..b12400f  dev                                  -> origin/dev
+   a8686f7..b12400f  envazquez                            -> origin/envazquez
+   3f17bd9..7820185  master                               -> origin/master
+   c4a1e77..3f4658e  michan                               -> origin/michan
+   a8686f7..b12400f  pre.dev.2020.12.02.1                 -> origin/pre.dev.2020.12.02.1
+ * [nueva rama]      pre.dev.2020.12.16.1                 -> origin/pre.dev.2020.12.16.1
+   2e067d2..8f4df98  qa                                   -> origin/qa
+   c4a1e77..a8686f7  reguzman                             -> origin/reguzman
+ * [nuevo tag]       clv-products-api-master.2020.12.16.1 -> clv-products-api-master.2020.12.16.1
+ * [nuevo tag]       clv-products-api-qa.2020.12.15.1     -> clv-products-api-qa.2020.12.15.1
+ * [nuevo tag]       clv-products-api-qa.2020.12.11.1     -> clv-products-api-qa.2020.12.11.1
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣08:16:43⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.16.1                                                                   hostname: [ix]
+Rama 'pre.dev.2020.12.16.1' configurada para hacer seguimiento a la rama remota 'pre.dev.2020.12.16.1' de 'origin'.
+Cambiado a nueva rama 'pre.dev.2020.12.16.1'
+  ༆ ixicale༆   ⎣08:16:52⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.16.1 ✔ 
+gipl                                                                                       hostname: [ix]
+gicx
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣08:16:55⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.16.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣08:16:55⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.16.1                                                                  hostname: [ix]
+Actualizando a8686f7..b12400f
+Fast-forward
+ app/config/router.php                           |  2 ++
+ app/controllers/FormatopedidoitemController.php | 20 +++++++++++++++++++-
+ app/controllers/ServicioController.php          | 46 ++++++++++++++++++++++++++++++++++++++--------
+ 3 files changed, 59 insertions(+), 9 deletions(-)
+
+  ༆ ixicale༆   ⎣08:17:09⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ↑7 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-products-api.git
+   a8686f7..b12400f  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣08:17:14⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+$PHP/clv-productions-api                                                                   hostname: [ix]
+
+  ༆ ixicale༆   ⎣08:17:22⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+gipl                                                                                       hostname: [ix]
+gicremote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 18 (delta 12), reused 18 (delta 12), pack-reused 0
+Desempaquetando objetos: 100% (18/18), 4.07 KiB | 231.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-productions-api
+   8acbbaf..8be2c4c  rcan                                 -> origin/rcan
+ * [nuevo tag]       clv-productions-api-pro.2020.12.15.1 -> clv-productions-api-pro.2020.12.15.1
+Ya está actualizado.
+  ༆ ixicale༆   ⎣08:17:24⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.08.04.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.08.04.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.08.04.1'.
+
+  ༆ ixicale༆   ⎣08:18:01⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ pre.dev.2020.08.04.1 ✔ 
+gipl                                                                                       hostname: [ix]
+gicxYa está actualizado.
+
+  ༆ ixicale༆   ⎣08:18:04⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ pre.dev.2020.08.04.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣08:18:12⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.08.04.1                                                                  hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣08:18:14⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+$PHP/clv-benefit-api                                                                       hostname: [ix]
+
+  ༆ ixicale༆   ⎣08:18:21⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ ixicale ✔ 
+gipl                                                                                       hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣08:18:23⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.03.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.03.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.03.1'.
+
+  ༆ ixicale༆   ⎣08:18:32⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ pre.dev.2020.12.03.1 ✔ 
+gipl                                                                                       hostname: [ix]
+gicxYa está actualizado.
+
+  ༆ ixicale༆   ⎣08:18:34⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ pre.dev.2020.12.03.1 ✔ 
+gic                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣08:18:35⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.03.1                                                                  hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣08:18:38⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ ixicale ✔ 
+$NODE/clv-products-fe                                                                      hostname: [ix]
+
+  ༆ ixicale༆   ⎣08:19:29⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gipl                                                                                       hostname: [ix]
+gic remote: Enumerating objects: 41, done.
+remote: Counting objects: 100% (41/41), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 48 (delta 33), reused 41 (delta 33), pack-reused 7
+Desempaquetando objetos: 100% (48/48), 7.26 KiB | 118.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-products-fe
+   4a318df..eb408c4  dev                                 -> origin/dev
+   2dbcc6c..eb408c4  envazquez                           -> origin/envazquez
+   3b836e3..e9aa7be  master                              -> origin/master
+   874a918..eb408c4  pre.dev.2020.12.02.1                -> origin/pre.dev.2020.12.02.1
+ * [nueva rama]      pre.dev.2020.12.16.1                -> origin/pre.dev.2020.12.16.1
+   9ee2c1f..2362643  qa                                  -> origin/qa
+ * [nuevo tag]       clv-products-fe-master.2020.12.15.1 -> clv-products-fe-master.2020.12.15.1
+ * [nuevo tag]       clv-products-fe-master.2020.12.16.1 -> clv-products-fe-master.2020.12.16.1
+ * [nuevo tag]       clv-products-fe-qa.2020.12.14.01    -> clv-products-fe-qa.2020.12.14.01
+ * [nuevo tag]       clv-products-fe-qa.2020.12.11.1     -> clv-products-fe-qa.2020.12.11.1
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣08:19:32⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.16.1                                                                   hostname: [ix]
+Rama 'pre.dev.2020.12.16.1' configurada para hacer seguimiento a la rama remota 'pre.dev.2020.12.16.1' de 'origin'.
+Cambiado a nueva rama 'pre.dev.2020.12.16.1'
+
+  ༆ ixicale༆   ⎣08:19:45⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2020.12.16.1 ✔ gipl                                                                                       hostname: [ix]
+gicx
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣08:19:54⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2020.12.16.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣08:19:54⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.16.1                                                                  hostname: [ix]
+Actualizando 874a918..eb408c4
+Fast-forward
+ src/client/ColumnsTable.js                     |  173 ++++++--
+ src/client/components/Helpers.js               |   54 ++-
+ src/client/components/input/ClassSelect.js     |    4 +-
+ src/client/components/input/MultiSelect.js     |    2 +-
+ src/client/views/service/formProvider.js       |    2 +-
+ src/client/views/service/formService.js        | 1202 +++++++++++++++++++++++++-------------------------
+ src/client/views/service/formServiceText.js    |    4 +-
+ src/client/views/service/formService_delete.js |  668 ++++++++++++++++++++++++++++
+ src/client/views/service/service.js            |  473 ++++++++++++++------
+ src/client/views/service/servicetarifa.js      |    2 +-
+ src/client/views/terminos/columnsTable.js      |    3 -
+ src/client/views/terminos/terminos.js          |   18 -
+ 12 files changed, 1787 insertions(+), 818 deletions(-)
+ create mode 100644 src/client/views/service/formService_delete.js
+
+  ༆ ixicale༆   ⎣08:19:57⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ↑7 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-products-fe.git
+   874a918..eb408c4  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣08:20:04⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆   ⎣08:20:08⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ $NODE/clv-service-web                                                                      hostname: [ix]
+
+  ༆ ixicale༆   ⎣08:20:37⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gipl                                                                                       hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣08:20:40⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gicx                                                                                       hostname: [ix]
+Ya en 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣08:20:54⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+                                                                                           hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣09:00:34⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ npm run dev                                                                                hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.mode=dev
+[1] 
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): config/global.js src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[1] ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+[1] ℹ ｢wds｣: webpack output is served from /
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] ℹ ｢wdm｣:    669 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:579
+[0]                 const message = new ResponseFormatter(e.clientMessage, e.code, true);
+[0]                       ^
+[0] 
+[0] SyntaxError: Identifier 'message' has already been declared
+[0]     at wrapSafe (internal/modules/cjs/loader.js:915:16)
+[0]     at Module._compile (internal/modules/cjs/loader.js:963:27)
+[0]     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+[0]     at Module.load (internal/modules/cjs/loader.js:863:32)
+[0]     at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+[0]     at Module.require (internal/modules/cjs/loader.js:887:19)
+[0]     at require (internal/modules/cjs/helpers.js:74:18)
+[0]     at Router.set controller [as controller] (/var/www/html/NODE/clv-service-web/src/server/libraries/Router/Route.js:106:26)
+[0]     at Router.setHandler (/var/www/html/NODE/clv-service-web/src/server/libraries/Router/Route.js:162:23)
+[0]     at Object.<anonymous> (/var/www/html/NODE/clv-service-web/src/server/app/router.js:144:7)
+[0] [nodemon] app crashed - waiting for file changes before starting...
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:579
+[0]                 const message = new ResponseFormatter(e.clientMessage, e.code, true);
+[0]                       ^
+[0] 
+[0] SyntaxError: Identifier 'message' has already been declared
+[0]     at wrapSafe (internal/modules/cjs/loader.js:915:16)
+[0]     at Module._compile (internal/modules/cjs/loader.js:963:27)
+[0]     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+[0]     at Module.load (internal/modules/cjs/loader.js:863:32)
+[0]     at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+[0]     at Module.require (internal/modules/cjs/loader.js:887:19)
+[0]     at require (internal/modules/cjs/helpers.js:74:18)
+[0]     at Router.set controller [as controller] (/var/www/html/NODE/clv-service-web/src/server/libraries/Router/Route.js:106:26)
+[0]     at Router.setHandler (/var/www/html/NODE/clv-service-web/src/server/libraries/Router/Route.js:162:23)
+[0]     at Object.<anonymous> (/var/www/html/NODE/clv-service-web/src/server/app/router.js:144:7)
+[0] [nodemon] app crashed - waiting for file changes before starting...[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:579
+[0]                 const message = new ResponseFormatter(e.clientMessage, e.code, true);
+[0]                       ^
+[0] 
+[0] SyntaxError: Identifier 'message' has already been declared
+[0]     at wrapSafe (internal/modules/cjs/loader.js:915:16)
+[0]     at Module._compile (internal/modules/cjs/loader.js:963:27)
+[0]     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+[0]     at Module.load (internal/modules/cjs/loader.js:863:32)
+[0]     at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+[0]     at Module.require (internal/modules/cjs/loader.js:887:19)
+[0]     at require (internal/modules/cjs/helpers.js:74:18)
+[0]     at Router.set controller [as controller] (/var/www/html/NODE/clv-service-web/src/server/libraries/Router/Route.js:106:26)
+[0]     at Router.setHandler (/var/www/html/NODE/clv-service-web/src/server/libraries/Router/Route.js:162:23)
+[0]     at Object.<anonymous> (/var/www/html/NODE/clv-service-web/src/server/app/router.js:144:7)
+[0] [nodemon] app crashed - waiting for file changes before starting...
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNREFUSED) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:579
+[0]                 const message = new ResponseFormatter(e.clientMessage, e.code, true);
+[0]                       ^
+[0] 
+[0] SyntaxError: Identifier 'message' has already been declared
+[0]     at wrapSafe (internal/modules/cjs/loader.js:915:16)
+[0]     at Module._compile (internal/modules/cjs/loader.js:963:27)
+[0]     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+[0]     at Module.load (internal/modules/cjs/loader.js:863:32)
+[0]     at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+[0]     at Module.require (internal/modules/cjs/loader.js:887:19)
+[0]     at require (internal/modules/cjs/helpers.js:74:18)
+[0]     at Router.set controller [as controller] (/var/www/html/NODE/clv-service-web/src/server/libraries/Router/Route.js:106:26)
+[0]     at Router.setHandler (/var/www/html/NODE/clv-service-web/src/server/libraries/Router/Route.js:162:23)
+[0]     at Object.<anonymous> (/var/www/html/NODE/clv-service-web/src/server/app/router.js:144:7)
+[0] [nodemon] app crashed - waiting for file changes before starting...[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNREFUSED) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:579
+[0]                 const message = new ResponseFormatter(e.clientMessage, e.code, true);
+[0]                       ^
+[0] 
+[0] SyntaxError: Identifier 'message' has already been declared
+[0]     at wrapSafe (internal/modules/cjs/loader.js:915:16)
+[0]     at Module._compile (internal/modules/cjs/loader.js:963:27)
+[0]     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+[0]     at Module.load (internal/modules/cjs/loader.js:863:32)
+[0]     at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+[0]     at Module.require (internal/modules/cjs/loader.js:887:19)
+[0]     at require (internal/modules/cjs/helpers.js:74:18)
+[0]     at Router.set controller [as controller] (/var/www/html/NODE/clv-service-web/src/server/libraries/Router/Route.js:106:26)
+[0]     at Router.setHandler (/var/www/html/NODE/clv-service-web/src/server/libraries/Router/Route.js:162:23)
+[0]     at Object.<anonymous> (/var/www/html/NODE/clv-service-web/src/server/app/router.js:144:7)
+[0] [nodemon] app crashed - waiting for file changes before starting...
+
+
+
+
+
+
+
+
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:579
+[0]                 const message = new ResponseFormatter(e.clientMessage, e.code, true);
+[0]                       ^
+[0] 
+[0] SyntaxError: Identifier 'message' has already been declared
+[0]     at wrapSafe (internal/modules/cjs/loader.js:915:16)
+[0]     at Module._compile (internal/modules/cjs/loader.js:963:27)
+[0]     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+[0]     at Module.load (internal/modules/cjs/loader.js:863:32)
+[0]     at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+[0]     at Module.require (internal/modules/cjs/loader.js:887:19)
+[0]     at require (internal/modules/cjs/helpers.js:74:18)
+[0]     at Router.set controller [as controller] (/var/www/html/NODE/clv-service-web/src/server/libraries/Router/Route.js:106:26)
+[0]     at Router.setHandler (/var/www/html/NODE/clv-service-web/src/server/libraries/Router/Route.js:162:23)
+[0]     at Object.<anonymous> (/var/www/html/NODE/clv-service-web/src/server/app/router.js:144:7)
+[0] [nodemon] app crashed - waiting for file changes before starting...[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+^C[0] npm run server exited with code SIGINT
+[1] npm run client exited with code SIGINT
+
+
+  ༆ ixicale༆  ✘  ⎣13:05:35⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1☀ 2 ● 
+$PYTHON/clv-report-api                                                                     hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:05:45⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:05:47⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+python3 -m venv .venv                                                                      hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:06:03⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+la                                                                                         hostname: [ix]
+total 48K
+-rw-rw-r-- 1 ixicale ixicale  231 sep 30 17:01 app.py
+drwxrwxr-x 4 ixicale ixicale 4.0K oct  6 12:02 config
+drwxrwxr-x 8 ixicale ixicale 4.0K dic 16 13:06 .git
+-rw-rw-r-- 1 ixicale ixicale 1.6K sep 30 17:01 .gitignore
+drwxrwxr-x 2 ixicale ixicale 4.0K sep 30 17:01 packages
+drwxrwxr-x 2 ixicale ixicale 4.0K oct  6 11:00 __pycache__
+-rw-rw-r-- 1 ixicale ixicale   37 sep 30 17:01 README.md
+-rw-rw-r-- 1 ixicale ixicale    0 oct  6 11:00 reports.log
+-rw-rw-r-- 1 ixicale ixicale  816 oct  6 12:02 requirements.txt
+drwxrwxr-x 5 ixicale ixicale 4.0K sep 30 17:01 resources
+-rw-rw-r-- 1 ixicale ixicale  231 sep 30 17:01 run.py
+drwxrwxr-x 4 ixicale ixicale 4.0K sep 30 17:01 templates
+drwxrwxr-x 6 ixicale ixicale 4.0K oct  6 10:58 .venv
+  ༆ ixicale༆   ⎣13:06:04⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+source .venv/bin/activate                                                                  hostname: [ix]
+(.venv) 
+  ༆ ixicale༆   ⎣13:07:02⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+                                                                                           hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+(.venv) 
+  ༆ ixicale༆   ⎣13:07:34⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+pip freeze                                                                                 hostname: [ix]
+aniso8601==8.0.0
+boto3==1.9.234
+botocore==1.12.234
+cairocffi==1.1.0
+CairoSVG==2.4.2
+certifi==2019.9.11
+cffi==1.14.3
+chardet==3.0.4
+Click==7.0
+clv-common-py==2020.1.13.1
+cssselect2==0.2.2
+defusedxml==0.6.0
+docutils==0.15.2
+Flask==1.1.1
+Flask-Cors==3.0.8
+flask-marshmallow==0.10.1
+Flask-RESTful==0.3.7
+Flask-SQLAlchemy==2.4.0
+gevent==1.5.0
+greenlet==0.4.16
+html5lib==1.0.1
+idna==2.8
+itsdangerous==1.1.0
+Jinja2==2.10.1
+jmespath==0.9.4
+MarkupSafe==1.1.1
+marshmallow==3.2.0
+marshmallow-sqlalchemy==0.19.0
+numpy==1.19.2
+pandas==0.25.2
+Pillow==7.2.0
+pycparser==2.19
+PyMySQL==0.9.3
+Pyphen==0.9.5
+python-dateutil==2.8.0
+pytz==2019.2
+requests==2.22.0
+s3transfer==0.2.1
+six==1.12.0
+SQLAlchemy==1.3.8
+tinycss2==1.0.2
+urllib3==1.25.5
+WeasyPrint==50
+webencodings==0.5.1
+Werkzeug==0.16.0
+XlsxWriter==1.2.1(.venv) 
+  ༆ ixicale༆   ⎣13:07:42⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+deactivate                                                                                 hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:07:49⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+rm -rf .venv                                                                               hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:07:56⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+python3 -m venv .venv                                                                      hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:08:01⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+source .venv/bin/activate                                                                  hostname: [ix]
+(.venv) 
+  ༆ ixicale༆   ⎣13:08:05⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+pip freeze                                                                                 hostname: [ix]
+(.venv) 
+  ༆ ixicale༆   ⎣13:08:08⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+                                                                                           hostname: [ix]
+(.venv) 
+  ༆ ixicale༆  ✘  ⎣13:08:12⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+                                                                                           hostname: [ix]
+(.venv) 
+  ༆ ixicale༆  ✘  ⎣13:08:44⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+la | re                                                                                    hostname: [ix]
+zsh: command not found: re
+(.venv) 
+  ༆ ixicale༆  ✘  ⎣13:08:50⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+la                                                                                         hostname: [ix]
+total 48K
+-rw-rw-r-- 1 ixicale ixicale  231 sep 30 17:01 app.py
+drwxrwxr-x 4 ixicale ixicale 4.0K oct  6 12:02 config
+drwxrwxr-x 8 ixicale ixicale 4.0K dic 16 13:08 .git
+-rw-rw-r-- 1 ixicale ixicale 1.6K sep 30 17:01 .gitignore
+drwxrwxr-x 2 ixicale ixicale 4.0K sep 30 17:01 packages
+drwxrwxr-x 2 ixicale ixicale 4.0K oct  6 11:00 __pycache__
+-rw-rw-r-- 1 ixicale ixicale   37 sep 30 17:01 README.md
+-rw-rw-r-- 1 ixicale ixicale    0 oct  6 11:00 reports.log
+-rw-rw-r-- 1 ixicale ixicale  816 oct  6 12:02 requirements.txt
+drwxrwxr-x 5 ixicale ixicale 4.0K sep 30 17:01 resources
+-rw-rw-r-- 1 ixicale ixicale  231 sep 30 17:01 run.py
+drwxrwxr-x 4 ixicale ixicale 4.0K sep 30 17:01 templates
+drwxrwxr-x 6 ixicale ixicale 4.0K dic 16 13:08 .venv(.venv) 
+  ༆ ixicale༆   ⎣13:08:53⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+cat requirements.txt                                                                       hostname: [ix]
+aniso8601==8.0.0
+boto3==1.9.234
+botocore==1.12.234
+cairocffi==1.1.0
+CairoSVG==2.4.2
+certifi==2019.9.11
+chardet==3.0.4
+Click==7.0
+cssselect2==0.2.2
+defusedxml==0.6.0
+docutils==0.15.2
+Flask==1.1.1
+Flask-Cors==3.0.8
+flask-marshmallow==0.10.1
+Flask-RESTful==0.3.7
+Flask-SQLAlchemy==2.4.0
+html5lib==1.0.1
+idna==2.8
+itsdangerous==1.1.0
+Jinja2==2.10.1
+jmespath==0.9.4
+MarkupSafe==1.1.1
+marshmallow==3.2.0
+marshmallow-sqlalchemy==0.19.0
+pycparser==2.19
+PyMySQL==0.9.3
+Pyphen==0.9.5
+python-dateutil==2.8.0
+pytz==2019.2
+requests==2.22.0
+s3transfer==0.2.1
+six==1.12.0
+SQLAlchemy==1.3.8
+tinycss2==1.0.2
+urllib3==1.25.5
+WeasyPrint==50
+webencodings==0.5.1
+Werkzeug==0.16.0
+XlsxWriter==1.2.1
+packages/clv_common_py-2020.1.13.1-py3-none-any.whl
+gevent==1.5.0
+greenlet==0.4.16
+cffi==1.14.3
+numpy==1.19.2
+pandas==0.25.2
+Pillow==7.2.0(.venv) 
+  ༆ ixicale༆   ⎣13:09:03⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+la packages                                                                                hostname: [ix]
+total 8.0K
+-rw-rw-r-- 1 ixicale ixicale 5.1K sep 30 17:01 clv_common_py-2020.1.13.1-py3-none-any.whl
+(.venv) 
+  ༆ ixicale༆   ⎣13:09:13⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+pip install -r requirements.txt                                                            hostname: [ix]
+README.md         reports.log       requirements.txt  resources/      
+(.venv) 
+  ༆ ixicale༆   ⎣13:09:51⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+pip install -r requirements.txt                                                            hostname: [ix]
+Collecting aniso8601==8.0.0
+  Using cached aniso8601-8.0.0-py2.py3-none-any.whl (43 kB)
+Collecting boto3==1.9.234
+  Using cached boto3-1.9.234-py2.py3-none-any.whl (128 kB)
+Collecting botocore==1.12.234
+  Using cached botocore-1.12.234-py2.py3-none-any.whl (5.7 MB)
+Collecting cairocffi==1.1.0
+  Using cached cairocffi-1.1.0.tar.gz (68 kB)
+Collecting CairoSVG==2.4.2
+  Using cached CairoSVG-2.4.2-py3-none-any.whl (50 kB)
+Collecting certifi==2019.9.11
+  Using cached certifi-2019.9.11-py2.py3-none-any.whl (154 kB)
+Collecting chardet==3.0.4
+  Using cached chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Collecting Click==7.0
+  Using cached Click-7.0-py2.py3-none-any.whl (81 kB)
+Collecting cssselect2==0.2.2
+  Using cached cssselect2-0.2.2-py2.py3-none-any.whl (31 kB)
+Collecting defusedxml==0.6.0
+  Using cached defusedxml-0.6.0-py2.py3-none-any.whl (23 kB)
+Collecting docutils==0.15.2
+  Using cached docutils-0.15.2-py3-none-any.whl (547 kB)
+Collecting Flask==1.1.1
+  Using cached Flask-1.1.1-py2.py3-none-any.whl (94 kB)
+Collecting Flask-Cors==3.0.8
+  Using cached Flask_Cors-3.0.8-py2.py3-none-any.whl (14 kB)Collecting flask-marshmallow==0.10.1
+  Using cached flask_marshmallow-0.10.1-py2.py3-none-any.whl (9.7 kB)
+Collecting Flask-RESTful==0.3.7
+  Using cached Flask_RESTful-0.3.7-py2.py3-none-any.whl (24 kB)
+Collecting Flask-SQLAlchemy==2.4.0
+  Using cached Flask_SQLAlchemy-2.4.0-py2.py3-none-any.whl (17 kB)
+Collecting html5lib==1.0.1
+  Using cached html5lib-1.0.1-py2.py3-none-any.whl (117 kB)
+Collecting idna==2.8
+  Using cached idna-2.8-py2.py3-none-any.whl (58 kB)
+Collecting itsdangerous==1.1.0
+  Using cached itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting Jinja2==2.10.1
+  Using cached Jinja2-2.10.1-py2.py3-none-any.whl (124 kB)
+Collecting jmespath==0.9.4
+  Using cached jmespath-0.9.4-py2.py3-none-any.whl (24 kB)
+Collecting MarkupSafe==1.1.1
+  Using cached MarkupSafe-1.1.1-cp38-cp38-manylinux1_x86_64.whl (32 kB)
+Collecting marshmallow==3.2.0
+  Using cached marshmallow-3.2.0-py2.py3-none-any.whl (45 kB)
+Collecting marshmallow-sqlalchemy==0.19.0
+  Using cached marshmallow_sqlalchemy-0.19.0-py2.py3-none-any.whl (12 kB)
+Collecting pycparser==2.19
+  Using cached pycparser-2.19.tar.gz (158 kB)
+Collecting PyMySQL==0.9.3
+  Using cached PyMySQL-0.9.3-py2.py3-none-any.whl (47 kB)
+Collecting Pyphen==0.9.5
+  Using cached Pyphen-0.9.5-py2.py3-none-any.whl (3.0 MB)
+Collecting python-dateutil==2.8.0
+  Using cached python_dateutil-2.8.0-py2.py3-none-any.whl (226 kB)
+Collecting pytz==2019.2
+  Using cached pytz-2019.2-py2.py3-none-any.whl (508 kB)
+Collecting requests==2.22.0
+  Using cached requests-2.22.0-py2.py3-none-any.whl (57 kB)
+Collecting s3transfer==0.2.1
+  Using cached s3transfer-0.2.1-py2.py3-none-any.whl (70 kB)
+Collecting six==1.12.0
+  Using cached six-1.12.0-py2.py3-none-any.whl (10 kB)Collecting SQLAlchemy==1.3.8
+  Using cached SQLAlchemy-1.3.8.tar.gz (5.9 MB)
+Collecting tinycss2==1.0.2
+  Using cached tinycss2-1.0.2-py3-none-any.whl (61 kB)
+Collecting urllib3==1.25.5
+  Using cached urllib3-1.25.5-py2.py3-none-any.whl (125 kB)
+Collecting WeasyPrint==50
+  Using cached WeasyPrint-50-py3-none-any.whl (356 kB)
+Collecting webencodings==0.5.1
+  Using cached webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting Werkzeug==0.16.0
+  Using cached Werkzeug-0.16.0-py2.py3-none-any.whl (327 kB)
+Collecting XlsxWriter==1.2.1
+  Using cached XlsxWriter-1.2.1-py2.py3-none-any.whl (140 kB)
+Processing ./packages/clv_common_py-2020.1.13.1-py3-none-any.whl
+Collecting gevent==1.5.0
+  Using cached gevent-1.5.0-cp38-cp38-manylinux2010_x86_64.whl (5.9 MB)
+Collecting greenlet==0.4.16
+  Using cached greenlet-0.4.16-cp38-cp38-manylinux1_x86_64.whl (48 kB)
+Collecting cffi==1.14.3
+  Using cached cffi-1.14.3-cp38-cp38-manylinux1_x86_64.whl (410 kB)
+Collecting numpy==1.19.2
+  Using cached numpy-1.19.2-cp38-cp38-manylinux2010_x86_64.whl (14.5 MB)
+Collecting pandas==0.25.2
+  Using cached pandas-0.25.2-cp38-cp38-manylinux1_x86_64.whl (10.4 MB)
+Collecting Pillow==7.2.0
+  Using cached Pillow-7.2.0-cp38-cp38-manylinux1_x86_64.whl (2.2 MB)
+Requirement already satisfied: setuptools>=39.2.0 in ./.venv/lib/python3.8/site-packages (from cairocffi==1.1.0->-r requirements.txt (line 4)) (44.0.0)
+Building wheels for collected packages: cairocffi, pycparser, SQLAlchemy
+  Building wheel for cairocffi (setup.py) ... error
+  ERROR: Command errored out with exit status 1:
+   command: /var/www/html/PYTHON/clv-report-api/.venv/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-rhuarkvy/cairocffi/setup.py'"'"'; __file__='"'"'/tmp/pip-install-rhuarkvy/cairocffi/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /tmp/pip-wheel-7aplgzvw
+       cwd: /tmp/pip-install-rhuarkvy/cairocffi/
+  Complete output (9 lines):
+  WARNING: The wheel package is not available.
+  WARNING: The wheel package is not available.
+  WARNING: The wheel package is not available.
+  usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+     or: setup.py --help [cmd1 cmd2 ...]
+     or: setup.py --help-commands
+     or: setup.py cmd --help
+  
+  error: invalid command 'bdist_wheel'
+  ----------------------------------------
+  ERROR: Failed building wheel for cairocffi
+  Running setup.py clean for cairocffi  Building wheel for pycparser (setup.py) ... error
+  ERROR: Command errored out with exit status 1:
+   command: /var/www/html/PYTHON/clv-report-api/.venv/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-rhuarkvy/pycparser/setup.py'"'"'; __file__='"'"'/tmp/pip-install-rhuarkvy/pycparser/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /tmp/pip-wheel-hnqwl7zf
+       cwd: /tmp/pip-install-rhuarkvy/pycparser/
+  Complete output (6 lines):
+  usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+     or: setup.py --help [cmd1 cmd2 ...]
+     or: setup.py --help-commands
+     or: setup.py cmd --help
+  
+  error: invalid command 'bdist_wheel'
+  ----------------------------------------
+  ERROR: Failed building wheel for pycparser
+  Running setup.py clean for pycparser
+  Building wheel for SQLAlchemy (setup.py) ... error
+  ERROR: Command errored out with exit status 1:
+   command: /var/www/html/PYTHON/clv-report-api/.venv/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-rhuarkvy/SQLAlchemy/setup.py'"'"'; __file__='"'"'/tmp/pip-install-rhuarkvy/SQLAlchemy/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /tmp/pip-wheel-dhexuc_n
+       cwd: /tmp/pip-install-rhuarkvy/SQLAlchemy/
+  Complete output (6 lines):
+  usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+     or: setup.py --help [cmd1 cmd2 ...]
+     or: setup.py --help-commands
+     or: setup.py cmd --help
+  
+  error: invalid command 'bdist_wheel'
+  ----------------------------------------
+  ERROR: Failed building wheel for SQLAlchemy
+  Running setup.py clean for SQLAlchemy
+Failed to build cairocffi pycparser SQLAlchemy
+Installing collected packages: aniso8601, docutils, urllib3, six, python-dateutil, jmespath, botocore, s3transfer, boto3, pycparser, cffi, cairocffi, defusedxml, webencodings, tinycss2, cssselect2, Pillow, CairoSVG, certifi, chardet, Click, MarkupSafe, Jinja2, itsdangerous, Werkzeug, Flask, Flask-Cors, marshmallow, flask-marshmallow, pytz, Flask-RESTful, SQLAlchemy, Flask-SQLAlchemy, html5lib, idna, marshmallow-sqlalchemy, PyMySQL, Pyphen, requests, WeasyPrint, XlsxWriter, clv-common-py, greenlet, gevent, numpy, pandas    Running setup.py install for pycparser ... done
+    Running setup.py install for cairocffi ... done
+    Running setup.py install for SQLAlchemy ... done
+Successfully installed CairoSVG-2.4.2 Click-7.0 Flask-1.1.1 Flask-Cors-3.0.8 Flask-RESTful-0.3.7 Flask-SQLAlchemy-2.4.0 Jinja2-2.10.1 MarkupSafe-1.1.1 Pillow-7.2.0 PyMySQL-0.9.3 Pyphen-0.9.5 SQLAlchemy-1.3.8 WeasyPrint-50 Werkzeug-0.16.0 XlsxWriter-1.2.1 aniso8601-8.0.0 boto3-1.9.234 botocore-1.12.234 cairocffi-1.1.0 certifi-2019.9.11 cffi-1.14.3 chardet-3.0.4 clv-common-py-2020.1.13.1 cssselect2-0.2.2 defusedxml-0.6.0 docutils-0.15.2 flask-marshmallow-0.10.1 gevent-1.5.0 greenlet-0.4.16 html5lib-1.0.1 idna-2.8 itsdangerous-1.1.0 jmespath-0.9.4 marshmallow-3.2.0 marshmallow-sqlalchemy-0.19.0 numpy-1.19.2 pandas-0.25.2 pycparser-2.19 python-dateutil-2.8.0 pytz-2019.2 requests-2.22.0 s3transfer-0.2.1 six-1.12.0 tinycss2-1.0.2 urllib3-1.25.5 webencodings-0.5.1
+(.venv) 
+  ༆ ixicale༆   ⎣13:10:16⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+pip freeze                                                                                 hostname: [ix]
+(.venv) 
+  ༆ ixicale༆   ⎣13:10:41⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+pip freeze                                                                                 hostname: [ix]
+aniso8601==8.0.0
+boto3==1.9.234
+botocore==1.12.234
+cairocffi==1.1.0
+CairoSVG==2.4.2
+certifi==2019.9.11
+cffi==1.14.3
+chardet==3.0.4
+Click==7.0
+clv-common-py==2020.1.13.1
+cssselect2==0.2.2
+defusedxml==0.6.0
+docutils==0.15.2
+Flask==1.1.1
+Flask-Cors==3.0.8
+flask-marshmallow==0.10.1
+Flask-RESTful==0.3.7
+Flask-SQLAlchemy==2.4.0
+gevent==1.5.0
+greenlet==0.4.16
+html5lib==1.0.1
+idna==2.8
+itsdangerous==1.1.0
+Jinja2==2.10.1
+jmespath==0.9.4
+MarkupSafe==1.1.1
+marshmallow==3.2.0
+marshmallow-sqlalchemy==0.19.0
+numpy==1.19.2
+pandas==0.25.2
+Pillow==7.2.0
+pycparser==2.19
+PyMySQL==0.9.3
+Pyphen==0.9.5
+python-dateutil==2.8.0
+pytz==2019.2
+requests==2.22.0
+s3transfer==0.2.1
+six==1.12.0
+SQLAlchemy==1.3.8
+tinycss2==1.0.2
+urllib3==1.25.5
+WeasyPrint==50
+webencodings==0.5.1
+Werkzeug==0.16.0
+XlsxWriter==1.2.1(.venv) 
+  ༆ ixicale༆   ⎣13:10:42⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+                                                                                           hostname: [ix]
+(.venv) 
+  ༆ ixicale༆   ⎣13:11:18⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+flask run --port 9000                                                                      hostname: [ix]
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:9000/ (Press CTRL+C to quit)
+flask run --port 9000127.0.0.1 - - [16/Dec/2020 13:12:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Dec/2020 13:12:31] "GET /favicon.ico HTTP/1.1" 404 -
+^C%                                                                                                       (.venv) 
+  ༆ ixicale༆   ⎣13:12:37⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+code .                                                                                     hostname: [ix]
+(.venv) 
+  ༆ ixicale༆   ⎣13:12:42⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+flask run --port 9000                                                                      hostname: [ix]
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:9000/ (Press CTRL+C to quit)
+^C%                                                                                                       (.venv) 
+  ༆ ixicale༆   ⎣13:13:47⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale 1 ● 
+code .                                                                                     hostname: [ix]
+(.venv) 
+  ༆ ixicale༆   ⎣13:15:13⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale 1 ● 
+                                                                                           hostname: [ix]
+
+
+
+
+
+
+
+
+
+(.venv) 
+  ༆ ixicale༆   ⎣13:17:24⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale 1 ● deactivate                                                                                 hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:17:26⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale 1 ● 
+                                                                                           hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣13:17:27⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale 1 ● npm run dev                                                                                hostname: [ix]
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path /var/www/html/PYTHON/clv-report-api/package.json
+npm ERR! errno -2
+npm ERR! enoent ENOENT: no such file or directory, open '/var/www/html/PYTHON/clv-report-api/package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent 
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ixicale/.npm/_logs/2020-12-16T21_30_17_580Z-debug.log
+
+  ༆ ixicale༆  ✘  ⎣16:30:17⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale 1 ● 
+cd $NODE/clv-service-web                                                                   hostname: [ix]
+
+  ༆ ixicale༆   ⎣16:30:22⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1☀ 3 ● 
+npm run dev                                                                                hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.mode=dev
+[1] 
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] 
+^L[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): config/global.js src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![1] ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+[1] ℹ ｢wds｣: webpack output is served from /
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] ℹ ｢wdm｣:    669 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] (node:61927) UnhandledPromiseRejectionWarning: ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+[0]     at new MailErrorNotification (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:43:34)
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:397:17
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:532:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[0] (node:61927) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[0] (node:61927) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)           hostname: [ix]
+(.venv) 
+  ༆ ixicale༆   ⎣13:12:42⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale ✔ 
+flask run --port 9000           hostname: [ix]
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:9000/ (Press CTRL+C to quit)
+^C%                                                                                                       (.venv) 
+  ༆ ixicale༆   ⎣13:13:47⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale 1 ● 
+code .                  hostname: [ix]
+(.venv) 
+  ༆ ixicale༆   ⎣13:15:13⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale 1 ● 
+           hostname: [ix]
+
+
+
+
+
+
+
+
+
+(.venv) 
+  ༆ ixicale༆   ⎣13:17:24⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale 1 ● 
+deactivate           hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:17:26⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale 1 ● 
+           hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣13:17:27⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale 1 ● 
+npm run dev           hostname: [ix]
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path /var/www/html/PYTHON/clv-report-api/package.json
+npm ERR! errno -2
+npm ERR! enoent ENOENT: no such file or directory, open '/var/www/html/PYTHON/clv-report-api/package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent 
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ixicale/.npm/_logs/2020-12-16T21_30_17_580Z-debug.log
+
+  ༆ ixicale༆  ✘  ⎣16:30:17⎤  🚦 /var/www/html/PYTHON/clv-report-api   origin ☊ ixicale 1 ● 
+cd $NODE/clv-service-web           hostname: [ix]
+
+  ༆ ixicale༆   ⎣16:30:22⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1☀ 3 ● 
+npm run dev           hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.mode=dev
+[1] 
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] 
+^L[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): config/global.js src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[1] ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+[1] ℹ ｢wds｣: webpack output is served from /
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] ℹ ｢wdm｣:    669 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] (node:61927) UnhandledPromiseRejectionWarning: ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+[0]     at new MailErrorNotification (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:43:34)
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:397:17
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:532:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[0] (node:61927) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[0] (node:61927) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0] <ul style="list-style-type: none;"><li><div>SYSTEM: clv-service-web</div></li><li><div>ENV: DEV</div></li><li><div>USER: weddingweb</div></li><li><div><ul style="list-style-type: none;"></ul></div></li><li><div>CODE: 404</div></li><li><div>TYPE_RESPONSE: POST</div></li><li><div>MSG_ERROR: Group not found at http://dev.clever-api-events.local/grupopago/payment</div></li><li><div>API: undefined</div></li><li><div>PAYLOAD: undefined</div></li><li><div>RESPONSE: {
+[0]   "code": 404,
+[0]   "name": "Error",
+[0]   "clientMessage": "Group not found",
+[0]   "file": "/var/www/html/NODE/clv-service-web/src/server/app/RequestMethod.js",
+[0]   "filename": "RequestMethod.js",
+[0]   "line": "272:10"
+[0] }</div></li></ul>
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0] undefined
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+
+
+
+
+
+
+
+
+
+[0] <ul style="list-style-type: none;"><li><div>SYSTEM: clv-service-web</div></li><li><div>ENV: DEV</div></li><li><div>USER: weddingweb</div></li><li><div><ul style="list-style-type: none;"></ul></div></li><li><div>CODE: 404</div></li><li><div>TYPE_RESPONSE: POST</div></li><li><div>MSG_ERROR: Group not found at http://dev.clever-api-events.local/grupopago/payment</div></li><li><div>API: undefined</div></li><li><div>PAYLOAD: undefined</div></li><li><div>RESPONSE: {
+[0]   "code": 404,
+[0]   "name": "Error",
+[0]   "clientMessage": "Group not found",
+[0]   "file": "/var/www/html/NODE/clv-service-web/src/server/app/RequestMethod.js",
+[0]   "filename": "RequestMethod.js",
+[0]   "line": "272:10"
+[0] }</div></li></ul>
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0] <ul style="list-style-type: none;"><li><div>SYSTEM: clv-service-web</div></li><li><div>ENV: DEV</div></li><li><div>USER: weddingweb</div></li><li><div><ul style="list-style-type: none;"></ul></div></li><li><div>CODE: 404</div></li><li><div>TYPE_RESPONSE: POST</div></li><li><div>MSG_ERROR: Group not found at http://dev.clever-api-events.local/grupopago/payment</div></li><li><div>API: undefined</div></li><li><div>PAYLOAD: {
+[0]   "estado": 1,
+[0]   "usuario_creacion": "weddingweb",
+[0]   "fecha_creacion": "2020-12-16T16:50:51.353Z",
+[0]   "usuario_ultima_modificacion": "weddingweb",
+[0]   "fecha_ultima_modificacion": "2020-12-16T16:50:51.353Z",
+[0]   "divisa": "USD",
+[0]   "idevent_grupo": 0,
+[0]   "idfin_cliente_interno": "1",
+[0]   "tipo_cambio": "0",
+[0]   "pago_online": {
+[0]     "name": "Nombre Persona",
+[0]     "lastName": "Apellido Persona",
+[0]     "address": "Testing Address",
+[0]     "city": "Testing City",
+[0]     "country": "BHR",
+[0]     "zipcode": "16513",
+[0]     "idevent_billing_address": "",
+[0]     "cardNumber": "411111111111111",
+[0]     "mmExp": "12",
+[0]     "yyExp": "22",
+[0]     "cvc": "1245",
+[0]     "card": "visa",
+[0]     "monto": "100",
+[0]     "payment": 100,
+[0]     "currency": "USD",
+[0]     "exchange": "1"
+[0]   }
+[0] }</div></li><li><div>RESPONSE: {
+[0]   "code": 404,
+[0]   "name": "Error",
+[0]   "clientMessage": "Group not found",
+[0]   "file": "/var/www/html/NODE/clv-service-web/src/server/app/RequestMethod.js",
+[0]   "filename": "RequestMethod.js",
+[0]   "line": "272:10"
+[0] }</div></li></ul>[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] <ul style="list-style-type: none;"><li><div>estado: 1</div></li><li><div>usuario_creacion: weddingweb</div></li><li><div><ul style="list-style-type: none;"></ul></div></li><li><div>usuario_ultima_modificacion: weddingweb</div></li><li><div><ul style="list-style-type: none;"></ul></div></li><li><div>divisa: USD</div></li><li><div>idevent_grupo: 0</div></li><li><div>idfin_cliente_interno: 1</div></li><li><div>tipo_cambio: 0</div></li><li><div><ul style="list-style-type: none;"><li><div>name: Nombre Persona</div></li><li><div>lastName: Apellido Persona</div></li><li><div>address: Testing Address</div></li><li><div>city: Testing City</div></li><li><div>country: BHR</div></li><li><div>zipcode: 16513</div></li><li><div>idevent_billing_address: </div></li><li><div>cardNumber: 411111111111111</div></li><li><div>mmExp: 12</div></li><li><div>yyExp: 22</div></li><li><div>cvc: 1245</div></li><li><div>card: visa</div></li><li><div>monto: 100</div></li><li><div>payment: 100</div></li><li><div>currency: USD</div></li><li><div>exchange: 1</div></li></ul></div></li></ul>
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] <ul style="list-style-type: none;"><li><div>{estado: 1}</div></li><li><div>{usuario_creacion: weddingweb}</div></li><li><div>{fecha_creacion: <ul style="list-style-type: none;"></ul>}</div></li><li><div>{usuario_ultima_modificacion: weddingweb}</div></li><li><div>{fecha_ultima_modificacion: <ul style="list-style-type: none;"></ul>}</div></li><li><div>{divisa: USD}</div></li><li><div>{idevent_grupo: 0}</div></li><li><div>{idfin_cliente_interno: 1}</div></li><li><div>{tipo_cambio: 0}</div></li><li><div>{pago_online: <ul style="list-style-type: none;"><li><div>{name: Nombre Persona}</div></li><li><div>{lastName: Apellido Persona}</div></li><li><div>{address: Testing Address}</div></li><li><div>{city: Testing City}</div></li><li><div>{country: BHR}</div></li><li><div>{zipcode: 16513}</div></li><li><div>{idevent_billing_address: }</div></li><li><div>{cardNumber: 411111111111111}</div></li><li><div>{mmExp: 12}</div></li><li><div>{yyExp: 22}</div></li><li><div>{cvc: 1245}</div></li><li><div>{card: visa}</div></li><li><div>{monto: 100}</div></li><li><div>{payment: 100}</div></li><li><div>{currency: USD}</div></li><li><div>{exchange: 1}</div></li></ul>}</div></li></ul>
+[0] [nodemon] restarting due to changes...[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] <ul style="list-style-type: none;"><li><div>estado: 1,</div></li><li><div>usuario_creacion: weddingweb,</div></li><li><div>fecha_creacion: <ul style="list-style-type: none;"></ul>,</div></li><li><div>usuario_ultima_modificacion: weddingweb,</div></li><li><div>fecha_ultima_modificacion: <ul style="list-style-type: none;"></ul>,</div></li><li><div>divisa: USD,</div></li><li><div>idevent_grupo: 0,</div></li><li><div>idfin_cliente_interno: 1,</div></li><li><div>tipo_cambio: 0,</div></li><li><div>pago_online: <ul style="list-style-type: none;"><li><div>name: Nombre Persona,</div></li><li><div>lastName: Apellido Persona,</div></li><li><div>address: Testing Address,</div></li><li><div>city: Testing City,</div></li><li><div>country: BHR,</div></li><li><div>zipcode: 16513,</div></li><li><div>idevent_billing_address: ,</div></li><li><div>cardNumber: 411111111111111,</div></li><li><div>mmExp: 12,</div></li><li><div>yyExp: 22,</div></li><li><div>cvc: 1245,</div></li><li><div>card: visa,</div></li><li><div>monto: 100,</div></li><li><div>payment: 100,</div></li><li><div>currency: USD,</div></li><li><div>exchange: 1,</div></li></ul>,</div></li></ul>
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] <ul style="list-style-type: none;"><li><div>estado: {1},</div></li><li><div>usuario_creacion: {weddingweb},</div></li><li><div>fecha_creacion: {<ul style="list-style-type: none;"></ul>},</div></li><li><div>usuario_ultima_modificacion: {weddingweb},</div></li><li><div>fecha_ultima_modificacion: {<ul style="list-style-type: none;"></ul>},</div></li><li><div>divisa: {USD},</div></li><li><div>idevent_grupo: {0},</div></li><li><div>idfin_cliente_interno: {1},</div></li><li><div>tipo_cambio: {0},</div></li><li><div>pago_online: {<ul style="list-style-type: none;"><li><div>name: {Nombre Persona},</div></li><li><div>lastName: {Apellido Persona},</div></li><li><div>address: {Testing Address},</div></li><li><div>city: {Testing City},</div></li><li><div>country: {BHR},</div></li><li><div>zipcode: {16513},</div></li><li><div>idevent_billing_address: {},</div></li><li><div>cardNumber: {411111111111111},</div></li><li><div>mmExp: {12},</div></li><li><div>yyExp: {22},</div></li><li><div>cvc: {1245},</div></li><li><div>card: {visa},</div></li><li><div>monto: {100},</div></li><li><div>payment: {100},</div></li><li><div>currency: {USD},</div></li><li><div>exchange: {1},</div></li></ul>},</div></li></ul>
+[0] [nodemon] restarting due to changes...[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] <ul style="list-style-type: none;"><li><div>estado: 1 ,</div></li><li><div>usuario_creacion: weddingweb ,</div></li><li><div>fecha_creacion: <ul style="list-style-type: none;"></ul> ,</div></li><li><div>usuario_ultima_modificacion: weddingweb ,</div></li><li><div>fecha_ultima_modificacion: <ul style="list-style-type: none;"></ul> ,</div></li><li><div>divisa: USD ,</div></li><li><div>idevent_grupo: 0 ,</div></li><li><div>idfin_cliente_interno: 1 ,</div></li><li><div>tipo_cambio: 0 ,</div></li><li><div>pago_online: <ul style="list-style-type: none;"><li><div>name: Nombre Persona ,</div></li><li><div>lastName: Apellido Persona ,</div></li><li><div>address: Testing Address ,</div></li><li><div>city: Testing City ,</div></li><li><div>country: BHR ,</div></li><li><div>zipcode: 16513 ,</div></li><li><div>idevent_billing_address:  ,</div></li><li><div>cardNumber: 411111111111111 ,</div></li><li><div>mmExp: 12 ,</div></li><li><div>yyExp: 22 ,</div></li><li><div>cvc: 1245 ,</div></li><li><div>card: visa ,</div></li><li><div>monto: 100 ,</div></li><li><div>payment: 100 ,</div></li><li><div>currency: USD ,</div></li><li><div>exchange: 1 </div></li></ul> </div></li></ul>
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] /var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:86
+[0]                             ? this.buildJSONFormat(data[key])
+[0]                             ^
+[0] 
+[0] SyntaxError: Unexpected token '?'
+[0]     at wrapSafe (internal/modules/cjs/loader.js:915:16)
+[0]     at Module._compile (internal/modules/cjs/loader.js:963:27)
+[0]     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+[0]     at Module.load (internal/modules/cjs/loader.js:863:32)
+[0]     at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+[0]     at Module.require (internal/modules/cjs/loader.js:887:19)
+[0]     at require (internal/modules/cjs/helpers.js:74:18)
+[0]     at Object.<anonymous> (/var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:15:35)
+[0]     at Module._compile (internal/modules/cjs/loader.js:999:30)
+[0]     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+[0] [nodemon] app crashed - waiting for file changes before starting...[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNREFUSED) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] (node:67690) UnhandledPromiseRejectionWarning: ReferenceError: send is not defined
+[0]     at /var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:84:65
+[0]     at Array.map (<anonymous>)
+[0]     at MailErrorNotification.buildJSONFormat (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:76:22)
+[0]     at new MailErrorNotification (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:53:26)
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:397:17
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:532:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[0] (node:67690) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[0] (node:67690) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0] <ul style="list-style-type: none;"><li><div>estado: 1,</div></li><li><div>usuario_creacion: weddingweb,</div></li><li><div>fecha_creacion: {<ul style="list-style-type: none;"></ul>},</div></li><li><div>usuario_ultima_modificacion: weddingweb,</div></li><li><div>fecha_ultima_modificacion: {<ul style="list-style-type: none;"></ul>},</div></li><li><div>divisa: USD,</div></li><li><div>idevent_grupo: 0,</div></li><li><div>idfin_cliente_interno: 1,</div></li><li><div>tipo_cambio: 0,</div></li><li><div>pago_online: {<ul style="list-style-type: none;"><li><div>name: Nombre Persona,</div></li><li><div>lastName: Apellido Persona,</div></li><li><div>address: Testing Address,</div></li><li><div>city: Testing City,</div></li><li><div>country: BHR,</div></li><li><div>zipcode: 16513,</div></li><li><div>idevent_billing_address: ,</div></li><li><div>cardNumber: 411111111111111,</div></li><li><div>mmExp: 12,</div></li><li><div>yyExp: 22,</div></li><li><div>cvc: 1245,</div></li><li><div>card: visa,</div></li><li><div>monto: 100,</div></li><li><div>payment: 100,</div></li><li><div>currency: USD,</div></li><li><div>exchange: 1</div></li></ul>}</div></li></ul>
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] <ul style="list-style-type: none;"><li><div>"estado": "1",</div></li><li><div>"usuario_creacion": "weddingweb",</div></li><li><div>"fecha_creacion": {<ul style="list-style-type: none;"></ul>},</div></li><li><div>"usuario_ultima_modificacion": "weddingweb",</div></li><li><div>"fecha_ultima_modificacion": {<ul style="list-style-type: none;"></ul>},</div></li><li><div>"divisa": "USD",</div></li><li><div>"idevent_grupo": "0",</div></li><li><div>"idfin_cliente_interno": "1",</div></li><li><div>"tipo_cambio": "0",</div></li><li><div>"pago_online": {<ul style="list-style-type: none;"><li><div>"name": "Nombre Persona",</div></li><li><div>"lastName": "Apellido Persona",</div></li><li><div>"address": "Testing Address",</div></li><li><div>"city": "Testing City",</div></li><li><div>"country": "BHR",</div></li><li><div>"zipcode": "16513",</div></li><li><div>"idevent_billing_address": "",</div></li><li><div>"cardNumber": "411111111111111",</div></li><li><div>"mmExp": "12",</div></li><li><div>"yyExp": "22",</div></li><li><div>"cvc": "1245",</div></li><li><div>"card": "visa",</div></li><li><div>"monto": "100",</div></li><li><div>"payment": "100",</div></li><li><div>"currency": "USD",</div></li><li><div>"exchange": "1"</div></li></ul>}</div></li></ul>
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] {<ul style="list-style-type: none;"><li><div>"estado": "1",</div></li><li><div>"usuario_creacion": "weddingweb",</div></li><li><div>"fecha_creacion": {<ul style="list-style-type: none;"></ul>},</div></li><li><div>"usuario_ultima_modificacion": "weddingweb",</div></li><li><div>"fecha_ultima_modificacion": {<ul style="list-style-type: none;"></ul>},</div></li><li><div>"divisa": "USD",</div></li><li><div>"idevent_grupo": "0",</div></li><li><div>"idfin_cliente_interno": "1",</div></li><li><div>"tipo_cambio": "0",</div></li><li><div>"pago_online": {<ul style="list-style-type: none;"><li><div>"name": "Nombre Persona",</div></li><li><div>"lastName": "Apellido Persona",</div></li><li><div>"address": "Testing Address",</div></li><li><div>"city": "Testing City",</div></li><li><div>"country": "BHR",</div></li><li><div>"zipcode": "16513",</div></li><li><div>"idevent_billing_address": "",</div></li><li><div>"cardNumber": "411111111111111",</div></li><li><div>"mmExp": "12",</div></li><li><div>"yyExp": "22",</div></li><li><div>"cvc": "1245",</div></li><li><div>"card": "visa",</div></li><li><div>"monto": "100",</div></li><li><div>"payment": "100",</div></li><li><div>"currency": "USD",</div></li><li><div>"exchange": "1"</div></li></ul>}</div></li></ul>}[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!^[[A^[[B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0] {<ul style="list-style-type: none;"><li><div>"usuario_creacion": "weddingweb",</div></li><li><div>"divisa": "USD",</div></li><li><div>"idevent_grupo": "0",</div></li><li><div>"idfin_cliente_interno": "1",</div></li><li><div>"tipo_cambio": "0",</div></li><li><div>"pago_online": {<ul style="list-style-type: none;"><li><div>"name": "Nombre Persona",</div></li><li><div>"lastName": "Apellido Persona",</div></li><li><div>"address": "Testing Address",</div></li><li><div>"city": "Testing City",</div></li><li><div>"country": "BHR",</div></li><li><div>"zipcode": "16513",</div></li><li><div>"idevent_billing_address": "",</div></li><li><div>"cardNumber": "411111111111111",</div></li><li><div>"mmExp": "12",</div></li><li><div>"yyExp": "22",</div></li><li><div>"cvc": "1245",</div></li><li><div>"card": "visa",</div></li><li><div>"monto": "100",</div></li><li><div>"payment": "100",</div></li><li><div>"currency": "USD",</div></li><li><div>"exchange": "1"</div></li></ul>}</div></li></ul>}
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+
+
+
+
+
+
+
+
+
+[0] {
+[0]   data: {
+[0]     SYSTEM: 'clv-service-web',
+[0]     ENV: 'DEV',
+[0]     USER: 'weddingweb',
+[0]     DATE: 'Wed Dec 16 2020 12:46:36 GMT-0500 (GMT-05:00)',
+[0]     CODE: 404,
+[0]     TYPE_RESPONSE: 'POST',
+[0]     MSG_ERROR: 'Group not found at http://dev.clever-api-events.local/grupopago/payment',
+[0]     API: undefined,
+[0]     PAYLOAD: '{<ul style="list-style-type: none;"><li><div>"usuario_creacion": "weddingweb",</div></li><li><div>"divisa": "USD",</div></li><li><div>"idevent_grupo": "0",</div></li><li><div>"idfin_cliente_interno": "1",</div></li><li><div>"tipo_cambio": "0",</div></li><li><div>"pago_online": {<ul style="list-style-type: none;"><li><div>"name": "Nombre Persona",</div></li><li><div>"lastName": "Apellido Persona",</div></li><li><div>"address": "Testing Address",</div></li><li><div>"city": "Testing City",</div></li><li><div>"country": "BHR",</div></li><li><div>"zipcode": "16513",</div></li><li><div>"idevent_billing_address": "",</div></li><li><div>"cardNumber": "411111111111111",</div></li><li><div>"mmExp": "12",</div></li><li><div>"yyExp": "22",</div></li><li><div>"cvc": "1245",</div></li><li><div>"card": "visa",</div></li><li><div>"monto": "100",</div></li><li><div>"payment": "100",</div></li><li><div>"currency": "USD",</div></li><li><div>"exchange": "1"</div></li></ul>}</div></li></ul>}',
+[0]     RESPONSE: '{<ul style="list-style-type: none;"><li><div>"code": "404",</div></li><li><div>"name": "Error",</div></li><li><div>"clientMessage": "Group not found",</div></li><li><div>"file": "/var/www/html/NODE/clv-service-web/src/server/app/RequestMethod.js",</div></li><li><div>"filename": "RequestMethod.js",</div></li><li><div>"line": "272:10",</div></li><li><div>"toString": "function(){\n' +
+[0]       '            return `${this.name} => ${this.message} at ${this.file}:${this.line}`;\n' +
+[0]       '        }"</div></li></ul>}'
+[0]   },
+[0]   url: 'http://frm-api-qa.clever.palace-resorts.local/notificaciones/notificacion/NOTIFICATION_API_ERRORS'
+[0] }[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+
+
+
+
+
+
+
+[0] {
+[0]   data: {
+[0]     usuario_creacion: 'weddingweb',
+[0]     divisa: 'USD',
+[0]     idevent_grupo: 0,
+[0]     idfin_cliente_interno: '1',
+[0]     tipo_cambio: '0',
+[0]     pago_online: {
+[0]       name: 'Nombre Persona',
+[0]       lastName: 'Apellido Persona',
+[0]       address: 'Testing Address',
+[0]       city: 'Testing City',
+[0]       country: 'BHR',
+[0]       zipcode: '16513',
+[0]       idevent_billing_address: '',
+[0]       cardNumber: '411111111111111',
+[0]       mmExp: '12',
+[0]       yyExp: '22',
+[0]       cvc: '1245',
+[0]       card: 'visa',
+[0]       monto: '100',
+[0]       payment: 100,
+[0]       currency: 'USD',
+[0]       exchange: '1'
+[0]     }
+[0]   },
+[0]   url: 'http://dev.clever-api-events.local/grupopago/payment'
+[0] }[0] {
+[0]   data: {
+[0]     SYSTEM: 'clv-service-web',
+[0]     ENV: 'DEV',
+[0]     USER: 'weddingweb',
+[0]     DATE: 'Wed Dec 16 2020 12:47:05 GMT-0500 (GMT-05:00)',
+[0]     CODE: 404,
+[0]     TYPE_RESPONSE: 'POST',
+[0]     MSG_ERROR: 'Group not found at http://dev.clever-api-events.local/grupopago/payment',
+[0]     API: undefined,
+[0]     PAYLOAD: '{<ul style="list-style-type: none;"><li><div>"usuario_creacion": "weddingweb",</div></li><li><div>"divisa": "USD",</div></li><li><div>"idevent_grupo": "0",</div></li><li><div>"idfin_cliente_interno": "1",</div></li><li><div>"tipo_cambio": "0",</div></li><li><div>"pago_online": {<ul style="list-style-type: none;"><li><div>"name": "Nombre Persona",</div></li><li><div>"lastName": "Apellido Persona",</div></li><li><div>"address": "Testing Address",</div></li><li><div>"city": "Testing City",</div></li><li><div>"country": "BHR",</div></li><li><div>"zipcode": "16513",</div></li><li><div>"idevent_billing_address": "",</div></li><li><div>"cardNumber": "411111111111111",</div></li><li><div>"mmExp": "12",</div></li><li><div>"yyExp": "22",</div></li><li><div>"cvc": "1245",</div></li><li><div>"card": "visa",</div></li><li><div>"monto": "100",</div></li><li><div>"payment": "100",</div></li><li><div>"currency": "USD",</div></li><li><div>"exchange": "1"</div></li></ul>}</div></li></ul>}',
+[0]     RESPONSE: '{<ul style="list-style-type: none;"><li><div>"code": "404",</div></li><li><div>"name": "Error",</div></li><li><div>"clientMessage": "Group not found",</div></li><li><div>"file": "/var/www/html/NODE/clv-service-web/src/server/app/RequestMethod.js",</div></li><li><div>"filename": "RequestMethod.js",</div></li><li><div>"line": "272:10",</div></li><li><div>"toString": "function(){\n' +
+[0]       '            return `${this.name} => ${this.message} at ${this.file}:${this.line}`;\n' +
+[0]       '        }"</div></li></ul>}'
+[0]   },
+[0]   url: 'http://frm-api-qa.clever.palace-resorts.local/notificaciones/notificacion/NOTIFICATION_API_ERRORS'
+[0] }
+[0] {
+[0]   data: {
+[0]     SYSTEM: 'clv-service-web',
+[0]     ENV: 'DEV',
+[0]     USER: 'weddingweb',
+[0]     DATE: 'Wed Dec 16 2020 12:47:05 GMT-0500 (GMT-05:00)',
+[0]     CODE: 404,
+[0]     TYPE_RESPONSE: 'POST',
+[0]     MSG_ERROR: 'Group not found at http://dev.clever-api-events.local/grupopago/payment',
+[0]     API: undefined,
+[0]     PAYLOAD: '{<ul style="list-style-type: none;"><li><div>"usuario_creacion": "weddingweb",</div></li><li><div>"divisa": "USD",</div></li><li><div>"idevent_grupo": "0",</div></li><li><div>"idfin_cliente_interno": "1",</div></li><li><div>"tipo_cambio": "0",</div></li><li><div>"pago_online": {<ul style="list-style-type: none;"><li><div>"name": "Nombre Persona",</div></li><li><div>"lastName": "Apellido Persona",</div></li><li><div>"address": "Testing Address",</div></li><li><div>"city": "Testing City",</div></li><li><div>"country": "BHR",</div></li><li><div>"zipcode": "16513",</div></li><li><div>"idevent_billing_address": "",</div></li><li><div>"cardNumber": "411111111111111",</div></li><li><div>"mmExp": "12",</div></li><li><div>"yyExp": "22",</div></li><li><div>"cvc": "1245",</div></li><li><div>"card": "visa",</div></li><li><div>"monto": "100",</div></li><li><div>"payment": "100",</div></li><li><div>"currency": "USD",</div></li><li><div>"exchange": "1"</div></li></ul>}</div></li></ul>}',
+[0]     RESPONSE: '{<ul style="list-style-type: none;"><li><div>"code": "404",</div></li><li><div>"name": "Error",</div></li><li><div>"clientMessage": "Group not found",</div></li><li><div>"file": "/var/www/html/NODE/clv-service-web/src/server/app/RequestMethod.js",</div></li><li><div>"filename": "RequestMethod.js",</div></li><li><div>"line": "272:10",</div></li><li><div>"toString": "function(){\n' +
+[0]       '            return `${this.name} => ${this.message} at ${this.file}:${this.line}`;\n' +
+[0]       '        }"</div></li></ul>}'
+[0]   },
+[0]   url: 'http://frm-api-qa.clever.palace-resorts.local/notificaciones/notificacion/NOTIFICATION_API_ERRORS'
+[0] }

@@ -1,0 +1,2076 @@
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:02:22⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding ↓53 1 ● 
+gis                                                                                        hostname: [ix]
+En la rama qa_wedding
+Tu rama está detrás de 'origin/qa_wedding' por 53 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificado:     src/client/views/positivebalance/manageevents/index.js
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+
+  ༆ ixicale༆   ⎣09:02:29⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding ↓53 1 ● 
+gipl                                                                                       hostname: [ix]
+Actualizando ff31777f..f40590f2
+Fast-forward
+ .vscode/launch.json                                                 |    19 +
+ Email-templates/send-gift-inline-css/assets/awards/five-diamond.svg |     1 -
+ Email-templates/send-gift-inline-css/assets/awards/four-diamond.svg |     1 -
+ Email-templates/send-gift-inline-css/assets/awards/trip-advisor.svg |   166 -
+ Email-templates/send-gift-inline-css/assets/chevron-right.svg       |     1 -
+ Email-templates/send-gift-inline-css/assets/img-mr-mrs.png          |   Bin 364611 -> 0 bytes
+ Email-templates/send-gift-inline-css/assets/img-mr-mrs@2x.png       |   Bin 997197 -> 0 bytes
+ Email-templates/send-gift-inline-css/assets/img-mr-mrs@3x.png       |   Bin 1759702 -> 0 bytes
+ .../send-gift-inline-css/assets/palace-weddings-logo.png            |   Bin 3011 -> 0 bytes
+ Email-templates/send-gift-inline-css/assets/palace-weddings.svg     |     1 -
+ .../send-gift-inline-css/assets/palace/leblanc-resorts.svg          |     1 -
+ .../send-gift-inline-css/assets/palace/moon-palace-cancun.svg       |     1 -
+ .../send-gift-inline-css/assets/palace/palace-resorts.svg           |     1 -
+ .../send-gift-inline-css/assets/social/facebook-circled.svg         |     1 -
+ .../send-gift-inline-css/assets/social/instagram-circled.svg        |     1 -
+ .../send-gift-inline-css/assets/social/pinterest-circled.svg        |     1 -
+ .../send-gift-inline-css/assets/social/twitter-circled.svg          |     1 -
+ .../send-gift-inline-css/assets/social/youtube-circled.svg          |     1 -
+ Email-templates/send-gift-inline-css/fonts/Avenir-Roman.eot         |   Bin 22712 -> 0 bytes
+ Email-templates/send-gift-inline-css/fonts/Avenir-Roman.svg         |   664 -
+ Email-templates/send-gift-inline-css/fonts/Avenir-Roman.ttf         |   Bin 22484 -> 0 bytes
+ Email-templates/send-gift-inline-css/fonts/Avenir-Roman.woff        |   Bin 12872 -> 0 bytes
+ Email-templates/send-gift-inline-css/fonts/Avenir-Roman.woff2       |   Bin 9184 -> 0 bytes
+ .../send-gift-inline-css/fonts/PlayfairDisplay-Regular.eot          |   Bin 220168 -> 0 bytes
+ .../send-gift-inline-css/fonts/PlayfairDisplay-Regular.svg          | 10742 -------
+ .../send-gift-inline-css/fonts/PlayfairDisplay-Regular.ttf          |   Bin 219908 -> 0 bytes
+ .../send-gift-inline-css/fonts/PlayfairDisplay-Regular.woff         |   Bin 101684 -> 0 bytes
+ .../send-gift-inline-css/fonts/PlayfairDisplay-Regular.woff2        |   Bin 73136 -> 0 bytes
+ Email-templates/send-gift-inline-css/maquetado                      |     1 -
+ Email-templates/send-gift-inline-css/send-gift.html                 |   152 -
+ Email-templates/send-gift.zip                                       |   Bin 3628612 -> 0 bytes
+ Email-templates/send-gift/assets/awards/five-diamond.png            |   Bin 4405 -> 0 bytes
+ Email-templates/send-gift/assets/awards/four-diamond.png            |   Bin 4410 -> 0 bytes
+ Email-templates/send-gift/assets/awards/trip-advisor.png            |   Bin 44630 -> 0 bytes
+ Email-templates/send-gift/assets/chevron-right.png                  |   Bin 202 -> 0 bytes
+ Email-templates/send-gift/assets/img-mr-mrs.png                     |   Bin 364611 -> 0 bytes
+ Email-templates/send-gift/assets/img-mr-mrs@2x.png                  |   Bin 997197 -> 0 bytes
+ Email-templates/send-gift/assets/img-mr-mrs@3x.png                  |   Bin 1759702 -> 0 bytes
+ Email-templates/send-gift/assets/palace-weddings-logo.png           |   Bin 3011 -> 0 bytes
+ Email-templates/send-gift/assets/palace/leblanc-resorts.png         |   Bin 1560 -> 0 bytes
+ Email-templates/send-gift/assets/palace/moon-palace-cancun.png      |   Bin 1835 -> 0 bytes
+ Email-templates/send-gift/assets/palace/palace-resorts.png          |   Bin 2051 -> 0 bytes
+ Email-templates/send-gift/assets/social/facebook-circled.png        |   Bin 2534 -> 0 bytes
+ Email-templates/send-gift/assets/social/instagram-circled.png       |   Bin 4018 -> 0 bytes
+ Email-templates/send-gift/assets/social/pinterest-circled.png       |   Bin 3144 -> 0 bytes
+ Email-templates/send-gift/assets/social/twitter-circled.png         |   Bin 2891 -> 0 bytes
+ Email-templates/send-gift/assets/social/youtube-circled.png         |   Bin 2759 -> 0 bytes
+ Email-templates/send-gift/fonts/Avenir-Roman.eot                    |   Bin 22712 -> 0 bytes
+ Email-templates/send-gift/fonts/Avenir-Roman.ttf                    |   Bin 22484 -> 0 bytes
+ Email-templates/send-gift/fonts/Avenir-Roman.woff                   |   Bin 12872 -> 0 bytes
+ Email-templates/send-gift/fonts/Avenir-Roman.woff2                  |   Bin 9184 -> 0 bytes
+ Email-templates/send-gift/fonts/PlayfairDisplay-Regular.eot         |   Bin 220168 -> 0 bytes
+ Email-templates/send-gift/fonts/PlayfairDisplay-Regular.ttf         |   Bin 219908 -> 0 bytes
+ Email-templates/send-gift/fonts/PlayfairDisplay-Regular.woff        |   Bin 101684 -> 0 bytes
+ Email-templates/send-gift/fonts/PlayfairDisplay-Regular.woff2       |   Bin 73136 -> 0 bytes
+ Email-templates/send-gift/maquetado                                 |     1 -
+ Email-templates/send-gift/send-gift.html                            |   394 -
+ Email-templates/send-gift/style.css                                 |   247 -
+ _permisos.sql                                                       |     1 -
+ config/.global.js                                                   |     2 +-
+ config/global.js                                                    |     6 +-
+ src/server/index.js                                                 |     8 +-
+ src/server/offline/APIs/amada-tipos.json                            |    65 -
+ src/server/offline/APIs/balance.json                                |    11 -
+ src/server/offline/APIs/billing-address.json                        |   557 -
+ src/server/offline/APIs/categories.json                             |    52 -
+ src/server/offline/APIs/category.json                               |  1223 -
+ src/server/offline/APIs/event-locations.json                        |   580 -
+ src/server/offline/APIs/events.json                                 |    61 -
+ src/server/offline/APIs/hotels.json                                 |   162 -
+ src/server/offline/APIs/item-resort.json                            |  5016 ---
+ src/server/offline/APIs/lang-en.json                                |   138 -
+ src/server/offline/APIs/locations.json                              |   195 -
+ src/server/offline/APIs/my-cart.json                                |    47 -
+ src/server/offline/APIs/paises.json                                 |   257 -
+ src/server/offline/APIs/profile-domicilios.json                     |     7 -
+ src/server/offline/APIs/profile-paises.json                         |   258 -
+ src/server/offline/APIs/profile.json                                |    89 -
+ src/server/offline/APIs/promotions.json                             |    95 -
+ src/server/offline/APIs/reservas.json                               |    25 -
+ src/server/offline/APIs/resort-item.json                            | 14673 ---------
+ src/server/offline/APIs/resort.json                                 |    26 -
+ src/server/offline/APIs/resorts.json                                |    21 -
+ src/server/offline/APIs/saldo-favor.json                            |    12 -
+ src/server/offline/APIs/servicios.json                              |   366 -
+ src/server/offline/APIs/shopping.json                               |   679 -
+ src/server/offline/APIs/shoppingloc.json                            |    14 -
+ src/server/offline/APIs/terminosycondiciones.json                   |    14 -
+ src/server/offline/APIs/third-booking.json                          |   179 -
+ src/server/offline/APIs/tipo-2.json                                 |    43 -
+ src/server/offline/APIs/tipos.json                                  |   326 -
+ src/server/offline/APIs/todos-los-servicios.json                    | 46282 ----------------------------
+ src/server/offline/APIs/unidades-categoria.json                     |   423 -
+ src/server/offline/APIs/unidades.json                               |   151 -
+ src/server/offline/APIs/user.json                                   |    31 -
+ src/server/offline/APIs/wedding-extras.json                         |   530 -
+ src/server/offline/APIs/wedding-planner.json                        |    33 -
+ src/server/offline/router.js                                        |    51 -
+ 98 files changed, 25 insertions(+), 85082 deletions(-)
+ create mode 100644 .vscode/launch.json
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/awards/five-diamond.svg
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/awards/four-diamond.svg
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/awards/trip-advisor.svg
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/chevron-right.svg
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/img-mr-mrs.png
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/img-mr-mrs@2x.png
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/img-mr-mrs@3x.png
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/palace-weddings-logo.png
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/palace-weddings.svg
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/palace/leblanc-resorts.svg
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/palace/moon-palace-cancun.svg
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/palace/palace-resorts.svg
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/social/facebook-circled.svg
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/social/instagram-circled.svg
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/social/pinterest-circled.svg
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/social/twitter-circled.svg
+ delete mode 100644 Email-templates/send-gift-inline-css/assets/social/youtube-circled.svg
+ delete mode 100644 Email-templates/send-gift-inline-css/fonts/Avenir-Roman.eot
+ delete mode 100644 Email-templates/send-gift-inline-css/fonts/Avenir-Roman.svg
+ delete mode 100644 Email-templates/send-gift-inline-css/fonts/Avenir-Roman.ttf
+ delete mode 100644 Email-templates/send-gift-inline-css/fonts/Avenir-Roman.woff
+ delete mode 100644 Email-templates/send-gift-inline-css/fonts/Avenir-Roman.woff2
+ delete mode 100644 Email-templates/send-gift-inline-css/fonts/PlayfairDisplay-Regular.eot
+ delete mode 100644 Email-templates/send-gift-inline-css/fonts/PlayfairDisplay-Regular.svg
+ delete mode 100644 Email-templates/send-gift-inline-css/fonts/PlayfairDisplay-Regular.ttf
+ delete mode 100644 Email-templates/send-gift-inline-css/fonts/PlayfairDisplay-Regular.woff
+ delete mode 100644 Email-templates/send-gift-inline-css/fonts/PlayfairDisplay-Regular.woff2
+ delete mode 100644 Email-templates/send-gift-inline-css/maquetado
+ delete mode 100644 Email-templates/send-gift-inline-css/send-gift.html
+ delete mode 100644 Email-templates/send-gift.zip
+ delete mode 100644 Email-templates/send-gift/assets/awards/five-diamond.png
+ delete mode 100644 Email-templates/send-gift/assets/awards/four-diamond.png
+ delete mode 100644 Email-templates/send-gift/assets/awards/trip-advisor.png
+ delete mode 100644 Email-templates/send-gift/assets/chevron-right.png
+ delete mode 100644 Email-templates/send-gift/assets/img-mr-mrs.png
+ delete mode 100644 Email-templates/send-gift/assets/img-mr-mrs@2x.png
+ delete mode 100644 Email-templates/send-gift/assets/img-mr-mrs@3x.png
+ delete mode 100644 Email-templates/send-gift/assets/palace-weddings-logo.png
+ delete mode 100644 Email-templates/send-gift/assets/palace/leblanc-resorts.png
+ delete mode 100644 Email-templates/send-gift/assets/palace/moon-palace-cancun.png
+ delete mode 100644 Email-templates/send-gift/assets/palace/palace-resorts.png
+ delete mode 100644 Email-templates/send-gift/assets/social/facebook-circled.png
+ delete mode 100644 Email-templates/send-gift/assets/social/instagram-circled.png
+ delete mode 100644 Email-templates/send-gift/assets/social/pinterest-circled.png
+ delete mode 100644 Email-templates/send-gift/assets/social/twitter-circled.png
+ delete mode 100644 Email-templates/send-gift/assets/social/youtube-circled.png
+ delete mode 100644 Email-templates/send-gift/fonts/Avenir-Roman.eot
+ delete mode 100644 Email-templates/send-gift/fonts/Avenir-Roman.ttf
+ delete mode 100644 Email-templates/send-gift/fonts/Avenir-Roman.woff
+ delete mode 100644 Email-templates/send-gift/fonts/Avenir-Roman.woff2
+ delete mode 100644 Email-templates/send-gift/fonts/PlayfairDisplay-Regular.eot
+ delete mode 100644 Email-templates/send-gift/fonts/PlayfairDisplay-Regular.ttf
+ delete mode 100644 Email-templates/send-gift/fonts/PlayfairDisplay-Regular.woff
+ delete mode 100644 Email-templates/send-gift/fonts/PlayfairDisplay-Regular.woff2
+ delete mode 100644 Email-templates/send-gift/maquetado
+ delete mode 100644 Email-templates/send-gift/send-gift.html
+ delete mode 100644 Email-templates/send-gift/style.css
+ delete mode 100644 _permisos.sql
+ delete mode 100755 src/server/offline/APIs/amada-tipos.json
+ delete mode 100644 src/server/offline/APIs/balance.json
+ delete mode 100644 src/server/offline/APIs/billing-address.json
+ delete mode 100644 src/server/offline/APIs/categories.json
+ delete mode 100644 src/server/offline/APIs/category.json
+ delete mode 100644 src/server/offline/APIs/event-locations.json
+ delete mode 100644 src/server/offline/APIs/events.json
+ delete mode 100755 src/server/offline/APIs/hotels.json
+ delete mode 100644 src/server/offline/APIs/item-resort.json
+ delete mode 100644 src/server/offline/APIs/lang-en.json
+ delete mode 100644 src/server/offline/APIs/locations.json
+ delete mode 100644 src/server/offline/APIs/my-cart.json
+ delete mode 100644 src/server/offline/APIs/paises.json
+ delete mode 100644 src/server/offline/APIs/profile-domicilios.json
+ delete mode 100644 src/server/offline/APIs/profile-paises.json
+ delete mode 100644 src/server/offline/APIs/profile.json
+ delete mode 100644 src/server/offline/APIs/promotions.json
+ delete mode 100644 src/server/offline/APIs/reservas.json
+ delete mode 100644 src/server/offline/APIs/resort-item.json
+ delete mode 100644 src/server/offline/APIs/resort.json
+ delete mode 100644 src/server/offline/APIs/resorts.json
+ delete mode 100644 src/server/offline/APIs/saldo-favor.json
+ delete mode 100755 src/server/offline/APIs/servicios.json
+ delete mode 100644 src/server/offline/APIs/shopping.json
+ delete mode 100644 src/server/offline/APIs/shoppingloc.json
+ delete mode 100644 src/server/offline/APIs/terminosycondiciones.json
+ delete mode 100644 src/server/offline/APIs/third-booking.json
+ delete mode 100644 src/server/offline/APIs/tipo-2.json
+ delete mode 100755 src/server/offline/APIs/tipos.json
+ delete mode 100755 src/server/offline/APIs/todos-los-servicios.json
+ delete mode 100755 src/server/offline/APIs/unidades-categoria.json
+ delete mode 100755 src/server/offline/APIs/unidades.json
+ delete mode 100755 src/server/offline/APIs/user.json
+ delete mode 100644 src/server/offline/APIs/wedding-extras.json
+ delete mode 100644 src/server/offline/APIs/wedding-planner.json
+ delete mode 100644 src/server/offline/router.js
+  ༆ ixicale༆   ⎣09:02:39⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding 1 ● 
+gis;git show                                                                               hostname: [ix]
+En la rama qa_wedding
+Tu rama está actualizada con 'origin/qa_wedding'.
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificado:     src/client/views/positivebalance/manageevents/index.js
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+
+  ༆ ixicale༆   ⎣09:02:48⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding 1 ● 
+npm run dev                                                                                hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.mode=dev
+[1] 
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): config/global.js src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: QA
+[0] Listening on port 9000![1] ✖ ｢wds｣:  Error: listen EADDRINUSE: address already in use 0.0.0.0:9000
+[1]     at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+[1]     at listenInCluster (net.js:1364:12)
+[1]     at doListen (net.js:1501:7)
+[1]     at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+[1]   code: 'EADDRINUSE',
+[1]   errno: 'EADDRINUSE',
+[1]   syscall: 'listen',
+[1]   address: '0.0.0.0',
+[1]   port: 9000
+[1] }
+[1] /var/www/html/NODE/clv-service-web/src/client/docs/styles/themes/_theme.scss /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/docs/styles/themes/wedding-theme.scss /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/docs/styles/themes/variables/_wedding-variables.scss /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/components/bucket/style.css /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/components/calendar/base/calendarStyle.css /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/components/paginator/style.css /var/www/html/NODE/clv-service-web
+^C[0] npm run server exited with code SIGINT
+[1] /var/www/html/NODE/clv-service-web/src/client/components/collapsible/style.css /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/components/creditcard/style.css /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/components/calendar/base/calendarDay/calendarDayStyle.css /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/components/calendar/dialog/dialog.css /var/www/html/NODE/clv-service-web
+^C[1]    11860 terminated  npm run dev
+
+  ༆ ixicale༆  ✘  ⎣09:03:09⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding 1 ● 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆  ✘  ⎣09:03:09⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding 1 ●                                                                                            hostname: [ix]
+
+  ༆ ixicale༆  ✘  ⎣09:03:09⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding 1 ● 
+[1] npm run client exited with code SIGINT                                                 hostname: [ix]
+^[OA^[OB^C
+
+  ༆ ixicale༆  ✘  ⎣09:03:58⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding 2 ● 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆  ✘  ⎣09:03:58⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding 2 ● 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆  ✘  ⎣09:03:58⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding 2 ● 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆  ✘  ⎣09:03:58⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding 2 ● 
+npm run dev                                                                                hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.mode=dev
+[1] 
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): config/global.js src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: QA
+[0] Listening on port 8080![1] ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+[1] ℹ ｢wds｣: webpack output is served from /
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] /var/www/html/NODE/clv-service-web/src/client/docs/styles/themes/_theme.scss /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/docs/styles/themes/wedding-theme.scss /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/docs/styles/themes/variables/_wedding-variables.scss /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/components/bucket/style.css /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/components/paginator/style.css /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/components/calendar/base/calendarStyle.css /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/components/collapsible/style.css /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/components/creditcard/style.css /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/components/calendar/base/calendarDay/calendarDayStyle.css /var/www/html/NODE/clv-service-web
+[1] /var/www/html/NODE/clv-service-web/src/client/components/calendar/dialog/dialog.css /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wdm｣: Hash: 968d0342bb05242b600f
+[1] Version: webpack 4.43.0
+[1] Time: 13771ms
+[1] Built at: 2020-12-08 9:04:16
+[1]                                                                       Asset       Size  Chunks                         Chunk Names
+[1]                                                                  index.html   1.69 KiB          [emitted]              
+[1]                                                             postlogin/0.css   1.21 MiB       0  [emitted]              
+[1]                                                             postlogin/1.css   22.4 KiB       1  [emitted]              
+[1]                                          postlogin/1a68e1ab0e300a73143b0.js   1.31 KiB       0  [emitted] [immutable]  
+[1]                                                             postlogin/2.css   2.29 MiB       2  [emitted]              
+[1]                                        postlogin/5e2fdf086c597befeca9app.js   9.52 MiB     app  [emitted] [immutable]  app
+[1]                                          postlogin/6038d8d29e72b14030741.js   1.42 KiB       1  [emitted] [immutable]  
+[1]                postlogin/Avenir-Black4ac13350261f8d16d984161187d672ae.woff2   23.6 KiB          [emitted]              
+[1]                 postlogin/Avenir-Black78d1a7db1a3279fa8c0b587e2ce04bb8.woff     33 KiB          [emitted]              
+[1]                  postlogin/Avenir-Black8570aee9babb103961a481b4f3b468c0.eot   67.9 KiB          [emitted]              
+[1]                  postlogin/Avenir-Blackd7b3487c50456791d034d77c7b48fcf7.ttf   67.7 KiB          [emitted]              
+[1]                   postlogin/Avenir-Book0f35616cbb27428d7e988fbd8255b788.ttf   44.1 KiB          [emitted]              
+[1]                 postlogin/Avenir-Book2e30265a0e131e6f999a7268d0a3854e.woff2   13.9 KiB          [emitted]              
+[1]                  postlogin/Avenir-Book3b07923576139de0dd8acfd3f511a023.woff   19.8 KiB          [emitted]              
+[1]                   postlogin/Avenir-Book6073c4127e04bc29b7e75decdc4878ba.eot   44.3 KiB          [emitted]              
+[1]                 postlogin/Avenir-Heavy2ba1dd96c3ae2a4936133d98f158df9e.woff   46.9 KiB          [emitted]              
+[1]                  postlogin/Avenir-Heavy409ed0b3bf285a0d43e1e482b9a7016f.ttf    123 KiB          [emitted]              
+[1]                postlogin/Avenir-Heavy413b970d129b05f9eb4cb51e42249160.woff2   30.6 KiB          [emitted]              
+[1]                  postlogin/Avenir-Heavy8849f635e13c36058df1362caca19650.eot    123 KiB          [emitted]              
+[1]                 postlogin/Avenir-Light617ff7daff2c7de52879c4371cb3cfa9.woff   38.7 KiB          [emitted]              
+[1]                postlogin/Avenir-Light7834e58fbcb63f45ce8290a432b5abce.woff2   25.1 KiB          [emitted]              
+[1]                  postlogin/Avenir-Light94ba232b62328041e387e70c06a785dd.ttf   88.9 KiB          [emitted]              
+[1]                  postlogin/Avenir-Lightf558d3dfca7ce9d2c33f2b95527c4843.eot   89.1 KiB          [emitted]              
+[1]                  postlogin/Avenir-Roman465b7979e1ef862c417b50b814b45892.eot   22.2 KiB          [emitted]              
+[1]                postlogin/Avenir-Roman4d7c78ec9d2b5b2cb3389d721e2f6f81.woff2   8.97 KiB          [emitted]              
+[1]                  postlogin/Avenir-Romanc406a021f3e1187bb6bed1e93da4672e.ttf     22 KiB          [emitted]              
+[1]                 postlogin/Avenir-Romanebbb65ab3106282c8b4503761fca679c.woff   12.6 KiB          [emitted]              
+[1]                     postlogin/Miso-Bold5f4170aeb98cf7d22524bbdccf50fb73.ttf   59.4 KiB          [emitted]              
+[1]                     postlogin/Miso-Boldb78843047ece07fc9a36dd16bbe70af7.otf     24 KiB          [emitted]              
+[1]                    postlogin/Miso-Light9dbfa9f7a7432ce926ff67d557283eb4.otf   25.4 KiB          [emitted]              
+[1]                  postlogin/Miso-Light9f8c2c2987f3f9e9390698204d5bc023.woff2   11.4 KiB          [emitted]              
+[1]                  postlogin/Miso-Regular872fdfa2c03ad7aa20582602e5257c10.otf   25.7 KiB          [emitted]              
+[1]                  postlogin/Miso-Regular9f3e5f399c91e65d1f10072955705898.ttf   57.9 KiB          [emitted]              
+[1]      postlogin/OpenSansCondensed-Bold1fcf2943496a113eb3be1db3551e840a.woff2   55.2 KiB          [emitted]              
+[1]        postlogin/OpenSansCondensed-Bold3dba10e1afb786db6704ced33d742cfe.eot    144 KiB          [emitted]              
+[1]       postlogin/OpenSansCondensed-Boldd1509f06bff29a63dfd9e5238d75096d.woff   75.3 KiB          [emitted]              
+[1]        postlogin/OpenSansCondensed-Boldf6805ba6e16d08fe09138ca28525621f.ttf    143 KiB          [emitted]              
+[1]       postlogin/OpenSansCondensed-Light01c1d4a2465f5038ba02952d271b8241.eot   99.1 KiB          [emitted]              
+[1]       postlogin/OpenSansCondensed-Light7402deacd4aff7ab10fcc589888b1e3d.ttf   98.9 KiB          [emitted]              
+[1]      postlogin/OpenSansCondensed-Lightb51832ee9a0a0325cdfee3177d3bf3ba.woff   58.4 KiB          [emitted]              
+[1]     postlogin/OpenSansCondensed-Lightbc4fde28999efe68109abd4b8a8510f2.woff2   43.6 KiB          [emitted]              
+[1]        postlogin/PalaceFontIcon-Regular08d519ba55c33fdb7a2928612e092646.ttf   7.71 KiB          [emitted]              
+[1]        postlogin/PalaceFontIcon-Regular60846106f092bc5d8ad6579d8bee7f49.svg   15.8 KiB          [emitted]              
+[1]      postlogin/PalaceFontIcon-Regulare3c67aef32bd3c81110b834f8b747b39.woff2   3.75 KiB          [emitted]              
+[1]       postlogin/PalaceFontIcon-Regularf069e5db447692e64f06a6c2dcd7ae0f.woff   4.79 KiB          [emitted]              
+[1]        postlogin/PalaceFontIcon-Regularfe0f94fcf8215edfba354de24a7e8430.eot   7.93 KiB          [emitted]              
+[1]          postlogin/PalaceFontIcon-Solid25ba23a7b18be825303d3338ed22a0c4.ttf   4.96 KiB          [emitted]              
+[1]        postlogin/PalaceFontIcon-Solid579bf4eef6a8c516b5fedafaad7e9268.woff2   2.54 KiB          [emitted]              
+[1]          postlogin/PalaceFontIcon-Solid8559d5644fa0fc0977a99d66bb7015c4.eot   5.17 KiB          [emitted]              
+[1]          postlogin/PalaceFontIcon-Solida69209d90e741553f62e8b920c464f20.svg    8.6 KiB          [emitted]              
+[1]         postlogin/PalaceFontIcon-Solidd15bfec4aecf39221f7084ab841fc442.woff    3.3 KiB          [emitted]              
+[1]   postlogin/PalaceFontIconBrand-Regular3f7dfc6dfc8a28e0d7aa56d6712cf8e9.svg   30.2 KiB          [emitted]              
+[1]   postlogin/PalaceFontIconBrand-Regular5d52a72af83e362533d9718699c19611.ttf   16.5 KiB          [emitted]              
+[1] postlogin/PalaceFontIconBrand-Regular814d6a6979f050f9f43526d93b03b8ab.woff2   7.53 KiB          [emitted]              
+[1]   postlogin/PalaceFontIconBrand-Regular9cb4ca5af3eb042954ec366682a9525a.eot   16.7 KiB          [emitted]              
+[1]  postlogin/PalaceFontIconBrand-Regulard0aea1a0975b1fafce16162cf4727bda.woff    9.3 KiB          [emitted]              
+[1]           postlogin/Parisienne-Regular1e3f731438bd261b50550bdf1ec77866.woff     33 KiB          [emitted]              
+[1]            postlogin/Parisienne-Regular280b9347ffc996c1d302ce1d29fffa41.ttf   58.4 KiB          [emitted]              
+[1]            postlogin/Parisienne-Regular2d568ce5cf29ab70a856457b9afb7ed7.eot   58.6 KiB          [emitted]              
+[1]          postlogin/Parisienne-Regulara5c190fb1bd3d0861e4247af033dedd5.woff2   26.9 KiB          [emitted]              
+[1]        postlogin/PlayfairDisplay-Italic2778106629be4e3a63a01bbe0eaf2ec0.ttf    219 KiB          [emitted]              
+[1]        postlogin/PlayfairDisplay-Italic475103cd4dca33d33d04a7c34b016385.eot    219 KiB          [emitted]              
+[1]       postlogin/PlayfairDisplay-Italic90ca1fdea31539237f4f424767bd9631.woff    107 KiB          [emitted]              
+[1]      postlogin/PlayfairDisplay-Italicd56bcde17a92072b9b88d0c97d673484.woff2   75.9 KiB          [emitted]              
+[1]      postlogin/PlayfairDisplay-Regular18ea6a671ba47c84656f069a157b43fc.woff   99.3 KiB          [emitted]              
+[1]     postlogin/PlayfairDisplay-Regular609d66e64dfb0bd7bb88439ea18e1f85.woff2   71.4 KiB          [emitted]              
+[1]       postlogin/PlayfairDisplay-Regular763f2f687131adf60e152c41556a711c.eot    215 KiB          [emitted]              
+[1]       postlogin/PlayfairDisplay-Regulara335ac6654da08d4a0a46b3a9fc48e3b.ttf    215 KiB          [emitted]              
+[1]                   postlogin/Roboto-Bold36b5bab58a18b9c924861a4ccbf1a790.ttf    160 KiB          [emitted]              
+[1]                  postlogin/Roboto-Lightd5c46b134c17b2138dcd1bb0efa67049.ttf    159 KiB          [emitted]              
+[1]                postlogin/Roboto-Regular5673da52c98bb6cb33ada5aaf649703e.ttf    155 KiB          [emitted]              
+[1]                          postlogin/amex232403f5c7d60dc48d8e50d68373c311.png   19.2 KiB          [emitted]              
+[1]                                                           postlogin/app.css    184 KiB     app  [emitted]              app
+[1]                                          postlogin/e06a1aa347eb01c831772.js   1.34 KiB       2  [emitted] [immutable]  
+[1]                 postlogin/experience-bg9ff8ed9d73f06e3b7183a58dd183d286.jpg   47.7 KiB          [emitted]              
+[1]               postlogin/fa-brands-4000425d661f34ffa46604c9dfa344c03bb.woff2   73.5 KiB          [emitted]              
+[1]                 postlogin/fa-brands-400189c0326f75931886d5b60cde8b5628f.ttf    127 KiB          [emitted]              
+[1]                 postlogin/fa-brands-400451b51d8700fb035bcaaa9e8710b384a.eot    128 KiB          [emitted]              
+[1]                postlogin/fa-brands-40085b063debeb5d5f079776ac1a9c924cb.woff   86.3 KiB          [emitted]              
+[1]               postlogin/fa-regular-40014f22fbed8146dbf3b497bb32d8491b0.woff   16.4 KiB          [emitted]              
+[1]              postlogin/fa-regular-400772a0f14c850c8b0dfe283a95857583e.woff2   13.3 KiB          [emitted]              
+[1]                postlogin/fa-regular-4009230982faf6ed4d1dab07babfb813777.ttf   33.3 KiB          [emitted]              
+[1]                postlogin/fa-regular-400b6579220162705be426ad4db0dc43f6b.eot   33.6 KiB          [emitted]              
+[1]                  postlogin/fa-solid-9001898ebd2e3162e7ca8627073d865b893.eot    188 KiB          [emitted]              
+[1]                postlogin/fa-solid-9004cc04a31c42f2f9d951547bbce75960b.woff2   73.8 KiB          [emitted]              
+[1]                  postlogin/fa-solid-900b1161bce5381a5fa7aacc073e1a01dd3.ttf    188 KiB          [emitted]              
+[1]                 postlogin/fa-solid-900db525089f5101b59a66184d109e6f917.woff   96.1 KiB          [emitted]              
+[1]                                                       postlogin/favicon.ico    454 KiB          [emitted]              
+[1]              postlogin/foundation-icons92827f088b9eda87169bdc2b9888ce52.eot   53.3 KiB          [emitted]              
+[1]             postlogin/foundation-iconsa188c2f768ce5033d3f5d47be7280e25.woff   31.3 KiB          [emitted]              
+[1]              postlogin/foundation-iconse20945d7c929279ef7a6f1db184a4470.ttf   55.6 KiB          [emitted]              
+[1]                     postlogin/icon_copy288cbe9bd05f2ffde8f3b7c85668b9c9.png  668 bytes          [emitted]              
+[1]                      postlogin/icon_csv55c31272f83e40502e2a396dc3e77c69.png   1.97 KiB          [emitted]              
+[1]                    postlogin/icon_excel6f8d05823cf433aaa565380dd9552560.png   1.63 KiB          [emitted]              
+[1]                     postlogin/icon_json2f0e17de5d4309e674717298e674b722.png   1.97 KiB          [emitted]              
+[1]                      postlogin/icon_pdf2d1bf3fb16dddf1f1724ba1d7f0ffb19.png   1.23 KiB          [emitted]              
+[1]                    postlogin/icon_print2d7a612b847283f93314eb131fb995d9.png  846 bytes          [emitted]              
+[1]                                                     postlogin/manifest.json  437 bytes          [emitted]              
+[1]                    postlogin/mastercardbf9656c02c52f178d1090664bf694feb.png   10.7 KiB          [emitted]              
+[1]                        postlogin/spriteee806952989c4df14c2d24eb930c39ca.svg    112 KiB          [emitted]              
+[1]                         postlogin/telonea719e6d7484daca7a87dfa2e9ca6622.png    131 KiB          [emitted]              
+[1]                          postlogin/visa32be215fba9b3709b12258c14cc866a2.png   5.36 KiB          [emitted]              
+[1]                                                                       sw.js    912 KiB          [emitted]              
+[1] Entrypoint app = postlogin/app.css postlogin/5e2fdf086c597befeca9app.js
+[1] [0] multi (webpack)-dev-server/client?http://0.0.0.0:9000 @babel/polyfill ./src/client/index.js 52 bytes {app} [built]
+[1] [./node_modules/@babel/polyfill/lib/index.js] 686 bytes {app} [built]
+[1] [./node_modules/@babel/polyfill/lib/noConflict.js] 567 bytes {app} [built]
+[1] [./node_modules/core-js/library/fn/global.js] 87 bytes {app} [built]
+[1] [./node_modules/react-dom/index.js] 1.33 KiB {app} [built]
+[1] [./node_modules/react/index.js] 190 bytes {app} [built]
+[1] [./node_modules/strip-ansi/index.js] 161 bytes {app} [built]
+[1] [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:9000] (webpack)-dev-server/client?http://0.0.0.0:9000 4.29 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {app} [built]
+[1] [./src/client/index.js] 424 bytes {app} [built]
+[1]     + 655 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]     [./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html] 1.81 KiB {0} [built]
+[1]     [./node_modules/lodash/lodash.js] 530 KiB {0} [built]
+[1]     [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {0} [built]
+[1]     [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 497 bytes {0} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/bucket/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/bucket/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/bucket/style.css 18.7 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/base/calendarDay/calendarDayStyle.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/base/calendarDay/calendarDayStyle.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/base/calendarDay/calendarDayStyle.css 46.1 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/base/calendarStyle.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/base/calendarStyle.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/base/calendarStyle.css 11.8 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/dialog/dialog.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/dialog/dialog.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/dialog/dialog.css 6.69 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/collapsible/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/collapsible/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/collapsible/style.css 5.62 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/creditcard/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/creditcard/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/creditcard/style.css 96.5 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/paginator/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/paginator/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/paginator/style.css 3.78 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/_theme.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/_theme.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/_theme.scss 1020 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/getUrl.js] 830 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.eot] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.ttf] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff] 105 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff2] 106 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.eot] 103 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.ttf] 103 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff2] 105 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.eot] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.ttf] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.woff] 105 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.woff2] 106 bytes {mini-css-extract-plugin} [built]
+[1]         + 73 hidden modules
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/variables/_wedding-variables.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/variables/_wedding-variables.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/variables/_wedding-variables.scss 17 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/wedding-theme.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/wedding-theme.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/wedding-theme.scss 1.94 MiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/getUrl.js] 830 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/amex.png] 96 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/mastercard.png] 102 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/visa.png] 96 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.eot] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.ttf] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff] 105 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff2] 106 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.eot] 103 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.ttf] 103 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff2] 105 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.eot] 104 bytes {mini-css-extract-plugin} [built]
+[1]         + 76 hidden modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]     [./node_modules/@babel/polyfill/lib/index.js] 686 bytes {0} [built]
+[1]     [./node_modules/@babel/polyfill/lib/noConflict.js] 567 bytes {0} [built]
+[1]     [./node_modules/core-js/es6/index.js] 5.78 KiB {0} [built]
+[1]     [./node_modules/core-js/fn/array/flat-map.js] 108 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/array/includes.js] 109 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/entries.js] 109 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/get-own-property-descriptors.js] 148 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/values.js] 107 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/promise/finally.js] 166 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/string/pad-end.js] 108 bytes {0} [built]
+[1]     [./node_modules/core-js/library/fn/global.js] 87 bytes {0} [built]
+[1]     [./node_modules/url-parse/index.js] 12.4 KiB {0} [built]
+[1]     [./src/server/libraries/ResponseFormatter.js] 3.73 KiB {0} [built]
+[1]     [./src/services/fetchHandler.js] 7.62 KiB {0} [built]
+[1]     [./src/services/serviceWorker.js] 393 bytes {0} [built]
+[1]         + 299 hidden modules
+[1] ℹ ｢wdm｣: Compiled successfully.[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: 003d76d46fc9371a30df
+[1] Version: webpack 4.43.0
+[1] Time: 2162ms
+[1] Built at: 2020-12-08 9:09:58
+[1]                                Asset       Size  Chunks                         Chunk Names
+[1]                           index.html   1.69 KiB          [emitted]              
+[1]                      postlogin/0.css   1.21 MiB       0  [emitted]              
+[1]   postlogin/01f2e7dd069690a77fc20.js   1.31 KiB       0  [emitted] [immutable]  
+[1]                      postlogin/1.css   22.4 KiB       1  [emitted]              
+[1]                      postlogin/2.css   2.29 MiB       2  [emitted]              
+[1]   postlogin/91aec014de5a48c1813d2.js   1.34 KiB       2  [emitted] [immutable]  
+[1]                    postlogin/app.css    184 KiB     app  [emitted]              app
+[1] postlogin/cb61759a0289ed52cd7eapp.js   9.52 MiB     app  [emitted] [immutable]  app
+[1]   postlogin/de13c79346b7caedb7081.js   1.42 KiB       1  [emitted] [immutable]  
+[1]                postlogin/favicon.ico    454 KiB          [emitted]              
+[1]              postlogin/manifest.json  437 bytes          [emitted]              
+[1]                                sw.js    912 KiB          [emitted]              
+[1]  + 91 hidden assets
+[1] Entrypoint app = postlogin/app.css postlogin/cb61759a0289ed52cd7eapp.js
+[1] [./src/client/views/positivebalance/manageevents/index.js] 29.6 KiB {app} [built]
+[1]     + 669 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+^C[0] npm run server exited with code SIGINT
+[1] npm run client exited with code SIGINT
+
+
+  ༆ ixicale༆  ✘  ⎣09:11:17⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding ↓2 2 ● 
+gicx                                                                                       hostname: [ix]
+error: Los cambios locales de los siguientes archivos serán sobrescritos por checkout:
+	config/global.js
+Por favor realice un commit con los cambios o un stash antes de cambiar ramas.
+Abortando
+  ༆ ixicale༆  ✘  ⎣09:11:21⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding ↓2 2 ● 
+gicx                                                                                       hostname: [ix]
+M	src/client/views/positivebalance/manageevents/index.js
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣09:11:36⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1 ● 
+gipl                                                                                       hostname: [ix]
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0
+Desempaquetando objetos: 100% (3/3), 371 bytes | 185.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-service-web
+   6618144e..d245f714  co-master  -> origin/co-master
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣09:11:41⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1 ● 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+M	src/client/views/positivebalance/manageevents/index.js
+Rama 'pre.dev.2020.12.07.1' configurada para hacer seguimiento a la rama remota 'pre.dev.2020.12.07.1' de 'origin'.
+Cambiado a nueva rama 'pre.dev.2020.12.07.1'
+
+  ༆ ixicale༆   ⎣09:11:51⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 1 ● 
+gipl                                                                                       hostname: [ix]
+gixcYa está actualizado.
+
+  ༆ ixicale༆   ⎣09:11:55⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 1 ● 
+gicx                                                                                       hostname: [ix]
+M	src/client/views/positivebalance/manageevents/index.js
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣09:11:56⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1 ● 
+gime pre.dev.2020.12                                                                       hostname: [ix]
+merge: pre.dev.2020.12 - nada que podamos fusionar
+
+  ༆ ixicale༆  ✘  ⎣09:11:58⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1 ● gime pre.dev.2020.12.07.1                                                                  hostname: [ix]
+Actualizando 800a4d9a..781d0be9
+Fast-forward
+ .gitignore                                                 |   1 -
+ src/server/.env.js => config/.global.js                    |   7 +-
+ src/server/env.js => config/global.js                      |  14 +-
+ config/webpack.config.base.js                              | 461 +++++++++++++++---------------
+ config/webpack.config.dev.js                               |  29 +-
+ config/webpack.config.js                                   |   8 +-
+ nodemon.json                                               |   2 +-
+ package-lock.json                                          | 588 ++++++++++++++++++++++++++++++++++++++-
+ package.json                                               |   6 +-
+ public/index.html                                          |   4 +-
+ public/manifest.json                                       |  36 +--
+ src/client/App.js                                          |  16 +-
+ src/client/app/Api.js                                      |   9 +-
+ src/client/app/History.js                                  |   5 +-
+ src/client/app/links.js                                    | 294 ++++++++++++++++++++
+ src/client/components/checkout/index.js                    |   8 +-
+ src/client/components/footer/index.js                      | 386 +++++++++++++++----------
+ src/client/components/image/Circle.js                      |  31 ++-
+ src/client/components/image/Rectangle.js                   |  30 +-
+ src/client/components/navbar/Navbar.js                     | 140 ++++++----
+ src/client/components/navbar/ToggleableMenu.js             |   4 +-
+ src/client/components/newletter/index.js                   |   2 +-
+ src/client/components/sidebar/index.js                     |  24 +-
+ src/client/docs/styles/pages/my-wedding/_my-wedding.scss   |   4 +
+ src/client/oldweddingcomponents/wellmakeyourslide/index.js | 130 +++++----
+ src/client/views/billingaddress/index.js                   |  34 ++-
+ src/client/views/detailsheet/index.js                      |   2 +-
+ src/client/views/events/forgotpass/index.js                |  14 +-
+ src/client/views/index.js                                  |  14 +-
+ src/client/views/login/index.js                            | 529 ++++++++++++++---------------------
+ src/client/views/mycart/index.js                           |  23 +-
+ src/client/views/mycart/location.js                        |   2 -
+ src/client/views/payments/logged.js                        |  55 ++--
+ src/server/app/RequestMethod.js                            |   3 +-
+ src/server/app/endpoints.js                                |  21 +-
+ src/server/app/index.js                                    |   2 +-
+ src/server/app/router.js                                   |   4 +-
+ src/server/controllers/EventController.js                  |  27 +-
+ src/server/controllers/FileController.js                   |  18 ++
+ src/server/index.js                                        |   6 +-
+ src/server/middlewares/ACLMiddleware.js                    |   2 +-
+ 41 files changed, 2001 insertions(+), 994 deletions(-)
+ rename src/server/.env.js => config/.global.js (67%)
+ rename src/server/env.js => config/global.js (61%)
+ create mode 100644 src/client/app/links.js
+  ༆ ixicale༆   ⎣09:12:00⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑106 1 ● 
+alias tt='git status'                                                                      hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:12:21⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑106 1 ● 
+tt                                                                                         hostname: [ix]
+En la rama ixicale
+Tu rama está adelantada a 'origin/ixicale' por 106 commits.
+  (usa "git push" para publicar tus commits locales)
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificado:     src/client/views/positivebalance/manageevents/index.js
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+
+  ༆ ixicale༆   ⎣09:12:22⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑106 1 ● 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-service-web.git
+   800a4d9a..781d0be9  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣09:12:41⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1 ● 
+npm run dev                                                                                hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] 
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.mode=dev
+[1] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): config/global.js src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[1] ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+[1] ℹ ｢wds｣: webpack output is served from /
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] ℹ ｢wdm｣: wait until bundle finished: /postlogin/positive-balance
+[1] ℹ ｢wdm｣: Hash: 95a533eeb03c92df1495
+[1] Version: webpack 4.43.0
+[1] Time: 14021ms
+[1] Built at: 2020-12-08 9:13:05
+[1]                                                                       Asset       Size  Chunks                         Chunk Names
+[1]                                                                  index.html   1.69 KiB          [emitted]              
+[1]                                                             postlogin/0.css   1.21 MiB       0  [emitted]              
+[1]                                                             postlogin/1.css   22.4 KiB       1  [emitted]              
+[1]                                                             postlogin/2.css   2.29 MiB       2  [emitted]              
+[1]                                          postlogin/2460f6dd240c6cf3f1ce1.js   1.42 KiB       1  [emitted] [immutable]  
+[1]                                        postlogin/6fc98fe41ca90b43033eapp.js   9.51 MiB     app  [emitted] [immutable]  app
+[1]                                          postlogin/89bcca4c8e2c530e2b652.js   1.34 KiB       2  [emitted] [immutable]  
+[1]                                          postlogin/9cedb2bd9fed754b59250.js   1.31 KiB       0  [emitted] [immutable]  
+[1]                postlogin/Avenir-Black4ac13350261f8d16d984161187d672ae.woff2   23.6 KiB          [emitted]              
+[1]                 postlogin/Avenir-Black78d1a7db1a3279fa8c0b587e2ce04bb8.woff     33 KiB          [emitted]              
+[1]                  postlogin/Avenir-Black8570aee9babb103961a481b4f3b468c0.eot   67.9 KiB          [emitted]              
+[1]                  postlogin/Avenir-Blackd7b3487c50456791d034d77c7b48fcf7.ttf   67.7 KiB          [emitted]              
+[1]                   postlogin/Avenir-Book0f35616cbb27428d7e988fbd8255b788.ttf   44.1 KiB          [emitted]              
+[1]                 postlogin/Avenir-Book2e30265a0e131e6f999a7268d0a3854e.woff2   13.9 KiB          [emitted]              
+[1]                  postlogin/Avenir-Book3b07923576139de0dd8acfd3f511a023.woff   19.8 KiB          [emitted]              
+[1]                   postlogin/Avenir-Book6073c4127e04bc29b7e75decdc4878ba.eot   44.3 KiB          [emitted]              
+[1]                 postlogin/Avenir-Heavy2ba1dd96c3ae2a4936133d98f158df9e.woff   46.9 KiB          [emitted]              
+[1]                  postlogin/Avenir-Heavy409ed0b3bf285a0d43e1e482b9a7016f.ttf    123 KiB          [emitted]              
+[1]                postlogin/Avenir-Heavy413b970d129b05f9eb4cb51e42249160.woff2   30.6 KiB          [emitted]              
+[1]                  postlogin/Avenir-Heavy8849f635e13c36058df1362caca19650.eot    123 KiB          [emitted]              
+[1]                 postlogin/Avenir-Light617ff7daff2c7de52879c4371cb3cfa9.woff   38.7 KiB          [emitted]              
+[1]                postlogin/Avenir-Light7834e58fbcb63f45ce8290a432b5abce.woff2   25.1 KiB          [emitted]              
+[1]                  postlogin/Avenir-Light94ba232b62328041e387e70c06a785dd.ttf   88.9 KiB          [emitted]              
+[1]                  postlogin/Avenir-Lightf558d3dfca7ce9d2c33f2b95527c4843.eot   89.1 KiB          [emitted]              
+[1]                  postlogin/Avenir-Roman465b7979e1ef862c417b50b814b45892.eot   22.2 KiB          [emitted]              
+[1]                postlogin/Avenir-Roman4d7c78ec9d2b5b2cb3389d721e2f6f81.woff2   8.97 KiB          [emitted]              
+[1]                  postlogin/Avenir-Romanc406a021f3e1187bb6bed1e93da4672e.ttf     22 KiB          [emitted]              
+[1]                 postlogin/Avenir-Romanebbb65ab3106282c8b4503761fca679c.woff   12.6 KiB          [emitted]              
+[1]                     postlogin/Miso-Bold5f4170aeb98cf7d22524bbdccf50fb73.ttf   59.4 KiB          [emitted]              
+[1]                     postlogin/Miso-Boldb78843047ece07fc9a36dd16bbe70af7.otf     24 KiB          [emitted]              
+[1]                    postlogin/Miso-Light9dbfa9f7a7432ce926ff67d557283eb4.otf   25.4 KiB          [emitted]              
+[1]                  postlogin/Miso-Light9f8c2c2987f3f9e9390698204d5bc023.woff2   11.4 KiB          [emitted]              
+[1]                  postlogin/Miso-Regular872fdfa2c03ad7aa20582602e5257c10.otf   25.7 KiB          [emitted]              
+[1]                  postlogin/Miso-Regular9f3e5f399c91e65d1f10072955705898.ttf   57.9 KiB          [emitted]              
+[1]      postlogin/OpenSansCondensed-Bold1fcf2943496a113eb3be1db3551e840a.woff2   55.2 KiB          [emitted]              
+[1]        postlogin/OpenSansCondensed-Bold3dba10e1afb786db6704ced33d742cfe.eot    144 KiB          [emitted]              
+[1]       postlogin/OpenSansCondensed-Boldd1509f06bff29a63dfd9e5238d75096d.woff   75.3 KiB          [emitted]              
+[1]        postlogin/OpenSansCondensed-Boldf6805ba6e16d08fe09138ca28525621f.ttf    143 KiB          [emitted]              
+[1]       postlogin/OpenSansCondensed-Light01c1d4a2465f5038ba02952d271b8241.eot   99.1 KiB          [emitted]              
+[1]       postlogin/OpenSansCondensed-Light7402deacd4aff7ab10fcc589888b1e3d.ttf   98.9 KiB          [emitted]              
+[1]      postlogin/OpenSansCondensed-Lightb51832ee9a0a0325cdfee3177d3bf3ba.woff   58.4 KiB          [emitted]              
+[1]     postlogin/OpenSansCondensed-Lightbc4fde28999efe68109abd4b8a8510f2.woff2   43.6 KiB          [emitted]              
+[1]        postlogin/PalaceFontIcon-Regular08d519ba55c33fdb7a2928612e092646.ttf   7.71 KiB          [emitted]              
+[1]        postlogin/PalaceFontIcon-Regular60846106f092bc5d8ad6579d8bee7f49.svg   15.8 KiB          [emitted]              
+[1]      postlogin/PalaceFontIcon-Regulare3c67aef32bd3c81110b834f8b747b39.woff2   3.75 KiB          [emitted]              
+[1]       postlogin/PalaceFontIcon-Regularf069e5db447692e64f06a6c2dcd7ae0f.woff   4.79 KiB          [emitted]              
+[1]        postlogin/PalaceFontIcon-Regularfe0f94fcf8215edfba354de24a7e8430.eot   7.93 KiB          [emitted]              
+[1]          postlogin/PalaceFontIcon-Solid25ba23a7b18be825303d3338ed22a0c4.ttf   4.96 KiB          [emitted]              
+[1]        postlogin/PalaceFontIcon-Solid579bf4eef6a8c516b5fedafaad7e9268.woff2   2.54 KiB          [emitted]              
+[1]          postlogin/PalaceFontIcon-Solid8559d5644fa0fc0977a99d66bb7015c4.eot   5.17 KiB          [emitted]              
+[1]          postlogin/PalaceFontIcon-Solida69209d90e741553f62e8b920c464f20.svg    8.6 KiB          [emitted]              
+[1]         postlogin/PalaceFontIcon-Solidd15bfec4aecf39221f7084ab841fc442.woff    3.3 KiB          [emitted]              
+[1]   postlogin/PalaceFontIconBrand-Regular3f7dfc6dfc8a28e0d7aa56d6712cf8e9.svg   30.2 KiB          [emitted]              
+[1]   postlogin/PalaceFontIconBrand-Regular5d52a72af83e362533d9718699c19611.ttf   16.5 KiB          [emitted]              
+[1] postlogin/PalaceFontIconBrand-Regular814d6a6979f050f9f43526d93b03b8ab.woff2   7.53 KiB          [emitted]              
+[1]   postlogin/PalaceFontIconBrand-Regular9cb4ca5af3eb042954ec366682a9525a.eot   16.7 KiB          [emitted]              
+[1]  postlogin/PalaceFontIconBrand-Regulard0aea1a0975b1fafce16162cf4727bda.woff    9.3 KiB          [emitted]              
+[1]           postlogin/Parisienne-Regular1e3f731438bd261b50550bdf1ec77866.woff     33 KiB          [emitted]              
+[1]            postlogin/Parisienne-Regular280b9347ffc996c1d302ce1d29fffa41.ttf   58.4 KiB          [emitted]              
+[1]            postlogin/Parisienne-Regular2d568ce5cf29ab70a856457b9afb7ed7.eot   58.6 KiB          [emitted]              
+[1]          postlogin/Parisienne-Regulara5c190fb1bd3d0861e4247af033dedd5.woff2   26.9 KiB          [emitted]              
+[1]        postlogin/PlayfairDisplay-Italic2778106629be4e3a63a01bbe0eaf2ec0.ttf    219 KiB          [emitted]              
+[1]        postlogin/PlayfairDisplay-Italic475103cd4dca33d33d04a7c34b016385.eot    219 KiB          [emitted]              
+[1]       postlogin/PlayfairDisplay-Italic90ca1fdea31539237f4f424767bd9631.woff    107 KiB          [emitted]              
+[1]      postlogin/PlayfairDisplay-Italicd56bcde17a92072b9b88d0c97d673484.woff2   75.9 KiB          [emitted]              
+[1]      postlogin/PlayfairDisplay-Regular18ea6a671ba47c84656f069a157b43fc.woff   99.3 KiB          [emitted]              
+[1]     postlogin/PlayfairDisplay-Regular609d66e64dfb0bd7bb88439ea18e1f85.woff2   71.4 KiB          [emitted]              
+[1]       postlogin/PlayfairDisplay-Regular763f2f687131adf60e152c41556a711c.eot    215 KiB          [emitted]              
+[1]       postlogin/PlayfairDisplay-Regulara335ac6654da08d4a0a46b3a9fc48e3b.ttf    215 KiB          [emitted]              
+[1]                   postlogin/Roboto-Bold36b5bab58a18b9c924861a4ccbf1a790.ttf    160 KiB          [emitted]              
+[1]                  postlogin/Roboto-Lightd5c46b134c17b2138dcd1bb0efa67049.ttf    159 KiB          [emitted]              
+[1]                postlogin/Roboto-Regular5673da52c98bb6cb33ada5aaf649703e.ttf    155 KiB          [emitted]              
+[1]                          postlogin/amex232403f5c7d60dc48d8e50d68373c311.png   19.2 KiB          [emitted]              
+[1]                                                           postlogin/app.css    184 KiB     app  [emitted]              app
+[1]                 postlogin/experience-bg9ff8ed9d73f06e3b7183a58dd183d286.jpg   47.7 KiB          [emitted]              
+[1]               postlogin/fa-brands-4000425d661f34ffa46604c9dfa344c03bb.woff2   73.5 KiB          [emitted]              
+[1]                 postlogin/fa-brands-400189c0326f75931886d5b60cde8b5628f.ttf    127 KiB          [emitted]              
+[1]                 postlogin/fa-brands-400451b51d8700fb035bcaaa9e8710b384a.eot    128 KiB          [emitted]              
+[1]                postlogin/fa-brands-40085b063debeb5d5f079776ac1a9c924cb.woff   86.3 KiB          [emitted]              
+[1]               postlogin/fa-regular-40014f22fbed8146dbf3b497bb32d8491b0.woff   16.4 KiB          [emitted]              
+[1]              postlogin/fa-regular-400772a0f14c850c8b0dfe283a95857583e.woff2   13.3 KiB          [emitted]              
+[1]                postlogin/fa-regular-4009230982faf6ed4d1dab07babfb813777.ttf   33.3 KiB          [emitted]              
+[1]                postlogin/fa-regular-400b6579220162705be426ad4db0dc43f6b.eot   33.6 KiB          [emitted]              
+[1]                  postlogin/fa-solid-9001898ebd2e3162e7ca8627073d865b893.eot    188 KiB          [emitted]              
+[1]                postlogin/fa-solid-9004cc04a31c42f2f9d951547bbce75960b.woff2   73.8 KiB          [emitted]              
+[1]                  postlogin/fa-solid-900b1161bce5381a5fa7aacc073e1a01dd3.ttf    188 KiB          [emitted]              
+[1]                 postlogin/fa-solid-900db525089f5101b59a66184d109e6f917.woff   96.1 KiB          [emitted]              
+[1]                                                       postlogin/favicon.ico    454 KiB          [emitted]              
+[1]              postlogin/foundation-icons92827f088b9eda87169bdc2b9888ce52.eot   53.3 KiB          [emitted]              
+[1]             postlogin/foundation-iconsa188c2f768ce5033d3f5d47be7280e25.woff   31.3 KiB          [emitted]              
+[1]              postlogin/foundation-iconse20945d7c929279ef7a6f1db184a4470.ttf   55.6 KiB          [emitted]              
+[1]                     postlogin/icon_copy288cbe9bd05f2ffde8f3b7c85668b9c9.png  668 bytes          [emitted]              
+[1]                      postlogin/icon_csv55c31272f83e40502e2a396dc3e77c69.png   1.97 KiB          [emitted]              
+[1]                    postlogin/icon_excel6f8d05823cf433aaa565380dd9552560.png   1.63 KiB          [emitted]              
+[1]                     postlogin/icon_json2f0e17de5d4309e674717298e674b722.png   1.97 KiB          [emitted]              
+[1]                      postlogin/icon_pdf2d1bf3fb16dddf1f1724ba1d7f0ffb19.png   1.23 KiB          [emitted]              
+[1]                    postlogin/icon_print2d7a612b847283f93314eb131fb995d9.png  846 bytes          [emitted]              
+[1]                                                     postlogin/manifest.json  437 bytes          [emitted]              
+[1]                    postlogin/mastercardbf9656c02c52f178d1090664bf694feb.png   10.7 KiB          [emitted]              
+[1]                        postlogin/spriteee806952989c4df14c2d24eb930c39ca.svg    112 KiB          [emitted]              
+[1]                         postlogin/telonea719e6d7484daca7a87dfa2e9ca6622.png    131 KiB          [emitted]              
+[1]                          postlogin/visa32be215fba9b3709b12258c14cc866a2.png   5.36 KiB          [emitted]              
+[1]                                                                       sw.js    912 KiB          [emitted]              
+[1] Entrypoint app = postlogin/app.css postlogin/6fc98fe41ca90b43033eapp.js
+[1] [0] multi (webpack)-dev-server/client?http://0.0.0.0:9000 @babel/polyfill ./src/client/index.js 52 bytes {app} [built]
+[1] [./node_modules/@babel/polyfill/lib/index.js] 686 bytes {app} [built]
+[1] [./node_modules/@babel/polyfill/lib/noConflict.js] 567 bytes {app} [built]
+[1] [./node_modules/core-js/library/fn/global.js] 87 bytes {app} [built]
+[1] [./node_modules/react-dom/index.js] 1.33 KiB {app} [built]
+[1] [./node_modules/react/index.js] 190 bytes {app} [built]
+[1] [./node_modules/strip-ansi/index.js] 161 bytes {app} [built]
+[1] [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:9000] (webpack)-dev-server/client?http://0.0.0.0:9000 4.29 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {app} [built]
+[1] [./src/client/index.js] 424 bytes {app} [built]
+[1]     + 654 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]     [./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html] 1.81 KiB {0} [built]
+[1]     [./node_modules/lodash/lodash.js] 530 KiB {0} [built]
+[1]     [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {0} [built]
+[1]     [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 497 bytes {0} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/bucket/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/bucket/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/bucket/style.css 18.7 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/base/calendarDay/calendarDayStyle.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/base/calendarDay/calendarDayStyle.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/base/calendarDay/calendarDayStyle.css 46.1 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/base/calendarStyle.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/base/calendarStyle.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/base/calendarStyle.css 11.8 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/dialog/dialog.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/dialog/dialog.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/dialog/dialog.css 6.69 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/collapsible/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/collapsible/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/collapsible/style.css 5.62 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/creditcard/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/creditcard/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/creditcard/style.css 96.5 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/paginator/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/paginator/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/paginator/style.css 3.78 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/_theme.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/_theme.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/_theme.scss 1020 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/getUrl.js] 830 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.eot] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.ttf] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff] 105 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff2] 106 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.eot] 103 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.ttf] 103 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff2] 105 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.eot] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.ttf] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.woff] 105 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.woff2] 106 bytes {mini-css-extract-plugin} [built]
+[1]         + 73 hidden modules
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/variables/_wedding-variables.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/variables/_wedding-variables.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/variables/_wedding-variables.scss 17 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/wedding-theme.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/wedding-theme.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/wedding-theme.scss 1.94 MiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/getUrl.js] 830 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/amex.png] 96 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/mastercard.png] 102 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/visa.png] 96 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.eot] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.ttf] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff] 105 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff2] 106 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.eot] 103 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.ttf] 103 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff2] 105 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.eot] 104 bytes {mini-css-extract-plugin} [built]
+[1]         + 76 hidden modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]     [./node_modules/@babel/polyfill/lib/index.js] 686 bytes {0} [built]
+[1]     [./node_modules/@babel/polyfill/lib/noConflict.js] 567 bytes {0} [built]
+[1]     [./node_modules/core-js/es6/index.js] 5.78 KiB {0} [built]
+[1]     [./node_modules/core-js/fn/array/flat-map.js] 108 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/array/includes.js] 109 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/entries.js] 109 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/get-own-property-descriptors.js] 148 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/values.js] 107 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/promise/finally.js] 166 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/string/pad-end.js] 108 bytes {0} [built]
+[1]     [./node_modules/core-js/library/fn/global.js] 87 bytes {0} [built]
+[1]     [./node_modules/url-parse/index.js] 12.4 KiB {0} [built]
+[1]     [./src/server/libraries/ResponseFormatter.js] 3.73 KiB {0} [built]
+[1]     [./src/services/fetchHandler.js] 7.62 KiB {0} [built]
+[1]     [./src/services/serviceWorker.js] 393 bytes {0} [built]
+[1]         + 299 hidden modules
+[1] ℹ ｢wdm｣: Compiled successfully.^C[0] npm run server exited with code SIGINT
+[1] npm run client exited with code SIGINT
+
+
+  ༆ ixicale༆  ✘  ⎣09:21:57⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑1 ✔ 
+gis                                                                                        hostname: [ix]
+En la rama ixicale
+Tu rama está actualizada con 'origin/ixicale'.
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣09:22:00⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.07.1'.
+
+  ༆ ixicale༆   ⎣09:22:05⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gipl                                                                                       hostname: [ix]
+gicYa está actualizado.
+
+  ༆ ixicale༆   ⎣09:22:08⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣09:22:09⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.07.1                                                                  hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣09:22:11⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.07.1'.
+
+  ༆ ixicale༆   ⎣09:22:15⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gimex                                                                                      hostname: [ix]
+Actualizando 781d0be9..4c0775d9
+Fast-forward
+ src/client/views/positivebalance/manageevents/index.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+  ༆ ixicale༆   ⎣09:22:17⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↑1 ✔ 
+gis                                                                                        hostname: [ix]
+En la rama pre.dev.2020.12.07.1
+Tu rama está adelantada a 'origin/pre.dev.2020.12.07.1' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣09:22:18⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↑1 ✔ 
+gis;git show                                                                               hostname: [ix]
+En la rama pre.dev.2020.12.07.1
+Tu rama está adelantada a 'origin/pre.dev.2020.12.07.1' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣09:22:23⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↑1 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-service-web.git
+   781d0be9..4c0775d9  pre.dev.2020.12.07.1 -> pre.dev.2020.12.07.1
+
+  ༆ ixicale༆   ⎣09:22:29⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣09:31:16⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+cd $PHP/clv-events-api                                                                     hostname: [ix]
+
+  ༆ ixicale༆   ⎣11:03:10⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.02.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.02.1'
+Tu rama está detrás de 'origin/pre.dev.2020.12.02.1' por 8 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+  ༆ ixicale༆   ⎣11:03:15⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.12.02.1 ↓8 ✔ 
+gipl                                                                                       hostname: [ix]
+gicActualizando 803355d..a90f381
+Fast-forward
+ app/config/apiUrl.php                                              |   4 +-
+ app/config/assetUrl.php                                            |  12 +
+ app/config/routers/events.php                                      |   2 +-
+ app/controllers/eventcargosservicios/CargosserviciosController.php |  10 +-
+ app/controllers/eventdetalleitem/DetalleitemController.php         |  56 ++--
+ app/controllers/eventevento/EventoController.php                   |  16 +-
+ app/controllers/eventeventopagos/EventopagosController.php         |   2 +
+ app/controllers/eventgrupo/GrupoController.php                     | 502 ++++++++++++++++---------------
+ app/controllers/eventgrupo/pdf-detailsheet/style.css               |   2 +-
+ app/controllers/eventgrupo/pdf-rooming/style.css                   | 222 +++++++-------
+ app/helpers/BController.php                                        |  13 +
+ app/models/eventdetalleitem/EventDetalleItem.php                   | 112 +++----
+ 12 files changed, 509 insertions(+), 444 deletions(-)
+ create mode 100644 app/config/assetUrl.php
+
+  ༆ ixicale༆   ⎣11:03:17⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+gic pre.dev.2020.12.02.1                                                                   hostname: [ix]
+Ya en 'pre.dev.2020.12.02.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.02.1'.
+
+  ༆ ixicale༆   ⎣11:03:22⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣11:03:24⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.02.1                                                                  hostname: [ix]
+Actualizando 803355d..a90f381
+Fast-forward
+ app/config/apiUrl.php                                              |   4 +-
+ app/config/assetUrl.php                                            |  12 +
+ app/config/routers/events.php                                      |   2 +-
+ app/controllers/eventcargosservicios/CargosserviciosController.php |  10 +-
+ app/controllers/eventdetalleitem/DetalleitemController.php         |  56 ++--
+ app/controllers/eventevento/EventoController.php                   |  16 +-
+ app/controllers/eventeventopagos/EventopagosController.php         |   2 +
+ app/controllers/eventgrupo/GrupoController.php                     | 502 ++++++++++++++++---------------
+ app/controllers/eventgrupo/pdf-detailsheet/style.css               |   2 +-
+ app/controllers/eventgrupo/pdf-rooming/style.css                   | 222 +++++++-------
+ app/helpers/BController.php                                        |  13 +
+ app/models/eventdetalleitem/EventDetalleItem.php                   | 112 +++----
+ 12 files changed, 509 insertions(+), 444 deletions(-)
+ create mode 100644 app/config/assetUrl.php
+  ༆ ixicale༆   ⎣11:03:28⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ↑8 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+giTo github.com:fbenitez/clv-events-api.git
+   803355d..a90f381  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣11:03:34⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gic -b pre.dev.2020.12.08.1                                                                hostname: [ix]
+Cambiado a nueva rama 'pre.dev.2020.12.08.1'
+
+  ༆ ixicale༆   ⎣11:04:10⎤  🚦 /var/www/html/PHP/clv-events-api   pre.dev.2020.12.08.1 ✔ 
+gips -u origin pre.dev.2020.12.08.1                                                        hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+remote: 
+remote: Create a pull request for 'pre.dev.2020.12.08.1' on GitHub by visiting:
+remote:      https://github.com/fbenitez/clv-events-api/pull/new/pre.dev.2020.12.08.1
+remote: 
+To github.com:fbenitez/clv-events-api.git
+ * [new branch]      pre.dev.2020.12.08.1 -> pre.dev.2020.12.08.1
+Rama 'pre.dev.2020.12.08.1' configurada para hacer seguimiento a la rama remota 'pre.dev.2020.12.08.1' de 'origin'.
+
+  ༆ ixicale༆   ⎣11:04:22⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.12.08.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣12:11:03⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.08.1                                                                  hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣12:11:13⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+cd $NODE/clv-events-fe                                                                     hostname: [ix]
+
+  ༆ ixicale༆   ⎣12:11:29⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ ixicale ✔ 
+gic pre.dev.std.2020.03.04                                                                 hostname: [ix]
+Cambiado a rama 'pre.dev.std.2020.03.04'
+Tu rama está detrás de 'origin/pre.dev.std.2020.03.04' por 21 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+  ༆ ixicale༆   ⎣12:11:34⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ pre.dev.std.2020.03.04 ↓21 ✔ 
+gipl                                                                                       hostname: [ix]
+gicxActualizando 6b6155da..35b65a1a
+Fast-forward
+ package.json                                                    |    2 +-
+ src/client/components/PaymentWidget/creditcard/index.js         |  245 ++++++++
+ src/client/components/PaymentWidget/creditcard/style.css        | 1002 +++++++++++++++++++++++++++++++++
+ src/client/components/PaymentWidget/index.js                    |   24 +-
+ src/client/components/PaymentWidget/label/Label.css             |   17 +
+ src/client/components/PaymentWidget/label/Label.js              |   47 ++
+ src/client/components/PaymentWidget/progressbar/Progresbar.js   |  111 ++++
+ src/client/components/PaymentWidget/progressbar/Progressbar.css |   54 ++
+ src/client/components/PaymentWidget/steps/address.js            |    6 +-
+ src/client/components/PaymentWidget/steps/body.js               |  283 +++++++++-
+ src/client/components/PaymentWidget/steps/confirm.js            |   29 +-
+ src/client/components/PaymentWidget/steps/paymentMethod.js      |    3 +-
+ src/client/components/PaymentWidget/wizard/index.js             |  276 +++++++++
+ src/client/components/PaymentWidget/wizard/style.css            |  243 ++++++++
+ src/client/components/generics/gallery.js                       |  181 ------
+ src/client/routes.js                                            |    6 -
+ src/client/views/actionsBB/actionsBB.js                         |   41 +-
+ src/client/views/catalogs/promotions/promotions.js              |   38 +-
+ src/client/views/catalogs/promotions/promotiontype.js           |    5 +-
+ src/client/views/catalogs/promotions/tabulator.js               |    8 +-
+ src/client/views/dashboard/c_totales/cart_costo.js              |   41 --
+ src/client/views/dashboard/c_totales/costo.js                   |   20 -
+ src/client/views/dashboard/c_totales/costos.js                  |   19 -
+ src/client/views/dashboard/carruceldashboards.js                |  222 --------
+ src/client/views/dashboard/dashboard.js                         |  419 --------------
+ src/client/views/dashboard/dashboard_v1.js                      |  109 ----
+ src/client/views/dashboard/dashboard_v2.js                      |  483 ----------------
+ src/client/views/dashboard/dashboardranking/bestcart.js         |   37 --
+ src/client/views/dashboard/dashboardranking/bestcarts.js        |   19 -
+ src/client/views/dashboard/dashboardranking/besttable.js        |   36 --
+ src/client/views/dashboard/dashboardranking/besttables.js       |   19 -
+ src/client/views/dashboard/dashboardranking/cardtable.js        |   51 --
+ src/client/views/dashboard/dashboardranking/img/place1.png      |  Bin 9129 -> 0 bytes
+ src/client/views/dashboard/dashboardranking/img/place2.png      |  Bin 10396 -> 0 bytes
+ src/client/views/dashboard/dashboardranking/img/place3.png      |  Bin 11380 -> 0 bytes
+ src/client/views/dashboard/dashboardranking/styleranking.css    |  266 ---------
+ src/client/views/dashboard/dashboardranking/toprankings.js      |   44 --
+ src/client/views/dashboard/eventsdashboard.css                  |    5 -
+ src/client/views/dashboard/index.js                             |  387 -------------
+ src/client/views/dashboard/premios/premio.js                    |   28 -
+ src/client/views/dashboard/premios/premios.js                   |   71 ---
+ src/client/views/dashboard/rangetime.js                         |   48 --
+ src/client/views/dashboard/styless.css                          |  216 -------
+ src/client/views/dashboard/switch.js                            |   71 ---
+ src/client/views/detailsBB/detailsBB.js                         |   80 ++-
+ src/client/views/detailsheet/actions.js                         |   43 +-
+ src/client/views/index.js                                       |    0
+ src/client/views/manageEvents/crudServices.js                   |    1 +
+ src/client/views/manageServices/editServices.js                 |  435 +++++++-------
+ src/client/views/manageServices/getCollections.js               |  102 ++++
+ src/client/views/manageServices/manageServices.js               |  275 ++-------
+ src/client/views/promotion/EventsPromotions.js                  |    5 +-
+ src/client/views/searchBB/searchBB.js                           |   28 +-
+ src/client/views/test/hijo.js                                   |   67 ---
+ src/client/views/test/test.js                                   |   44 --
+ src/client/views/thirdpartyBookings/Bookings.js                 |   62 +-
+ src/server/controllers/productsController.js                    |    2 +-
+ src/server/modules/MakeRequest.js                               |    4 +-
+ src/server/server.js                                            |    1 -
+ 59 files changed, 2873 insertions(+), 3508 deletions(-)
+ create mode 100644 src/client/components/PaymentWidget/creditcard/index.js
+ create mode 100644 src/client/components/PaymentWidget/creditcard/style.css
+ create mode 100644 src/client/components/PaymentWidget/label/Label.css
+ create mode 100644 src/client/components/PaymentWidget/label/Label.js
+ create mode 100644 src/client/components/PaymentWidget/progressbar/Progresbar.js
+ create mode 100644 src/client/components/PaymentWidget/progressbar/Progressbar.css
+ create mode 100644 src/client/components/PaymentWidget/wizard/index.js
+ create mode 100644 src/client/components/PaymentWidget/wizard/style.css
+ delete mode 100644 src/client/components/generics/gallery.js
+ delete mode 100644 src/client/views/dashboard/c_totales/cart_costo.js
+ delete mode 100644 src/client/views/dashboard/c_totales/costo.js
+ delete mode 100644 src/client/views/dashboard/c_totales/costos.js
+ delete mode 100644 src/client/views/dashboard/carruceldashboards.js
+ delete mode 100644 src/client/views/dashboard/dashboard.js
+ delete mode 100644 src/client/views/dashboard/dashboard_v1.js
+ delete mode 100644 src/client/views/dashboard/dashboard_v2.js
+ delete mode 100644 src/client/views/dashboard/dashboardranking/bestcart.js
+ delete mode 100644 src/client/views/dashboard/dashboardranking/bestcarts.js
+ delete mode 100644 src/client/views/dashboard/dashboardranking/besttable.js
+ delete mode 100644 src/client/views/dashboard/dashboardranking/besttables.js
+ delete mode 100644 src/client/views/dashboard/dashboardranking/cardtable.js
+ delete mode 100644 src/client/views/dashboard/dashboardranking/img/place1.png
+ delete mode 100644 src/client/views/dashboard/dashboardranking/img/place2.png
+ delete mode 100644 src/client/views/dashboard/dashboardranking/img/place3.png
+ delete mode 100644 src/client/views/dashboard/dashboardranking/styleranking.css
+ delete mode 100644 src/client/views/dashboard/dashboardranking/toprankings.js
+ delete mode 100644 src/client/views/dashboard/eventsdashboard.css
+ delete mode 100644 src/client/views/dashboard/index.js
+ delete mode 100644 src/client/views/dashboard/premios/premio.js
+ delete mode 100644 src/client/views/dashboard/premios/premios.js
+ delete mode 100644 src/client/views/dashboard/rangetime.js
+ delete mode 100644 src/client/views/dashboard/styless.css
+ delete mode 100644 src/client/views/dashboard/switch.js
+ delete mode 100644 src/client/views/index.js
+ create mode 100644 src/client/views/manageServices/getCollections.js
+ delete mode 100644 src/client/views/test/hijo.js
+ delete mode 100644 src/client/views/test/test.js
+  ༆ ixicale༆   ⎣12:11:37⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ pre.dev.std.2020.03.04 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣12:11:37⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ ixicale ✔ 
+gime pre.dev.std.2020.03.04                                                                hostname: [ix]
+Actualizando 6b6155da..35b65a1a
+Fast-forward
+ package.json                                                    |    2 +-
+ src/client/components/PaymentWidget/creditcard/index.js         |  245 ++++++++
+ src/client/components/PaymentWidget/creditcard/style.css        | 1002 +++++++++++++++++++++++++++++++++
+ src/client/components/PaymentWidget/index.js                    |   24 +-
+ src/client/components/PaymentWidget/label/Label.css             |   17 +
+ src/client/components/PaymentWidget/label/Label.js              |   47 ++
+ src/client/components/PaymentWidget/progressbar/Progresbar.js   |  111 ++++
+ src/client/components/PaymentWidget/progressbar/Progressbar.css |   54 ++
+ src/client/components/PaymentWidget/steps/address.js            |    6 +-
+ src/client/components/PaymentWidget/steps/body.js               |  283 +++++++++-
+ src/client/components/PaymentWidget/steps/confirm.js            |   29 +-
+ src/client/components/PaymentWidget/steps/paymentMethod.js      |    3 +-
+ src/client/components/PaymentWidget/wizard/index.js             |  276 +++++++++
+ src/client/components/PaymentWidget/wizard/style.css            |  243 ++++++++
+ src/client/components/generics/gallery.js                       |  181 ------
+ src/client/routes.js                                            |    6 -
+ src/client/views/actionsBB/actionsBB.js                         |   41 +-
+ src/client/views/catalogs/promotions/promotions.js              |   38 +-
+ src/client/views/catalogs/promotions/promotiontype.js           |    5 +-
+ src/client/views/catalogs/promotions/tabulator.js               |    8 +-
+ src/client/views/dashboard/c_totales/cart_costo.js              |   41 --
+ src/client/views/dashboard/c_totales/costo.js                   |   20 -
+ src/client/views/dashboard/c_totales/costos.js                  |   19 -
+ src/client/views/dashboard/carruceldashboards.js                |  222 --------
+ src/client/views/dashboard/dashboard.js                         |  419 --------------
+ src/client/views/dashboard/dashboard_v1.js                      |  109 ----
+ src/client/views/dashboard/dashboard_v2.js                      |  483 ----------------
+ src/client/views/dashboard/dashboardranking/bestcart.js         |   37 --
+ src/client/views/dashboard/dashboardranking/bestcarts.js        |   19 -
+ src/client/views/dashboard/dashboardranking/besttable.js        |   36 --
+ src/client/views/dashboard/dashboardranking/besttables.js       |   19 -
+ src/client/views/dashboard/dashboardranking/cardtable.js        |   51 --
+ src/client/views/dashboard/dashboardranking/img/place1.png      |  Bin 9129 -> 0 bytes
+ src/client/views/dashboard/dashboardranking/img/place2.png      |  Bin 10396 -> 0 bytes
+ src/client/views/dashboard/dashboardranking/img/place3.png      |  Bin 11380 -> 0 bytes
+ src/client/views/dashboard/dashboardranking/styleranking.css    |  266 ---------
+ src/client/views/dashboard/dashboardranking/toprankings.js      |   44 --
+ src/client/views/dashboard/eventsdashboard.css                  |    5 -
+ src/client/views/dashboard/index.js                             |  387 -------------
+ src/client/views/dashboard/premios/premio.js                    |   28 -
+ src/client/views/dashboard/premios/premios.js                   |   71 ---
+ src/client/views/dashboard/rangetime.js                         |   48 --
+ src/client/views/dashboard/styless.css                          |  216 -------
+ src/client/views/dashboard/switch.js                            |   71 ---
+ src/client/views/detailsBB/detailsBB.js                         |   80 ++-
+ src/client/views/detailsheet/actions.js                         |   43 +-
+ src/client/views/index.js                                       |    0
+ src/client/views/manageEvents/crudServices.js                   |    1 +
+ src/client/views/manageServices/editServices.js                 |  435 +++++++-------
+ src/client/views/manageServices/getCollections.js               |  102 ++++
+ src/client/views/manageServices/manageServices.js               |  275 ++-------
+ src/client/views/promotion/EventsPromotions.js                  |    5 +-
+ src/client/views/searchBB/searchBB.js                           |   28 +-
+ src/client/views/test/hijo.js                                   |   67 ---
+ src/client/views/test/test.js                                   |   44 --
+ src/client/views/thirdpartyBookings/Bookings.js                 |   62 +-
+ src/server/controllers/productsController.js                    |    2 +-
+ src/server/modules/MakeRequest.js                               |    4 +-
+ src/server/server.js                                            |    1 -
+ 59 files changed, 2873 insertions(+), 3508 deletions(-)
+ create mode 100644 src/client/components/PaymentWidget/creditcard/index.js
+ create mode 100644 src/client/components/PaymentWidget/creditcard/style.css
+ create mode 100644 src/client/components/PaymentWidget/label/Label.css
+ create mode 100644 src/client/components/PaymentWidget/label/Label.js
+ create mode 100644 src/client/components/PaymentWidget/progressbar/Progresbar.js
+ create mode 100644 src/client/components/PaymentWidget/progressbar/Progressbar.css
+ create mode 100644 src/client/components/PaymentWidget/wizard/index.js
+ create mode 100644 src/client/components/PaymentWidget/wizard/style.css
+ delete mode 100644 src/client/components/generics/gallery.js
+ delete mode 100644 src/client/views/dashboard/c_totales/cart_costo.js
+ delete mode 100644 src/client/views/dashboard/c_totales/costo.js
+ delete mode 100644 src/client/views/dashboard/c_totales/costos.js
+ delete mode 100644 src/client/views/dashboard/carruceldashboards.js
+ delete mode 100644 src/client/views/dashboard/dashboard.js
+ delete mode 100644 src/client/views/dashboard/dashboard_v1.js
+ delete mode 100644 src/client/views/dashboard/dashboard_v2.js
+ delete mode 100644 src/client/views/dashboard/dashboardranking/bestcart.js
+ delete mode 100644 src/client/views/dashboard/dashboardranking/bestcarts.js
+ delete mode 100644 src/client/views/dashboard/dashboardranking/besttable.js
+ delete mode 100644 src/client/views/dashboard/dashboardranking/besttables.js
+ delete mode 100644 src/client/views/dashboard/dashboardranking/cardtable.js
+ delete mode 100644 src/client/views/dashboard/dashboardranking/img/place1.png
+ delete mode 100644 src/client/views/dashboard/dashboardranking/img/place2.png
+ delete mode 100644 src/client/views/dashboard/dashboardranking/img/place3.png
+ delete mode 100644 src/client/views/dashboard/dashboardranking/styleranking.css
+ delete mode 100644 src/client/views/dashboard/dashboardranking/toprankings.js
+ delete mode 100644 src/client/views/dashboard/eventsdashboard.css
+ delete mode 100644 src/client/views/dashboard/index.js
+ delete mode 100644 src/client/views/dashboard/premios/premio.js
+ delete mode 100644 src/client/views/dashboard/premios/premios.js
+ delete mode 100644 src/client/views/dashboard/rangetime.js
+ delete mode 100644 src/client/views/dashboard/styless.css
+ delete mode 100644 src/client/views/dashboard/switch.js
+ delete mode 100644 src/client/views/index.js
+ create mode 100644 src/client/views/manageServices/getCollections.js
+ delete mode 100644 src/client/views/test/hijo.js
+ delete mode 100644 src/client/views/test/test.js
+  ༆ ixicale༆   ⎣12:11:41⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ ixicale ↑21 ✔ 
+gis                                                                                        hostname: [ix]
+En la rama ixicale
+Tu rama está adelantada a 'origin/ixicale' por 21 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣12:11:43⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ ixicale ↑21 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-events-fe.git
+   6b6155da..35b65a1a  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣12:11:48⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ ixicale ✔ 
+cd /var/www/html/NODE/clv-products-fe                                                      hostname: [ix]
+
+  ༆ ixicale༆   ⎣12:11:58⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.02.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.02.1'
+Tu rama está detrás de 'origin/pre.dev.2020.12.02.1' por 1 commit, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣12:12:10⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2020.12.02.1 ↓1 ✔ 
+gipl                                                                                       hostname: [ix]
+gic remote: Enumerating objects: 40, done.
+remote: Counting objects: 100% (40/40), done.
+remote: Compressing objects: 100% (18/18), done.
+remote: Total 40 (delta 24), reused 37 (delta 21), pack-reused 0
+Desempaquetando objetos: 100% (40/40), 29.08 KiB | 346.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-products-fe
+   c891a47..874a918  pre.dev.2020.12.02.1 -> origin/pre.dev.2020.12.02.1
+   4a318df..866d1fc  envazquez            -> origin/envazquez
+   30a5d78..c891a47  ftun                 -> origin/ftun
+   c891a47..874a918  michan               -> origin/michan
+Actualizando 30a5d78..874a918
+Fast-forward
+ src/client/routes.js                        |   4 +-
+ src/client/views/currency_exchange/index.js | 320 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 323 insertions(+), 1 deletion(-)
+ create mode 100644 src/client/views/currency_exchange/index.js
+  ༆ ixicale༆   ⎣12:12:13⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2020.12.02.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣12:12:19⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.02.1                                                                  hostname: [ix]
+Actualizando 30a5d78..874a918
+Fast-forward
+ src/client/routes.js                        |   4 +-
+ src/client/views/currency_exchange/index.js | 320 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 323 insertions(+), 1 deletion(-)
+ create mode 100644 src/client/views/currency_exchange/index.js
+
+  ༆ ixicale༆   ⎣12:12:24⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ↑2 ✔ 
+gis                                                                                        hostname: [ix]
+En la rama ixicale
+Tu rama está adelantada a 'origin/ixicale' por 2 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣12:12:26⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ↑2 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-products-fe.git
+   30a5d78..874a918  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣12:12:31⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+cd $NODE/clv-service-web                                                                   hostname: [ix]
+
+  ༆ ixicale༆   ⎣12:13:03⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.07.1'.
+
+  ༆ ixicale༆   ⎣12:13:08⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ gipl                                                                                       hostname: [ix]
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 7 (delta 4), reused 7 (delta 4), pack-reused 0
+Desempaquetando objetos: 100% (7/7), 719 bytes | 179.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-service-web
+   387ff63b..70fe9e2c  alanjimenez -> origin/alanjimenez
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣12:13:13⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣12:13:19⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.07.1                                                                  hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣12:13:23⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gicx                                                                                       hostname: [ix]
+Ya en 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣12:14:47⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+$PHP/clv-products-api                                                                      hostname: [ix]
+
+  ༆ ixicale༆   ⎣12:15:02⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ qa ✔ ☗  clv-products-api-qa.2020.12.03.1  
+gic pre.dev.2020.12.02.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.02.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.02.1'.
+
+  ༆ ixicale༆   ⎣12:15:11⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+gipl                                                                                       hostname: [ix]
+remote: Enumerating objects: 31, done.
+remote: Counting objects: 100% (31/31), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 31 (delta 21), reused 31 (delta 21), pack-reused 0Desempaquetando objetos: 100% (31/31), 14.01 KiB | 358.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-products-api
+   0e68e64..3f78018  pre.dev.2020.12.02.1 -> origin/pre.dev.2020.12.02.1
+   7d128ff..33e7dfe  cedisapena           -> origin/cedisapena
+   0e68e64..ae6e9ca  envazquez            -> origin/envazquez
+   be39deb..0e68e64  ftun                 -> origin/ftun
+   be39deb..ae6e9ca  lhuh                 -> origin/lhuh
+   0e68e64..3f78018  michan               -> origin/michan
+Actualizando 0e68e64..3f78018
+Fast-forward
+ app/config/router.php                           |  9 +++++++--
+ app/controllers/ServicioController.php          | 12 ++++++------
+ app/controllers/ServicioclienteController.php   | 18 +++++++++++++++++-
+ app/controllers/ServiciopropiedadController.php | 16 ++++++++++++++++
+ app/controllers/UnidadnegocioController.php     | 13 +++++--------
+ app/controllers/UnidadtipocambioController.php  | 20 ++++++++++++++------
+ 6 files changed, 65 insertions(+), 23 deletions(-)
+
+  ༆ ixicale༆   ⎣12:15:14⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣12:15:17⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.02.1                                                                  hostname: [ix]
+Actualizando 0e68e64..3f78018
+Fast-forward
+ app/config/router.php                           |  9 +++++++--
+ app/controllers/ServicioController.php          | 12 ++++++------
+ app/controllers/ServicioclienteController.php   | 18 +++++++++++++++++-
+ app/controllers/ServiciopropiedadController.php | 16 ++++++++++++++++
+ app/controllers/UnidadnegocioController.php     | 13 +++++--------
+ app/controllers/UnidadtipocambioController.php  | 20 ++++++++++++++------
+ 6 files changed, 65 insertions(+), 23 deletions(-)
+
+  ༆ ixicale༆   ⎣12:15:21⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ↑4 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)To github.com:fbenitez/clv-products-api.git
+   0e68e64..3f78018  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣12:15:27⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+gipl                                                                                       hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣12:16:21⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+$PHP/clv-productions-api                                                                   hostname: [ix]
+
+  ༆ ixicale༆   ⎣12:16:33⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+gipl                                                                                       hostname: [ix]
+remote: Enumerating objects: 19, done.
+remote: Counting objects: 100% (19/19), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 19 (delta 15), reused 19 (delta 15), pack-reused 0
+Desempaquetando objetos: 100% (19/19), 2.52 KiB | 129.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-productions-api
+   c843065..4d01410  michan               -> origin/michan
+   a00f4d5..4d01410  pre.dev.2020.08.04.1 -> origin/pre.dev.2020.08.04.1
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣12:16:50⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.08.04.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.08.04.1'
+Tu rama está detrás de 'origin/pre.dev.2020.08.04.1' por 6 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣12:17:04⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ pre.dev.2020.08.04.1 ↓6 ✔ 
+gipl                                                                                       hostname: [ix]
+gi xActualizando b59173a..4d01410
+Fast-forward
+ app/config/router.php                                 |  5 ++--
+ app/controllers/DetalleordenproduccionController.php  | 15 +----------
+ app/controllers/EventolocacionController.php          | 22 ++++++----------
+ app/controllers/NotificacionesproveedorController.php |  3 ++-
+ app/controllers/ProduccionamadaController.php         | 62 ++++++++++++++++++++++++++++++++++++++++-----
+ app/models/CotizacionEvento.php                       |  3 +++
+ app/models/CotizacionEventoLocacion.php               |  2 ++
+ app/models/CotizacionLeadActividad.php                |  3 +++
+ app/models/GrupoLeadCotizacion.php                    |  2 ++
+ app/models/PersFreelance.php                          |  6 ++++-
+ app/models/PersFreelanceTabulador.php                 |  4 ++-
+ app/models/PersHabilidad.php                          |  4 +++
+ app/models/PersHabilidadFreelance.php                 |  4 +++
+ app/models/ProdClienteSolicitante.php                 |  4 +++
+ app/models/ProdContactosProveedor.php                 | 10 ++++----
+ app/models/ProdDefinicionProvision.php                | 32 +++++++++++++++++++++--
+ app/models/ProdDetalleCotizacionAsset.php             |  7 +++--
+ app/models/ProdDetalleCotizacionServicio.php          | 37 ++++++++++++++++++---------
+ app/models/ProdDetalleOrdenAsset.php                  |  5 ++++
+ app/models/ProdDetalleOrdenBitacora.php               |  2 ++
+ app/models/ProdDetalleOrdenProduccion.php             |  5 ++++
+ app/models/ProdMontaje.php                            |  8 ++++++
+ app/models/ProdMontajeExtras.php                      |  6 +++++
+ app/models/ProdMontajeFase.php                        |  9 +++++++
+ app/models/ProdMontajeFreelance.php                   | 14 ++++++++--
+ app/models/ProdMontajeOrden.php                       |  3 +++
+ app/models/ProdMontajePickup.php                      | 17 ++++++++-----
+ app/models/ProdOrdenAsset.php                         |  5 +++-
+ app/models/ProdOrdenProduccion.php                    | 22 +++++++++++-----
+ app/models/ProdProduccionAmada.php                    | 14 +++++-----
+ app/models/ProdRegistroProvision.php                  | 24 +++++++++++++++++-
+ app/models/ProdRespuestaSap.php                       | 18 ++++++++-----
+ app/models/ProdRespuestaSapProvision.php              | 22 ++++++++++------
+ app/models/ProdSolicitante.php                        |  5 ++++
+ 34 files changed, 306 insertions(+), 98 deletions(-)
+  ༆ ixicale༆   ⎣12:17:09⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ pre.dev.2020.08.04.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣12:17:10⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.08.04.1                                                                  hostname: [ix]
+Actualizando b59173a..4d01410
+Fast-forward
+ app/config/router.php                                 |  5 ++--
+ app/controllers/DetalleordenproduccionController.php  | 15 +----------
+ app/controllers/EventolocacionController.php          | 22 ++++++----------
+ app/controllers/NotificacionesproveedorController.php |  3 ++-
+ app/controllers/ProduccionamadaController.php         | 62 ++++++++++++++++++++++++++++++++++++++++-----
+ app/models/CotizacionEvento.php                       |  3 +++
+ app/models/CotizacionEventoLocacion.php               |  2 ++
+ app/models/CotizacionLeadActividad.php                |  3 +++
+ app/models/GrupoLeadCotizacion.php                    |  2 ++
+ app/models/PersFreelance.php                          |  6 ++++-
+ app/models/PersFreelanceTabulador.php                 |  4 ++-
+ app/models/PersHabilidad.php                          |  4 +++
+ app/models/PersHabilidadFreelance.php                 |  4 +++
+ app/models/ProdClienteSolicitante.php                 |  4 +++
+ app/models/ProdContactosProveedor.php                 | 10 ++++----
+ app/models/ProdDefinicionProvision.php                | 32 +++++++++++++++++++++--
+ app/models/ProdDetalleCotizacionAsset.php             |  7 +++--
+ app/models/ProdDetalleCotizacionServicio.php          | 37 ++++++++++++++++++---------
+ app/models/ProdDetalleOrdenAsset.php                  |  5 ++++
+ app/models/ProdDetalleOrdenBitacora.php               |  2 ++
+ app/models/ProdDetalleOrdenProduccion.php             |  5 ++++
+ app/models/ProdMontaje.php                            |  8 ++++++
+ app/models/ProdMontajeExtras.php                      |  6 +++++
+ app/models/ProdMontajeFase.php                        |  9 +++++++
+ app/models/ProdMontajeFreelance.php                   | 14 ++++++++--
+ app/models/ProdMontajeOrden.php                       |  3 +++
+ app/models/ProdMontajePickup.php                      | 17 ++++++++-----
+ app/models/ProdOrdenAsset.php                         |  5 +++-
+ app/models/ProdOrdenProduccion.php                    | 22 +++++++++++-----
+ app/models/ProdProduccionAmada.php                    | 14 +++++-----
+ app/models/ProdRegistroProvision.php                  | 24 +++++++++++++++++-
+ app/models/ProdRespuestaSap.php                       | 18 ++++++++-----
+ app/models/ProdRespuestaSapProvision.php              | 22 ++++++++++------
+ app/models/ProdSolicitante.php                        |  5 ++++
+ 34 files changed, 306 insertions(+), 98 deletions(-)
+  ༆ ixicale༆   ⎣12:17:12⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ↑6 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-productions-api.git
+   b59173a..4d01410  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣12:17:17⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+la $NODE                                                                                   hostname: [ix]
+total 24K
+drwxrwxr-x 8 ixicale ixicale 4.0K ago 31 14:57 clv-benefit-fe
+drwxrwxr-x 7 ixicale ixicale 4.0K dic  8 12:11 clv-events-fe
+drwxrwxr-x 8 ixicale ixicale 4.0K nov 27 15:59 clv-products-fe
+drwxrwxr-x 9 ixicale ixicale 4.0K dic  8 09:12 clv-service-web
+drwxrwxr-x 9 ixicale ixicale 4.0K nov 27 17:43 clv-service-web2
+drwxrwxr-x 9 ixicale ixicale 4.0K dic  4 15:01 clv-service-webwed
+
+  ༆ ixicale༆   ⎣12:17:21⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+$NODE/clv-benefit-fe                                                                       hostname: [ix]
+
+  ༆ ixicale༆   ⎣12:17:30⎤  🚦 /var/www/html/NODE/clv-benefit-fe   origin ☊ ixicale ✔ 
+gic pre.dev.2020.09.01.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.09.01.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.09.01.1'.
+
+  ༆ ixicale༆   ⎣12:17:38⎤  🚦 /var/www/html/NODE/clv-benefit-fe   origin ☊ pre.dev.2020.09.01.1 ✔ 
+gipl                                                                                       hostname: [ix]
+remote: Enumerating objects: 80, done.
+remote: Counting objects: 100% (80/80), done.
+remote: Compressing objects: 100% (37/37), done.
+remote: Total 80 (delta 52), reused 71 (delta 43), pack-reused 0
+Desempaquetando objetos: 100% (80/80), 38.86 KiB | 352.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-benefit-fe
+   d079602..4c567d2  pre.dev.2020.09.01.1            -> origin/pre.dev.2020.09.01.1
+   d079602..e27da00  alanjimenez                     -> origin/alanjimenez
+   d079602..4c567d2  dev                             -> origin/dev
+   5193fb4..8287e97  master                          -> origin/master
+ * [nueva rama]      pedhernandez20                  -> origin/pedhernandez20
+   cc13949..4bb7d76  qa                              -> origin/qa
+ * [nuevo tag]       clv-benefit-fe-pro.2020.12.08.1 -> clv-benefit-fe-pro.2020.12.08.1
+ * [nuevo tag]       clv-benefit-fe-qa.2020.12.08.1  -> clv-benefit-fe-qa.2020.12.08.1 * [nuevo tag]       clv-benefit-fe-pro.2020.12.03.1 -> clv-benefit-fe-pro.2020.12.03.1
+ * [nuevo tag]       clv-benefit-fe-qa.2020.11.09.1  -> clv-benefit-fe-qa.2020.11.09.1
+ * [nuevo tag]       clv-benefit-fe-qa.2020.11.26.1  -> clv-benefit-fe-qa.2020.11.26.1
+ * [nuevo tag]       clv-benefit-fe-qa.2020.12.03.1  -> clv-benefit-fe-qa.2020.12.03.1
+Actualizando d079602..4c567d2
+Fast-forward
+ package.json                                             |   1 +
+ src/client/components/modal/index.js                     |   6 +-
+ src/client/views/benefits/benefits.js                    | 405 ++++++++++++++++++++++++++---------------
+ src/client/views/config/filter.js                        |  98 ++++++++--
+ src/client/views/configuracionclausula/configCKeditor.js |  35 ++++
+ src/client/views/configuracionclausula/tabs.js           | 150 +++++++++++----
+ src/client/views/helper/listAndPreview.js                | 115 ++++++++++--
+ 7 files changed, 590 insertions(+), 220 deletions(-)
+ create mode 100644 src/client/views/configuracionclausula/configCKeditor.js
+
+  ༆ ixicale༆   ⎣12:17:41⎤  🚦 /var/www/html/NODE/clv-benefit-fe   origin ☊ pre.dev.2020.09.01.1 ✔ 
+gic -b pre.dev.2020.12.08.1                                                                hostname: [ix]
+Cambiado a nueva rama 'pre.dev.2020.12.08.1'
+
+  ༆ ixicale༆   ⎣12:18:38⎤  🚦 /var/www/html/NODE/clv-benefit-fe   pre.dev.2020.12.08.1 ✔ 
+gips -u origin pre.dev.2020.12.08.1                                                        hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+remote: 
+remote: Create a pull request for 'pre.dev.2020.12.08.1' on GitHub by visiting:
+remote:      https://github.com/fbenitez/clv-benefit-fe/pull/new/pre.dev.2020.12.08.1
+remote: 
+To github.com:fbenitez/clv-benefit-fe.git
+ * [new branch]      pre.dev.2020.12.08.1 -> pre.dev.2020.12.08.1
+Rama 'pre.dev.2020.12.08.1' configurada para hacer seguimiento a la rama remota 'pre.dev.2020.12.08.1' de 'origin'.
+
+  ༆ ixicale༆   ⎣12:18:46⎤  🚦 /var/www/html/NODE/clv-benefit-fe   origin ☊ pre.dev.2020.12.08.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣12:18:49⎤  🚦 /var/www/html/NODE/clv-benefit-fe   origin ☊ ixicale ✔ gime pre.dev.2020.12.08.1                                                                  hostname: [ix]
+Actualizando d079602..4c567d2
+Fast-forward
+ package.json                                             |   1 +
+ src/client/components/modal/index.js                     |   6 +-
+ src/client/views/benefits/benefits.js                    | 405 ++++++++++++++++++++++++++---------------
+ src/client/views/config/filter.js                        |  98 ++++++++--
+ src/client/views/configuracionclausula/configCKeditor.js |  35 ++++
+ src/client/views/configuracionclausula/tabs.js           | 150 +++++++++++----
+ src/client/views/helper/listAndPreview.js                | 115 ++++++++++--
+ 7 files changed, 590 insertions(+), 220 deletions(-)
+ create mode 100644 src/client/views/configuracionclausula/configCKeditor.js
+
+  ༆ ixicale༆   ⎣12:18:53⎤  🚦 /var/www/html/NODE/clv-benefit-fe   origin ☊ ixicale ↑7 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-benefit-fe.git
+   d079602..4c567d2  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣12:18:59⎤  🚦 /var/www/html/NODE/clv-benefit-fe   origin ☊ ixicale ✔ 
+gic ersanchez                                                                              hostname: [ix]
+Rama 'ersanchez' configurada para hacer seguimiento a la rama remota 'ersanchez' de 'origin'.
+Cambiado a nueva rama 'ersanchez'
+
+  ༆ ixicale༆   ⎣12:19:19⎤  🚦 /var/www/html/NODE/clv-benefit-fe   origin ☊ ersanchez ✔ 
+gic -b pre.dev.2020.09.01.1                                                                hostname: [ix]
+fatal: Una rama llamada 'pre.dev.2020.09.01.1' ya existe.
+
+  ༆ ixicale༆  ✘  ⎣12:19:52⎤  🚦 /var/www/html/NODE/clv-benefit-fe   origin ☊ ersanchez ✔ 
+git branch -D pre.dev.2020.09.01.1                                                         hostname: [ix]
+Eliminada la rama pre.dev.2020.09.01.1 (era 4c567d2)..
+
+  ༆ ixicale༆   ⎣12:20:05⎤  🚦 /var/www/html/NODE/clv-benefit-fe   origin ☊ ersanchez ✔ 
+gic -b pre.dev.2020.09.01.1                                                                hostname: [ix]
+Cambiado a nueva rama 'pre.dev.2020.09.01.1'
+
+  ༆ ixicale༆   ⎣12:20:10⎤  🚦 /var/www/html/NODE/clv-benefit-fe   pre.dev.2020.09.01.1 ✔ 
+gips -u origin pre.dev.2020.09.01.1                                                        hostname: [ix]Total 0 (delta 0), reusado 0 (delta 0)
+remote: 
+remote: Create a pull request for 'pre.dev.2020.09.01.1' on GitHub by visiting:
+remote:      https://github.com/fbenitez/clv-benefit-fe/pull/new/pre.dev.2020.09.01.1
+remote: 
+To github.com:fbenitez/clv-benefit-fe.git
+ * [new branch]      pre.dev.2020.09.01.1 -> pre.dev.2020.09.01.1
+Rama 'pre.dev.2020.09.01.1' configurada para hacer seguimiento a la rama remota 'pre.dev.2020.09.01.1' de 'origin'.
+
+  ༆ ixicale༆   ⎣12:20:26⎤  🚦 /var/www/html/NODE/clv-benefit-fe   origin ☊ pre.dev.2020.09.01.1 ✔ 
+$PHP/clv-benefit-api                                                                       hostname: [ix]
+
+  ༆ ixicale༆   ⎣12:21:13⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.08.11.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.08.11.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.08.11.1'.
+
+  ༆ ixicale༆   ⎣12:21:22⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ pre.dev.2020.08.11.1 ✔ 
+gic pre.dev.2020.09.01.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.09.01.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.09.01.1'.
+
+  ༆ ixicale༆   ⎣12:21:44⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ pre.dev.2020.09.01.1 ✔ 
+gipl                                                                                       hostname: [ix]
+remote: Enumerating objects: 32, done.
+remote: Counting objects: 100% (32/32), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 32 (delta 20), reused 30 (delta 18), pack-reused 0
+Desempaquetando objetos: 100% (32/32), 10.04 KiB | 380.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-benefit-api
+   7061e95..02738fd  pre.dev.2020.09.01.1             -> origin/pre.dev.2020.09.01.1
+   7061e95..02738fd  alanjimenez                      -> origin/alanjimenez
+   7061e95..02738fd  dev                              -> origin/dev
+   9a0c4e6..808ab62  master                           -> origin/master
+ * [nueva rama]      pedhernandez                     -> origin/pedhernandez
+   e98a372..94e6289  qa                               -> origin/qa
+ * [nuevo tag]       clv-benefit-api-pro.2020.12.03.1 -> clv-benefit-api-pro.2020.12.03.1
+ * [nuevo tag]       clv-benefit-api-qa.2020.11.26.2  -> clv-benefit-api-qa.2020.11.26.2
+ * [nuevo tag]       clv-benefit-api-qa.2020.11.26.1  -> clv-benefit-api-qa.2020.11.26.1Actualizando 7061e95..02738fd
+Fast-forward
+ app/config/router.php                               |   3 +
+ app/controllers/CondicionvariableController.php     |  16 +++++
+ app/controllers/ConfiguracionclausulaController.php |  18 ++++++
+ app/controllers/SubconceptoController.php           | 153 ++++++++++++++++++++++++++++++++++++++++++++++
+ public/index.php                                    |   5 +-
+ 5 files changed, 193 insertions(+), 2 deletions(-)
+
+  ༆ ixicale༆   ⎣12:21:52⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ pre.dev.2020.09.01.1 ✔ 
+gic -b pre.dev.2020.12.08.1                                                                hostname: [ix]
+Cambiado a nueva rama 'pre.dev.2020.12.08.1'
+
+  ༆ ixicale༆   ⎣12:22:02⎤  🚦 /var/www/html/PHP/clv-benefit-api   pre.dev.2020.12.08.1 ✔ 
+gips -u origin pre.dev.2020.12.08.1                                                        hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+remote: 
+remote: Create a pull request for 'pre.dev.2020.12.08.1' on GitHub by visiting:
+remote:      https://github.com/fbenitez/clv-benefit-api/pull/new/pre.dev.2020.12.08.1
+remote: 
+To github.com:fbenitez/clv-benefit-api.git
+ * [new branch]      pre.dev.2020.12.08.1 -> pre.dev.2020.12.08.1
+Rama 'pre.dev.2020.12.08.1' configurada para hacer seguimiento a la rama remota 'pre.dev.2020.12.08.1' de 'origin'.
+
+  ༆ ixicale༆   ⎣12:22:10⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ pre.dev.2020.12.08.1 ✔ 
+gic -b pre.dev.2020.12.03.1                                                                hostname: [ix]
+Cambiado a nueva rama 'pre.dev.2020.12.03.1'
+
+  ༆ ixicale༆   ⎣12:22:24⎤  🚦 /var/www/html/PHP/clv-benefit-api   pre.dev.2020.12.03.1 ✔ 
+gips -u origin pre.dev.2020.12.03.1                                                        hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+remote: 
+remote: Create a pull request for 'pre.dev.2020.12.03.1' on GitHub by visiting:
+remote:      https://github.com/fbenitez/clv-benefit-api/pull/new/pre.dev.2020.12.03.1
+remote: 
+To github.com:fbenitez/clv-benefit-api.git
+ * [new branch]      pre.dev.2020.12.03.1 -> pre.dev.2020.12.03.1
+Rama 'pre.dev.2020.12.03.1' configurada para hacer seguimiento a la rama remota 'pre.dev.2020.12.03.1' de 'origin'.
+  ༆ ixicale༆   ⎣12:22:36⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ pre.dev.2020.12.03.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣12:23:00⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ ixicale ✔ 
+git branch -D pre.dev.2020.09.01.1                                                         hostname: [ix]
+Eliminada la rama pre.dev.2020.09.01.1 (era 02738fd)..
+
+  ༆ ixicale༆   ⎣12:23:14⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ ixicale ✔ 
+gic -b pre.dev.2020.09.01.1                                                                hostname: [ix]
+Cambiado a nueva rama 'pre.dev.2020.09.01.1'
+
+  ༆ ixicale༆   ⎣12:23:26⎤  🚦 /var/www/html/PHP/clv-benefit-api   pre.dev.2020.09.01.1 ✔ 
+gips -u origin pre.dev.2020.09.01.1                                                        hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+remote: 
+remote: Create a pull request for 'pre.dev.2020.09.01.1' on GitHub by visiting:
+remote:      https://github.com/fbenitez/clv-benefit-api/pull/new/pre.dev.2020.09.01.1
+remote: 
+To github.com:fbenitez/clv-benefit-api.git
+ * [new branch]      pre.dev.2020.09.01.1 -> pre.dev.2020.09.01.1
+Rama 'pre.dev.2020.09.01.1' configurada para hacer seguimiento a la rama remota 'pre.dev.2020.09.01.1' de 'origin'.
+
+  ༆ ixicale༆   ⎣12:23:45⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ pre.dev.2020.09.01.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣12:23:58⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ ixicale ✔ 
+git branch -D pre.dev.2020.12.08.1                                                         hostname: [ix]
+Eliminada la rama pre.dev.2020.12.08.1 (era 02738fd)..
+
+  ༆ ixicale༆   ⎣12:24:24⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.03.1                                                                  hostname: [ix]
+Actualizando 7061e95..02738fd
+Fast-forward app/config/router.php                               |   3 +
+ app/controllers/CondicionvariableController.php     |  16 +++++
+ app/controllers/ConfiguracionclausulaController.php |  18 ++++++
+ app/controllers/SubconceptoController.php           | 153 ++++++++++++++++++++++++++++++++++++++++++++++
+ public/index.php                                    |   5 +-
+ 5 files changed, 193 insertions(+), 2 deletions(-)
+
+  ༆ ixicale༆   ⎣12:24:29⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ ixicale ↑2 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-benefit-api.git
+   7061e95..02738fd  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣12:24:36⎤  🚦 /var/www/html/PHP/clv-benefit-api   origin ☊ ixicale ✔ 
+cd $NODE/clv-products-fe                                                                   hostname: [ix]
+
+  ༆ ixicale༆   ⎣12:40:16⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.02.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.02.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.02.1'.
+
+  ༆ ixicale༆   ⎣12:40:26⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2020.12.02.1 ✔ 
+gipl                                                                                       hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣12:40:29⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2020.12.02.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣12:40:47⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gipl                                                                                       hostname: [ix]
+nomYa está actualizado.
+
+  ༆ ixicale༆   ⎣12:40:55⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+npm run dev                                                                                hostname: [ix]
+
+> clever-products@0.0.1 dev /var/www/html/NODE/clv-products-fe
+> concurrently "npm run server" 
+[0] 
+[0] > clever-products@0.0.1 server /var/www/html/NODE/clv-products-fe
+[0] > APP_ENV=QA NODE_ENV=development PORT=9000 nodemon ./src/server/server.js
+[0] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): *.*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built 5ecd1015d079ec6204e6 in 20961ms
+[0] ⚠ ｢wdm｣: Hash: 5ecd1015d079ec6204e6
+[0] Version: webpack 4.44.2
+[0] Time: 20961ms
+[0] Built at: 2020-12-08 12:41:20
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.91 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 4.91 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [25] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 85 modules 663 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.58 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 25 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 17.3 KiB [built]
+[0]       |     + 71 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.91 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.91 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.^C[0] npm run server exited with code null
+
+
+  ༆ ixicale༆  ✘  ⎣17:29:23⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.02.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.02.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.02.1'.
+
+  ༆ ixicale༆   ⎣17:29:35⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2020.12.02.1 ✔ 
+gipl                                                                                       hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣17:29:38⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2020.12.02.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣17:29:40⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+$PHP/clv-events-api                                                                        hostname: [ix]
+
+  ༆ ixicale༆   ⎣17:30:53⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.08.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.08.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.08.1'.
+
+  ༆ ixicale༆   ⎣17:31:01⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.12.08.1 ✔ 
+gipl                                                                                       hostname: [ix]
+gicxremote: Enumerating objects: 20, done.
+remote: Counting objects: 100% (20/20), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 20 (delta 13), reused 20 (delta 13), pack-reused 0
+Desempaquetando objetos: 100% (20/20), 2.17 KiB | 278.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-events-api
+   a90f381..343b0c1  pre.dev.2020.12.08.1            -> origin/pre.dev.2020.12.08.1
+   443da5a..343b0c1  cacebedo                        -> origin/cacebedo
+   a90f381..343b0c1  dev                             -> origin/dev
+   f214548..076b5e5  master                          -> origin/master
+   b44c689..1addf2f  qa                              -> origin/qa
+ * [nuevo tag]       clv-events-api-pro.2020.12.08.2 -> clv-events-api-pro.2020.12.08.2Actualizando a90f381..343b0c1
+Fast-forward
+ app/controllers/eventdetalleitem/DetalleitemController.php | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+  ༆ ixicale༆   ⎣17:31:04⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.12.08.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣17:31:04⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.0                                                                     hostname: [ix]
+merge: pre.dev.2020.12.0 - nada que podamos fusionar
+
+  ༆ ixicale༆  ✘  ⎣17:31:08⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.08.1                                                                  hostname: [ix]
+Actualizando a90f381..343b0c1
+Fast-forward
+ app/controllers/eventdetalleitem/DetalleitemController.php | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+  ༆ ixicale༆   ⎣17:31:13⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ↑2 ✔ 
+gis;git show                                                                               hostname: [ix]
+En la rama ixicale
+Tu rama está adelantada a 'origin/ixicale' por 2 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣17:31:23⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ↑2 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-events-api.git
+   a90f381..343b0c1  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣17:31:29⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+$NODE/clv-service-web                                                                      hostname: [ix]
+
+  ༆ ixicale༆   ⎣17:31:39⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.07.1'.
+
+  ༆ ixicale༆   ⎣17:31:46⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gipl                                                                                       hostname: [ix]
+remote: Enumerating objects: 35, done.
+remote: Counting objects: 100% (35/35), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 35 (delta 21), reused 34 (delta 20), pack-reused 0
+Desempaquetando objetos: 100% (35/35), 4.18 KiB | 142.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-service-web
+   70fe9e2c..a796da59  alanjimenez -> origin/alanjimenez
+   f11aa08b..105c93d4  angesolis   -> origin/angesolis
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣17:31:49⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣17:31:52⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.07.1                                                                  hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣17:31:55⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+$NODE/clv-events-fe                                                                        hostname: [ix]
+
+  ༆ ixicale༆   ⎣17:34:28⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ ixicale ✔ 
+gic pre.dev.std.2020.03.04                                                                 hostname: [ix]
+Cambiado a rama 'pre.dev.std.2020.03.04'
+Tu rama está detrás de 'origin/pre.dev.std.2020.03.04' por 1 commit, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣17:34:33⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ pre.dev.std.2020.03.04 ↓1 ✔ 
+gipl                                                                                       hostname: [ix]
+gicActualizando 35b65a1a..e227b5c5
+Fast-forward src/client/views/manageEvents/crudEvent.js      | 163 ++++++++++--------
+ src/client/views/manageEvents/crudLocation.js   | 211 ++++++++++++-----------
+ src/client/views/manageEvents/crudServices.js   | 461 +++++++++++++++++++++++++-------------------------
+ src/client/views/manageEvents/manageEvents.js   | 279 ++++++++----------------------
+ src/client/views/manageServices/editServices.js |   4 +-
+ 5 files changed, 512 insertions(+), 606 deletions(-)
+
+  ༆ ixicale༆   ⎣17:34:36⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ pre.dev.std.2020.03.04 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣17:34:37⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ ixicale ✔ 
+gime pre.dev.std.2020.03.04                                                                hostname: [ix]
+Actualizando 35b65a1a..e227b5c5
+Fast-forward
+ src/client/views/manageEvents/crudEvent.js      | 163 ++++++++++--------
+ src/client/views/manageEvents/crudLocation.js   | 211 ++++++++++++-----------
+ src/client/views/manageEvents/crudServices.js   | 461 +++++++++++++++++++++++++-------------------------
+ src/client/views/manageEvents/manageEvents.js   | 279 ++++++++----------------------
+ src/client/views/manageServices/editServices.js |   4 +-
+ 5 files changed, 512 insertions(+), 606 deletions(-)
+
+  ༆ ixicale༆   ⎣17:34:39⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ ixicale ↑1 ✔ 
+gis;git show                                                                               hostname: [ix]
+En la rama ixicale
+Tu rama está adelantada a 'origin/ixicale' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆  ✘  ⎣17:35:06⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ ixicale ↑1 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-events-fe.git
+   35b65a1a..e227b5c5  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣17:35:12⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ ixicale ✔ 

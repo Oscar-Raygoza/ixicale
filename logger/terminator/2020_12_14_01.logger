@@ -1,0 +1,1353 @@
+  ༆ ixicale༆   ⎣07:54:07⎤  🚦 ~ 
+cd $NODE/clv-service-web                                                                   hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:12:06⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 2 ● 
+gic pre.dev.2020.07.09.1                                                                   hostname: [ix]
+error: Los cambios locales de los siguientes archivos serán sobrescritos por checkout:
+	src/server/app/index.js
+Por favor realice un commit con los cambios o un stash antes de cambiar ramas.
+Abortando
+
+  ༆ ixicale༆  ✘  ⎣09:12:12⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 2 ● 
+gipl                                                                                       hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣09:12:17⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 2 ● 
+gicx                                                                                       hostname: [ix]
+M	src/server/app/index.js
+M	src/server/controllers/PaymentController.js
+Ya en 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣09:12:19⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 2 ● 
+gipl                                                                                       hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣09:12:24⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 2 ● 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+M	src/server/app/index.js
+M	src/server/controllers/PaymentController.js
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está detrás de 'origin/pre.dev.2020.12.07.1' por 16 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣09:12:28⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↓16 2 ● 
+gipl                                                                                       hostname: [ix]
+Actualizando f2a02985..b9108f2c
+Fast-forward src/client/components/form/Inputs.js                     |   4 +-
+ src/client/components/navbar/NavbarBuilder.js            |   2 +-
+ src/client/components/progressbar/CircularProgressbar.js | 105 +++++++++++++++++++-----
+ src/client/docs/styles/components/_cards.scss            |   9 ++-
+ src/client/docs/styles/components/_progressbar.scss      |  44 +++++-----
+ src/client/docs/styles/pages/_theme.scss                 |   8 +-
+ src/client/docs/styles/pages/my-wedding/_my-wedding.scss | 177 +++++++++++++++++++++++++++++++----------
+ src/client/views/forgotpassview/index.js                 |  26 ++++--
+ src/client/views/giftcard/index.js                       |   2 +-
+ src/client/views/home/Events.js                          |  40 +++++-----
+ src/client/views/home/StatusPayment.js                   |  19 ++---
+ src/client/views/roominglist/index.js                    |  32 ++++----
+ src/client/views/roominglist/sliderpromotion.js          |   3 +-
+ src/client/views/roominglist/thirdparty.js               |  31 +++-----
+ 14 files changed, 337 insertions(+), 165 deletions(-)
+
+  ༆ ixicale༆   ⎣09:12:32⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 2 ● 
+gicx                                                                                       hostname: [ix]
+M	src/server/app/index.js
+M	src/server/controllers/PaymentController.js
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣09:12:33⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 2 ● 
+gime pre.dev.2020.12.07.1                                                                  hostname: [ix]
+Actualizando f2a02985..b9108f2c
+Fast-forward
+ src/client/components/form/Inputs.js                     |   4 +-
+ src/client/components/navbar/NavbarBuilder.js            |   2 +-
+ src/client/components/progressbar/CircularProgressbar.js | 105 +++++++++++++++++++-----
+ src/client/docs/styles/components/_cards.scss            |   9 ++-
+ src/client/docs/styles/components/_progressbar.scss      |  44 +++++-----
+ src/client/docs/styles/pages/_theme.scss                 |   8 +-
+ src/client/docs/styles/pages/my-wedding/_my-wedding.scss | 177 +++++++++++++++++++++++++++++++----------
+ src/client/views/forgotpassview/index.js                 |  26 ++++--
+ src/client/views/giftcard/index.js                       |   2 +-
+ src/client/views/home/Events.js                          |  40 +++++-----
+ src/client/views/home/StatusPayment.js                   |  19 ++---
+ src/client/views/roominglist/index.js                    |  32 ++++----
+ src/client/views/roominglist/sliderpromotion.js          |   3 +-
+ src/client/views/roominglist/thirdparty.js               |  31 +++-----
+ 14 files changed, 337 insertions(+), 165 deletions(-)
+  ༆ ixicale༆   ⎣09:12:36⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑16 2 ● 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:12:43⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑16 2 ● 
+gis                                                                                        hostname: [ix]
+En la rama ixicale
+Tu rama está adelantada a 'origin/ixicale' por 16 commits.
+  (usa "git push" para publicar tus commits locales)
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificado:     src/server/app/index.js
+	modificado:     src/server/controllers/PaymentController.js
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+
+  ༆ ixicale༆   ⎣09:12:45⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑16 2 ● 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-service-web.git
+   f2a02985..b9108f2c  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣09:12:52⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 2 ● 
+                                                                                           hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣09:13:08⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 2 ● npm run dev                                                                                hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.mode=dev
+[1] 
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): config/global.js src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[1] ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+[1] ℹ ｢wds｣: webpack output is served from /
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] ℹ ｢wdm｣:    669 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣:    669 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣:    669 modules
+[1] ℹ ｢wdm｣: Compiled successfully.[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] Infinity
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+
+
+
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] {
+[0]   estado: 1,
+[0]   usuario_creacion: 'weddingweb',
+[0]   fecha_creacion: 2020-12-14T10:43:45.182Z,
+[0]   usuario_ultima_modificacion: 'weddingweb',
+[0]   fecha_ultima_modificacion: 2020-12-14T10:43:45.182Z,
+[0]   divisa: 'USD',
+[0]   idevent_grupo: '577',
+[0]   idfin_cliente_interno: '1',
+[0]   tipo_cambio: '0',
+[0]   pago_online: {
+[0]     name: 'Prueba pago',
+[0]     lastName: 'Apellido Persona',
+[0]     address: 'Testing Address',
+[0]     city: 'Testing City',
+[0]     country: 'BHS',
+[0]     zipcode: '12412',
+[0]     idevent_billing_address: '',
+[0]     cardNumber: '4111111111111111',
+[0]     mmExp: '10',
+[0]     yyExp: '21',
+[0]     cvc: '1244',
+[0]     card: 'visa',
+[0]     monto: '100',
+[0]     payment: 100,
+[0]     currency: 'USD',
+[0]     exchange: '1'
+[0]   }
+[0] }
+[0] {
+[0]   '{ambiente}': 'dev',
+[0]   '{tipo_pago}': 'Pay Services',
+[0]   '{api}': 'http://dev.clever-api-events.local/grupopago/payment',
+[0]   '{user}': 'weddingweb',
+[0]   '{date}': 2020-12-14T10:43:45.184Z,
+[0]   '{method}': 'POST - PaymentController.js > doPayment',
+[0]   '{data}': '{"estado":1,"usuario_creacion":"weddingweb","fecha_creacion":"2020-12-14T10:43:45.182Z","usuario_ultima_modificacion":"weddingweb","fecha_ultima_modificacion":"2020-12-14T10:43:45.182Z","divisa":"USD","idevent_grupo":"577","idfin_cliente_interno":"1","tipo_cambio":"0","pago_online":{"name":"Prueba pago","lastName":"Apellido Persona","address":"Testing Address","city":"Testing City","country":"BHS","zipcode":"12412","idevent_billing_address":"","cardNumber":"4111111111111111","mmExp":"10","yyExp":"21","cvc":"1244","card":"visa","monto":"100","payment":100,"currency":"USD","exchange":"1"}}'
+[0] }
+[0] {
+[0]   subject: 'My Mail - Test omitir',
+[0]   to: [ 'ixicale@palaceresorts.com' ],
+[0]   cc: [ 'ixicale@palaceresorts.com' ],
+[0]   body: '<table\n' +
+[0]     '                class="nl-container"\n' +
+[0]     '                style="\n' +
+[0]     '                    min-width: 560px;\n' +
+[0]     '                    border-spacing: 0px;\n' +
+[0]     '                    border-collapse: collapse;\n' +
+[0]     '                    background-color: #ecf6ff;\n' +
+[0]     '                    width: 100%;\n' +
+[0]     '                    max-width: 90%;\n' +
+[0]     '                    margin: 0 auto;\n' +
+[0]     "                    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;\n" +
+[0]     '                    font-size: 16px;\n' +
+[0]     '                "\n' +
+[0]     '                role="presentation"\n' +
+[0]     '                cellspacing="0"\n' +
+[0]     '                cellpadding="0"\n' +
+[0]     '            >\n' +
+[0]     '                <tr style="height: 3rem">\n' +
+[0]     '                    <td colspan="2" style="background-color: #f8f8f8; color: #179a7c; margin: 0 auto; text-align: center">\n' +
+[0]     '                        <span style="font-size: 25px">Aplicar&nbsp;pago&nbsp;{tipo_pago}&nbsp;{ambiente}</span>\n' +
+[0]     '                    </td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem">Origen:</th>\n' +
+[0]     '                    <td style="padding-top: 1rem; color: #179a7c;">&nbsp;<span>{api}</span></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem">Usuario:</th>\n' +
+[0]     '                    <td style="padding-top: 1rem;">&nbsp;<span>{user}</span></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem">Fecha:</th>\n' +
+[0]     '                    <td style="padding-top: 1rem;">&nbsp;<span>{date}</span></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem"><span>Metodo:</span></th>\n' +
+[0]     '                    <td style="padding-top: 1rem">&nbsp;<span>{method}</span></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem"><span>Payload:</span></th>\n' +
+[0]     '                    <td style="padding-top: 1rem"><code>{data}</code></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem"><span>Response:</span></th>\n' +
+[0]     '                    <td style="padding-top: 1rem"><code>{response}</code></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <td colspan="2" style="background-color: #ebebec"><p>&nbsp;</p></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr style="height: 3rem">\n' +
+[0]     '                    <td colspan="2" style="background-color: #f8f8f8; margin: 0 auto; text-align: center">\n' +
+[0]     '                        <span style="font-size: 15px"><b>Copyright Palace Resorts</b></span>\n' +
+[0]     '                    </td>\n' +
+[0]     '                </tr>\n' +
+[0]     '            </table>',
+[0]   dataReplace: {
+[0]     '{ambiente}': 'dev',
+[0]     '{tipo_pago}': 'Pay Services',
+[0]     '{api}': 'http://dev.clever-api-events.local/grupopago/payment',
+[0]     '{user}': 'weddingweb',
+[0]     '{date}': 2020-12-14T10:43:45.184Z,
+[0]     '{method}': 'POST - PaymentController.js > doPayment',
+[0]     '{data}': '{"estado":1,"usuario_creacion":"weddingweb","fecha_creacion":"2020-12-14T10:43:45.182Z","usuario_ultima_modificacion":"weddingweb","fecha_ultima_modificacion":"2020-12-14T10:43:45.182Z","divisa":"USD","idevent_grupo":"577","idfin_cliente_interno":"1","tipo_cambio":"0","pago_online":{"name":"Prueba pago","lastName":"Apellido Persona","address":"Testing Address","city":"Testing City","country":"BHS","zipcode":"12412","idevent_billing_address":"","cardNumber":"4111111111111111","mmExp":"10","yyExp":"21","cvc":"1244","card":"visa","monto":"100","payment":100,"currency":"USD","exchange":"1"}}'
+[0]   }
+[0] }[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] ReferenceError: Cannot access 'url' before initialization
+[0]     at EventController.addBalance (/var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:442:36)
+[0]     at /var/www/html/NODE/clv-service-web/src/server/libraries/Router/Route.js:232:86
+[0]     at Layer.handle [as handle_request] (/var/www/html/NODE/clv-service-web/node_modules/express/lib/router/layer.js:95:5)
+[0]     at next (/var/www/html/NODE/clv-service-web/node_modules/express/lib/router/route.js:137:13)
+[0]     at Route.dispatch (/var/www/html/NODE/clv-service-web/node_modules/express/lib/router/route.js:112:3)
+[0]     at Layer.handle [as handle_request] (/var/www/html/NODE/clv-service-web/node_modules/express/lib/router/layer.js:95:5)
+[0]     at /var/www/html/NODE/clv-service-web/node_modules/express/lib/router/index.js:281:22
+[0]     at Function.process_params (/var/www/html/NODE/clv-service-web/node_modules/express/lib/router/index.js:335:12)
+[0]     at next (/var/www/html/NODE/clv-service-web/node_modules/express/lib/router/index.js:275:10)
+[0]     at Function.handle (/var/www/html/NODE/clv-service-web/node_modules/express/lib/router/index.js:174:3)[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] ReferenceError: Cannot access 'url' before initialization
+[0]     at EventController.addBalance (/var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:442:36)
+[0]     at /var/www/html/NODE/clv-service-web/src/server/libraries/Router/Route.js:232:86
+[0]     at Layer.handle [as handle_request] (/var/www/html/NODE/clv-service-web/node_modules/express/lib/router/layer.js:95:5)
+[0]     at next (/var/www/html/NODE/clv-service-web/node_modules/express/lib/router/route.js:137:13)
+[0]     at Route.dispatch (/var/www/html/NODE/clv-service-web/node_modules/express/lib/router/route.js:112:3)
+[0]     at Layer.handle [as handle_request] (/var/www/html/NODE/clv-service-web/node_modules/express/lib/router/layer.js:95:5)
+[0]     at /var/www/html/NODE/clv-service-web/node_modules/express/lib/router/index.js:281:22
+[0]     at Function.process_params (/var/www/html/NODE/clv-service-web/node_modules/express/lib/router/index.js:335:12)
+[0]     at next (/var/www/html/NODE/clv-service-web/node_modules/express/lib/router/index.js:275:10)
+[0]     at Function.handle (/var/www/html/NODE/clv-service-web/node_modules/express/lib/router/index.js:174:3)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] {
+[0]   subject: 'My Mail - Test omitir',
+[0]   to: [ 'ixicale@palaceresorts.com' ],
+[0]   cc: [ 'ixicale@palaceresorts.com' ],
+[0]   body: '<table\n' +
+[0]     '                class="nl-container"\n' +
+[0]     '                style="\n' +
+[0]     '                    min-width: 560px;\n' +
+[0]     '                    border-spacing: 0px;\n' +
+[0]     '                    border-collapse: collapse;\n' +
+[0]     '                    background-color: #ecf6ff;\n' +
+[0]     '                    width: 100%;\n' +
+[0]     '                    max-width: 90%;\n' +
+[0]     '                    margin: 0 auto;\n' +
+[0]     "                    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;\n" +
+[0]     '                    font-size: 16px;\n' +
+[0]     '                "\n' +
+[0]     '                role="presentation"\n' +
+[0]     '                cellspacing="0"\n' +
+[0]     '                cellpadding="0"\n' +
+[0]     '            >\n' +
+[0]     '                <tr style="height: 3rem">\n' +
+[0]     '                    <td colspan="2" style="background-color: #f8f8f8; color: #179a7c; margin: 0 auto; text-align: center">\n' +
+[0]     '                        <span style="font-size: 25px">Aplicar&nbsp;pago&nbsp;{tipo_pago}&nbsp;{ambiente}</span>\n' +
+[0]     '                    </td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem">Origen:</th>\n' +
+[0]     '                    <td style="padding-top: 1rem; color: #179a7c;">&nbsp;<span>{api}</span></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem">Usuario:</th>\n' +
+[0]     '                    <td style="padding-top: 1rem;">&nbsp;<span>{user}</span></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem">Fecha:</th>\n' +
+[0]     '                    <td style="padding-top: 1rem;">&nbsp;<span>{date}</span></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem"><span>Metodo:</span></th>\n' +
+[0]     '                    <td style="padding-top: 1rem">&nbsp;<span>{method}</span></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem"><span>Payload:</span></th>\n' +
+[0]     '                    <td style="padding-top: 1rem"><code>{data}</code></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem"><span>Response:</span></th>\n' +
+[0]     '                    <td style="padding-top: 1rem"><code>{response}</code></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <td colspan="2" style="background-color: #ebebec"><p>&nbsp;</p></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr style="height: 3rem">\n' +
+[0]     '                    <td colspan="2" style="background-color: #f8f8f8; margin: 0 auto; text-align: center">\n' +
+[0]     '                        <span style="font-size: 15px"><b>Copyright Palace Resorts</b></span>\n' +
+[0]     '                    </td>\n' +
+[0]     '                </tr>\n' +
+[0]     '            </table>',
+[0]   dataReplace: {
+[0]     '{ambiente}': 'dev',
+[0]     '{tipo_pago}': 'Pay Services',
+[0]     '{api}': 'http://frm-api-qa.clever.palace-resorts.local/notificaciones/mail',
+[0]     '{user}': 'weddingweb',
+[0]     '{date}': 2020-12-14T10:54:43.383Z,
+[0]     '{method}': 'POST - PaymentController.js > doPayment',
+[0]     '{data}': '{"estado":1,"usuario_creacion":"weddingweb","fecha_creacion":"2020-12-14T10:54:43.383Z","usuario_ultima_modificacion":"weddingweb","fecha_ultima_modificacion":"2020-12-14T10:54:43.383Z","divisa":"USD","idevent_grupo":"577","idfin_cliente_interno":"1","tipo_cambio":"0","pago_online":{"name":"Prueba pago","lastName":"Apellido Persona","address":"Testing Address","city":"Testing City","country":"BHS","zipcode":"12412","idevent_billing_address":"","cardNumber":"4111111111111111","mmExp":"10","yyExp":"21","cvc":"1244","card":"visa","monto":"100","payment":100,"currency":"USD","exchange":"1"}}'
+[0]   }
+[0] }[0] {
+[0]   subject: 'My Mail - Test omitir',
+[0]   to: [ 'ixicale@palaceresorts.com' ],
+[0]   cc: [ 'ixicale@palaceresorts.com' ],
+[0]   body: '<table\n' +
+[0]     '                class="nl-container"\n' +
+[0]     '                style="\n' +
+[0]     '                    min-width: 560px;\n' +
+[0]     '                    border-spacing: 0px;\n' +
+[0]     '                    border-collapse: collapse;\n' +
+[0]     '                    background-color: #ecf6ff;\n' +
+[0]     '                    width: 100%;\n' +
+[0]     '                    max-width: 90%;\n' +
+[0]     '                    margin: 0 auto;\n' +
+[0]     "                    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;\n" +
+[0]     '                    font-size: 16px;\n' +
+[0]     '                "\n' +
+[0]     '                role="presentation"\n' +
+[0]     '                cellspacing="0"\n' +
+[0]     '                cellpadding="0"\n' +
+[0]     '            >\n' +
+[0]     '                <tr style="height: 3rem">\n' +
+[0]     '                    <td colspan="2" style="background-color: #f8f8f8; color: #179a7c; margin: 0 auto; text-align: center">\n' +
+[0]     '                        <span style="font-size: 25px">Aplicar&nbsp;pago&nbsp;{tipo_pago}&nbsp;{ambiente}</span>\n' +
+[0]     '                    </td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem">Origen:</th>\n' +
+[0]     '                    <td style="padding-top: 1rem; color: #179a7c;">&nbsp;<span>{api}</span></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem">Usuario:</th>\n' +
+[0]     '                    <td style="padding-top: 1rem;">&nbsp;<span>{user}</span></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem">Fecha:</th>\n' +
+[0]     '                    <td style="padding-top: 1rem;">&nbsp;<span>{date}</span></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem"><span>Metodo:</span></th>\n' +
+[0]     '                    <td style="padding-top: 1rem">&nbsp;<span>{method}</span></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem"><span>Payload:</span></th>\n' +
+[0]     '                    <td style="padding-top: 1rem"><code>{data}</code></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <th style="text-align: right; width: 10rem; padding-top: 1rem"><span>Response:</span></th>\n' +
+[0]     '                    <td style="padding-top: 1rem"><code>{response}</code></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr>\n' +
+[0]     '                    <td colspan="2" style="background-color: #ebebec"><p>&nbsp;</p></td>\n' +
+[0]     '                </tr>\n' +
+[0]     '                <tr style="height: 3rem">\n' +
+[0]     '                    <td colspan="2" style="background-color: #f8f8f8; margin: 0 auto; text-align: center">\n' +
+[0]     '                        <span style="font-size: 15px"><b>Copyright Palace Resorts</b></span>\n' +
+[0]     '                    </td>\n' +
+[0]     '                </tr>\n' +
+[0]     '            </table>',
+[0]   dataReplace: {
+[0]     '{ambiente}': 'dev',
+[0]     '{tipo_pago}': 'Pay Services',
+[0]     '{api}': 'http://frm-api-qa.clever.palace-resorts.local/notificaciones/mail',
+[0]     '{user}': 'weddingweb',
+[0]     '{date}': 2020-12-14T10:56:13.071Z,
+[0]     '{method}': 'POST - PaymentController.js > doPayment',
+[0]     '{data}': '{"estado":1,"usuario_creacion":"weddingweb","fecha_creacion":"2020-12-14T10:56:13.071Z","usuario_ultima_modificacion":"weddingweb","fecha_ultima_modificacion":"2020-12-14T10:56:13.071Z","divisa":"USD","idevent_grupo":"577","idfin_cliente_interno":"1","tipo_cambio":"0","pago_online":{"name":"Prueba pago","lastName":"Apellido Persona","address":"Testing Address","city":"Testing City","country":"BHS","zipcode":"12412","idevent_billing_address":"","cardNumber":"4111111111111111","mmExp":"10","yyExp":"21","cvc":"1244","card":"visa","monto":"100","payment":100,"currency":"USD","exchange":"1"}}'
+[0]   }
+[0] }[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣:    669 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+
+[0] [nodemon] restarting due to changes...[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] ReferenceError: ControllerException is not defined
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:385:21
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:525:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] CustomErrorException: ERROR EN EL SERVICIO BANKPAYMENT DE PAGOS: No se pudo recuperar el merchant a utilizar en la operacion: SociosReservas Division: BODAS Cia: OPR Hotel: ZCJG Banco: SANTANDER at http://dev.clever-api-events.local/grupopago/payment
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:386:27
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:525:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+[0]   code: 400,
+[0]   clientMessage: 'Unable to create this resource. ERROR EN EL SERVICIO BANKPAYMENT DE PAGOS: No se pudo recuperar el merchant a utilizar en la operacion: SociosReservas Division: BODAS Cia: OPR Hotel: ZCJG Banco: SANTANDER at http://dev.clever-api-events.local/grupopago/payment',
+[0]   file: '    at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js',
+[0]   filename: 'EventController.js',
+[0]   line: '386:27',
+[0]   toString: [Function]
+[0] }^C[0] npm run server exited with code SIGINT
+[1] npm run client exited with code SIGINT
+
+
+  ༆ ixicale༆  ✘  ⎣14:33:00⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 5 ● 
+npm run dev                                                                                hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] 
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.mode=dev
+[1] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): config/global.js src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[1] ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+[1] ℹ ｢wds｣: webpack output is served from /
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] ℹ ｢wdm｣:    669 modules
+[1] ℹ ｢wdm｣: Compiled successfully.[0] CustomErrorException: ERROR EN EL SERVICIO BANKPAYMENT DE PAGOS: No se pudo recuperar el merchant a utilizar en la operacion: SociosReservas Division: BODAS Cia: OPR Hotel: ZCJG Banco: SANTANDER at http://dev.clever-api-events.local/grupopago/payment
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:388:27
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:525:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+[0]   code: 400,
+[0]   clientMessage: 'Unable to create this resource. ERROR EN EL SERVICIO BANKPAYMENT DE PAGOS: No se pudo recuperar el merchant a utilizar en la operacion: SociosReservas Division: BODAS Cia: OPR Hotel: ZCJG Banco: SANTANDER at http://dev.clever-api-events.local/grupopago/payment',
+[0]   file: '    at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js',
+[0]   filename: 'EventController.js',
+[0]   line: '388:27',
+[0]   toString: [Function]
+[0] }
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] CustomErrorException: ERROR EN EL SERVICIO BANKPAYMENT DE PAGOS: No se pudo recuperar el merchant a utilizar en la operacion: SociosReservas Division: BODAS Cia: OPR Hotel: ZCJG Banco: SANTANDER at http://dev.clever-api-events.local/grupopago/payment
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:388:27
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:525:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+[0]   code: 400,
+[0]   clientMessage: 'Unable to create this resource. ERROR EN EL SERVICIO BANKPAYMENT DE PAGOS: No se pudo recuperar el merchant a utilizar en la operacion: SociosReservas Division: BODAS Cia: OPR Hotel: ZCJG Banco: SANTANDER at http://dev.clever-api-events.local/grupopago/payment',
+[0]   file: '    at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js',
+[0]   filename: 'EventController.js',
+[0]   line: '388:27',
+[0]   toString: [Function]
+[0] }[0] CustomErrorException: ERROR EN EL SERVICIO BANKPAYMENT DE PAGOS: No se pudo recuperar el merchant a utilizar en la operacion: SociosReservas Division: BODAS Cia: OPR Hotel: ZCJG Banco: SANTANDER at http://dev.clever-api-events.local/grupopago/payment
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:388:27
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:525:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+[0]   code: 400,
+[0]   clientMessage: 'Unable to create this resource. ERROR EN EL SERVICIO BANKPAYMENT DE PAGOS: No se pudo recuperar el merchant a utilizar en la operacion: SociosReservas Division: BODAS Cia: OPR Hotel: ZCJG Banco: SANTANDER at http://dev.clever-api-events.local/grupopago/payment',
+[0]   file: '    at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js',
+[0]   filename: 'EventController.js',
+[0]   line: '388:27',
+[0]   toString: [Function]
+[0] }
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+^C[0] npm run server exited with code SIGINT
+[1] npm run client exited with code SIGINT
+
+
+  ༆ ixicale༆  ✘  ⎣15:31:51⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está detrás de 'origin/pre.dev.2020.12.07.1' por 7 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣15:31:56⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↓7 ✔ 
+gipl                                                                                       hostname: [ix]
+giActualizando b9108f2c..a0d86520
+Fast-forward
+ src/client/components/progressbar/StatusPaymentbar.js           | 37 +++++++++++++++++++----------
+ src/client/docs/styles/components/_countdown.scss               | 23 +++++++++++++++---
+ src/client/docs/styles/pages/_theme.scss                        | 12 ++++++++--
+ src/client/docs/styles/pages/my-wedding/_my-wedding.scss        | 44 ++++++++++++++++++++++-------------
+ src/client/docs/styles/themes/variables/_wedding-variables.scss |  2 +-
+ src/client/views/home/StatusPayment.js                          | 22 ++++++++++++++++--
+ 6 files changed, 104 insertions(+), 36 deletions(-)
+
+  ༆ ixicale༆   ⎣15:31:59⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gic grid-system                                                                            hostname: [ix]
+Rama 'grid-system' configurada para hacer seguimiento a la rama remota 'grid-system' de 'origin'.
+Cambiado a nueva rama 'grid-system'
+
+  ༆ ixicale༆   ⎣15:32:03⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ grid-system ✔ gipl                                                                                       hostname: [ix]
+gicxYa está actualizado.
+
+  ༆ ixicale༆   ⎣15:32:05⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ grid-system ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣15:32:05⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.07.1                                                                  hostname: [ix]
+Merge made by the 'recursive' strategy.
+ src/client/components/progressbar/StatusPaymentbar.js           | 37 +++++++++++++++++++----------
+ src/client/docs/styles/components/_countdown.scss               | 23 +++++++++++++++---
+ src/client/docs/styles/pages/_theme.scss                        | 12 ++++++++--
+ src/client/docs/styles/pages/my-wedding/_my-wedding.scss        | 44 ++++++++++++++++++++++-------------
+ src/client/docs/styles/themes/variables/_wedding-variables.scss |  2 +-
+ src/client/views/home/StatusPayment.js                          | 22 ++++++++++++++++--
+ 6 files changed, 104 insertions(+), 36 deletions(-)
+
+  ༆ ixicale༆   ⎣15:32:10⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑8 ✔ 
+gis;git show                                                                               hostname: [ix]
+En la rama ixicale
+Tu rama está adelantada a 'origin/ixicale' por 8 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣15:32:14⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑8 ✔ 
+gips                                                                                       hostname: [ix]
+giEnumerando objetos: 13, listo.
+Contando objetos: 100% (13/13), listo.
+Compresión delta usando hasta 8 hilos
+Comprimiendo objetos: 100% (5/5), listo.
+Escribiendo objetos: 100% (5/5), 523 bytes | 523.00 KiB/s, listo.
+Total 5 (delta 3), reusado 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+ griTo github.com:fbenitez/clv-service-web.git
+   adeeaf4e..90e77ff3  ixicale -> ixicale
+  ༆ ixicale༆   ⎣15:32:20⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic grid-system                                                                            hostname: [ix]
+Cambiado a rama 'grid-system'
+Tu rama está actualizada con 'origin/grid-system'.
+
+  ༆ ixicale༆   ⎣15:32:22⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ grid-system ✔ 
+gipl                                                                                       hostname: [ix]
+gimeYa está actualizado.
+
+  ༆ ixicale༆   ⎣15:32:25⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ grid-system ✔ 
+gime pre.dev.2020.12.07.1                                                                  hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣15:32:36⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ grid-system ✔ 
+git fetch --all                                                                            hostname: [ix]
+Extrayendo origin
+
+  ༆ ixicale༆   ⎣15:32:50⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ grid-system ✔ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.07.1'.
+
+  ༆ ixicale༆   ⎣15:32:55⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gimex                                                                                      hostname: [ix]
+Actualizando a0d86520..90e77ff3
+Fast-forward
+ src/client/views/giftcard/index.js         |   4 +-
+ src/client/views/payments/unlogged_gift.js |  11 ++--
+ src/server/app/endpoints.js                |  12 +++++
+ src/server/app/index.js                    |  16 +++++-
+ src/server/controllers/EventController.js  | 154 ++++++++++++++++++++++++++++++++++++++++++++++---------
+ src/server/controllers/FRMController.js    |  17 ++++++
+ 6 files changed, 184 insertions(+), 30 deletions(-)
+
+  ༆ ixicale༆   ⎣15:33:19⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↑4 ✔ 
+gips                                                                                       hostname: [ix]nTotal 0 (delta 0), reusado 0 (delta 0)
+pmTo github.com:fbenitez/clv-service-web.git
+   a0d86520..90e77ff3  pre.dev.2020.12.07.1 -> pre.dev.2020.12.07.1
+
+  ༆ ixicale༆   ⎣15:33:25⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣15:33:48⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.07.1'.
+
+  ༆ ixicale༆   ⎣15:38:51⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gipl                                                                                       hostname: [ix]
+gicxYa está actualizado.
+
+  ༆ ixicale༆   ⎣15:38:54⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣15:38:55⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.07.1                                                                  hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣15:38:58⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.07.1'.
+
+  ༆ ixicale༆   ⎣15:39:02⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gimex                                                                                      hostname: [ix]
+Actualizando 90e77ff3..d21446be
+Fast-forward
+ src/server/controllers/EventController.js | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+  ༆ ixicale༆   ⎣15:39:04⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↑1 ✔ 
+gis;git show                                                                               hostname: [ix]
+En la rama pre.dev.2020.12.07.1
+Tu rama está adelantada a 'origin/pre.dev.2020.12.07.1' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣15:39:08⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↑1 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+gic gri	To github.com:fbenitez/clv-service-web.git
+   90e77ff3..d21446be  pre.dev.2020.12.07.1 -> pre.dev.2020.12.07.1
+
+  ༆ ixicale༆   ⎣15:39:13⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gic grid-system                                                                            hostname: [ix]
+Cambiado a rama 'grid-system'
+Tu rama está actualizada con 'origin/grid-system'.
+
+  ༆ ixicale༆   ⎣15:39:14⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ grid-system ✔ 
+gipl                                                                                       hostname: [ix]
+gime pYa está actualizado.
+
+  ༆ ixicale༆   ⎣15:39:17⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ grid-system ✔ 
+gime pre.dev.2020.12.07.1                                                                  hostname: [ix]
+Merge made by the 'recursive' strategy.
+ src/client/views/giftcard/index.js         |   4 +-
+ src/client/views/payments/unlogged_gift.js |  11 ++--
+ src/server/app/endpoints.js                |  12 ++++
+ src/server/app/index.js                    |  16 +++++-
+ src/server/controllers/EventController.js  | 164 +++++++++++++++++++++++++++++++++++++++++++++++--------
+ src/server/controllers/FRMController.js    |  17 ++++++
+ 6 files changed, 194 insertions(+), 30 deletions(-)
+
+  ༆ ixicale༆   ⎣15:39:20⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ grid-system ↑6 ✔ 

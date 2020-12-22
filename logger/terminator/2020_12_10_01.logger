@@ -1,0 +1,1048 @@
+sudo apt update; sudo apt upgrade                                                          hostname: [ix]
+[sudo] contraseña para ixicale: 
+Obj:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Des:2 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]                                
+Obj:3 http://mx.archive.ubuntu.com/ubuntu focal InRelease                                                
+Obj:4 http://repo.mysql.com/apt/ubuntu focal InRelease                                                   
+Des:5 http://mx.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]                               
+Obj:6 https://dbeaver.io/debs/dbeaver-ce  InRelease                                                      
+Obj:7 http://ppa.launchpad.net/maarten-fonville/android-studio/ubuntu focal InRelease                    
+Obj:8 https://deb.nodesource.com/node_12.x focal InRelease                                               
+Des:9 http://mx.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]                          
+Obj:10 http://ppa.launchpad.net/ondrej/php/ubuntu focal InRelease                     
+Des:11 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [683 kB]
+Des:12 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease [16.0 kB]   
+Err:12 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease             
+  Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+Des:13 http://mx.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages [388 kB]
+Des:14 http://mx.archive.ubuntu.com/ubuntu focal-updates/universe i386 Packages [522 kB]
+Des:15 http://mx.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [701 kB]                
+Des:16 http://mx.archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [13.4 kB]         
+Leyendo lista de paquetes... Hecho                                                                       
+W: Error de GPG: http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease: Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+E: El repositorio «http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease» no está firmado.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Calculando la actualización... Hecho
+Se actualizarán los siguientes paquetes:
+  android-studio-4.1 gir1.2-rsvg-2.0 libparted-fs-resize0 libparted2 librsvg2-2 librsvg2-common parted
+7 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Se necesita descargar 2 520 kB/2 525 kB de archivos.
+Se utilizarán 242 kB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n]s
+Des:1 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 parted amd64 3.3-4ubuntu0.20.04.1 [43.3 kB]
+Des:2 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 libparted-fs-resize0 amd64 3.3-4ubuntu0.20.04.1 [47.4 kB]
+Des:3 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 libparted2 amd64 3.3-4ubuntu0.20.04.1 [159 kB]
+Des:4 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 librsvg2-common amd64 2.48.9-1ubuntu0.20.04.1 [9 212 B]
+Des:5 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 librsvg2-2 amd64 2.48.9-1ubuntu0.20.04.1 [2 253 kB]
+Des:6 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 gir1.2-rsvg-2.0 amd64 2.48.9-1ubuntu0.20.04.1 [8 080 B]
+Descargados 2 520 kB en 18s (143 kB/s)                                                                   
+(Leyendo la base de datos ... 206463 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../0-android-studio-4.1_201.6953283~focal+1_amd64.deb ...
+--2020-12-10 08:33:56--  https://redirector.gvt1.com/edgedl/android/studio/ide-zips/4.1.1.0/android-studio
+-ide-201.6953283-linux.tar.gz
+Resolviendo redirector.gvt1.com (redirector.gvt1.com)... 172.217.2.110, 2607:f8b0:4004:80a::200e
+Conectando con redirector.gvt1.com (redirector.gvt1.com)[172.217.2.110]:443... conectado.
+Petición HTTP enviada, esperando respuesta... 302 Found
+Ubicación: https://r6---sn-0opoxu-j0os.gvt1.com/edgedl/android/studio/ide-zips/4.1.1.0/android-studio-ide-
+201.6953283-linux.tar.gz?cms_redirect=yes&mh=ML&mip=200.68.136.133&mm=28&mn=sn-0opoxu-j0os&ms=nvh&mt=16076
+07140&mv=m&mvi=6&pcm2cms=yes&pl=24&shardbypass=yes&usequic=no [siguiente]
+--2020-12-10 08:33:57--  https://r6---sn-0opoxu-j0os.gvt1.com/edgedl/android/studio/ide-zips/4.1.1.0/andro
+id-studio-ide-201.6953283-linux.tar.gz?cms_redirect=yes&mh=ML&mip=200.68.136.133&mm=28&mn=sn-0opoxu-j0os&m
+s=nvh&mt=1607607140&mv=m&mvi=6&pcm2cms=yes&pl=24&shardbypass=yes&usequic=no
+Resolviendo r6---sn-0opoxu-j0os.gvt1.com (r6---sn-0opoxu-j0os.gvt1.com)... 189.247.168.81, 2806:10b8:cfff:
+2::11
+Conectando con r6---sn-0opoxu-j0os.gvt1.com (r6---sn-0opoxu-j0os.gvt1.com)[189.247.168.81]:443... conectad
+o.
+Petición HTTP enviada, esperando respuesta... 200 OK
+Longitud: 926213072 (883M) [application/octet-stream]
+Guardando como: “/opt/android-studio-ide.tar.gz”
+
+/opt/android-studio-ide.ta 100%[======================================>] 883.30M  3.36MB/s    en 4m 36s  
+
+2020-12-10 08:38:15 (3.21 MB/s) - “/opt/android-studio-ide.tar.gz” guardado [926213072/926213072]
+Desempaquetando android-studio-4.1 (201.6953283~focal+1) sobre (201.6953283~focal+0) ...
+Preparando para desempaquetar .../1-parted_3.3-4ubuntu0.20.04.1_amd64.deb ...
+Desempaquetando parted (3.3-4ubuntu0.20.04.1) sobre (3.3-4) ...
+Preparando para desempaquetar .../2-libparted-fs-resize0_3.3-4ubuntu0.20.04.1_amd64.deb ...
+Desempaquetando libparted-fs-resize0:amd64 (3.3-4ubuntu0.20.04.1) sobre (3.3-4) ...
+Preparando para desempaquetar .../3-libparted2_3.3-4ubuntu0.20.04.1_amd64.deb ...
+Desempaquetando libparted2:amd64 (3.3-4ubuntu0.20.04.1) sobre (3.3-4) ...
+Preparando para desempaquetar .../4-librsvg2-common_2.48.9-1ubuntu0.20.04.1_amd64.deb ...
+Desempaquetando librsvg2-common:amd64 (2.48.9-1ubuntu0.20.04.1) sobre (2.48.7-1ubuntu0.20.04.1) ...
+Preparando para desempaquetar .../5-librsvg2-2_2.48.9-1ubuntu0.20.04.1_amd64.deb ...
+Desempaquetando librsvg2-2:amd64 (2.48.9-1ubuntu0.20.04.1) sobre (2.48.7-1ubuntu0.20.04.1) ...
+Preparando para desempaquetar .../6-gir1.2-rsvg-2.0_2.48.9-1ubuntu0.20.04.1_amd64.deb ...
+Desempaquetando gir1.2-rsvg-2.0:amd64 (2.48.9-1ubuntu0.20.04.1) sobre (2.48.7-1ubuntu0.20.04.1) ...
+Configurando android-studio-4.1 (201.6953283~focal+1) ...
+gtk-update-icon-cache: Cache file created successfully.
+Configurando librsvg2-2:amd64 (2.48.9-1ubuntu0.20.04.1) ...
+Configurando librsvg2-common:amd64 (2.48.9-1ubuntu0.20.04.1) ...
+Configurando libparted2:amd64 (3.3-4ubuntu0.20.04.1) ...
+Configurando libparted-fs-resize0:amd64 (3.3-4ubuntu0.20.04.1) ...
+Configurando gir1.2-rsvg-2.0:amd64 (2.48.9-1ubuntu0.20.04.1) ...
+Configurando parted (3.3-4ubuntu0.20.04.1) ...
+Procesando disparadores para libgdk-pixbuf2.0-0:amd64 (2.40.0+dfsg-3ubuntu0.1) ...
+Procesando disparadores para desktop-file-utils (0.24-1ubuntu3) ...
+Procesando disparadores para mime-support (3.64ubuntu1) ...
+Procesando disparadores para hicolor-icon-theme (0.17-2) ...
+Procesando disparadores para gnome-menus (3.36.0-1ubuntu1) ...
+Procesando disparadores para libc-bin (2.31-0ubuntu9.1) ...
+Procesando disparadores para man-db (2.9.1-1) ...
+
+  ༆ ixicale༆   ⎣08:38:33⎤  🚦 ~ 
+cd $NODE/clv-service-web                                                                   hostname: [ix]
+
+  ༆ ixicale༆   ⎣08:38:49⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 3 ● 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆   ⎣08:38:51⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 3 ● 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+M	src/client/components/checkout/status/index.js
+M	src/client/components/checkout/step/billingaddress.js
+M	src/client/views/payments/unlogged_gift.js
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está detrás de 'origin/pre.dev.2020.12.07.1' por 3 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+  ༆ ixicale༆   ⎣08:39:02⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↓3 3 ● 
+gipl                                                                                       hostname: [ix]
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 17 (delta 13), reused 17 (delta 13), pack-reused 0
+Desempaquetando objetos: 100% (17/17), 1.56 KiB | 99.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-service-web
+   8d81b8f4..75d15122  pre.dev.2020.12.07.1 -> origin/pre.dev.2020.12.07.1
+   66df9310..75d15122  angesolis            -> origin/angesolis
+Actualizando a445ccec..75d15122
+error: Los cambios locales de los siguientes archivos serán sobrescritos al fusionar:
+	src/client/components/checkout/step/billingaddress.js
+Por favor, confirma tus cambios o aguárdalos antes de fusionar.
+Abortando
+
+  ༆ ixicale༆  ✘  ⎣08:39:08⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↓4 3 ● 
+gicx                                                                                       hostname: [ix]
+M	src/client/components/checkout/status/index.js
+M	src/client/components/checkout/step/billingaddress.js
+M	src/client/views/payments/unlogged_gift.js
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣09:21:34⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 3 ● 
+                                                                                           hostname: [ix]
+
+
+  ༆ ixicale༆   ⎣09:38:15⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 3 ● 
+npm run dev                                                                                hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] 
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.mode=dev
+[1] [0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): config/global.js src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[1] ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+[1] ℹ ｢wds｣: webpack output is served from /
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] ℹ ｢wdm｣: Hash: af68b6b5a54dd5f71384
+[1] Version: webpack 4.43.0
+[1] Time: 13877ms
+[1] Built at: 2020-12-10 9:38:33
+[1]                                                                       Asset       Size  Chunks                         Chunk Names
+[1]                                                                  index.html   1.69 KiB          [emitted]              
+[1]                                                             postlogin/0.css   1.21 MiB       0  [emitted]              
+[1]                                                             postlogin/1.css   22.4 KiB       1  [emitted]              
+[1]                                                             postlogin/2.css   2.29 MiB       2  [emitted]              
+[1]                                          postlogin/358e1512f48984ae44270.js   1.31 KiB       0  [emitted] [immutable]  
+[1]                                        postlogin/4dc72aab90ab1f4bdcf2app.js   9.53 MiB     app  [emitted] [immutable]  app
+[1]                postlogin/Avenir-Black4ac13350261f8d16d984161187d672ae.woff2   23.6 KiB          [emitted]              
+[1]                 postlogin/Avenir-Black78d1a7db1a3279fa8c0b587e2ce04bb8.woff     33 KiB          [emitted]              
+[1]                  postlogin/Avenir-Black8570aee9babb103961a481b4f3b468c0.eot   67.9 KiB          [emitted]              
+[1]                  postlogin/Avenir-Blackd7b3487c50456791d034d77c7b48fcf7.ttf   67.7 KiB          [emitted]              
+[1]                   postlogin/Avenir-Book0f35616cbb27428d7e988fbd8255b788.ttf   44.1 KiB          [emitted]              
+[1]                 postlogin/Avenir-Book2e30265a0e131e6f999a7268d0a3854e.woff2   13.9 KiB          [emitted]              
+[1]                  postlogin/Avenir-Book3b07923576139de0dd8acfd3f511a023.woff   19.8 KiB          [emitted]              
+[1]                   postlogin/Avenir-Book6073c4127e04bc29b7e75decdc4878ba.eot   44.3 KiB          [emitted]              
+[1]                 postlogin/Avenir-Heavy2ba1dd96c3ae2a4936133d98f158df9e.woff   46.9 KiB          [emitted]              
+[1]                  postlogin/Avenir-Heavy409ed0b3bf285a0d43e1e482b9a7016f.ttf    123 KiB          [emitted]              
+[1]                postlogin/Avenir-Heavy413b970d129b05f9eb4cb51e42249160.woff2   30.6 KiB          [emitted]              
+[1]                  postlogin/Avenir-Heavy8849f635e13c36058df1362caca19650.eot    123 KiB          [emitted]              
+[1]                 postlogin/Avenir-Light617ff7daff2c7de52879c4371cb3cfa9.woff   38.7 KiB          [emitted]              
+[1]                postlogin/Avenir-Light7834e58fbcb63f45ce8290a432b5abce.woff2   25.1 KiB          [emitted]              
+[1]                  postlogin/Avenir-Light94ba232b62328041e387e70c06a785dd.ttf   88.9 KiB          [emitted]              
+[1]                  postlogin/Avenir-Lightf558d3dfca7ce9d2c33f2b95527c4843.eot   89.1 KiB          [emitted]              
+[1]                  postlogin/Avenir-Roman465b7979e1ef862c417b50b814b45892.eot   22.2 KiB          [emitted]              
+[1]                postlogin/Avenir-Roman4d7c78ec9d2b5b2cb3389d721e2f6f81.woff2   8.97 KiB          [emitted]              
+[1]                  postlogin/Avenir-Romanc406a021f3e1187bb6bed1e93da4672e.ttf     22 KiB          [emitted]              
+[1]                 postlogin/Avenir-Romanebbb65ab3106282c8b4503761fca679c.woff   12.6 KiB          [emitted]              
+[1]                     postlogin/Miso-Bold5f4170aeb98cf7d22524bbdccf50fb73.ttf   59.4 KiB          [emitted]              
+[1]                     postlogin/Miso-Boldb78843047ece07fc9a36dd16bbe70af7.otf     24 KiB          [emitted]              
+[1]                    postlogin/Miso-Light9dbfa9f7a7432ce926ff67d557283eb4.otf   25.4 KiB          [emitted]              
+[1]                  postlogin/Miso-Light9f8c2c2987f3f9e9390698204d5bc023.woff2   11.4 KiB          [emitted]              
+[1]                  postlogin/Miso-Regular872fdfa2c03ad7aa20582602e5257c10.otf   25.7 KiB          [emitted]              
+[1]                  postlogin/Miso-Regular9f3e5f399c91e65d1f10072955705898.ttf   57.9 KiB          [emitted]              
+[1]      postlogin/OpenSansCondensed-Bold1fcf2943496a113eb3be1db3551e840a.woff2   55.2 KiB          [emitted]              
+[1]        postlogin/OpenSansCondensed-Bold3dba10e1afb786db6704ced33d742cfe.eot    144 KiB          [emitted]              
+[1]       postlogin/OpenSansCondensed-Boldd1509f06bff29a63dfd9e5238d75096d.woff   75.3 KiB          [emitted]              
+[1]        postlogin/OpenSansCondensed-Boldf6805ba6e16d08fe09138ca28525621f.ttf    143 KiB          [emitted]              
+[1]       postlogin/OpenSansCondensed-Light01c1d4a2465f5038ba02952d271b8241.eot   99.1 KiB          [emitted]              
+[1]       postlogin/OpenSansCondensed-Light7402deacd4aff7ab10fcc589888b1e3d.ttf   98.9 KiB          [emitted]              
+[1]      postlogin/OpenSansCondensed-Lightb51832ee9a0a0325cdfee3177d3bf3ba.woff   58.4 KiB          [emitted]              
+[1]     postlogin/OpenSansCondensed-Lightbc4fde28999efe68109abd4b8a8510f2.woff2   43.6 KiB          [emitted]              
+[1]        postlogin/PalaceFontIcon-Regular08d519ba55c33fdb7a2928612e092646.ttf   7.71 KiB          [emitted]              
+[1]        postlogin/PalaceFontIcon-Regular60846106f092bc5d8ad6579d8bee7f49.svg   15.8 KiB          [emitted]              
+[1]      postlogin/PalaceFontIcon-Regulare3c67aef32bd3c81110b834f8b747b39.woff2   3.75 KiB          [emitted]              
+[1]       postlogin/PalaceFontIcon-Regularf069e5db447692e64f06a6c2dcd7ae0f.woff   4.79 KiB          [emitted]              
+[1]        postlogin/PalaceFontIcon-Regularfe0f94fcf8215edfba354de24a7e8430.eot   7.93 KiB          [emitted]              
+[1]          postlogin/PalaceFontIcon-Solid25ba23a7b18be825303d3338ed22a0c4.ttf   4.96 KiB          [emitted]              
+[1]        postlogin/PalaceFontIcon-Solid579bf4eef6a8c516b5fedafaad7e9268.woff2   2.54 KiB          [emitted]              
+[1]          postlogin/PalaceFontIcon-Solid8559d5644fa0fc0977a99d66bb7015c4.eot   5.17 KiB          [emitted]              
+[1]          postlogin/PalaceFontIcon-Solida69209d90e741553f62e8b920c464f20.svg    8.6 KiB          [emitted]              
+[1]         postlogin/PalaceFontIcon-Solidd15bfec4aecf39221f7084ab841fc442.woff    3.3 KiB          [emitted]              
+[1]   postlogin/PalaceFontIconBrand-Regular3f7dfc6dfc8a28e0d7aa56d6712cf8e9.svg   30.2 KiB          [emitted]              
+[1]   postlogin/PalaceFontIconBrand-Regular5d52a72af83e362533d9718699c19611.ttf   16.5 KiB          [emitted]              
+[1] postlogin/PalaceFontIconBrand-Regular814d6a6979f050f9f43526d93b03b8ab.woff2   7.53 KiB          [emitted]              
+[1]   postlogin/PalaceFontIconBrand-Regular9cb4ca5af3eb042954ec366682a9525a.eot   16.7 KiB          [emitted]              
+[1]  postlogin/PalaceFontIconBrand-Regulard0aea1a0975b1fafce16162cf4727bda.woff    9.3 KiB          [emitted]              
+[1]           postlogin/Parisienne-Regular1e3f731438bd261b50550bdf1ec77866.woff     33 KiB          [emitted]              
+[1]            postlogin/Parisienne-Regular280b9347ffc996c1d302ce1d29fffa41.ttf   58.4 KiB          [emitted]              
+[1]            postlogin/Parisienne-Regular2d568ce5cf29ab70a856457b9afb7ed7.eot   58.6 KiB          [emitted]              
+[1]          postlogin/Parisienne-Regulara5c190fb1bd3d0861e4247af033dedd5.woff2   26.9 KiB          [emitted]              
+[1]        postlogin/PlayfairDisplay-Italic2778106629be4e3a63a01bbe0eaf2ec0.ttf    219 KiB          [emitted]              
+[1]        postlogin/PlayfairDisplay-Italic475103cd4dca33d33d04a7c34b016385.eot    219 KiB          [emitted]              
+[1]       postlogin/PlayfairDisplay-Italic90ca1fdea31539237f4f424767bd9631.woff    107 KiB          [emitted]              
+[1]      postlogin/PlayfairDisplay-Italicd56bcde17a92072b9b88d0c97d673484.woff2   75.9 KiB          [emitted]              
+[1]      postlogin/PlayfairDisplay-Regular18ea6a671ba47c84656f069a157b43fc.woff   99.3 KiB          [emitted]              
+[1]     postlogin/PlayfairDisplay-Regular609d66e64dfb0bd7bb88439ea18e1f85.woff2   71.4 KiB          [emitted]              
+[1]       postlogin/PlayfairDisplay-Regular763f2f687131adf60e152c41556a711c.eot    215 KiB          [emitted]              
+[1]       postlogin/PlayfairDisplay-Regulara335ac6654da08d4a0a46b3a9fc48e3b.ttf    215 KiB          [emitted]              
+[1]                   postlogin/Roboto-Bold36b5bab58a18b9c924861a4ccbf1a790.ttf    160 KiB          [emitted]              
+[1]                  postlogin/Roboto-Lightd5c46b134c17b2138dcd1bb0efa67049.ttf    159 KiB          [emitted]              
+[1]                postlogin/Roboto-Regular5673da52c98bb6cb33ada5aaf649703e.ttf    155 KiB          [emitted]              
+[1]                                          postlogin/ac444fc4134edc1450a22.js   1.34 KiB       2  [emitted] [immutable]  
+[1]                          postlogin/amex232403f5c7d60dc48d8e50d68373c311.png   19.2 KiB          [emitted]              
+[1]                                                           postlogin/app.css    184 KiB     app  [emitted]              app
+[1]                 postlogin/experience-bg9ff8ed9d73f06e3b7183a58dd183d286.jpg   47.7 KiB          [emitted]              
+[1]               postlogin/fa-brands-4000425d661f34ffa46604c9dfa344c03bb.woff2   73.5 KiB          [emitted]              
+[1]                 postlogin/fa-brands-400189c0326f75931886d5b60cde8b5628f.ttf    127 KiB          [emitted]              
+[1]                 postlogin/fa-brands-400451b51d8700fb035bcaaa9e8710b384a.eot    128 KiB          [emitted]              
+[1]                postlogin/fa-brands-40085b063debeb5d5f079776ac1a9c924cb.woff   86.3 KiB          [emitted]              
+[1]               postlogin/fa-regular-40014f22fbed8146dbf3b497bb32d8491b0.woff   16.4 KiB          [emitted]              
+[1]              postlogin/fa-regular-400772a0f14c850c8b0dfe283a95857583e.woff2   13.3 KiB          [emitted]              
+[1]                postlogin/fa-regular-4009230982faf6ed4d1dab07babfb813777.ttf   33.3 KiB          [emitted]              
+[1]                postlogin/fa-regular-400b6579220162705be426ad4db0dc43f6b.eot   33.6 KiB          [emitted]              
+[1]                  postlogin/fa-solid-9001898ebd2e3162e7ca8627073d865b893.eot    188 KiB          [emitted]              
+[1]                postlogin/fa-solid-9004cc04a31c42f2f9d951547bbce75960b.woff2   73.8 KiB          [emitted]              
+[1]                  postlogin/fa-solid-900b1161bce5381a5fa7aacc073e1a01dd3.ttf    188 KiB          [emitted]              
+[1]                 postlogin/fa-solid-900db525089f5101b59a66184d109e6f917.woff   96.1 KiB          [emitted]              
+[1]                                                       postlogin/favicon.ico    454 KiB          [emitted]              
+[1]                                          postlogin/fe7cd93f1715e5d3fc001.js   1.42 KiB       1  [emitted] [immutable]  
+[1]              postlogin/foundation-icons92827f088b9eda87169bdc2b9888ce52.eot   53.3 KiB          [emitted]              
+[1]             postlogin/foundation-iconsa188c2f768ce5033d3f5d47be7280e25.woff   31.3 KiB          [emitted]              
+[1]              postlogin/foundation-iconse20945d7c929279ef7a6f1db184a4470.ttf   55.6 KiB          [emitted]              
+[1]                     postlogin/icon_copy288cbe9bd05f2ffde8f3b7c85668b9c9.png  668 bytes          [emitted]              
+[1]                      postlogin/icon_csv55c31272f83e40502e2a396dc3e77c69.png   1.97 KiB          [emitted]              
+[1]                    postlogin/icon_excel6f8d05823cf433aaa565380dd9552560.png   1.63 KiB          [emitted]              
+[1]                     postlogin/icon_json2f0e17de5d4309e674717298e674b722.png   1.97 KiB          [emitted]              
+[1]                      postlogin/icon_pdf2d1bf3fb16dddf1f1724ba1d7f0ffb19.png   1.23 KiB          [emitted]              
+[1]                    postlogin/icon_print2d7a612b847283f93314eb131fb995d9.png  846 bytes          [emitted]              
+[1]                                                     postlogin/manifest.json  437 bytes          [emitted]              
+[1]                    postlogin/mastercardbf9656c02c52f178d1090664bf694feb.png   10.7 KiB          [emitted]              
+[1]                        postlogin/spriteee806952989c4df14c2d24eb930c39ca.svg    112 KiB          [emitted]              
+[1]                         postlogin/telonea719e6d7484daca7a87dfa2e9ca6622.png    131 KiB          [emitted]              
+[1]                          postlogin/visa32be215fba9b3709b12258c14cc866a2.png   5.36 KiB          [emitted]              
+[1]                                                                       sw.js    912 KiB          [emitted]              
+[1] Entrypoint app = postlogin/app.css postlogin/4dc72aab90ab1f4bdcf2app.js
+[1] [0] multi (webpack)-dev-server/client?http://0.0.0.0:9000 @babel/polyfill ./src/client/index.js 52 bytes {app} [built]
+[1] [./node_modules/@babel/polyfill/lib/index.js] 686 bytes {app} [built]
+[1] [./node_modules/@babel/polyfill/lib/noConflict.js] 567 bytes {app} [built]
+[1] [./node_modules/core-js/library/fn/global.js] 87 bytes {app} [built]
+[1] [./node_modules/react-dom/index.js] 1.33 KiB {app} [built]
+[1] [./node_modules/react/index.js] 190 bytes {app} [built]
+[1] [./node_modules/strip-ansi/index.js] 161 bytes {app} [built]
+[1] [./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:9000] (webpack)-dev-server/client?http://0.0.0.0:9000 4.29 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {app} [built]
+[1] [./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {app} [built]
+[1] [./src/client/index.js] 424 bytes {app} [built]
+[1]     + 654 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]     [./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html] 1.81 KiB {0} [built]
+[1]     [./node_modules/lodash/lodash.js] 530 KiB {0} [built]
+[1]     [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {0} [built]
+[1]     [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 497 bytes {0} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/bucket/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/bucket/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/bucket/style.css 18.7 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/base/calendarDay/calendarDayStyle.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/base/calendarDay/calendarDayStyle.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/base/calendarDay/calendarDayStyle.css 46.1 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/base/calendarStyle.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/base/calendarStyle.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/base/calendarStyle.css 11.8 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/calendar/dialog/dialog.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/calendar/dialog/dialog.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/calendar/dialog/dialog.css 6.69 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/collapsible/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/collapsible/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/collapsible/style.css 5.62 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/creditcard/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/creditcard/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/creditcard/style.css 96.5 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/components/paginator/style.css:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/components/paginator/style.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/components/paginator/style.css 3.78 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/_theme.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/_theme.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/_theme.scss 1020 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/getUrl.js] 830 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.eot] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.ttf] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff] 105 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff2] 106 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.eot] 103 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.ttf] 103 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff2] 105 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.eot] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.ttf] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.woff] 105 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.woff2] 106 bytes {mini-css-extract-plugin} [built]
+[1]         + 73 hidden modules
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/variables/_wedding-variables.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/variables/_wedding-variables.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/variables/_wedding-variables.scss 17 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1] Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/dist/cjs.js??ref--5-3!src/client/docs/styles/themes/wedding-theme.scss:
+[1]     Entrypoint mini-css-extract-plugin = *
+[1]     [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/client/docs/styles/themes/wedding-theme.scss] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/dist/cjs.js??ref--5-3!./src/client/docs/styles/themes/wedding-theme.scss 1.94 MiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/api.js] 2.46 KiB {mini-css-extract-plugin} [built]
+[1]     [./node_modules/css-loader/dist/runtime/getUrl.js] 830 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/amex.png] 96 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/mastercard.png] 102 bytes {mini-css-extract-plugin} [built]
+[1]     [./public/cards/visa.png] 96 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.eot] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.ttf] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff] 105 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/black/Avenir-Black.woff2] 106 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.eot] 103 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.ttf] 103 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff] 104 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/book/Avenir-Book.woff2] 105 bytes {mini-css-extract-plugin} [built]
+[1]     [./src/client/docs/fonts/avenir/heavy/Avenir-Heavy.eot] 104 bytes {mini-css-extract-plugin} [built]
+[1]         + 76 hidden modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]     [./node_modules/@babel/polyfill/lib/index.js] 686 bytes {0} [built]
+[1]     [./node_modules/@babel/polyfill/lib/noConflict.js] 567 bytes {0} [built]
+[1]     [./node_modules/core-js/es6/index.js] 5.78 KiB {0} [built]
+[1]     [./node_modules/core-js/fn/array/flat-map.js] 108 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/array/includes.js] 109 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/entries.js] 109 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/get-own-property-descriptors.js] 148 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/object/values.js] 107 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/promise/finally.js] 166 bytes {0} [built]
+[1]     [./node_modules/core-js/fn/string/pad-end.js] 108 bytes {0} [built]
+[1]     [./node_modules/core-js/library/fn/global.js] 87 bytes {0} [built]
+[1]     [./node_modules/url-parse/index.js] 12.4 KiB {0} [built]
+[1]     [./src/server/libraries/ResponseFormatter.js] 3.73 KiB {0} [built]
+[1]     [./src/services/fetchHandler.js] 7.62 KiB {0} [built]
+[1]     [./src/services/serviceWorker.js] 393 bytes {0} [built]
+[1]         + 299 hidden modules
+[1] ℹ ｢wdm｣: Compiled successfully.[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: 05d2ce7e5d17bce581d8
+[1] Version: webpack 4.43.0
+[1] Time: 2168ms
+[1] Built at: 2020-12-10 9:59:46
+[1]                                Asset       Size  Chunks                         Chunk Names
+[1]                           index.html   1.69 KiB          [emitted]              
+[1]                      postlogin/0.css   1.21 MiB       0  [emitted]              
+[1] postlogin/0e5de716ef3f3469d461app.js   9.53 MiB     app  [emitted] [immutable]  app
+[1]                      postlogin/1.css   22.4 KiB       1  [emitted]              
+[1]                      postlogin/2.css   2.29 MiB       2  [emitted]              
+[1]   postlogin/24312207e218f149fbf00.js   1.31 KiB       0  [emitted] [immutable]  
+[1]   postlogin/5d091a75ec9b551f92721.js   1.42 KiB       1  [emitted] [immutable]  
+[1]                    postlogin/app.css    184 KiB     app  [emitted]              app
+[1]   postlogin/c3b31e46466cc36b80ec2.js   1.34 KiB       2  [emitted] [immutable]  
+[1]                postlogin/favicon.ico    454 KiB          [emitted]              
+[1]              postlogin/manifest.json  437 bytes          [emitted]              
+[1]                                sw.js    912 KiB          [emitted]              
+[1]  + 91 hidden assets
+[1] Entrypoint app = postlogin/app.css postlogin/0e5de716ef3f3469d461app.js
+[1] [./src/client/views/payments/unlogged_gift.js] 15.1 KiB {app} [built]
+[1]     + 668 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: f634a0310b4966e80416
+[1] Version: webpack 4.43.0
+[1] Time: 1908ms
+[1] Built at: 2020-12-10 10:57:27
+[1]                                Asset       Size  Chunks                         Chunk Names
+[1]                           index.html   1.69 KiB          [emitted]              
+[1] postlogin/c52edb9a658820793ee2app.js   9.53 MiB     app  [emitted] [immutable]  app
+[1]                postlogin/favicon.ico    454 KiB          [emitted]              
+[1]              postlogin/manifest.json  437 bytes          [emitted]              
+[1]                                sw.js    912 KiB          [emitted]              
+[1]  + 98 hidden assets
+[1] Entrypoint app = postlogin/app.css postlogin/c52edb9a658820793ee2app.js
+[1] [./src/client/components/checkout/status/index.js] 5.37 KiB {app} [built]
+[1]     + 668 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: e1407342e6b2af323ffe
+[1] Version: webpack 4.43.0
+[1] Time: 1632ms
+[1] Built at: 2020-12-10 10:58:10
+[1]                                Asset       Size  Chunks                         Chunk Names
+[1]                           index.html   1.69 KiB          [emitted]              
+[1] postlogin/94d9b79497bd6c11356aapp.js   9.53 MiB     app  [emitted] [immutable]  app
+[1]                postlogin/favicon.ico    454 KiB          [emitted]              
+[1]              postlogin/manifest.json  437 bytes          [emitted]              
+[1]                                sw.js    912 KiB          [emitted]              
+[1]  + 98 hidden assets
+[1] Entrypoint app = postlogin/app.css postlogin/94d9b79497bd6c11356aapp.js
+[1] [./src/client/components/checkout/status/index.js] 5.42 KiB {app} [built]
+[1]     + 668 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: 0d04ed9adb2346714741
+[1] Version: webpack 4.43.0
+[1] Time: 1572ms
+[1] Built at: 2020-12-10 11:27:10
+[1]                                Asset       Size  Chunks                         Chunk Names
+[1]                           index.html   1.69 KiB          [emitted]              
+[1] postlogin/5a6f66172169c40d06cdapp.js   9.54 MiB     app  [emitted] [immutable]  app
+[1]                postlogin/favicon.ico    454 KiB          [emitted]              
+[1]              postlogin/manifest.json  437 bytes          [emitted]              
+[1]                                sw.js    912 KiB          [emitted]              
+[1]  + 98 hidden assets
+[1] Entrypoint app = postlogin/app.css postlogin/5a6f66172169c40d06cdapp.js
+[1] [./src/client/components/checkout/status/index.js] 5.54 KiB {app} [built]
+[1]     + 668 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: f8e45e93bd91bfd2a324
+[1] Version: webpack 4.43.0
+[1] Time: 1602ms
+[1] Built at: 2020-12-10 11:27:46
+[1]                                Asset       Size  Chunks                         Chunk Names
+[1]                           index.html   1.69 KiB          [emitted]              
+[1] postlogin/858f3a9602ed42eaa6d8app.js   9.54 MiB     app  [emitted] [immutable]  app
+[1]                postlogin/favicon.ico    454 KiB          [emitted]              
+[1]              postlogin/manifest.json  437 bytes          [emitted]              
+[1]                                sw.js    912 KiB          [emitted]              
+[1]  + 98 hidden assets
+[1] Entrypoint app = postlogin/app.css postlogin/858f3a9602ed42eaa6d8app.js
+[1] [./src/client/components/checkout/status/index.js] 5.61 KiB {app} [built]
+[1]     + 668 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: f05c75ed484a0c47d0ba
+[1] Version: webpack 4.43.0
+[1] Time: 1628ms
+[1] Built at: 2020-12-10 11:28:37
+[1]                                Asset       Size  Chunks                         Chunk Names
+[1]                           index.html   1.69 KiB          [emitted]              
+[1] postlogin/28744300024cfb8617deapp.js   9.54 MiB     app  [emitted] [immutable]  app
+[1]                postlogin/favicon.ico    454 KiB          [emitted]              
+[1]              postlogin/manifest.json  437 bytes          [emitted]              
+[1]                                sw.js    912 KiB          [emitted]              
+[1]  + 98 hidden assets
+[1] Entrypoint app = postlogin/app.css postlogin/28744300024cfb8617deapp.js
+[1] [./src/client/components/checkout/status/index.js] 5.61 KiB {app} [built]
+[1]     + 668 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: cf5405f11f0bace384c3
+[1] Version: webpack 4.43.0
+[1] Time: 1710ms
+[1] Built at: 2020-12-10 11:49:23
+[1]                                Asset       Size  Chunks                         Chunk Names
+[1]                           index.html   1.69 KiB          [emitted]              
+[1] postlogin/4cdb0355c345f03532b5app.js   9.54 MiB     app  [emitted] [immutable]  app
+[1]                postlogin/favicon.ico    454 KiB          [emitted]              
+[1]              postlogin/manifest.json  437 bytes          [emitted]              
+[1]                                sw.js    912 KiB          [emitted]              
+[1]  + 98 hidden assets
+[1] Entrypoint app = postlogin/app.css postlogin/4cdb0355c345f03532b5app.js
+[1] [./src/client/views/payments/unlogged_gift.js] 15.1 KiB {app} [built]
+[1]     + 668 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: 76493a1781addd68cd54
+[1] Version: webpack 4.43.0
+[1] Time: 1686ms
+[1] Built at: 2020-12-10 11:58:18
+[1]                                Asset       Size  Chunks                         Chunk Names
+[1]                           index.html   1.69 KiB          [emitted]              
+[1] postlogin/d8b03e945b1ec7f9dee7app.js   9.54 MiB     app  [emitted] [immutable]  app
+[1]                postlogin/favicon.ico    454 KiB          [emitted]              
+[1]              postlogin/manifest.json  437 bytes          [emitted]              
+[1]                                sw.js    912 KiB          [emitted]              
+[1]  + 98 hidden assets
+[1] Entrypoint app = postlogin/app.css postlogin/d8b03e945b1ec7f9dee7app.js
+[1] [./src/client/views/payments/unlogged_pay.js] 12.5 KiB {app} [built]
+[1]     + 668 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.[1] ℹ ｢wdm｣: Compiling...
+[1] ℹ ｢wdm｣: Hash: fee19ffeab601c0a5e09
+[1] Version: webpack 4.43.0
+[1] Time: 372ms
+[1] Built at: 2020-12-10 11:58:31
+[1]                   Asset       Size  Chunks             Chunk Names
+[1]              index.html   1.69 KiB          [emitted]  
+[1]   postlogin/favicon.ico    454 KiB          [emitted]  
+[1] postlogin/manifest.json  437 bytes          [emitted]  
+[1]                   sw.js    912 KiB          [emitted]  
+[1]  + 99 hidden assets
+[1] Entrypoint app = postlogin/app.css postlogin/d8b03e945b1ec7f9dee7app.js
+[1] [./src/client/views/payments/logged.js] 16.4 KiB {app} [built]
+[1]     + 668 hidden modules
+[1] Child html-webpack-plugin for "index.html":
+[1]      1 asset
+[1]     Entrypoint undefined = index.html
+[1]        4 modules
+[1] Child serviceworker-plugin:
+[1]      1 asset
+[1]     Entrypoint undefined = sw.js
+[1]        314 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+^C
+
+
+[0] npm run server exited with code SIGINT                                                                
+[1] npm run client exited with code SIGINT
+
+  ༆ ixicale༆  ✘  ⎣14:41:44⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está detrás de 'origin/pre.dev.2020.12.07.1' por 7 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣14:41:52⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↓7 ✔ 
+igpl                                                                                       hostname: [ix]
+zsh: command not found: igpl
+  ༆ ixicale༆  ✘  ⎣14:41:53⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↓7 ✔ 
+gipl                                                                                       hostname: [ix]
+giremote: Enumerating objects: 34, done.
+remote: Counting objects: 100% (34/34), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 34 (delta 25), reused 34 (delta 25), pack-reused 0
+Desempaquetando objetos: 100% (34/34), 3.46 KiB | 272.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-service-web
+   ff095cef..79ffecf3  alanjimenez -> origin/alanjimenez
+   59685d0c..da93321f  lhuh        -> origin/lhuh
+Actualizando a445ccec..5d72c09c
+Fast-forward
+ src/client/components/checkout/step/billingaddress.js    |  2 +-
+ src/client/components/checkout/step/confirmation.js      |  2 +-
+ src/client/components/checkout/step/creditcard.js        |  4 +-
+ src/client/components/item-grid/index.js                 | 13 ++++--
+ src/client/components/navbar/Navbar.js                   |  1 +
+ src/client/components/navbar/NavbarBuilder.js            |  6 ++-
+ src/client/components/wizard/index.js                    |  2 +-
+ src/client/docs/styles/components/_wizard.scss           |  1 -
+ src/client/docs/styles/layouts/navbar.scss               |  3 ++
+ src/client/docs/styles/pages/_checkout.scss              | 15 +++++--
+ src/client/docs/styles/pages/my-wedding/_my-wedding.scss | 58 +++++++++++++++++--------
+ src/client/views/home/StatusPayment.js                   | 96 +++++++++++++++++++++++++++++++-----------
+ src/client/views/weddingextras/index.js                  | 42 ++++++------------
+ 13 files changed, 159 insertions(+), 86 deletions(-)
+
+  ༆ ixicale༆   ⎣14:41:56⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣14:41:57⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.07.1                                                                  hostname: [ix]
+Auto-fusionando src/client/components/checkout/step/confirmation.js
+Auto-fusionando src/client/components/checkout/step/billingaddress.js
+CONFLICTO (contenido): Conflicto de fusión en src/client/components/checkout/step/billingaddress.js
+Fusión automática falló; arregle los conflictos y luego realice un commit con el resultado.
+  ༆ ixicale༆  ✘  ⎣14:42:00⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale >M< ● 12± ⚑ 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆  ✘  ⎣14:43:15⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑8 ✔ 
+gis;git show                                                                               hostname: [ix]
+En la rama ixicale
+Tu rama está adelantada a 'origin/ixicale' por 8 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣14:43:18⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑8 ✔ 
+gips                                                                                       hostname: [ix]
+Enumerando objetos: 25, listo.
+Contando objetos: 100% (25/25), listo.
+Compresión delta usando hasta 8 hilos
+Comprimiendo objetos: 100% (9/9), listo.
+Escribiendo objetos: 100% (9/9), 834 bytes | 417.00 KiB/s, listo.
+Total 9 (delta 7), reusado 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), completed with 7 local objects.
+To github.com:fbenitez/clv-service-web.git
+   ea108120..3c773bbc  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣14:43:23⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está detrás de 'origin/pre.dev.2020.12.07.1' por 7 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣14:43:30⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↓7 ✔ 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆   ⎣14:43:30⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↓7 ✔ 
+gipl                                                                                       hostname: [ix]
+Actualizando 5d72c09c..79ffecf3Fast-forward
+ src/client/docs/styles/components/_sidebar.scss |  6 +++---
+ src/client/views/generalinfo/index.js           |  5 ++++-
+ src/client/views/login/index.js                 | 48 ++++++++++++++----------------------------------
+ 3 files changed, 21 insertions(+), 38 deletions(-)
+
+  ༆ ixicale༆   ⎣14:43:35⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣14:43:37⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.07.1                                                                  hostname: [ix]
+Merge made by the 'recursive' strategy.
+ src/client/docs/styles/components/_sidebar.scss |  6 +++---
+ src/client/views/generalinfo/index.js           |  5 ++++-
+ src/client/views/login/index.js                 | 48 ++++++++++++++----------------------------------
+ 3 files changed, 21 insertions(+), 38 deletions(-)
+
+  ༆ ixicale༆   ⎣14:43:56⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑8 ✔ 
+gips                                                                                       hostname: [ix]
+Enumerando objetos: 13, listo.
+Contando objetos: 100% (13/13), listo.
+Compresión delta usando hasta 8 hilos
+Comprimiendo objetos: 100% (5/5), listo.
+Escribiendo objetos: 100% (5/5), 546 bytes | 273.00 KiB/s, listo.
+Total 5 (delta 3), reusado 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:fbenitez/clv-service-web.git
+   3c773bbc..9f09944c  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣14:44:03⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.07.1'.
+
+  ༆ ixicale༆   ⎣14:47:12⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gipl                                                                                       hostname: [ix]remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 12 (delta 10), reused 12 (delta 10), pack-reused 0
+Desempaquetando objetos: 100% (12/12), 1.32 KiB | 452.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-service-web
+   79ffecf3..fd6ce41b  pre.dev.2020.12.07.1 -> origin/pre.dev.2020.12.07.1
+   da93321f..fd6ce41b  lhuh                 -> origin/lhuh
+Actualizando 79ffecf3..fd6ce41b
+Fast-forward
+ config/webpack.config.dev.js                                    |   1 +
+ src/client/components/progressbar/StatusPaymentbar.js           |   6 +-
+ src/client/docs/styles/base/_typography.scss                    | 139 +++++++++++++++++-----------------
+ src/client/docs/styles/base/_variables.scss                     |  14 ++++
+ src/client/docs/styles/pages/_theme.scss                        |   1 +
+ src/client/docs/styles/pages/my-wedding/_my-wedding.scss        |  47 ++++++++++--
+ src/client/docs/styles/themes/variables/_wedding-variables.scss |  18 ++++-
+ src/client/docs/styles/util/_medias.scss                        |  29 +++----
+ src/client/views/home/Events.js                                 |   3 +-
+ src/client/views/home/GeneralInfo.js                            | 110 ++++++++++++++-------------
+ 10 files changed, 213 insertions(+), 155 deletions(-)
+
+  ༆ ixicale༆   ⎣14:47:16⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣14:47:18⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.07.1                                                                  hostname: [ix]
+Merge made by the 'recursive' strategy.
+ config/webpack.config.dev.js                                    |   1 +
+ src/client/components/progressbar/StatusPaymentbar.js           |   6 +-
+ src/client/docs/styles/base/_typography.scss                    | 139 +++++++++++++++++-----------------
+ src/client/docs/styles/base/_variables.scss                     |  14 ++++
+ src/client/docs/styles/pages/_theme.scss                        |   1 +
+ src/client/docs/styles/pages/my-wedding/_my-wedding.scss        |  47 ++++++++++--
+ src/client/docs/styles/themes/variables/_wedding-variables.scss |  18 ++++-
+ src/client/docs/styles/util/_medias.scss                        |  29 +++----
+ src/client/views/home/Events.js                                 |   3 +-
+ src/client/views/home/GeneralInfo.js                            | 110 ++++++++++++++-------------
+ 10 files changed, 213 insertions(+), 155 deletions(-)
+  ༆ ixicale༆   ⎣14:47:22⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑8 ✔ 
+gips                                                                                       hostname: [ix]
+Enumerando objetos: 16, listo.
+Contando objetos: 100% (16/16), listo.
+Compresión delta usando hasta 8 hilos
+Comprimiendo objetos: 100% (6/6), listo.
+Escribiendo objetos: 100% (6/6), 610 bytes | 610.00 KiB/s, listo.
+Total 6 (delta 4), reusado 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:fbenitez/clv-service-web.git
+   9f09944c..7deb527a  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣14:47:36⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.07.1'.
+
+  ༆ ixicale༆   ⎣14:47:59⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gimex                                                                                      hostname: [ix]
+Actualizando fd6ce41b..7deb527a
+Fast-forward
+ src/client/components/checkout/status/index.js        | 52 ++++++++++++++++++++++++++++-----------------
+ src/client/components/checkout/step/billingaddress.js |  1 -
+ src/client/components/checkout/step/confirmation.js   |  2 +-
+ src/client/views/payments/unlogged_gift.js            |  1 +
+ src/client/views/payments/unlogged_pay.js             |  1 +
+ 5 files changed, 36 insertions(+), 21 deletions(-)
+
+  ༆ ixicale༆   ⎣14:48:00⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↑6 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-service-web.git
+   fd6ce41b..7deb527a  pre.dev.2020.12.07.1 -> pre.dev.2020.12.07.1
+
+  ༆ ixicale༆   ⎣14:48:06⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gic co-dev                                                                                 hostname: [ix]Rama 'co-dev' configurada para hacer seguimiento a la rama remota 'co-dev' de 'origin'.
+Cambiado a nueva rama 'co-dev'
+
+  ༆ ixicale༆   ⎣14:48:58⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ co-dev ✔ 
+gipl                                                                                       hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣14:49:32⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ co-dev ✔ 
+gime pre.dev.2020.12.07.1                                                                  hostname: [ix]
+Actualizando 4c0775d9..7deb527a
+Fast-forward
+ config/webpack.config.dev.js                                    |   1 +
+ src/client/app/Helpers.js                                       | 165 +++++++++++++++++++
+ src/client/components/checkout/status/index.js                  |  62 +++++---
+ src/client/components/checkout/step/billingaddress.js           |   1 -
+ src/client/components/checkout/step/confirmation.js             |   4 +-
+ src/client/components/checkout/step/creditcard.js               |   4 +-
+ src/client/components/dropdown/select.js                        |  11 +-
+ src/client/components/form/Form.js                              |  38 ++++-
+ src/client/components/form/Inputs.js                            |  51 ++++--
+ src/client/components/item-grid/index.js                        |  13 +-
+ src/client/components/navbar/Navbar.js                          |   1 +
+ src/client/components/navbar/NavbarBuilder.js                   |   6 +-
+ src/client/components/navbar/PublicNavbar.js                    |  18 ++-
+ src/client/components/newletter/index.js                        |  84 ++++------
+ src/client/components/progressbar/StatusPaymentbar.js           |   6 +-
+ src/client/components/wizard/_index.js                          |   2 +-
+ src/client/components/wizard/index.js                           |   4 +-
+ src/client/docs/styles/base/_typography.scss                    | 139 ++++++++--------
+ src/client/docs/styles/base/_variables.scss                     |  14 ++
+ src/client/docs/styles/components/_newletter.scss               |  63 +++++---
+ src/client/docs/styles/components/_sidebar.scss                 |   6 +-
+ src/client/docs/styles/components/_wizard.scss                  |   1 -
+ src/client/docs/styles/layouts/navbar.scss                      |   3 +
+ src/client/docs/styles/pages/_checkout.scss                     |  15 +-
+ src/client/docs/styles/pages/_theme.scss                        |   1 +
+ src/client/docs/styles/pages/my-wedding/_my-wedding.scss        | 105 +++++++++---
+ src/client/docs/styles/themes/variables/_wedding-variables.scss |  18 ++-
+ src/client/docs/styles/util/_medias.scss                        |  29 ++--
+ src/client/views/billingaddress/index.js                        | 289 +++++++++++++++-------------------
+ src/client/views/changepass/index.js                            |  10 +-
+ src/client/views/forgotpassview/index.js                        |  10 +-
+ src/client/views/generalinfo/WeddingPlannerInfo.js              |  10 +-
+ src/client/views/generalinfo/index.js                           |  39 ++---
+ src/client/views/giftcard/index.js                              |   8 +-
+ src/client/views/home/Events.js                                 |   3 +-
+ src/client/views/home/GeneralInfo.js                            | 110 +++++++------
+ src/client/views/home/StatusPayment.js                          |  98 +++++++++---
+ src/client/views/login/index.js                                 |  52 ++----
+ src/client/views/payments/APIs.js                               |  33 ++--
+ src/client/views/payments/unlogged_gift.js                      |   1 +
+ src/client/views/payments/unlogged_pay.js                       |   1 +
+ src/client/views/weddingextras/index.js                         |  42 ++---
+ 42 files changed, 962 insertions(+), 609 deletions(-)
+  ༆ ixicale༆   ⎣14:49:45⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ co-dev ↑60 ✔ 
+gis;git show                                                                               hostname: [ix]
+En la rama co-dev
+Tu rama está adelantada a 'origin/co-dev' por 60 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣14:49:49⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ co-dev ↑60 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+gic To github.com:fbenitez/clv-service-web.git
+   4c0775d9..7deb527a  co-dev -> co-dev
+
+  ༆ ixicale༆   ⎣14:49:55⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ co-dev ✔ 
+gic qa_wedding                                                                             hostname: [ix]
+Cambiado a rama 'qa_wedding'
+Tu rama está detrás de 'origin/qa_wedding' por 4 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣14:49:58⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding ↓4 ✔ 
+gipl                                                                                       hostname: [ix]
+gimeActualizando f40590f2..a93f16ec
+Fast-forward
+ config/webpack.config.base.js                          |  1 -
+ src/client/views/index.js                              | 14 ++++----------
+ src/client/views/positivebalance/manageevents/index.js |  4 ++--
+ 3 files changed, 6 insertions(+), 13 deletions(-)
+
+  ༆ ixicale༆   ⎣14:50:01⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding ✔ 
+gime co-dev                                                                                hostname: [ix]
+Merge made by the 'recursive' strategy.
+ config/webpack.config.dev.js                                    |   1 +
+ src/client/app/Helpers.js                                       | 165 +++++++++++++++++++
+ src/client/components/checkout/status/index.js                  |  62 +++++---
+ src/client/components/checkout/step/billingaddress.js           |   1 -
+ src/client/components/checkout/step/confirmation.js             |   4 +-
+ src/client/components/checkout/step/creditcard.js               |   4 +-
+ src/client/components/dropdown/select.js                        |  11 +-
+ src/client/components/form/Form.js                              |  38 ++++-
+ src/client/components/form/Inputs.js                            |  51 ++++--
+ src/client/components/item-grid/index.js                        |  13 +-
+ src/client/components/navbar/Navbar.js                          |   1 +
+ src/client/components/navbar/NavbarBuilder.js                   |   6 +-
+ src/client/components/navbar/PublicNavbar.js                    |  18 ++-
+ src/client/components/newletter/index.js                        |  84 ++++------
+ src/client/components/progressbar/StatusPaymentbar.js           |   6 +-
+ src/client/components/wizard/_index.js                          |   2 +-
+ src/client/components/wizard/index.js                           |   4 +-
+ src/client/docs/styles/base/_typography.scss                    | 139 ++++++++--------
+ src/client/docs/styles/base/_variables.scss                     |  14 ++
+ src/client/docs/styles/components/_newletter.scss               |  63 +++++---
+ src/client/docs/styles/components/_sidebar.scss                 |   6 +-
+ src/client/docs/styles/components/_wizard.scss                  |   1 -
+ src/client/docs/styles/layouts/navbar.scss                      |   3 +
+ src/client/docs/styles/pages/_checkout.scss                     |  15 +-
+ src/client/docs/styles/pages/_theme.scss                        |   1 +
+ src/client/docs/styles/pages/my-wedding/_my-wedding.scss        | 105 +++++++++---
+ src/client/docs/styles/themes/variables/_wedding-variables.scss |  18 ++-
+ src/client/docs/styles/util/_medias.scss                        |  29 ++--
+ src/client/views/billingaddress/index.js                        | 289 +++++++++++++++-------------------
+ src/client/views/changepass/index.js                            |  10 +-
+ src/client/views/forgotpassview/index.js                        |  10 +-
+ src/client/views/generalinfo/WeddingPlannerInfo.js              |  10 +-
+ src/client/views/generalinfo/index.js                           |  39 ++---
+ src/client/views/giftcard/index.js                              |   8 +-
+ src/client/views/home/Events.js                                 |   3 +-
+ src/client/views/home/GeneralInfo.js                            | 110 +++++++------
+ src/client/views/home/StatusPayment.js                          |  98 +++++++++---
+ src/client/views/login/index.js                                 |  52 ++----
+ src/client/views/payments/APIs.js                               |  33 ++--
+ src/client/views/payments/unlogged_gift.js                      |   1 +
+ src/client/views/payments/unlogged_pay.js                       |   1 +
+ src/client/views/weddingextras/index.js                         |  42 ++---
+ 42 files changed, 962 insertions(+), 609 deletions(-)
+  ༆ ixicale༆   ⎣14:50:05⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding ↑61 ✔ 
+gips                                                                                       hostname: [ix]
+Enumerando objetos: 10, listo.
+Contando objetos: 100% (10/10), listo.
+Compresión delta usando hasta 8 hilos
+Comprimiendo objetos: 100% (4/4), listo.
+Escribiendo objetos: 100% (4/4), 489 bytes | 489.00 KiB/s, listo.
+Total 4 (delta 2), reusado 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:fbenitez/clv-service-web.git
+   a93f16ec..b65222ea  qa_wedding -> qa_wedding
+
+  ༆ ixicale༆   ⎣14:50:13⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding ✔ 
+gic co-dev                                                                                 hostname: [ix]
+Cambiado a rama 'co-dev'
+Tu rama está actualizada con 'origin/co-dev'.
+
+  ༆ ixicale༆   ⎣14:50:38⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ co-dev ✔ 
+npm run dev                                                                                hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] 
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.mode=dev
+[1] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): config/global.js src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![1] ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+[1] ℹ ｢wds｣: webpack output is served from /
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] ℹ ｢wdm｣:    669 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+^C[0] npm run server exited with code SIGINT
+[1] npm run client exited with code SIGINT
+
+
+  ༆ ixicale༆  ✘  ⎣15:00:19⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ co-dev ✔ 
+git log                                                                                    hostname: [ix]
+
+  ༆ ixicale༆  ✘  ⎣15:00:36⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ co-dev ✔ 
+gic qa_wedding                                                                             hostname: [ix]
+Cambiado a rama 'qa_wedding'
+Tu rama está actualizada con 'origin/qa_wedding'.
+
+  ༆ ixicale༆   ⎣15:00:39⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding ✔ 
+git log                                                                                    hostname: [ix]
+
+  ༆ ixicale༆  ✘  ⎣15:34:18⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ qa_wedding ✔ 
+gicx                                                                                       hostname: [ix]
+M	src/client/views/payments/unlogged_gift.js
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣15:54:19⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1 ● 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆   ⎣15:56:44⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑1 ✔ 
+gis                                                                                        hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣15:56:47⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gi

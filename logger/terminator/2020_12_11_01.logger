@@ -1,0 +1,316 @@
+cd $NODE/clv-service-web                                                                   hostname: [ix]
+
+  ༆ ixicale༆   ⎣11:16:21⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está detrás de 'origin/pre.dev.2020.12.07.1' por 2 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣11:16:27⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↓2 ✔ 
+gipl                                                                                       hostname: [ix]
+Actualizando 4db39881..f2a02985
+Fast-forward
+ src/client/docs/styles/pages/my-wedding/_my-wedding.scss |  4 ++++
+ src/client/views/giftcard/index.js                       |  3 +--
+ src/client/views/home/StatusPayment.js                   | 10 +++++++---
+ 3 files changed, 12 insertions(+), 5 deletions(-)
+
+  ༆ ixicale༆   ⎣11:16:31⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣11:16:37⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.07.1                                                                  hostname: [ix]
+Actualizando 4db39881..f2a02985
+Fast-forward
+ src/client/docs/styles/pages/my-wedding/_my-wedding.scss |  4 ++++
+ src/client/views/giftcard/index.js                       |  3 +--
+ src/client/views/home/StatusPayment.js                   | 10 +++++++---
+ 3 files changed, 12 insertions(+), 5 deletions(-)
+
+  ༆ ixicale༆   ⎣11:16:40⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑2 ✔ 
+gis;git show                                                                               hostname: [ix]
+En la rama ixicale
+Tu rama está adelantada a 'origin/ixicale' por 2 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit f2a029850d7dd4225e0b6ab038eb515c420d40d9 (HEAD -> ixicale, origin/pre.dev.2020.12.07.1, origin/amatos, pre.dev.2020.12.07.1)
+Merge: e7d8f8b8 4db39881
+Author: AndryMatos <andry.matoscaamal@gmail.com>
+Date:   Fri Dec 11 09:52:06 2020 -0700
+
+    merge amatos into pre.dev.2020.12.07.1
+
+diff --cc src/client/docs/styles/pages/my-wedding/_my-wedding.scss
+index 6d7c6554,45490528..6fb13b0c
+--- a/src/client/docs/styles/pages/my-wedding/_my-wedding.scss
++++ b/src/client/docs/styles/pages/my-wedding/_my-wedding.scss
+@@@ -97,9 -103,10 +103,14 @@@ $page-my-wedding-padding: 0.5rem
+                        display: flex;
+                }
+  
+ +              .font{
+ +                      font-family: "Avenir-Roman";
+ +              }
+++              
++               .sp-paid {
++                       color: get-color("primary");
++               }
++ 
+                @include medium-screen() {
+                        .btn-inline {
+                                position: relative;
+(END
+commit f2a029850d7dd4225e0b6ab038eb515c420d40d9 (HEAD -> ixicale, origin/pre.dev.2020.12.07.1, origin/amatos, pre.dev.2020.12.07.1)
+Merge: e7d8f8b8 4db39881
+Author: AndryMatos <andry.matoscaamal@gmail.com>
+Date:   Fri Dec 11 09:52:06 2020 -0700
+
+    merge amatos into pre.dev.2020.12.07.1
+
+diff --cc src/client/docs/styles/pages/my-wedding/_my-wedding.scss
+index 6d7c6554,45490528..6fb13b0c
+--- a/src/client/docs/styles/pages/my-wedding/_my-wedding.scss
++++ b/src/client/docs/styles/pages/my-wedding/_my-wedding.scss
+@@@ -97,9 -103,10 +103,14 @@@ $page-my-wedding-padding: 0.5rem
+                        display: flex;
+                }
+  
+ +              .font{
+ +                      font-family: "Avenir-Roman";
+ +              }
+++              
++               .sp-paid {
++                       color: get-color("primary");
++               }
++ 
+                @include medium-screen() {
+                        .btn-inline {
+                                position: relative;
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit f02723f1093da30c9f4f64ab0c872bc4fe39dee4 (HEAD -> ixicale, origin/pre.dev.2020.12.10.1, origin/gadrian, origin/ftun, origin/dev, origin/cacebedo, pre.dev.2020.12.10.1)
+Author: Carlos Acebedo <hueroz21@gmail.com>
+Date:   Thu Dec 10 11:05:54 2020 -0600
+
+    Modificaciones validaciones postcharge
+
+diff --git a/app/controllers/eventcargosservicios/CargosserviciosController.php b/app/controllers/eventcargosservicios/CargosserviciosController.php
+index a01c5af..e535bb5 100755
+--- a/app/controllers/eventcargosservicios/CargosserviciosController.php
++++ b/app/controllers/eventcargosservicios/CargosserviciosController.php
+@@ -153,6 +153,7 @@ class CargosserviciosController extends BController
+                 "completed" => $post["completed"],
+                 "idevent_grupo" => $post["idevent_grupo"],
+                 "usuario_creacion" => $post["usuario_creacion"],
++                "isNewFE" => true,
+                 "details" => [[
+                     "idevent_detalle_item" => $service["idevent_detalle_item"],
+                     "idservice_evento" => $service["idservice_evento"],
+diff --git a/app/controllers/eventdetalleitem/DetalleitemController.php b/app/controllers/eventdetalleitem/DetalleitemController.php
+index 043a780..054d306 100644
+--- a/app/controllers/eventdetalleitem/DetalleitemController.php
++++ b/app/controllers/eventdetalleitem/DetalleitemController.php
+@@ -955,7 +955,7 @@ class DetalleitemController extends BController
+ 
+                 //Se agregan validacion por los nuevos cambios, en la version de productivo no viaja el importe
+                 //$importe = !empty($value['importe']) || $value['importe'] == 0 ? $value['importe'] : ($value['precio_unitario'] * $value['cantidad']);
+-                $importe = empty($value['importe']) ? ($value['precio_unitario'] * $value['cantidad']) : $value['importe'];
++                $importe = $post["isNewFE"] === true ? $value['importe'] : ($value['precio_unitario'] * $value['cantidad']);
+                 $nombre_comercial = isset($provedor['nombre_comercial']) ? $provedor['nombre_comercial'] : "";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit 1d1de5b2cf762cb22ecce8a80eb4609af7e49c30 (HEAD -> ixicale, origin/pre.dev.std.2020.03.04, origin/guzman, origin/gadrian, origin/ftun, origin/cacebedo, pre.dev.std.2020.03.04)
+Merge: d701df24 388c6dd6
+Author: reynaldo9 <reynaldogv9@hotmail.com>
+Date:   Wed Dec 9 16:18:38 2020 -0500
+
+    se resuelve conflicto
+
+diff --cc src/server/controllers/eventsController.js
+index b898245b,0c10f83b..34954423
+--- a/src/server/controllers/eventsController.js
++++ b/src/server/controllers/eventsController.js
+@@@ -563,10 -563,13 +563,21 @@@ exports.getChargesDetail = (req, res) =
+      return MakeRequest(req, res, `${URL_EVENTS}/eventcargosservicios/getchargesbygroupid/${req.params.id}`);
+  };
+  
+ +
+ +/**
+ + * GET Retorna los grupos por blockcode
+ + */
+ +exports.getGroupBlockcode = (req, res) => {
+ +    return MakeRequest(req, res, `${URL_EVENTS}/eventgrupo/getgroupbyblockcode/${req.params.blockcode}`);
+- };
+++};
+++
++ /**
++  * Get Wedding's Note
++  * @param {*} req 
++  * @param {*} res 
++  */
++ exports.getWeddingNote = (req, res) => {
++     return MakeRequest(req, res,
++       `${URL_EVENTS}/eventdetalleextrainfo/comments/${req.params.iddetalleitem}`    
++     );
++ };
+esde github.com:fbenitez/clv-productions-api
+   6b3b97a..8acbbaf  pre.dev.2020.08.04.1                -> origin/pre.dev.2020.08.04.1
+   0b105bc..8acbbaf  dev                                 -> origin/dev
+   66679ae..8f31ab1  qa                                  -> origin/qa
+   a00f4d5..8acbbaf  rcan                                -> origin/rcan
+ * [nuevo tag]       clv-productions-api-qa.2020.12.09.2 -> clv-productions-api-qa.2020.12.09.2
+ * [nuevo tag]       clv-productions-api-qa.2020.12.09.1 -> clv-productions-api-qa.2020.12.09.1
+Actualizando 6b3b97a..8acbbaf
+Fast-forward
+ app/controllers/NotificacionesproveedorController.php | 13 ++++++++++---
+ app/helpers/TraitMpdf.php                             |  4 ++--
+ 2 files changed, 12 insertions(+), 5 deletions(-)
+
+  ༆ ixicale༆   ⎣11:21:13⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ pre.dev.2020.08.04.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣11:21:13⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.08.04.1                                                                  hostname: [ix]
+Actualizando 6b3b97a..8acbbaf
+Fast-forward
+ app/controllers/NotificacionesproveedorController.php | 13 ++++++++++---
+ app/helpers/TraitMpdf.php                             |  4 ++--
+ 2 files changed, 12 insertions(+), 5 deletions(-)
+
+  ༆ ixicale༆   ⎣11:21:16⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ↑1 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-productions-api.git
+   6b3b97a..8acbbaf  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣11:21:21⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+$NODE/clv-service-web                                                                      hostname: [ix]
+
+  ༆ ixicale༆   ⎣12:14:23⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+M	src/server/app/index.js
+M	src/server/controllers/EventController.js
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.07.1'.

@@ -1,0 +1,995 @@
+  ༆ ixicale༆   ⎣07:40:12⎤  🚦 ~ 
+cd $NODE/clv-service-web                                                                   hostname: [ix]
+
+  ༆ ixicale༆   ⎣11:44:21⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.07.09.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.07.09.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.07.09.1'.
+
+  ༆ ixicale༆   ⎣11:44:36⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+gipl                                                                                       hostname: [ix]
+gicx^C
+
+  ༆ ixicale༆  ✘  ⎣11:44:57⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+gipl                                                                                       hostname: [ix]
+gicxYa está actualizado.
+
+  ༆ ixicale༆   ⎣11:44:59⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣11:45:00⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gime pre.dev.2020.07.09.1                                                                  hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣11:45:02⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+$PHP/clv-events-api                                                                        hostname: [ix]
+
+  ༆ ixicale༆   ⎣11:50:23⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gipl                                                                                       hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣11:50:26⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.02.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.02.1'
+Tu rama está detrás de 'origin/pre.dev.2020.12.02.1' por 4 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣11:50:31⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.12.02.1 ↓4 ✔ gipl                                                                                       hostname: [ix]
+Actualizando eb19213..803355d
+Fast-forward
+ app/config/routers/events.php                              |  1 +
+ app/controllers/eventdetalleitem/DetalleitemController.php | 40 ++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 41 insertions(+)
+
+  ༆ ixicale༆   ⎣11:50:36⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣11:50:39⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.02.1                                                                  hostname: [ix]
+Actualizando eb19213..803355d
+Fast-forward
+ app/config/routers/events.php                              |  1 +
+ app/controllers/eventdetalleitem/DetalleitemController.php | 40 ++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 41 insertions(+)
+
+  ༆ ixicale༆   ⎣11:50:44⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ↑4 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-events-api.git
+   eb19213..803355d  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣11:50:51⎤  🚦 /var/www/html/PHP/clv-events-api   origin ☊ ixicale ✔ 
+$PHP/clv-products-api                                                                      hostname: [ix]
+
+  ༆ ixicale༆   ⎣11:50:56⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.01.3                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.01.3'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.01.3'.
+
+  ༆ ixicale༆   ⎣11:51:04⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.01.3 ✔ 
+gipl                                                                                       hostname: [ix]
+remote: Enumerating objects: 21, done.
+remote: Counting objects: 100% (21/21), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 21 (delta 13), reused 21 (delta 13), pack-reused 0Desempaquetando objetos: 100% (21/21), 9.22 KiB | 410.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-products-api
+   6e6fda0..be39deb  alanjimenez             -> origin/alanjimenez
+   465013a..be39deb  ftun                    -> origin/ftun
+   e44e5f5..c6d112f  gadrian                 -> origin/gadrian
+   45f00ce..be39deb  lhuh                    -> origin/lhuh
+   18493a0..be39deb  michan                  -> origin/michan
+ * [nueva rama]      pre.dev.2020.12.01.02.1 -> origin/pre.dev.2020.12.01.02.1
+ * [nueva rama]      pre.dev.2020.12.02.1    -> origin/pre.dev.2020.12.02.1
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣11:51:08⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.01.3 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣11:51:11⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.01.3                                                                  hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣11:51:15⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+$PHP/clv-productions-api                                                                   hostname: [ix]
+
+  ༆ ixicale༆   ⎣11:51:23⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+gic pre.dev.2020.08.04.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.08.04.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.08.04.1'.
+
+  ༆ ixicale༆   ⎣11:51:37⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ pre.dev.2020.08.04.1 ✔ 
+gipl                                                                                       hostname: [ix]
+gremote: Enumerating objects: 38, done.
+remote: Counting objects: 100% (38/38), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 38 (delta 34), reused 38 (delta 34), pack-reused 0
+Desempaquetando objetos: 100% (38/38), 6.39 KiB | 467.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-productions-api
+   70070b8..b59173a  lhuh       -> origin/lhuh
+   b59173a..5ff002c  rcan       -> origin/rcan
+Ya está actualizado.
+  ༆ ixicale༆   ⎣11:51:40⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ pre.dev.2020.08.04.1 ✔ 
+gic pre.dev.2020.08.04.1                                                                   hostname: [ix]
+Ya en 'pre.dev.2020.08.04.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.08.04.1'.
+
+  ༆ ixicale༆   ⎣11:51:50⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ pre.dev.2020.08.04.1 ✔ 
+gipl                                                                                       hostname: [ix]
+gimYa está actualizado.
+
+  ༆ ixicale༆   ⎣11:51:52⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ pre.dev.2020.08.04.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣11:51:53⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.08.04.1                                                                  hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣11:51:58⎤  🚦 /var/www/html/PHP/clv-productions-api   origin ☊ ixicale ✔ 
+$NODE/clv-events-fe                                                                        hostname: [ix]
+
+  ༆ ixicale༆   ⎣11:52:04⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ ixicale ✔ 
+gic pre.dev.std.2020.03.04                                                                 hostname: [ix]
+Cambiado a rama 'pre.dev.std.2020.03.04'
+Tu rama está detrás de 'origin/pre.dev.std.2020.03.04' por 2 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣11:52:11⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ pre.dev.std.2020.03.04 ↓2 ✔ 
+gipl                                                                                       hostname: [ix]
+giActualizando 68bfe2c5..6b6155da
+Fast-forward
+ package.json                                                   |   2 +-
+ src/client/views/catalogs/eventType.js                         |   3 +-
+ src/client/views/catalogs/locations.js                         | 514 ++++++++++++++++++++---------------
+ src/client/views/catalogs/promotions/promotions.js             |  17 +-
+ src/client/views/catalogs/ratecodeexcluded/rateCodeExcluded.js |   2 +-
+ src/server/controllers/eventsController.js                     |  36 ---
+ src/server/controllers/locationController.js                   |  63 +++++
+ src/server/routers/apiRouter.js                                |  19 +-
+ 8 files changed, 387 insertions(+), 269 deletions(-)
+ create mode 100644 src/server/controllers/locationController.js
+  ༆ ixicale༆   ⎣11:52:13⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ pre.dev.std.2020.03.04 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣11:52:14⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ ixicale ✔ 
+gime pre.dev.std.2020.03.04                                                                hostname: [ix]
+Actualizando 68bfe2c5..6b6155da
+Fast-forward
+ package.json                                                   |   2 +-
+ src/client/views/catalogs/eventType.js                         |   3 +-
+ src/client/views/catalogs/locations.js                         | 514 ++++++++++++++++++++---------------
+ src/client/views/catalogs/promotions/promotions.js             |  17 +-
+ src/client/views/catalogs/ratecodeexcluded/rateCodeExcluded.js |   2 +-
+ src/server/controllers/eventsController.js                     |  36 ---
+ src/server/controllers/locationController.js                   |  63 +++++
+ src/server/routers/apiRouter.js                                |  19 +-
+ 8 files changed, 387 insertions(+), 269 deletions(-)
+ create mode 100644 src/server/controllers/locationController.js
+
+  ༆ ixicale༆   ⎣11:52:16⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ ixicale ↑2 ✔ 
+gis;git show                                                                               hostname: [ix]
+En la rama ixicale
+Tu rama está adelantada a 'origin/ixicale' por 2 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣11:52:23⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ ixicale ↑2 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-events-fe.git
+   68bfe2c5..6b6155da  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣11:52:29⎤  🚦 /var/www/html/NODE/clv-events-fe   origin ☊ ixicale ✔ 
+$NODE/clv-service-web                                                                      hostname: [ix]
+
+  ༆ ixicale༆   ⎣11:52:37⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ gic pre.dev.2020.07.09.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.07.09.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.07.09.1'.
+
+  ༆ ixicale༆   ⎣11:52:43⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+gipl                                                                                       hostname: [ix]
+gicxYa está actualizado.
+
+  ༆ ixicale༆   ⎣11:52:46⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.07.09.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣11:52:46⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gime pre.dev.2020.07.09.1                                                                  hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣11:52:48⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+$NODE/clv-products-fe                                                                      hostname: [ix]
+
+  ༆ ixicale༆   ⎣12:01:46⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.01.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.01.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.01.1'.
+
+  ༆ ixicale༆   ⎣12:01:57⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2020.12.01.1 ✔ 
+gipl                                                                                       hostname: [ix]
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (4/4), done.
+Desempaquetando objetos: 100% (12/12), 1.03 KiB | 211.00 KiB/s, listo.
+remote: Total 12 (delta 7), reused 12 (delta 7), pack-reused 0
+Desde github.com:fbenitez/clv-products-fe
+   4d60a30..30a5d78  ftun                 -> origin/ftun
+   6d92329..30a5d78  michan               -> origin/michan
+   4a318df..30a5d78  pre.dev.2020.12.02.1 -> origin/pre.dev.2020.12.02.1
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣12:01:59⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2020.12.01.1 ✔ gic pre.dev.2020.12.02.1                                                                   hostname: [ix]
+Rama 'pre.dev.2020.12.02.1' configurada para hacer seguimiento a la rama remota 'pre.dev.2020.12.02.1' de 'origin'.
+Cambiado a nueva rama 'pre.dev.2020.12.02.1'
+
+  ༆ ixicale༆   ⎣12:02:11⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2020.12.02.1 ✔ 
+gipl                                                                                       hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣12:02:13⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2020.12.02.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣12:02:16⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.02.1                                                                  hostname: [ix]
+Actualizando 4a318df..30a5d78
+Fast-forward
+ src/client/views/service_type/service_type.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+  ༆ ixicale༆   ⎣12:02:21⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ↑2 ✔ 
+gis;git show                                                                               hostname: [ix]
+En la rama ixicale
+Tu rama está adelantada a 'origin/ixicale' por 2 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣12:02:25⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ↑2 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-products-fe.git
+   4a318df..30a5d78  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣12:02:32⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.02.1                                                                   hostname: [ix]
+
+  ༆ ixicale༆  ✘  ⎣12:36:28⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+
+
+                 return $this->buildSuccessResponse(404, "Not found");
+             }
+@@ -1059,8 +1060,7 @@ class ServicioController extends BController
+       $sql = "SELECT s.idservice_servicio,concat(s.codigo_produccion,' - ',s.descripcion) descripcion,s.estado FROM $this->modelServiceServicioPropiedad sp
+       JOIN $this->modelClass s ON s.idservice_servicio = sp.idservice_servicio
+       WHERE sp.idpropiedad = '$hotel' and s.estado = 1";
+-      $obj = new BController;
+-      return $obj->getDataDropDownSimple($key,$value,$sql);
++      return $this->getDataDropDownSimple($key,$value,$sql);
+     }
+ 
+     public function getbusinessbyservice($ids){
+@@ -1172,28 +1172,18 @@ class ServicioController extends BController
+     /**
+      * Metodo para obtener servicios por unidad de negocio
+      */
+-    public function getServiceByBussinesUnit($bussinesID, $option = 0, $service_status = 1, $stype_status = 1){
+-
+-        $sql = "SELECT s.*, t.idservice_unidad_negocio, t.nombre tipo_servicio, t.descripcion desc_tipo
+-        FROM service_servicio s
+-        INNER JOIN service_servicio_tipo t
+-            ON  t.idservice_servicio_tipo = s.idservice_servicio_tipo
+-        INNER JOIN service_unidad_negocio n
+-            ON n.idservice_unidad_negocio = t.idservice_unidad_negocio
+-        WHERE s.idservice_evento_coleccion = 0
+-            AND n.idservice_unidad_negocio = :idservice_unidad_negocio";
+-
++    public function getServiceByBussinesUnit($bussinesID, $onlyCustom = 1, $service_status = 1, $stype_status = 1){
+         try {
+-            switch ($option) {
+-                //opcion cuando se quiere mostrar unicamente servicios personalizados
+-                case 0:
+-                    $sql = $sql. " AND  s.personalizable = 1 AND s.estado = $service_status AND t.estado = $stype_status";
+
+
+
+
+
+
+
+po
++            FROM service_servicio s
++            INNER JOIN service_servicio_tipo t
++                ON  t.idservice_servicio_tipo = s.idservice_servicio_tipo
++            INNER JOIN service_unidad_negocio n
++                ON n.idservice_unidad_negocio = t.idservice_unidad_negocio
++            WHERE s.idservice_evento_coleccion = 0
++            AND n.idservice_unidad_negocio = {$bussinesID} AND s.estado = {$service_status} AND t.estado = {$stype_status}";
++            $sql = $sql.$onlyCustom == 1?" AND  s.personalizable = 1;" : ";";
++            $data = $this->getQueryAll($sql,[]);
+             if(empty($data)) {
+                 $this->buildSuccessResponse(404, "Not found data");
+             }else {
+@@ -1387,7 +1377,7 @@ class ServicioController extends BController
+             }
+             $data = $this->getQueryAll($sql);
+             if (!empty($data)) {
+-                return $this->buildSuccessResponse(200, "Successfull", $data);
++                return $this->buildSuccessResponse(200, "Successful", $data);
+             }else {
+                 return $this->buildSuccessResponse(404, "Not found");
+             }
+@@ -1407,7 +1397,7 @@ class ServicioController extends BController
+             $sql = "SELECT * FROM $this->modelClass WHERE idservice_evento_coleccion = :id: AND estado=1";
+             $data = $this->modelsManager->createQuery($sql)->execute(['id' => $id]);
+             if (!empty($data)) {
+-                return $this->buildSuccessResponse(200, "Successfull", $data);
++                return $this->buildSuccessResponse(200, "Successful", $data);
+             }else {
+                 return $this->buildSuccessResponse(404, "Not found");
+             }
+@@ -1416,4 +1406,20 @@ class ServicioController extends BController
+         }
+     }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  GNU nano 4.8               /var/www/html/PHP/clv-products-api/.git/MERGE_MSG                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+android-libetc1                             android-platform-libnativehelper          
+android-libetc1-dev                         android-platform-system-core              
+android-libext4-utils                       android-platform-system-core-headers      
+android-libext4-utils-dev                   android-platform-system-extras            
+android-libf2fs-utils                       android-platform-system-tools-aidl        
+android-libf2fs-utils-dev                   android-platform-system-tools-hidl        
+android-liblog                              android-platform-tools-analytics-library  
+android-liblog-dev                          android-platform-tools-apksig             
+android-libnativebridge                     android-platform-tools-base               
+android-libnativebridge-dev                 android-sdk                               
+android-libnativehelper                     android-sdk-build-tools                   
+android-libnativehelper-dev                 android-sdk-build-tools-common            
+android-libnativeloader                     android-sdk-common                        
+android-libnativeloader-dev                 android-sdk-ext4-utils                    
+android-libselinux                          android-sdk-helper                        
+android-libselinux-dev                      android-sdk-libsparse-utils               
+android-libsepol                            android-sdk-meta                          
+android-libsepol-dev                        android-sdk-platform-23                   
+android-libsparse                           android-sdk-platform-tools                
+android-libsparse-dev                       android-sdk-platform-tools-common         
+android-libunwind                           android-tools-adb                         
+android-libunwind-dev                       android-tools-fastboot                    
+android-libutils                            android-tools-mkbootimg                   
+
+  ༆ ixicale༆   ⎣12:53:12⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+sudo apt install android-studio                                                            hostname: [ix]
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+
+No hay un paquete apt "android-studio", pero hay un snap con ese nombre.
+Intente «snap install android-studio»
+
+E: No se ha podido localizar el paquete android-studio
+
+  ༆ ixicale༆  ✘  ⎣12:53:28⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+snap install android-studio                                                                hostname: [ix]
+error: Esta revisión del snap "android-studio" se publicó usando el confinamiento clásico por lo
+       cual podría realizar cambios arbitrarios del sistema fuera de la caja de seguridad en el que
+       los snaps suelen estar confinados, lo cual podría suponer un riesgo para su sistema.
+
+       Si lo entiende y desea continuar repita la orden incluyendo --classic.
+  ༆ ixicale༆  ✘  ⎣12:53:40⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+sudo add-apt-repository ppa:maarten-fonville/android-studio                                hostname: [ix]
+Cannot add PPA: 'ppa:~maarten-fonville/ubuntu/android-studio'.
+ERROR: '~maarten-fonville' user or team does not exist.
+
+  ༆ ixicale༆  ✘  ⎣12:54:16⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+ping www.google.com                                                                        hostname: [ix]
+PING www.google.com (172.217.5.164) 56(84) bytes of data.
+64 bytes from qro01s14-in-f164.1e100.net (172.217.5.164): icmp_seq=1 ttl=115 time=111 ms
+64 bytes from qro01s14-in-f164.1e100.net (172.217.5.164): icmp_seq=2 ttl=115 time=97.8 ms
+64 bytes from qro01s14-in-f164.1e100.net (172.217.5.164): icmp_seq=3 ttl=115 time=78.4 ms
+^C
+--- www.google.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 78.385/95.819/111.280/13.501 ms
+
+  ༆ ixicale༆   ⎣12:54:58⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+sudo -E add-apt-repository ppa:maarten-fonville/android-studio                             hostname: [ix]
+Cannot add PPA: 'ppa:~maarten-fonville/ubuntu/android-studio'.
+ERROR: '~maarten-fonville' user or team does not exist.
+
+  ༆ ixicale༆  ✘  ⎣12:55:09⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+sudo mkdir -p /etc/apt/sources.list.d                                                      hostname: [ix]
+
+  ༆ ixicale༆   ⎣12:58:49⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu wily main" | sudo tee -a /etc/apt/sources.list.d/ansible.list
+
+deb http://ppa.launchpad.net/ansible/ansible/ubuntu wily main
+
+  ༆ ixicale༆   ⎣12:59:01⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+echo "deb-src http://ppa.launchpad.net/ansible/ansible/ubuntu wily main" | sudo tee -a /etc/apt/sources.list.d/ansible.list
+
+deb-src http://ppa.launchpad.net/ansible/ansible/ubuntu wily main
+
+  ༆ ixicale༆   ⎣12:59:11⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ sudo apt-get update                                                                        hostname: [ix]
+Obj:1 http://repo.mysql.com/apt/ubuntu focal InRelease
+Obj:2 http://dl.google.com/linux/chrome/deb stable InRelease                                             
+Obj:3 http://security.ubuntu.com/ubuntu focal-security InRelease                                         
+Ign:4 https://dbeaver.io/debs/dbeaver-ce  InRelease                                                      
+Ign:5 https://deb.nodesource.com/node_12.x focal InRelease                                               
+Obj:6 http://mx.archive.ubuntu.com/ubuntu focal InRelease                                                
+Des:7 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease [16.0 kB]                           
+Err:8 https://dbeaver.io/debs/dbeaver-ce  Release                                                        
+  Certificate verification failed: The certificate is NOT trusted. The certificate issuer is unknown.  Could not handshake: Error in the certificate verification. [IP: 104.131.190.124 443]
+Err:9 https://deb.nodesource.com/node_12.x focal Release                                                 
+  Certificate verification failed: The certificate is NOT trusted. The certificate issuer is unknown.  Could not handshake: Error in the certificate verification. [IP: 23.48.32.162 443]
+Obj:10 http://mx.archive.ubuntu.com/ubuntu focal-updates InRelease                                       
+Err:7 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease        
+  Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+Obj:11 http://mx.archive.ubuntu.com/ubuntu focal-backports InRelease        
+Obj:12 http://ppa.launchpad.net/ondrej/php/ubuntu focal InRelease           
+Leyendo lista de paquetes... Hecho
+E: El repositorio «https://dbeaver.io/debs/dbeaver-ce  Release» ya no tiene un archivo Release.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+E: El repositorio «https://deb.nodesource.com/node_12.x focal Release» ya no tiene un archivo Release.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+W: Error de GPG: http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease: Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+E: El repositorio «http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease» no está firmado.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+  ༆ ixicale༆  ✘  ⎣12:59:24⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆  ✘  ⎣12:59:50⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+$ sudo add-apt-repository ppa:maarten-fonville/android-studio                              hostname: [ix]
+
+zsh: command not found: $
+
+  ༆ ixicale༆  ✘  ⎣13:01:47⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+sudo add-apt-repository ppa:maarten-fonville/android-studio                                hostname: [ix]
+
+Cannot add PPA: 'ppa:~maarten-fonville/ubuntu/android-studio'.
+ERROR: '~maarten-fonville' user or team does not exist.
+
+  ༆ ixicale༆  ✘  ⎣13:01:51⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+sudo add-apt-repository ppa:maarten-fonville/android-studio                                hostname: [ix]
+
+ Automatically generated builds of the latest Android Studio
+ Más información: https://launchpad.net/~maarten-fonville/+archive/ubuntu/android-studio
+Pulse [ENTRAR] para continuar o Ctrl+C para cancelar la adición.
+
+Obj:1 http://dl.google.com/linux/chrome/deb stable InRelease                                             
+Obj:2 http://repo.mysql.com/apt/ubuntu focal InRelease                                                   
+Obj:3 http://mx.archive.ubuntu.com/ubuntu focal InRelease                                                
+Obj:4 http://security.ubuntu.com/ubuntu focal-security InRelease                                         
+Obj:5 http://mx.archive.ubuntu.com/ubuntu focal-updates InRelease                                        
+Obj:6 http://mx.archive.ubuntu.com/ubuntu focal-backports InRelease                                      
+Des:7 http://ppa.launchpad.net/maarten-fonville/android-studio/ubuntu focal InRelease [17.6 kB]          
+Des:8 https://dbeaver.io/debs/dbeaver-ce  InRelease [2 086 B]                                    
+Des:9 https://deb.nodesource.com/node_12.x focal InRelease [4 583 B]                                 
+Des:10 https://dbeaver.io/debs/dbeaver-ce  Packages [496 B]                 
+Obj:11 http://ppa.launchpad.net/ondrej/php/ubuntu focal InRelease                                        
+Des:12 https://deb.nodesource.com/node_12.x focal/main amd64 Packages [768 B]
+Des:13 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease [16.0 kB]
+Err:13 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease
+  Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+67% [Conectando a ppa.launchpad.net (91.189.95.83)droid-studio/ubuntu focal/main amd64 Packages [1 284 B]
+Des:15 http://ppa.launchpad.net/maarten-fonville/android-studio/ubuntu focal/main Translation-en [296 B]
+Leyendo lista de paquetes... Hecho                 
+W: Error de GPG: http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease: Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+E: El repositorio «http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease» no está firmado.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+
+  ༆ ixicale༆  ✘  ⎣13:02:46⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+sudo apt update; sudo apt upgrade                                                          hostname: [ix]
+Obj:1 http://security.ubuntu.com/ubuntu focal-security InRelease                                         
+Obj:2 http://repo.mysql.com/apt/ubuntu focal InRelease                                                   
+Obj:3 http://dl.google.com/linux/chrome/deb stable InRelease                                             
+Obj:4 http://mx.archive.ubuntu.com/ubuntu focal InRelease                                                
+Obj:5 https://deb.nodesource.com/node_12.x focal InRelease                                               
+Obj:6 https://dbeaver.io/debs/dbeaver-ce  InRelease                                                      
+Obj:7 http://mx.archive.ubuntu.com/ubuntu focal-updates InRelease                                     
+Obj:8 http://ppa.launchpad.net/maarten-fonville/android-studio/ubuntu focal InRelease
+Obj:9 http://mx.archive.ubuntu.com/ubuntu focal-backports InRelease
+Obj:10 http://ppa.launchpad.net/ondrej/php/ubuntu focal InRelease
+Des:11 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease [16.0 kB]
+Err:11 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease
+  Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+Leyendo lista de paquetes... Hecho
+W: Error de GPG: http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease: Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+E: El repositorio «http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease» no está firmado.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... HechoCalculando la actualización... Hecho
+Se actualizarán los siguientes paquetes:
+  dbeaver-ce nodejs
+2 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Se necesita descargar 78.7 MB de archivos.
+Se utilizarán 438 kB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+Des:1 https://deb.nodesource.com/node_12.x focal/main amd64 nodejs amd64 12.20.0-deb-1nodesource1 [18.4 MB]
+Des:2 https://dbeaver.io/debs/dbeaver-ce  dbeaver-ce 7.3.0 [60.3 MB]                        
+Err:2 https://dbeaver.io/debs/dbeaver-ce  dbeaver-ce 7.3.0                                               
+  No se puede iniciar la conexión a dbeaver.io:443 (104.131.190.124). - connect (101: La red es inaccesible) [IP: 104.131.190.124 443]
+Descargados 18.4 MB en 1min 36s (192 kB/s)
+E: Fallo al obtener https://dbeaver.io/debs/dbeaver-ce/./dbeaver-ce_7.3.0_amd64.deb  No se puede iniciar la conexión a dbeaver.io:443 (104.131.190.124). - connect (101: La red es inaccesible) [IP: 104.131.190.124 443]
+E: No se pudieron obtener algunos archivos, ¿quizás deba ejecutar «apt-get update» o deba intentarlo de nuevo con --fix-missing?
+
+  ༆ ixicale༆  ✘  ⎣13:04:39⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+sudo apt update; sudo apt upgrade                                                          hostname: [ix]
+Obj:1 http://repo.mysql.com/apt/ubuntu focal InRelease
+Obj:2 http://dl.google.com/linux/chrome/deb stable InRelease                                             
+Obj:3 https://deb.nodesource.com/node_12.x focal InRelease                                               
+Obj:4 http://mx.archive.ubuntu.com/ubuntu focal InRelease                                                
+Obj:5 http://security.ubuntu.com/ubuntu focal-security InRelease                                         
+Obj:6 https://dbeaver.io/debs/dbeaver-ce  InRelease                                                   
+Obj:7 http://mx.archive.ubuntu.com/ubuntu focal-updates InRelease                                     
+Obj:8 http://mx.archive.ubuntu.com/ubuntu focal-backports InRelease                   
+Obj:9 http://ppa.launchpad.net/maarten-fonville/android-studio/ubuntu focal InRelease
+Obj:10 http://ppa.launchpad.net/ondrej/php/ubuntu focal InRelease
+Des:11 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease [16.0 kB]
+Err:11 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease
+  Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+Leyendo lista de paquetes... Hecho
+W: Error de GPG: http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease: Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+E: El repositorio «http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease» no está firmado.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Calculando la actualización... Hecho
+Se actualizarán los siguientes paquetes:
+  dbeaver-ce nodejs
+2 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Se necesita descargar 60.3 MB/78.7 MB de archivos.
+Se utilizarán 438 kB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+Des:1 https://dbeaver.io/debs/dbeaver-ce  dbeaver-ce 7.3.0 [60.3 MB]
+Descargados 16.3 MB en 20s (797 kB/s)                                                                    
+(Leyendo la base de datos ... 206040 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../nodejs_12.20.0-deb-1nodesource1_amd64.deb ...
+Desempaquetando nodejs (12.20.0-deb-1nodesource1) sobre (12.19.0-deb-1nodesource1) ...
+Preparando para desempaquetar .../dbeaver-ce_7.3.0_amd64.deb ...
+Desempaquetando dbeaver-ce (7.3.0) sobre (7.2.3) ...
+Configurando nodejs (12.20.0-deb-1nodesource1) ...
+Configurando dbeaver-ce (7.3.0) ...
+Procesando disparadores para mime-support (3.64ubuntu1) ...
+Procesando disparadores para gnome-menus (3.36.0-1ubuntu1) ...
+Procesando disparadores para man-db (2.9.1-1) ...
+Procesando disparadores para desktop-file-utils (0.24-1ubuntu3) ...
+
+  ༆ ixicale༆   ⎣13:06:36⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+sudo apt install android-studio                                                            hostname: [ix]
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Se instalarán los siguientes paquetes adicionales:
+  android-studio-4.1 lib32gcc-s1 lib32gcc1 lib32stdc++6 lib32z1 libc6-i386
+Paquetes sugeridos:
+  default-jdk
+Paquetes recomendados:
+  lib32ncurses5
+Se instalarán los siguientes paquetes NUEVOS:
+  android-studio android-studio-4.1 lib32gcc-s1 lib32gcc1 lib32stdc++6 lib32z1 libc6-i386
+0 actualizados, 7 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Se necesita descargar 3 361 kB de archivos.
+Se utilizarán 17.5 MB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n]s
+Des:1 http://ppa.launchpad.net/maarten-fonville/android-studio/ubuntu focal/main amd64 android-studio-4.1 amd64 201.6953283~focal+0 [5 540 B]
+Des:2 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 libc6-i386 amd64 2.31-0ubuntu9.1 [2 721 kB]
+Des:3 http://ppa.launchpad.net/maarten-fonville/android-studio/ubuntu focal/main amd64 android-studio amd64 201.6953283~focal+0 [1 404 B]
+Des:4 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 lib32gcc-s1 amd64 10.2.0-5ubuntu1~20.04 [49.6 kB]
+Des:5 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 lib32z1 amd64 1:1.2.11.dfsg-2ubuntu1.2 [56.5 kB]
+Des:6 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 lib32gcc1 amd64 1:10.2.0-5ubuntu1~20.04 [1 132 B]
+Des:7 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 lib32stdc++6 amd64 10.2.0-5ubuntu1~20.04 [525 kB]
+Descargados 3 361 kB en 17s (203 kB/s)                                                                   
+Seleccionando el paquete android-studio-4.1 previamente no seleccionado.
+(Leyendo la base de datos ... 206046 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../0-android-studio-4.1_201.6953283~focal+0_amd64.deb ...
+--2020-12-03 13:11:29--  https://redirector.gvt1.com/edgedl/android/studio/ide-zips/4.1.1.0/android-studio
+-ide-201.6953283-linux.tar.gz
+Resolviendo redirector.gvt1.com (redirector.gvt1.com)... 172.217.8.142, 2607:f8b0:4008:801::200e
+Conectando con redirector.gvt1.com (redirector.gvt1.com)[172.217.8.142]:443... conectado.
+Petición HTTP enviada, esperando respuesta... 302 Found
+Ubicación: https://r7---sn-0opoxu-hpqe.gvt1.com/edgedl/android/studio/ide-zips/4.1.1.0/android-studio-ide-
+201.6953283-linux.tar.gz?cms_redirect=yes&mh=ML&mip=200.68.137.214&mm=28&mn=sn-0opoxu-hpqe&ms=nvh&mt=16070
+18659&mv=m&mvi=7&pl=24&shardbypass=yes&usequic=no [siguiente]
+--2020-12-03 13:11:29--  https://r7---sn-0opoxu-hpqe.gvt1.com/edgedl/android/studio/ide-zips/4.1.1.0/andro
+id-studio-ide-201.6953283-linux.tar.gz?cms_redirect=yes&mh=ML&mip=200.68.137.214&mm=28&mn=sn-0opoxu-hpqe&m
+s=nvh&mt=1607018659&mv=m&mvi=7&pl=24&shardbypass=yes&usequic=no
+Resolviendo r7---sn-0opoxu-hpqe.gvt1.com (r7---sn-0opoxu-hpqe.gvt1.com)... 189.247.169.18
+Conectando con r7---sn-0opoxu-hpqe.gvt1.com (r7---sn-0opoxu-hpqe.gvt1.com)[189.247.169.18]:443... conectad
+o.
+Petición HTTP enviada, esperando respuesta... 302 Found
+Ubicación: https://r5---sn-hp57ynel.gvt1.com/edgedl/android/studio/ide-zips/4.1.1.0/android-studio-ide-201
+.6953283-linux.tar.gz?mh=ML&mvi=5&pl=24&shardbypass=yes&redirect_counter=1&cm2rm=sn-0opoxu-hpqe7k&req_id=2
+b2ab8eb17fa98e1&cms_redirect=yes&mip=200.68.137.214&mm=42&mn=sn-hp57ynel&ms=onc&mt=1607018671&mv=m&usequic
+=no [siguiente]
+--2020-12-03 13:11:34--  https://r5---sn-hp57ynel.gvt1.com/edgedl/android/studio/ide-zips/4.1.1.0/android-
+studio-ide-201.6953283-linux.tar.gz?mh=ML&mvi=5&pl=24&shardbypass=yes&redirect_counter=1&cm2rm=sn-0opoxu-h
+pqe7k&req_id=2b2ab8eb17fa98e1&cms_redirect=yes&mip=200.68.137.214&mm=42&mn=sn-hp57ynel&ms=onc&mt=160701867
+1&mv=m&usequic=no
+Resolviendo r5---sn-hp57ynel.gvt1.com (r5---sn-hp57ynel.gvt1.com)...172.217.128.43, 2607:f8b0:4021:1f::b
+Conectando con r5---sn-hp57ynel.gvt1.com (r5---sn-hp57ynel.gvt1.com)[172.217.128.43]:443... conectado.
+Petición HTTP enviada, esperando respuesta... 200 OK
+Longitud: 926213072 (883M) [application/octet-stream]
+Guardando como: “/opt/android-studio-ide.tar.gz”
+
+/opt/android-studio-ide.ta  29%[==========>                            ] 256.25M  64.3KB/s    en 2m 51s  
+
+2020-12-03 13:29:26 (1.50 MB/s) - Error de lectura en el byte 268695552/926213072 (Conseguido). Reintentan
+do.
+
+--2020-12-03 13:29:27--  (intento: 2)  https://r5---sn-hp57ynel.gvt1.com/edgedl/android/studio/ide-zips/4.
+1.1.0/android-studio-ide-201.6953283-linux.tar.gz?mh=ML&mvi=5&pl=24&shardbypass=yes&redirect_counter=1&cm2
+rm=sn-0opoxu-hpqe7k&req_id=2b2ab8eb17fa98e1&cms_redirect=yes&mip=200.68.137.214&mm=42&mn=sn-hp57ynel&ms=on
+c&mt=1607018671&mv=m&usequic=no
+Conectando con r5---sn-hp57ynel.gvt1.com (r5---sn-hp57ynel.gvt1.com)[172.217.128.43]:443... falló: La red 
+es inaccesible.
+Conectando con r5---sn-hp57ynel.gvt1.com (r5---sn-hp57ynel.gvt1.com)[2607:f8b0:4021:1f::b]:443... falló: L
+a red es inaccesible.
+Resolviendo r5---sn-hp57ynel.gvt1.com (r5---sn-hp57ynel.gvt1.com)... falló: Fallo temporal en la resolució
+n del nombre.
+wget: no se pudo resolver la dirección del equipo “r5---sn-hp57ynel.gvt1.com”
+SHA-256 Checksum mismatch, aborting installation
+dpkg: error al procesar el archivo /tmp/apt-dpkg-install-fNnCfZ/0-android-studio-4.1_201.6953283~focal+0_a
+md64.deb (--unpack):
+ el subproceso nuevo paquete android-studio-4.1 script pre-installation devolvió el código de salida de er
+ror 1
+Seleccionando el paquete android-studio previamente no seleccionado.
+Preparando para desempaquetar .../1-android-studio_201.6953283~focal+0_amd64.deb ...
+Desempaquetando android-studio (201.6953283~focal+0) ...
+Seleccionando el paquete libc6-i386 previamente no seleccionado.
+Preparando para desempaquetar .../2-libc6-i386_2.31-0ubuntu9.1_amd64.deb ...
+Desempaquetando libc6-i386 (2.31-0ubuntu9.1) ...
+Seleccionando el paquete lib32gcc-s1 previamente no seleccionado.
+Preparando para desempaquetar .../3-lib32gcc-s1_10.2.0-5ubuntu1~20.04_amd64.deb ...
+Desempaquetando lib32gcc-s1 (10.2.0-5ubuntu1~20.04) ...
+Seleccionando el paquete lib32z1 previamente no seleccionado.
+Preparando para desempaquetar .../4-lib32z1_1%3a1.2.11.dfsg-2ubuntu1.2_amd64.deb ...
+Desempaquetando lib32z1 (1:1.2.11.dfsg-2ubuntu1.2) ...Seleccionando el paquete lib32gcc1 previamente no seleccionado.
+Preparando para desempaquetar .../5-lib32gcc1_1%3a10.2.0-5ubuntu1~20.04_amd64.deb ...
+Desempaquetando lib32gcc1 (1:10.2.0-5ubuntu1~20.04) ...
+Seleccionando el paquete lib32stdc++6 previamente no seleccionado.
+Preparando para desempaquetar .../6-lib32stdc++6_10.2.0-5ubuntu1~20.04_amd64.deb ...
+Desempaquetando lib32stdc++6 (10.2.0-5ubuntu1~20.04) ...
+Se encontraron errores al procesar:
+ /tmp/apt-dpkg-install-fNnCfZ/0-android-studio-4.1_201.6953283~focal+0_amd64.deb
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+
+  ༆ ixicale༆  ✘  ⎣13:29:29⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+sudo apt install android-studio                                                            hostname: [ix]
+[sudo] contraseña para ixicale: 
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+android-studio ya está en su versión más reciente (201.6953283~focal+0).
+Tal vez quiera ejecutar «apt --fix-broken install» para corregirlo.
+Los siguientes paquetes tienen dependencias incumplidas:
+ android-studio : Depende: android-studio-4.1 pero no va a instalarse
+E: Dependencias incumplidas. Intente «apt --fix-broken install» sin paquetes (o especifique una solución).
+
+  ༆ ixicale༆  ✘  ⎣14:15:03⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+sudo apt --fix-broken install                                                              hostname: [ix]
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Corrigiendo dependencias... Listo
+Se instalarán los siguientes paquetes adicionales:
+  android-studio-4.1
+Paquetes sugeridos:
+  default-jdk
+Paquetes recomendados:
+  lib32ncurses5
+Se instalarán los siguientes paquetes NUEVOS:
+  android-studio-4.1
+0 actualizados, 1 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+6 no instalados del todo o eliminados.
+Se necesita descargar 0 B/5 540 B de archivos.
+Se utilizarán 26.6 kB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n]s
+(Leyendo la base de datos ... 206366 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../android-studio-4.1_201.6953283~focal+0_amd64.deb ...
+--2020-12-03 14:15:13--  https://redirector.gvt1.com/edgedl/android/studio/ide-zips/4.1.1.0/android-studio
+-ide-201.6953283-linux.tar.gz
+Resolviendo redirector.gvt1.com (redirector.gvt1.com)... 172.217.2.110, 2607:f8b0:4004:80a::200e
+Conectando con redirector.gvt1.com (redirector.gvt1.com)[172.217.2.110]:443... conectado.
+Petición HTTP enviada, esperando respuesta... 302 Found
+Ubicación: https://r5---sn-0opoxu-hpqe.gvt1.com/edgedl/android/studio/ide-zips/4.1.1.0/android-studio-ide-
+201.6953283-linux.tar.gz?cms_redirect=yes&mh=ML&mip=200.68.137.172&mm=28&mn=sn-0opoxu-hpqe&ms=nvh&mt=16070
+22743&mv=m&mvi=5&pl=24&shardbypass=yes&usequic=no [siguiente]
+--2020-12-03 14:15:14--  https://r5---sn-0opoxu-hpqe.gvt1.com/edgedl/android/studio/ide-zips/4.1.1.0/andro
+id-studio-ide-201.6953283-linux.tar.gz?cms_redirect=yes&mh=ML&mip=200.68.137.172&mm=28&mn=sn-0opoxu-hpqe&m
+s=nvh&mt=1607022743&mv=m&mvi=5&pl=24&shardbypass=yes&usequic=no
+Resolviendo r5---sn-0opoxu-hpqe.gvt1.com (r5---sn-0opoxu-hpqe.gvt1.com)... 189.247.169.16
+Conectando con r5---sn-0opoxu-hpqe.gvt1.com (r5---sn-0opoxu-hpqe.gvt1.com)[189.247.169.16]:443... conectad
+o.
+Petición HTTP enviada, esperando respuesta... 302 Found
+Ubicación: https://r5---sn-hp57kn6s.gvt1.com/edgedl/android/studio/ide-zips/4.1.1.0/android-studio-ide-201
+.6953283-linux.tar.gz?mh=ML&mvi=5&pl=24&shardbypass=yes&redirect_counter=1&cm2rm=sn-0opoxu-hpqe76&req_id=c
+dd3761f75514990&cms_redirect=yes&mip=200.68.137.172&mm=42&mn=sn-hp57kn6s&ms=onc&mt=1607022511&mv=m&usequic
+=no [siguiente]
+--2020-12-03 14:15:15--  https://r5---sn-hp57kn6s.gvt1.com/edgedl/android/studio/ide-zips/4.1.1.0/android-
+studio-ide-201.6953283-linux.tar.gz?mh=ML&mvi=5&pl=24&shardbypass=yes&redirect_counter=1&cm2rm=sn-0opoxu-h
+pqe76&req_id=cdd3761f75514990&cms_redirect=yes&mip=200.68.137.172&mm=42&mn=sn-hp57kn6s&ms=onc&mt=160702251
+1&mv=m&usequic=no
+Resolviendo r5---sn-hp57kn6s.gvt1.com (r5---sn-hp57kn6s.gvt1.com)... 209.85.231.235, 2607:f8b0:4008:1b::b
+Conectando con r5---sn-hp57kn6s.gvt1.com (r5---sn-hp57kn6s.gvt1.com)[209.85.231.235]:443... conectado.
+Petición HTTP enviada, esperando respuesta... 200 OK
+Longitud: 926213072 (883M) [application/octet-stream]
+Guardando como: “/opt/android-studio-ide.tar.gz”
+
+/opt/android-studio-ide.ta 100%[======================================>] 883.30M  2.21MB/s    en 6m 6s   
+
+2020-12-03 14:21:22 (2.41 MB/s) - “/opt/android-studio-ide.tar.gz” guardado [926213072/926213072]
+
+Desempaquetando android-studio-4.1 (201.6953283~focal+0) ...
+Configurando android-studio-4.1 (201.6953283~focal+0) ...gtk-update-icon-cache: Cache file created successfully.
+Configurando android-studio (201.6953283~focal+0) ...
+Configurando libc6-i386 (2.31-0ubuntu9.1) ...
+Configurando lib32z1 (1:1.2.11.dfsg-2ubuntu1.2) ...
+Configurando lib32gcc-s1 (10.2.0-5ubuntu1~20.04) ...
+Configurando lib32stdc++6 (10.2.0-5ubuntu1~20.04) ...
+Configurando lib32gcc1 (1:10.2.0-5ubuntu1~20.04) ...
+Procesando disparadores para mime-support (3.64ubuntu1) ...
+Procesando disparadores para hicolor-icon-theme (0.17-2) ...
+Procesando disparadores para gnome-menus (3.36.0-1ubuntu1) ...
+Procesando disparadores para libc-bin (2.31-0ubuntu9.1) ...
+Procesando disparadores para desktop-file-utils (0.24-1ubuntu3) ...
+
+  ༆ ixicale༆   ⎣14:21:39⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+sudo apt install cpu-checker                                                               hostname: [ix]
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Se instalarán los siguientes paquetes adicionales:
+  msr-tools
+Se instalarán los siguientes paquetes NUEVOS:
+  cpu-checker msr-tools
+0 actualizados, 2 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Se necesita descargar 16.9 kB de archivos.
+Se utilizarán 66.6 kB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+Des:1 http://mx.archive.ubuntu.com/ubuntu focal/main amd64 msr-tools amd64 1.3-3 [10.0 kB]
+Des:2 http://mx.archive.ubuntu.com/ubuntu focal/main amd64 cpu-checker amd64 0.7-1.1 [6 936 B]
+Descargados 16.9 kB en 1s (14.8 kB/s)       
+Seleccionando el paquete msr-tools previamente no seleccionado.
+(Leyendo la base de datos ... 206371 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../msr-tools_1.3-3_amd64.deb ...
+Desempaquetando msr-tools (1.3-3) ...
+Seleccionando el paquete cpu-checker previamente no seleccionado.
+Preparando para desempaquetar .../cpu-checker_0.7-1.1_amd64.deb ...
+Desempaquetando cpu-checker (0.7-1.1) ...
+Configurando msr-tools (1.3-3) ...
+Configurando cpu-checker (0.7-1.1) ...
+Procesando disparadores para man-db (2.9.1-1) ...
+  ༆ ixicale༆   ⎣14:26:38⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+kvm-ok                                                                                     hostname: [ix]
+INFO: /dev/kvm exists
+KVM acceleration can be used
+
+  ༆ ixicale༆   ⎣14:27:25⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆   ⎣14:32:36⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣14:32:36⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+                                                                                           hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣14:32:38⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ gic pre.dev.2020.12.02.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.02.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.02.1'.
+
+  ༆ ixicale༆   ⎣16:53:33⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+gipl                                                                                       hostname: [ix]
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 13 (delta 11), reused 13 (delta 11), pack-reused 0
+Desempaquetando objetos: 100% (13/13), 1.72 KiB | 103.00 KiB/s, listo.
+Desde github.com:fbenitez/clv-products-api
+   421e642..0e68e64  pre.dev.2020.12.02.1 -> origin/pre.dev.2020.12.02.1
+   c63c975..0e68e64  envazquez            -> origin/envazquez
+   be39deb..0e68e64  michan               -> origin/michan
+Actualizando 421e642..0e68e64
+Fast-forward
+ app/config/router.php                  | 12 +++++++-----
+ app/controllers/ServicioController.php | 43 +++++++++++++++++++++++++++----------------
+ 2 files changed, 34 insertions(+), 21 deletions(-)
+
+  ༆ ixicale༆   ⎣16:53:36⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ pre.dev.2020.12.02.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣16:53:39⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.02.1                                                                  hostname: [ix]
+Actualizando 421e642..0e68e64
+Fast-forward
+ app/config/router.php                  | 12 +++++++-----
+ app/controllers/ServicioController.php | 43 +++++++++++++++++++++++++++----------------
+ 2 files changed, 34 insertions(+), 21 deletions(-)
+
+  ༆ ixicale༆   ⎣16:53:43⎤  🚦 /var/www/html/PHP/clv-products-api   origin ☊ ixicale ↑2 ✔ 
+gis;git show                                                                               hostname: [ix]
+En la rama ixicale
+Tu rama está adelantada a 'origin/ixicale' por 2 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio

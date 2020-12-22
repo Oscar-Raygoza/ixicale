@@ -1,0 +1,2642 @@
+cd $NODE/clv-products-fe                                                                   hostname: [ix]
+
+  ༆ ixicale༆   ⎣07:54:59⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 3 ● 
+                                                                                           hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣07:55:02⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 3 ● npm run dev                                                                                hostname: [ix]
+
+> clever-products@0.0.1 dev /var/www/html/NODE/clv-products-fe
+> concurrently "npm run server" 
+
+[0] 
+[0] > clever-products@0.0.1 server /var/www/html/NODE/clv-products-fe
+[0] > APP_ENV=DEV NODE_ENV=development PORT=9000 nodemon ./src/server/server.js
+[0] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): *.*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built 7e746ad66e9e0020dd41 in 5303ms
+[0] ⚠ ｢wdm｣: Hash: 7e746ad66e9e0020dd41
+[0] Version: webpack 4.44.2
+[0] Time: 5303ms
+[0] Built at: 2020-11-19 7:55:13
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 596 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built 2f3a67462b71cfa18707 in 17400ms
+[0] ⚠ ｢wdm｣: Hash: 2f3a67462b71cfa18707
+[0] Version: webpack 4.44.2
+[0] Time: 17400ms
+[0] Built at: 2020-11-19 8:22:04
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 595 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] webpack built a2a8c6e89b81369f06b4 in 15879ms
+[0] ⚠ ｢wdm｣: Hash: a2a8c6e89b81369f06b4
+[0] Version: webpack 4.44.2
+[0] Time: 15879ms
+[0] Built at: 2020-11-19 8:22:20
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 2f3a67462b71cfa18707.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 595 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] [nodemon] restarting due to changes...
+[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built 2f3a67462b71cfa18707 in 5046ms
+[0] ⚠ ｢wdm｣: Hash: 2f3a67462b71cfa18707
+[0] Version: webpack 4.44.2
+[0] Time: 5046ms
+[0] Built at: 2020-11-19 8:23:18
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 595 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] webpack built a2a8c6e89b81369f06b4 in 2985ms
+[0] ⚠ ｢wdm｣: Hash: a2a8c6e89b81369f06b4
+[0] Version: webpack 4.44.2
+[0] Time: 2985ms
+[0] Built at: 2020-11-19 8:23:21
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 2f3a67462b71cfa18707.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 595 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] [nodemon] restarting due to changes...
+[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built 7e8dc13bc5e709c912a9 in 18097ms
+[0] ⚠ ｢wdm｣: Hash: 7e8dc13bc5e709c912a9
+[0] Version: webpack 4.44.2
+[0] Time: 18097ms
+[0] Built at: 2020-11-19 8:24:03
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 595 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/inv_item
+[0] webpack built 14f73b99cc75c5323b0c in 16020ms
+[0] ⚠ ｢wdm｣: Hash: 14f73b99cc75c5323b0c
+[0] Version: webpack 4.44.2
+[0] Time: 16020ms
+[0] Built at: 2020-11-19 8:24:20
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0] 7e8dc13bc5e709c912a9.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 595 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] [nodemon] restarting due to changes...
+[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built 943da97f41fd87ca6562 in 17728ms
+[0] ⚠ ｢wdm｣: Hash: 943da97f41fd87ca6562
+[0] Version: webpack 4.44.2
+[0] Time: 17728ms
+[0] Built at: 2020-11-19 8:35:41
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 596 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] webpack built daffdbc31a4fd08525d6 in 15455ms
+[0] ⚠ ｢wdm｣: Hash: daffdbc31a4fd08525d6
+[0] Version: webpack 4.44.2
+[0] Time: 15455ms
+[0] Built at: 2020-11-19 8:35:57
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0] 943da97f41fd87ca6562.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 596 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] [nodemon] restarting due to changes...
+[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built d90389027d4dd84e2fed in 17700ms
+[0] ⚠ ｢wdm｣: Hash: d90389027d4dd84e2fed
+[0] Version: webpack 4.44.2
+[0] Time: 17700ms
+[0] Built at: 2020-11-19 8:36:35
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 596 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] webpack built 9e9eab374f3ed679b942 in 16066ms
+[0] ⚠ ｢wdm｣: Hash: 9e9eab374f3ed679b942
+[0] Version: webpack 4.44.2
+[0] Time: 16066ms
+[0] Built at: 2020-11-19 8:36:51
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0] d90389027d4dd84e2fed.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 596 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] [nodemon] restarting due to changes...
+[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built 4de61d31923dc991c6fe in 16943ms
+[0] ⚠ ｢wdm｣: Hash: 4de61d31923dc991c6fe
+[0] Version: webpack 4.44.2
+[0] Time: 16943ms
+[0] Built at: 2020-11-19 8:40:16
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 596 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] webpack built ee8c30b67d56e3897899 in 14874ms
+[0] ⚠ ｢wdm｣: Hash: ee8c30b67d56e3897899
+[0] Version: webpack 4.44.2
+[0] Time: 14874ms
+[0] Built at: 2020-11-19 8:40:31
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 4de61d31923dc991c6fe.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 596 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] [nodemon] restarting due to changes...
+[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built 306798b020ae2a4d5d0e in 17635ms
+[0] ⚠ ｢wdm｣: Hash: 306798b020ae2a4d5d0e
+[0] Version: webpack 4.44.2
+[0] Time: 17635ms
+[0] Built at: 2020-11-19 8:41:10
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 596 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] webpack built 9661c3dfdad88f989cf8 in 15337ms
+[0] ⚠ ｢wdm｣: Hash: 9661c3dfdad88f989cf8
+[0] Version: webpack 4.44.2
+[0] Time: 15337ms
+[0] Built at: 2020-11-19 8:41:26
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 306798b020ae2a4d5d0e.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 596 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] [nodemon] restarting due to changes...
+[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/inv_item
+[0] webpack built f56466b84513ea890d56 in 18103ms
+[0] ⚠ ｢wdm｣: Hash: f56466b84513ea890d56
+[0] Version: webpack 4.44.2
+[0] Time: 18103ms
+[0] Built at: 2020-11-19 9:12:25
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 596 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/dist/xlsx.full.min.js
+[0] ℹ ｢wdm｣: wait until bundle finished: /bundle.js
+[0] ℹ ｢wdm｣: wait until bundle finished: /cleverLibrary/css/materialize.css.map
+[0] webpack built a54c7c621c04a6c46338 in 16469ms
+[0] ⚠ ｢wdm｣: Hash: a54c7c621c04a6c46338
+[0] Version: webpack 4.44.2
+[0] Time: 16469ms
+[0] Built at: 2020-11-19 9:12:42
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0] f56466b84513ea890d56.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 596 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.^C[0] npm run server exited with code null
+
+
+  ༆ ixicale༆  ✘  ⎣09:52:51⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 2 ● 
+logPostman                                                                                 hostname: [ix]
+/home/ixicale/.sf/SteampunkFactory-MySettings/logger/postman/2020.11nov.19.095252656941786.jueves.logger
+[2] 22048
+
+  ༆ ixicale༆  ⚙  ⎣09:52:52⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale 2 ● 
+(electron) 'getName function' is deprecated and will be removed. Please use 'name property' instead. [ix]
+npm run dev
+
+> clever-products@0.0.1 dev /var/www/html/NODE/clv-products-fe
+> concurrently "npm run server" 
+
+[0] 
+[0] > clever-products@0.0.1 server /var/www/html/NODE/clv-products-fe
+[0] > APP_ENV=DEV NODE_ENV=development PORT=9000 nodemon ./src/server/server.js
+[0] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): *.*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built f56466b84513ea890d56 in 5416ms
+[0] ⚠ ｢wdm｣: Hash: f56466b84513ea890d56
+[0] Version: webpack 4.44.2
+[0] Time: 5416ms
+[0] Built at: 2020-11-19 9:53:02
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 596 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/inv_item
+[0] webpack built eac315873a02ac933303 in 18414ms
+[0] ⚠ ｢wdm｣: Hash: eac315873a02ac933303
+[0] Version: webpack 4.44.2
+[0] Time: 18414ms
+[0] Built at: 2020-11-19 10:05:27
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 596 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/dist/xlsx.full.min.js
+[0] ℹ ｢wdm｣: wait until bundle finished: /bundle.js
+[0] ℹ ｢wdm｣: wait until bundle finished: /cleverLibrary/css/materialize.css.map
+[0] webpack built 7e53388102d1073b258a in 16070ms
+[0] ⚠ ｢wdm｣: Hash: 7e53388102d1073b258a
+[0] Version: webpack 4.44.2
+[0] Time: 16070ms
+[0] Built at: 2020-11-19 10:05:44
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0] eac315873a02ac933303.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 596 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] [nodemon] restarting due to changes...
+[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built d7860b3ec15ff060c140 in 18148ms
+[0] ⚠ ｢wdm｣: Hash: d7860b3ec15ff060c140
+[0] Version: webpack 4.44.2
+[0] Time: 18148ms
+[0] Built at: 2020-11-19 10:09:12
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 596 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] webpack built 989da56e61cd45071749 in 16802ms
+[0] ⚠ ｢wdm｣: Hash: 989da56e61cd45071749
+[0] Version: webpack 4.44.2
+[0] Time: 16802ms
+[0] Built at: 2020-11-19 10:09:29
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0] d7860b3ec15ff060c140.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 596 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] webpack built ad83f62eeddd8860abab in 17415ms
+[0] ⚠ ｢wdm｣: Hash: ad83f62eeddd8860abab
+[0] Version: webpack 4.44.2
+[0] Time: 17415ms
+[0] Built at: 2020-11-19 15:08:59
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 597 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] webpack built d56d589e1f0badd2c77f in 15615ms
+[0] ⚠ ｢wdm｣: Hash: d56d589e1f0badd2c77f
+[0] Version: webpack 4.44.2
+[0] Time: 15615ms
+[0] Built at: 2020-11-19 15:09:15
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0] ad83f62eeddd8860abab.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 597 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] [nodemon] restarting due to changes...
+[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/inv_item
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/inv_item
+[0] webpack built 6b3c943ed5451dfdebca in 17908ms
+[0] ⚠ ｢wdm｣: Hash: 6b3c943ed5451dfdebca
+[0] Version: webpack 4.44.2
+[0] Time: 17908ms
+[0] Built at: 2020-11-19 15:09:59
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 597 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/dist/xlsx.full.min.js
+[0] ℹ ｢wdm｣: wait until bundle finished: /bundle.js
+[0] ℹ ｢wdm｣: wait until bundle finished: /cleverLibrary/css/materialize.css.map
+[0] webpack built 1e5d41970e259551a49d in 15643ms
+[0] ⚠ ｢wdm｣: Hash: 1e5d41970e259551a49d
+[0] Version: webpack 4.44.2
+[0] Time: 15643ms
+[0] Built at: 2020-11-19 15:10:15
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0] 6b3c943ed5451dfdebca.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 597 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] [nodemon] restarting due to changes...
+[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/inv_item
+[0] webpack built 4dea3357f9f9db011f8d in 16960ms
+[0] ⚠ ｢wdm｣: Hash: 4dea3357f9f9db011f8d
+[0] Version: webpack 4.44.2
+[0] Time: 16960ms
+[0] Built at: 2020-11-19 15:25:56
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 597 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/dist/xlsx.full.min.js
+[0] ℹ ｢wdm｣: wait until bundle finished: /bundle.js
+[0] ℹ ｢wdm｣: wait until bundle finished: /cleverLibrary/css/materialize.css.map
+[0] webpack built a1cd2cc9c2d3226f6f5b in 15800ms
+[0] ⚠ ｢wdm｣: Hash: a1cd2cc9c2d3226f6f5b
+[0] Version: webpack 4.44.2
+[0] Time: 15800ms
+[0] Built at: 2020-11-19 15:26:12
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 4dea3357f9f9db011f8d.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 597 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] [nodemon] restarting due to changes...
+[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/inv_item
+[0] webpack built ae26156c05ad8518965e in 18677ms
+[0] ⚠ ｢wdm｣: Hash: ae26156c05ad8518965e
+[0] Version: webpack 4.44.2
+[0] Time: 18677ms
+[0] Built at: 2020-11-19 15:30:59
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 597 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/dist/xlsx.full.min.js
+[0] ℹ ｢wdm｣: wait until bundle finished: /cleverLibrary/css/materialize.css.map
+[0] ℹ ｢wdm｣: wait until bundle finished: /bundle.js
+[0] webpack built 744ebd6c3a2a5bd2ea57 in 16852ms
+[0] ⚠ ｢wdm｣: Hash: 744ebd6c3a2a5bd2ea57
+[0] Version: webpack 4.44.2
+[0] Time: 16852ms
+[0] Built at: 2020-11-19 15:31:17
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0] ae26156c05ad8518965e.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 597 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] [nodemon] restarting due to changes...
+[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/inv_item
+[0] webpack built d70288f3e65584e8d599 in 18797ms
+[0] ⚠ ｢wdm｣: Hash: d70288f3e65584e8d599
+[0] Version: webpack 4.44.2
+[0] Time: 18797ms
+[0] Built at: 2020-11-19 15:41:29
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 597 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/dist/xlsx.full.min.js
+[0] ℹ ｢wdm｣: wait until bundle finished: /bundle.js
+[0] ℹ ｢wdm｣: wait until bundle finished: /cleverLibrary/css/materialize.css.map
+[0] webpack built 1530737397ee5de7d089 in 16846ms
+[0] ⚠ ｢wdm｣: Hash: 1530737397ee5de7d089
+[0] Version: webpack 4.44.2
+[0] Time: 16846ms
+[0] Built at: 2020-11-19 15:41:47
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0] d70288f3e65584e8d599.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 597 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] [nodemon] restarting due to changes...
+[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] [nodemon] starting `node ./src/server/server.js`
+[0] Mode: development Port: 9000
+[0] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/inv_item
+[0] webpack built 2ea03a7c124fc2d91b76 in 21285ms
+[0] ⚠ ｢wdm｣: Hash: 2ea03a7c124fc2d91b76
+[0] Version: webpack 4.44.2
+[0] Time: 21285ms
+[0] Built at: 2020-11-19 15:44:19
+[0]                                Asset      Size  Chunks                    Chunk Names
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]  [big]  main
+[0]                           index.html   1.9 KiB          [emitted]         
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 597 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       0  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.[0] ℹ ｢wdm｣: Compiling...
+[0] webpack building...
+[0] ℹ ｢wdm｣: wait until bundle finished: /inventario/dist/xlsx.full.min.js
+[0] ℹ ｢wdm｣: wait until bundle finished: /bundle.js
+[0] ℹ ｢wdm｣: wait until bundle finished: /cleverLibrary/css/materialize.css.map
+[0] webpack built 0cc3e80fc9c2e8db6466 in 18605ms
+[0] ⚠ ｢wdm｣: Hash: 0cc3e80fc9c2e8db6466
+[0] Version: webpack 4.44.2
+[0] Time: 18605ms
+[0] Built at: 2020-11-19 15:44:38
+[0]                                Asset      Size  Chunks                                      Chunk Names
+[0] 2ea03a7c124fc2d91b76.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[0] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[0]                            bundle.js  2.88 MiB       0  [emitted]                    [big]  main
+[0]                           index.html   1.9 KiB          [emitted]                           
+[0] Entrypoint main [big] = bundle.js
+[0]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[0]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[0]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[0]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[0]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.46 KiB {0} [built]
+[0]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[0]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[0]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[0]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[0]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[0]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[0]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[0]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[0] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[0] [243] ./src/client/index.js + 81 modules 597 KiB {0} [built]
+[0]       | ./src/client/index.js 458 bytes [built]
+[0]       | ./src/client/routes.js 3.4 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[0]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[0]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[0]       | ./src/client/App.js 794 bytes [built]
+[0]       | ./src/client/home.js 293 bytes [built]
+[0]       | ./src/client/views/service/service.js 30.9 KiB [built]
+[0]       | ./src/client/Error404.js 223 bytes [built]
+[0]       | ./src/client/views/client/Client.js 2 KiB [built]
+[0]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[0]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[0]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[0]       | ./src/client/views/service_type/service_type.js 16.9 KiB [built]
+[0]       |     + 67 hidden modules
+[0]     + 311 hidden modules
+[0] 
+[0] WARNING in configuration
+[0] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[0] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[0] 
+[0] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[0] This can impact web performance.
+[0] Assets: 
+[0]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[0]   bundle.js (2.88 MiB)
+[0] 
+[0] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[0] Entrypoints:
+[0]   main (2.88 MiB)
+[0]       bundle.js
+[0] 
+[0] 
+[0] WARNING in webpack performance recommendations: 
+[0] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[0] For more info visit https://webpack.js.org/guides/code-splitting/
+[0] Child html-webpack-plugin for "index.html":
+[0]          Asset     Size  Chunks  Chunk Names
+[0]     index.html  537 KiB       1  
+[0]     Entrypoint undefined = index.html
+[0]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[0]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[0]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[0]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[0] ℹ ｢wdm｣: Compiled with warnings.

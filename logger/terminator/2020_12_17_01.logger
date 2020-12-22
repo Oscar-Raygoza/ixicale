@@ -1,0 +1,3226 @@
+cd $NODE/clv-service-web                                                                   hostname: [ix]
+
+  ༆ ixicale༆   ⎣07:56:38⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1☀ 3 ● 
+npm run dev                                                                                hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.mode=dev
+[1] 
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] 
+[0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): config/global.js src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[1] ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+[1] ℹ ｢wds｣: webpack output is served from /
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] ℹ ｢wdm｣:    669 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/core/paises/en from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/translate/1 from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)[1] [HPM] Error occurred while trying to proxy request /postlogin/api/core/paises/en from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/translate/1 from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/payment/hash from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/translate/1 from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/core/paises/en from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/translate/1 from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] (node:7421) UnhandledPromiseRejectionWarning: TypeError: Cannot set property requestType of #<MailErrorNotification> which has only a getter
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:400:36
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:532:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[0] (node:7421) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[0] (node:7421) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[0] [nodemon] restarting due to changes...[0] [nodemon] starting `node src/server/index.js --inline=false`
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] (node:9009) UnhandledPromiseRejectionWarning: RangeError: Maximum call stack size exceeded
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0] (node:9009) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[0] (node:9009) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] (node:9224) UnhandledPromiseRejectionWarning: RangeError: Maximum call stack size exceeded
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0] (node:9224) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[0] (node:9224) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+
+
+
+
+
+
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0] (node:9224) UnhandledPromiseRejectionWarning: RangeError: Maximum call stack size exceeded
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0] (node:9224) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] (node:11233) UnhandledPromiseRejectionWarning: RangeError: Maximum call stack size exceeded
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0] (node:11233) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[0] (node:11233) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+
+
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+
+
+
+
+
+[0] (node:11640) UnhandledPromiseRejectionWarning: RangeError: Maximum call stack size exceeded
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:64:26)
+[0] (node:11640) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[0] (node:11640) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] (node:11984) UnhandledPromiseRejectionWarning: RangeError: Maximum call stack size exceeded
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:65:20)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:65:20)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:65:20)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:65:20)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:65:20)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:65:20)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:65:20)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:65:20)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:65:20)
+[0]     at MailErrorNotification.set requestType [as requestType] (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:65:20)
+[0] (node:11984) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[0] (node:11984) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+ 
+
+
+
+
+
+
+
+
+[0] url http://dev.clever-api-events.local/grupopago/payment
+[0] requestResponse CustomErrorException: Group not found at http://dev.clever-api-events.local/grupopago/payment
+[0]     at RequestMethod.sendRequest (/var/www/html/NODE/clv-service-web/src/server/app/RequestMethod.js:272:10)
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+[0]   code: 404,
+[0]   clientMessage: 'Group not found',
+[0]   file: '/var/www/html/NODE/clv-service-web/src/server/app/RequestMethod.js',
+[0]   filename: 'RequestMethod.js',
+[0]   line: '272:10',
+[0]   toString: [Function]
+[0] }
+[0] catchError CustomErrorException: Group not found at http://dev.clever-api-events.local/grupopago/payment
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:386:27
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:532:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+[0]   code: 404,
+[0]   clientMessage: 'Unable to create this resource.',
+[0]   file: '    at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js',
+[0]   filename: 'EventController.js',
+[0]   line: '386:27',
+[0]   toString: [Function]
+[0] }
+[0] payload {
+[0]   usuario_creacion: 'weddingweb',
+[0]   divisa: 'USD',
+[0]   idevent_grupo: 0,
+[0]   idfin_cliente_interno: '1',
+[0]   tipo_cambio: '0',
+[0]   pago_online: {
+[0]     name: 'Nombre Persona',
+[0]     lastName: 'Apellido Persona',
+[0]     address: 'Testing Address',
+[0]     city: 'fdddddddddddddddd',
+[0]     country: 'BHS',
+[0]     zipcode: '21451',
+[0]     idevent_billing_address: '',
+[0]     cardNumber: '41111111111111',
+[0]     mmExp: '09',
+[0]     yyExp: '22',
+[0]     cvc: '124',
+[0]     card: 'visa',
+[0]     monto: '100',
+[0]     payment: 100,
+[0]     currency: 'USD',
+[0]     exchange: '1'
+[0]   }
+[0] }[0] (node:13817) UnhandledPromiseRejectionWarning: ReferenceError: requestResponse is not defined
+[0]     at MailErrorNotification.send (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:113:44)
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:400:24
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:532:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[0] (node:13817) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[0] (node:13817) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] url http://dev.clever-api-events.local/grupopago/payment
+[0] requestResponse CustomErrorException: Group not found at http://dev.clever-api-events.local/grupopago/payment
+[0]     at RequestMethod.sendRequest (/var/www/html/NODE/clv-service-web/src/server/app/RequestMethod.js:272:10)
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+[0]   code: 404,
+[0]   clientMessage: 'Group not found',
+[0]   file: '/var/www/html/NODE/clv-service-web/src/server/app/RequestMethod.js',
+[0]   filename: 'RequestMethod.js',
+[0]   line: '272:10',
+[0]   toString: [Function]
+[0] }
+[0] catchError CustomErrorException: Group not found at http://dev.clever-api-events.local/grupopago/payment
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:386:27
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:532:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+[0]   code: 404,
+[0]   clientMessage: 'Unable to create this resource.',
+[0]   file: '    at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js',
+[0]   filename: 'EventController.js',
+[0]   line: '386:27',
+[0]   toString: [Function]
+[0] }
+[0] payload {
+[0]   usuario_creacion: 'weddingweb',
+[0]   divisa: 'USD',
+[0]   idevent_grupo: 0,
+[0]   idfin_cliente_interno: '1',
+[0]   tipo_cambio: '0',
+[0]   pago_online: {
+[0]     name: 'Nombre Persona',
+[0]     lastName: 'Apellido Persona',
+[0]     address: 'Testing Address',
+[0]     city: 'fdddddddddddddddd',
+[0]     country: 'BHS',
+[0]     zipcode: '21451',
+[0]     idevent_billing_address: '',
+[0]     cardNumber: '41111111111111',
+[0]     mmExp: '09',
+[0]     yyExp: '22',
+[0]     cvc: '124',
+[0]     card: 'visa',
+[0]     monto: '100',
+[0]     payment: 100,
+[0]     currency: 'USD',
+[0]     exchange: '1'
+[0]   }
+[0] }
+[0] data {
+[0]   SYSTEM: 'clv-service-web',
+[0]   ENV: 'DEV',
+[0]   USER: 'weddingweb',
+[0]   DATE: 'Thu Dec 17 2020 04:16:26 GMT-0500 (GMT-05:00)',
+[0]   CODE: 404,
+[0]   TYPE_RESPONSE: 'GET',
+[0]   MSG_ERROR: 'Group not found at http://dev.clever-api-events.local/grupopago/payment',
+[0]   API: 'http://dev.clever-api-events.local/grupopago/payment',
+[0]   PAYLOAD: '{<ul style="list-style-type: none;"><li><div>"usuario_creacion": "weddingweb",</div></li><li><div>"divisa": "USD",</div></li><li><div>"idevent_grupo": "0",</div></li><li><div>"idfin_cliente_interno": "1",</div></li><li><div>"tipo_cambio": "0",</div></li><li><div>"pago_online": {<ul style="list-style-type: none;"><li><div>"name": "Nombre Persona",</div></li><li><div>"lastName": "Apellido Persona",</div></li><li><div>"address": "Testing Address",</div></li><li><div>"city": "fdddddddddddddddd",</div></li><li><div>"country": "BHS",</div></li><li><div>"zipcode": "21451",</div></li><li><div>"idevent_billing_address": "",</div></li><li><div>"cardNumber": "41111111111111",</div></li><li><div>"mmExp": "09",</div></li><li><div>"yyExp": "22",</div></li><li><div>"cvc": "124",</div></li><li><div>"card": "visa",</div></li><li><div>"monto": "100",</div></li><li><div>"payment": "100",</div></li><li><div>"currency": "USD",</div></li><li><div>"exchange": "1"</div></li></ul>}</div></li></ul>}',
+[0]   RESPONSE: '{<ul style="list-style-type: none;"><li><div>"code": "404",</div></li><li><div>"name": "Error",</div></li><li><div>"clientMessage": "Group not found",</div></li><li><div>"file": "/var/www/html/NODE/clv-service-web/src/server/app/RequestMethod.js",</div></li><li><div>"filename": "RequestMethod.js",</div></li><li><div>"line": "272:10",</div></li><li><div>"toString": "function(){\n' +
+[0]     '            return `${this.name} => ${this.message} at ${this.file}:${this.line}`;\n' +
+[0]     '        }"</div></li></ul>}'
+[0] }
+[0] url http://frm-api-qa.clever.palace-resorts.local/notificaciones/notificacion/NOTIFICATION_API_ERRORS
+
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] url http://dev.clever-api-events.local/grupopago/payment
+[0] requestResponse CustomErrorException: Group not found at http://dev.clever-api-events.local/grupopago/payment
+[0]     at RequestMethod.sendRequest (/var/www/html/NODE/clv-service-web/src/server/app/RequestMethod.js:272:10)
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+[0]   code: 404,
+[0]   clientMessage: 'Group not found',
+[0]   file: '/var/www/html/NODE/clv-service-web/src/server/app/RequestMethod.js',
+[0]   filename: 'RequestMethod.js',
+[0]   line: '272:10',
+[0]   toString: [Function]
+[0] }
+[0] catchError CustomErrorException: Group not found at http://dev.clever-api-events.local/grupopago/payment
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:386:27
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:532:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+[0]   code: 404,
+[0]   clientMessage: 'Unable to create this resource.',
+[0]   file: '    at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js',
+[0]   filename: 'EventController.js',
+[0]   line: '386:27',
+[0]   toString: [Function]
+[0] }
+[0] payload {
+[0]   usuario_creacion: 'weddingweb',
+[0]   divisa: 'USD',
+[0]   idevent_grupo: 0,
+[0]   idfin_cliente_interno: '1',
+[0]   tipo_cambio: '0',
+[0]   pago_online: {
+[0]     name: 'Nombre Persona',
+[0]     lastName: 'Apellido Persona',
+[0]     address: 'Testing Address',
+[0]     city: 'fdddddddddddddddd',
+[0]     country: 'BHS',
+[0]     zipcode: '21451',
+[0]     idevent_billing_address: '',
+[0]     cardNumber: '41111111111111',
+[0]     mmExp: '09',
+[0]     yyExp: '22',
+[0]     cvc: '124',
+[0]     card: 'visa',
+[0]     monto: '100',
+[0]     payment: 100,
+[0]     currency: 'USD',
+[0]     exchange: '1'
+[0]   }
+[0] }[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0] data {
+[0]   SYSTEM: 'clv-service-web',
+[0]   ENV: 'DEV',
+[0]   USER: 'weddingweb',
+[0]   DATE: 'Thu Dec 17 2020 04:18:31 GMT-0500 (GMT-05:00)',
+[0]   CODE: 404,
+[0]   TYPE_RESPONSE: 'GET',
+[0]   MSG_ERROR: 'Group not found at http://dev.clever-api-events.local/grupopago/payment',
+[0]   API: 'http://dev.clever-api-events.local/grupopago/payment',
+[0]   PAYLOAD: '{<ul style="list-style-type: none;"><li><div>"usuario_creacion": "weddingweb",</div></li><li><div>"divisa": "USD",</div></li><li><div>"idevent_grupo": "0",</div></li><li><div>"idfin_cliente_interno": "1",</div></li><li><div>"tipo_cambio": "0",</div></li><li><div>"pago_online": {<ul style="list-style-type: none;"><li><div>"name": "Nombre Persona",</div></li><li><div>"lastName": "Apellido Persona",</div></li><li><div>"address": "Testing Address",</div></li><li><div>"city": "fdddddddddddddddd",</div></li><li><div>"country": "BHS",</div></li><li><div>"zipcode": "21451",</div></li><li><div>"idevent_billing_address": "",</div></li><li><div>"cardNumber": "41111111111111",</div></li><li><div>"mmExp": "09",</div></li><li><div>"yyExp": "22",</div></li><li><div>"cvc": "124",</div></li><li><div>"card": "visa",</div></li><li><div>"monto": "100",</div></li><li><div>"payment": "100",</div></li><li><div>"currency": "USD",</div></li><li><div>"exchange": "1"</div></li></ul>}</div></li></ul>}',
+[0]   RESPONSE: '{<ul style="list-style-type: none;"><li><div>"code": "404",</div></li><li><div>"name": "Error",</div></li><li><div>"clientMessage": "Group not found",</div></li><li><div>"file": "/var/www/html/NODE/clv-service-web/src/server/app/RequestMethod.js",</div></li><li><div>"filename": "RequestMethod.js",</div></li><li><div>"line": "272:10",</div></li><li><div>"toString": "function(){\n' +
+[0]     '            return `${this.name} => ${this.message} at ${this.file}:${this.line}`;\n' +
+[0]     '        }"</div></li></ul>}'
+[0] }
+[0] url http://frm-api-qa.clever.palace-resorts.local/notificaciones/notificacion/NOTIFICATION_API_ERRORS
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] data {
+[0]   usuario_creacion: 'weddingweb',
+[0]   divisa: 'USD',
+[0]   idevent_grupo: 0,
+[0]   idfin_cliente_interno: '1',
+[0]   tipo_cambio: '0',
+[0]   pago_online: {
+[0]     name: 'Nombre Persona',
+[0]     lastName: 'Apellido Persona',
+[0]     address: 'Testing Address',
+[0]     city: 'fdddddddddddddddd',
+[0]     country: 'BHS',
+[0]     zipcode: '21451',
+[0]     idevent_billing_address: '',
+[0]     cardNumber: '41111111111111',
+[0]     mmExp: '09',
+[0]     yyExp: '22',
+[0]     cvc: '124',
+[0]     card: 'visa',
+[0]     monto: '100',
+[0]     payment: 100,
+[0]     currency: 'USD',
+[0]     exchange: '1'
+[0]   }
+[0] }
+[0] url http://dev.clever-api-events.local/grupopago/payment[0] data {
+[0]   SYSTEM: 'clv-service-web',
+[0]   ENV: 'DEV',
+[0]   USER: 'weddingweb',
+[0]   DATE: 'Thu Dec 17 2020 04:25:23 GMT-0500 (GMT-05:00)',
+[0]   CODE: 404,
+[0]   TYPE_RESPONSE: 'GET',
+[0]   MSG_ERROR: 'Group not found at http://dev.clever-api-events.local/grupopago/payment',
+[0]   API: 'http://dev.clever-api-events.local/grupopago/payment',
+[0]   PAYLOAD: '{<ul style="list-style-type: none;"><li><div>"usuario_creacion": "weddingweb",</div></li><li><div>"divisa": "USD",</div></li><li><div>"idevent_grupo": "0",</div></li><li><div>"idfin_cliente_interno": "1",</div></li><li><div>"tipo_cambio": "0",</div></li><li><div>"pago_online": {<ul style="list-style-type: none;"><li><div>"name": "Nombre Persona",</div></li><li><div>"lastName": "Apellido Persona",</div></li><li><div>"address": "Testing Address",</div></li><li><div>"city": "fdddddddddddddddd",</div></li><li><div>"country": "BHS",</div></li><li><div>"zipcode": "21451",</div></li><li><div>"idevent_billing_address": "",</div></li><li><div>"cardNumber": "41111111111111",</div></li><li><div>"mmExp": "09",</div></li><li><div>"yyExp": "22",</div></li><li><div>"cvc": "124",</div></li><li><div>"card": "visa",</div></li><li><div>"monto": "100",</div></li><li><div>"payment": "100",</div></li><li><div>"currency": "USD",</div></li><li><div>"exchange": "1"</div></li></ul>}</div></li></ul>}',
+[0]   RESPONSE: '{<ul style="list-style-type: none;"><li><div>"code": "404",</div></li><li><div>"name": "Error",</div></li><li><div>"clientMessage": "Group not found",</div></li><li><div>"file": "/var/www/html/NODE/clv-service-web/src/server/app/RequestMethod.js",</div></li><li><div>"filename": "RequestMethod.js",</div></li><li><div>"line": "272:10",</div></li><li><div>"toString": "function(){\n' +
+[0]     '            return `${this.name} => ${this.message} at ${this.file}:${this.line}`;\n' +
+[0]     '        }"</div></li></ul>}'
+[0] }
+[0] url http://frm-api-qa.clever.palace-resorts.local/notificaciones/notificacion/NOTIFICATION_API_ERRORS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0] data {
+[0]   usuario_creacion: 'weddingweb',
+[0]   divisa: 'USD',
+[0]   idevent_grupo: 0,
+[0]   idfin_cliente_interno: '1',
+[0]   tipo_cambio: '0',
+[0]   pago_online: {
+[0]     name: 'Nombre Persona',
+[0]     lastName: 'Apellido Persona',
+[0]     address: 'Testing Address',
+[0]     city: 'fdddddddddddddddd',
+[0]     country: 'BHS',
+[0]     zipcode: '21451',
+[0]     idevent_billing_address: '',
+[0]     cardNumber: '41111111111111',
+[0]     mmExp: '09',
+[0]     yyExp: '22',
+[0]     cvc: '124',
+[0]     card: 'visa',
+[0]     monto: '100',
+[0]     payment: 100,
+[0]     currency: 'USD',
+[0]     exchange: '1'
+[0]   }
+[0] }
+[0] url http://dev.clever-api-events.local/grupopago/payment[0] data {
+[0]   SYSTEM: 'clv-service-web',
+[0]   ENV: 'DEV',
+[0]   USER: 'weddingweb',
+[0]   DATE: 'Thu Dec 17 2020 04:27:05 GMT-0500 (GMT-05:00)',
+[0]   CODE: 404,
+[0]   TYPE_RESPONSE: 'GET',
+[0]   MSG_ERROR: 'Group not found at http://dev.clever-api-events.local/grupopago/payment',
+[0]   API: 'http://dev.clever-api-events.local/grupopago/payment',
+[0]   PAYLOAD: '{<ul style="list-style-type: none;"><li><div>"usuario_creacion": "weddingweb",</div></li><li><div>"divisa": "USD",</div></li><li><div>"idevent_grupo": "0",</div></li><li><div>"idfin_cliente_interno": "1",</div></li><li><div>"tipo_cambio": "0",</div></li><li><div>"pago_online": {<ul style="list-style-type: none;"><li><div>"name": "Nombre Persona",</div></li><li><div>"lastName": "Apellido Persona",</div></li><li><div>"address": "Testing Address",</div></li><li><div>"city": "fdddddddddddddddd",</div></li><li><div>"country": "BHS",</div></li><li><div>"zipcode": "21451",</div></li><li><div>"idevent_billing_address": "",</div></li><li><div>"cardNumber": "41111111111111",</div></li><li><div>"mmExp": "09",</div></li><li><div>"yyExp": "22",</div></li><li><div>"cvc": "124",</div></li><li><div>"card": "visa",</div></li><li><div>"monto": "100",</div></li><li><div>"payment": "100",</div></li><li><div>"currency": "USD",</div></li><li><div>"exchange": "1"</div></li></ul>}</div></li></ul>}',
+[0]   RESPONSE: '{<ul style="list-style-type: none;"><li><div>"code": "404",</div></li><li><div>"name": "Error",</div></li><li><div>"clientMessage": "Group not found",</div></li><li><div>"file": "/var/www/html/NODE/clv-service-web/src/server/app/RequestMethod.js",</div></li><li><div>"filename": "RequestMethod.js",</div></li><li><div>"line": "272:10",</div></li><li><div>"toString": "function(){\n' +
+[0]     '            return `${this.name} => ${this.message} at ${this.file}:${this.line}`;\n' +
+[0]     '        }"</div></li></ul>}'
+[0] }
+[0] url http://frm-api-qa.clever.palace-resorts.local/notificaciones/notificacion/NOTIFICATION_API_ERRORS
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] (node:16340) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'locals' of undefined
+[0]     at MailErrorNotification.get localParams [as localParams] (/var/www/html/NODE/clv-service-web/src/server/app/index.js:102:24)
+[0]     at MailErrorNotification.get tokenMiddleware [as tokenMiddleware] (/var/www/html/NODE/clv-service-web/src/server/app/index.js:254:22)
+[0]     at MailErrorNotification.setAuthorization (/var/www/html/NODE/clv-service-web/src/server/app/index.js:363:52)
+[0]     at MailErrorNotification.sendNotification (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:26:14)
+[0]     at MailErrorNotification.send (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:90:14)
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:400:24
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:532:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[0] (node:16340) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[0] (node:16340) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0] (node:16615) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'locals' of undefined
+[0]     at MailErrorNotification.get localParams [as localParams] (/var/www/html/NODE/clv-service-web/src/server/app/index.js:102:24)
+[0]     at MailErrorNotification.get tokenMiddleware [as tokenMiddleware] (/var/www/html/NODE/clv-service-web/src/server/app/index.js:254:22)
+[0]     at MailErrorNotification.setAuthorization (/var/www/html/NODE/clv-service-web/src/server/app/index.js:363:52)
+[0]     at MailErrorNotification.sendNotification (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:26:14)
+[0]     at MailErrorNotification.send (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:90:14)
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:400:24
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:532:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[0] (node:16615) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[0] (node:16615) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[0] undefined undefined [Function: next]
+[0] (node:16859) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'locals' of undefined
+[0]     at MailErrorNotification.get localParams [as localParams] (/var/www/html/NODE/clv-service-web/src/server/app/index.js:102:24)
+[0]     at MailErrorNotification.get tokenMiddleware [as tokenMiddleware] (/var/www/html/NODE/clv-service-web/src/server/app/index.js:254:22)
+[0]     at MailErrorNotification.setAuthorization (/var/www/html/NODE/clv-service-web/src/server/app/index.js:363:52)
+[0]     at MailErrorNotification.sendNotification (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:26:14)
+[0]     at MailErrorNotification.send (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:91:14)
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:400:24
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:532:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[0] (node:16859) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[0] (node:16859) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] EventController {
+[0]   _req: IncomingMessage {
+[0]     _readableState: ReadableState {
+[0]       objectMode: false,
+[0]       highWaterMark: 16384,
+[0]       buffer: BufferList { head: null, tail: null, length: 0 },
+[0]       length: 0,
+[0]       pipes: null,
+[0]       pipesCount: 0,
+[0]       flowing: true,
+[0]       ended: true,
+[0]       endEmitted: true,
+[0]       reading: false,
+[0]       sync: false,
+[0]       needReadable: false,
+[0]       emittedReadable: false,
+[0]       readableListening: false,
+[0]       resumeScheduled: false,
+[0]       emitClose: true,
+[0]       autoDestroy: false,
+[0]       destroyed: false,
+[0]       defaultEncoding: 'utf8',
+[0]       awaitDrainWriters: null,
+[0]       multiAwaitDrain: false,
+[0]       readingMore: false,
+[0]       decoder: null,
+[0]       encoding: null,
+[0]       [Symbol(kPaused)]: false
+[0]     },
+[0]     readable: false,
+[0]     _events: [Object: null prototype] {},
+[0]     _eventsCount: 0,
+[0]     _maxListeners: undefined,
+[0]     socket: Socket {
+[0]       connecting: false,
+[0]       _hadError: false,
+[0]       _parent: null,
+[0]       _host: null,
+[0]       _readableState: [ReadableState],
+[0]       readable: true,
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 8,
+[0]       _maxListeners: undefined,
+[0]       _writableState: [WritableState],
+[0]       writable: true,
+[0]       allowHalfOpen: true,
+[0]       _sockname: null,
+[0]       _pendingData: null,
+[0]       _pendingEncoding: '',
+[0]       server: [Server],
+[0]       _server: [Server],
+[0]       timeout: 120000,
+[0]       parser: [HTTPParser],
+[0]       on: [Function: socketListenerWrap],
+[0]       addListener: [Function: socketListenerWrap],
+[0]       prependListener: [Function: socketListenerWrap],
+[0]       _paused: false,
+[0]       _httpMessage: [ServerResponse],
+[0]       [Symbol(asyncId)]: 8,
+[0]       [Symbol(kHandle)]: [TCP],
+[0]       [Symbol(kSetNoDelay)]: false,
+[0]       [Symbol(lastWriteQueueSize)]: 0,
+[0]       [Symbol(timeout)]: Timeout {
+[0]         _idleTimeout: 120000,
+[0]         _idlePrev: [TimersList],
+[0]         _idleNext: [TimersList],
+[0]         _idleStart: 2539,
+[0]         _onTimeout: [Function: bound ],
+[0]         _timerArgs: undefined,
+[0]         _repeat: null,
+[0]         _destroyed: false,
+[0]         [Symbol(refed)]: false,
+[0]         [Symbol(kHasPrimitive)]: false,
+[0]         [Symbol(asyncId)]: 9,
+[0]         [Symbol(triggerId)]: 8
+[0]       },
+[0]       [Symbol(kBuffer)]: null,
+[0]       [Symbol(kBufferCb)]: null,
+[0]       [Symbol(kBufferGen)]: null,
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kBytesRead)]: 0,
+[0]       [Symbol(kBytesWritten)]: 0
+[0]     },
+[0]     connection: Socket {
+[0]       connecting: false,
+[0]       _hadError: false,
+[0]       _parent: null,
+[0]       _host: null,
+[0]       _readableState: [ReadableState],
+[0]       readable: true,
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 8,
+[0]       _maxListeners: undefined,
+[0]       _writableState: [WritableState],
+[0]       writable: true,
+[0]       allowHalfOpen: true,
+[0]       _sockname: null,
+[0]       _pendingData: null,
+[0]       _pendingEncoding: '',
+[0]       server: [Server],
+[0]       _server: [Server],
+[0]       timeout: 120000,
+[0]       parser: [HTTPParser],
+[0]       on: [Function: socketListenerWrap],
+[0]       addListener: [Function: socketListenerWrap],
+[0]       prependListener: [Function: socketListenerWrap],
+[0]       _paused: false,
+[0]       _httpMessage: [ServerResponse],
+[0]       [Symbol(asyncId)]: 8,
+[0]       [Symbol(kHandle)]: [TCP],
+[0]       [Symbol(kSetNoDelay)]: false,
+[0]       [Symbol(lastWriteQueueSize)]: 0,
+[0]       [Symbol(timeout)]: Timeout {
+[0]         _idleTimeout: 120000,
+[0]         _idlePrev: [TimersList],
+[0]         _idleNext: [TimersList],
+[0]         _idleStart: 2539,
+[0]         _onTimeout: [Function: bound ],
+[0]         _timerArgs: undefined,
+[0]         _repeat: null,
+[0]         _destroyed: false,
+[0]         [Symbol(refed)]: false,
+[0]         [Symbol(kHasPrimitive)]: false,
+[0]         [Symbol(asyncId)]: 9,
+[0]         [Symbol(triggerId)]: 8
+[0]       },
+[0]       [Symbol(kBuffer)]: null,
+[0]       [Symbol(kBufferCb)]: null,
+[0]       [Symbol(kBufferGen)]: null,
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kBytesRead)]: 0,
+[0]       [Symbol(kBytesWritten)]: 0
+[0]     },
+[0]     httpVersionMajor: 1,
+[0]     httpVersionMinor: 1,
+[0]     httpVersion: '1.1',
+[0]     complete: true,
+[0]     headers: {
+[0]       cookie: '_gcl_au=1.1.2146252637.1607113535; _ga=GA1.2.1434906631.1607113535; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _hjTLDTest=1; _hjid=87afbd65-a922-4313-9fd3-82d3f1f102c9',
+[0]       'accept-language': 'en,es-419;q=0.9,es;q=0.8',
+[0]       'accept-encoding': 'gzip, deflate',
+[0]       referer: 'http://dev.weddings-web.palaceresorts.local/postlogin/my-gift',
+[0]       origin: 'http://dev.weddings-web.palaceresorts.local',
+[0]       'content-type': 'application/json',
+[0]       'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 OPR/73.0.3856.257',
+[0]       accept: '*',
+[0]       'cache-control': 'no-cache',
+[0]       pragma: 'no-cache',
+[0]       'content-length': '403',
+[0]       connection: 'close',
+[0]       host: '127.0.0.1:9000'
+[0]     },
+[0]     rawHeaders: [
+[0]       'cookie',
+[0]       '_gcl_au=1.1.2146252637.1607113535; _ga=GA1.2.1434906631.1607113535; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _hjTLDTest=1; _hjid=87afbd65-a922-4313-9fd3-82d3f1f102c9',
+[0]       'accept-language',
+[0]       'en,es-419;q=0.9,es;q=0.8',
+[0]       'accept-encoding',
+[0]       'gzip, deflate',
+[0]       'referer',
+[0]       'http://dev.weddings-web.palaceresorts.local/postlogin/my-gift',
+[0]       'origin',
+[0]       'http://dev.weddings-web.palaceresorts.local',
+[0]       'content-type',
+[0]       'application/json',
+[0]       'user-agent',
+[0]       'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 OPR/73.0.3856.257',
+[0]       'accept',
+[0]       '*',
+[0]       'cache-control',
+[0]       'no-cache',
+[0]       'pragma',
+[0]       'no-cache',
+[0]       'content-length',
+[0]       '403',
+[0]       'connection',
+[0]       'close',
+[0]       'host',
+[0]       '127.0.0.1:9000'
+[0]     ],
+[0]     trailers: {},
+[0]     rawTrailers: [],
+[0]     aborted: false,
+[0]     upgrade: false,
+[0]     url: '/balance/add',
+[0]     method: 'POST',
+[0]     statusCode: null,
+[0]     statusMessage: null,
+[0]     client: Socket {
+[0]       connecting: false,
+[0]       _hadError: false,
+[0]       _parent: null,
+[0]       _host: null,
+[0]       _readableState: [ReadableState],
+[0]       readable: true,
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 8,
+[0]       _maxListeners: undefined,
+[0]       _writableState: [WritableState],
+[0]       writable: true,
+[0]       allowHalfOpen: true,
+[0]       _sockname: null,
+[0]       _pendingData: null,
+[0]       _pendingEncoding: '',
+[0]       server: [Server],
+[0]       _server: [Server],
+[0]       timeout: 120000,
+[0]       parser: [HTTPParser],
+[0]       on: [Function: socketListenerWrap],
+[0]       addListener: [Function: socketListenerWrap],
+[0]       prependListener: [Function: socketListenerWrap],
+[0]       _paused: false,
+[0]       _httpMessage: [ServerResponse],
+[0]       [Symbol(asyncId)]: 8,
+[0]       [Symbol(kHandle)]: [TCP],
+[0]       [Symbol(kSetNoDelay)]: false,
+[0]       [Symbol(lastWriteQueueSize)]: 0,
+[0]       [Symbol(timeout)]: Timeout {
+[0]         _idleTimeout: 120000,
+[0]         _idlePrev: [TimersList],
+[0]         _idleNext: [TimersList],
+[0]         _idleStart: 2539,
+[0]         _onTimeout: [Function: bound ],
+[0]         _timerArgs: undefined,
+[0]         _repeat: null,
+[0]         _destroyed: false,
+[0]         [Symbol(refed)]: false,
+[0]         [Symbol(kHasPrimitive)]: false,
+[0]         [Symbol(asyncId)]: 9,
+[0]         [Symbol(triggerId)]: 8
+[0]       },
+[0]       [Symbol(kBuffer)]: null,
+[0]       [Symbol(kBufferCb)]: null,
+[0]       [Symbol(kBufferGen)]: null,
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kBytesRead)]: 0,
+[0]       [Symbol(kBytesWritten)]: 0
+[0]     },
+[0]     _consuming: true,
+[0]     _dumped: false,
+[0]     next: [Function: next],
+[0]     baseUrl: '/postlogin/api/events',
+[0]     originalUrl: '/postlogin/api/events/balance/add',
+[0]     _parsedUrl: Url {
+[0]       protocol: null,
+[0]       slashes: null,
+[0]       auth: null,
+[0]       host: null,
+[0]       port: null,
+[0]       hostname: null,
+[0]       hash: null,
+[0]       search: null,
+[0]       query: null,
+[0]       pathname: '/balance/add',
+[0]       path: '/balance/add',
+[0]       href: '/balance/add',
+[0]       _raw: '/balance/add'
+[0]     },
+[0]     params: {},
+[0]     query: {},
+[0]     res: ServerResponse {
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 1,
+[0]       _maxListeners: undefined,
+[0]       outputData: [],
+[0]       outputSize: 0,
+[0]       writable: true,
+[0]       _last: false,
+[0]       chunkedEncoding: false,
+[0]       shouldKeepAlive: false,
+[0]       _defaultKeepAlive: true,
+[0]       useChunkedEncodingByDefault: true,
+[0]       sendDate: true,
+[0]       _removedConnection: false,
+[0]       _removedContLen: false,
+[0]       _removedTE: false,
+[0]       _contentLength: null,
+[0]       _hasBody: true,
+[0]       _trailer: '',
+[0]       finished: false,
+[0]       _headerSent: false,
+[0]       socket: [Socket],
+[0]       connection: [Socket],
+[0]       _header: null,
+[0]       _keepAliveTimeout: 5000,
+[0]       _onPendingData: [Function: bound updateOutgoingData],
+[0]       _sent100: false,
+[0]       _expect_continue: false,
+[0]       req: [Circular],
+[0]       locals: [Object: null prototype],
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kNeedDrain)]: false,
+[0]       [Symbol(corked)]: 0,
+[0]       [Symbol(kOutHeaders)]: [Object: null prototype]
+[0]     },
+[0]     body: {
+[0]       divisa: 'USD',
+[0]       idevent_grupo: 0,
+[0]       idfin_cliente_interno: '1',
+[0]       tipo_cambio: '0',
+[0]       pago_online: [Object]
+[0]     },
+[0]     _body: true,
+[0]     length: undefined,
+[0]     route: Route { path: '/balance/add', stack: [Array], methods: [Object] },
+[0]     [Symbol(kCapture)]: false
+[0]   },
+[0]   _res: ServerResponse {
+[0]     _events: [Object: null prototype] { finish: [Function: bound resOnFinish] },
+[0]     _eventsCount: 1,
+[0]     _maxListeners: undefined,
+[0]     outputData: [],
+[0]     outputSize: 0,
+[0]     writable: true,
+[0]     _last: false,
+[0]     chunkedEncoding: false,
+[0]     shouldKeepAlive: false,
+[0]     _defaultKeepAlive: true,
+[0]     useChunkedEncodingByDefault: true,
+[0]     sendDate: true,
+[0]     _removedConnection: false,
+[0]     _removedContLen: false,
+[0]     _removedTE: false,
+[0]     _contentLength: null,
+[0]     _hasBody: true,
+[0]     _trailer: '',
+[0]     finished: false,
+[0]     _headerSent: false,
+[0]     socket: Socket {
+[0]       connecting: false,
+[0]       _hadError: false,
+[0]       _parent: null,
+[0]       _host: null,
+[0]       _readableState: [ReadableState],
+[0]       readable: true,
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 8,
+[0]       _maxListeners: undefined,
+[0]       _writableState: [WritableState],
+[0]       writable: true,
+[0]       allowHalfOpen: true,
+[0]       _sockname: null,
+[0]       _pendingData: null,
+[0]       _pendingEncoding: '',
+[0]       server: [Server],
+[0]       _server: [Server],
+[0]       timeout: 120000,
+[0]       parser: [HTTPParser],
+[0]       on: [Function: socketListenerWrap],
+[0]       addListener: [Function: socketListenerWrap],
+[0]       prependListener: [Function: socketListenerWrap],
+[0]       _paused: false,
+[0]       _httpMessage: [Circular],
+[0]       [Symbol(asyncId)]: 8,
+[0]       [Symbol(kHandle)]: [TCP],
+[0]       [Symbol(kSetNoDelay)]: false,
+[0]       [Symbol(lastWriteQueueSize)]: 0,
+[0]       [Symbol(timeout)]: Timeout {
+[0]         _idleTimeout: 120000,
+[0]         _idlePrev: [TimersList],
+[0]         _idleNext: [TimersList],
+[0]         _idleStart: 2539,
+[0]         _onTimeout: [Function: bound ],
+[0]         _timerArgs: undefined,
+[0]         _repeat: null,
+[0]         _destroyed: false,
+[0]         [Symbol(refed)]: false,
+[0]         [Symbol(kHasPrimitive)]: false,
+[0]         [Symbol(asyncId)]: 9,
+[0]         [Symbol(triggerId)]: 8
+[0]       },
+[0]       [Symbol(kBuffer)]: null,
+[0]       [Symbol(kBufferCb)]: null,
+[0]       [Symbol(kBufferGen)]: null,
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kBytesRead)]: 0,
+[0]       [Symbol(kBytesWritten)]: 0
+[0]     },
+[0]     connection: Socket {
+[0]       connecting: false,
+[0]       _hadError: false,
+[0]       _parent: null,
+[0]       _host: null,
+[0]       _readableState: [ReadableState],
+[0]       readable: true,
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 8,
+[0]       _maxListeners: undefined,
+[0]       _writableState: [WritableState],
+[0]       writable: true,
+[0]       allowHalfOpen: true,
+[0]       _sockname: null,
+[0]       _pendingData: null,
+[0]       _pendingEncoding: '',
+[0]       server: [Server],
+[0]       _server: [Server],
+[0]       timeout: 120000,
+[0]       parser: [HTTPParser],
+[0]       on: [Function: socketListenerWrap],
+[0]       addListener: [Function: socketListenerWrap],
+[0]       prependListener: [Function: socketListenerWrap],
+[0]       _paused: false,
+[0]       _httpMessage: [Circular],
+[0]       [Symbol(asyncId)]: 8,
+[0]       [Symbol(kHandle)]: [TCP],
+[0]       [Symbol(kSetNoDelay)]: false,
+[0]       [Symbol(lastWriteQueueSize)]: 0,
+[0]       [Symbol(timeout)]: Timeout {
+[0]         _idleTimeout: 120000,
+[0]         _idlePrev: [TimersList],
+[0]         _idleNext: [TimersList],
+[0]         _idleStart: 2539,
+[0]         _onTimeout: [Function: bound ],
+[0]         _timerArgs: undefined,
+[0]         _repeat: null,
+[0]         _destroyed: false,
+[0]         [Symbol(refed)]: false,
+[0]         [Symbol(kHasPrimitive)]: false,
+[0]         [Symbol(asyncId)]: 9,
+[0]         [Symbol(triggerId)]: 8
+[0]       },
+[0]       [Symbol(kBuffer)]: null,
+[0]       [Symbol(kBufferCb)]: null,
+[0]       [Symbol(kBufferGen)]: null,
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kBytesRead)]: 0,
+[0]       [Symbol(kBytesWritten)]: 0
+[0]     },
+[0]     _header: null,
+[0]     _keepAliveTimeout: 5000,
+[0]     _onPendingData: [Function: bound updateOutgoingData],
+[0]     _sent100: false,
+[0]     _expect_continue: false,
+[0]     req: IncomingMessage {
+[0]       _readableState: [ReadableState],
+[0]       readable: false,
+[0]       _events: [Object: null prototype] {},
+[0]       _eventsCount: 0,
+[0]       _maxListeners: undefined,
+[0]       socket: [Socket],
+[0]       connection: [Socket],
+[0]       httpVersionMajor: 1,
+[0]       httpVersionMinor: 1,
+[0]       httpVersion: '1.1',
+[0]       complete: true,
+[0]       headers: [Object],
+[0]       rawHeaders: [Array],
+[0]       trailers: {},
+[0]       rawTrailers: [],
+[0]       aborted: false,
+[0]       upgrade: false,
+[0]       url: '/balance/add',
+[0]       method: 'POST',
+[0]       statusCode: null,
+[0]       statusMessage: null,
+[0]       client: [Socket],
+[0]       _consuming: true,
+[0]       _dumped: false,
+[0]       next: [Function: next],
+[0]       baseUrl: '/postlogin/api/events',
+[0]       originalUrl: '/postlogin/api/events/balance/add',
+[0]       _parsedUrl: [Url],
+[0]       params: {},
+[0]       query: {},
+[0]       res: [Circular],
+[0]       body: [Object],
+[0]       _body: true,
+[0]       length: undefined,
+[0]       route: [Route],
+[0]       [Symbol(kCapture)]: false
+[0]     },
+[0]     locals: [Object: null prototype] {
+[0]       authorization: 'PcCQY+LzAMYC/unRZNR27U5VeUeRUQGff+DQ4DvWzwTnl7W2Eg2MU7WNCF1R5eoZLJkXhldVzTVylyJVI+2DgIc9x4tDAmzFYXTNgYX4QndVJab6wjZxSDEld4u3cn8WjstNuOsy3wmWwadGAifJJYs9VvVQqfR9TECHivQo+G4fkpuRl2vvFMxXCjmnlKHbRXAUxh5zqr9qYHvkXem4qHkM0+NnY5EdU/eE31Wigd8i7lQY4S1f53JTvlfyqPdN9sXquOtGRvPyIGGs59WB/v3YysyAVgkjJ0yEXL4juUZPrd3gwqJtulTDLarowSK5SCEAYirVo3LUJE+zQ/bexgIsnUuDt1fkOrEwSm0NfxMvUeH0Zg7iToxCBrFhghpKK1um7xy0ro4Va0qZuuCOrlr20OOczYcNY1MBUDyC9vSga1si3wKXK1NCDCNM5OrBwNewmBsKZhZG8k/BE8KdVpvku3rpZxB5Ppd8wbm4ONIGiUyHP3DfoTd/hpFW+V2Xl5mAVcSJeq/2EJG3anFO3tWAE6Uj9HJsC9ZyvSJxwkwcpUY/xA+rt1/V5waRoXF94e8kRqNbRetHW9hGq0IagWZU+fW+GzdTXphvecLtUWjpzz54hsu4RZ3zcv0T0xRyfzFNWs1WtmBl4IVObNdy6Xq5gJ8skr2/rl4oyzkBNMX0a1sUeWn/19hRATcaNGLy9EMMLO3snb/qLR5liZlEje5H66rbobmE5kspxOFw9fnAouTopaJ5bAsIqYieRTWOHcOhnmqWjSfysq4aNAiQzfdsav8OzmnLnz7bfLxjqrWVjn+UKh7cg7I7QefKI8Lm60JYeWmkqsXLE3yMiJY4Kfc5wqZ689uB0acMwG+x6xpMFLEmd6ab56Sudy4lqOm/xPYmj8lTeViMR9ZCKg=='
+[0]     },
+[0]     [Symbol(kCapture)]: false,
+[0]     [Symbol(kNeedDrain)]: false,
+[0]     [Symbol(corked)]: 0,
+[0]     [Symbol(kOutHeaders)]: [Object: null prototype] { 'x-powered-by': [Array] }
+[0]   },
+[0]   _next: [Function: next],
+[0]   _headers: {
+[0]     json: true,
+[0]     authorization: 'Bearer PcCQY+LzAMYC/unRZNR27U5VeUeRUQGff+DQ4DvWzwTnl7W2Eg2MU7WNCF1R5eoZLJkXhldVzTVylyJVI+2DgIc9x4tDAmzFYXTNgYX4QndVJab6wjZxSDEld4u3cn8WjstNuOsy3wmWwadGAifJJYs9VvVQqfR9TECHivQo+G4fkpuRl2vvFMxXCjmnlKHbRXAUxh5zqr9qYHvkXem4qHkM0+NnY5EdU/eE31Wigd8i7lQY4S1f53JTvlfyqPdN9sXquOtGRvPyIGGs59WB/v3YysyAVgkjJ0yEXL4juUZPrd3gwqJtulTDLarowSK5SCEAYirVo3LUJE+zQ/bexgIsnUuDt1fkOrEwSm0NfxMvUeH0Zg7iToxCBrFhghpKK1um7xy0ro4Va0qZuuCOrlr20OOczYcNY1MBUDyC9vSga1si3wKXK1NCDCNM5OrBwNewmBsKZhZG8k/BE8KdVpvku3rpZxB5Ppd8wbm4ONIGiUyHP3DfoTd/hpFW+V2Xl5mAVcSJeq/2EJG3anFO3tWAE6Uj9HJsC9ZyvSJxwkwcpUY/xA+rt1/V5waRoXF94e8kRqNbRetHW9hGq0IagWZU+fW+GzdTXphvecLtUWjpzz54hsu4RZ3zcv0T0xRyfzFNWs1WtmBl4IVObNdy6Xq5gJ8skr2/rl4oyzkBNMX0a1sUeWn/19hRATcaNGLy9EMMLO3snb/qLR5liZlEje5H66rbobmE5kspxOFw9fnAouTopaJ5bAsIqYieRTWOHcOhnmqWjSfysq4aNAiQzfdsav8OzmnLnz7bfLxjqrWVjn+UKh7cg7I7QefKI8Lm60JYeWmkqsXLE3yMiJY4Kfc5wqZ689uB0acMwG+x6xpMFLEmd6ab56Sudy4lqOm/xPYmj8lTeViMR9ZCKg=='
+[0]   },
+[0]   _method: 'POST',
+[0]   _data: {
+[0]     usuario_creacion: 'weddingweb',
+[0]     divisa: 'USD',
+[0]     idevent_grupo: 0,
+[0]     idfin_cliente_interno: '1',
+[0]     tipo_cambio: '0',
+[0]     pago_online: {
+[0]       name: 'Nombre Persona',
+[0]       lastName: 'Apellido Persona',
+[0]       address: 'Testing Address',
+[0]       city: 'ciudad 2',
+[0]       country: 'ABW',
+[0]       zipcode: '16513',
+[0]       idevent_billing_address: '',
+[0]       cardNumber: '411111111111111',
+[0]       mmExp: '08',
+[0]       yyExp: '22',
+[0]       cvc: '2312',
+[0]       card: 'visa',
+[0]       monto: '100',
+[0]       payment: 100,
+[0]       currency: 'USD',
+[0]       exchange: '1'
+[0]     }
+[0]   },
+[0]   _url: 'http://dev.clever-api-events.local/grupopago/payment'
+[0] }
+[0] (node:17034) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'locals' of undefined
+[0]     at MailErrorNotification.get localParams [as localParams] (/var/www/html/NODE/clv-service-web/src/server/app/index.js:102:24)
+[0]     at MailErrorNotification.get tokenMiddleware [as tokenMiddleware] (/var/www/html/NODE/clv-service-web/src/server/app/index.js:254:22)
+[0]     at MailErrorNotification.setAuthorization (/var/www/html/NODE/clv-service-web/src/server/app/index.js:363:52)
+[0]     at MailErrorNotification.sendNotification (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:26:14)
+[0]     at MailErrorNotification.send (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:92:14)
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/EventController.js:400:24
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:532:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[0] (node:17034) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[0] (node:17034) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] EventController {
+[0]   _req: IncomingMessage {
+[0]     _readableState: ReadableState {
+[0]       objectMode: false,
+[0]       highWaterMark: 16384,
+[0]       buffer: BufferList { head: null, tail: null, length: 0 },
+[0]       length: 0,
+[0]       pipes: null,
+[0]       pipesCount: 0,
+[0]       flowing: true,
+[0]       ended: true,
+[0]       endEmitted: true,
+[0]       reading: false,
+[0]       sync: false,
+[0]       needReadable: false,
+[0]       emittedReadable: false,
+[0]       readableListening: false,
+[0]       resumeScheduled: false,
+[0]       emitClose: true,
+[0]       autoDestroy: false,
+[0]       destroyed: false,
+[0]       defaultEncoding: 'utf8',
+[0]       awaitDrainWriters: null,
+[0]       multiAwaitDrain: false,
+[0]       readingMore: false,
+[0]       decoder: null,
+[0]       encoding: null,
+[0]       [Symbol(kPaused)]: false
+[0]     },
+[0]     readable: false,
+[0]     _events: [Object: null prototype] {},
+[0]     _eventsCount: 0,
+[0]     _maxListeners: undefined,
+[0]     socket: Socket {
+[0]       connecting: false,
+[0]       _hadError: false,
+[0]       _parent: null,
+[0]       _host: null,
+[0]       _readableState: [ReadableState],
+[0]       readable: true,
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 8,
+[0]       _maxListeners: undefined,
+[0]       _writableState: [WritableState],
+[0]       writable: true,
+[0]       allowHalfOpen: true,
+[0]       _sockname: null,
+[0]       _pendingData: null,
+[0]       _pendingEncoding: '',
+[0]       server: [Server],
+[0]       _server: [Server],
+[0]       timeout: 120000,
+[0]       parser: [HTTPParser],
+[0]       on: [Function: socketListenerWrap],
+[0]       addListener: [Function: socketListenerWrap],
+[0]       prependListener: [Function: socketListenerWrap],
+[0]       _paused: false,
+[0]       _httpMessage: [ServerResponse],
+[0]       [Symbol(asyncId)]: 8,
+[0]       [Symbol(kHandle)]: [TCP],
+[0]       [Symbol(kSetNoDelay)]: false,
+[0]       [Symbol(lastWriteQueueSize)]: 0,
+[0]       [Symbol(timeout)]: Timeout {
+[0]         _idleTimeout: 120000,
+[0]         _idlePrev: [TimersList],
+[0]         _idleNext: [TimersList],
+[0]         _idleStart: 3685,
+[0]         _onTimeout: [Function: bound ],
+[0]         _timerArgs: undefined,
+[0]         _repeat: null,
+[0]         _destroyed: false,
+[0]         [Symbol(refed)]: false,
+[0]         [Symbol(kHasPrimitive)]: false,
+[0]         [Symbol(asyncId)]: 9,
+[0]         [Symbol(triggerId)]: 8
+[0]       },
+[0]       [Symbol(kBuffer)]: null,
+[0]       [Symbol(kBufferCb)]: null,
+[0]       [Symbol(kBufferGen)]: null,
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kBytesRead)]: 0,
+[0]       [Symbol(kBytesWritten)]: 0
+[0]     },
+[0]     connection: Socket {
+[0]       connecting: false,
+[0]       _hadError: false,
+[0]       _parent: null,
+[0]       _host: null,
+[0]       _readableState: [ReadableState],
+[0]       readable: true,
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 8,
+[0]       _maxListeners: undefined,
+[0]       _writableState: [WritableState],
+[0]       writable: true,
+[0]       allowHalfOpen: true,
+[0]       _sockname: null,
+[0]       _pendingData: null,
+[0]       _pendingEncoding: '',
+[0]       server: [Server],
+[0]       _server: [Server],
+[0]       timeout: 120000,
+[0]       parser: [HTTPParser],
+[0]       on: [Function: socketListenerWrap],
+[0]       addListener: [Function: socketListenerWrap],
+[0]       prependListener: [Function: socketListenerWrap],
+[0]       _paused: false,
+[0]       _httpMessage: [ServerResponse],
+[0]       [Symbol(asyncId)]: 8,
+[0]       [Symbol(kHandle)]: [TCP],
+[0]       [Symbol(kSetNoDelay)]: false,
+[0]       [Symbol(lastWriteQueueSize)]: 0,
+[0]       [Symbol(timeout)]: Timeout {
+[0]         _idleTimeout: 120000,
+[0]         _idlePrev: [TimersList],
+[0]         _idleNext: [TimersList],
+[0]         _idleStart: 3685,
+[0]         _onTimeout: [Function: bound ],
+[0]         _timerArgs: undefined,
+[0]         _repeat: null,
+[0]         _destroyed: false,
+[0]         [Symbol(refed)]: false,
+[0]         [Symbol(kHasPrimitive)]: false,
+[0]         [Symbol(asyncId)]: 9,
+[0]         [Symbol(triggerId)]: 8
+[0]       },
+[0]       [Symbol(kBuffer)]: null,
+[0]       [Symbol(kBufferCb)]: null,
+[0]       [Symbol(kBufferGen)]: null,
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kBytesRead)]: 0,
+[0]       [Symbol(kBytesWritten)]: 0
+[0]     },
+[0]     httpVersionMajor: 1,
+[0]     httpVersionMinor: 1,
+[0]     httpVersion: '1.1',
+[0]     complete: true,
+[0]     headers: {
+[0]       cookie: '_gcl_au=1.1.2146252637.1607113535; _ga=GA1.2.1434906631.1607113535; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _hjTLDTest=1; _hjid=87afbd65-a922-4313-9fd3-82d3f1f102c9',
+[0]       'accept-language': 'en,es-419;q=0.9,es;q=0.8',
+[0]       'accept-encoding': 'gzip, deflate',
+[0]       referer: 'http://dev.weddings-web.palaceresorts.local/postlogin/my-gift',
+[0]       origin: 'http://dev.weddings-web.palaceresorts.local',
+[0]       'content-type': 'application/json',
+[0]       'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 OPR/73.0.3856.257',
+[0]       accept: '*',
+[0]       'cache-control': 'no-cache',
+[0]       pragma: 'no-cache',
+[0]       'content-length': '403',
+[0]       connection: 'close',
+[0]       host: '127.0.0.1:9000'
+[0]     },
+[0]     rawHeaders: [
+[0]       'cookie',
+[0]       '_gcl_au=1.1.2146252637.1607113535; _ga=GA1.2.1434906631.1607113535; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _hjTLDTest=1; _hjid=87afbd65-a922-4313-9fd3-82d3f1f102c9',
+[0]       'accept-language',
+[0]       'en,es-419;q=0.9,es;q=0.8',
+[0]       'accept-encoding',
+[0]       'gzip, deflate',
+[0]       'referer',
+[0]       'http://dev.weddings-web.palaceresorts.local/postlogin/my-gift',
+[0]       'origin',
+[0]       'http://dev.weddings-web.palaceresorts.local',
+[0]       'content-type',
+[0]       'application/json',
+[0]       'user-agent',
+[0]       'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 OPR/73.0.3856.257',
+[0]       'accept',
+[0]       '*',
+[0]       'cache-control',
+[0]       'no-cache',
+[0]       'pragma',
+[0]       'no-cache',
+[0]       'content-length',
+[0]       '403',
+[0]       'connection',
+[0]       'close',
+[0]       'host',
+[0]       '127.0.0.1:9000'
+[0]     ],
+[0]     trailers: {},
+[0]     rawTrailers: [],
+[0]     aborted: false,
+[0]     upgrade: false,
+[0]     url: '/balance/add',
+[0]     method: 'POST',
+[0]     statusCode: null,
+[0]     statusMessage: null,
+[0]     client: Socket {
+[0]       connecting: false,
+[0]       _hadError: false,
+[0]       _parent: null,
+[0]       _host: null,
+[0]       _readableState: [ReadableState],
+[0]       readable: true,
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 8,
+[0]       _maxListeners: undefined,
+[0]       _writableState: [WritableState],
+[0]       writable: true,
+[0]       allowHalfOpen: true,
+[0]       _sockname: null,
+[0]       _pendingData: null,
+[0]       _pendingEncoding: '',
+[0]       server: [Server],
+[0]       _server: [Server],
+[0]       timeout: 120000,
+[0]       parser: [HTTPParser],
+[0]       on: [Function: socketListenerWrap],
+[0]       addListener: [Function: socketListenerWrap],
+[0]       prependListener: [Function: socketListenerWrap],
+[0]       _paused: false,
+[0]       _httpMessage: [ServerResponse],
+[0]       [Symbol(asyncId)]: 8,
+[0]       [Symbol(kHandle)]: [TCP],
+[0]       [Symbol(kSetNoDelay)]: false,
+[0]       [Symbol(lastWriteQueueSize)]: 0,
+[0]       [Symbol(timeout)]: Timeout {
+[0]         _idleTimeout: 120000,
+[0]         _idlePrev: [TimersList],
+[0]         _idleNext: [TimersList],
+[0]         _idleStart: 3685,
+[0]         _onTimeout: [Function: bound ],
+[0]         _timerArgs: undefined,
+[0]         _repeat: null,
+[0]         _destroyed: false,
+[0]         [Symbol(refed)]: false,
+[0]         [Symbol(kHasPrimitive)]: false,
+[0]         [Symbol(asyncId)]: 9,
+[0]         [Symbol(triggerId)]: 8
+[0]       },
+[0]       [Symbol(kBuffer)]: null,
+[0]       [Symbol(kBufferCb)]: null,
+[0]       [Symbol(kBufferGen)]: null,
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kBytesRead)]: 0,
+[0]       [Symbol(kBytesWritten)]: 0
+[0]     },
+[0]     _consuming: true,
+[0]     _dumped: false,
+[0]     next: [Function: next],
+[0]     baseUrl: '/postlogin/api/events',
+[0]     originalUrl: '/postlogin/api/events/balance/add',
+[0]     _parsedUrl: Url {
+[0]       protocol: null,
+[0]       slashes: null,
+[0]       auth: null,
+[0]       host: null,
+[0]       port: null,
+[0]       hostname: null,
+[0]       hash: null,
+[0]       search: null,
+[0]       query: null,
+[0]       pathname: '/balance/add',
+[0]       path: '/balance/add',
+[0]       href: '/balance/add',
+[0]       _raw: '/balance/add'
+[0]     },
+[0]     params: {},
+[0]     query: {},
+[0]     res: ServerResponse {
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 1,
+[0]       _maxListeners: undefined,
+[0]       outputData: [],
+[0]       outputSize: 0,
+[0]       writable: true,
+[0]       _last: false,
+[0]       chunkedEncoding: false,
+[0]       shouldKeepAlive: false,
+[0]       _defaultKeepAlive: true,
+[0]       useChunkedEncodingByDefault: true,
+[0]       sendDate: true,
+[0]       _removedConnection: false,
+[0]       _removedContLen: false,
+[0]       _removedTE: false,
+[0]       _contentLength: null,
+[0]       _hasBody: true,
+[0]       _trailer: '',
+[0]       finished: false,
+[0]       _headerSent: false,
+[0]       socket: [Socket],
+[0]       connection: [Socket],
+[0]       _header: null,
+[0]       _keepAliveTimeout: 5000,
+[0]       _onPendingData: [Function: bound updateOutgoingData],
+[0]       _sent100: false,
+[0]       _expect_continue: false,
+[0]       req: [Circular],
+[0]       locals: [Object: null prototype],
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kNeedDrain)]: false,
+[0]       [Symbol(corked)]: 0,
+[0]       [Symbol(kOutHeaders)]: [Object: null prototype]
+[0]     },
+[0]     body: {
+[0]       divisa: 'USD',
+[0]       idevent_grupo: 0,
+[0]       idfin_cliente_interno: '1',
+[0]       tipo_cambio: '0',
+[0]       pago_online: [Object]
+[0]     },
+[0]     _body: true,
+[0]     length: undefined,
+[0]     route: Route { path: '/balance/add', stack: [Array], methods: [Object] },
+[0]     [Symbol(kCapture)]: false
+[0]   },
+[0]   _res: ServerResponse {
+[0]     _events: [Object: null prototype] { finish: [Function: bound resOnFinish] },
+[0]     _eventsCount: 1,
+[0]     _maxListeners: undefined,
+[0]     outputData: [],
+[0]     outputSize: 0,
+[0]     writable: true,
+[0]     _last: false,
+[0]     chunkedEncoding: false,
+[0]     shouldKeepAlive: false,
+[0]     _defaultKeepAlive: true,
+[0]     useChunkedEncodingByDefault: true,
+[0]     sendDate: true,
+[0]     _removedConnection: false,
+[0]     _removedContLen: false,
+[0]     _removedTE: false,
+[0]     _contentLength: null,
+[0]     _hasBody: true,
+[0]     _trailer: '',
+[0]     finished: false,
+[0]     _headerSent: false,
+[0]     socket: Socket {
+[0]       connecting: false,
+[0]       _hadError: false,
+[0]       _parent: null,
+[0]       _host: null,
+[0]       _readableState: [ReadableState],
+[0]       readable: true,
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 8,
+[0]       _maxListeners: undefined,
+[0]       _writableState: [WritableState],
+[0]       writable: true,
+[0]       allowHalfOpen: true,
+[0]       _sockname: null,
+[0]       _pendingData: null,
+[0]       _pendingEncoding: '',
+[0]       server: [Server],
+[0]       _server: [Server],
+[0]       timeout: 120000,
+[0]       parser: [HTTPParser],
+[0]       on: [Function: socketListenerWrap],
+[0]       addListener: [Function: socketListenerWrap],
+[0]       prependListener: [Function: socketListenerWrap],
+[0]       _paused: false,
+[0]       _httpMessage: [Circular],
+[0]       [Symbol(asyncId)]: 8,
+[0]       [Symbol(kHandle)]: [TCP],
+[0]       [Symbol(kSetNoDelay)]: false,
+[0]       [Symbol(lastWriteQueueSize)]: 0,
+[0]       [Symbol(timeout)]: Timeout {
+[0]         _idleTimeout: 120000,
+[0]         _idlePrev: [TimersList],
+[0]         _idleNext: [TimersList],
+[0]         _idleStart: 3685,
+[0]         _onTimeout: [Function: bound ],
+[0]         _timerArgs: undefined,
+[0]         _repeat: null,
+[0]         _destroyed: false,
+[0]         [Symbol(refed)]: false,
+[0]         [Symbol(kHasPrimitive)]: false,
+[0]         [Symbol(asyncId)]: 9,
+[0]         [Symbol(triggerId)]: 8
+[0]       },
+[0]       [Symbol(kBuffer)]: null,
+[0]       [Symbol(kBufferCb)]: null,
+[0]       [Symbol(kBufferGen)]: null,
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kBytesRead)]: 0,
+[0]       [Symbol(kBytesWritten)]: 0
+[0]     },
+[0]     connection: Socket {
+[0]       connecting: false,
+[0]       _hadError: false,
+[0]       _parent: null,
+[0]       _host: null,
+[0]       _readableState: [ReadableState],
+[0]       readable: true,
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 8,
+[0]       _maxListeners: undefined,
+[0]       _writableState: [WritableState],
+[0]       writable: true,
+[0]       allowHalfOpen: true,
+[0]       _sockname: null,
+[0]       _pendingData: null,
+[0]       _pendingEncoding: '',
+[0]       server: [Server],
+[0]       _server: [Server],
+[0]       timeout: 120000,
+[0]       parser: [HTTPParser],
+[0]       on: [Function: socketListenerWrap],
+[0]       addListener: [Function: socketListenerWrap],
+[0]       prependListener: [Function: socketListenerWrap],
+[0]       _paused: false,
+[0]       _httpMessage: [Circular],
+[0]       [Symbol(asyncId)]: 8,
+[0]       [Symbol(kHandle)]: [TCP],
+[0]       [Symbol(kSetNoDelay)]: false,
+[0]       [Symbol(lastWriteQueueSize)]: 0,
+[0]       [Symbol(timeout)]: Timeout {
+[0]         _idleTimeout: 120000,
+[0]         _idlePrev: [TimersList],
+[0]         _idleNext: [TimersList],
+[0]         _idleStart: 3685,
+[0]         _onTimeout: [Function: bound ],
+[0]         _timerArgs: undefined,
+[0]         _repeat: null,
+[0]         _destroyed: false,
+[0]         [Symbol(refed)]: false,
+[0]         [Symbol(kHasPrimitive)]: false,
+[0]         [Symbol(asyncId)]: 9,
+[0]         [Symbol(triggerId)]: 8
+[0]       },
+[0]       [Symbol(kBuffer)]: null,
+[0]       [Symbol(kBufferCb)]: null,
+[0]       [Symbol(kBufferGen)]: null,
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kBytesRead)]: 0,
+[0]       [Symbol(kBytesWritten)]: 0
+[0]     },
+[0]     _header: null,
+[0]     _keepAliveTimeout: 5000,
+[0]     _onPendingData: [Function: bound updateOutgoingData],
+[0]     _sent100: false,
+[0]     _expect_continue: false,
+[0]     req: IncomingMessage {
+[0]       _readableState: [ReadableState],
+[0]       readable: false,
+[0]       _events: [Object: null prototype] {},
+[0]       _eventsCount: 0,
+[0]       _maxListeners: undefined,
+[0]       socket: [Socket],
+[0]       connection: [Socket],
+[0]       httpVersionMajor: 1,
+[0]       httpVersionMinor: 1,
+[0]       httpVersion: '1.1',
+[0]       complete: true,
+[0]       headers: [Object],
+[0]       rawHeaders: [Array],
+[0]       trailers: {},
+[0]       rawTrailers: [],
+[0]       aborted: false,
+[0]       upgrade: false,
+[0]       url: '/balance/add',
+[0]       method: 'POST',
+[0]       statusCode: null,
+[0]       statusMessage: null,
+[0]       client: [Socket],
+[0]       _consuming: true,
+[0]       _dumped: false,
+[0]       next: [Function: next],
+[0]       baseUrl: '/postlogin/api/events',
+[0]       originalUrl: '/postlogin/api/events/balance/add',
+[0]       _parsedUrl: [Url],
+[0]       params: {},
+[0]       query: {},
+[0]       res: [Circular],
+[0]       body: [Object],
+[0]       _body: true,
+[0]       length: undefined,
+[0]       route: [Route],
+[0]       [Symbol(kCapture)]: false
+[0]     },
+[0]     locals: [Object: null prototype] {
+[0]       authorization: 'PcCQY+LzAMYC/unRZNR27U5VeUeRUQGff+DQ4DvWzwTnl7W2Eg2MU7WNCF1R5eoZLJkXhldVzTVylyJVI+2DgIc9x4tDAmzFYXTNgYX4QndVJab6wjZxSDEld4u3cn8WjstNuOsy3wmWwadGAifJJYs9VvVQqfR9TECHivQo+G4fkpuRl2vvFMxXCjmnlKHbRXAUxh5zqr9qYHvkXem4qHkM0+NnY5EdU/eE31Wigd8i7lQY4S1f53JTvlfyqPdN9sXquOtGRvPyIGGs59WB/v3YysyAVgkjJ0yEXL4juUZPrd3gwqJtulTDLarowSK5SCEAYirVo3LUJE+zQ/bexgIsnUuDt1fkOrEwSm0NfxMvUeH0Zg7iToxCBrFhghpKK1um7xy0ro4Va0qZuuCOrlr20OOczYcNY1MBUDyC9vSga1si3wKXK1NCDCNM5OrBwNewmBsKZhZG8k/BE8KdVpvku3rpZxB5Ppd8wbm4ONIGiUyHP3DfoTd/hpFW+V2Xl5mAVcSJeq/2EJG3anFO3tWAE6Uj9HJsC9ZyvSJxwkwcpUY/xA+rt1/V5waRoXF94e8kRqNbRetHW9hGq0IagWZU+fW+GzdTXphvecLtUWjpzz54hsu4RZ3zcv0T0xRyfzFNWs1WtmBl4IVObNdy6Xq5gJ8skr2/rl4oyzkBNMX0a1sUeWn/19hRATcaNGLy9EMMLO3snb/qLR5liZlEje5H66rbobmE5kspxOFw9fnAouTopaJ5bAsIqYieRTWOHcOhnmqWjSfysq4aNAiQzfdsav8OzmnLnz7bfLxjqrWVjn+UKh7cg7I7QefKI8Lm60JYeWmkqsXLE3yMiJY4Kfc5wqZ689uB0acMwG+x6xpMFLEmd6ab56Sudy4lqOm/xPYmj8lTeViMR9ZCKg=='
+[0]     },
+[0]     [Symbol(kCapture)]: false,
+[0]     [Symbol(kNeedDrain)]: false,
+[0]     [Symbol(corked)]: 0,
+[0]     [Symbol(kOutHeaders)]: [Object: null prototype] { 'x-powered-by': [Array] }
+[0]   },
+[0]   _next: [Function: next],
+[0]   _headers: {
+[0]     json: true,
+[0]     authorization: 'Bearer PcCQY+LzAMYC/unRZNR27U5VeUeRUQGff+DQ4DvWzwTnl7W2Eg2MU7WNCF1R5eoZLJkXhldVzTVylyJVI+2DgIc9x4tDAmzFYXTNgYX4QndVJab6wjZxSDEld4u3cn8WjstNuOsy3wmWwadGAifJJYs9VvVQqfR9TECHivQo+G4fkpuRl2vvFMxXCjmnlKHbRXAUxh5zqr9qYHvkXem4qHkM0+NnY5EdU/eE31Wigd8i7lQY4S1f53JTvlfyqPdN9sXquOtGRvPyIGGs59WB/v3YysyAVgkjJ0yEXL4juUZPrd3gwqJtulTDLarowSK5SCEAYirVo3LUJE+zQ/bexgIsnUuDt1fkOrEwSm0NfxMvUeH0Zg7iToxCBrFhghpKK1um7xy0ro4Va0qZuuCOrlr20OOczYcNY1MBUDyC9vSga1si3wKXK1NCDCNM5OrBwNewmBsKZhZG8k/BE8KdVpvku3rpZxB5Ppd8wbm4ONIGiUyHP3DfoTd/hpFW+V2Xl5mAVcSJeq/2EJG3anFO3tWAE6Uj9HJsC9ZyvSJxwkwcpUY/xA+rt1/V5waRoXF94e8kRqNbRetHW9hGq0IagWZU+fW+GzdTXphvecLtUWjpzz54hsu4RZ3zcv0T0xRyfzFNWs1WtmBl4IVObNdy6Xq5gJ8skr2/rl4oyzkBNMX0a1sUeWn/19hRATcaNGLy9EMMLO3snb/qLR5liZlEje5H66rbobmE5kspxOFw9fnAouTopaJ5bAsIqYieRTWOHcOhnmqWjSfysq4aNAiQzfdsav8OzmnLnz7bfLxjqrWVjn+UKh7cg7I7QefKI8Lm60JYeWmkqsXLE3yMiJY4Kfc5wqZ689uB0acMwG+x6xpMFLEmd6ab56Sudy4lqOm/xPYmj8lTeViMR9ZCKg=='
+[0]   },
+[0]   _method: 'POST',
+[0]   _data: {
+[0]     usuario_creacion: 'weddingweb',
+[0]     divisa: 'USD',
+[0]     idevent_grupo: 0,
+[0]     idfin_cliente_interno: '1',
+[0]     tipo_cambio: '0',
+[0]     pago_online: {
+[0]       name: 'Nombre Persona',
+[0]       lastName: 'Apellido Persona',
+[0]       address: 'Testing Address',
+[0]       city: 'ciudad 2',
+[0]       country: 'ABW',
+[0]       zipcode: '16513',
+[0]       idevent_billing_address: '',
+[0]       cardNumber: '411111111111111',
+[0]       mmExp: '08',
+[0]       yyExp: '22',
+[0]       cvc: '2312',
+[0]       card: 'visa',
+[0]       monto: '100',
+[0]       payment: 100,
+[0]       currency: 'USD',
+[0]       exchange: '1'
+[0]     }
+[0]   },
+[0]   _url: 'http://dev.clever-api-events.local/grupopago/payment'
+[0] }[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] EventController {
+[0]   _req: IncomingMessage {
+[0]     _readableState: ReadableState {
+[0]       objectMode: false,
+[0]       highWaterMark: 16384,
+[0]       buffer: BufferList { head: null, tail: null, length: 0 },
+[0]       length: 0,
+[0]       pipes: null,
+[0]       pipesCount: 0,
+[0]       flowing: true,
+[0]       ended: true,
+[0]       endEmitted: true,
+[0]       reading: false,
+[0]       sync: false,
+[0]       needReadable: false,
+[0]       emittedReadable: false,
+[0]       readableListening: false,
+[0]       resumeScheduled: false,
+[0]       emitClose: true,
+[0]       autoDestroy: false,
+[0]       destroyed: false,
+[0]       defaultEncoding: 'utf8',
+[0]       awaitDrainWriters: null,
+[0]       multiAwaitDrain: false,
+[0]       readingMore: false,
+[0]       decoder: null,
+[0]       encoding: null,
+[0]       [Symbol(kPaused)]: false
+[0]     },
+[0]     readable: false,
+[0]     _events: [Object: null prototype] {},
+[0]     _eventsCount: 0,
+[0]     _maxListeners: undefined,
+[0]     socket: Socket {
+[0]       connecting: false,
+[0]       _hadError: false,
+[0]       _parent: null,
+[0]       _host: null,
+[0]       _readableState: [ReadableState],
+[0]       readable: true,
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 8,
+[0]       _maxListeners: undefined,
+[0]       _writableState: [WritableState],
+[0]       writable: true,
+[0]       allowHalfOpen: true,
+[0]       _sockname: null,
+[0]       _pendingData: null,
+[0]       _pendingEncoding: '',
+[0]       server: [Server],
+[0]       _server: [Server],
+[0]       timeout: 120000,
+[0]       parser: [HTTPParser],
+[0]       on: [Function: socketListenerWrap],
+[0]       addListener: [Function: socketListenerWrap],
+[0]       prependListener: [Function: socketListenerWrap],
+[0]       _paused: false,
+[0]       _httpMessage: [ServerResponse],
+[0]       [Symbol(asyncId)]: 8,
+[0]       [Symbol(kHandle)]: [TCP],
+[0]       [Symbol(kSetNoDelay)]: false,
+[0]       [Symbol(lastWriteQueueSize)]: 0,
+[0]       [Symbol(timeout)]: Timeout {
+[0]         _idleTimeout: 120000,
+[0]         _idlePrev: [TimersList],
+[0]         _idleNext: [TimersList],
+[0]         _idleStart: 11534,
+[0]         _onTimeout: [Function: bound ],
+[0]         _timerArgs: undefined,
+[0]         _repeat: null,
+[0]         _destroyed: false,
+[0]         [Symbol(refed)]: false,
+[0]         [Symbol(kHasPrimitive)]: false,
+[0]         [Symbol(asyncId)]: 9,
+[0]         [Symbol(triggerId)]: 8
+[0]       },
+[0]       [Symbol(kBuffer)]: null,
+[0]       [Symbol(kBufferCb)]: null,
+[0]       [Symbol(kBufferGen)]: null,
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kBytesRead)]: 0,
+[0]       [Symbol(kBytesWritten)]: 0
+[0]     },
+[0]     connection: Socket {
+[0]       connecting: false,
+[0]       _hadError: false,
+[0]       _parent: null,
+[0]       _host: null,
+[0]       _readableState: [ReadableState],
+[0]       readable: true,
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 8,
+[0]       _maxListeners: undefined,
+[0]       _writableState: [WritableState],
+[0]       writable: true,
+[0]       allowHalfOpen: true,
+[0]       _sockname: null,
+[0]       _pendingData: null,
+[0]       _pendingEncoding: '',
+[0]       server: [Server],
+[0]       _server: [Server],
+[0]       timeout: 120000,
+[0]       parser: [HTTPParser],
+[0]       on: [Function: socketListenerWrap],
+[0]       addListener: [Function: socketListenerWrap],
+[0]       prependListener: [Function: socketListenerWrap],
+[0]       _paused: false,
+[0]       _httpMessage: [ServerResponse],
+[0]       [Symbol(asyncId)]: 8,
+[0]       [Symbol(kHandle)]: [TCP],
+[0]       [Symbol(kSetNoDelay)]: false,
+[0]       [Symbol(lastWriteQueueSize)]: 0,
+[0]       [Symbol(timeout)]: Timeout {
+[0]         _idleTimeout: 120000,
+[0]         _idlePrev: [TimersList],
+[0]         _idleNext: [TimersList],
+[0]         _idleStart: 11534,
+[0]         _onTimeout: [Function: bound ],
+[0]         _timerArgs: undefined,
+[0]         _repeat: null,
+[0]         _destroyed: false,
+[0]         [Symbol(refed)]: false,
+[0]         [Symbol(kHasPrimitive)]: false,
+[0]         [Symbol(asyncId)]: 9,
+[0]         [Symbol(triggerId)]: 8
+[0]       },
+[0]       [Symbol(kBuffer)]: null,
+[0]       [Symbol(kBufferCb)]: null,
+[0]       [Symbol(kBufferGen)]: null,
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kBytesRead)]: 0,
+[0]       [Symbol(kBytesWritten)]: 0
+[0]     },
+[0]     httpVersionMajor: 1,
+[0]     httpVersionMinor: 1,
+[0]     httpVersion: '1.1',
+[0]     complete: true,
+[0]     headers: {
+[0]       cookie: '_gcl_au=1.1.2146252637.1607113535; _ga=GA1.2.1434906631.1607113535; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _hjTLDTest=1; _hjid=87afbd65-a922-4313-9fd3-82d3f1f102c9',
+[0]       'accept-language': 'en,es-419;q=0.9,es;q=0.8',
+[0]       'accept-encoding': 'gzip, deflate',
+[0]       referer: 'http://dev.weddings-web.palaceresorts.local/postlogin/my-gift',
+[0]       origin: 'http://dev.weddings-web.palaceresorts.local',
+[0]       'content-type': 'application/json',
+[0]       'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 OPR/73.0.3856.257',
+[0]       accept: '*',
+[0]       'cache-control': 'no-cache',
+[0]       pragma: 'no-cache',
+[0]       'content-length': '403',
+[0]       connection: 'close',
+[0]       host: '127.0.0.1:9000'
+[0]     },
+[0]     rawHeaders: [
+[0]       'cookie',
+[0]       '_gcl_au=1.1.2146252637.1607113535; _ga=GA1.2.1434906631.1607113535; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _tag_frontend_a82c2_vid=ecca3d8d6042d49627590711467db688d100cc31dd3c7e6bc2%3A1364; _hjTLDTest=1; _hjid=87afbd65-a922-4313-9fd3-82d3f1f102c9',
+[0]       'accept-language',
+[0]       'en,es-419;q=0.9,es;q=0.8',
+[0]       'accept-encoding',
+[0]       'gzip, deflate',
+[0]       'referer',
+[0]       'http://dev.weddings-web.palaceresorts.local/postlogin/my-gift',
+[0]       'origin',
+[0]       'http://dev.weddings-web.palaceresorts.local',
+[0]       'content-type',
+[0]       'application/json',
+[0]       'user-agent',
+[0]       'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 OPR/73.0.3856.257',
+[0]       'accept',
+[0]       '*',
+[0]       'cache-control',
+[0]       'no-cache',
+[0]       'pragma',
+[0]       'no-cache',
+[0]       'content-length',
+[0]       '403',
+[0]       'connection',
+[0]       'close',
+[0]       'host',
+[0]       '127.0.0.1:9000'
+[0]     ],
+[0]     trailers: {},
+[0]     rawTrailers: [],
+[0]     aborted: false,
+[0]     upgrade: false,
+[0]     url: '/balance/add',
+[0]     method: 'POST',
+[0]     statusCode: null,
+[0]     statusMessage: null,
+[0]     client: Socket {
+[0]       connecting: false,
+[0]       _hadError: false,
+[0]       _parent: null,
+[0]       _host: null,
+[0]       _readableState: [ReadableState],
+[0]       readable: true,
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 8,
+[0]       _maxListeners: undefined,
+[0]       _writableState: [WritableState],
+[0]       writable: true,
+[0]       allowHalfOpen: true,
+[0]       _sockname: null,
+[0]       _pendingData: null,
+[0]       _pendingEncoding: '',
+[0]       server: [Server],
+[0]       _server: [Server],
+[0]       timeout: 120000,
+[0]       parser: [HTTPParser],
+[0]       on: [Function: socketListenerWrap],
+[0]       addListener: [Function: socketListenerWrap],
+[0]       prependListener: [Function: socketListenerWrap],
+[0]       _paused: false,
+[0]       _httpMessage: [ServerResponse],
+[0]       [Symbol(asyncId)]: 8,
+[0]       [Symbol(kHandle)]: [TCP],
+[0]       [Symbol(kSetNoDelay)]: false,
+[0]       [Symbol(lastWriteQueueSize)]: 0,
+[0]       [Symbol(timeout)]: Timeout {
+[0]         _idleTimeout: 120000,
+[0]         _idlePrev: [TimersList],
+[0]         _idleNext: [TimersList],
+[0]         _idleStart: 11534,
+[0]         _onTimeout: [Function: bound ],
+[0]         _timerArgs: undefined,
+[0]         _repeat: null,
+[0]         _destroyed: false,
+[0]         [Symbol(refed)]: false,
+[0]         [Symbol(kHasPrimitive)]: false,
+[0]         [Symbol(asyncId)]: 9,
+[0]         [Symbol(triggerId)]: 8
+[0]       },
+[0]       [Symbol(kBuffer)]: null,
+[0]       [Symbol(kBufferCb)]: null,
+[0]       [Symbol(kBufferGen)]: null,
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kBytesRead)]: 0,
+[0]       [Symbol(kBytesWritten)]: 0
+[0]     },
+[0]     _consuming: true,
+[0]     _dumped: false,
+[0]     next: [Function: next],
+[0]     baseUrl: '/postlogin/api/events',
+[0]     originalUrl: '/postlogin/api/events/balance/add',
+[0]     _parsedUrl: Url {
+[0]       protocol: null,
+[0]       slashes: null,
+[0]       auth: null,
+[0]       host: null,
+[0]       port: null,
+[0]       hostname: null,
+[0]       hash: null,
+[0]       search: null,
+[0]       query: null,
+[0]       pathname: '/balance/add',
+[0]       path: '/balance/add',
+[0]       href: '/balance/add',
+[0]       _raw: '/balance/add'
+[0]     },
+[0]     params: {},
+[0]     query: {},
+[0]     res: ServerResponse {
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 1,
+[0]       _maxListeners: undefined,
+[0]       outputData: [],
+[0]       outputSize: 0,
+[0]       writable: true,
+[0]       _last: false,
+[0]       chunkedEncoding: false,
+[0]       shouldKeepAlive: false,
+[0]       _defaultKeepAlive: true,
+[0]       useChunkedEncodingByDefault: true,
+[0]       sendDate: true,
+[0]       _removedConnection: false,
+[0]       _removedContLen: false,
+[0]       _removedTE: false,
+[0]       _contentLength: null,
+[0]       _hasBody: true,
+[0]       _trailer: '',
+[0]       finished: false,
+[0]       _headerSent: false,
+[0]       socket: [Socket],
+[0]       connection: [Socket],
+[0]       _header: null,
+[0]       _keepAliveTimeout: 5000,
+[0]       _onPendingData: [Function: bound updateOutgoingData],
+[0]       _sent100: false,
+[0]       _expect_continue: false,
+[0]       req: [Circular],
+[0]       locals: [Object: null prototype],
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kNeedDrain)]: false,
+[0]       [Symbol(corked)]: 0,
+[0]       [Symbol(kOutHeaders)]: [Object: null prototype]
+[0]     },
+[0]     body: {
+[0]       divisa: 'USD',
+[0]       idevent_grupo: 0,
+[0]       idfin_cliente_interno: '1',
+[0]       tipo_cambio: '0',
+[0]       pago_online: [Object]
+[0]     },
+[0]     _body: true,
+[0]     length: undefined,
+[0]     route: Route { path: '/balance/add', stack: [Array], methods: [Object] },
+[0]     [Symbol(kCapture)]: false
+[0]   },
+[0]   _res: ServerResponse {
+[0]     _events: [Object: null prototype] { finish: [Function: bound resOnFinish] },
+[0]     _eventsCount: 1,
+[0]     _maxListeners: undefined,
+[0]     outputData: [],
+[0]     outputSize: 0,
+[0]     writable: true,
+[0]     _last: false,
+[0]     chunkedEncoding: false,
+[0]     shouldKeepAlive: false,
+[0]     _defaultKeepAlive: true,
+[0]     useChunkedEncodingByDefault: true,
+[0]     sendDate: true,
+[0]     _removedConnection: false,
+[0]     _removedContLen: false,
+[0]     _removedTE: false,
+[0]     _contentLength: null,
+[0]     _hasBody: true,
+[0]     _trailer: '',
+[0]     finished: false,
+[0]     _headerSent: false,
+[0]     socket: Socket {
+[0]       connecting: false,
+[0]       _hadError: false,
+[0]       _parent: null,
+[0]       _host: null,
+[0]       _readableState: [ReadableState],
+[0]       readable: true,
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 8,
+[0]       _maxListeners: undefined,
+[0]       _writableState: [WritableState],
+[0]       writable: true,
+[0]       allowHalfOpen: true,
+[0]       _sockname: null,
+[0]       _pendingData: null,
+[0]       _pendingEncoding: '',
+[0]       server: [Server],
+[0]       _server: [Server],
+[0]       timeout: 120000,
+[0]       parser: [HTTPParser],
+[0]       on: [Function: socketListenerWrap],
+[0]       addListener: [Function: socketListenerWrap],
+[0]       prependListener: [Function: socketListenerWrap],
+[0]       _paused: false,
+[0]       _httpMessage: [Circular],
+[0]       [Symbol(asyncId)]: 8,
+[0]       [Symbol(kHandle)]: [TCP],
+[0]       [Symbol(kSetNoDelay)]: false,
+[0]       [Symbol(lastWriteQueueSize)]: 0,
+[0]       [Symbol(timeout)]: Timeout {
+[0]         _idleTimeout: 120000,
+[0]         _idlePrev: [TimersList],
+[0]         _idleNext: [TimersList],
+[0]         _idleStart: 11534,
+[0]         _onTimeout: [Function: bound ],
+[0]         _timerArgs: undefined,
+[0]         _repeat: null,
+[0]         _destroyed: false,
+[0]         [Symbol(refed)]: false,
+[0]         [Symbol(kHasPrimitive)]: false,
+[0]         [Symbol(asyncId)]: 9,
+[0]         [Symbol(triggerId)]: 8
+[0]       },
+[0]       [Symbol(kBuffer)]: null,
+[0]       [Symbol(kBufferCb)]: null,
+[0]       [Symbol(kBufferGen)]: null,
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kBytesRead)]: 0,
+[0]       [Symbol(kBytesWritten)]: 0
+[0]     },
+[0]     connection: Socket {
+[0]       connecting: false,
+[0]       _hadError: false,
+[0]       _parent: null,
+[0]       _host: null,
+[0]       _readableState: [ReadableState],
+[0]       readable: true,
+[0]       _events: [Object: null prototype],
+[0]       _eventsCount: 8,
+[0]       _maxListeners: undefined,
+[0]       _writableState: [WritableState],
+[0]       writable: true,
+[0]       allowHalfOpen: true,
+[0]       _sockname: null,
+[0]       _pendingData: null,
+[0]       _pendingEncoding: '',
+[0]       server: [Server],
+[0]       _server: [Server],
+[0]       timeout: 120000,
+[0]       parser: [HTTPParser],
+[0]       on: [Function: socketListenerWrap],
+[0]       addListener: [Function: socketListenerWrap],
+[0]       prependListener: [Function: socketListenerWrap],
+[0]       _paused: false,
+[0]       _httpMessage: [Circular],
+[0]       [Symbol(asyncId)]: 8,
+[0]       [Symbol(kHandle)]: [TCP],
+[0]       [Symbol(kSetNoDelay)]: false,
+[0]       [Symbol(lastWriteQueueSize)]: 0,
+[0]       [Symbol(timeout)]: Timeout {
+[0]         _idleTimeout: 120000,
+[0]         _idlePrev: [TimersList],
+[0]         _idleNext: [TimersList],
+[0]         _idleStart: 11534,
+[0]         _onTimeout: [Function: bound ],
+[0]         _timerArgs: undefined,
+[0]         _repeat: null,
+[0]         _destroyed: false,
+[0]         [Symbol(refed)]: false,
+[0]         [Symbol(kHasPrimitive)]: false,
+[0]         [Symbol(asyncId)]: 9,
+[0]         [Symbol(triggerId)]: 8
+[0]       },
+[0]       [Symbol(kBuffer)]: null,
+[0]       [Symbol(kBufferCb)]: null,
+[0]       [Symbol(kBufferGen)]: null,
+[0]       [Symbol(kCapture)]: false,
+[0]       [Symbol(kBytesRead)]: 0,
+[0]       [Symbol(kBytesWritten)]: 0
+[0]     },
+[0]     _header: null,
+[0]     _keepAliveTimeout: 5000,
+[0]     _onPendingData: [Function: bound updateOutgoingData],
+[0]     _sent100: false,
+[0]     _expect_continue: false,
+[0]     req: IncomingMessage {
+[0]       _readableState: [ReadableState],
+[0]       readable: false,
+[0]       _events: [Object: null prototype] {},
+[0]       _eventsCount: 0,
+[0]       _maxListeners: undefined,
+[0]       socket: [Socket],
+[0]       connection: [Socket],
+[0]       httpVersionMajor: 1,
+[0]       httpVersionMinor: 1,
+[0]       httpVersion: '1.1',
+[0]       complete: true,
+[0]       headers: [Object],
+[0]       rawHeaders: [Array],
+[0]       trailers: {},
+[0]       rawTrailers: [],
+[0]       aborted: false,
+[0]       upgrade: false,
+[0]       url: '/balance/add',
+[0]       method: 'POST',
+[0]       statusCode: null,
+[0]       statusMessage: null,
+[0]       client: [Socket],
+[0]       _consuming: true,
+[0]       _dumped: false,
+[0]       next: [Function: next],
+[0]       baseUrl: '/postlogin/api/events',
+[0]       originalUrl: '/postlogin/api/events/balance/add',
+[0]       _parsedUrl: [Url],
+[0]       params: {},
+[0]       query: {},
+[0]       res: [Circular],
+[0]       body: [Object],
+[0]       _body: true,
+[0]       length: undefined,
+[0]       route: [Route],
+[0]       [Symbol(kCapture)]: false
+[0]     },
+[0]     locals: [Object: null prototype] {
+[0]       authorization: 'PcCQY+LzAMYC/unRZNR27U5VeUeRUQGff+DQ4DvWzwTnl7W2Eg2MU7WNCF1R5eoZLJkXhldVzTVylyJVI+2DgIc9x4tDAmzFYXTNgYX4QndVJab6wjZxSDEld4u3cn8WjstNuOsy3wmWwadGAifJJYs9VvVQqfR9TECHivQo+G4fkpuRl2vvFMxXCjmnlKHbRXAUxh5zqr9qYHvkXem4qHkM0+NnY5EdU/eE31Wigd8i7lQY4S1f53JTvlfyqPdN9sXquOtGRvPyIGGs59WB/v3YysyAVgkjJ0yEXL4juUZPrd3gwqJtulTDLarowSK5SCEAYirVo3LUJE+zQ/bexgIsnUuDt1fkOrEwSm0NfxMvUeH0Zg7iToxCBrFhghpKK1um7xy0ro4Va0qZuuCOrlr20OOczYcNY1MBUDyC9vSga1si3wKXK1NCDCNM5OrBwNewmBsKZhZG8k/BE8KdVpvku3rpZxB5Ppd8wbm4ONIGiUyHP3DfoTd/hpFW+V2Xl5mAVcSJeq/2EJG3anFO3tWAE6Uj9HJsC9ZyvSJxwkwcpUY/xA+rt1/V5waRoXF94e8kRqNbRetHW9hGq0IagWZU+fW+GzdTXphvecLtUWjpzz54hsu4RZ3zcv0T0xRyfzFNWs1WtmBl4IVObNdy6Xq5gJ8skr2/rl4oyzkBNMX0a1sUeWn/19hRATcaNGLy9EMMLO3snb/qLR5liZlEje5H66rbobmE5kspxOFw9fnAouTopaJ5bAsIqYieRTWOHcOhnmqWjSfysq4aNAiQzfdsav8OzmnLnz7bfLxjqrWVjn+UKh7cg7I7QefKI8Lm60JYeWmkqsXLE3yMiJY4Kfc5wqZ689uB0acMwG+x6xpMFLEmd6ab56Sudy4lqOm/xPYmj8lTeViMR9ZCKg=='
+[0]     },
+[0]     [Symbol(kCapture)]: false,
+[0]     [Symbol(kNeedDrain)]: false,
+[0]     [Symbol(corked)]: 0,
+[0]     [Symbol(kOutHeaders)]: [Object: null prototype] { 'x-powered-by': [Array] }
+[0]   },
+[0]   _next: [Function: next],
+[0]   _headers: {
+[0]     json: true,
+[0]     authorization: 'Bearer PcCQY+LzAMYC/unRZNR27U5VeUeRUQGff+DQ4DvWzwTnl7W2Eg2MU7WNCF1R5eoZLJkXhldVzTVylyJVI+2DgIc9x4tDAmzFYXTNgYX4QndVJab6wjZxSDEld4u3cn8WjstNuOsy3wmWwadGAifJJYs9VvVQqfR9TECHivQo+G4fkpuRl2vvFMxXCjmnlKHbRXAUxh5zqr9qYHvkXem4qHkM0+NnY5EdU/eE31Wigd8i7lQY4S1f53JTvlfyqPdN9sXquOtGRvPyIGGs59WB/v3YysyAVgkjJ0yEXL4juUZPrd3gwqJtulTDLarowSK5SCEAYirVo3LUJE+zQ/bexgIsnUuDt1fkOrEwSm0NfxMvUeH0Zg7iToxCBrFhghpKK1um7xy0ro4Va0qZuuCOrlr20OOczYcNY1MBUDyC9vSga1si3wKXK1NCDCNM5OrBwNewmBsKZhZG8k/BE8KdVpvku3rpZxB5Ppd8wbm4ONIGiUyHP3DfoTd/hpFW+V2Xl5mAVcSJeq/2EJG3anFO3tWAE6Uj9HJsC9ZyvSJxwkwcpUY/xA+rt1/V5waRoXF94e8kRqNbRetHW9hGq0IagWZU+fW+GzdTXphvecLtUWjpzz54hsu4RZ3zcv0T0xRyfzFNWs1WtmBl4IVObNdy6Xq5gJ8skr2/rl4oyzkBNMX0a1sUeWn/19hRATcaNGLy9EMMLO3snb/qLR5liZlEje5H66rbobmE5kspxOFw9fnAouTopaJ5bAsIqYieRTWOHcOhnmqWjSfysq4aNAiQzfdsav8OzmnLnz7bfLxjqrWVjn+UKh7cg7I7QefKI8Lm60JYeWmkqsXLE3yMiJY4Kfc5wqZ689uB0acMwG+x6xpMFLEmd6ab56Sudy4lqOm/xPYmj8lTeViMR9ZCKg=='
+[0]   },
+[0]   _method: 'POST',
+[0]   _data: {
+[0]     usuario_creacion: 'weddingweb',
+[0]     divisa: 'USD',
+[0]     idevent_grupo: 0,
+[0]     idfin_cliente_interno: '1',
+[0]     tipo_cambio: '0',
+[0]     pago_online: {
+[0]       name: 'Nombre Persona',
+[0]       lastName: 'Apellido Persona',
+[0]       address: 'Testing Address',
+[0]       city: 'ciudad 2',
+[0]       country: 'ABW',
+[0]       zipcode: '16513',
+[0]       idevent_billing_address: '',
+[0]       cardNumber: '411111111111111',
+[0]       mmExp: '08',
+[0]       yyExp: '22',
+[0]       cvc: '2312',
+[0]       card: 'visa',
+[0]       monto: '100',
+[0]       payment: 100,
+[0]       currency: 'USD',
+[0]       exchange: '1'
+[0]     }
+[0]   },
+[0]   _url: 'http://dev.clever-api-events.local/grupopago/payment'
+[0] }[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+^C[0] npm run server exited with code SIGINT
+[1] npm run client exited with code SIGINT
+
+
+  ༆ ixicale༆  ✘  ⎣10:01:16⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1☀ 1 ●3± ⚑ 
+npm run client                                                                             hostname: [ix]
+
+> services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+> webpack-dev-server --config config/webpack.config.js --env.mode=dev
+
+ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+ℹ ｢wds｣: webpack output is served from /
+ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+ℹ ｢wds｣: 404s will fallback to /index.html
+ℹ ｢wdm｣:    669 modules
+ℹ ｢wdm｣: Compiled successfully.
+[HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+^C
+
+  ༆ ixicale༆  ✘  ⎣10:50:43⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1☀ 1 ●3± ⚑ 
+npm run dev                                                                                hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.mode=dev
+[1] 
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] [0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): config/global.js src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[1] ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+[1] ℹ ｢wds｣: webpack output is served from /
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] ℹ ｢wdm｣:    669 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] (node:43246) UnhandledPromiseRejectionWarning: ReferenceError: idx is not defined
+[0]     at /var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:51:17
+[0]     at Array.map (<anonymous>)
+[0]     at MailErrorNotification.buildJSONFormat (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:47:18)
+[0]     at /var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:63:84
+[0]     at Array.map (<anonymous>)
+[0]     at MailErrorNotification.buildJSONFormat (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:59:18)
+[0]     at /var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:50:34
+[0]     at Array.map (<anonymous>)
+[0]     at MailErrorNotification.buildJSONFormat (/var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:47:18)
+[0]     at /var/www/html/NODE/clv-service-web/src/server/libraries/Notifications.js:63:84
+[0] (node:43246) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[0] (node:43246) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/events/balance/add from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+^C
+
+
+[0] npm run server exited with code SIGINT                                                                
+[1] npm run client exited with code SIGINT
+
+  ༆ ixicale༆  ✘  ⎣14:47:03⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1 ●3± 1✚ ⚑ 
+gis                                                                                        hostname: [ix]
+En la rama ixicale
+Tu rama está actualizada con 'origin/ixicale'.
+
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	modificado:     src/server/app/endpoints.js
+	modificado:     src/server/app/index.js
+	modificado:     src/server/controllers/EventController.js
+	nuevo archivo:  src/server/libraries/Notifications.js
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificado:     src/server/libraries/Notifications.js
+
+
+  ༆ ixicale༆   ⎣14:47:05⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1 ●3± 1✚ ⚑ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+M	src/server/app/endpoints.js
+M	src/server/app/index.js
+M	src/server/controllers/EventController.js
+Cambiado a rama 'pre.dev.2020.12.07.1'Tu rama está detrás de 'origin/pre.dev.2020.12.07.1' por 36 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣14:48:18⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↓36 1☀ 3 ● 
+gipl                                                                                       hostname: [ix]
+gActualizando 96333119..cd4f2ade
+Fast-forward
+ src/client/app/Helpers.js                                  |  18 +++++---
+ src/client/components/CustomTextField/index.js             |   4 ++
+ src/client/components/form/Form.js                         |   6 ++-
+ src/client/components/progressbar/HorizontalProgressbar.js |   3 +-
+ src/client/docs/img/experience-bg.jpg                      | Bin 48794 -> 24491 bytes
+ src/client/docs/styles/components/_amount-selector.scss    |  31 ++++++++++++-
+ src/client/docs/styles/components/_login.scss              |   6 +++
+ src/client/docs/styles/layouts/navbar.scss                 |   2 +-
+ src/client/docs/styles/pages/my-wedding/_my-wedding.scss   |  95 +++++++++++++++++++++++----------------
+ src/client/templates/PublicTemplate.js                     |   2 +-
+ src/client/templates/WeddingTemplate.js                    |  23 +++++-----
+ src/client/views/billingaddress/index.js                   |  44 ++++++++++--------
+ src/client/views/events/index.js                           |   7 ++-
+ src/client/views/forgotpassview/index.js                   |  27 ++++++-----
+ src/client/views/giftcard/amountSelector.js                |   4 +-
+ src/client/views/giftcard/index.js                         |   3 +-
+ src/client/views/home/Events.js                            |  12 +++--
+ src/client/views/home/GeneralInfo.js                       |   2 +-
+ src/client/views/home/StatusPayment.js                     |   4 +-
+ src/client/views/login/index.js                            |  49 ++++++++++++--------
+ src/client/views/roominglist/index.js                      |  22 ++++-----
+ src/client/views/weddingextras/DataSources.js              |  14 +++---
+ src/server/controllers/CommentController.js                |   2 +-
+ 23 files changed, 242 insertions(+), 138 deletions(-)
+
+  ༆ ixicale༆   ⎣14:48:23⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 1☀ 3 ● 
+gicx                                                                                       hostname: [ix]
+M	src/server/app/endpoints.js
+M	src/server/app/index.js
+M	src/server/controllers/EventController.js
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+  ༆ ixicale༆   ⎣14:48:25⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1☀ 3 ● 
+gis                                                                                        hostname: [ix]
+En la rama ixicale
+Tu rama está actualizada con 'origin/ixicale'.
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificado:     src/server/app/endpoints.js
+	modificado:     src/server/app/index.js
+	modificado:     src/server/controllers/EventController.js
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	src/server/libraries/Notifications.js
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+
+  ༆ ixicale༆   ⎣14:48:29⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1☀ 3 ● 
+gime pre.dev.2020.12.07.1                                                                  hostname: [ix]
+Actualizando 96333119..cd4f2ade
+Fast-forward
+ src/client/app/Helpers.js                                  |  18 +++++---
+ src/client/components/CustomTextField/index.js             |   4 ++
+ src/client/components/form/Form.js                         |   6 ++-
+ src/client/components/progressbar/HorizontalProgressbar.js |   3 +-
+ src/client/docs/img/experience-bg.jpg                      | Bin 48794 -> 24491 bytes
+ src/client/docs/styles/components/_amount-selector.scss    |  31 ++++++++++++-
+ src/client/docs/styles/components/_login.scss              |   6 +++
+ src/client/docs/styles/layouts/navbar.scss                 |   2 +-
+ src/client/docs/styles/pages/my-wedding/_my-wedding.scss   |  95 +++++++++++++++++++++++----------------
+ src/client/templates/PublicTemplate.js                     |   2 +-
+ src/client/templates/WeddingTemplate.js                    |  23 +++++-----
+ src/client/views/billingaddress/index.js                   |  44 ++++++++++--------
+ src/client/views/events/index.js                           |   7 ++-
+ src/client/views/forgotpassview/index.js                   |  27 ++++++-----
+ src/client/views/giftcard/amountSelector.js                |   4 +-
+ src/client/views/giftcard/index.js                         |   3 +-
+ src/client/views/home/Events.js                            |  12 +++--
+ src/client/views/home/GeneralInfo.js                       |   2 +-
+ src/client/views/home/StatusPayment.js                     |   4 +-
+ src/client/views/login/index.js                            |  49 ++++++++++++--------
+ src/client/views/roominglist/index.js                      |  22 ++++-----
+ src/client/views/weddingextras/DataSources.js              |  14 +++---
+ src/server/controllers/CommentController.js                |   2 +-
+ 23 files changed, 242 insertions(+), 138 deletions(-)
+  ༆ ixicale༆   ⎣14:48:36⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑36 1☀ 3 ● 
+gis                                                                                        hostname: [ix]
+En la rama ixicale
+Tu rama está adelantada a 'origin/ixicale' por 36 commits.
+  (usa "git push" para publicar tus commits locales)
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificado:     src/server/app/endpoints.js
+	modificado:     src/server/app/index.js
+	modificado:     src/server/controllers/EventController.js
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	src/server/libraries/Notifications.js
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+
+  ༆ ixicale༆   ⎣14:48:38⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ↑36 1☀ 3 ● 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-service-web.git
+   96333119..cd4f2ade  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣14:48:43⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1☀ 3 ● 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆   ⎣14:54:25⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale 1 ●3± 1✚ ⚑ 
+npm run dev                                                                                hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
+
+[0] 
+[0] > services-web@1.0.0 server /var/www/html/NODE/clv-service-web
+[0] > nodemon src/server/index.js --inline=false
+[0] 
+[1] 
+[1] > services-web@1.0.0 client /var/www/html/NODE/clv-service-web
+[1] > webpack-dev-server --config config/webpack.config.js --env.mode=dev
+[1] [0] [nodemon] 1.19.4
+[0] [nodemon] to restart at any time, enter `rs`
+[0] [nodemon] watching dir(s): config/global.js src/server/**/*
+[0] [nodemon] watching extensions: js,mjs,json
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[1] ℹ ｢wds｣: Project is running at http://0.0.0.0:9000/
+[1] ℹ ｢wds｣: webpack output is served from /
+[1] ℹ ｢wds｣: Content not from webpack is served from /var/www/html/NODE/clv-service-web
+[1] ℹ ｢wds｣: 404s will fallback to /index.html
+[1] ℹ ｢wdm｣:    669 modules
+[1] ℹ ｢wdm｣: Compiled successfully.
+[0] (node:59985) UnhandledPromiseRejectionWarning: ReferenceError: MailErrorNotification is not defined
+[0]     at /var/www/html/NODE/clv-service-web/src/server/controllers/PaymentController.js:135:32
+[0]     at /var/www/html/NODE/clv-service-web/src/server/app/index.js:532:12
+[0]     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[0] (node:59985) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+[0] (node:59985) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[1] [HPM] Error occurred while trying to proxy request /postlogin/api/payment from 127.0.0.1:9000 to http://localhost:8080 (ECONNRESET) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+[0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080![0] [nodemon] restarting due to changes...
+[0] [nodemon] starting `node src/server/index.js --inline=false`
+[0] 
+[0] -------------------------------------
+[0] \    / _  _| _|. _  _      _ |_ 
+[0]  \/\/ (/_(_|(_||| |(_|  VV(/_|_)
+[0]                     _|
+[0] -------------------------------------
+[0] 
+[0] Running mode: DEV
+[0] Listening on port 8080!
+^C[0] npm run server exited with code SIGINT
+[1] npm run client exited with code SIGINT
+
+
+  ༆ ixicale༆  ✘  ⎣15:11:43⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.07.1'.
+
+  ༆ ixicale༆   ⎣15:11:48⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gipl                                                                                       hostname: [ix]
+gimYa está actualizado.
+
+  ༆ ixicale༆   ⎣15:11:51⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣15:11:52⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gime pre.dev.2020.12.07.1                                                                  hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣15:11:54⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+gic pre.dev.2020.12.07.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2020.12.07.1'
+Tu rama está actualizada con 'origin/pre.dev.2020.12.07.1'.
+
+  ༆ ixicale༆   ⎣15:12:00⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ gimex                                                                                      hostname: [ix]
+Actualizando cd4f2ade..2455d1b7
+Fast-forward
+ src/server/app/endpoints.js                 |   8 ++++
+ src/server/app/index.js                     |   7 ++++
+ src/server/controllers/EventController.js   | 114 +++++++-----------------------------------------------
+ src/server/controllers/PaymentController.js |  35 ++++++++++++++---
+ src/server/libraries/Notifications.js       |  98 ++++++++++++++++++++++++++++++++++++++++++++++
+ 5 files changed, 158 insertions(+), 104 deletions(-)
+ create mode 100644 src/server/libraries/Notifications.js
+
+  ༆ ixicale༆   ⎣15:12:03⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↑4 ✔ 
+gis                                                                                        hostname: [ix]
+En la rama pre.dev.2020.12.07.1
+Tu rama está adelantada a 'origin/pre.dev.2020.12.07.1' por 4 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣15:12:04⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ↑4 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-service-web.git
+   cd4f2ade..2455d1b7  pre.dev.2020.12.07.1 -> pre.dev.2020.12.07.1
+
+  ༆ ixicale༆   ⎣15:12:08⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ pre.dev.2020.12.07.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣15:25:45⎤  🚦 /var/www/html/NODE/clv-service-web   origin ☊ ixicale ✔ 
+npm run dev                                                                                hostname: [ix]
+
+> services-web@1.0.0 dev /var/www/html/NODE/clv-service-web
+> concurrently "npm run server" "npm run client"
