@@ -1,0 +1,5618 @@
+{
+	"info": {
+		"name": "products.2020-12-22.postman-exports",
+		"schema": "/https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/local",
+			"item": [
+		{
+			"name": "/generator",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/generator/",
+							"host": ["{{products-dev}}/generator/"]
+						}
+					}
+				},
+				{
+					"name": "/code/{___tbl___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/generator/code/{tbl:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/generator/code/{tbl:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceservicio",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/",
+							"host": ["{{products-dev}}/serviceservicio/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbymultids/{___ids___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/elementbymultids/{ids:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceservicio/elementbymultids/{ids:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbycategory/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/elementbycategory/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/elementbycategory/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbycategory/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/elementbycategory/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/elementbycategory/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/post",
+							"host": ["{{products-dev}}/serviceservicio/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio_tipo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/put/0",
+							"host": ["{{products-dev}}/serviceservicio/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/prices/service/{___hotel___}/{___tipo___}/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/prices/service/{hotel:a-zA-Z0-9-w]+}/{tipo:0-9]+}/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/prices/service/{hotel:a-zA-Z0-9-w]+}/{tipo:0-9]+}/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getcollectionbyservice/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/getcollectionbyservice/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/getcollectionbyservice/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/collections/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/collections/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/collections/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/gettypecollection/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/gettypecollection/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/gettypecollection/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceservicio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/collectionproviderbyservice/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/collectionproviderbyservice/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/collectionproviderbyservice/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/collectionbyservice/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/collectionbyservice/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/collectionbyservice/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/collectionbyservice/{___id___}/{___version___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/collectionbyservice/{id:0-9]+}/{version:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/collectionbyservice/{id:0-9]+}/{version:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/searchitemcustom/{___limit___}/{___word___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/searchitemcustom/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}",
+							"host": ["{{products-dev}}/serviceservicio/searchitemcustom/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}"]
+						}
+					}
+				},
+				{
+					"name": "/searchitemcustomcategory/{___limit___}/{___word___}/{___idcategory___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/searchitemcustomcategory/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}/{idcategory:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/searchitemcustomcategory/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}/{idcategory:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/item/search/{___limit___}/{___word___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/item/search/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}",
+							"host": ["{{products-dev}}/serviceservicio/item/search/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}"]
+						}
+					}
+				},
+				{
+					"name": "/category/search/{___id___}/{___limit___}/{___word___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/category/search/{id:0-9]+}/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}",
+							"host": ["{{products-dev}}/serviceservicio/category/search/{id:0-9]+}/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}"]
+						}
+					}
+				},
+				{
+					"name": "/business/search/{___id___}/{___limit___}/{___word___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/business/search/{id:0-9]+}/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}",
+							"host": ["{{products-dev}}/serviceservicio/business/search/{id:0-9]+}/{limit:0-9]+}/{word:a-zA-Z0-9-s]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/search",
+							"host": ["{{products-dev}}/serviceservicio/search"]
+						}
+					}
+				},
+				{
+					"name": "/servicewithimage",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicewithimage",
+							"host": ["{{products-dev}}/serviceservicio/servicewithimage"]
+						}
+					}
+				},
+				{
+					"name": "/servicewithimagebyId/{___Idservicio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicewithimagebyId/{Idservicio:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/servicewithimagebyId/{Idservicio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicewithimagecustom",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicewithimagecustom",
+							"host": ["{{products-dev}}/serviceservicio/servicewithimagecustom"]
+						}
+					}
+				},
+				{
+					"name": "/servicewithimagebycategory/{___categoryid___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicewithimagebycategory/{categoryid:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/servicewithimagebycategory/{categoryid:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicewithimagebycategorycustom/{___categoryid___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicewithimagebycategorycustom/{categoryid:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/servicewithimagebycategorycustom/{categoryid:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/post",
+							"host": ["{{products-dev}}/serviceservicio/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio_tipo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/put/0",
+							"host": ["{{products-dev}}/serviceservicio/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/servicebycategoryandtag/{___category___}/{___idtag___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicebycategoryandtag/{category:0-9]+}/{idtag:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/servicebycategoryandtag/{category:0-9]+}/{idtag:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicesbystatus/{___estado___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/getservicesbystatus/{estado:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/getservicesbystatus/{estado:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicebyterm/{___termino___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicebyterm/{termino:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/servicebyterm/{termino:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicebypers/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicebypers/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceservicio/servicebypers/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/actives",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/actives",
+							"host": ["{{products-dev}}/serviceservicio/actives"]
+						}
+					}
+				},
+				{
+					"name": "/servicewithimagebyIdall/{___Idservicio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicewithimagebyIdall/{Idservicio:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/servicewithimagebyIdall/{Idservicio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "///servicebybusinessunitandtype/{___bussines___}/{___type___}/{___description___}//no agregado a lista de permisos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio///servicebybusinessunitandtype/{bussines:0-9]+}/{type:0-9]+}/{description:a-zA-Z0-9-s]+}//no agregado a lista de permisos",
+							"host": ["{{products-dev}}/serviceservicio///servicebybusinessunitandtype/{bussines:0-9]+}/{type:0-9]+}/{description:a-zA-Z0-9-s]+}//no agregado a lista de permisos"]
+						}
+					}
+				},
+				{
+					"name": "/getcollection//no agregado a lista de permisos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/getcollection//no agregado a lista de permisos",
+							"host": ["{{products-dev}}/serviceservicio/getcollection//no agregado a lista de permisos"]
+						}
+					}
+				},
+				{
+					"name": "/servicebyUnit/{___unit___}//no agregado a lista de permisos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicebyUnit/{unit:0-9]+}//no agregado a lista de permisos",
+							"host": ["{{products-dev}}/serviceservicio/servicebyUnit/{unit:0-9]+}//no agregado a lista de permisos"]
+						}
+					}
+				},
+				{
+					"name": "/getunitbyserv/{___byservice___}//no agregado a lista de permisos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/getunitbyserv/{byservice:0-9]+}//no agregado a lista de permisos",
+							"host": ["{{products-dev}}/serviceservicio/getunitbyserv/{byservice:0-9]+}//no agregado a lista de permisos"]
+						}
+					}
+				},
+				{
+					"name": "/servicebytypefordropdown/{___id___}//no agregado a lista de permisos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicebytypefordropdown/{id:0-9]+}//no agregado a lista de permisos",
+							"host": ["{{products-dev}}/serviceservicio/servicebytypefordropdown/{id:0-9]+}//no agregado a lista de permisos"]
+						}
+					}
+				},
+				{
+					"name": "/servicebytypeandcollect/{___validate___}/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicebytypeandcollect/{validate:0-9]+}/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/servicebytypeandcollect/{validate:0-9]+}/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicebytypeandcollect/{___validate___}/{___id___}/{___status___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicebytypeandcollect/{validate:0-9]+}/{id:0-9]+}/{status:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/servicebytypeandcollect/{validate:0-9]+}/{id:0-9]+}/{status:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicebytypeandcollect/{___validate___}/{___id___}/{___status___}/{___resort___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicebytypeandcollect/{validate:0-9]+}/{id:0-9]+}/{status:0-9]+}/{resort:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceservicio/servicebytypeandcollect/{validate:0-9]+}/{id:0-9]+}/{status:0-9]+}/{resort:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicesbyhotel/{___key___}/{___value___}/{___hotel___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/getservicesbyhotel/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}/{hotel:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceservicio/getservicesbyhotel/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}/{hotel:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicesbyhotelcliente/{___key___}/{___value___}/{___hotel___}/{___idCliente___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/getservicesbyhotelcliente/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}/{hotel:a-zA-Z-w]+}/{idCliente:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/getservicesbyhotelcliente/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}/{hotel:a-zA-Z-w]+}/{idCliente:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getbusinessbyservice/{___ids:azAZ09w/]___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/getbusinessbyservice/{ids:a-zA-Z0-9-w/]+}",
+							"host": ["{{products-dev}}/serviceservicio/getbusinessbyservice/{ids:a-zA-Z0-9-w/]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getDetailsService/{___idservicetermino___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/getDetailsService/{idservicetermino:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/getDetailsService/{idservicetermino:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getInfoService/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/getInfoService/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/getInfoService/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicecustomizablebyidbussines/{___bussinesID___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/getservicecustomizablebyidbussines/{bussinesID:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/getservicecustomizablebyidbussines/{bussinesID:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicebyidbussines/{___bussinesID___}/{___onlycustom___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/getservicebyidbussines/{bussinesID:0-9]+}/{onlycustom:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/getservicebyidbussines/{bussinesID:0-9]+}/{onlycustom:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicebyidbussines/{___bussinesID___}/{___onlycustom___}/{___servicestatus___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/getservicebyidbussines/{bussinesID:0-9]+}/{onlycustom:0-9]+}/{servicestatus:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/getservicebyidbussines/{bussinesID:0-9]+}/{onlycustom:0-9]+}/{servicestatus:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicebyidbussines/{___bussinesID___}/{___onlycustom___}/{___servicestatus___}/{___nocollection___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/getservicebyidbussines/{bussinesID:0-9]+}/{onlycustom:0-9]+}/{servicestatus:0-9]+}/{nocollection:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/getservicebyidbussines/{bussinesID:0-9]+}/{onlycustom:0-9]+}/{servicestatus:0-9]+}/{nocollection:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicebyUnitAndHotel/{___unit___}/{___hotel___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicebyUnitAndHotel/{unit:0-9]+}/{hotel:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceservicio/servicebyUnitAndHotel/{unit:0-9]+}/{hotel:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getCollections/{___service___}/{___propiedad___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/getCollections/{service:0-9]+}/{propiedad:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceservicio/getCollections/{service:0-9]+}/{propiedad:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getImageAndInfoService/{___servicio___}/{___idioma___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/getImageAndInfoService/{servicio:0-9]+}/{idioma:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/getImageAndInfoService/{servicio:0-9]+}/{idioma:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicesbyresort/{___servicetype___}/{___resort___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/getservicesbyresort/{servicetype:0-9]+}/{resort:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceservicio/getservicesbyresort/{servicetype:0-9]+}/{resort:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicebyservicetype/{___idservicetype___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicebyservicetype/{idservicetype:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/servicebyservicetype/{idservicetype:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicebyservicetype/{___idservicetype___}/{___estado___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicio/servicebyservicetype/{idservicetype:0-9]+}/{estado:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicio/servicebyservicetype/{idservicetype:0-9]+}/{estado:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceservicioasset",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioasset/",
+							"host": ["{{products-dev}}/serviceservicioasset/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyservice/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioasset/elementbyservice/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicioasset/elementbyservice/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioasset/search",
+							"host": ["{{products-dev}}/serviceservicioasset/search"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___} // Alan lo agregó",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioasset/elementbyid/{id:0-9]+} // Alan lo agregó",
+							"host": ["{{products-dev}}/serviceservicioasset/elementbyid/{id:0-9]+} // Alan lo agregó"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioasset/post",
+							"host": ["{{products-dev}}/serviceservicioasset/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idcliente\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"path\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"thumb\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"imagen_extra\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioasset/put/0",
+							"host": ["{{products-dev}}/serviceservicioasset/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyservice/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioasset/elementbyservice/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicioasset/elementbyservice/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/multiple/services/assets/{___ids___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioasset/multiple/services/assets/{ids:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceservicioasset/multiple/services/assets/{ids:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getthumbServices/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioasset/getthumbServices/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicioasset/getthumbServices/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceserviciocliente",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciocliente/",
+							"host": ["{{products-dev}}/serviceserviciocliente/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciocliente/search",
+							"host": ["{{products-dev}}/serviceserviciocliente/search"]
+						}
+					}
+				},
+				{
+					"name": "/servicebyclient/{___idservice_servicio_tipo___}/{___id_cliente___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciocliente/servicebyclient/{idservice_servicio_tipo:0-9]+}/{id_cliente:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciocliente/servicebyclient/{idservice_servicio_tipo:0-9]+}/{id_cliente:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/validate/{___id_client___}/{___id_service___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciocliente/validate/{id_client:0-9]+}/{id_service:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciocliente/validate/{id_client:0-9]+}/{id_service:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciocliente/post",
+							"host": ["{{products-dev}}/serviceserviciocliente/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"id_cliente\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciocliente/put/0",
+							"host": ["{{products-dev}}/serviceserviciocliente/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/validateservice/{___idservice_servicio___}/{___id_cliente___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciocliente/validateservice/{idservice_servicio:0-9]+}/{id_cliente:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciocliente/validateservice/{idservice_servicio:0-9]+}/{id_cliente:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getclientbyservice/{___idservice_servicio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciocliente/getclientbyservice/{idservice_servicio:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciocliente/getclientbyservice/{idservice_servicio:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceserviciopropiedad",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciopropiedad/",
+							"host": ["{{products-dev}}/serviceserviciopropiedad/"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciopropiedad/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciopropiedad/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicebyproperty/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciopropiedad/servicebyproperty/{id:a-zA-Z0-9-s]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciopropiedad/servicebyproperty/{id:a-zA-Z0-9-s]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciopropiedad/post",
+							"host": ["{{products-dev}}/serviceserviciopropiedad/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciopropiedad/put/0",
+							"host": ["{{products-dev}}/serviceserviciopropiedad/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/getfamiliespropiety/{___propiedad___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciopropiedad/getfamiliespropiety/{propiedad:a-zA-Z0-9-s]+}",
+							"host": ["{{products-dev}}/serviceserviciopropiedad/getfamiliespropiety/{propiedad:a-zA-Z0-9-s]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getfamiliespropiety/{___propiedad___}/{___unidad___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciopropiedad/getfamiliespropiety/{propiedad:a-zA-Z0-9-s]+}/{unidad:a-zA-Z0-9-s]+}",
+							"host": ["{{products-dev}}/serviceserviciopropiedad/getfamiliespropiety/{propiedad:a-zA-Z0-9-s]+}/{unidad:a-zA-Z0-9-s]+}"]
+						}
+					}
+				},
+				{
+					"name": "/validateservice/{___idservice_servicio___}/{___idpropiedad___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciopropiedad/validateservice/{idservice_servicio:0-9]+}/{idpropiedad:a-zA-Z0-9-s]+}",
+							"host": ["{{products-dev}}/serviceserviciopropiedad/validateservice/{idservice_servicio:0-9]+}/{idpropiedad:a-zA-Z0-9-s]+}"]
+						}
+					}
+				},
+				{
+					"name": "/servicebytypeandresort/{___idservice_servicio_tipo___}/{___idpropiedad___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciopropiedad/servicebytypeandresort/{idservice_servicio_tipo:0-9]+}/{idpropiedad:a-zA-Z0-9-s]+}",
+							"host": ["{{products-dev}}/serviceserviciopropiedad/servicebytypeandresort/{idservice_servicio_tipo:0-9]+}/{idpropiedad:a-zA-Z0-9-s]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getresortbyservice/{___idservice_servicio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciopropiedad/getresortbyservice/{idservice_servicio:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciopropiedad/getresortbyservice/{idservice_servicio:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceservicioproveedor",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedor/",
+							"host": ["{{products-dev}}/serviceservicioproveedor/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedor/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicioproveedor/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/serviceid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedor/serviceid/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicioproveedor/serviceid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/serviceid/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedor/serviceid/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicioproveedor/serviceid/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedor/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicioproveedor/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedor/post",
+							"host": ["{{products-dev}}/serviceservicioproveedor/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idsap_proveedor\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedor/put/0",
+							"host": ["{{products-dev}}/serviceservicioproveedor/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/providerbyservicedropdown/{___idservice___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedor/providerbyservicedropdown/{idservice:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceservicioproveedor/providerbyservicedropdown/{idservice:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/searchserviceproveedor/{___idservicio___}/{___idproveedor___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedor/searchserviceproveedor/{idservicio:0-9]+}/{idproveedor:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicioproveedor/searchserviceproveedor/{idservicio:0-9]+}/{idproveedor:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getpricebyserviceproviderhotel/{___idservice___}/{___idprovider___}/{___hotel___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedor/getpricebyserviceproviderhotel/{idservice:0-9]+}/{idprovider:0-9]+}/{hotel:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceservicioproveedor/getpricebyserviceproviderhotel/{idservice:0-9]+}/{idprovider:0-9]+}/{hotel:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/gettextpricebyserviceproviderhotel/{___idioma___}/{___idservice___}/{___idprovider___}/{___hotel___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedor/gettextpricebyserviceproviderhotel/{idioma:0-9]+}/{idservice:0-9]+}/{idprovider:0-9]+}/{hotel:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceservicioproveedor/gettextpricebyserviceproviderhotel/{idioma:0-9]+}/{idservice:0-9]+}/{idprovider:0-9]+}/{hotel:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/gettarifaproveedor/{___servicio___}/{___propiedad___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedor/gettarifaproveedor/{servicio:0-9]+}/{propiedad:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceservicioproveedor/gettarifaproveedor/{servicio:0-9]+}/{propiedad:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceservicioproveedortarifa",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedortarifa/",
+							"host": ["{{products-dev}}/serviceservicioproveedortarifa/"]
+						}
+					}
+				},
+				{
+					"name": "///getelementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedortarifa///getelementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicioproveedortarifa///getelementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedortarifa/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicioproveedortarifa/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/idserviceproveedor/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedortarifa/idserviceproveedor/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicioproveedortarifa/idserviceproveedor/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/idserviceproveedor/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedortarifa/idserviceproveedor/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicioproveedortarifa/idserviceproveedor/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedortarifa/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceservicioproveedortarifa/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/searchbyelements/{___proveedor___}/{___propiedad___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedortarifa/searchbyelements/{proveedor:0-9]+}/{propiedad:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceservicioproveedortarifa/searchbyelements/{proveedor:0-9]+}/{propiedad:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedortarifa/post",
+							"host": ["{{products-dev}}/serviceservicioproveedortarifa/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio_proveedor\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"id_propiedad\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"costo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"costo_proveedor\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"moneda_costo_proveedor\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"tipo_pago\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_inica_vigencia\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_fin_vigencia\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceservicioproveedortarifa/put/0",
+							"host": ["{{products-dev}}/serviceservicioproveedortarifa/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceserviciotexto",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotexto/",
+							"host": ["{{products-dev}}/serviceserviciotexto/"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotexto/post",
+							"host": ["{{products-dev}}/serviceserviciotexto/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"id_idioma\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"id_cliente\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"tipo_servicio_texto\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotexto/put/0",
+							"host": ["{{products-dev}}/serviceserviciotexto/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotexto/search",
+							"host": ["{{products-dev}}/serviceserviciotexto/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotexto/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciotexto/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/gettextservice/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotexto/gettextservice/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciotexto/gettextservice/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/gettranslation/{___idlang___}/{___idservices___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotexto/gettranslation/{idlang:0-9]+}/{idservices:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceserviciotexto/gettranslation/{idlang:0-9]+}/{idservices:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdetailsservice/{___idlang___}/{___idservice___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotexto/getdetailsservice/{idlang:0-9]+}/{idservice:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciotexto/getdetailsservice/{idlang:0-9]+}/{idservice:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdetailsservices/{___idlang___}/{___idservices___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotexto/getdetailsservices/{idlang:0-9]+}/{idservices:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceserviciotexto/getdetailsservices/{idlang:0-9]+}/{idservices:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotexto/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciotexto/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "///getelementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotexto///getelementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciotexto///getelementbyid/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceserviciotipo",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotipo/",
+							"host": ["{{products-dev}}/serviceserviciotipo/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotipo/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciotipo/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbymultids/{___ids___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotipo/elementbymultids/{ids:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceserviciotipo/elementbymultids/{ids:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotipo/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciotipo/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/listall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotipo/listall",
+							"host": ["{{products-dev}}/serviceserviciotipo/listall"]
+						}
+					}
+				},
+				{
+					"name": "/getall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotipo/getall",
+							"host": ["{{products-dev}}/serviceserviciotipo/getall"]
+						}
+					}
+				},
+				{
+					"name": "///search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotipo///search",
+							"host": ["{{products-dev}}/serviceserviciotipo///search"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotipo/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceserviciotipo/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotipo/post",
+							"host": ["{{products-dev}}/serviceserviciotipo/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_unidad_negocio\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotipo/put/0",
+							"host": ["{{products-dev}}/serviceserviciotipo/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/getservicetypebybussines/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotipo/getservicetypebybussines/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciotipo/getservicetypebybussines/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicesbyunit/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciotipo/getservicesbyunit/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciotipo/getservicesbyunit/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceunidadnegocio",
+			"item": [
+				
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceunidadnegocio/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceunidadnegocio/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicetypebybusinessunit/{___idbusinessunit___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceunidadnegocio/getservicetypebybusinessunit/{idbusinessunit:0-9]+}",
+							"host": ["{{products-dev}}/serviceunidadnegocio/getservicetypebybusinessunit/{idbusinessunit:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceunidadnegocio/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceunidadnegocio/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/listall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceunidadnegocio/listall",
+							"host": ["{{products-dev}}/serviceunidadnegocio/listall"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceunidadnegocio/search",
+							"host": ["{{products-dev}}/serviceunidadnegocio/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceunidadnegocio/search/{limit:0-1]}",
+							"host": ["{{products-dev}}/serviceunidadnegocio/search/{limit:0-1]}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceunidadnegocio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceunidadnegocio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdownbydireccion/{___key___}/{___value___}/{___direccion___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceunidadnegocio/dropdownbydireccion/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}/{direccion:0-9]+}",
+							"host": ["{{products-dev}}/serviceunidadnegocio/dropdownbydireccion/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}/{direccion:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}/{___username___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceunidadnegocio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}/{username:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceunidadnegocio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}/{username:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceunidadnegocio/",
+							"host": ["{{products-dev}}/serviceunidadnegocio/"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/serviceunidadnegocio/post",
+							"host": ["{{products-dev}}/serviceunidadnegocio/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"extra\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"parametros_calculo_costo\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceunidadnegocio/put/0",
+							"host": ["{{products-dev}}/serviceunidadnegocio/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/getbusiness",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceunidadnegocio/getbusiness",
+							"host": ["{{products-dev}}/serviceunidadnegocio/getbusiness"]
+						}
+					}
+				},
+				{
+					"name": "/getformula",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/serviceunidadnegocio/getformula",
+							"host": ["{{products-dev}}/serviceunidadnegocio/getformula"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Bad Request\",\"code\":400,\"message\":\"Not Params\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/executeformula",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/serviceunidadnegocio/executeformula",
+							"host": ["{{products-dev}}/serviceunidadnegocio/executeformula"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Bad Request\",\"code\":400,\"message\":\"Not Params\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/getdatabyidlist/{___ids___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceunidadnegocio/getdatabyidlist/{ids:0-9-w]+}",
+							"host": ["{{products-dev}}/serviceunidadnegocio/getdatabyidlist/{ids:0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/servicetermino",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetermino/",
+							"host": ["{{products-dev}}/servicetermino/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetermino/search",
+							"host": ["{{products-dev}}/servicetermino/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetermino/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/servicetermino/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetermino/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/servicetermino/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbystatus/{___estado___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetermino/elementbystatus/{estado:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/servicetermino/elementbystatus/{estado:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/gettermbyservices/{___ids___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetermino/gettermbyservices/{ids:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/servicetermino/gettermbyservices/{ids:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getTermByServicesLanguage/{___idioma___}/{___ids___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetermino/getTermByServicesLanguage/{idioma:0-9]+}/{ids:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/servicetermino/getTermByServicesLanguage/{idioma:0-9]+}/{ids:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetermino/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/servicetermino/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/servicetermino/post",
+							"host": ["{{products-dev}}/servicetermino/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"id_idioma\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"termino\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"prioridad\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetermino/put/0",
+							"host": ["{{products-dev}}/servicetermino/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/servicetextotermino",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetextotermino/",
+							"host": ["{{products-dev}}/servicetextotermino/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetextotermino/search",
+							"host": ["{{products-dev}}/servicetextotermino/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetextotermino/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/servicetextotermino/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetextotermino/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/servicetextotermino/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getElementByTerm/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetextotermino/getElementByTerm/{id:0-9]+}",
+							"host": ["{{products-dev}}/servicetextotermino/getElementByTerm/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetextotermino/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/servicetextotermino/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/servicetextotermino/post",
+							"host": ["{{products-dev}}/servicetextotermino/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_termino\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"id_idioma\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"texto\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_creacion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetextotermino/put/0",
+							"host": ["{{products-dev}}/servicetextotermino/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/getLanguage/{___language___}/{___idtermino___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicetextotermino/getLanguage/{language:0-9]+}/{idtermino:0-9]+}",
+							"host": ["{{products-dev}}/servicetextotermino/getLanguage/{language:0-9]+}/{idtermino:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/servicematerial",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicematerial/",
+							"host": ["{{products-dev}}/servicematerial/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicematerial/search",
+							"host": ["{{products-dev}}/servicematerial/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicematerial/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/servicematerial/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicematerial/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/servicematerial/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicematerial/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/servicematerial/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/materialsbybussines",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicematerial/materialsbybussines",
+							"host": ["{{products-dev}}/servicematerial/materialsbybussines"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/servicematerial/post",
+							"host": ["{{products-dev}}/servicematerial/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idsap_material\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"nombre\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicematerial/put/0",
+							"host": ["{{products-dev}}/servicematerial/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/servicereceta",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicereceta/",
+							"host": ["{{products-dev}}/servicereceta/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicereceta/search",
+							"host": ["{{products-dev}}/servicereceta/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicereceta/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/servicereceta/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicereceta/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/servicereceta/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicereceta/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/servicereceta/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/servicereceta/post",
+							"host": ["{{products-dev}}/servicereceta/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicereceta/put/0",
+							"host": ["{{products-dev}}/servicereceta/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/retabyidservice/{___id___} //endpoint no agregada a la lista de permisos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicereceta/retabyidservice/{id:0-9]+} //endpoint no agregada a la lista de permisos",
+							"host": ["{{products-dev}}/servicereceta/retabyidservice/{id:0-9]+} //endpoint no agregada a la lista de permisos"]
+						}
+					}
+				},
+		{
+			"name": "/servicematerialproveedor",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicematerialproveedor/",
+							"host": ["{{products-dev}}/servicematerialproveedor/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicematerialproveedor/search",
+							"host": ["{{products-dev}}/servicematerialproveedor/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicematerialproveedor/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/servicematerialproveedor/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicematerialproveedor/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/servicematerialproveedor/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicematerialproveedor/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/servicematerialproveedor/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/materialbyprovider/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicematerialproveedor/materialbyprovider/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/servicematerialproveedor/materialbyprovider/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/servicematerialproveedor/post",
+							"host": ["{{products-dev}}/servicematerialproveedor/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idproveedor\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idservice_material\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicematerialproveedor/put/0",
+							"host": ["{{products-dev}}/servicematerialproveedor/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/servicerecetadetalle",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicerecetadetalle/",
+							"host": ["{{products-dev}}/servicerecetadetalle/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicerecetadetalle/search",
+							"host": ["{{products-dev}}/servicerecetadetalle/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicerecetadetalle/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/servicerecetadetalle/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicerecetadetalle/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/servicerecetadetalle/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicerecetadetalle/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/servicerecetadetalle/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdetallereceta/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicerecetadetalle/getdetallereceta/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/servicerecetadetalle/getdetallereceta/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/servicerecetadetalle/post",
+							"host": ["{{products-dev}}/servicerecetadetalle/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_receta\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idservice_material\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicerecetadetalle/put/0",
+							"host": ["{{products-dev}}/servicerecetadetalle/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/getdetalle/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicerecetadetalle/getdetalle/{id:0-9]+}",
+							"host": ["{{products-dev}}/servicerecetadetalle/getdetalle/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/servicerecursos",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicerecursos/",
+							"host": ["{{products-dev}}/servicerecursos/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicerecursos/search",
+							"host": ["{{products-dev}}/servicerecursos/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicerecursos/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/servicerecursos/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicerecursos/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/servicerecursos/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicerecursos/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/servicerecursos/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/servicerecursos/post",
+							"host": ["{{products-dev}}/servicerecursos/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicerecursos/put/0",
+							"host": ["{{products-dev}}/servicerecursos/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/getrecursodetail/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/servicerecursos/getrecursodetail/{id:0-9]+}",
+							"host": ["{{products-dev}}/servicerecursos/getrecursodetail/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceserviciorecursos",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciorecursos/",
+							"host": ["{{products-dev}}/serviceserviciorecursos/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciorecursos/search",
+							"host": ["{{products-dev}}/serviceserviciorecursos/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciorecursos/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciorecursos/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciorecursos/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciorecursos/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciorecursos/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceserviciorecursos/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciorecursos/post",
+							"host": ["{{products-dev}}/serviceserviciorecursos/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idservice_recursos\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"tiempo_minimo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"tiempo_maximo\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciorecursos/put/0",
+							"host": ["{{products-dev}}/serviceserviciorecursos/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/getdetallebyrecurso/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciorecursos/getdetallebyrecurso/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciorecursos/getdetallebyrecurso/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdetallebyservice/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciorecursos/getdetallebyservice/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciorecursos/getdetallebyservice/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getdetallebyrecursopagination/{___id___}/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciorecursos/getdetallebyrecursopagination/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciorecursos/getdetallebyrecursopagination/{id:0-9]+}/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getresourcebyservice/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceserviciorecursos/getresourcebyservice/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceserviciorecursos/getresourcebyservice/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/tagtiposervicio",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagtiposervicio/",
+							"host": ["{{products-dev}}/tagtiposervicio/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagtiposervicio/search",
+							"host": ["{{products-dev}}/tagtiposervicio/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagtiposervicio/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/tagtiposervicio/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagtiposervicio/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/tagtiposervicio/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagtiposervicio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/tagtiposervicio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/tagtiposervicio/post",
+							"host": ["{{products-dev}}/tagtiposervicio/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio_tipo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idservice_tag\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagtiposervicio/put/0",
+							"host": ["{{products-dev}}/tagtiposervicio/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/gettagbyservicetype/{___idservicio_tipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagtiposervicio/gettagbyservicetype/{idservicio_tipo:0-9]+}",
+							"host": ["{{products-dev}}/tagtiposervicio/gettagbyservicetype/{idservicio_tipo:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/tagservicio",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagservicio/",
+							"host": ["{{products-dev}}/tagservicio/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagservicio/search",
+							"host": ["{{products-dev}}/tagservicio/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagservicio/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/tagservicio/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagservicio/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/tagservicio/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagservicio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/tagservicio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/tagservicio/post",
+							"host": ["{{products-dev}}/tagservicio/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_tag\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagservicio/put/0",
+							"host": ["{{products-dev}}/tagservicio/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/getservicebytagandservicetype/{___idservice_tag___}/{___idservice_servicio_tipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagservicio/getservicebytagandservicetype/{idservice_tag:0-9]+}/{idservice_servicio_tipo:0-9]+}",
+							"host": ["{{products-dev}}/tagservicio/getservicebytagandservicetype/{idservice_tag:0-9]+}/{idservice_servicio_tipo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicebytag/{___idtag___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagservicio/getservicebytag/{idtag:0-9]+}",
+							"host": ["{{products-dev}}/tagservicio/getservicebytag/{idtag:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/direccion",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/direccion/",
+							"host": ["{{products-dev}}/direccion/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/direccion/search",
+							"host": ["{{products-dev}}/direccion/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/direccion/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/direccion/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/direccion/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/direccion/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/direccion/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/direccion/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/direccion/post",
+							"host": ["{{products-dev}}/direccion/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"direccion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_creacion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/direccion/put/0",
+							"host": ["{{products-dev}}/direccion/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/unidadalmacen",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/unidadalmacen/",
+							"host": ["{{products-dev}}/unidadalmacen/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/unidadalmacen/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/unidadalmacen/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/unidadalmacen/search",
+							"host": ["{{products-dev}}/unidadalmacen/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/unidadalmacen/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/unidadalmacen/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/unidadalmacen/post",
+							"host": ["{{products-dev}}/unidadalmacen/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_unidad_negocio\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/unidadalmacen/put/0",
+							"host": ["{{products-dev}}/unidadalmacen/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/getstorages",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/unidadalmacen/getstorages",
+							"host": ["{{products-dev}}/unidadalmacen/getstorages"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/unidadalmacen/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/unidadalmacen/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getstoragebynegocio/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/unidadalmacen/getstoragebynegocio/{id:0-9]+}",
+							"host": ["{{products-dev}}/unidadalmacen/getstoragebynegocio/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/inventario",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/inventario/",
+							"host": ["{{products-dev}}/inventario/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/inventario/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/inventario/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/inventario/search",
+							"host": ["{{products-dev}}/inventario/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/inventario/post",
+							"host": ["{{products-dev}}/inventario/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"inv_unidad_almacen\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"preview\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"cerrado\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/inventario/put/0",
+							"host": ["{{products-dev}}/inventario/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/inventario/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/inventario/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getinvclose",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/inventario/getinvclose",
+							"host": ["{{products-dev}}/inventario/getinvclose"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/inventarioitem",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/inventarioitem/",
+							"host": ["{{products-dev}}/inventarioitem/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/inventarioitem/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/inventarioitem/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/inventarioitem/search",
+							"host": ["{{products-dev}}/inventarioitem/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/inventarioitem/post",
+							"host": ["{{products-dev}}/inventarioitem/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"inv_inventario\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"SKU_serie\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"movimiento\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/inventarioitem/put/0",
+							"host": ["{{products-dev}}/inventarioitem/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/inventarioitem/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/inventarioitem/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyinventario/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/inventarioitem/elementbyinventario/{id:0-9]+}",
+							"host": ["{{products-dev}}/inventarioitem/elementbyinventario/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getElementBySerie/{___serie___}/{___inv___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/inventarioitem/getElementBySerie/{serie:a-zA-Z0-9-w]+}/{inv:0-9]+}",
+							"host": ["{{products-dev}}/inventarioitem/getElementBySerie/{serie:a-zA-Z0-9-w]+}/{inv:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getReporteInventario/{___inv___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/inventarioitem/getReporteInventario/{inv:0-9]+}",
+							"host": ["{{products-dev}}/inventarioitem/getReporteInventario/{inv:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/pdfinvalmacen/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/inventarioitem/pdfinvalmacen/{almacen:0-9]+}",
+							"host": ["{{products-dev}}/inventarioitem/pdfinvalmacen/{almacen:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/item",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/",
+							"host": ["{{products-dev}}/item/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/item/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/generalinfoitem/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/generalinfoitem/{id:0-9]+}",
+							"host": ["{{products-dev}}/item/generalinfoitem/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/search",
+							"host": ["{{products-dev}}/item/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/item/post",
+							"host": ["{{products-dev}}/item/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_servicio\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idinv_almacen\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idinv_marca\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idinv_modelo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"serie\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"seriado\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"tag\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"picking\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/put/0",
+							"host": ["{{products-dev}}/item/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/item/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/stockservice/{___idservice_servicio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/stockservice/{idservice_servicio:0-9]+}",
+							"host": ["{{products-dev}}/item/stockservice/{idservice_servicio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbySerie/{___serie___}/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/elementbySerie/{serie:a-zA-Z0-9-w]+}/{almacen:0-9]+}",
+							"host": ["{{products-dev}}/item/elementbySerie/{serie:a-zA-Z0-9-w]+}/{almacen:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyNum/{___num___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/elementbyNum/{num:0-9-w]+}",
+							"host": ["{{products-dev}}/item/elementbyNum/{num:0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getCompare/{___inv___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/getCompare/{inv:0-9]+}",
+							"host": ["{{products-dev}}/item/getCompare/{inv:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getStockService/{___idservice_servicio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/getStockService/{idservice_servicio:0-9]+}",
+							"host": ["{{products-dev}}/item/getStockService/{idservice_servicio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getReportInventario/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/getReportInventario/{id:0-9]+}",
+							"host": ["{{products-dev}}/item/getReportInventario/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getitemsdescriptions/{___folio___}/{___almacen___}/{___estado___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/getitemsdescriptions/{folio:0-9]+}/{almacen:0-9]+}/{estado:0-9]+}",
+							"host": ["{{products-dev}}/item/getitemsdescriptions/{folio:0-9]+}/{almacen:0-9]+}/{estado:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getItemsBySeries",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/item/getItemsBySeries",
+							"host": ["{{products-dev}}/item/getItemsBySeries"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/getItemsBySeriesByOrden",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/item/getItemsBySeriesByOrden",
+							"host": ["{{products-dev}}/item/getItemsBySeriesByOrden"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Not Found\",\"code\":\"404\",\"message\":\"Data Not Found\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/gettimebyitem/{___negocio___}/{___familia___}/{___marca___}/{___fecha_inicio___}/{___fecha_final___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/gettimebyitem/{negocio:a-zA-Z0-9-w]+}/{familia:a-zA-Z0-9-w]+}/{marca:a-zA-Z0-9-w]+}/{fecha_inicio:a-zA-Z0-9-w]+}/{fecha_final:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/item/gettimebyitem/{negocio:a-zA-Z0-9-w]+}/{familia:a-zA-Z0-9-w]+}/{marca:a-zA-Z0-9-w]+}/{fecha_inicio:a-zA-Z0-9-w]+}/{fecha_final:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getstatusbyitem/{___negocio___}/{___familia___}/{___marca___}/{___fecha_inicio___}/{___fecha_final___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/getstatusbyitem/{negocio:a-zA-Z0-9-w]+}/{familia:a-zA-Z0-9-w]+}/{marca:a-zA-Z0-9-w]+}/{fecha_inicio:a-zA-Z0-9-w]+}/{fecha_final:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/item/getstatusbyitem/{negocio:a-zA-Z0-9-w]+}/{familia:a-zA-Z0-9-w]+}/{marca:a-zA-Z0-9-w]+}/{fecha_inicio:a-zA-Z0-9-w]+}/{fecha_final:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getitembyservice/{___service___}/{___seriado___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/getitembyservice/{service:0-9]+}/{seriado:0-9]+}",
+							"host": ["{{products-dev}}/item/getitembyservice/{service:0-9]+}/{seriado:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getubicacion/{___negocio___}/{___familia___}/{___marca___}/{___fecha_inicio___}/{___fecha_final___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/getubicacion/{negocio:a-zA-Z0-9-w]+}/{familia:a-zA-Z0-9-w]+}/{marca:a-zA-Z0-9-w]+}/{fecha_inicio:a-zA-Z0-9-w]+}/{fecha_final:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/item/getubicacion/{negocio:a-zA-Z0-9-w]+}/{familia:a-zA-Z0-9-w]+}/{marca:a-zA-Z0-9-w]+}/{fecha_inicio:a-zA-Z0-9-w]+}/{fecha_final:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getitemsbystorage/{___negocio___}/{___almacen___}/{___familia___}/{___servicio___}/{___seriado___}/{___estado___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/getitemsbystorage/{negocio:0-9]+}/{almacen:0-9]+}/{familia:0-9]+}/{servicio:0-9]+}/{seriado:0-9]+}/{estado:0-9]+}",
+							"host": ["{{products-dev}}/item/getitemsbystorage/{negocio:0-9]+}/{almacen:0-9]+}/{familia:0-9]+}/{servicio:0-9]+}/{seriado:0-9]+}/{estado:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getstatusservice/{___servicio___}/{___almacen___}/{___marca___}/{___modelo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/getstatusservice/{servicio:0-9]+}/{almacen:0-9]+}/{marca:0-9]+}/{modelo:0-9]+}",
+							"host": ["{{products-dev}}/item/getstatusservice/{servicio:0-9]+}/{almacen:0-9]+}/{marca:0-9]+}/{modelo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getpendingsinventory",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/item/getpendingsinventory",
+							"host": ["{{products-dev}}/item/getpendingsinventory"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/unidadalmacenitem",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/unidadalmacenitem/",
+							"host": ["{{products-dev}}/unidadalmacenitem/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/unidadalmacenitem/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/unidadalmacenitem/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/unidadalmacenitem/search",
+							"host": ["{{products-dev}}/unidadalmacenitem/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/unidadalmacenitem/post",
+							"host": ["{{products-dev}}/unidadalmacenitem/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idinv_almacen\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idinv_item\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/unidadalmacenitem/put/0",
+							"host": ["{{products-dev}}/unidadalmacenitem/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[42S02]: Base table or view not found: 1146 Table 'clv_products.inv_unidad_almacen_item' doesn't exist\"}"
+						}
+					}
+				},
+				{
+					"name": "/getdatabyiditem/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/unidadalmacenitem/getdatabyiditem/{id:0-9]+}",
+							"host": ["{{products-dev}}/unidadalmacenitem/getdatabyiditem/{id:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/movimientoitem",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/",
+							"host": ["{{products-dev}}/movimientoitem/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitem/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/search",
+							"host": ["{{products-dev}}/movimientoitem/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/post",
+							"host": ["{{products-dev}}/movimientoitem/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idinv_item\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"inv_tipo_movimiento_item\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idevent_montaje_orden\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idsap_proveedor_recepciona\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/put/0",
+							"host": ["{{products-dev}}/movimientoitem/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/getdatabyiditem/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getdatabyiditem/{id:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitem/getdatabyiditem/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getDataByIdItemLast/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getDataByIdItemLast/{id:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitem/getDataByIdItemLast/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getmovientoitembyorden/{___orden___}/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getmovientoitembyorden/{orden:0-9]+}/{almacen:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitem/getmovientoitembyorden/{orden:0-9]+}/{almacen:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getMovimientosItemsByOrden/{___orden___}/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getMovimientosItemsByOrden/{orden:0-9]+}/{almacen:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitem/getMovimientosItemsByOrden/{orden:0-9]+}/{almacen:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/updatefasemovientoitem",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/updatefasemovientoitem",
+							"host": ["{{products-dev}}/movimientoitem/updatefasemovientoitem"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/validateitembyorderphase",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/validateitembyorderphase",
+							"host": ["{{products-dev}}/movimientoitem/validateitembyorderphase"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/movimientoitem/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getDataByMontajeExtra/{___montaje___}/{___extra___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getDataByMontajeExtra/{montaje:0-9]+}/{extra:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitem/getDataByMontajeExtra/{montaje:0-9]+}/{extra:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getitempickup/{___id___}/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getitempickup/{id:0-9]+}/{almacen:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitem/getitempickup/{id:0-9]+}/{almacen:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getitementry/{___id___}/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getitementry/{id:0-9]+}/{almacen:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitem/getitementry/{id:0-9]+}/{almacen:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getfamilymontaje/{___id___}/{___negocio___} /**api para pdfs app/ public/ scripts/ vendor/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getfamilymontaje/{id:0-9]+}/{negocio:0-9]+} /**api para pdfs app/ public/ scripts/ vendor/",
+							"host": ["{{products-dev}}/movimientoitem/getfamilymontaje/{id:0-9]+}/{negocio:0-9]+} /**api para pdfs app/ public/ scripts/ vendor/"]
+						}
+					}
+				},
+				{
+					"name": "/getfamilymontajeextrabyid/{___orden___}/{___negocio___}/{___idextra___}/**api para pdfs app/ public/ scripts/ vendor/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getfamilymontajeextrabyid/{orden:0-9]+}/{negocio:0-9]+}/{idextra:0-9]+}/**api para pdfs app/ public/ scripts/ vendor/",
+							"host": ["{{products-dev}}/movimientoitem/getfamilymontajeextrabyid/{orden:0-9]+}/{negocio:0-9]+}/{idextra:0-9]+}/**api para pdfs app/ public/ scripts/ vendor/"]
+						}
+					}
+				},
+				{
+					"name": "/getfamilymontajeentry/{___orden___}/{___negocio___}/**api para pdfs app/ public/ scripts/ vendor/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getfamilymontajeentry/{orden:0-9]+}/{negocio:0-9]+}/**api para pdfs app/ public/ scripts/ vendor/",
+							"host": ["{{products-dev}}/movimientoitem/getfamilymontajeentry/{orden:0-9]+}/{negocio:0-9]+}/**api para pdfs app/ public/ scripts/ vendor/"]
+						}
+					}
+				},
+				{
+					"name": "/getfamilymontajeentrycomplete/{___orden___}/{___negocio___}/**api para pdfs app/ public/ scripts/ vendor/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getfamilymontajeentrycomplete/{orden:0-9]+}/{negocio:0-9]+}/**api para pdfs app/ public/ scripts/ vendor/",
+							"host": ["{{products-dev}}/movimientoitem/getfamilymontajeentrycomplete/{orden:0-9]+}/{negocio:0-9]+}/**api para pdfs app/ public/ scripts/ vendor/"]
+						}
+					}
+				},
+				{
+					"name": "/getpdfmontajeentryall/{___orden___}/{___negocio___}/**api para pdfs app/ public/ scripts/ vendor/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getpdfmontajeentryall/{orden:0-9]+}/{negocio:0-9]+}/**api para pdfs app/ public/ scripts/ vendor/",
+							"host": ["{{products-dev}}/movimientoitem/getpdfmontajeentryall/{orden:0-9]+}/{negocio:0-9]+}/**api para pdfs app/ public/ scripts/ vendor/"]
+						}
+					}
+				},
+				{
+					"name": "/getitemlocation/{___orden___}/{___item___}/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getitemlocation/{orden:0-9]+}/{item:0-9]+}/{almacen:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitem/getitemlocation/{orden:0-9]+}/{item:0-9]+}/{almacen:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getadditemlocation/{___orden___}/{___item___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getadditemlocation/{orden:0-9]+}/{item:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitem/getadditemlocation/{orden:0-9]+}/{item:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicelocation/{___orden___}/{___almacen___}/{___service___}/{___num___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getservicelocation/{orden:0-9]+}/{almacen:0-9]+}/{service:0-9]+}/{num:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitem/getservicelocation/{orden:0-9]+}/{almacen:0-9]+}/{service:0-9]+}/{num:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getservicelocationfolio/{___orden___}/{___almacen___}/{___service___}/{___estado___}/{___num___}/{___option___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getservicelocationfolio/{orden:0-9]+}/{almacen:0-9]+}/{service:0-9]+}/{estado:0-9]+}/{num:0-9]+}/{option:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitem/getservicelocationfolio/{orden:0-9]+}/{almacen:0-9]+}/{service:0-9]+}/{estado:0-9]+}/{num:0-9]+}/{option:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getItemsExtrasMountingFolio/{___orden___}/{___negocio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getItemsExtrasMountingFolio/{orden:0-9]+}/{negocio:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitem/getItemsExtrasMountingFolio/{orden:0-9]+}/{negocio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/postitemsbyseries",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/postitemsbyseries",
+							"host": ["{{products-dev}}/movimientoitem/postitemsbyseries"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Not Found\",\"code\":404,\"message\":\"Data Not Found\",\"data\":{\"itemsexternal\":[],\"itemsinternal\":[],\"itemsadded\":[],\"faileditems\":[],\"totalitemesadd\":\"0 of 0\"},\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/postitemsbyseriesbyitem",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/postitemsbyseriesbyitem",
+							"host": ["{{products-dev}}/movimientoitem/postitemsbyseriesbyitem"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Not Found\",\"code\":404,\"message\":\"Data Not Found\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/getnumextrasbyorden/{___orden___}/{___negocio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getnumextrasbyorden/{orden:0-9]+}/{negocio:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitem/getnumextrasbyorden/{orden:0-9]+}/{negocio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getsumuitemsbyfolio/{___fechainicia___}/{___fechafinal___}/{___folio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getsumuitemsbyfolio/{fechainicia:a-zA-Z0-9-w]+}/{fechafinal:a-zA-Z0-9-w]+}/{folio:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitem/getsumuitemsbyfolio/{fechainicia:a-zA-Z0-9-w]+}/{fechafinal:a-zA-Z0-9-w]+}/{folio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getrotationinventory/{___fecha_inicio___}/{___fecha_final___}/{___negocio___}/{___familia___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getrotationinventory/{fecha_inicio:a-zA-Z0-9-w]+}/{fecha_final:a-zA-Z0-9-w]+}/{negocio:a-zA-Z0-9-w]+}/{familia:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/movimientoitem/getrotationinventory/{fecha_inicio:a-zA-Z0-9-w]+}/{fecha_final:a-zA-Z0-9-w]+}/{negocio:a-zA-Z0-9-w]+}/{familia:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/updateitemmultiple",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/updateitemmultiple",
+							"host": ["{{products-dev}}/movimientoitem/updateitemmultiple"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":""
+						}
+					}
+				},
+				{
+					"name": "/getdatabyidservice/{___item___}/{___tipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitem/getdatabyidservice/{item:0-9]+}/{tipo:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitem/getdatabyidservice/{item:0-9]+}/{tipo:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/tipomovimiento",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tipomovimiento/",
+							"host": ["{{products-dev}}/tipomovimiento/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tipomovimiento/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/tipomovimiento/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tipomovimiento/search",
+							"host": ["{{products-dev}}/tipomovimiento/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/tipomovimiento/post",
+							"host": ["{{products-dev}}/tipomovimiento/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tipomovimiento/put/0",
+							"host": ["{{products-dev}}/tipomovimiento/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'inv_tipo_movimiento.proveedor' in 'field list'\"}"
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tipomovimiento/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/tipomovimiento/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdownbystatus",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tipomovimiento/dropdownbystatus",
+							"host": ["{{products-dev}}/tipomovimiento/dropdownbystatus"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/reporte",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reporte/",
+							"host": ["{{products-dev}}/reporte/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reporte/search",
+							"host": ["{{products-dev}}/reporte/search"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reporte/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/reporte/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getElementByInv/{___inv___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reporte/getElementByInv/{inv:0-9]+}",
+							"host": ["{{products-dev}}/reporte/getElementByInv/{inv:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/reporte/post",
+							"host": ["{{products-dev}}/reporte/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"inv_tipo_movimiento_item\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idinv_movimiento_item\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reporte/put/0",
+							"host": ["{{products-dev}}/reporte/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[42S02]: Base table or view not found: 1146 Table 'clv_products.inv_reporte_almacen' doesn't exist\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/marca",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/marca/",
+							"host": ["{{products-dev}}/marca/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/marca/search",
+							"host": ["{{products-dev}}/marca/search"]
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/marca/put/0",
+							"host": ["{{products-dev}}/marca/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/marca/post",
+							"host": ["{{products-dev}}/marca/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"marca\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_ultima_modificacion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/marca/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/marca/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getmarcas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/marca/getmarcas",
+							"host": ["{{products-dev}}/marca/getmarcas"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/modelo",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/modelo/",
+							"host": ["{{products-dev}}/modelo/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/modelo/search",
+							"host": ["{{products-dev}}/modelo/search"]
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/modelo/put/0",
+							"host": ["{{products-dev}}/modelo/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/modelo/post",
+							"host": ["{{products-dev}}/modelo/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idinv_marca\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"modelo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_ultima_modificacion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/modelobymarcadropdown/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/modelo/modelobymarcadropdown/{id:0-9]+}",
+							"host": ["{{products-dev}}/modelo/modelobymarcadropdown/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/modelo/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/modelo/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/proveedor",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/proveedor/",
+							"host": ["{{products-dev}}/proveedor/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/proveedor/search",
+							"host": ["{{products-dev}}/proveedor/search"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/proveedor/post",
+							"host": ["{{products-dev}}/proveedor/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_ultima_modificacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_ultima_modificacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/proveedor/put/0",
+							"host": ["{{products-dev}}/proveedor/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'inv_proveedor.usuario_creacion' in 'field list'\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/proveedor/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/proveedor/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/proveedor/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/proveedor/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/itemproveedor",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/itemproveedor/",
+							"host": ["{{products-dev}}/itemproveedor/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/itemproveedor/search",
+							"host": ["{{products-dev}}/itemproveedor/search"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/itemproveedor/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/itemproveedor/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyidproveedor/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/itemproveedor/elementbyidproveedor/{id:0-9]+}",
+							"host": ["{{products-dev}}/itemproveedor/elementbyidproveedor/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyidproveedor/{___id___}/{___ViewdropdownData___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/itemproveedor/elementbyidproveedor/{id:0-9]+}/{ViewdropdownData:0-9]+}",
+							"host": ["{{products-dev}}/itemproveedor/elementbyidproveedor/{id:0-9]+}/{ViewdropdownData:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/itemproveedor/post",
+							"host": ["{{products-dev}}/itemproveedor/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idinv_proveedor\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"codigo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_ultima_modificacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_ultima_modificacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/itemproveedor/put/0",
+							"host": ["{{products-dev}}/itemproveedor/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/itemproveedor/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/itemproveedor/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/movimientoitemproveedor",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitemproveedor/",
+							"host": ["{{products-dev}}/movimientoitemproveedor/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitemproveedor/search",
+							"host": ["{{products-dev}}/movimientoitemproveedor/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitemproveedor/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitemproveedor/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitemproveedor/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitemproveedor/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitemproveedor/post",
+							"host": ["{{products-dev}}/movimientoitemproveedor/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idinv_proveedor_item\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"proveedor\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"inv_tipo_movimiento_item\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"idevent_montaje_orden\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitemproveedor/put/0",
+							"host": ["{{products-dev}}/movimientoitemproveedor/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitemproveedor/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/movimientoitemproveedor/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getProviderMontaje/{___folio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitemproveedor/getProviderMontaje/{folio:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitemproveedor/getProviderMontaje/{folio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getProviderMontajeExtra/{___folio___}/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitemproveedor/getProviderMontajeExtra/{folio:0-9]+}/{id:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitemproveedor/getProviderMontajeExtra/{folio:0-9]+}/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getProviderMontajeIdExtra/{___folio___}/{___idextra___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitemproveedor/getProviderMontajeIdExtra/{folio:0-9]+}/{idextra:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitemproveedor/getProviderMontajeIdExtra/{folio:0-9]+}/{idextra:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getProvidersPickupFolio/{___folio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitemproveedor/getProvidersPickupFolio/{folio:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitemproveedor/getProvidersPickupFolio/{folio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getProvidersItemsPickupFolio/{___folio___}/{___proveedor___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitemproveedor/getProvidersItemsPickupFolio/{folio:0-9]+}/{proveedor:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitemproveedor/getProvidersItemsPickupFolio/{folio:0-9]+}/{proveedor:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getSumItemFolio/{___folio___}/{___item___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitemproveedor/getSumItemFolio/{folio:0-9]+}/{item:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitemproveedor/getSumItemFolio/{folio:0-9]+}/{item:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getProviderMontajeEntry/{___folio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitemproveedor/getProviderMontajeEntry/{folio:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitemproveedor/getProviderMontajeEntry/{folio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getProviderMontajeEntryComplete/{___folio___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitemproveedor/getProviderMontajeEntryComplete/{folio:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitemproveedor/getProviderMontajeEntryComplete/{folio:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getItemsProvidersEntryFolio/{___folio___}/{___proveedor___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/movimientoitemproveedor/getItemsProvidersEntryFolio/{folio:0-9]+}/{proveedor:0-9]+}",
+							"host": ["{{products-dev}}/movimientoitemproveedor/getItemsProvidersEntryFolio/{folio:0-9]+}/{proveedor:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/tag",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tag/",
+							"host": ["{{products-dev}}/tag/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tag/search",
+							"host": ["{{products-dev}}/tag/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tag/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/tag/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/tag/post",
+							"host": ["{{products-dev}}/tag/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tag/put/0",
+							"host": ["{{products-dev}}/tag/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tag/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/tag/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tag/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/tag/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/apisexternas",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/apisexternas/",
+							"host": ["{{products-dev}}/apisexternas/"]
+						}
+					}
+				},
+				{
+					"name": "/gettiposhabitacion",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/apisexternas/gettiposhabitacion",
+							"host": ["{{products-dev}}/apisexternas/gettiposhabitacion"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"data\":{\"dropdownData\":{\"RV\":\"Deluxe Suite - resort View RV\",\"PM\":\"Posting Master PM\",\"JP\":\"Junior Suite JP\",\"VF4\":\"Grand Villa 4 Bedroom Suite VF4\",\"VT1\":\"Villa Cozumel (2 Bedrooms) VT1\",\"VT2\":\"Villa Cozumel (2 Bedrooms) VT2\",\"VT3\":\"Grand Villa (3 Bedrooms) VT3\",\"VF1\":\"Grand Villa 4 Bedroom Suite VF1\",\"VF2\":\"Grand Villa 4 Bedroom Suite VF2\",\"VF3\":\"Grand Villa 4 Bedroom Suite VF3\",\"JOV\":\"Junior Suite Ocean View JOV\",\"JPO\":\"Junior Suite Partial Ocean View JPO\",\"PO\":\"Superior Deluxe Partial Ocean View PO\",\"CN\":\"Concierge Level CN\",\"F1\":\"Grand Family Deluxe F1\",\"F2\":\"Grand Family Deluxe F2\",\"GS\":\"Governor Suite GS\",\"OV\":\"Superior Deluxe Ocean View Double OV\",\"P1\":\"Royale Presidential Suite King P1\",\"P2\":\"Presidential Suite King P2\",\"JO\":\"Junior Suite JO\",\"OB\":\"Superior Deluxe Ocean View with Balcony OB\",\"ST\":\"Staff rooms double ST\",\"LV\":\"Royale Deluxe Lagoon View LV\",\"PV\":\"Superior Deluxe - Pool View PV\",\"RP\":\"Royale Presidential Suite RP\",\"JR\":\"Ocean View Suite JR\",\"HN\":\"Royale Honeymoon HN\",\"JOF\":\"Ocean Front Suite JOF\",\"JPV\":\"Junior Suite Partial Ocaean View King JPV\",\"JLV\":\"Junior Suite Lagoon View King JLV\",\"WL\":\"Royale Wellness WL\",\"GL\":\"Grand Level GL\",\"V1\":\"Grand Villa (4 Bedrooms) V1\",\"V2\":\"Grand Villa (4 Bedrooms) V2\",\"V3\":\"Grand Villa (4 Bedrooms) V3\",\"V4\":\"Grand Villa (4 Bedrooms) V4\",\"GV\":\"Grand Deluxe Suite Garden View GV\",\"GAQ\":\"Grand Aqua Suite GAQ\",\"SW\":\"Grand Swim up Suite SW\",\"D1\":\"Grand Diamond Presidential Suite D1\",\"D2\":\"Grand Diamond Presidential Suite D2\",\"A2\":\"Grand Aqua Presidential Suite A2\",\"A1\":\"Grand Aqua Presidential Suite A1\",\"S2\":\"Grand Swim up Presidential Suite S2\",\"S1\":\"Grand Swim up Presidential Suite S1\",\"OF\":\"Superior Deluxe Ocean Front OF\",\"RES\":\"Residential Suite RES\",\"AS\":\"Governor Suite AS\",\"G1\":\"Two Bedroom Suite Golf Course G1\",\"G2\":\"Two Bedroom Suite Golf Course G2\",\"VG2\":\"Villa Campo de Golf VG2\",\"VG1\":\"Villa Campo de Golf VG1\",\"NP\":\"Bridal Suite NP\",\"MZK\":\"Loft Suite MZK\",\"HS\":\"Honeymoon Suite HS\",\"WO\":\"Walk out Suite WO\",\"ON\":\"Ocean View ON\",\"P1L\":\"LO Grand Presidential Suite P1L\",\"HNY\":\"Luxury Honeymoon HNY\",\"VT1L\":\"LO Villa Cozumel VT1L\",\"N1\":\"Presidential Suite North N1\",\"N2\":\"Presidential Suite North N2\",\"OSD\":\"Superior Deluxe Standar Ocean View Double OSD\",\"R1\":\"Residence R1\",\"R2\":\"Residence R2\",\"R3\":\"Residence R3\",\"R4\":\"Residence R4\",\"R1L2\":\"Residence Lock Off R1L2\",\"R2L2\":\"Residence Lock Off R2L2\",\"R1L3\":\"Residence Lock Off R1L3\",\"R2L3\":\"Residence Lock Off R2L3\",\"R3L3\":\"Residence Lock Off R3L3\"}},\"error\":false,\"message\":\"\"}"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/reports",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reports/",
+							"host": ["{{products-dev}}/reports/"]
+						}
+					}
+				},
+				{
+					"name": "/getitemsbyservice/{___idService___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reports/getitemsbyservice/{idService:0-9]+}",
+							"host": ["{{products-dev}}/reports/getitemsbyservice/{idService:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getitemstorage/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reports/getitemstorage/{almacen:0-9]+}",
+							"host": ["{{products-dev}}/reports/getitemstorage/{almacen:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getitemstorage/{___almacen___}/{___filter___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reports/getitemstorage/{almacen:0-9]+}/{filter:0-9]+}",
+							"host": ["{{products-dev}}/reports/getitemstorage/{almacen:0-9]+}/{filter:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getitemstorage/{___almacen___}/{___filter___}/{___idServiceTipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reports/getitemstorage/{almacen:0-9]+}/{filter:-]}/{idServiceTipo:0-9]+}",
+							"host": ["{{products-dev}}/reports/getitemstorage/{almacen:0-9]+}/{filter:-]}/{idServiceTipo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/getitemstorage/{___almacen___}/{___filter___}/{___idServiceTipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reports/getitemstorage/{almacen:0-9]+}/{filter:0-9]+}/{idServiceTipo:0-9]+}",
+							"host": ["{{products-dev}}/reports/getitemstorage/{almacen:0-9]+}/{filter:0-9]+}/{idServiceTipo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/items/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reports/items/{almacen:0-9]+}",
+							"host": ["{{products-dev}}/reports/items/{almacen:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/items/{___almacen___}/{___filter___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reports/items/{almacen:0-9]+}/{filter:0-9]+}",
+							"host": ["{{products-dev}}/reports/items/{almacen:0-9]+}/{filter:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/items/{___almacen___}/{___filter___}/{___idServiceTipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reports/items/{almacen:0-9]+}/{filter:-]}/{idServiceTipo:0-9]+}",
+							"host": ["{{products-dev}}/reports/items/{almacen:0-9]+}/{filter:-]}/{idServiceTipo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/items/{___almacen___}/{___filter___}/{___idServiceTipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reports/items/{almacen:0-9]+}/{filter:0-9]+}/{idServiceTipo:0-9]+}",
+							"host": ["{{products-dev}}/reports/items/{almacen:0-9]+}/{filter:0-9]+}/{idServiceTipo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/storagePDF/{___almacen___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reports/storagePDF/{almacen:0-9]+}",
+							"host": ["{{products-dev}}/reports/storagePDF/{almacen:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/storagePDF/{___almacen___}/{___filter___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reports/storagePDF/{almacen:0-9]+}/{filter:0-9]+}",
+							"host": ["{{products-dev}}/reports/storagePDF/{almacen:0-9]+}/{filter:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/storagePDF/{___almacen___}/{___filter___}/{___idServiceTipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reports/storagePDF/{almacen:0-9]+}/{filter:-]}/{idServiceTipo:0-9]+}",
+							"host": ["{{products-dev}}/reports/storagePDF/{almacen:0-9]+}/{filter:-]}/{idServiceTipo:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/storagePDF/{___almacen___}/{___filter___}/{___idServiceTipo___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/reports/storagePDF/{almacen:0-9]+}/{filter:0-9]+}/{idServiceTipo:0-9]+}",
+							"host": ["{{products-dev}}/reports/storagePDF/{almacen:0-9]+}/{filter:0-9]+}/{idServiceTipo:0-9]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/serviceformatopedidoitem",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceformatopedidoitem/",
+							"host": ["{{products-dev}}/serviceformatopedidoitem/"]
+						}
+					}
+				},
+				{
+					"name": "/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceformatopedidoitem/search",
+							"host": ["{{products-dev}}/serviceformatopedidoitem/search"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceformatopedidoitem/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/serviceformatopedidoitem/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/serviceformatopedidoitem/post",
+							"host": ["{{products-dev}}/serviceformatopedidoitem/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"formatojson\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceformatopedidoitem/put/0",
+							"host": ["{{products-dev}}/serviceformatopedidoitem/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceformatopedidoitem/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceformatopedidoitem/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/formatbyidtypeservice/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceformatopedidoitem/formatbyidtypeservice/{id:0-9]+}",
+							"host": ["{{products-dev}}/serviceformatopedidoitem/formatbyidtypeservice/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceformatopedidoitem/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/serviceformatopedidoitem/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/templateservices",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/serviceformatopedidoitem/templateservices",
+							"host": ["{{products-dev}}/serviceformatopedidoitem/templateservices"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/tagmetadato",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagmetadato/",
+							"host": ["{{products-dev}}/tagmetadato/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagmetadato/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/tagmetadato/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagmetadato/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/tagmetadato/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagmetadato/put/0",
+							"host": ["{{products-dev}}/tagmetadato/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/tagmetadato/post",
+							"host": ["{{products-dev}}/tagmetadato/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"tag\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"descripcion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"nombre_tabla\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"nombre_campo\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"tipo_dato\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"mascara_entrada\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/listassoc/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagmetadato/listassoc/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/tagmetadato/listassoc/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tagmetadato/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/tagmetadato/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "/tipocambio",
+			"item": [
+				
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tipocambio/",
+							"host": ["{{products-dev}}/tipocambio/"]
+						}
+					}
+				},
+				{
+					"name": "/elementbyid/{___id___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tipocambio/elementbyid/{id:0-9]+}",
+							"host": ["{{products-dev}}/tipocambio/elementbyid/{id:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/search/{___limit___}/{___offset___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tipocambio/search/{limit:0-9]+}/{offset:0-9]+}",
+							"host": ["{{products-dev}}/tipocambio/search/{limit:0-9]+}/{offset:0-9]+}"]
+						}
+					}
+				},
+				{
+					"name": "/listassoc/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tipocambio/listassoc/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/tipocambio/listassoc/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/dropdown/{___key___}/{___value___}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tipocambio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}",
+							"host": ["{{products-dev}}/tipocambio/dropdown/{key:a-zA-Z0-9-w]+}/{value:a-zA-Z0-9-w]+}"]
+						}
+					}
+				},
+				{
+					"name": "/bybussinesanddate",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/tipocambio/bybussinesanddate",
+							"host": ["{{products-dev}}/tipocambio/bybussinesanddate"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"status\":\"Bad Request\",\"code\":400,\"message\":\"Not Params\",\"data\":[],\"error\":true}"
+						}
+					}
+				},
+				{
+					"name": "/put/{___id___}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tipocambio/put/0",
+							"host": ["{{products-dev}}/tipocambio/put/0"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":\"Not Found\"}"
+						}
+					}
+				},
+				{
+					"name": "/post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{"key":"Content-Type","name":"Content-Type","value":"application/json","type":"text"}
+						],
+						"url": {
+							"raw": "{{products-dev}}/tipocambio/post",
+							"host": ["{{products-dev}}/tipocambio/post"]
+						},
+						"response": [],
+						"body": {
+							"mode":"raw",
+							"options":{"raw":{"language":"json"}},
+							"raw":"{\"error\":true,\"message\":[{\"type error\":\"PresenceOf\",\"field\":\"idservice_unidad_negocio\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"codigo_iso_moneda\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"tipo_cambio_provisiones\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"tipo_cambio_cotizaciones\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_vigencia_inicio\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_vigencia_fin\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"estado\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"usuario_creacion\",\"message\":\"Is mandatory\"},{\"type error\":\"PresenceOf\",\"field\":\"fecha_creacion\",\"message\":\"Is mandatory\"}]}"
+						}
+					}
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{products-dev}}/tipocambio/",
+							"host": ["{{products-dev}}/tipocambio/"]
+						}
+					}
+				}
+			]
+		}
+	]
+}
+			]}]}

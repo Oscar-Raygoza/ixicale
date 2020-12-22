@@ -38,8 +38,8 @@ f_name=${__DIR_SAVE/$__SF_BASH\//}
 
 #: Create folder if not exists
 [ ! -d $__DIR_SAVE ] && mkdir "$__DIR_SAVE"
-__URL='http://products-api-qa.clever.palace-resorts.local'
-__URL='http://dev.clever-api-events.local'
+__URL="http://$1-api-qa.clever.palace-resorts.local"
+__URL="http://dev.clever-api-$1.local"
 
 f_export='{\n\t"info": {\n\t\t"name": "'$f_name'",'
 f_export=$f_export'\n\t\t"schema": "/https://schema.getpostman.com/json/collection/v2.1.0/collection.json"\n\t'
@@ -99,8 +99,8 @@ while IFS= read -r line; do
     fi
     if [[ $line == *"->get('"* || $line == *"->post('"* || $line == *"->put('"* ]]; then
             f_export="$f_export\"url\": {$__BR\t\t"
-                f_export="$f_export\"raw\": \"{{api_replace-qa}}$link\",$__BR\t\t"
-                f_export="$f_export\"host\": [\"{{api_replace-qa}}$link\"]$__BR\t"
+                f_export="$f_export\"raw\": \"{{$1-dev}}$link\",$__BR\t\t"
+                f_export="$f_export\"host\": [\"{{$1-dev}}$link\"]$__BR\t"
             f_export="$f_export}"
         if [[ $line == *"->post('"* || $line == *"->put('"* ]]; then
             f_export="$f_export,$__BR\t\"response\": [],$__BR\t"
@@ -121,6 +121,7 @@ done < $__READ_FILE
 f_export="${f_export/%,/}\n\t\t\t]\n\t\t}\n\t]\n}"
 echo -e $f_export | xclip -sel clip
 echo -e $f_export > "$__DIR_SAVE/$f_name.json"
+echo "$__DIR_SAVE/$f_name.json"
 #endregion
 
 exit 0
