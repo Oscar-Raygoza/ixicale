@@ -1,0 +1,511 @@
+cd $NODE/clv-products-fe                                         hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:20:53⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+                                                                 hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣09:20:54⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣09:20:58⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gic pre.dev.2021.01.04.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2021.01.04.1'
+Tu rama está actualizada con 'origin/pre.dev.2021.01.04.1'.
+
+  ༆ ixicale༆   ⎣09:21:06⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2021.01.04.1 ✔ 
+gipl                                                                                       hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣09:21:10⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2021.01.04.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+
+  ༆ ixicale༆   ⎣09:21:13⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gime pre.dev.2021.01.04.1                                                                  hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣09:21:17⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔                                                                                            hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣09:21:18⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gic pre.dev.2021.01.04.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2021.01.04.1'
+Tu rama está actualizada con 'origin/pre.dev.2021.01.04.1'.
+
+  ༆ ixicale༆   ⎣09:21:20⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2021.01.04.1 ✔ 
+gimex                                                                                      hostname: [ix]
+Ya está actualizado.
+
+  ༆ ixicale༆   ⎣09:21:22⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2021.01.04.1 ✔ 
+gic dev                                                                                    hostname: [ix]
+Cambiado a rama 'dev'
+Tu rama está detrás de 'origin/dev' por 3 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣09:21:25⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ dev ↓3 ✔ 
+gipl                                                                                       hostname: [ix]
+Actualizando a7ce6d0..573de16
+Fast-forward
+ src/client/components/multi_service/index.js           |  2 +-
+ src/client/views/service/formService.js                | 21 ++++++++++++++-------
+ src/client/views/service/service.js                    |  9 ++++++++-
+ src/client/views/service_gallery/modal_service_form.js |  1 +
+ 4 files changed, 24 insertions(+), 9 deletions(-)
+  ༆ ixicale༆   ⎣09:21:28⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ dev ✔ 
+gime pre.dev.2021.01.04.1                                                                  hostname: [ix]
+Actualizando 573de16..a44215c
+Fast-forward
+ src/client/helper/services/index.js                    |  3 +-
+ src/client/views/service_gallery/modal_service_form.js | 87 +++++++++++++++++++++++---------------------
+ 2 files changed, 48 insertions(+), 42 deletions(-)
+
+  ༆ ixicale༆   ⎣09:21:31⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ dev ↑1 ✔ 
+gis;git show                                                                               hostname: [ix]
+En la rama dev
+Tu rama está adelantada a 'origin/dev' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣09:21:36⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ dev ↑1 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-products-fe.git
+   573de16..a44215c  dev -> dev
+
+  ༆ ixicale༆   ⎣09:21:43⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ dev ✔ 
+gic qa                                                                                     hostname: [ix]
+Cambiado a rama 'qa'
+Tu rama está detrás de 'origin/qa' por 4 commits, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+
+  ༆ ixicale༆   ⎣09:22:07⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ qa ↓4 ✔ ☗  clv-products-fe-qa.2021.02.03.1  
+gipl                                                                                       hostname: [ix]
+Actualizando 382afc4..af48554
+Fast-forward
+ src/client/components/multi_service/index.js           |  2 +-
+ src/client/views/service/formService.js                | 21 ++++++++++++++-------
+ src/client/views/service/service.js                    |  9 ++++++++-
+ src/client/views/service_gallery/modal_service_form.js |  1 +
+ 4 files changed, 24 insertions(+), 9 deletions(-)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit f321e56108059547a0baca3c6b916a440128de3d (HEAD -> qa)
+Merge: af48554 a44215c
+Author: ixicale <ixicaleescalante@gmail.com>
+Date:   Thu Feb 4 09:22:21 2021 -0500
+
+    Merge branch 'dev' into qa
+
+(END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[1]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[1]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[1]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[1]       | ./src/client/App.js 794 bytes [built]
+[1]       | ./src/client/home.js 293 bytes [built]
+[1]       | ./src/client/views/service/service.js 32 KiB [built]
+[1]       | ./src/client/Error404.js 223 bytes [built]
+[1]       | ./src/client/views/client/Client.js 2 KiB [built]
+[1]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[1]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[1]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[1]       | ./src/client/views/service_type/service_type.js 17.7 KiB [built]
+[1]       |     + 80 hidden modules
+[1]     + 311 hidden modules
+[1] 
+[1] WARNING in configuration
+[1] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[1] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[1] 
+[1] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[1] This can impact web performance.
+[1] Assets: 
+[1]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[1]   bundle.js (2.97 MiB)
+[1] 
+[1] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[1] Entrypoints:
+[1]   main (2.97 MiB)
+[1]       bundle.js
+[1] 
+[1] 
+[1] WARNING in webpack performance recommendations: 
+[1] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[1] For more info visit https://webpack.js.org/guides/code-splitting/
+[1] Child html-webpack-plugin for "index.html":
+[1]          Asset     Size  Chunks  Chunk Names
+[1]     index.html  537 KiB       0  
+[1]     Entrypoint undefined = index.html
+[1]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[1]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[1]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[1]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[1] ℹ ｢wdm｣: Compiled with warnings.^C[1] npm run server exited with code null
+
+
+  ༆ ixicale༆  ✘  ⎣13:45:39⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+logPostman                                                                                 hostname: [ix]
+/home/ixicale/.sf/SteampunkFactory-MySettings/logger/postman/2021.02feb.04.134542695046218.jueves.logger
+[2] 34790
+
+  ༆ ixicale༆  ⚙  ⎣13:45:42⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+(electron) 'getName function' is deprecated and will be removed. Please use 'name property' instead. [ix]
+
+
+  ༆ ixicale༆  ⚙  ⎣13:45:45⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+npm run dev                                                                                hostname: [ix]
+
+> clever-products@0.0.1 dev /var/www/html/NODE/clv-products-fe
+> concurrently "npm run copyconfig" "npm run server" 
+
+[0] 
+[0] > clever-products@0.0.1 copyconfig /var/www/html/NODE/clv-products-fe
+[0] > cp -R clever-component-library node_modules/
+[0] 
+[1] 
+[1] > clever-products@0.0.1 server /var/www/html/NODE/clv-products-fe
+[1] > APP_ENV=QA NODE_ENV=development PORT=9000 nodemon ./src/server/server.js
+[1] 
+[0] npm run copyconfig exited with code 0
+[1] [nodemon] 1.19.4
+[1] [nodemon] to restart at any time, enter `rs`
+[1] [nodemon] watching dir(s): *.*
+[1] [nodemon] watching extensions: js,mjs,json
+[1] [nodemon] starting `node ./src/server/server.js`
+[1] Mode: development Port: 9000
+[1] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[1] webpack built d4105a9a40a7d67f3b5e in 6399ms
+[1] ⚠ ｢wdm｣: Hash: d4105a9a40a7d67f3b5e
+[1] Version: webpack 4.44.2
+[1] Time: 6399ms
+[1] Built at: 2021-02-04 13:45:54
+[1]                                Asset      Size  Chunks                    Chunk Names
+[1] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[1]                            bundle.js  2.97 MiB       0  [emitted]  [big]  main
+[1]                           index.html   1.9 KiB          [emitted]         
+[1] Entrypoint main [big] = bundle.js
+[1]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[1]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[1]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[1]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[1]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.47 KiB {0} [built]
+[1]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[1]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[1]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[1]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[1]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[1]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[1]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[1]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[1] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[1] [243] ./src/client/index.js + 94 modules 798 KiB {0} [built]
+[1]       | ./src/client/index.js 458 bytes [built]
+[1]       | ./src/client/routes.js 4.7 KiB [built]
+[1]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[1]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[1]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[1]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[1]       | ./src/client/App.js 794 bytes [built]
+[1]       | ./src/client/home.js 293 bytes [built]
+[1]       | ./src/client/views/service/service.js 32 KiB [built]
+[1]       | ./src/client/Error404.js 223 bytes [built]
+[1]       | ./src/client/views/client/Client.js 2 KiB [built]
+[1]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[1]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[1]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[1]       | ./src/client/views/service_type/service_type.js 17.7 KiB [built]
+[1]       |     + 80 hidden modules
+[1]     + 311 hidden modules
+[1] 
+[1] WARNING in configuration
+[1] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[1] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[1] 
+[1] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[1] This can impact web performance.
+[1] Assets: 
+[1]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[1]   bundle.js (2.97 MiB)
+[1] 
+[1] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[1] Entrypoints:
+[1]   main (2.97 MiB)
+[1]       bundle.js
+[1] 
+[1] 
+[1] WARNING in webpack performance recommendations: 
+[1] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[1] For more info visit https://webpack.js.org/guides/code-splitting/
+[1] Child html-webpack-plugin for "index.html":
+[1]          Asset     Size  Chunks  Chunk Names
+[1]     index.html  537 KiB       0  
+[1]     Entrypoint undefined = index.html
+[1]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[1]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[1]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[1]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[1] ℹ ｢wdm｣: Compiled with warnings.[1] ℹ ｢wdm｣: Compiling...
+[1] webpack building...
+[1] webpack built 6aaad5234d50f8e365d1 in 3579ms
+[1] ⚠ ｢wdm｣: Hash: 6aaad5234d50f8e365d1
+[1] Version: webpack 4.44.2
+[1] Time: 3579ms
+[1] Built at: 2021-02-04 13:45:58
+[1]                                Asset      Size  Chunks                                      Chunk Names
+[1] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[1]                            bundle.js  2.97 MiB       0  [emitted]                    [big]  main
+[1] d4105a9a40a7d67f3b5e.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[1]                           index.html   1.9 KiB          [emitted]                           
+[1] Entrypoint main [big] = bundle.js
+[1]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[1]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[1]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[1]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[1]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.47 KiB {0} [built]
+[1]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[1]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[1]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[1]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[1]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[1]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[1]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[1]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[1] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[1] [243] ./src/client/index.js + 94 modules 798 KiB {0} [built]
+[1]       | ./src/client/index.js 458 bytes [built]
+[1]       | ./src/client/routes.js 4.7 KiB [built]
+[1]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[1]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[1]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[1]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[1]       | ./src/client/App.js 794 bytes [built]
+[1]       | ./src/client/home.js 293 bytes [built]
+[1]       | ./src/client/views/service/service.js 32 KiB [built]
+[1]       | ./src/client/Error404.js 223 bytes [built]
+[1]       | ./src/client/views/client/Client.js 2 KiB [built]
+[1]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[1]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[1]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[1]       | ./src/client/views/service_type/service_type.js 17.7 KiB [built]
+[1]       |     + 80 hidden modules
+[1]     + 311 hidden modules
+[1] 
+[1] WARNING in configuration
+[1] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[1] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[1] 
+[1] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[1] This can impact web performance.
+[1] Assets: 
+[1]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[1]   bundle.js (2.97 MiB)
+[1] 
+[1] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[1] Entrypoints:
+[1]   main (2.97 MiB)
+[1]       bundle.js
+[1] 
+[1] 
+[1] WARNING in webpack performance recommendations: 
+[1] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[1] For more info visit https://webpack.js.org/guides/code-splitting/
+[1] Child html-webpack-plugin for "index.html":
+[1]          Asset     Size  Chunks  Chunk Names
+[1]     index.html  537 KiB       1  
+[1]     Entrypoint undefined = index.html
+[1]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[1]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[1]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[1]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[1] ℹ ｢wdm｣: Compiled with warnings.

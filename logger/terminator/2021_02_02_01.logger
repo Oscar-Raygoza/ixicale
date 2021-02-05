@@ -1,0 +1,1395 @@
+y
+Updating Oh My Zsh
+
+remote: Enumerating objects: 169, done.
+remote: Counting objects: 100% (169/169), done.
+remote: Compressing objects: 100% (86/86), done.
+remote: Total 133 (delta 78), reused 101 (delta 46), pack-reused 0
+Recibiendo objetos: 100% (133/133), 28.15 KiB | 4.69 MiB/s, listo.
+Resolviendo deltas: 100% (78/78), completado con 26 objetos locales.
+Desde https://github.com/ohmyzsh/ohmyzsh
+ * branch            master     -> FETCH_HEAD
+   66e0438..c52e646  master     -> origin/master
+ .github/CODEOWNERS                                 |  1 +
+ LICENSE.txt                                        |  2 +-
+ lib/cli.zsh                                        |  4 +-
+ lib/functions.zsh                                  |  2 +-
+ lib/git.zsh                                        |  2 +-
+ lib/termsupport.zsh                                |  2 +-
+ plugins/colorize/colorize.plugin.zsh               |  2 +-
+ plugins/debian/debian.plugin.zsh                   |  4 +-
+ plugins/git-prompt/README.md                       |  2 +
+ plugins/git-prompt/git-prompt.plugin.zsh           | 12 +++-
+ plugins/git-prompt/gitstatus.py                    | 20 ++++++
+ plugins/jake-node/jake-node.plugin.zsh             |  2 +-
+ plugins/last-working-dir/README.md                 | 28 ++++++--
+ .../last-working-dir/last-working-dir.plugin.zsh   | 14 ++--
+ plugins/macports/_port                             |  1 +
+ plugins/term_tab/README                            | 16 +++++
+ plugins/term_tab/term_tab.plugin.zsh               | 41 +++++++++++
+ plugins/universalarchive/README.md                 | 46 ++++++++++++
+ plugins/universalarchive/_universalarchive         |  6 ++
+ .../universalarchive/universalarchive.plugin.zsh   | 70 ++++++++++++++++++
+ plugins/vi-mode/README.md                          | 84 +++++++++++++++-------
+ plugins/vi-mode/vi-mode.plugin.zsh                 | 21 ++++--
+ plugins/zbell/README.md                            | 30 ++++++++
+ plugins/zbell/zbell.plugin.zsh                     | 83 +++++++++++++++++++++
+ templates/zshrc.zsh-template                       |  2 +
+ themes/essembeh.zsh-theme                          | 60 ++++++++++------
+ themes/gallois.zsh-theme                           | 15 ++--
+ tools/changelog.sh                                 |  2 +-
+ tools/check_for_upgrade.sh                         |  4 +-
+ tools/upgrade.sh                                   |  2 +-
+ 30 files changed, 497 insertions(+), 83 deletions(-)
+ create mode 100644 plugins/term_tab/README
+ create mode 100644 plugins/term_tab/term_tab.plugin.zsh
+ create mode 100644 plugins/universalarchive/README.md
+ create mode 100644 plugins/universalarchive/_universalarchive
+ create mode 100644 plugins/universalarchive/universalarchive.plugin.zsh
+ create mode 100644 plugins/zbell/README.md
+ create mode 100644 plugins/zbell/zbell.plugin.zsh
+En primer lugar, rebobinando HEAD para después reproducir tus cambios encima de ésta...Avance rápido de master a c52e646bb7b109e15f6dc4047b29ca8c8e029433.
+master
+
+⚠ BREAKING CHANGES:
+
+ - 2118d35 [vi-mode]          The key binding to open an editor to edit the command line has been moved from being `v` (press v once) to being `vv` (press v twice). Now, the action for `v` is the default `visual-mode`, as is in Vim.
+
+Features:
+
+ - 172b32c [essembeh]         Update theme with new features (#9595)
+ - 47c04d9 [git-prompt]       Display stash count in prompt
+ - 6347741 [git-prompt]       Display untracked files count
+ - 869eb20 [last-working-dir] Log separate `lwd`s for different SSH keys on the same user account (#9534)
+ - fae34b3 [macports]         Add 'reclaim' to completion list for Macports (#9521)
+ - 6b0557a [plugins]          Add `term_tab` plugin to complete other zsh sessions' directories (#3018)
+ - 492f712 [plugins]          Add `universalarchive` plugin to conveniently compress files (#6846)
+ - 53aefc5 [plugins]          Add `zbell` plugin to notify when commands end (#3034)
+
+Bug fixes:
+ - 86f8052 [changelog]        Display scope in breaking change messages
+ - 3d51d63 [changelog]        Fix spacing in breaking changes message
+ - 6b57839 [CLI]              Show symlinked themes in `omz theme list`
+ - a3bdff6 [colorize]         Bypass less aliases in `colorize_less` (#9593)
+ - f484f88 [debian]           Add quotes to `kclean` alias (#3066)
+ - 6b8b625 [jake-node]        Support all Jakefile filenames in `jake` completion (#9589)
+ - c9bf8b4 [lib]              Update Emacs terminal detection in `title` function (#9577)
+ - 8b37f81 [lib]              Use -N syntax in `head` and `tail` to support Solaris (#6391)
+ - 3635d7c [universalarchive] Make plugin zsh-only to fix `realpath` not found error
+ - d978f38 [updater]          Refresh date of last update only on successful update
+ - 2118d35 [vi-mode]          Add back edit-command-line key binding as 'vv' (#9573)
+ - 79980b0 [vi-mode]          Hide cursor-change logic behind `VI_MODE_SET_CURSOR` setting
+ - efcbd9f [vi-mode]          Ignore `clip*` function errors in yank and put widgets
+
+Documentation:
+ - f75f8bb [git-prompt]       Explain stashed icon (⚑) (#9619)
+ - 94ce46d [vi-mode]          Revamp README and document settings
+
+Other changes:
+
+ - cd4918c                    Bump year to 2021
+ - c52e646 [gallois]          Refactor: Clean up theme and fix typos
+
+You can see the changelog with `omz changelog`
+         __                                     __   
+  ____  / /_     ____ ___  __  __   ____  _____/ /_  
+ / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \ 
+/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / / 
+\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/  
+                        /____/                       
+
+Hooray! Oh My Zsh has been updated!
+To keep up with the latest news and updates, follow us on Twitter: https://twitter.com/ohmyzsh
+Want to get involved in the community? Join our Discord: https://discord.gg/ohmyzsh
+Get your Oh My Zsh swag at: https://shop.planetargon.com/collections/oh-my-zsh
+
+  ༆ ixicale༆   ⎣08:46:28⎤  🚦 ~ 
+                                                                 hostname: [ix]
+
+  ༆ ixicale༆   ⎣08:46:28⎤  🚦 ~                                                                  hostname: [ix]
+
+  ༆ ixicale༆   ⎣08:46:29⎤  🚦 ~ 
+sudo apt update; sudo apt upgrade                                hostname: [ix]
+[sudo] contraseña para ixicale: 
+Ign:1 https://dbeaver.io/debs/dbeaver-ce  InRelease
+Obj:2 http://repo.mysql.com/apt/ubuntu focal InRelease                         
+Obj:3 http://dl.google.com/linux/chrome/deb stable InRelease                   
+Des:4 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]      
+Obj:5 http://mx.archive.ubuntu.com/ubuntu focal InRelease                      
+Ign:6 https://deb.nodesource.com/node_12.x focal InRelease                     
+Err:7 https://dbeaver.io/debs/dbeaver-ce  Release                              
+  Certificate verification failed: The certificate is NOT trusted. The certificate issuer is unknown.  Could not handshake: Error in the certificate verification. [IP: 104.131.190.124 443]
+Des:8 http://mx.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]     
+Err:9 https://deb.nodesource.com/node_12.x focal Release                       
+  Certificate verification failed: The certificate is NOT trusted. The certificate issuer is unknown.  Could not handshake: Error in the certificate verification. [IP: 184.28.98.101 443]
+Obj:10 http://ppa.launchpad.net/maarten-fonville/android-studio/ubuntu focal InRelease
+Des:11 http://mx.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]  
+Obj:12 http://ppa.launchpad.net/ondrej/php/ubuntu focal InRelease
+0% [Esperando las cabeceras] [Conectando a ppa.launchpad.net (91.189.95.85) [795 kB]
+Des:14 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease [16.0 kB]
+Des:15 http://mx.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages [415 kB]
+Err:14 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease
+  Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+Des:16 http://mx.archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [144 kB]
+Des:17 http://mx.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [737 kB]
+Des:18 http://mx.archive.ubuntu.com/ubuntu focal-updates/universe i386 Packages [547 kB]
+Leyendo lista de paquetes... Hecho                           
+E: El repositorio «https://dbeaver.io/debs/dbeaver-ce  Release» ya no tiene un archivo Release.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+E: El repositorio «https://deb.nodesource.com/node_12.x focal Release» ya no tiene un archivo Release.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+W: Error de GPG: http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease: Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+E: El repositorio «http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease» no está firmado.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Calculando la actualización... Hecho
+Se instalarán los siguientes paquetes NUEVOS:
+  linux-headers-5.8.0-41-generic linux-hwe-5.8-headers-5.8.0-41
+  linux-image-5.8.0-41-generic linux-modules-5.8.0-41-generic
+  linux-modules-extra-5.8.0-41-generic
+Se actualizarán los siguientes paquetes:
+  android-studio-4.1 base-files firefox firefox-locale-en firefox-locale-es
+  language-pack-en language-pack-en-base language-pack-es
+  language-pack-es-base language-pack-gnome-en language-pack-gnome-en-base
+  language-pack-gnome-es language-pack-gnome-es-base libc-bin libc-dev-bin
+  libc6 libc6-dbg libc6-dev libc6-i386 libfprint-2-2 libglib2.0-0
+  libglib2.0-bin libglib2.0-data libpulse-mainloop-glib0 libpulse0 libpulsedsp
+  libtracker-control-2.0-0 libtracker-miner-2.0-0 libtracker-sparql-2.0-0
+  linux-firmware linux-generic-hwe-20.04 linux-headers-generic-hwe-20.04
+  linux-image-generic-hwe-20.04 locales lshw pulseaudio
+  pulseaudio-module-bluetooth pulseaudio-utils python-apt-common python3-apt
+  python3-distupgrade python3-update-manager tracker tzdata
+  ubuntu-drivers-common ubuntu-release-upgrader-core
+  ubuntu-release-upgrader-gtk update-manager update-manager-core
+  update-notifier update-notifier-common
+51 actualizados, 5 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Se necesita descargar 273 MB/273 MB de archivos.
+Se utilizarán 405 MB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n]s
+Des:1 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 libc6-dbg amd64 2.31-0ubuntu9.2 [10.5 MB]
+Des:2 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 libc6-i386 amd64 2.31-0ubuntu9.2 [2 723 kB]
+Des:3 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 libc6-dev amd64 2.31-0ubuntu9.2 [2 520 kB]
+Des:4 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 libc-dev-bin amd64 2.31-0ubuntu9.2 [71.8 kB]
+Des:5 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 libc6 amd64 2.31-0ubuntu9.2 [2 715 kB]
+Des:6 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 base-files amd64 11ubuntu5.3 [60.6 kB]
+Des:7 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 locales all 2.31-0ubuntu9.2 [3 872 kB]
+Des:8 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 libc-bin amd64 2.31-0ubuntu9.2 [639 kB]
+Des:9 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 language-pack-en all 1:20.04+20210121 [1 896 B]
+Des:10 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 language-pack-en-base all 1:20.04+20210121 [442 kB]
+Des:11 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 language-pack-es all 1:20.04+20210121 [1 900 B]
+Des:12 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 language-pack-es-base all 1:20.04+20210121 [2 924 kB]
+11% [12 language-pack-es-base 4 232 B/2 924 kB 0%]    3 381 kB/s 1min 13age-pack-gnome-en all 1:20.04+20210121 [1 916 B]
+Des:14 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 language-pack-gnome-en-base all 1:20.04+20210121 [532 kB]
+Des:15 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 language-pack-gnome-es all 1:20.04+20210121 [1 924 B]
+Des:16 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 language-pack-gnome-es-base all 1:20.04+20210121 [2 992 kB]
+Des:17 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 libpulsedsp amd64 1:13.99.1-1ubuntu3.10 [21.7 kB]
+Des:18 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 pulseaudio-utils amd64 1:13.99.1-1ubuntu3.10 [54.9 kB]
+Des:19 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 libglib2.0-data all 2.64.6-1~ubuntu20.04.1 [6 120 B]
+Des:20 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 libglib2.0-bin amd64 2.64.6-1~ubuntu20.04.1 [72.6 kB]
+Des:21 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 libglib2.0-0 amd64 2.64.6-1~ubuntu20.04.1 [1 284 kB]
+Des:22 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 libpulse-mainloop-glib0 amd64 1:13.99.1-1ubuntu3.10 [11.7 kB]
+Des:23 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 pulseaudio-module-bluetooth amd64 1:13.99.1-1ubuntu3.10 [60.4 kB]
+Des:24 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 pulseaudio amd64 1:13.99.1-1ubuntu3.10 [815 kB]
+18% [24 pulseaudio 2 144 B/815 kB 0%]                      377 kB/s 10min 39 amd64 1:13.99.1-1ubuntu3.10 [262 kB]
+Des:26 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 python-apt-common all 2.0.0ubuntu0.20.04.4 [17.4 kB]
+Des:27 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-apt amd64 2.0.0ubuntu0.20.04.4 [154 kB]
+Des:28 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-drivers-common amd64 1:0.8.6.4~0.20.04.1 [52.3 kB]
+Des:29 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-release-upgrader-gtk all 1:20.04.30 [9 360 B]
+Des:30 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-release-upgrader-core all 1:20.04.30 [23.8 kB]
+Des:31 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 update-manager all 1:20.04.10.5 [551 kB]
+Des:32 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 update-manager-core all 1:20.04.10.5 [11.2 kB]
+Des:33 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-distupgrade all 1:20.04.30 [104 kB]
+Des:34 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-update-manager all 1:20.04.10.5 [38.0 kB]
+Des:35 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 update-notifier amd64 3.192.30.5 [56.2 kB]
+Des:36 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 update-notifier-common all 3.192.30.5 [131 kB]
+23% [36 update-notifier-common 32.8 kB/131 kB 25%]             492 kB/s 8min 6rs-5.8.0-41-generic amd64 5.8.0-41.46~20.04.1 [1 235 kB]
+Des:55 http://mx.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-headers-generic-hwe-20.04 amd64 5.8.0.41.46~20.04.27 [2 572 B]
+Descargados 273 MB en 7min 5s (642 kB/s)                                                                 
+Extrayendo plantillas para los paquetes: 100%
+Preconfigurando paquetes ...
+(Leyendo la base de datos ... 209131 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../libc6-dbg_2.31-0ubuntu9.2_amd64.deb ...
+Desempaquetando libc6-dbg:amd64 (2.31-0ubuntu9.2) sobre (2.31-0ubuntu9.1) ...
+Preparando para desempaquetar .../libc6-i386_2.31-0ubuntu9.2_amd64.deb ...
+Desempaquetando libc6-i386 (2.31-0ubuntu9.2) sobre (2.31-0ubuntu9.1) ...
+Preparando para desempaquetar .../libc6-dev_2.31-0ubuntu9.2_amd64.deb ...
+Desempaquetando libc6-dev:amd64 (2.31-0ubuntu9.2) sobre (2.31-0ubuntu9.1) ...
+Preparando para desempaquetar .../libc-dev-bin_2.31-0ubuntu9.2_amd64.deb ...
+Desempaquetando libc-dev-bin (2.31-0ubuntu9.2) sobre (2.31-0ubuntu9.1) ...
+Preparando para desempaquetar .../libc6_2.31-0ubuntu9.2_amd64.deb ...
+Desempaquetando libc6:amd64 (2.31-0ubuntu9.2) sobre (2.31-0ubuntu9.1) ...
+Configurando libc6:amd64 (2.31-0ubuntu9.2) ...
+(Leyendo la base de datos ... 209156 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../base-files_11ubuntu5.3_amd64.deb ...
+Warning: Stopping motd-news.service, but it can still be activated by:
+  motd-news.timer
+Desempaquetando base-files (11ubuntu5.3) sobre (11ubuntu5.2) ...
+Configurando base-files (11ubuntu5.3) ...
+Instalando una nueva versión del fichero de configuración /etc/issue ...
+Instalando una nueva versión del fichero de configuración /etc/issue.net ...
+Instalando una nueva versión del fichero de configuración /etc/lsb-release ...
+motd-news.service is a disabled or a static unit, not starting it.
+(Leyendo la base de datos ... 209156 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../locales_2.31-0ubuntu9.2_all.deb ...
+Desempaquetando locales (2.31-0ubuntu9.2) sobre (2.31-0ubuntu9.1) ...
+Preparando para desempaquetar .../libc-bin_2.31-0ubuntu9.2_amd64.deb ...
+Desempaquetando libc-bin (2.31-0ubuntu9.2) sobre (2.31-0ubuntu9.1) ...
+Configurando libc-bin (2.31-0ubuntu9.2) ...
+(Leyendo la base de datos ... 209156 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../00-android-studio-4.1_201.7042882~focal+0_amd64.deb ...
+--2021-02-02 08:54:05--  https://redirector.gvt1.com/edgedl/android/studio/ide-zips/4.1.2.0/android-studio
+-ide-201.7042882-linux.tar.gz
+Resolviendo redirector.gvt1.com (redirector.gvt1.com)...216.58.193.46, 2607:f8b0:4012:805::200e
+Conectando con redirector.gvt1.com (redirector.gvt1.com)[216.58.193.46]:443... conectado.
+ERROR: no se puede verificar el certificado de redirector.gvt1.com, emitido por “emailAddress=comunicacion
+es@palaceresorts.com,CN=pa-5220-cedis,OU=Comunicaciones,O=Palace Resorts SA de CV,L=Cancun,ST=Quintana Roo
+,C=MX”:
+  Se encontró un certificado autofirmado.
+Para conectar inseguramente a redirector.gvt1.com, use `--no-check-certificate'.
+SHA-256 Checksum mismatch, aborting installation
+dpkg: error al procesar el archivo /tmp/apt-dpkg-install-agK3cL/00-android-studio-4.1_201.7042882~focal+0_
+amd64.deb (--unpack):
+ el subproceso nuevo paquete android-studio-4.1 script pre-installation devolvió el código de salida de er
+ror 1
+Preparando para desempaquetar .../01-language-pack-en_1%3a20.04+20210121_all.deb ...
+Desempaquetando language-pack-en (1:20.04+20210121) sobre (1:20.04+20200709) ...
+Preparando para desempaquetar .../02-language-pack-en-base_1%3a20.04+20210121_all.deb ...
+Desempaquetando language-pack-en-base (1:20.04+20210121) sobre (1:20.04+20200709) ...
+Preparando para desempaquetar .../03-language-pack-es_1%3a20.04+20210121_all.deb ...
+Desempaquetando language-pack-es (1:20.04+20210121) sobre (1:20.04+20200709) ...
+Preparando para desempaquetar .../04-language-pack-es-base_1%3a20.04+20210121_all.deb ...
+Desempaquetando language-pack-es-base (1:20.04+20210121) sobre (1:20.04+20200709) ...
+Preparando para desempaquetar .../05-language-pack-gnome-en_1%3a20.04+20210121_all.deb ...
+Desempaquetando language-pack-gnome-en (1:20.04+20210121) sobre (1:20.04+20200709) ...
+Preparando para desempaquetar .../06-language-pack-gnome-en-base_1%3a20.04+20210121_all.deb ...
+Desempaquetando language-pack-gnome-en-base (1:20.04+20210121) sobre (1:20.04+20200709) ...
+Preparando para desempaquetar .../07-language-pack-gnome-es_1%3a20.04+20210121_all.deb ...
+Desempaquetando language-pack-gnome-es (1:20.04+20210121) sobre (1:20.04+20200709) ...
+Preparando para desempaquetar .../08-language-pack-gnome-es-base_1%3a20.04+20210121_all.deb ...
+Desempaquetando language-pack-gnome-es-base (1:20.04+20210121) sobre (1:20.04+20200709) ...
+Preparando para desempaquetar .../09-libpulsedsp_1%3a13.99.1-1ubuntu3.10_amd64.deb ...
+Desempaquetando libpulsedsp:amd64 (1:13.99.1-1ubuntu3.10) sobre (1:13.99.1-1ubuntu3.8) ...
+Preparando para desempaquetar .../10-pulseaudio-utils_1%3a13.99.1-1ubuntu3.10_amd64.deb ...
+Desempaquetando pulseaudio-utils (1:13.99.1-1ubuntu3.10) sobre (1:13.99.1-1ubuntu3.8) ...
+Preparando para desempaquetar .../11-libglib2.0-data_2.64.6-1~ubuntu20.04.1_all.deb ...
+Desempaquetando libglib2.0-data (2.64.6-1~ubuntu20.04.1) sobre (2.64.3-1~ubuntu20.04.1) ...
+Preparando para desempaquetar .../12-libglib2.0-bin_2.64.6-1~ubuntu20.04.1_amd64.deb ...
+Desempaquetando libglib2.0-bin (2.64.6-1~ubuntu20.04.1) sobre (2.64.3-1~ubuntu20.04.1) ...
+Preparando para desempaquetar .../13-libglib2.0-0_2.64.6-1~ubuntu20.04.1_amd64.deb ...
+Desempaquetando libglib2.0-0:amd64 (2.64.6-1~ubuntu20.04.1) sobre (2.64.3-1~ubuntu20.04.1) ...Preparando para desempaquetar .../14-libpulse-mainloop-glib0_1%3a13.99.1-1ubuntu3.10_amd64.deb ...
+Desempaquetando libpulse-mainloop-glib0:amd64 (1:13.99.1-1ubuntu3.10) sobre (1:13.99.1-1ubuntu3.8) ...
+Preparando para desempaquetar .../15-pulseaudio-module-bluetooth_1%3a13.99.1-1ubuntu3.10_amd64.deb ...
+Desempaquetando pulseaudio-module-bluetooth (1:13.99.1-1ubuntu3.10) sobre (1:13.99.1-1ubuntu3.8) ...
+Preparando para desempaquetar .../16-pulseaudio_1%3a13.99.1-1ubuntu3.10_amd64.deb ...
+Desempaquetando pulseaudio (1:13.99.1-1ubuntu3.10) sobre (1:13.99.1-1ubuntu3.8) ...
+Preparando para desempaquetar .../17-libpulse0_1%3a13.99.1-1ubuntu3.10_amd64.deb ...
+Desempaquetando libpulse0:amd64 (1:13.99.1-1ubuntu3.10) sobre (1:13.99.1-1ubuntu3.8) ...
+Preparando para desempaquetar .../18-python-apt-common_2.0.0ubuntu0.20.04.4_all.deb ...
+Desempaquetando python-apt-common (2.0.0ubuntu0.20.04.4) sobre (2.0.0ubuntu0.20.04.3) ...
+Preparando para desempaquetar .../19-python3-apt_2.0.0ubuntu0.20.04.4_amd64.deb ...
+Desempaquetando python3-apt (2.0.0ubuntu0.20.04.4) sobre (2.0.0ubuntu0.20.04.3) ...
+Preparando para desempaquetar .../20-ubuntu-drivers-common_1%3a0.8.6.4~0.20.04.1_amd64.deb ...
+Desempaquetando ubuntu-drivers-common (1:0.8.6.4~0.20.04.1) sobre (1:0.8.4~0.20.04.3) ...
+Preparando para desempaquetar .../21-ubuntu-release-upgrader-gtk_1%3a20.04.30_all.deb ...
+Desempaquetando ubuntu-release-upgrader-gtk (1:20.04.30) sobre (1:20.04.29) ...
+Preparando para desempaquetar .../22-ubuntu-release-upgrader-core_1%3a20.04.30_all.deb ...
+Desempaquetando ubuntu-release-upgrader-core (1:20.04.30) sobre (1:20.04.29) ...
+Preparando para desempaquetar .../23-update-manager_1%3a20.04.10.5_all.deb ...
+Desempaquetando update-manager (1:20.04.10.5) sobre (1:20.04.10.1) ...
+Preparando para desempaquetar .../24-update-manager-core_1%3a20.04.10.5_all.deb ...
+Desempaquetando update-manager-core (1:20.04.10.5) sobre (1:20.04.10.1) ...
+Preparando para desempaquetar .../25-python3-distupgrade_1%3a20.04.30_all.deb ...
+Desempaquetando python3-distupgrade (1:20.04.30) sobre (1:20.04.29) ...
+Preparando para desempaquetar .../26-python3-update-manager_1%3a20.04.10.5_all.deb ...
+Desempaquetando python3-update-manager (1:20.04.10.5) sobre (1:20.04.10.1) ...
+Preparando para desempaquetar .../27-update-notifier_3.192.30.5_amd64.deb ...
+Desempaquetando update-notifier (3.192.30.5) sobre (3.192.30.3) ...
+Preparando para desempaquetar .../28-update-notifier-common_3.192.30.5_all.deb ...
+Desempaquetando update-notifier-common (3.192.30.5) sobre (3.192.30.3) ...
+Preparando para desempaquetar .../29-tzdata_2021a-0ubuntu0.20.04_all.deb ...
+Desempaquetando tzdata (2021a-0ubuntu0.20.04) sobre (2020f-0ubuntu0.20.04.1) ...
+Preparando para desempaquetar .../30-lshw_02.18.85-0.3ubuntu2.20.04.1_amd64.deb ...
+Desempaquetando lshw (02.18.85-0.3ubuntu2.20.04.1) sobre (02.18.85-0.3ubuntu2) ...
+Preparando para desempaquetar .../31-firefox_85.0+build1-0ubuntu0.20.04.1_amd64.deb ...
+Desempaquetando firefox (85.0+build1-0ubuntu0.20.04.1) sobre (84.0.2+build1-0ubuntu0.20.04.1) ...
+Preparando para desempaquetar .../32-firefox-locale-en_85.0+build1-0ubuntu0.20.04.1_amd64.deb ...
+Desempaquetando firefox-locale-en (85.0+build1-0ubuntu0.20.04.1) sobre (84.0.2+build1-0ubuntu0.20.04.1) ..
+.Preparando para desempaquetar .../33-firefox-locale-es_85.0+build1-0ubuntu0.20.04.1_amd64.deb ...
+Desempaquetando firefox-locale-es (85.0+build1-0ubuntu0.20.04.1) sobre (84.0.2+build1-0ubuntu0.20.04.1) ..
+.
+Preparando para desempaquetar .../34-libfprint-2-2_1%3a1.90.2+tod1-0ubuntu1~20.04.4_amd64.deb ...
+Desempaquetando libfprint-2-2:amd64 (1:1.90.2+tod1-0ubuntu1~20.04.4) sobre (1:1.90.2+tod1-0ubuntu1~20.04.2
+) ...
+Preparando para desempaquetar .../35-libtracker-miner-2.0-0_2.3.6-0ubuntu1_amd64.deb ...
+Desempaquetando libtracker-miner-2.0-0:amd64 (2.3.6-0ubuntu1) sobre (2.3.4-1) ...
+Preparando para desempaquetar .../36-tracker_2.3.6-0ubuntu1_amd64.deb ...
+Desempaquetando tracker (2.3.6-0ubuntu1) sobre (2.3.4-1) ...
+Preparando para desempaquetar .../37-libtracker-control-2.0-0_2.3.6-0ubuntu1_amd64.deb ...
+Desempaquetando libtracker-control-2.0-0:amd64 (2.3.6-0ubuntu1) sobre (2.3.4-1) ...
+Preparando para desempaquetar .../38-libtracker-sparql-2.0-0_2.3.6-0ubuntu1_amd64.deb ...
+Desempaquetando libtracker-sparql-2.0-0:amd64 (2.3.6-0ubuntu1) sobre (2.3.4-1) ...
+Preparando para desempaquetar .../39-linux-firmware_1.187.9_all.deb ...
+Desempaquetando linux-firmware (1.187.9) sobre (1.187.8) ...
+Seleccionando el paquete linux-modules-5.8.0-41-generic previamente no seleccionado.
+Preparando para desempaquetar .../40-linux-modules-5.8.0-41-generic_5.8.0-41.46~20.04.1_amd64.deb ...
+Desempaquetando linux-modules-5.8.0-41-generic (5.8.0-41.46~20.04.1) ...
+Seleccionando el paquete linux-image-5.8.0-41-generic previamente no seleccionado.
+Preparando para desempaquetar .../41-linux-image-5.8.0-41-generic_5.8.0-41.46~20.04.1_amd64.deb ...
+Desempaquetando linux-image-5.8.0-41-generic (5.8.0-41.46~20.04.1) ...
+Seleccionando el paquete linux-modules-extra-5.8.0-41-generic previamente no seleccionado.
+Preparando para desempaquetar .../42-linux-modules-extra-5.8.0-41-generic_5.8.0-41.46~20.04.1_amd64.deb ..
+.
+Desempaquetando linux-modules-extra-5.8.0-41-generic (5.8.0-41.46~20.04.1) ...
+Preparando para desempaquetar .../43-linux-generic-hwe-20.04_5.8.0.41.46~20.04.27_amd64.deb ...
+Desempaquetando linux-generic-hwe-20.04 (5.8.0.41.46~20.04.27) sobre (5.8.0.40.45~20.04.25) ...
+Preparando para desempaquetar .../44-linux-image-generic-hwe-20.04_5.8.0.41.46~20.04.27_amd64.deb ...
+Desempaquetando linux-image-generic-hwe-20.04 (5.8.0.41.46~20.04.27) sobre (5.8.0.40.45~20.04.25) ...
+Seleccionando el paquete linux-hwe-5.8-headers-5.8.0-41 previamente no seleccionado.
+Preparando para desempaquetar .../45-linux-hwe-5.8-headers-5.8.0-41_5.8.0-41.46~20.04.1_all.deb ...
+Desempaquetando linux-hwe-5.8-headers-5.8.0-41 (5.8.0-41.46~20.04.1) ...
+Seleccionando el paquete linux-headers-5.8.0-41-generic previamente no seleccionado.
+Preparando para desempaquetar .../46-linux-headers-5.8.0-41-generic_5.8.0-41.46~20.04.1_amd64.deb ...
+Desempaquetando linux-headers-5.8.0-41-generic (5.8.0-41.46~20.04.1) ...
+Preparando para desempaquetar .../47-linux-headers-generic-hwe-20.04_5.8.0.41.46~20.04.27_amd64.deb ...
+Desempaquetando linux-headers-generic-hwe-20.04 (5.8.0.41.46~20.04.27) sobre (5.8.0.40.45~20.04.25) ...Se encontraron errores al procesar:
+ /tmp/apt-dpkg-install-agK3cL/00-android-studio-4.1_201.7042882~focal+0_amd64.deb
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+
+  ༆ ixicale༆  ✘  ⎣08:54:32⎤  🚦 ~ 
+sudo apt update; sudo apt upgrade                                                          hostname: [ix]
+Obj:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Obj:2 http://repo.mysql.com/apt/ubuntu focal InRelease                                                   
+Ign:3 https://deb.nodesource.com/node_12.x focal InRelease                                               
+Obj:4 http://mx.archive.ubuntu.com/ubuntu focal InRelease                                                
+Ign:5 https://dbeaver.io/debs/dbeaver-ce  InRelease                                                      
+Des:6 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]                                
+Err:7 https://deb.nodesource.com/node_12.x focal Release                                                 
+  Certificate verification failed: The certificate is NOT trusted. The certificate issuer is unknown.  Could not handshake: Error in the certificate verification. [IP: 184.28.22.35 443]
+Obj:8 http://mx.archive.ubuntu.com/ubuntu focal-updates InRelease                                        
+Err:9 https://dbeaver.io/debs/dbeaver-ce  Release                                                        
+  Certificate verification failed: The certificate is NOT trusted. The certificate issuer is unknown.  Could not handshake: Error in the certificate verification. [IP: 104.131.190.124 443]
+Des:10 http://mx.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]                            
+Obj:11 http://ppa.launchpad.net/maarten-fonville/android-studio/ubuntu focal InRelease          
+Obj:12 http://ppa.launchpad.net/ondrej/php/ubuntu focal InRelease                                        
+Des:13 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease [16.0 kB]     
+Err:13 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease
+  Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+Leyendo lista de paquetes... Hecho
+E: El repositorio «https://deb.nodesource.com/node_12.x focal Release» ya no tiene un archivo Release.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+E: El repositorio «https://dbeaver.io/debs/dbeaver-ce  Release» ya no tiene un archivo Release.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+W: Error de GPG: http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease: Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+E: El repositorio «http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease» no está firmado.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Calculando la actualización... Hecho
+Se actualizarán los siguientes paquetes:
+  android-studio-4.1
+1 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+52 no instalados del todo o eliminados.
+Se necesita descargar 0 B/5 592 B de archivos.
+Se utilizarán 0 B de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] n 
+Anulado.
+
+  ༆ ixicale༆  ✘  ⎣08:55:03⎤  🚦 ~ 
+sudo apt remove android-studio                                                             hostname: [ix]
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
+  android-studio-4.1 lib32gcc-s1 lib32gcc1 lib32stdc++6 lib32z1 libc6-i386
+Utilice «sudo apt autoremove» para eliminarlos.
+Los siguientes paquetes se ELIMINARÁN:
+  android-studio
+0 actualizados, 0 nuevos se instalarán, 1 para eliminar y 1 no actualizados.
+52 no instalados del todo o eliminados.
+Se liberarán 8 192 B después de esta operación.
+¿Desea continuar? [S/n] s
+(Leyendo la base de datos ... 246824 ficheros o directorios instalados actualmente.)
+Desinstalando android-studio (201.7042882~focal+0) ...
+Configurando libpulse0:amd64 (1:13.99.1-1ubuntu3.10) ...
+Configurando linux-firmware (1.187.9) ...
+update-initramfs: Generating /boot/initrd.img-5.8.0-40-generic
+update-initramfs: Generating /boot/initrd.img-5.8.0-38-generic
+Configurando libglib2.0-0:amd64 (2.64.6-1~ubuntu20.04.1) ...
+Configurando libpulsedsp:amd64 (1:13.99.1-1ubuntu3.10) ...
+Configurando lshw (02.18.85-0.3ubuntu2.20.04.1) ...
+Configurando locales (2.31-0ubuntu9.2) ...
+Generating locales (this might take a while)...
+  en_AG.UTF-... done
+  en_AU.UTF-8... done
+  en_BW.UTF-8... done
+  en_CA.UTF-8... done
+  en_DK.UTF-8... done
+  en_GB.UTF-8... done
+  en_HK.UTF-8... done
+  en_IE.UTF-8... done
+  en_IL.UTF-8... done
+  en_IN.UTF-8... done
+  en_NG.UTF-8... done
+  en_NZ.UTF-8... done
+  en_PH.UTF-8... done
+  en_SG.UTF-8... done
+  en_US.UTF-8... done
+  en_ZA.UTF-8... done
+  en_ZM.UTF-8... done
+  en_ZW.UTF-8... done
+  es_AR.UTF-8... done
+  es_BO.UTF-8... done
+  es_CL.UTF-8... done
+  es_CO.UTF-8... done
+  es_CR.UTF-8... done
+  es_CU.UTF-8... done
+  es_DO.UTF-8... done
+  es_EC.UTF-8... done
+  es_ES.UTF-8... done
+  es_GT.UTF-8... done
+  es_HN.UTF-8... done
+  es_MX.UTF-8... done
+  es_NI.UTF-8... done
+  es_PA.UTF-8... done
+  es_PE.UTF-8... done
+  es_PR.UTF-8... done
+  es_PY.UTF-8... done
+  es_SV.UTF-8... done
+  es_US.UTF-8... done
+  es_UY.UTF-8... done
+  es_VE.UTF-8.. done
+Generation complete.
+Configurando libc6-dbg:amd64 (2.31-0ubuntu9.2) ...
+Configurando tzdata (2021a-0ubuntu0.20.04) ...
+
+Current default time zone: 'America/Cancun'
+Local time is now:      Tue Feb  2 08:56:22 EST 2021.
+Universal Time is now:  Tue Feb  2 13:56:22 UTC 2021.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Configurando linux-hwe-5.8-headers-5.8.0-41 (5.8.0-41.46~20.04.1) ...
+Configurando libglib2.0-data (2.64.6-1~ubuntu20.04.1) ...
+Configurando linux-modules-5.8.0-41-generic (5.8.0-41.46~20.04.1) ...
+Configurando firefox-locale-en (85.0+build1-0ubuntu0.20.04.1) ...
+Configurando libpulse-mainloop-glib0:amd64 (1:13.99.1-1ubuntu3.10) ...
+Configurando pulseaudio-utils (1:13.99.1-1ubuntu3.10) ...
+Configurando libtracker-sparql-2.0-0:amd64 (2.3.6-0ubuntu1) ...
+Configurando libtracker-control-2.0-0:amd64 (2.3.6-0ubuntu1) ...
+Configurando libtracker-miner-2.0-0:amd64 (2.3.6-0ubuntu1) ...
+Configurando python-apt-common (2.0.0ubuntu0.20.04.4) ...
+Configurando firefox-locale-es (85.0+build1-0ubuntu0.20.04.1) ...
+Configurando libc6-i386 (2.31-0ubuntu9.2) ...
+Configurando libc-dev-bin (2.31-0ubuntu9.2) ...
+Configurando libfprint-2-2:amd64 (1:1.90.2+tod1-0ubuntu1~20.04.4) ...
+Configurando firefox (85.0+build1-0ubuntu0.20.04.1) ...
+Please restart all running instances of firefox, or you will experience problems.
+Configurando linux-image-5.8.0-41-generic (5.8.0-41.46~20.04.1) ...
+I: /boot/vmlinuz.old is now a symlink to vmlinuz-5.8.0-40-generic
+I: /boot/initrd.img.old is now a symlink to initrd.img-5.8.0-40-generic
+I: /boot/vmlinuz is now a symlink to vmlinuz-5.8.0-41-generic
+I: /boot/initrd.img is now a symlink to initrd.img-5.8.0-41-generic
+Configurando python3-apt (2.0.0ubuntu0.20.04.4) ...
+Configurando libglib2.0-bin (2.64.6-1~ubuntu20.04.1) ...
+Configurando linux-headers-5.8.0-41-generic (5.8.0-41.46~20.04.1) ...
+Configurando pulseaudio (1:13.99.1-1ubuntu3.10) ...
+Configurando linux-headers-generic-hwe-20.04 (5.8.0.41.46~20.04.27) ...
+Configurando pulseaudio-module-bluetooth (1:13.99.1-1ubuntu3.10) ...
+Configurando libc6-dev:amd64 (2.31-0ubuntu9.2) ...Configurando linux-modules-extra-5.8.0-41-generic (5.8.0-41.46~20.04.1) ...
+Configurando linux-image-generic-hwe-20.04 (5.8.0.41.46~20.04.27) ...
+Configurando tracker (2.3.6-0ubuntu1) ...
+Configurando ubuntu-drivers-common (1:0.8.6.4~0.20.04.1) ...
+Configurando linux-generic-hwe-20.04 (5.8.0.41.46~20.04.27) ...
+Configurando language-pack-es (1:20.04+20210121) ...
+Configurando language-pack-gnome-es (1:20.04+20210121) ...
+Configurando language-pack-en (1:20.04+20210121) ...
+Configurando language-pack-gnome-es-base (1:20.04+20210121) ...
+Configurando python3-update-manager (1:20.04.10.5) ...
+Configurando language-pack-es-base (1:20.04+20210121) ...
+Generating locales (this might take a while)...
+Generation complete.
+Configurando language-pack-gnome-en (1:20.04+20210121) ...
+Configurando language-pack-en-base (1:20.04+20210121) ...
+Generating locales (this might take a while)...
+Generation complete.
+Configurando python3-distupgrade (1:20.04.30) ...
+Configurando ubuntu-release-upgrader-core (1:20.04.30) ...
+Configurando update-manager-core (1:20.04.10.5) ...
+Configurando ubuntu-release-upgrader-gtk (1:20.04.30) ...
+Configurando language-pack-gnome-en-base (1:20.04+20210121) ...
+Configurando update-notifier-common (3.192.30.5) ...
+Configurando update-notifier (3.192.30.5) ...
+Configurando update-manager (1:20.04.10.5) ...
+Procesando disparadores para systemd (245.4-4ubuntu3.4) ...
+Procesando disparadores para man-db (2.9.1-1) ...
+Procesando disparadores para cracklib-runtime (2.9.6-3.2) ...
+Procesando disparadores para plymouth-theme-ubuntu-text (0.9.4git20200323-0ubuntu6.2) ...
+update-initramfs: deferring update (trigger activated)
+Procesando disparadores para dbus (1.12.16-2ubuntu2.1) ...
+Procesando disparadores para install-info (6.7.0.dfsg.2-5) ...
+Procesando disparadores para desktop-file-utils (0.24-1ubuntu3) ...
+Procesando disparadores para mime-support (3.64ubuntu1) ...
+Procesando disparadores para hicolor-icon-theme (0.17-2) ...
+Procesando disparadores para gnome-menus (3.36.0-1ubuntu1) ...
+Procesando disparadores para libc-bin (2.31-0ubuntu9.2) ...
+Procesando disparadores para linux-image-5.8.0-41-generic (5.8.0-41.46~20.04.1) .../etc/kernel/postinst.d/initramfs-tools:
+update-initramfs: Generating /boot/initrd.img-5.8.0-41-generic
+/etc/kernel/postinst.d/zz-update-grub:
+Obteniendo el archivo «/etc/default/grub»
+Obteniendo el archivo «/etc/default/grub.d/init-select.cfg»
+Generando un fichero de configuración de grub...
+Encontrada imagen de linux: /boot/vmlinuz-5.8.0-41-generic
+Encontrada imagen de memoria inicial: /boot/initrd.img-5.8.0-41-generic
+Encontrada imagen de linux: /boot/vmlinuz-5.8.0-40-generic
+Encontrada imagen de memoria inicial: /boot/initrd.img-5.8.0-40-generic
+Encontrada imagen de linux: /boot/vmlinuz-5.8.0-38-generic
+Encontrada imagen de memoria inicial: /boot/initrd.img-5.8.0-38-generic
+Adding boot menu entry for UEFI Firmware Settings
+hecho
+Procesando disparadores para initramfs-tools (0.136ubuntu6.3) ...
+update-initramfs: Generating /boot/initrd.img-5.8.0-41-generic
+
+  ༆ ixicale༆   ⎣08:57:02⎤  🚦 ~ 
+sudo apt update; sudo apt upgrade                                                          hostname: [ix]
+Ign:1 https://dbeaver.io/debs/dbeaver-ce  InRelease
+Obj:2 http://dl.google.com/linux/chrome/deb stable InRelease                                             
+Obj:3 http://mx.archive.ubuntu.com/ubuntu focal InRelease                                                
+Obj:4 http://repo.mysql.com/apt/ubuntu focal InRelease                                                   
+Ign:5 https://deb.nodesource.com/node_12.x focal InRelease                                               
+Err:6 https://dbeaver.io/debs/dbeaver-ce  Release                                                        
+  Certificate verification failed: The certificate is NOT trusted. The certificate issuer is unknown.  Could not handshake: Error in the certificate verification. [IP: 104.131.190.124 443]
+Obj:7 http://mx.archive.ubuntu.com/ubuntu focal-updates InRelease                                        
+Des:8 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]                                
+Des:9 http://mx.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]                             
+Err:10 https://deb.nodesource.com/node_12.x focal Release                                                
+  Certificate verification failed: The certificate is NOT trusted. The certificate issuer is unknown.  Could not handshake: Error in the certificate verification. [IP: 184.28.22.35 443]
+Obj:11 http://ppa.launchpad.net/maarten-fonville/android-studio/ubuntu focal InRelease                   
+Obj:12 http://ppa.launchpad.net/ondrej/php/ubuntu focal InRelease                                        
+Des:13 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease [16.0 kB]   
+Err:13 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease
+  Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367Leyendo lista de paquetes... Hecho
+E: El repositorio «https://dbeaver.io/debs/dbeaver-ce  Release» ya no tiene un archivo Release.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+E: El repositorio «https://deb.nodesource.com/node_12.x focal Release» ya no tiene un archivo Release.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+W: Error de GPG: http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease: Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+E: El repositorio «http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease» no está firmado.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Calculando la actualización... Hecho
+Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
+  android-studio-4.1 lib32gcc-s1 lib32gcc1 lib32stdc++6 lib32z1 libc6-i386
+  linux-headers-5.8.0-38-generic linux-hwe-5.8-headers-5.8.0-38 linux-image-5.8.0-38-generic
+  linux-modules-5.8.0-38-generic linux-modules-extra-5.8.0-38-generic
+Utilice «sudo apt autoremove» para eliminarlos.
+Se actualizarán los siguientes paquetes:
+  android-studio-4.1
+1 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Se necesita descargar 0 B/5 592 B de archivos.
+Se utilizarán 0 B de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] n
+Anulado.
+
+  ༆ ixicale༆  ✘  ⎣08:57:22⎤  🚦 ~ 
+sudo apt remove android-studio-4.1                                                         hostname: [ix]
+Leyendo lista de paquetes... HechoCreando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
+  lib32gcc-s1 lib32gcc1 lib32stdc++6 lib32z1 libc6-i386 linux-headers-5.8.0-38-generic
+  linux-hwe-5.8-headers-5.8.0-38 linux-image-5.8.0-38-generic linux-modules-5.8.0-38-generic
+  linux-modules-extra-5.8.0-38-generic
+Utilice «sudo apt autoremove» para eliminarlos.
+Los siguientes paquetes se ELIMINARÁN:
+  android-studio-4.1
+0 actualizados, 0 nuevos se instalarán, 1 para eliminar y 0 no actualizados.
+Se liberarán 28.7 kB después de esta operación.
+¿Desea continuar? [S/n] s
+(Leyendo la base de datos ... 246821 ficheros o directorios instalados actualmente.)
+Desinstalando android-studio-4.1 (201.6953283~focal+2) ...
+Procesando disparadores para mime-support (3.64ubuntu1) ...
+Procesando disparadores para hicolor-icon-theme (0.17-2) ...
+Procesando disparadores para gnome-menus (3.36.0-1ubuntu1) ...
+Procesando disparadores para desktop-file-utils (0.24-1ubuntu3) ...
+
+  ༆ ixicale༆   ⎣08:57:32⎤  🚦 ~ 
+sudo apt update; sudo apt upgrade                                                          hostname: [ix]
+Ign:1 https://dbeaver.io/debs/dbeaver-ce  InRelease
+Obj:2 http://dl.google.com/linux/chrome/deb stable InRelease                                             
+Obj:3 http://repo.mysql.com/apt/ubuntu focal InRelease                                                   
+Ign:4 https://deb.nodesource.com/node_12.x focal InRelease                                               
+Des:5 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]                                
+Obj:6 http://mx.archive.ubuntu.com/ubuntu focal InRelease                                                
+Err:7 https://dbeaver.io/debs/dbeaver-ce  Release                                                        
+  Certificate verification failed: The certificate is NOT trusted. The certificate issuer is unknown.  Could not handshake: Error in the certificate verification. [IP: 104.131.190.124 443]
+Obj:8 http://mx.archive.ubuntu.com/ubuntu focal-updates InRelease                                        
+Err:9 https://deb.nodesource.com/node_12.x focal Release                                                 
+  Certificate verification failed: The certificate is NOT trusted. The certificate issuer is unknown.  Could not handshake: Error in the certificate verification. [IP: 184.28.22.57 443]
+Des:10 http://mx.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]                            
+Obj:11 http://ppa.launchpad.net/maarten-fonville/android-studio/ubuntu focal InRelease
+Obj:12 http://ppa.launchpad.net/ondrej/php/ubuntu focal InRelease                   
+Des:13 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease [16.0 kB]     
+0% [13 InRelease 9 812 B/16.0 kB 61%le/ansible/ubuntu wily InRelease
+  Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+Leyendo lista de paquetes... Hecho
+E: El repositorio «https://dbeaver.io/debs/dbeaver-ce  Release» ya no tiene un archivo Release.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+E: El repositorio «https://deb.nodesource.com/node_12.x focal Release» ya no tiene un archivo Release.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+W: Error de GPG: http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease: Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+E: El repositorio «http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease» no está firmado.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Calculando la actualización... Hecho
+Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
+  lib32gcc-s1 lib32gcc1 lib32stdc++6 lib32z1 libc6-i386 linux-headers-5.8.0-38-generic
+  linux-hwe-5.8-headers-5.8.0-38 linux-image-5.8.0-38-generic linux-modules-5.8.0-38-generic
+  linux-modules-extra-5.8.0-38-generic
+Utilice «sudo apt autoremove» para eliminarlos.
+0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+
+  ༆ ixicale༆   ⎣08:57:39⎤  🚦 ~ 
+sudo apt autoremove                                                                        hostname: [ix]
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Los siguientes paquetes se ELIMINARÁN:
+  lib32gcc-s1 lib32gcc1 lib32stdc++6 lib32z1 libc6-i386 linux-headers-5.8.0-38-generic
+  linux-hwe-5.8-headers-5.8.0-38 linux-image-5.8.0-38-generic linux-modules-5.8.0-38-generic
+  linux-modules-extra-5.8.0-38-generic
+0 actualizados, 0 nuevos se instalarán, 10 para eliminar y 0 no actualizados.
+Se liberarán 390 MB después de esta operación.
+¿Desea continuar? [S/n]s
+(Leyendo la base de datos ... 246815 ficheros o directorios instalados actualmente.)
+Desinstalando lib32stdc++6 (10.2.0-5ubuntu1~20.04) ...
+Desinstalando lib32gcc1 (1:10.2.0-5ubuntu1~20.04) ...
+Desinstalando lib32gcc-s1 (10.2.0-5ubuntu1~20.04) ...
+Desinstalando lib32z1 (1:1.2.11.dfsg-2ubuntu1.2) ...
+Desinstalando libc6-i386 (2.31-0ubuntu9.2) ...
+Desinstalando linux-headers-5.8.0-38-generic (5.8.0-38.43~20.04.1) ...
+Desinstalando linux-hwe-5.8-headers-5.8.0-38 (5.8.0-38.43~20.04.1) ...
+Desinstalando linux-modules-extra-5.8.0-38-generic (5.8.0-38.43~20.04.1) ...
+Desinstalando linux-image-5.8.0-38-generic (5.8.0-38.43~20.04.1) ...
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.8.0-38-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Obteniendo el archivo «/etc/default/grub»
+Obteniendo el archivo «/etc/default/grub.d/init-select.cfg»
+Generando un fichero de configuración de grub...
+Encontrada imagen de linux: /boot/vmlinuz-5.8.0-41-generic
+Encontrada imagen de memoria inicial: /boot/initrd.img-5.8.0-41-generic
+Encontrada imagen de linux: /boot/vmlinuz-5.8.0-40-generic
+Encontrada imagen de memoria inicial: /boot/initrd.img-5.8.0-40-generic
+Adding boot menu entry for UEFI Firmware Settings
+hecho
+Desinstalando linux-modules-5.8.0-38-generic (5.8.0-38.43~20.04.1) ...
+Procesando disparadores para libc-bin (2.31-0ubuntu9.2) ...
+
+  ༆ ixicale༆   ⎣08:58:00⎤  🚦 ~ 
+sudo apt update; sudo apt upgrade                                                          hostname: [ix]
+Obj:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Obj:2 http://repo.mysql.com/apt/ubuntu focal InRelease                                                   
+Ign:3 https://deb.nodesource.com/node_12.x focal InRelease                                               
+Des:4 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]                                
+Ign:5 https://dbeaver.io/debs/dbeaver-ce  InRelease                                                      
+Obj:6 http://mx.archive.ubuntu.com/ubuntu focal InRelease                                                
+Err:7 https://deb.nodesource.com/node_12.x focal Release                                                 
+  Certificate verification failed: The certificate is NOT trusted. The certificate issuer is unknown.  Could not handshake: Error in the certificate verification. [IP: 184.28.22.35 443]
+Err:8 https://dbeaver.io/debs/dbeaver-ce  Release                                                        
+  Certificate verification failed: The certificate is NOT trusted. The certificate issuer is unknown.  Could not handshake: Error in the certificate verification. [IP: 104.131.190.124 443]
+0% [Esperando las cabeceras] [4 InRelease 51.8 kB/109 kB 47%] [Esperando las cabeceras                  
+Obj:10 http://ppa.launchpad.net/maarten-fonville/android-studio/ubuntu focal InRelease 
+Des:11 http://mx.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]                            
+Obj:12 http://ppa.launchpad.net/ondrej/php/ubuntu focal InRelease           
+Des:13 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease [16.0 kB]     
+Err:13 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease
+  Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+Leyendo lista de paquetes... Hecho
+E: El repositorio «https://deb.nodesource.com/node_12.x focal Release» ya no tiene un archivo Release.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+E: El repositorio «https://dbeaver.io/debs/dbeaver-ce  Release» ya no tiene un archivo Release.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+W: Error de GPG: http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease: Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+E: El repositorio «http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease» no está firmado.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Calculando la actualización... Hecho
+0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+
+  ༆ ixicale༆   ⎣08:58:11⎤  🚦 ~ 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:00:11⎤  🚦 ~ 
+sudo apt update; sudo apt upgrade                                                          hostname: [ix]
+Ign:1 https://dbeaver.io/debs/dbeaver-ce  InRelease
+0% [Conectando a mx.archive.ubuntu.com (91.189.88.152)] [Esperando las cabeceras] [Esperando las cabecer
+Ign:3 https://deb.nodesource.com/node_12.x focal InRelease                                               
+Obj:4 http://dl.google.com/linux/chrome/deb stable InRelease                                             
+Obj:5 http://repo.mysql.com/apt/ubuntu focal InRelease                                                   
+Err:6 https://dbeaver.io/debs/dbeaver-ce  Release                                                        
+  Certificate verification failed: The certificate is NOT trusted. The certificate issuer is unknown.  Could not handshake: Error in the certificate verification. [IP: 104.131.190.124 443]
+Err:7 https://deb.nodesource.com/node_12.x focal Release                                                 
+  Certificate verification failed: The certificate is NOT trusted. The certificate issuer is unknown.  Could not handshake: Error in the certificate verification. [IP: 184.28.22.35 443]
+Obj:8 http://mx.archive.ubuntu.com/ubuntu focal InRelease                                                
+Obj:9 http://ppa.launchpad.net/maarten-fonville/android-studio/ubuntu focal InRelease  
+Obj:10 http://mx.archive.ubuntu.com/ubuntu focal-updates InRelease          
+Des:11 http://mx.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
+Obj:12 http://ppa.launchpad.net/ondrej/php/ubuntu focal InRelease
+Des:13 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease [16.0 kB]     
+Err:13 http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease               
+  Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+Leyendo lista de paquetes... Hecho
+E: El repositorio «https://dbeaver.io/debs/dbeaver-ce  Release» ya no tiene un archivo Release.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+E: El repositorio «https://deb.nodesource.com/node_12.x focal Release» ya no tiene un archivo Release.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+W: Error de GPG: http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease: Las firmas siguientes no se pudieron verificar porque su clave pública no está disponible: NO_PUBKEY 93C4A3FD7BB9C367
+E: El repositorio «http://ppa.launchpad.net/ansible/ansible/ubuntu wily InRelease» no está firmado.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+Leyendo lista de paquetes... HechoCreando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Calculando la actualización... Hecho
+0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+
+  ༆ ixicale༆   ⎣09:00:20⎤  🚦 ~ 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:00:23⎤  🚦 ~ 
+cd $NODE/clv-products-fe                                                                   hostname: [ix]
+
+  ༆ ixicale༆   ⎣09:00:26⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+npm run dev                                                                                hostname: [ix]
+
+> clever-products@0.0.1 dev /var/www/html/NODE/clv-products-fe
+> concurrently "npm run copyconfig" "npm run server" 
+
+[1] 
+[1] > clever-products@0.0.1 server /var/www/html/NODE/clv-products-fe
+[1] > APP_ENV=QA NODE_ENV=development PORT=9000 nodemon ./src/server/server.js
+[1] 
+[0] 
+[0] > clever-products@0.0.1 copyconfig /var/www/html/NODE/clv-products-fe
+[0] > cp -R clever-component-library node_modules/
+[0] 
+[0] npm run copyconfig exited with code 0
+[1] [nodemon] 1.19.4
+[1] [nodemon] to restart at any time, enter `rs`
+[1] [nodemon] watching dir(s): *.*
+[1] [nodemon] watching extensions: js,mjs,json
+[1] [nodemon] starting `node ./src/server/server.js`
+[1] Mode: development Port: 9000
+[1] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[1] webpack built 1620fd8eab46c7c6689a in 25710ms
+[1] ⚠ ｢wdm｣: Hash: 1620fd8eab46c7c6689a
+[1] Version: webpack 4.44.2
+[1] Time: 25710ms
+[1] Built at: 2021-02-02 9:01:00
+[1]                                Asset      Size  Chunks                    Chunk Names
+[1] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[1]                            bundle.js  2.97 MiB       0  [emitted]  [big]  main
+[1]                           index.html   1.9 KiB          [emitted]         
+[1] Entrypoint main [big] = bundle.js
+[1]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[1]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[1]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[1]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[1]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.47 KiB {0} [built]
+[1]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[1]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[1]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[1]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[1]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[1]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[1]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[1]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[1] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[1] [243] ./src/client/index.js + 94 modules 797 KiB {0} [built]
+[1]       | ./src/client/index.js 458 bytes [built]
+[1]       | ./src/client/routes.js 4.7 KiB [built]
+[1]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[1]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[1]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[1]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[1]       | ./src/client/App.js 794 bytes [built]
+[1]       | ./src/client/home.js 293 bytes [built]
+[1]       | ./src/client/views/service/service.js 32.4 KiB [built]
+[1]       | ./src/client/Error404.js 223 bytes [built]
+[1]       | ./src/client/views/client/Client.js 2 KiB [built]
+[1]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[1]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[1]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[1]       | ./src/client/views/service_type/service_type.js 17.7 KiB [built]
+[1]       |     + 80 hidden modules
+[1]     + 311 hidden modules
+[1] 
+[1] WARNING in configuration
+[1] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[1] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[1] 
+[1] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[1] This can impact web performance.
+[1] Assets: 
+[1]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[1]   bundle.js (2.97 MiB)
+[1] 
+[1] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[1] Entrypoints:
+[1]   main (2.97 MiB)
+[1]       bundle.js
+[1] 
+[1] 
+[1] WARNING in webpack performance recommendations: 
+[1] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[1] For more info visit https://webpack.js.org/guides/code-splitting/
+[1] Child html-webpack-plugin for "index.html":
+[1]          Asset     Size  Chunks  Chunk Names
+[1]     index.html  537 KiB       0  
+[1]     Entrypoint undefined = index.html
+[1]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[1]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[1]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[1]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[1] ℹ ｢wdm｣: Compiled with warnings.[1] ℹ ｢wdm｣: Compiling...
+[1] webpack building...
+[1] [nodemon] restarting due to changes...
+[1] [nodemon] starting `node ./src/server/server.js`
+[1] Mode: development Port: 9000
+[1] clean-webpack-plugin: /var/www/html/NODE/clv-products-fe/dist has been removed.
+[1] ℹ ｢wdm｣: wait until bundle finished: /gallery
+[1] webpack built 39a889d79528a5583dbb in 18799ms
+[1] ⚠ ｢wdm｣: Hash: 39a889d79528a5583dbb
+[1] Version: webpack 4.44.2
+[1] Time: 18799ms
+[1] Built at: 2021-02-02 9:12:13
+[1]                                Asset      Size  Chunks                    Chunk Names
+[1] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]  [big]  
+[1]                            bundle.js  2.97 MiB       0  [emitted]  [big]  main
+[1]                           index.html   1.9 KiB          [emitted]         
+[1] Entrypoint main [big] = bundle.js
+[1]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[1]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[1]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[1]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[1]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.47 KiB {0} [built]
+[1]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[1]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[1]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[1]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[1]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[1]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[1]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[1]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[1] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[1] [243] ./src/client/index.js + 94 modules 797 KiB {0} [built]
+[1]       | ./src/client/index.js 458 bytes [built]
+[1]       | ./src/client/routes.js 4.7 KiB [built]
+[1]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[1]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[1]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[1]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[1]       | ./src/client/App.js 794 bytes [built]
+[1]       | ./src/client/home.js 293 bytes [built]
+[1]       | ./src/client/views/service/service.js 32.4 KiB [built]
+[1]       | ./src/client/Error404.js 223 bytes [built]
+[1]       | ./src/client/views/client/Client.js 2 KiB [built]
+[1]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[1]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[1]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[1]       | ./src/client/views/service_type/service_type.js 17.7 KiB [built]
+[1]       |     + 80 hidden modules
+[1]     + 311 hidden modules
+[1] 
+[1] WARNING in configuration
+[1] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[1] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[1] 
+[1] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[1] This can impact web performance.
+[1] Assets: 
+[1]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[1]   bundle.js (2.97 MiB)
+[1] 
+[1] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[1] Entrypoints:
+[1]   main (2.97 MiB)
+[1]       bundle.js
+[1] 
+[1] 
+[1] WARNING in webpack performance recommendations: 
+[1] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[1] For more info visit https://webpack.js.org/guides/code-splitting/
+[1] Child html-webpack-plugin for "index.html":
+[1]          Asset     Size  Chunks  Chunk Names
+[1]     index.html  537 KiB       0  
+[1]     Entrypoint undefined = index.html
+[1]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {0} [built]
+[1]     [1] ./node_modules/lodash/lodash.js 530 KiB {0} [built]
+[1]     [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+[1]     [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+[1] ℹ ｢wdm｣: Compiled with warnings.[1] ℹ ｢wdm｣: Compiling...
+[1] webpack building...
+[1] ℹ ｢wdm｣: wait until bundle finished: /dist/xlsx.full.min.js
+[1] ℹ ｢wdm｣: wait until bundle finished: /bundle.js
+[1] ℹ ｢wdm｣: wait until bundle finished: /cleverLibrary/css/materialize.css.map
+[1] webpack built 2cbae9ba6c2b77ba1d9d in 17990ms
+[1] ⚠ ｢wdm｣: Hash: 2cbae9ba6c2b77ba1d9d
+[1] Version: webpack 4.44.2
+[1] Time: 17990ms
+[1] Built at: 2021-02-02 9:12:32
+[1]                                Asset      Size  Chunks                                      Chunk Names
+[1] 39a889d79528a5583dbb.hot-update.json  35 bytes          [emitted] [immutable] [hmr]         
+[1] 5f993143ddf4e2b8ba5746a032c94f1e.jpg   380 KiB          [emitted]                    [big]  
+[1]                            bundle.js  2.97 MiB       0  [emitted]                    [big]  main
+[1]                           index.html   1.9 KiB          [emitted]                           
+[1] Entrypoint main [big] = bundle.js
+[1]   [0] ./node_modules/react/index.js 190 bytes {0} [built]
+[1]   [2] ./node_modules/clever-component-library/build/index.js 6.02 KiB {0} [built]
+[1]   [7] ./node_modules/react-dom/index.js 1.33 KiB {0} [built]
+[1]   [8] ./node_modules/clever-component-library/build/node/Util.js 51.4 KiB {0} [built]
+[1]  [14] ./node_modules/clever-component-library/build/node/CleverConfig.js 7.47 KiB {0} [built]
+[1]  [15] ./node_modules/clever-component-library/build/node/CleverMethodsApi.js 3.24 KiB {0} [built]
+[1]  [26] ./node_modules/clever-component-library/build/node/CleverRequest.js 5.21 KiB {0} [built]
+[1]  [27] ./node_modules/clever-component-library/build/react/loader/Loading.js 809 bytes {0} [built]
+[1]  [36] ./node_modules/clever-component-library/build/react/calendar/base/dateUtils.js 10.9 KiB {0} [built]
+[1]  [87] ./node_modules/clever-component-library/build/node/i18n.js 7.15 KiB {0} [built]
+[1]  [88] ./node_modules/clever-component-library/build/react/alert/Alert.js 1.98 KiB {0} [built]
+[1]  [90] ./node_modules/clever-component-library/build/react/label/Label.js 1.46 KiB {0} [built]
+[1]  [91] ./node_modules/clever-component-library/build/react/loader/Loader.js 2.98 KiB {0} [built]
+[1] [121] ./node_modules/react-router-dom/es/index.js 1010 bytes [built]
+[1] [243] ./src/client/index.js + 94 modules 797 KiB {0} [built]
+[1]       | ./src/client/index.js 458 bytes [built]
+[1]       | ./src/client/routes.js 4.7 KiB [built]
+[1]       | ./node_modules/react-router-dom/es/Router.js 131 bytes [built]
+[1]       | ./node_modules/react-router-dom/es/BrowserRouter.js 2.36 KiB [built]
+[1]       | ./node_modules/react-router-dom/es/Switch.js 131 bytes [built]
+[1]       | ./node_modules/react-router-dom/es/Route.js 128 bytes [built]
+[1]       | ./src/client/App.js 794 bytes [built]
+[1]       | ./src/client/home.js 293 bytes [built]
+[1]       | ./src/client/views/service/service.js 32.4 KiB [built]
+[1]       | ./src/client/Error404.js 223 bytes [built]
+[1]       | ./src/client/views/client/Client.js 2 KiB [built]
+[1]       | ./src/client/views/serviceproperty/serviceproperty.js 9.77 KiB [built]
+[1]       | ./src/client/views/servicebyclient/serviceclient.js 10.3 KiB [built]
+[1]       | ./src/client/views/provider/provider.js 5.6 KiB [built]
+[1]       | ./src/client/views/service_type/service_type.js 17.7 KiB [built]
+[1]       |     + 80 hidden modules
+[1]     + 311 hidden modules
+[1] 
+[1] WARNING in configuration
+[1] The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+[1] You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+[1] 
+[1] WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+[1] This can impact web performance.
+[1] Assets: 
+[1]   5f993143ddf4e2b8ba5746a032c94f1e.jpg (380 KiB)
+[1]   bundle.js (2.97 MiB)
+[1] 
+[1] WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+[1] Entrypoints:
+[1]   main (2.97 MiB)
+[1]       bundle.js
+[1] 
+[1] 
+[1] WARNING in webpack performance recommendations: 
+[1] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+[1] For more info visit https://webpack.js.org/guides/code-splitting/
+[1] Child html-webpack-plugin for "index.html":
+[1]          Asset     Size  Chunks  Chunk Names
+[1]     index.html  537 KiB       1  
+[1]     Entrypoint undefined = index.html
+[1]     [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 2.07 KiB {1} [built]
+[1]     [1] ./node_modules/lodash/lodash.js 530 KiB {1} [built]
+[1]     [2] (webpack)/buildin/global.js 472 bytes {1} [built]
+[1]     [3] (webpack)/buildin/module.js 497 bytes {1} [built]
+[1] ℹ ｢wdm｣: Compiled with warnings.^C[1] npm run server exited with code null
+
+
+  ༆ ixicale༆  ✘  ⎣09:53:46⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gic pre.dev.2021.01.04.1                                                                   hostname: [ix]
+Cambiado a rama 'pre.dev.2021.01.04.1'
+Tu rama está actualizada con 'origin/pre.dev.2021.01.04.1'.
+
+  ༆ ixicale༆   ⎣09:53:49⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2021.01.04.1 ✔ 
+gipl                                                                                       hostname: [ix]
+gimYa está actualizado.
+
+  ༆ ixicale༆   ⎣09:53:51⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2021.01.04.1 ✔ 
+gimex                                                                                      hostname: [ix]
+Actualizando ef1e8c4..437e4ab
+Fast-forward
+ src/client/views/service/provider.js | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+  ༆ ixicale༆   ⎣09:53:53⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2021.01.04.1 ↑1 ✔ 
+gis;git show                                                                               hostname: [ix]
+En la rama pre.dev.2021.01.04.1
+Tu rama está adelantada a 'origin/pre.dev.2021.01.04.1' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣09:53:57⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2021.01.04.1 ↑1 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-products-fe.git
+   ef1e8c4..437e4ab  pre.dev.2021.01.04.1 -> pre.dev.2021.01.04.1
+
+  ༆ ixicale༆   ⎣09:54:03⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ pre.dev.2021.01.04.1 ✔ 
+gicx                                                                                       hostname: [ix]
+Cambiado a rama 'ixicale'
+Tu rama está actualizada con 'origin/ixicale'.
+  ༆ ixicale༆   ⎣12:14:46⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+gime pre.dev.2021.01.04.1                                                                  hostname: [ix]
+Actualizando 437e4ab..9b05f11
+Fast-forward
+ src/client/views/service/formService.js | 63 +++++++++++++++++++++++++++++++++++++++++------------------
+ src/client/views/service/service.js     | 27 ++-----------------------
+ 2 files changed, 46 insertions(+), 44 deletions(-)
+
+  ༆ ixicale༆   ⎣12:14:50⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ↑2 ✔ 
+gis;git show                                                                               hostname: [ix]
+En la rama ixicale
+Tu rama está adelantada a 'origin/ixicale' por 2 commits.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+
+  ༆ ixicale༆   ⎣12:14:53⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ↑2 ✔ 
+gips                                                                                       hostname: [ix]
+Total 0 (delta 0), reusado 0 (delta 0)
+To github.com:fbenitez/clv-products-fe.git
+   437e4ab..9b05f11  ixicale -> ixicale
+
+  ༆ ixicale༆   ⎣12:14:59⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+                                                                                           hostname: [ix]
+
+  ༆ ixicale༆   ⎣16:08:21⎤  🚦 /var/www/html/NODE/clv-products-fe   origin ☊ ixicale ✔ 
+cd ~/Descargas                                                                             hostname: [ix]
+
+  ༆ ixicale༆   ⎣16:08:26⎤  🚦 ~/Descargas 
+sudo cp -R palo-alto /etc                                                                  hostname: [ix]
+[sudo] contraseña para ixicale: 
+
+  ༆ ixicale༆   ⎣16:08:48⎤  🚦 ~/Descargas 
+                                                                                           hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣16:08:49⎤  🚦 ~/Descargas /etc                                                                                       hostname: [ix]
+
+  ༆ ixicale༆   ⎣16:08:52⎤  🚦 /etc 
+                                                                                           hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣16:08:53⎤  🚦 /etc la                                                                                         hostname: [ix]
+total 1.2M
+drwxr-xr-x  3 root root   4.0K abr 23  2020 acpi
+-rw-r--r--  1 root root   3.0K abr 23  2020 adduser.conf
+drwxr-xr-x  3 root root   4.0K abr 23  2020 alsa
+drwxr-xr-x  2 root root    12K feb  2 07:43 alternatives
+-rw-r--r--  1 root root    401 jul 16  2019 anacrontab
+drwxr-xr-x  3 root root   4.0K ago  6 19:35 apache2
+-rw-r--r--  1 root root    433 oct  1  2017 apg.conf
+drwxr-xr-x  5 root root   4.0K abr 23  2020 apm
+drwxr-xr-x  3 root root   4.0K ago  6 18:43 apparmor
+drwxr-xr-x  7 root root   4.0K feb  2 08:56 apparmor.d
+drwxr-xr-x  4 root root   4.0K dic 28 08:01 apport
+-rw-r--r--  1 root root    769 ene 18  2020 appstream.conf
+drwxr-xr-x  7 root root   4.0K nov 11 12:42 apt
+drwxr-xr-x  3 root root   4.0K abr 23  2020 avahi
+-rw-r--r--  1 root root   2.3K feb 25  2020 bash.bashrc
+-rw-r--r--  1 root root     45 ene 25  2020 bash_completion
+drwxr-xr-x  2 root root   4.0K dic 28 08:01 bash_completion.d
+-rw-r--r--  1 root root    367 abr 14  2020 bindresvport.blacklist
+drwxr-xr-x  2 root root   4.0K abr 22  2020 binfmt.d
+drwxr-xr-x  2 root root   4.0K abr 23  2020 bluetooth
+-rw-r-----  1 root root     33 abr 23  2020 brlapi.key
+drwxr-xr-x  7 root root   4.0K abr 23  2020 brltty
+-rw-r--r--  1 root root    27K mar  3  2020 brltty.conf
+drwxr-xr-x  3 root root   4.0K abr 23  2020 ca-certificates
+-rw-r--r--  1 root root   6.4K oct 28 08:29 ca-certificates.conf
+-rw-r--r--  1 root root   5.6K ago  6 18:43 ca-certificates.conf.dpkg-old
+drwxr-xr-x  2 root root   4.0K abr 23  2020 calendar
+drwxr-s---  2 root dip    4.0K ago  6 18:43 chatscripts
+drwxr-xr-x  2 root root   4.0K ago  6 18:33 console-setup
+drwxr-xr-x  2 root root   4.0K abr 23  2020 cracklib
+drwxr-xr-x  2 root root   4.0K ene 19 09:52 cron.d
+drwxr-xr-x  2 root root   4.0K feb  2 08:56 cron.daily
+drwxr-xr-x  2 root root   4.0K abr 23  2020 cron.hourly
+drwxr-xr-x  2 root root   4.0K abr 23  2020 cron.monthly
+-rw-r--r--  1 root root   1.1K feb 13  2020 crontab
+drwxr-xr-x  2 root root   4.0K feb  2 08:56 cron.weekly
+drwxr-xr-x  5 root lp     4.0K feb  2 15:40 cups
+drwxr-xr-x  2 root root   4.0K nov 18 14:33 cupshelpers
+drwxr-xr-x  4 root root   4.0K abr 23  2020 dbus-1
+drwxr-xr-x  4 root root   4.0K abr 23  2020 dconf
+-rw-r--r--  1 root root   2.9K ago  3  2019 debconf.conf
+-rw-r--r--  1 root root     13 dic  5  2019 debian_version
+drwxr-xr-x  3 root root   4.0K feb  2 08:54 default
+-rw-r--r--  1 root root    604 sep 15  2018 deluser.conf
+drwxr-xr-x  2 root root   4.0K abr 23  2020 depmod.d
+drwxr-xr-x  4 root root   4.0K abr 23  2020 dhcp
+drwxr-xr-x  2 root root   4.0K ago  6 18:35 dictionaries-common
+drwxr-xr-x  4 root root   4.0K ago  6 19:07 dpkg
+-rw-r--r--  1 root root    685 feb 14  2020 e2scrub.conf
+drwxr-xr-x  3 root root   4.0K abr 23  2020 emacs
+-rw-r--r--  1 root root    106 sep  4 18:21 environment
+drwxr-xr-x  2 root root   4.0K ago  6 18:43 environment.d
+-rw-r--r--  1 root root   1.8K dic 26  2019 ethertypes
+drwxr-xr-x  3 root root   4.0K feb  2 08:56 firefox
+drwxr-xr-x  4 root root   4.0K abr 23  2020 fonts
+-rw-r--r--  1 root root     20 feb 10  2020 fprintd.conf
+-rw-rw-r--  1 root root    665 ago  6 18:31 fstab
+-rw-r--r--  1 root root    280 jun 20  2014 fuse.conf
+drwxr-xr-x  3 root root   4.0K ago  6 18:43 fwupd
+-rw-r--r--  1 root root   2.6K feb  1  2020 gai.conf
+-rw-r--r--  1 root root   4.3K may 18  2020 gamemode.ini
+drwxr-xr-x  2 root root   4.0K oct  3 09:04 gdb
+drwxr-xr-x  8 root root   4.0K nov 11 12:42 gdm3
+drwxr-xr-x  2 root root   4.0K abr 23  2020 geoclue
+drwxr-xr-x  4 root root   4.0K abr 23  2020 ghostscript
+drwxr-xr-x  3 root root   4.0K abr 23  2020 glvnd
+drwxr-xr-x  2 root root   4.0K ago  6 18:43 gnome
+drwxr-xr-x  2 root root   4.0K abr 23  2020 groff
+-rw-r--r--  1 root root   1.1K ago 21 08:59 group
+-rw-r--r--  1 root root   1.1K ago  6 18:40 group-
+drwxr-xr-x  2 root root   4.0K ene 26 09:52 grub.d
+-rw-r-----  1 root shadow  892 ago 21 08:59 gshadow
+-rw-r-----  1 root shadow  886 ago  6 18:40 gshadow-
+drwxr-xr-x  3 root root   4.0K abr 23  2020 gss
+drwxr-xr-x  2 root root   4.0K abr 23  2020 gtk-2.0
+drwxr-xr-x  2 root root   4.0K ago  6 18:44 gtk-3.0
+-rw-r--r--  1 root root   5.0K ago 21  2019 hdparm.conf
+-rw-r--r--  1 root root     92 dic  5  2019 host.conf
+-rw-r--r--  1 root root      4 abr 23  2020 hostid
+-rw-r--r--  1 root root      3 ago  6 18:33 hostname
+-rw-r--r--  1 root root    393 dic  4 15:14 hosts
+-rw-r--r--  1 root root    411 abr 23  2020 hosts.allow
+-rw-r--r--  1 root root    711 abr 23  2020 hosts.deny
+drwxr-xr-x  2 root root   4.0K abr 23  2020 hp
+drwxr-xr-x  3 root root   4.0K abr 23  2020 ifplugd
+drwxr-xr-x  2 root root   4.0K dic 28 08:01 init
+drwxr-xr-x  2 root root   4.0K feb  2 08:56 init.d
+drwxr-xr-x  5 root root   4.0K sep 22 08:54 initramfs-tools
+-rw-r--r--  1 root root   1.8K feb 25  2020 inputrc
+drwxr-xr-x  2 root root   4.0K nov 11 12:42 insserv.conf.d
+drwxr-xr-x  4 root root   4.0K abr 23  2020 iproute2
+-rw-r--r--  1 root root     26 ene 27 04:40 issue
+-rw-r--r--  1 root root     19 ene 27 04:40 issue.net
+drwxr-xr-x  3 root root   4.0K ago  6 19:18 .java
+drwxr-xr-x  5 root root   4.0K nov 13 08:12 java-11-openjdk
+drwxr-xr-x  6 root root   4.0K abr 23  2020 kernel
+-rw-r--r--  1 root root    110 ago  6 18:35 kernel-img.conf
+-rw-r--r--  1 root root   1.3K dic  1  2017 kerneloops.conf
+drwxr-xr-x  2 root root   4.0K nov 18 08:25 ldap
+-rw-r--r--  1 root root    69K feb  2 08:57 ld.so.cache
+-rw-r--r--  1 root root     34 abr 14  2020 ld.so.conf
+drwxr-xr-x  2 root root   4.0K feb  2 08:56 ld.so.conf.d
+-rw-r--r--  1 root root    267 dic  5  2019 legal
+-rw-r--r--  1 root root     27 ene 18  2018 libao.conf
+-rw-r--r--  1 root root    191 feb 18  2020 libaudit.conf
+drwxr-xr-x  3 root root   4.0K abr 23  2020 libblockdev
+drwxr-xr-x  2 root root   4.0K abr 23  2020 libnl-3
+drwxr-xr-x  2 root root   4.0K jun 25  2019 libpaper.d
+drwxr-xr-x  2 root root   4.0K sep 25 08:57 libreoffice
+-rw-r--r--  1 root root   3.0K abr 14  2020 locale.alias
+-rw-r--r--  1 root root   9.3K feb  2 08:55 locale.gen
+lrwxrwxrwx  1 root root     34 feb  2 08:56 localtime -> /usr/share/zoneinfo/America/Cancun
+drwxr-xr-x  4 root root   4.0K abr 23  2020 logcheck
+-rw-r--r--  1 root root    11K feb  7  2020 login.defs
+-rw-r--r--  1 root root    533 ene 21  2019 logrotate.conf
+drwxr-xr-x  2 root root   4.0K ene 26 09:52 logrotate.d
+-rw-r--r--  1 root root    104 ene 27 04:38 lsb-release
+-rw-r--r--  1 root root    15K ene 31  2019 ltrace.conf
+-r--r--r--  1 root root     33 ago  6 18:40 machine-id
+-rw-r--r--  1 root root    111 ene 16  2020 magic
+-rw-r--r--  1 root root    111 ene 16  2020 magic.mime
+-rw-r--r--  1 root root    43K feb  2 08:57 mailcap
+-rw-r--r--  1 root root    449 oct 18  2019 mailcap.order
+-rw-r--r--  1 root root   5.1K feb 25  2020 manpath.config
+-rw-r--r--  1 root root    24K oct 18  2019 mime.types
+-rw-r--r--  1 root root    808 feb 14  2020 mke2fs.conf
+drwxr-xr-x  2 root root   4.0K nov 13 08:13 modprobe.d
+-rw-r--r--  1 root root    195 abr 23  2020 modules
+drwxr-xr-x  2 root root   4.0K ene 19 10:10 modules-load.d
+lrwxrwxrwx  1 root root     19 ago  6 18:34 mtab -> ../proc/self/mounts
+-rw-r--r--  1 root root    624 mar 22  2020 mtools.conf
+drwxr-xr-x  3 root root   4.0K ene 19 09:52 mysql
+-rw-r--r--  1 root root   9.9K feb  7  2020 nanorc
+drwxr-xr-x  2 root root   4.0K abr 23  2020 netplan
+drwxr-xr-x  6 root root   4.0K abr 23  2020 network
+drwxr-xr-x  8 root root   4.0K abr 23  2020 networkd-dispatcher
+drwxr-xr-x  7 root root   4.0K nov 18 14:33 NetworkManager
+-rw-r--r--  1 root root     91 dic  5  2019 networks
+drwxr-xr-x  2 root root   4.0K abr 23  2020 newt
+drwxr-xr-x  8 root root   4.0K ago  6 19:12 nginx
+-rw-r--r--  1 root root    542 abr 23  2020 nsswitch.conf
+drwxr-xr-x  4 root root   4.0K abr 23  2020 openvpn
+drwxr-xr-x  2 root root   4.0K abr 23  2020 opt
+lrwxrwxrwx  1 root root     21 ene 27 04:40 os-release -> ../usr/lib/os-release
+drwxr-xr-x  2 root root   4.0K sep 25 08:57 PackageKit
+drwxr-xr-x  2 root root   4.0K feb  2 16:08 palo-alto
+-rw-r--r--  1 root root    552 dic 17  2019 pam.conf
+drwxr-xr-x  2 root root   4.0K ene 29 09:31 pam.d
+-rw-rw-r--  1 root root      7 ago  6 18:34 papersize
+-rw-r--r--  1 root root   2.7K ago  6 21:42 passwd
+-rw-r--r--  1 root root   2.7K ago  6 18:40 passwd-
+drwxr-xr-x  2 root root   4.0K abr 23  2020 pcmcia
+drwxr-xr-x  3 root root   4.0K abr 23  2020 perl
+drwxr-xr-x  5 root root   4.0K ene 19 09:52 php
+drwxr-xr-x  4 root root   4.0K abr 23  2020 pki
+drwxr-xr-x  3 root root   4.0K abr 23  2020 pm
+-rw-r--r--  1 root root   7.5K abr 23  2020 pnm2ppa.conf
+drwxr-xr-x  4 root root   4.0K abr 23  2020 polkit-1
+-rw-rw-r--  1 root root    350 ago  6 18:34 popularity-contest.conf
+drwxr-xr-x  7 root dip    4.0K ago  6 18:43 ppp
+lrwxrwxrwx  1 root root     18 ago  6 18:43 printcap -> /run/cups/printcap
+-rw-r--r--  1 root root    581 dic  5  2019 profile
+drwxr-xr-x  2 root root   4.0K feb  2 08:54 profile.d
+-rw-r--r--  1 root root   2.9K abr  1  2013 protocols
+drwxr-xr-x  3 root root   4.0K feb  2 08:56 pulse
+-rw-------  1 root root      0 abr 23  2020 .pwd.lock
+drwxr-xr-x  2 root root   4.0K oct 28 08:35 python2.7
+drwxr-xr-x  2 root root   4.0K abr 23  2020 python3
+drwxr-xr-x  2 root root   4.0K oct  8 09:10 python3.8
+drwxr-xr-x  2 root root   4.0K ago  6 19:35 rc0.d
+drwxr-xr-x  2 root root   4.0K ago  6 19:35 rc1.d
+drwxr-xr-x  2 root root   4.0K ago  6 19:35 rc2.d
+drwxr-xr-x  2 root root   4.0K ago  6 19:35 rc3.d
+drwxr-xr-x  2 root root   4.0K ago  6 19:35 rc4.d
+drwxr-xr-x  2 root root   4.0K ago  6 19:35 rc5.d
+drwxr-xr-x  2 root root   4.0K ago  6 19:35 rc6.d
+drwxr-xr-x  2 root root   4.0K ago  6 18:35 rcS.d
+lrwxrwxrwx  1 root root     39 ago  6 18:33 resolv.conf -> ../run/systemd/resolve/stub-resolv.conf
+lrwxrwxrwx  1 root root     13 dic 15 20:38 rmt -> /usr/sbin/rmt
+-rw-r--r--  1 root root    887 abr  1  2013 rpc
+-rw-r--r--  1 root root   1.4K feb 11  2020 rsyslog.conf
+drwxr-xr-x  2 root root   4.0K abr 23  2020 rsyslog.d
+-rw-r--r--  1 root root   5.1K mar 11  2020 rygel.conf
+drwxr-xr-x  3 root root   4.0K sep 29 09:05 sane.d
+drwxr-xr-x  4 root root   4.0K sep  4 18:21 security
+drwxr-xr-x  2 root root   4.0K abr 23  2020 selinux
+-rw-r--r--  1 root root    11K nov  6  2019 sensors3.conf
+drwxr-xr-x  2 root root   4.0K abr 23  2020 sensors.d
+-rw-r--r--  1 root root    15K feb 16  2020 services
+drwxr-xr-x  3 root root   4.0K abr 23  2020 sgml
+-rw-r-----  1 root shadow 1.5K ago  6 18:40 shadow
+-rw-r-----  1 root shadow 1.4K ago  6 18:33 shadow-
+-rw-r--r--  1 root root    138 ago  6 21:41 shells
+drwxr-xr-x  2 root root   4.0K ago  6 18:42 skel
+drwxr-xr-x  2 root root   4.0K ago 25 09:24 snmp
+drwxr-xr-x  4 root root   4.0K abr 23  2020 speech-dispatcher
+drwxr-xr-x  3 root root   4.0K ago  6 18:43 ssh
+drwxr-xr-x  4 root root   4.0K dic 28 08:01 ssl
+-rw-r--r--  1 root root     21 ago  6 18:33 subgid
+-rw-r--r--  1 root root      0 abr 23  2020 subgid-
+-rw-r--r--  1 root root     21 ago  6 18:33 subuid
+-rw-r--r--  1 root root      0 abr 23  2020 subuid-
+-r--r-----  1 root root    755 feb  3  2020 sudoers
+drwxr-xr-x  2 root root   4.0K ene 29 09:31 sudoers.d
+-rw-r--r--  1 root root   2.3K feb 13  2020 sysctl.conf
+drwxr-xr-x  2 root root   4.0K ene 19 10:10 sysctl.d
+drwxr-xr-x  5 root root   4.0K ene 19 10:11 systemd
+drwxr-xr-x  2 root root   4.0K abr 23  2020 terminfo
+drwxr-xr-x  2 root root   4.0K oct  6 10:57 thermald
+drwxr-xr-x  2 root root   4.0K ago  6 18:34 thunderbird
+-rw-r--r--  1 root root     15 feb  2 08:56 timezone
+drwxr-xr-x  2 root root   4.0K abr 22  2020 tmpfiles.d
+drwxr-xr-x  2 root root   4.0K abr 23  2020 ubuntu-advantage
+-rw-r--r--  1 root root   1.3K dic 14  2018 ucf.conf
+drwxr-xr-x  4 root root   4.0K ene 19 10:30 udev
+drwxr-xr-x  2 root root   4.0K abr 23  2020 udisks2
+drwxr-xr-x  3 root root   4.0K abr 23  2020 ufw
+drwxr-xr-x  3 root root   4.0K feb  2 08:56 update-manager
+drwxr-xr-x  2 root root   4.0K feb  2 08:56 update-motd.d
+drwxr-xr-x  2 root root   4.0K abr  2  2020 update-notifier
+drwxr-xr-x  2 root root   4.0K abr 23  2020 UPower
+-rw-r--r--  1 root root   1.5K feb 10  2020 usb_modeswitch.conf
+drwxr-xr-x  2 root root   4.0K feb 24  2020 usb_modeswitch.d
+drwxr-xr-x  2 root root   4.0K abr 23  2020 vim
+lrwxrwxrwx  1 root root     23 ago  6 18:31 vtrgb -> /etc/alternatives/vtrgb
+drwxr-xr-x  5 root root   4.0K abr 23  2020 vulkan
+-rw-r--r--  1 root root   4.9K jul 24  2019 wgetrc
+drwxr-xr-x  2 root root   4.0K ago  6 18:43 wpa_supplicant
+drwxr-xr-x 
