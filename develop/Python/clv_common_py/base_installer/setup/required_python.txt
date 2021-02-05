@@ -1,0 +1,32 @@
+==========================
+Unsupported Python version
+==========================
+This version of Flask requires Python {}.{}, but you're trying to
+install it on Python {}.{}.
+This may be because you are using a version of pip3 that doesn't
+understand the python_requires classifier. Make sure you
+have pip3 >= 9.0, then try again:
+$ python3 -m pip3 install --upgrade pip3
+
+This will install the latest version of Flask which works on your
+version of Python. If you can't upgrade your pip3 (or Python), request
+an older version of Flask:
+$ python3 -m pip3 install Flask
+
+- - - - - - - - - - - - - - - - - - - - - - - - - -
+
+==============================
+Versión de python no soportada
+==============================
+
+Esta versión de Flask requiere Python {}.{}, pero estás intentando
+instalar en Python {}.{}.
+Esto puede deberse a que está utilizando una versión de pip3 que no
+soporta el clasificador python_requires. Asegúrese de tener
+pip3> = 9.0, luego intente de nuevo:
+$ python3 -m pip3 install --upgrade pip3
+
+Esto instalará la última versión de Flask que funciona en esta
+Versión de Python. Si no puedes actualizar tu pip3 (o Python), solicita
+una versión anterior de Flask:
+$ python3 -m pip3 install Flask
