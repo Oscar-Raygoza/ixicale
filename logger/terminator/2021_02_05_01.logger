@@ -760,4 +760,301 @@ drwxrwxrwx 12 ixicale ixicale 4.0K oct 20 09:32 SteampunkFactory-MySettings
 
 
 
-  ༆ ixicale༆   ⎣13:16:30⎤  🚦 ~/.sf 
+  ༆ ixicale༆   ⎣13:16:30⎤  🚦 ~/.sf                                                                                            hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣13:16:34⎤  🚦 ~/.sf cp -R ./SteampunkFactory-Loot/clever_workspaces ./SteampunkFactory-MySettings/vscode       hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:18:13⎤  🚦 ~/.sf 
+./SteampunkFactory-MySettings/vscode                                                       hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:18:18⎤  🚦 ~/.sf/SteampunkFactory-MySettings/vscode   origin ☊ master 1☀ 1 ● 
+la                                                                                         hostname: [ix]
+total 56K
+drwxrwxr-x 4 ixicale ixicale 4.0K feb  5 13:18 Auth
+drwxrwxr-x 6 ixicale ixicale 4.0K feb  5 13:18 benefits
+drwxrwxr-x 2 ixicale ixicale 4.0K feb  5 13:18 CashFlow
+drwxrwxr-x 4 ixicale ixicale 4.0K feb  5 13:18 Check-rates
+drwxrwxr-x 3 ixicale ixicale 4.0K feb  5 13:18 Clever
+drwxrwxr-x 4 ixicale ixicale 4.0K feb  5 13:18 Common
+drwxrwxr-x 3 ixicale ixicale 4.0K feb  5 13:18 Core
+drwxrwxr-x 3 ixicale ixicale 4.0K feb  5 13:18 Events
+drwxrwxr-x 4 ixicale ixicale 4.0K feb  5 13:18 frm
+drwxrwxr-x 2 ixicale ixicale 4.0K feb  5 13:18 Products
+drwxrwxr-x 3 ixicale ixicale 4.0K feb  5 13:18 Report
+drwxrwxr-x 2 ixicale ixicale 4.0K feb  5 13:18 ServicesWebwed
+drwxrwxr-x 3 ixicale ixicale 4.0K feb  5 13:18 ServiceWeb
+-rw-rw-r-- 1 ixicale ixicale  443 feb  5 13:18 template-folder.code-workspace.json
+
+  ༆ ixicale༆   ⎣13:18:20⎤  🚦 ~/.sf/SteampunkFactory-MySettings/vscode   origin ☊ master 1☀ 1 ● 
+../..                                                                                      hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:18:29⎤  🚦 ~/.sf 
+                                                                                           hostname: [ix]
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣13:18:43⎤  🚦 ~/.sf SteampunkFactory-MySettings/develop/Python                                                 hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:38:02⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python   origin ☊ master ✔ 
+git clone git@github.com:fbenitez/clv_common_py.git                                        hostname: [ix]
+Clonando en 'clv_common_py'...
+remote: Enumerating objects: 113, done.
+remote: Counting objects: 100% (113/113), done.
+remote: Compressing objects: 100% (74/74), done.
+remote: Total 989 (delta 39), reused 91 (delta 27), pack-reused 876
+Recibiendo objetos: 100% (989/989), 10.51 MiB | 4.40 MiB/s, listo.
+Resolviendo deltas: 100% (470/470), listo.
+
+  ༆ ixicale༆   ⎣13:38:53⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python   origin ☊ master 1☀ 
+clv_common_py                                                                              hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:39:23⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python/clv_common_py   origin ☊ master 1‒ 
+la                                                                                         hostname: [ix]
+total 20K
+drwxrwxr-x 5 ixicale ixicale 4.0K feb  5 13:38 base_installer
+drwxrwxr-x 7 ixicale ixicale 4.0K feb  5 13:38 code_structure
+drwxrwxr-x 3 ixicale ixicale 4.0K feb  5 13:38 demo_install
+drwxrwxr-x 8 ixicale ixicale 4.0K feb  5 13:39 .git
+-rw-rw-r-- 1 ixicale ixicale   30 feb  5 13:38 README.md
+
+  ༆ ixicale༆   ⎣13:39:25⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python/clv_common_py   origin ☊ master 1‒ 
+rm -rf .git                                                                                hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:39:31⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python/clv_common_py   origin ☊ master 1☀ 
+                                                                                           hostname: [ix]
+
+
+
+
+
+  ༆ ixicale༆   ⎣13:39:33⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python/clv_common_py   origin ☊ master 1☀ la                                                                                         hostname: [ix]
+total 16K
+drwxrwxr-x 5 ixicale ixicale 4.0K feb  5 13:38 base_installer
+drwxrwxr-x 7 ixicale ixicale 4.0K feb  5 13:38 code_structure
+drwxrwxr-x 3 ixicale ixicale 4.0K feb  5 13:38 demo_install
+-rw-rw-r-- 1 ixicale ixicale   30 feb  5 13:38 README.md
+
+  ༆ ixicale༆   ⎣13:39:34⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python/clv_common_py   origin ☊ master 1☀ 
+git clone git@github.com:fbenitez/clv_common_py.git                                        hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣13:44:27⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python/clv_common_py 
+git clone git@github.com:fbenitez/clv_common_py.git                                        hostname: [ix]
+Clonando en 'clv_common_py'...remote: Enumerating objects: 113, done.
+remote: Counting objects: 100% (113/113), done.
+remote: Compressing objects: 100% (74/74), done.
+remote: Total 989 (delta 39), reused 91 (delta 27), pack-reused 876
+Recibiendo objetos: 100% (989/989), 10.51 MiB | 4.90 MiB/s, listo.
+Resolviendo deltas: 100% (470/470), listo.
+
+  ༆ ixicale༆   ⎣13:44:31⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python/clv_common_py 
+..                                                                                         hostname: [ix]
+zsh: permiso denegado: ..
+
+  ༆ ixicale༆  ✘  ⎣13:44:36⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python/clv_common_py 
+                                                                                           hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆  ✘  ⎣13:44:39⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python/clv_common_py 
+..                                                                                         hostname: [ix]
+zsh: permiso denegado: ..
+  ༆ ixicale༆  ✘  ⎣13:44:42⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python/clv_common_py 
+~/.sf/SteampunkFactory-MySettings/develop/Python/                                          hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:44:49⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python   origin ☊ master ✔ 
+                                                                                           hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣13:45:02⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python   origin ☊ master ✔ git clone git@github.com:fbenitez/clv_common_py.git                                        hostname: [ix]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ༆ ixicale༆   ⎣13:45:06⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python   origin ☊ master ✔ 
+git clone git@github.com:fbenitez/clv_common_py.gi                                        hostname: [ix]
+Clonando en 'clv_common_py'...
+remote: Enumerating objects: 113, done.
+remote: Counting objects: 100% (113/113), done.
+remote: Compressing objects: 100% (74/74), done.
+remote: Total 989 (delta 39), reused 91 (delta 27), pack-reused 876
+Recibiendo objetos: 100% (989/989), 10.51 MiB | 3.65 MiB/s, listo.
+Resolviendo deltas: 100% (470/470), listo.
+
+  ༆ ixicale༆   ⎣13:45:11⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python   origin ☊ master 1☀ 
+clv_common_py                                                                              hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:45:18⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python/clv_common_py   origin ☊ master ✔ 
+gicx                                                                                       hostname: [ix]
+Rama 'ixicale' configurada para hacer seguimiento a la rama remota 'ixicale' de 'origin'.
+Cambiado a nueva rama 'ixicale'
+
+  ༆ ixicale༆   ⎣13:45:30⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python/clv_common_py   origin ☊ ixicale ✔ 
+rm -rf .git .gitignore                                                                     hostname: [ix]
+
+  ༆ ixicale༆   ⎣13:45:43⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python/clv_common_py   origin ☊ master 1☀ 
+la                                                                                         hostname: [ix]
+total 16K
+drwxrwxr-x 5 ixicale ixicale 4.0K feb  5 13:45 base_installer
+drwxrwxr-x 7 ixicale ixicale 4.0K feb  5 13:45 code_structure
+drwxrwxr-x 3 ixicale ixicale 4.0K feb  5 13:45 demo_install
+-rw-rw-r-- 1 ixicale ixicale   30 feb  5 13:45 README.md
+
+  ༆ ixicale༆   ⎣13:45:45⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python/clv_common_py   origin ☊ master 1☀ 
+                                                                                           hostname: [ix]
+
+
+
+  ༆ ixicale༆   ⎣15:04:49⎤  🚦 ~/.sf/SteampunkFactory-MySettings/develop/Python/clv_common_py   origin ☊ master 1☀ 
