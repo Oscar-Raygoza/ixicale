@@ -1,0 +1,33 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-16e3c0651ee-6cedb15de32bd20b": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "MySQL 8+ - clv_auth",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "mysqldev57-cluster.cluster-cdrfidjuoewu.us-east-1.rds.amazonaws.com",
+				"port": "3306",
+				"database": "clv_auth",
+				"url": "jdbc:mysql://mysqldev57-cluster.cluster-cdrfidjuoewu.us-east-1.rds.amazonaws.com:3306/clv_auth",
+				"home": "/usr",
+				"type": "dev"
+			},
+			"custom-properties": {
+				"resultset.maxrows": "20000"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}

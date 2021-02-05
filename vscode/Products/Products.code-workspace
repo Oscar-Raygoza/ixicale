@@ -1,0 +1,33 @@
+{
+    "folders": [
+        {
+            "name": "loot",
+            "path": "."
+        },
+        {
+            "name": "API",
+            "path": "/var/www/html/PHP/clv-products-api"
+        },
+        {
+            "name": "FRONT",
+            "path": "/var/www/html/NODE/clv-products-fe"
+        // },
+        // {
+        //     "name": "PRODUCTIONS API",
+        //     "path": "/var/www/html/PHP/clv-productions-api"
+        // },
+        // {
+        //     "name": "events API",
+        //     "path": "/var/www/html/PHP/clv-events-api"
+        }
+    ],
+    "settings": {
+        "editor.rulers": [80, 115, 119],
+        "workbench.colorCustomizations": {
+            "editorRuler.foreground": "#59a1ff"
+        },
+        "prettier.printWidth": 120,
+        "prettier.tabWidth": 4,
+        "prettier.jsxSingleQuote": true
+    }
+}

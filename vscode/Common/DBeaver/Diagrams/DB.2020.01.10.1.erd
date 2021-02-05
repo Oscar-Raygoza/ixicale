@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="DB.2020.01.10.1">
+	<entities>
+		<data-source id="mysql8-16f9166f5bd-3db6b8e68353dc">
+			<entity id="1" name="def_agencia" fq-name="clv_proagent.def_agencia">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="2" name="def_agente" fq-name="clv_proagent.def_agente">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="3" name="def_autorizaciones_reservas" fq-name="clv_proagent.def_autorizaciones_reservas">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="4" name="def_bcm" fq-name="clv_proagent.def_bcm">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="5" name="def_bcm_x_pais" fq-name="clv_proagent.def_bcm_x_pais">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="6" name="def_cuartos" fq-name="clv_proagent.def_cuartos">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="7" name="def_metodo_pago" fq-name="clv_proagent.def_metodo_pago">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="8" name="def_metodo_pago_pais" fq-name="clv_proagent.def_metodo_pago_pais">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="9" name="def_negocio" fq-name="clv_proagent.def_negocio">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="10" name="def_promociones" fq-name="clv_proagent.def_promociones">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="11" name="def_region" fq-name="clv_proagent.def_region">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="12" name="def_tarifas_cuartos" fq-name="clv_proagent.def_tarifas_cuartos">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="13" name="def_tipo_cuarto" fq-name="clv_proagent.def_tipo_cuarto">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="14" name="def_tipo_operacion" fq-name="clv_proagent.def_tipo_operacion">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="15" name="def_touroperator" fq-name="clv_proagent.def_touroperator">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="16" name="def_touroperatorcodes" fq-name="clv_proagent.def_touroperatorcodes">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="17" name="def_zonas" fq-name="clv_proagent.def_zonas">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="18" name="pago_invoices" fq-name="clv_proagent.pago_invoices">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="19" name="pago_payments" fq-name="clv_proagent.pago_payments">
+				<path name="clv_proagent"/>
+			</entity>
+			<entity id="20" name="pago_paymentsdetail" fq-name="clv_proagent.pago_paymentsdetail">
+				<path name="clv_proagent"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="iddef_agencia_agente" fq-name="clv_proagent.def_agente.iddef_agencia_agente" type="fk" pk-ref="1" fk-ref="2"/>
+		<relation name="iddef_agencia_invoice" fq-name="clv_proagent.pago_invoices.iddef_agencia_invoice" type="fk" pk-ref="1" fk-ref="18"/>
+		<relation name="iddef_agencia" fq-name="clv_proagent.pago_payments.iddef_agencia" type="fk" pk-ref="1" fk-ref="19"/>
+		<relation name="iddef_agente_autorizacion" fq-name="clv_proagent.def_autorizaciones_reservas.iddef_agente_autorizacion" type="fk" pk-ref="2" fk-ref="3"/>
+		<relation name="iddef_agente_invoice" fq-name="clv_proagent.pago_invoices.iddef_agente_invoice" type="fk" pk-ref="2" fk-ref="18"/>
+		<relation name="iddef_agente" fq-name="clv_proagent.pago_payments.iddef_agente" type="fk" pk-ref="2" fk-ref="19"/>
+		<relation name="iddef_bcm_pais" fq-name="clv_proagent.def_bcm_x_pais.iddef_bcm_pais" type="fk" pk-ref="4" fk-ref="5"/>
+		<relation name="iddef_bcm_tour" fq-name="clv_proagent.def_touroperator.iddef_bcm_tour" type="fk" pk-ref="4" fk-ref="15"/>
+		<relation name="iddef_bcm_invoice" fq-name="clv_proagent.pago_invoices.iddef_bcm_invoice" type="fk" pk-ref="4" fk-ref="18"/>
+		<relation name="iddef_bcm" fq-name="clv_proagent.pago_payments.iddef_bcm" type="fk" pk-ref="4" fk-ref="19"/>
+		<relation name="iddef_metodo_pais_metodo" fq-name="clv_proagent.def_metodo_pago_pais.iddef_metodo_pais_metodo" type="fk" pk-ref="7" fk-ref="8"/>
+		<relation name="iddef_negocio_agencia" fq-name="clv_proagent.def_agente.iddef_negocio_agencia" type="fk" pk-ref="9" fk-ref="2"/>
+		<relation name="idef_tipo_cuarto" fq-name="clv_proagent.def_cuartos.idef_tipo_cuarto" type="fk" pk-ref="13" fk-ref="6"/>
+		<relation name="iddef_tipo_cuarto_tarifa" fq-name="clv_proagent.def_tarifas_cuartos.iddef_tipo_cuarto_tarifa" type="fk" pk-ref="13" fk-ref="12"/>
+		<relation name="iddef_tipo_operacion" fq-name="clv_proagent.pago_invoices.iddef_tipo_operacion" type="fk" pk-ref="14" fk-ref="18"/>
+		<relation name="iddef_tipo" fq-name="clv_proagent.pago_payments.iddef_tipo" type="fk" pk-ref="14" fk-ref="19"/>
+		<relation name="iddef_tour_operator_code" fq-name="clv_proagent.def_touroperatorcodes.iddef_tour_operator_code" type="fk" pk-ref="15" fk-ref="16"/>
+		<relation name="iddef_invoice" fq-name="clv_proagent.pago_payments.iddef_invoice" type="fk" pk-ref="18" fk-ref="19"/>
+		<relation name="id_pago_payment_detail" fq-name="clv_proagent.pago_paymentsdetail.id_pago_payment_detail" type="fk" pk-ref="19" fk-ref="20"/>
+	</relations>
+</diagram>

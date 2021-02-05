@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="products.erd">
+	<entities>
+		<data-source id="mysql8-16e279c920c-6e8ce2a5d85c9f87">
+			<entity id="1" name="inv_inventario" fq-name="clv_products.inv_inventario" order="0" x="345" y="40">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="2" name="inv_inventario_item" fq-name="clv_products.inv_inventario_item" order="1" x="20" y="20">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="3" name="inv_item" fq-name="clv_products.inv_item" order="2" x="345" y="1008">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="4" name="inv_marca" fq-name="clv_products.inv_marca" order="3" x="345" y="1395">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="5" name="inv_modelo" fq-name="clv_products.inv_modelo" order="4" x="20" y="1385">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="6" name="inv_movimiento_item" fq-name="clv_products.inv_movimiento_item" order="5" x="20" y="774">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="7" name="inv_movimiento_item_proveedor" fq-name="clv_products.inv_movimiento_item_proveedor" order="6" x="20" y="327">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="8" name="inv_proveedor" fq-name="clv_products.inv_proveedor" order="7" x="20" y="4232">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="9" name="inv_proveedor_item" fq-name="clv_products.inv_proveedor_item" order="8" x="345" y="307">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="10" name="inv_tipo_movimiento" fq-name="clv_products.inv_tipo_movimiento" order="9" x="345" y="554">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="11" name="inv_unidad_almacen" fq-name="clv_products.inv_unidad_almacen" order="10" x="624" y="584">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="12" name="service_cotizaciones" fq-name="clv_products.service_cotizaciones" order="11" x="892" y="4092">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="13" name="service_detallecotizacion" fq-name="clv_products.service_detallecotizacion" order="12" x="624" y="4162">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="14" name="service_direccion" fq-name="clv_products.service_direccion" order="13" x="345" y="4232">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="15" name="service_embalaje" fq-name="clv_products.service_embalaje" order="14" x="20" y="3343">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="16" name="service_material" fq-name="clv_products.service_material" order="15" x="345" y="3411">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="17" name="service_material_proveedor" fq-name="clv_products.service_material_proveedor" order="16" x="20" y="3510">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="18" name="service_receta" fq-name="clv_products.service_receta" order="17" x="345" y="2136">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="19" name="service_receta_detalle" fq-name="clv_products.service_receta_detalle" order="18" x="20" y="2768">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="20" name="service_recursos" fq-name="clv_products.service_recursos" order="19" x="624" y="3698">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="21" name="service_servicio" fq-name="clv_products.service_servicio" order="20" x="688" y="1400">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="22" name="service_servicio_asset" fq-name="clv_products.service_servicio_asset" order="21" x="345" y="2363">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="23" name="service_servicio_cliente" fq-name="clv_products.service_servicio_cliente" order="22" x="345" y="2670">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="24" name="service_servicio_propiedad" fq-name="clv_products.service_servicio_propiedad" order="23" x="345" y="2897">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="25" name="service_servicio_proveedor" fq-name="clv_products.service_servicio_proveedor" order="24" x="345" y="1869">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="26" name="service_servicio_proveedor_tarifa" fq-name="clv_products.service_servicio_proveedor_tarifa" order="25" x="20" y="1829">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="27" name="service_servicio_recurso" fq-name="clv_products.service_servicio_recurso" order="26" x="345" y="3658">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="28" name="service_servicio_texto" fq-name="clv_products.service_servicio_texto" order="27" x="345" y="3124">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="29" name="service_servicio_tipo" fq-name="clv_products.service_servicio_tipo" order="28" x="978" y="1320">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="30" name="service_tag" fq-name="clv_products.service_tag" order="29" x="1002" y="1072">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="31" name="service_tag_servicio" fq-name="clv_products.service_tag_servicio" order="30" x="685" y="1135">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="32" name="service_tag_tiposervicio" fq-name="clv_products.service_tag_tiposervicio" order="31" x="1295" y="1204">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="33" name="service_termino" fq-name="clv_products.service_termino" order="32" x="345" y="3965">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="34" name="service_texto_termino" fq-name="clv_products.service_texto_termino" order="33" x="20" y="3975">
+				<path name="clv_products"/>
+			</entity>
+			<entity id="35" name="service_unidad_negocio" fq-name="clv_products.service_unidad_negocio" order="34" x="1294" y="1425">
+				<path name="clv_products"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="fk_inv_inventario_item_inv_inventario1" fq-name="clv_products.inv_inventario_item.fk_inv_inventario_item_inv_inventario1" type="fk" pk-ref="1" fk-ref="2"/>
+		<relation name="fk_inv_movimiento_item_1" fq-name="clv_products.inv_movimiento_item.fk_inv_movimiento_item_1" type="fk" pk-ref="3" fk-ref="6"/>
+		<relation name="fk_inv_modelo_1" fq-name="clv_products.inv_modelo.fk_inv_modelo_1" type="fk" pk-ref="4" fk-ref="5"/>
+		<relation name="fk_inv_movimiento_item_proveedor_1" fq-name="clv_products.inv_movimiento_item_proveedor.fk_inv_movimiento_item_proveedor_1" type="fk" pk-ref="9" fk-ref="7"/>
+		<relation name="fk_inv_movimiento_item_2" fq-name="clv_products.inv_movimiento_item.fk_inv_movimiento_item_2" type="fk" pk-ref="10" fk-ref="6"/>
+		<relation name="fk_inv_movimiento_item_proveedor_2" fq-name="clv_products.inv_movimiento_item_proveedor.fk_inv_movimiento_item_proveedor_2" type="fk" pk-ref="10" fk-ref="7"/>
+		<relation name="fk_inv_inventario_inv_unidad_almacen1" fq-name="clv_products.inv_inventario.fk_inv_inventario_inv_unidad_almacen1" type="fk" pk-ref="11" fk-ref="1"/>
+		<relation name="fk_inv_item_1" fq-name="clv_products.inv_item.fk_inv_item_1" type="fk" pk-ref="11" fk-ref="3"/>
+		<relation name="service_embalaje_ibfk_1" fq-name="clv_products.service_embalaje.service_embalaje_ibfk_1" type="fk" pk-ref="16" fk-ref="15"/>
+		<relation name="service_material_proveedor_ibfk_1" fq-name="clv_products.service_material_proveedor.service_material_proveedor_ibfk_1" type="fk" pk-ref="16" fk-ref="17"/>
+		<relation name="service_receta_detalle_ibfk_2" fq-name="clv_products.service_receta_detalle.service_receta_detalle_ibfk_2" type="fk" pk-ref="16" fk-ref="19"/>
+		<relation name="service_receta_detalle_ibfk_1" fq-name="clv_products.service_receta_detalle.service_receta_detalle_ibfk_1" type="fk" pk-ref="18" fk-ref="19"/>
+		<relation name="service_servicio_recurso_ibfk_2" fq-name="clv_products.service_servicio_recurso.service_servicio_recurso_ibfk_2" type="fk" pk-ref="20" fk-ref="27"/>
+		<relation name="fk_inv_item_service_servicio1" fq-name="clv_products.inv_item.fk_inv_item_service_servicio1" type="fk" pk-ref="21" fk-ref="3"/>
+		<relation name="fk_service_servicio_asset_service_servicio" fq-name="clv_products.service_servicio_asset.fk_service_servicio_asset_service_servicio" type="fk" pk-ref="21" fk-ref="22"/>
+		<relation name="fk_service_servicio_cliente_service_servicio" fq-name="clv_products.service_servicio_cliente.fk_service_servicio_cliente_service_servicio" type="fk" pk-ref="21" fk-ref="23"/>
+		<relation name="fk_service_servicio_propiedad_service_servicio" fq-name="clv_products.service_servicio_propiedad.fk_service_servicio_propiedad_service_servicio" type="fk" pk-ref="21" fk-ref="24"/>
+		<relation name="fk_service_servicio_proveedor_service_servicio" fq-name="clv_products.service_servicio_proveedor.fk_service_servicio_proveedor_service_servicio" type="fk" pk-ref="21" fk-ref="25"/>
+		<relation name="service_servicio_recurso_ibfk_1" fq-name="clv_products.service_servicio_recurso.service_servicio_recurso_ibfk_1" type="fk" pk-ref="21" fk-ref="27"/>
+		<relation name="fk_service_servicio_texto_service_servicio" fq-name="clv_products.service_servicio_texto.fk_service_servicio_texto_service_servicio" type="fk" pk-ref="21" fk-ref="28"/>
+		<relation name="fk_service_tag_servicio_service_servicio" fq-name="clv_products.service_tag_servicio.fk_service_tag_servicio_service_servicio" type="fk" pk-ref="21" fk-ref="31"/>
+		<relation name="fk_service_servicio_proveedor_tarifa_service_servicio_proveedor" fq-name="clv_products.service_servicio_proveedor_tarifa.fk_service_servicio_proveedor_tarifa_service_servicio_proveedor" type="fk" pk-ref="25" fk-ref="26"/>
+		<relation name="fk_service_servicio_service_servicio_tipo" fq-name="clv_products.service_servicio.fk_service_servicio_service_servicio_tipo" type="fk" pk-ref="29" fk-ref="21"/>
+		<relation name="fk_service_tag_tiposervicio" fq-name="clv_products.service_tag_tiposervicio.fk_service_tag_tiposervicio" type="fk" pk-ref="29" fk-ref="32"/>
+		<relation name="fk_service_tag_servicio_serivce_tag" fq-name="clv_products.service_tag_servicio.fk_service_tag_servicio_serivce_tag" type="fk" pk-ref="30" fk-ref="31"/>
+		<relation name="fk_service_tag" fq-name="clv_products.service_tag_tiposervicio.fk_service_tag" type="fk" pk-ref="30" fk-ref="32"/>
+		<relation name="fk_service_texto_termino_1" fq-name="clv_products.service_texto_termino.fk_service_texto_termino_1" type="fk" pk-ref="33" fk-ref="34"/>
+		<relation name="fk_service_servicio_tipo_1" fq-name="clv_products.service_servicio_tipo.fk_service_servicio_tipo_1" type="fk" pk-ref="35" fk-ref="29"/>
+	</relations>
+</diagram>

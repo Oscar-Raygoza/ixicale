@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="EventoLocacionServicios.erd">
+	<entities>
+		<data-source id="mysql8-173ba36d596-7a353cd0a0c0cb14">
+			<entity id="1" name="event_detalle_item" fq-name="clv_events.event_detalle_item" order="0" x="8" y="203">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="2" name="event_evento" fq-name="clv_events.event_evento" order="1" x="307" y="18">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="3" name="event_evento_locacion" fq-name="clv_events.event_evento_locacion" order="2" x="598" y="19">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="4" name="event_locacion" fq-name="clv_events.event_locacion" order="3" x="944" y="63">
+				<path name="clv_events"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="fk_event_detalle_item_event_evento1" fq-name="clv_events.event_detalle_item.fk_event_detalle_item_event_evento1" type="fk" pk-ref="2" fk-ref="1"/>
+		<relation name="fk_even_evento_locacion_event_evento" fq-name="clv_events.event_evento_locacion.fk_even_evento_locacion_event_evento" type="fk" pk-ref="2" fk-ref="3"/>
+		<relation name="fk_event_evento_locacion_event_locacion" fq-name="clv_events.event_evento_locacion.fk_event_evento_locacion_event_locacion" type="fk" pk-ref="4" fk-ref="3"/>
+	</relations>
+</diagram>

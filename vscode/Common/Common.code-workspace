@@ -1,0 +1,23 @@
+{
+    "folders": [
+        {
+            "name": "MainFolder",
+            "path": "."
+        },
+        {
+            "name": "Repo",
+            "path": "/home/ixicale/Documentos/projects/python/clv_common_py"
+        },
+
+        {
+            "name": "Repo2",
+            "path": "/home/ixicale/Documentos/projects/python/clv_common_py/code_structure"
+        }
+    ],
+    "settings": {
+        "editor.rulers": [70, 79],
+        "workbench.colorCustomizations": {
+            "editorRuler.foreground": "#59a1ff"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+INSERT INTO clv_benefits.bnf_sub_concepto (idcontr_categoria_contrato,idbnf_concepto,descripcion,idioma,estado,fecha_creacion,usuario_creacion,usuario_ultima_modificacion,fecha_ultima_modificacion) VALUES 
+(77,9,'Food and Beverage','{"1":"Food and Beverage"}',1,'2019-10-24 22:17:53','ersanchez',' ','2019-10-24 22:17:53')
+,(95,10,'Commission','{"1":"Commission"}',1,'2019-10-24 22:35:08','jugomez',' ','2019-10-24 22:35:08')
+,(95,10,'Commission Jamaica','{"1":"Commission Jamaica"}',1,'2019-10-24 22:54:56','jugomez','jugomez','2019-10-24 22:56:30')
+,(95,10,'Commissions-staff, upgrade, comp.','{"1":"Commissions-staff, upgrade, comp."}',1,'2019-10-24 23:00:02','jugomez',' ','2019-10-24 23:00:02')
+,(95,7,'Comps','{"1":"Comps"}',1,'2019-10-24 23:10:26','jugomez','jugomez','2019-11-12 02:10:32')
+,(95,7,'Comps cumulative basis','{"1":"Comps cumulative basis"}',1,'2019-10-25 00:06:02','jugomez',' ','2019-10-25 00:06:02')
+,(95,7,'Staff Rooms','{"1":"Staff Rooms"}',1,'2019-10-25 00:15:05','jugomez',' ','2019-10-25 00:15:05')
+,(95,7,'Staff rooms','{"1":"Staff rooms cumulative basis"}',1,'2019-10-25 00:21:19','jugomez','jugomez','2019-10-25 00:25:07')
+,(95,7,'Upgrade','{"1":"Upgrade"}',1,'2019-10-25 00:29:47','jugomez',' ','2019-10-25 00:29:47')
+,(95,7,'Upgrades cumulative basis.','{"1":"Upgrades cumulative basis."}',1,'2019-10-25 00:39:25','jugomez',' ','2019-10-25 00:39:25')
+;
+INSERT INTO clv_benefits.bnf_sub_concepto (idcontr_categoria_contrato,idbnf_concepto,descripcion,idioma,estado,fecha_creacion,usuario_creacion,usuario_ultima_modificacion,fecha_ultima_modificacion) VALUES 
+(95,7,'Golf','{"1":"Golf"}',1,'2019-10-26 16:01:30','jugomez',' ','2019-10-26 16:01:30')
+,(95,7,'spa','{"1":"Spa"}',1,'2019-10-26 16:26:55','jugomez','jugomez','2019-10-26 16:34:36')
+,(95,7,'Master Account','{"1":"Master Account"}',1,'2019-10-26 16:41:22','jugomez',' ','2019-10-26 16:41:22')
+,(95,7,'Free Kids','{"1":"Resort Credit"}',1,'2019-10-26 16:59:44','jugomez','jugomez','2019-10-26 17:00:56')
+,(95,7,'Resort Credit LB','{"1":"Mice Credit"}',1,'2019-10-26 17:26:51','jugomez','jugomez','2019-10-26 17:33:24')
+,(95,7,'VIP Status','{"1":"VIP Status"}',1,'2019-10-26 17:36:33','jugomez',' ','2019-10-26 17:36:33')
+,(95,7,'Optional','{"1":"Optional"}',1,'2019-10-26 17:54:29','jugomez',' ','2019-10-26 17:54:29')
+,(95,2,'Free Kids','{"1":"Free Kids"}',1,'2019-10-26 19:08:09','jugomez',' ','2019-10-26 19:08:09')
+,(95,2,'Ready, Sell, Stay','{"1":"Ready, Sell, Stay"}',1,'2019-10-26 19:10:55','jugomez',' ','2019-10-26 19:10:55')
+,(94,10,'Comisión México','{"2":"Comisión Jamaica"}',1,'2019-11-09 16:04:10','marrosas','marrosas','2019-11-09 16:26:50')
+;
+INSERT INTO clv_benefits.bnf_sub_concepto (idcontr_categoria_contrato,idbnf_concepto,descripcion,idioma,estado,fecha_creacion,usuario_creacion,usuario_ultima_modificacion,fecha_ultima_modificacion) VALUES 
+(94,10,'Comisión México','{"2":"Comisión México"}',1,'2019-11-09 16:12:21','marrosas',' ','2019-11-09 16:12:21')
+,(94,10,'Comisión Staff, Comps, Up grades','{"2":"Comisión Staff, Comps, Up grades"}',1,'2019-11-09 16:15:21','marrosas',' ','2019-11-09 16:15:21')
+,(94,7,'Eventos y locaciones','{"2":"Eventos y locaciones"}',1,'2019-11-12 01:17:21','marrosas',' ','2019-11-12 01:17:21')
+,(94,7,'Meseros','{"2":"Meseros"}',1,'2019-11-12 01:21:29','marrosas',' ','2019-11-12 01:21:29')
+,(94,7,'Área de Registro','{"2":"Área de Registro"}',1,'2019-11-12 01:28:33','marrosas',' ','2019-11-12 01:28:33')
+,(94,7,'Salones','{"2":"Salones"}',1,'2019-11-12 01:37:35','marrosas',' ','2019-11-12 01:37:35')
+,(94,7,'Coffee Break','{"2":"Coffee Break"}',1,'2019-11-12 01:38:59','marrosas',' ','2019-11-12 01:38:59')
+,(94,7,'CSM','{"2":"CSM"}',1,'2019-11-12 01:41:15','marrosas',' ','2019-11-12 01:41:15')
+,(94,7,'Vino','{"2":"Vino"}',1,'2019-11-12 01:46:03','marrosas',' ','2019-11-12 01:46:03')
+,(94,7,'Spa','{"2":"Spa"}',1,'2019-11-12 01:49:21','marrosas',' ','2019-11-12 01:49:21')
+;
+INSERT INTO clv_benefits.bnf_sub_concepto (idcontr_categoria_contrato,idbnf_concepto,descripcion,idioma,estado,fecha_creacion,usuario_creacion,usuario_ultima_modificacion,fecha_ultima_modificacion) VALUES 
+(95,7,'Moon Vacation Getaway','{"1":"Moon Vacation Getaway"}',1,'2019-11-12 01:55:02','jugomez',' ','2019-11-12 01:55:02')
+,(94,7,'%Extras','{"2":"%Extras"}',1,'2019-11-12 01:56:04','marrosas',' ','2019-11-12 01:56:04')
+,(94,7,'Moon Vacation Getaway','{"2":"Moon Vacation Getaway"}',1,'2019-11-12 02:01:59','marrosas',' ','2019-11-12 02:01:59')
+,(94,7,'Staff','{"2":"Staff"}',1,'2019-11-12 02:06:19','marrosas',' ','2019-11-12 02:06:19')
+,(94,7,'Complementarias','{"2":"Complementarias"}',1,'2019-11-12 02:19:02','marrosas',' ','2019-11-12 02:19:02')
+,(94,7,'Upgrades','{"2":"Upgrades"}',1,'2019-11-12 02:30:21','marrosas',' ','2019-11-12 02:30:21')
+,(97,7,'Complementarias','{"1":"Complementarias"}',1,'2019-12-13 23:39:08','jugomez',' ','2019-12-13 23:39:08')
+;

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="benfit.erd">
+	<entities>
+		<data-source id="mysql8-16d604f9394-10c6c8cf1cf5007e">
+			<entity id="1" name="bnf_concepto" fq-name="clv_benefits.bnf_concepto" order="0" x="926" y="39">
+				<path name="clv_benefits"/>
+			</entity>
+			<entity id="2" name="bnf_condicion_variable" fq-name="clv_benefits.bnf_condicion_variable" order="1" x="24" y="359">
+				<path name="clv_benefits"/>
+			</entity>
+			<entity id="3" name="bnf_configuracion_clausula" fq-name="clv_benefits.bnf_configuracion_clausula" order="2" x="310" y="10">
+				<path name="clv_benefits"/>
+			</entity>
+			<entity id="4" name="bnf_sub_concepto" fq-name="clv_benefits.bnf_sub_concepto" order="3" x="614" y="33">
+				<path name="clv_benefits"/>
+			</entity>
+			<entity id="5" name="bnf_variable_beneficio" fq-name="clv_benefits.bnf_variable_beneficio" order="4" x="11" y="2">
+				<path name="clv_benefits"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="fk_bnf_sub_concepto_bnf_concepto1" fq-name="clv_benefits.bnf_sub_concepto.fk_bnf_sub_concepto_bnf_concepto1" type="fk" pk-ref="1" fk-ref="4"/>
+		<relation name="fk_bnf_condicion_variable_bnf_configuracion_clausula1" fq-name="clv_benefits.bnf_condicion_variable.fk_bnf_condicion_variable_bnf_configuracion_clausula1" type="fk" pk-ref="3" fk-ref="2"/>
+		<relation name="fk_bnf_condicion_variable_bnf_variable_beneficio1" fq-name="clv_benefits.bnf_condicion_variable.fk_bnf_condicion_variable_bnf_variable_beneficio1" type="fk" pk-ref="5" fk-ref="2"/>
+	</relations>
+</diagram>

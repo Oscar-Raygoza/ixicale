@@ -1,0 +1,49 @@
+{
+    "0-0": {
+        "clausula": {
+            "1": "<p>&nbsp;The Deposit of @quantity@@type@&nbsp;(@amount@)&nbsp;of the total group amount is due by&nbsp;&nbsp;@begins_day@ days prior to group arrival.&nbsp;&nbsp;@last_day@&nbsp;&nbsp;@date@&nbsp;</p>\\n"
+        },
+        "variables": [
+            "@quantity@",
+            "@type@",
+            "@amount@",
+            "@begins_day@",
+            "@last_day@",
+            "@date@"
+        ],
+        "filas": [
+            {
+                "@quantity@": 10,
+                "@begins_day@": "First payment (signature date)",
+                "@last_day@": 181,
+                "@type@": "Percent",
+                "@amount@": "",
+                "@date@": ""
+            },
+            {
+                "@quantity@": 40,
+                "@begins_day@": 180,
+                "@last_day@": 91,
+                "@type@": "Percent",
+                "@amount@": "",
+                "@date@": ""
+            },
+            {
+                "@quantity@": 40,
+                "@begins_day@": 90,
+                "@last_day@": 31,
+                "@type@": "Percent",
+                "@amount@": "",
+                "@date@": ""
+            },
+            {
+                "@quantity@": 10,
+                "@begins_day@": 30,
+                "@last_day@": 1,
+                "@type@": "Percent",
+                "@amount@": "",
+                "@date@": ""
+            }
+        ]
+    }
+}

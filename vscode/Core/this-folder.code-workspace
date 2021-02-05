@@ -1,0 +1,17 @@
+
+{
+	"folders": [
+		{
+			"name": "MainFolder",
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.rulers": [
+			80,
+			115
+		],
+		"workbench.colorCustomizations": {
+			"editorRuler.foreground": "#59a1ff"
+		}
+	}

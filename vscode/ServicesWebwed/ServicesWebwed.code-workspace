@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "MainFolder",
+			"path": "."
+		},
+		{
+			"name": "FE",
+			"path": "/var/www/html/NODE/clv-service-webwed"
+		}
+	],
+    "settings": {
+        "editor.tabSize": 4,
+        "editor.rulers": [80, 115, 120],
+        "workbench.colorCustomizations": {
+            "editorRuler.foreground": "#59a1ff"
+        },
+        "prettier.printWidth": 119,
+		"prettier.tabWidth": 4,
+		"prettier.jsxSingleQuote": true,
+		"prettier.singleQuote": true
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "folders": [
+        {
+            "name": "MainFolder",
+            "path": "."
+        },
+        {
+            "name": "API",
+            "path": "/home/ixicale/Documentos/projects/python/clv-report-api"
+        }
+    ],
+    "settings": {
+        "editor.rulers": [70, 79],
+        "workbench.colorCustomizations": {
+            "editorRuler.foreground": "#59a1ff"
+        },
+        "python.venvPath": "/srv/http/x_factor/SteampunkFactory-Loot/clever/Report/.venv"
+    }
+}

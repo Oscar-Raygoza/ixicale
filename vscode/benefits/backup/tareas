@@ -1,0 +1,13 @@
+CV = [{}]
+CLAUSULA = [{}]
+
+1. getbyid (varaible beneficio)
+2. validar 
+    - estado 0
+        CV getListaCondVariable() => global:0
+    - tag !=
+        CV getListaCondVariable() => tag:nuevo
+        CLAUSULA getListCla(CV) => texto.replace(tag -> nuevo)
+
+update CV
+update CLAUSULA

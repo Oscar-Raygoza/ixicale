@@ -1,0 +1,34 @@
+habitaciones        200
+personas            150
+noches              10
+noche peak          50
+monto               15000 USD
+...
+{
+    if variable.tipo_rango == 1{
+        valor = habitaciones
+    } else if variable.tipo_rango == 2{
+        valor = noche peak  
+    } else if variable.tipo_rango == 3{
+       valor = noches      
+    } else {
+        valor = 0
+    }
+    texto = func(valor, variable.rangos)
+}
+...
+func(cantidad, list_rango){
+    list_rango.map((item)=>{
+        if(cantidad< item.inicio){
+
+        }else if(cantidad< item.inicio){
+            
+        }
+        let key = item.inicio+"-"+item.fin
+        value = base[key].base
+        target = base[key].tag
+        texto = texto.raplace(target, value)
+        
+    })
+    return texto;
+}

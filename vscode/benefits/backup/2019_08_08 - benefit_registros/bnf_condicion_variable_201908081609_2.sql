@@ -1,0 +1,76 @@
+INSERT INTO clv_benefits.bnf_condicion_variable (idbnf_configuracion_clausula,idbnf_variable_beneficio,base,tipo_dato,override_rules,es_global,tag,tipo_rango,rangos,estado,fecha_creacion,usuario_creacion,usuario_ultima_modificacion,fecha_ultima_modificacion) VALUES 
+(1,2,'''{"clausula":{"1":"<p>the deposit of @quantity@ @type@&nbsp;(@amount@)&nbsp;of the total group amount is due by&nbsp;&nbsp;@begins_day@ days prior to group arrival.&nbsp;&nbsp;@last_day@&nbsp;&nbsp;@date@&nbsp;</p>\\\\n"},"variables":["@quantity@","@type@","@amount@","@begins_day@","@last_day@","@date@"],"filas":[{"@quantity@":10,"@begins_day@":"First payment (signature date)","@last_day@":181,"@type@":"Percent","@amount@":"","@date@":""},{"@quantity@":40,"@begins_day@":180,"@last_day@":91,"@type@":"Percent","@amount@":"","@date@":""},{"@quantity@":40,"@begins_day@":90,"@last_day@":31,"@type@":"Percent","@amount@":"","@date@":""},{"@quantity@":10,"@begins_day@":30,"@last_day@":1,"@type@":"Percent","@amount@":"","@date@":""}]}''',4,'''[{"max":"","level":"1"}]''',0,'',0,'',1,'2019-07-23 07:15:03.000','ersanchez','ixicale','2019-07-29 12:30:16.000')
+,(2,3,'''%''',2,'''[{"lim_sup":"","lvl_auth":"1"}]''',0,'',0,'',1,'2019-07-23 07:26:30.000','ersanchez','','2019-07-23 07:26:30.000')
+,(2,1,'''15''',1,'''[{"auth_id":0,"min":"21","max":"100","level":2},{"auth_id":0,"min":"16","max":"20","level":1}]''',0,'',0,'',1,'2019-07-23 07:26:30.000','ersanchez','','2019-07-23 07:26:30.000')
+,(3,3,'''500.05''',5,'''[{"auth_id":0,"min":"399","max":"1","level":2},{"auth_id":0,"min":"499","max":"400","level":1}]''',0,'',0,'',1,'2019-07-23 07:52:57.000','ersanchez','ixicale','2019-07-25 08:12:33.000')
+,(3,1,'''50''',1,'''[{"auth_id":0,"min":"50","max":"999","level":2},{"auth_id":0,"min":"1","max":"40","level":1}]''',0,'',0,'',1,'2019-07-23 07:52:57.000','ersanchez','ixicale','2019-07-25 08:12:33.000')
+,(3,5,'''__''',3,'''[{"max":"","level":"1"}]''',0,'',0,'',1,'2019-07-23 07:52:57.000','ersanchez','ixicale','2019-07-25 08:12:33.000')
+,(3,4,'''USD''',2,'''[{"max":"","level":"1"}]''',0,'',0,'',1,'2019-07-23 07:52:57.000','ersanchez','ixicale','2019-07-25 08:12:33.000')
+,(3,2,'''{"clausula":{"1":"<p>&nbsp;deposit of @quantity@@type@&nbsp;(@amount@)&nbsp;of the total group amount is due by&nbsp;&nbsp;@begins_day@ days prior to group arrival.&nbsp;&nbsp;@last_day@&nbsp;&nbsp;@date@&nbsp;</p>\\\\n"},"variables":["@quantity@","@type@","@amount@","@begins_day@","@last_day@","@date@"],"filas":[{"@quantity@":10,"@begins_day@":"First payment (signature date)","@last_day@":181,"@type@":"Percent","@amount@":"","@date@":""},{"@quantity@":40,"@begins_day@":180,"@last_day@":91,"@type@":"Percent","@amount@":"","@date@":""},{"@quantity@":40,"@begins_day@":90,"@last_day@":31,"@type@":"Percent","@amount@":"","@date@":""},{"@quantity@":10,"@begins_day@":30,"@last_day@":1,"@type@":"Percent","@amount@":"","@date@":""}]}''',4,'''[{"max":"","level":"1"}]''',0,'',0,'',1,'2019-07-23 07:52:57.000','ersanchez','ixicale','2019-07-25 08:12:34.000')
+,(3,6,'''120''',1,'''[{"auth_id":0,"min":"119","max":"110","level":1},{"auth_id":0,"min":"109","max":"100","level":2}]''',0,'',0,'',1,'2019-07-23 07:52:57.000','ersanchez','ixicale','2019-07-25 08:12:34.000')
+,(4,8,'''50''',1,'''[{"auth_id":0,"min":"40","max":"49","level":1},{"auth_id":0,"min":"30","max":"39","level":2}]''',0,'',0,'',1,'2019-07-25 08:04:39.000','ixicale','ixicale','2019-07-29 08:54:32.000')
+;
+INSERT INTO clv_benefits.bnf_condicion_variable (idbnf_configuracion_clausula,idbnf_variable_beneficio,base,tipo_dato,override_rules,es_global,tag,tipo_rango,rangos,estado,fecha_creacion,usuario_creacion,usuario_ultima_modificacion,fecha_ultima_modificacion) VALUES 
+(5,2,'''{"clausula":{"1":"<p>&nbsp;The Deposit of @quantity@@type@&nbsp;(@amount@)&nbsp;of the total group amount is due by&nbsp;&nbsp;@begins_day@ days prior to group arrival.&nbsp;&nbsp;@last_day@&nbsp;&nbsp;@date@&nbsp;</p>\\\\n"},"variables":["@quantity@","@type@","@amount@","@begins_day@","@last_day@","@date@"],"filas":[{"@quantity@":10,"@begins_day@":"First payment (signature date)","@last_day@":181,"@type@":"Percent","@amount@":"","@date@":""},{"@quantity@":40,"@begins_day@":180,"@last_day@":91,"@type@":"Percent","@amount@":"","@date@":""},{"@quantity@":40,"@begins_day@":90,"@last_day@":31,"@type@":"Percent","@amount@":"","@date@":""},{"@quantity@":10,"@begins_day@":30,"@last_day@":1,"@type@":"Percent","@amount@":"","@date@":""}]}''',4,'''[{"max":"","level":"1"}]''',0,'',0,'',1,'2019-07-29 08:59:17.000','ixicale','','2019-07-29 08:59:17.000')
+,(6,1,'''50''',5,'''[{"auth_id":0,"min":"50","max":"35","level":1}]''',0,'',0,'',1,'2019-07-29 09:12:27.000','ersanchez','ersanchez','2019-08-06 03:26:00.000')
+,(7,3,'''40''',1,'''[{"auth_id":0,"min":"41","max":"50","level":1},{"auth_id":0,"min":"51","max":"100","level":2},{"auth_id":0,"min":"1","max":"40","level":0}]''',0,'',0,'',1,'2019-07-29 09:14:15.000','ersanchez','ersanchez','2019-07-31 03:23:42.000')
+,(8,4,'''USD''',2,'''[{"max":"","level":"1"}]''',0,'',0,'',1,'2019-07-29 09:34:49.000','ersanchez','ixicale','2019-08-05 04:33:55.000')
+,(9,7,'''1003''',1,'''[{"auth_id":0,"min":"6","max":"7","level":1},{"auth_id":0,"min":"8","max":"10","level":2}]''',0,'',0,'',1,'2019-07-30 00:49:33.000','ersanchez','ersanchez','2019-07-31 02:00:18.000')
+,(10,1,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-07-30 07:29:21.000','jugomez','ersanchez','2019-08-05 06:17:42.000')
+,(11,3,'''500.05''',5,'''[{"auth_id":0,"min":"399","max":"1","level":2},{"auth_id":0,"min":"499","max":"400","level":1}]''',0,'',0,'',1,'2019-07-30 12:09:53.000','ersanchez','','2019-07-30 12:09:53.000')
+,(12,1,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-07-30 12:48:08.000','ersanchez','ersanchez','2019-07-31 02:10:06.000')
+,(13,1,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-07-30 12:50:38.000','ersanchez','ersanchez','2019-07-31 01:38:48.000')
+,(14,3,'''15''',1,'''[{"auth_id":0,"min":"10","max":"12","level":1},{"auth_id":0,"min":"13","max":"18","level":0},{"auth_id":0,"min":"19","max":"22","level":2}]''',0,'',0,'',1,'2019-07-30 12:55:39.000','ersanchez','ersanchez','2019-08-06 03:35:35.000')
+;
+INSERT INTO clv_benefits.bnf_condicion_variable (idbnf_configuracion_clausula,idbnf_variable_beneficio,base,tipo_dato,override_rules,es_global,tag,tipo_rango,rangos,estado,fecha_creacion,usuario_creacion,usuario_ultima_modificacion,fecha_ultima_modificacion) VALUES 
+(14,8,'''50''',1,'''[{"auth_id":0,"min":"40","max":"49","level":1},{"auth_id":0,"min":"30","max":"39","level":2}]''',0,'',0,'',1,'2019-07-30 12:55:39.000','ersanchez','ersanchez','2019-08-06 03:35:35.000')
+,(14,5,'''__''',3,'''[{"max":"","level":"1"}]''',0,'',0,'',1,'2019-07-30 12:55:39.000','ersanchez','ersanchez','2019-08-06 03:35:35.000')
+,(14,13,'''6''',1,'''[{"auth_id":0,"min":"6","max":"6","level":1}]''',0,'',0,'',1,'2019-07-30 12:55:39.000','ersanchez','ersanchez','2019-08-06 03:35:35.000')
+,(9,2,'''{"clausula":{"1":"<p>&nbsp;The Deposit of @quantity@@type@&nbsp;(@amount@)&nbsp;of the total group amount is due by&nbsp;&nbsp;@begins_day@ days prior to group arrival.&nbsp;&nbsp;@last_day@&nbsp;&nbsp;@date@&nbsp;</p>\\\\n"},"variables":["@quantity@","@type@","@amount@","@begins_day@","@last_day@","@date@"],"filas":[{"@quantity@":10,"@begins_day@":"First payment (signature date)","@last_day@":181,"@type@":"Percent","@amount@":"","@date@":""},{"@quantity@":40,"@begins_day@":180,"@last_day@":91,"@type@":"Percent","@amount@":"","@date@":""},{"@quantity@":40,"@begins_day@":90,"@last_day@":31,"@type@":"Percent","@amount@":"","@date@":""},{"@quantity@":10,"@begins_day@":30,"@last_day@":1,"@type@":"Percent","@amount@":"","@date@":""}]}''',4,'''[{"max":"","level":"1"}]''',0,'',0,'',1,'2019-07-30 00:49:33.000','ersanchez','ersanchez','2019-07-31 02:00:18.000')
+,(6,1,'''50''',5,'''[{"auth_id":0,"min":"50","max":"35","level":1}]''',0,'',0,'',1,'2019-08-01 06:17:49.000','ixicale','','2019-08-01 06:17:49.000')
+,(15,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 07:13:29.000','jugomez','ersanchez','2019-08-05 06:18:14.000')
+,(16,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 07:16:18.000','ersanchez','','2019-08-01 07:16:18.000')
+,(17,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 11:22:01.000','dareyes','','2019-08-01 11:22:01.000')
+,(18,2,'''20''',1,'''[{"auth_id":0,"min":"10","max":"11","level":1}]''',0,'',0,'',1,'2019-08-01 07:23:07.000','ersanchez','ersanchez','2019-08-05 06:19:05.000')
+,(19,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 11:26:46.000','dareyes','','2019-08-01 11:26:46.000')
+;
+INSERT INTO clv_benefits.bnf_condicion_variable (idbnf_configuracion_clausula,idbnf_variable_beneficio,base,tipo_dato,override_rules,es_global,tag,tipo_rango,rangos,estado,fecha_creacion,usuario_creacion,usuario_ultima_modificacion,fecha_ultima_modificacion) VALUES 
+(20,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 11:31:21.000','dareyes','','2019-08-01 11:31:21.000')
+,(21,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 11:33:04.000','dareyes','','2019-08-01 11:33:04.000')
+,(22,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 11:35:20.000','dareyes','','2019-08-01 11:35:20.000')
+,(24,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 11:42:47.000','dareyes','','2019-08-01 11:42:47.000')
+,(25,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 11:44:03.000','dareyes','','2019-08-01 11:44:03.000')
+,(27,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 12:07:36.000','dareyes','','2019-08-01 12:07:36.000')
+,(28,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 12:15:49.000','dareyes','','2019-08-01 12:15:49.000')
+,(29,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 12:17:50.000','dareyes','','2019-08-01 12:17:50.000')
+,(30,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 12:19:14.000','dareyes','','2019-08-01 12:19:14.000')
+,(31,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 12:20:53.000','dareyes','','2019-08-01 12:20:53.000')
+;
+INSERT INTO clv_benefits.bnf_condicion_variable (idbnf_configuracion_clausula,idbnf_variable_beneficio,base,tipo_dato,override_rules,es_global,tag,tipo_rango,rangos,estado,fecha_creacion,usuario_creacion,usuario_ultima_modificacion,fecha_ultima_modificacion) VALUES 
+(32,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 12:21:49.000','dareyes','','2019-08-01 12:21:49.000')
+,(33,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 12:23:37.000','dareyes','','2019-08-01 12:23:37.000')
+,(35,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 12:28:26.000','dareyes','dareyes','2019-08-01 12:29:39.000')
+,(36,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 12:35:55.000','dareyes','','2019-08-01 12:35:55.000')
+,(37,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 12:36:28.000','dareyes','','2019-08-01 12:36:28.000')
+,(38,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 12:42:42.000','dareyes','dareyes','2019-08-01 12:46:19.000')
+,(39,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 12:43:56.000','dareyes','','2019-08-01 12:43:56.000')
+,(40,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 12:45:48.000','dareyes','','2019-08-01 12:45:48.000')
+,(41,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 12:47:33.000','dareyes','','2019-08-01 12:47:33.000')
+,(42,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 12:48:34.000','dareyes','','2019-08-01 12:48:34.000')
+;
+INSERT INTO clv_benefits.bnf_condicion_variable (idbnf_configuracion_clausula,idbnf_variable_beneficio,base,tipo_dato,override_rules,es_global,tag,tipo_rango,rangos,estado,fecha_creacion,usuario_creacion,usuario_ultima_modificacion,fecha_ultima_modificacion) VALUES 
+(43,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 12:50:09.000','dareyes','','2019-08-01 12:50:09.000')
+,(44,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 13:00:25.000','dareyes','','2019-08-01 13:00:25.000')
+,(45,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 13:01:50.000','dareyes','','2019-08-01 13:01:50.000')
+,(46,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 13:03:07.000','dareyes','','2019-08-01 13:03:07.000')
+,(47,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 13:04:34.000','dareyes','','2019-08-01 13:04:34.000')
+,(48,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 13:07:13.000','dareyes','','2019-08-01 13:07:13.000')
+,(49,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 13:08:04.000','dareyes','','2019-08-01 13:08:04.000')
+,(50,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-01 13:08:50.000','dareyes','','2019-08-01 13:08:50.000')
+,(51,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-02 05:10:50.000','jugomez','ixicale','2019-08-06 05:02:17.000')
+,(52,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-02 05:41:20.000','jugomez','ersanchez','2019-08-05 06:16:11.000')
+;
+INSERT INTO clv_benefits.bnf_condicion_variable (idbnf_configuracion_clausula,idbnf_variable_beneficio,base,tipo_dato,override_rules,es_global,tag,tipo_rango,rangos,estado,fecha_creacion,usuario_creacion,usuario_ultima_modificacion,fecha_ultima_modificacion) VALUES 
+(53,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-02 05:44:31.000','jugomez','ersanchez','2019-08-05 06:15:10.000')
+,(54,2,'''__''',2,'''[{"lim_sup":"","lvl_auth":1}]''',0,'',0,'',1,'2019-08-02 05:45:46.000','jugomez','ersanchez','2019-08-05 06:17:05.000')
+;

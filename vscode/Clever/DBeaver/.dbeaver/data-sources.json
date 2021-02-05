@@ -1,0 +1,175 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-173ba34f2ad-179ac8372e36b78c": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "clv_benefits",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "mysql-calidad.palace-resorts.local",
+				"port": "3306",
+				"database": "clv_benefits",
+				"url": "jdbc:mysql://mysql-calidad.palace-resorts.local:3306/clv_benefits",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-173ba36d596-7a353cd0a0c0cb14": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "clv_events",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "mysql-calidad.palace-resorts.local",
+				"port": "3306",
+				"database": "clv_events",
+				"url": "jdbc:mysql://mysql-calidad.palace-resorts.local:3306/clv_events",
+				"type": "dev",
+				"auth-model": "native"
+			},
+			"custom-properties": {
+				"resultset.maxrows": "2000"
+			}
+		},
+		"mysql8-173ba37d00f-6aa567bb65c2bda8": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "clv_products",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "mysql-calidad.palace-resorts.local",
+				"port": "3306",
+				"database": "clv_products",
+				"url": "jdbc:mysql://mysql-calidad.palace-resorts.local:3306/clv_products",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-173ba3ac2ff-68d9cfbfe9660ba0": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "clv_auth",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "mysql-calidad.palace-resorts.local",
+				"port": "3306",
+				"database": "clv_auth",
+				"url": "jdbc:mysql://mysql-calidad.palace-resorts.local:3306/clv_auth",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-173ba3b9df7-34209cbdf46295ac": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "clv_cash_flow",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "mysql-calidad.palace-resorts.local",
+				"port": "3306",
+				"database": "clv_cash_flow",
+				"url": "jdbc:mysql://mysql-calidad.palace-resorts.local:3306/clv_cash_flow",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-173ba3d1ad1-28d7ed2c29e641d2": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "clv_fin",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "mysql-calidad.palace-resorts.local",
+				"port": "3306",
+				"database": "clv_fin",
+				"url": "jdbc:mysql://mysql-calidad.palace-resorts.local:3306/clv_fin",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-173ba3ddfd7-19302dc7215e60d6": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "clv_supplier",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "mysql-calidad.palace-resorts.local",
+				"port": "3306",
+				"database": "clv_supplier",
+				"url": "jdbc:mysql://mysql-calidad.palace-resorts.local:3306/clv_supplier",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-173ba3e9e2b-e2a502d1dc5e8a2": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "clv_frm",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "mysql-calidad.palace-resorts.local",
+				"port": "3306",
+				"database": "clv_frm",
+				"url": "jdbc:mysql://mysql-calidad.palace-resorts.local:3306/clv_frm",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-17574d8ac82-3444d26e1aa79096": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "clv_productions",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "mysql-calidad.palace-resorts.local",
+				"port": "3306",
+				"database": "clv_productions",
+				"url": "jdbc:mysql://mysql-calidad.palace-resorts.local:3306/clv_productions",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"virtual-models": {
+		"mysql8-173ba37d00f-6aa567bb65c2bda8": {
+			"clv_products": {
+				":service_servicio": {
+					"properties": {
+						"erd.diagram.state": {
+							"serialized": "<diagram version=\"1\" name=\"service_servicio\" time=\"202012281756\"><entities><data-source id=\"mysql8-173ba37d00f-6aa567bb65c2bda8\"><entity id=\"1\" name=\"service_servicio\" fq-name=\"clv_products.service_servicio\" order=\"0\" color-bg=\"128,64,32\" x=\"301\" y=\"864\"><path name=\"clv_products\"/></entity><entity id=\"2\" name=\"service_servicio_tipo\" fq-name=\"clv_products.service_servicio_tipo\" order=\"1\" x=\"769\" y=\"1033\"><path name=\"clv_products\"/></entity><entity id=\"3\" name=\"inv_item\" fq-name=\"clv_products.inv_item\" order=\"2\" x=\"20\" y=\"20\"><path name=\"clv_products\"/></entity><entity id=\"4\" name=\"service_servicio_asset\" fq-name=\"clv_products.service_servicio_asset\" order=\"3\" x=\"20\" y=\"407\"><path name=\"clv_products\"/></entity><entity id=\"5\" name=\"service_servicio_cliente\" fq-name=\"clv_products.service_servicio_cliente\" order=\"4\" x=\"20\" y=\"714\"><path name=\"clv_products\"/></entity><entity id=\"6\" name=\"service_servicio_propiedad\" fq-name=\"clv_products.service_servicio_propiedad\" order=\"5\" x=\"20\" y=\"941\"><path name=\"clv_products\"/></entity><entity id=\"7\" name=\"service_servicio_proveedor\" fq-name=\"clv_products.service_servicio_proveedor\" order=\"6\" x=\"20\" y=\"1168\"><path name=\"clv_products\"/></entity><entity id=\"8\" name=\"service_servicio_recurso\" fq-name=\"clv_products.service_servicio_recurso\" order=\"7\" x=\"20\" y=\"1435\"><path name=\"clv_products\"/></entity><entity id=\"9\" name=\"service_servicio_texto\" fq-name=\"clv_products.service_servicio_texto\" order=\"8\" x=\"20\" y=\"1742\"><path name=\"clv_products\"/></entity><entity id=\"10\" name=\"service_tag_servicio\" fq-name=\"clv_products.service_tag_servicio\" order=\"9\" x=\"20\" y=\"2029\"><path name=\"clv_products\"/></entity></data-source></entities><relations><relation name=\"fk_inv_item_service_servicio1\" fq-name=\"clv_products.inv_item.fk_inv_item_service_servicio1\" type=\"fk\" pk-ref=\"1\" fk-ref=\"3\"/><relation name=\"fk_service_servicio_asset_service_servicio\" fq-name=\"clv_products.service_servicio_asset.fk_service_servicio_asset_service_servicio\" type=\"fk\" pk-ref=\"1\" fk-ref=\"4\"/><relation name=\"fk_service_servicio_cliente_service_servicio\" fq-name=\"clv_products.service_servicio_cliente.fk_service_servicio_cliente_service_servicio\" type=\"fk\" pk-ref=\"1\" fk-ref=\"5\"/><relation name=\"fk_service_servicio_propiedad_service_servicio\" fq-name=\"clv_products.service_servicio_propiedad.fk_service_servicio_propiedad_service_servicio\" type=\"fk\" pk-ref=\"1\" fk-ref=\"6\"/><relation name=\"fk_service_servicio_proveedor_service_servicio\" fq-name=\"clv_products.service_servicio_proveedor.fk_service_servicio_proveedor_service_servicio\" type=\"fk\" pk-ref=\"1\" fk-ref=\"7\"/><relation name=\"service_servicio_recurso_ibfk_1\" fq-name=\"clv_products.service_servicio_recurso.service_servicio_recurso_ibfk_1\" type=\"fk\" pk-ref=\"1\" fk-ref=\"8\"/><relation name=\"fk_service_servicio_texto_service_servicio\" fq-name=\"clv_products.service_servicio_texto.fk_service_servicio_texto_service_servicio\" type=\"fk\" pk-ref=\"1\" fk-ref=\"9\"/><relation name=\"fk_service_tag_servicio_service_servicio\" fq-name=\"clv_products.service_tag_servicio.fk_service_tag_servicio_service_servicio\" type=\"fk\" pk-ref=\"1\" fk-ref=\"10\"/><relation name=\"fk_service_servicio_service_servicio_tipo\" fq-name=\"clv_products.service_servicio.fk_service_servicio_service_servicio_tipo\" type=\"fk\" pk-ref=\"2\" fk-ref=\"1\"/></relations></diagram>"
+						}
+					}
+				}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}

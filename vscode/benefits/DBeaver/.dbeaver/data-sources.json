@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-16d604f9394-10c6c8cf1cf5007e": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "MySQL - clv_benefits",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "mysql-calidad.palace-resorts.local",
+				"port": "3306",
+				"database": "clv_benefits",
+				"url": "jdbc:mysql://mysql-calidad.palace-resorts.local:3306/clv_benefits",
+				"home": "/usr",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			},
+			"custom-properties": {
+				"resultset.maxrows": "2000"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}

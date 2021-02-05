@@ -1,0 +1,30 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-16f9166f5bd-3db6b8e68353dc": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "MySQL 8+ - clv_proagent",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "mysqldev57-cluster.cluster-cdrfidjuoewu.us-east-1.rds.amazonaws.com",
+				"port": "3306",
+				"database": "clv_proagent",
+				"url": "jdbc:mysql://mysqldev57-cluster.cluster-cdrfidjuoewu.us-east-1.rds.amazonaws.com:3306/clv_proagent",
+				"type": "dev",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}

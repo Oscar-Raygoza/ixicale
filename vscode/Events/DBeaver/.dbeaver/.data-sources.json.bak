@@ -1,0 +1,64 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-16e279b9a23-c0a161f27094bfb": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "MySQL 8+ - clv_events",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "mysql-calidad.palace-resorts.local",
+				"port": "3306",
+				"database": "clv_events",
+				"url": "jdbc:mysql://mysql-calidad.palace-resorts.local:3306/clv_events",
+				"home": "/usr",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-16e279c920c-6e8ce2a5d85c9f87": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "MySQL 8+ - clv_products",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "mysql-calidad.palace-resorts.local",
+				"port": "3306",
+				"database": "clv_products",
+				"url": "jdbc:mysql://mysql-calidad.palace-resorts.local:3306/clv_products",
+				"home": "/usr",
+				"type": "dev",
+				"auth-model": "native"
+			},
+			"custom-properties": {
+				"database.meta.separate.connection": "false",
+				"resultset.maxrows": "20000"
+			}
+		}
+	},
+	"virtual-models": {
+		"mysql8-16e279b9a23-c0a161f27094bfb": {
+			"clv_events": {
+				":event_grupo": {
+					"properties": {
+						"erd.diagram.state": {
+							"serialized": "<diagram version=\"1\" name=\"event_grupo\" time=\"202007271537\"><entities><data-source id=\"mysql8-16e279b9a23-c0a161f27094bfb\"><entity id=\"1\" name=\"event_grupo\" fq-name=\"clv_events.event_grupo\" order=\"0\" color-bg=\"128,64,32\" x=\"358\" y=\"16\"><path name=\"clv_events\"/></entity><entity id=\"2\" name=\"event_billing_address\" fq-name=\"clv_events.event_billing_address\" order=\"1\" x=\"20\" y=\"20\"><path name=\"clv_events\"/></entity><entity id=\"3\" name=\"event_evento\" fq-name=\"clv_events.event_evento\" order=\"2\" x=\"20\" y=\"287\"><path name=\"clv_events\"/></entity><entity id=\"4\" name=\"event_evento_promocion\" fq-name=\"clv_events.event_evento_promocion\" order=\"3\" x=\"20\" y=\"594\"><path name=\"clv_events\"/></entity><entity id=\"5\" name=\"event_reserva_cobro\" fq-name=\"clv_events.event_reserva_cobro\" order=\"4\" x=\"300\" y=\"619\"><path name=\"clv_events\"/></entity><entity id=\"6\" name=\"event_saldo_favor\" fq-name=\"clv_events.event_saldo_favor\" order=\"5\" x=\"588\" y=\"584\"><path name=\"clv_events\"/></entity></data-source></entities><relations><relation name=\"idevent_grupo\" fq-name=\"clv_events.event_billing_address.idevent_grupo\" type=\"fk\" pk-ref=\"1\" fk-ref=\"2\"/><relation name=\"fk_event_evento_event_grupo1\" fq-name=\"clv_events.event_evento.fk_event_evento_event_grupo1\" type=\"fk\" pk-ref=\"1\" fk-ref=\"3\"/><relation name=\"fk_event_evento_promocion_event_grupo1\" fq-name=\"clv_events.event_evento_promocion.fk_event_evento_promocion_event_grupo1\" type=\"fk\" pk-ref=\"1\" fk-ref=\"4\"/><relation name=\"fk_event_datos_sociedad\" fq-name=\"clv_events.event_reserva_cobro.fk_event_datos_sociedad\" type=\"fk\" pk-ref=\"1\" fk-ref=\"5\"/><relation name=\"fk_event_grupo\" fq-name=\"clv_events.event_saldo_favor.fk_event_grupo\" type=\"fk\" pk-ref=\"1\" fk-ref=\"6\"/></relations></diagram>"
+						}
+					}
+				}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}

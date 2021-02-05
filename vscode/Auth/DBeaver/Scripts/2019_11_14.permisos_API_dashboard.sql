@@ -1,0 +1,3 @@
+--  Auto-generated SQL script #201911141225
+INSERT INTO clv_auth.auth_profile_view (idfrm_sistema,auth_item,modulo,controller,`action`,estado,fecha_creacion,usuario_creacion,usuario_ultima_modificacion,fecha_ultima_modificacion) VALUES (7,'gerente_planner_productions','events','Detallepago','getDetallePagosAtCurrentWeek',1,'2019-11-14 17:26:26','ixicale',' ','1000-01-01 00:00:00') ;
+INSERT INTO clv_auth.auth_profile_view (idfrm_sistema,auth_item,modulo,controller,`action`,estado,fecha_creacion,usuario_creacion,usuario_ultima_modificacion,fecha_ultima_modificacion) VALUES (7,'admin_events','events','Detallepago','getDetallePagosAtCurrentWeek',1,'2019-11-14 17:26:26','ixicale',' ','1000-01-01 00:00:00') ;

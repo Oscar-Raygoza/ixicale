@@ -1,0 +1,28 @@
+{
+    "folders": [
+        {
+            "name": "Events - loot",
+            "path": "."
+        },
+        {
+            "name": "API",
+            "path": "/var/www/html/PHP/clv-events-api"
+        },
+        {
+            "name": "FE",
+            "path": "/var/www/html/NODE/clv-events-fe"
+            // "path": "/srv/http/clv_nodejs/clv-events-fe"
+        }
+    ],
+    "settings": {
+        "editor.tabSize": 4,
+        "editor.rulers": [80, 115, 120],
+        "workbench.colorCustomizations": {
+            "editorRuler.foreground": "#59a1ff"
+        },
+        "prettier.printWidth": 119,
+		"prettier.tabWidth": 4,
+		"prettier.jsxSingleQuote": true,
+		"prettier.singleQuote": true
+    }
+}

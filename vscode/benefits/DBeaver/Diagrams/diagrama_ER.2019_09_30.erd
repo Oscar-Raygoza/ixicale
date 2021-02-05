@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="diagrama_ER.2019_09_30">
+	<entities>
+		<data-source id="mysql8-16d604f9394-10c6c8cf1cf5007e">
+			<entity id="1" name="bit_entidad_bitacora" fq-name="clv_benefits.bit_entidad_bitacora">
+				<path name="clv_benefits"/>
+			</entity>
+			<entity id="2" name="bit_valor_date" fq-name="clv_benefits.bit_valor_date">
+				<path name="clv_benefits"/>
+			</entity>
+			<entity id="3" name="bit_valor_decimal" fq-name="clv_benefits.bit_valor_decimal">
+				<path name="clv_benefits"/>
+			</entity>
+			<entity id="4" name="bit_valor_integer" fq-name="clv_benefits.bit_valor_integer">
+				<path name="clv_benefits"/>
+			</entity>
+			<entity id="5" name="bit_valor_text" fq-name="clv_benefits.bit_valor_text">
+				<path name="clv_benefits"/>
+			</entity>
+			<entity id="6" name="bit_valor_varchar" fq-name="clv_benefits.bit_valor_varchar">
+				<path name="clv_benefits"/>
+			</entity>
+			<entity id="7" name="bnf_clausula_propiedad" fq-name="clv_benefits.bnf_clausula_propiedad">
+				<path name="clv_benefits"/>
+			</entity>
+			<entity id="8" name="bnf_concepto" fq-name="clv_benefits.bnf_concepto">
+				<path name="clv_benefits"/>
+			</entity>
+			<entity id="9" name="bnf_condicion_variable" fq-name="clv_benefits.bnf_condicion_variable">
+				<path name="clv_benefits"/>
+			</entity>
+			<entity id="10" name="bnf_configuracion_clausula" fq-name="clv_benefits.bnf_configuracion_clausula">
+				<path name="clv_benefits"/>
+			</entity>
+			<entity id="11" name="bnf_sub_concepto" fq-name="clv_benefits.bnf_sub_concepto">
+				<path name="clv_benefits"/>
+			</entity>
+			<entity id="12" name="bnf_transaccion" fq-name="clv_benefits.bnf_transaccion">
+				<path name="clv_benefits"/>
+			</entity>
+			<entity id="13" name="bnf_variable_beneficio" fq-name="clv_benefits.bnf_variable_beneficio">
+				<path name="clv_benefits"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="fk_bit_valor_date_entidad" fq-name="clv_benefits.bit_valor_date.fk_bit_valor_date_entidad" type="fk" pk-ref="1" fk-ref="2"/>
+		<relation name="fk_bit_valor_decimal_entidad" fq-name="clv_benefits.bit_valor_decimal.fk_bit_valor_decimal_entidad" type="fk" pk-ref="1" fk-ref="3"/>
+		<relation name="fk_bit_valor_integer_entidad" fq-name="clv_benefits.bit_valor_integer.fk_bit_valor_integer_entidad" type="fk" pk-ref="1" fk-ref="4"/>
+		<relation name="fk_bit_varlor_text_entidad" fq-name="clv_benefits.bit_valor_text.fk_bit_varlor_text_entidad" type="fk" pk-ref="1" fk-ref="5"/>
+		<relation name="fk_bit_valor_varchar_entidad" fq-name="clv_benefits.bit_valor_varchar.fk_bit_valor_varchar_entidad" type="fk" pk-ref="1" fk-ref="6"/>
+		<relation name="fk_bnf_sub_concepto_bnf_concepto1" fq-name="clv_benefits.bnf_sub_concepto.fk_bnf_sub_concepto_bnf_concepto1" type="fk" pk-ref="8" fk-ref="11"/>
+		<relation name="fk_bnf_clausula_propiedad_bnf_configuracion_clausula1" fq-name="clv_benefits.bnf_clausula_propiedad.fk_bnf_clausula_propiedad_bnf_configuracion_clausula1" type="fk" pk-ref="10" fk-ref="7"/>
+		<relation name="fk_bnf_condicion_variable_bnf_configuracion_clausula1" fq-name="clv_benefits.bnf_condicion_variable.fk_bnf_condicion_variable_bnf_configuracion_clausula1" type="fk" pk-ref="10" fk-ref="9"/>
+		<relation name="fk_bnf_condicion_variable_bnf_variable_beneficio1" fq-name="clv_benefits.bnf_condicion_variable.fk_bnf_condicion_variable_bnf_variable_beneficio1" type="fk" pk-ref="13" fk-ref="9"/>
+	</relations>
+</diagram>

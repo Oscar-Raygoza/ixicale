@@ -1,0 +1,53 @@
+{
+    // Place your MainFolder workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+    // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+    // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+    // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+    // Placeholders with the same ids are connected.
+    // Example:
+
+    "console log section": {
+        "prefix": "cgrblock",
+        "body": [
+            "//#region    ----------------------------------------------------------- // ! '${__SectionName__}'",
+            "console.group('${__SectionName__}')",
+            "console.log()",
+            "console.log('this', this)",
+            "console.groupEnd()",
+            "//#endregion ----------------------------------------------------------- // ! '${__SectionName__}'"
+        ],
+        "description": "Insert a region block"
+    },
+    "insert region section": {
+        "prefix": "regblock",
+        "body": [
+            "//#region    ----------------------------------------------------------- // ! '${__SectionName__}'",
+            "",
+            "//#endregion ----------------------------------------------------------- // ! '${__SectionName__}'"
+        ],
+        "description": "Insert a region block"
+    },
+    "insert react abstract update section": {
+        "prefix": "didReactAbstractMethods",
+        "body": [
+            "componentDidMount() {}",
+            "",
+            "componentDidUpdate(prevProps, prevState) {",
+            "\tif(this.props != prevProps){}",
+            "}"
+        ],
+        "description": "Insert abstract react default code"
+    },
+    "scroll": {
+        "prefix": "mailScrollHoriz",
+        "body": [
+            "<pre style='padding:8px;border:1px solid #e2e2e2;border-radius:5px;width:auto;overflow-x:auto;overflow-y:hidden;'>",
+            "  <code class='x_x_sql x_x_syntaxhl' >",
+            "    <pre><span><div><br/></div></span></pre>",
+            "  </code>",
+            "</pre>",
+        ],
+        "description": "Insert html pre to display text into an scroll to wrap codes"
+    }
+}

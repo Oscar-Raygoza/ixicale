@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="grupos">
+	<entities>
+		<data-source id="mysql8-16e279b9a23-c0a161f27094bfb">
+			<entity id="1" name="event_evento" fq-name="clv_events.event_evento">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="2" name="event_evento_locacion" fq-name="clv_events.event_evento_locacion">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="3" name="event_locacion" fq-name="clv_events.event_locacion">
+				<path name="clv_events"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="fk_even_evento_locacion_event_evento" fq-name="clv_events.event_evento_locacion.fk_even_evento_locacion_event_evento" type="fk" pk-ref="1" fk-ref="2"/>
+		<relation name="fk_event_evento_locacion_event_locacion" fq-name="clv_events.event_evento_locacion.fk_event_evento_locacion_event_locacion" type="fk" pk-ref="3" fk-ref="2"/>
+	</relations>
+</diagram>

@@ -1,0 +1,207 @@
+[
+  {
+    "idbnf_categoria_contrato": "77",
+    "idbnf_concepto": "7",
+    "idbnf_configuracion_clausula": "10",
+    "idbnf_sub_concepto": "11",
+    "texto_reemplazo": {
+      "1": "<p>@PAGOS@</p>\n",
+      "2": "<p>espa&ntilde;ol&nbsp;</p>\n"
+    },
+    "texto_reemplazo_editado": {
+      "1": "<p>@PAGOS@</p>\n",
+      "2": "<p>espa&ntilde;ol&nbsp;</p>\n"
+    },
+    "reemplazo_base": {
+      "1": "<p>- Welcome cocktail with Free International Bar accompanied by canap&eacute;s.<br />\n- Welcome buffet dinner on Terrace (does not include music, theme parties nor scenography).<br />\n- Closing dinner in the lounge with 3-course menu to choose from the menus pre-established by THE HOTEL (does not include music, stage, dance floor or special assemblies).<br />\n- 5 hours of waiters&rsquo; service in private events.<br />\n- Special registration area, subject to availability at the time of signing the contract and according to the number and time of arrival of the participants.<br />\n- Bar of drinks and canap&eacute;s during registration.<br />\n- Spaces for events according to the number of participants staying at the hotel.<br />\n- Continued Coffee Break during all your sessions (coffee, water, soft drinks, sweet bread, crudittes and / or snacks).<br />\n- THE HOTEL will assign an exclusive Group Manager for the events.<br />\n- Private events in the lounge and in outdoor authorized areas.</p>\n",
+      "2": "<p>espa&ntilde;ol&nbsp;</p>\n"
+    },
+    "concepto": "Amenidades",
+    "sub_concepto": "special concessions",
+    "titulo_clausula": "Amenities",
+    "booking_window_fecha_inicio": "2020-08-01",
+    "booking_window_fecha_fin": "2020-08-11",
+    "travel_window_fecha_inicio": "2020-08-01",
+    "travel_window_fecha_fin": "2020-08-11",
+    "propiedades": [
+      "ZHSP",
+      "ZMNI",
+      "ZMGR",
+      "ZMSU",
+      "ZHBP",
+      "ZHIM",
+      "ZHLB",
+      "ZRPL",
+      "ZRCZ",
+      "ZCJG",
+      "ZPLB",
+      "CDS"
+    ],
+    "lista_variables": ["@PAGOS@"],
+    "variable": {
+      "@PAGOS@": {
+        "idbnf_condicion_variable": "16",
+        "tag": "@PAGOS@",
+        "idbnf_variable_beneficio": "6",
+        "base": {
+          "clausula": {
+            "1": "<p>&nbsp;The Deposit of @quantity@@type@&nbsp;(@amount@)&nbsp;of the total group amount is due by&nbsp;&nbsp;@begins_day@ days prior to group arrival.&nbsp;&nbsp;@last_day@&nbsp;&nbsp;@date@&nbsp;</p>\n\n<p>\\n</p>\n"
+          },
+          "variables": [
+            "@quantity@",
+            "@type@",
+            "@amount@",
+            "@begins_day@",
+            "@last_day@",
+            "@date@"
+          ],
+          "filas": [
+            {
+              "@quantity@": 10,
+              "@begins_day@": "First payment (signature date)",
+              "@last_day@": 181,
+              "@type@": "Percent",
+              "@amount@": "",
+              "@date@": ""
+            },
+            {
+              "@quantity@": 40,
+              "@begins_day@": 180,
+              "@last_day@": 91,
+              "@type@": "Percent",
+              "@amount@": "",
+              "@date@": ""
+            },
+            {
+              "@quantity@": 40,
+              "@begins_day@": 90,
+              "@last_day@": 31,
+              "@type@": "Percent",
+              "@amount@": "",
+              "@date@": ""
+            },
+            {
+              "@quantity@": 10,
+              "@begins_day@": 30,
+              "@last_day@": 1,
+              "@type@": "Percent",
+              "@amount@": "",
+              "@date@": ""
+            }
+          ]
+        },
+        "tipo_dato": "4",
+        "override_rules": [
+          {
+            "auth_id": 0,
+            "min": "",
+            "max": "",
+            "level": 1
+          }
+        ],
+        "tipo_rango": "0",
+        "rangos": [
+          {
+            "selecto": true,
+            "inicio": 0,
+            "fin": 0
+          }
+        ],
+        "estado": "1"
+      },
+      "@HABITACIONES@": {
+        "idbnf_condicion_variable": "16",
+        "tag": "@HABITACIONES@",
+        "idbnf_variable_beneficio": "1",
+        "base": "__",
+        "tipo_dato": "2",
+        "override_rules": [
+          {
+            "auth_id": 0,
+            "min": "",
+            "max": "",
+            "level": 1
+          }
+        ]
+      }
+    },
+    "variables_editados": {
+      "@PAGOS@": {
+        "idbnf_condicion_variable": "16",
+        "tag": "@PAGOS@",
+        "idbnf_variable_beneficio": "6",
+        "base": {
+          "clausula": {
+            "1": "<p>&nbsp;The Deposit of @quantity@@type@&nbsp;(@amount@)&nbsp;of the total group amount is due by&nbsp;&nbsp;@begins_day@ days prior to group arrival.&nbsp;&nbsp;@last_day@&nbsp;&nbsp;@date@&nbsp;</p>\n\n<p>\\n</p>\n"
+          },
+          "variables": [
+            "@quantity@",
+            "@type@",
+            "@amount@",
+            "@begins_day@",
+            "@last_day@",
+            "@date@"
+          ],
+          "filas": [
+            {
+              "@quantity@": 10,
+              "@begins_day@": "First payment (signature date)",
+              "@last_day@": 181,
+              "@type@": "Percent",
+              "@amount@": "",
+              "@date@": ""
+            },
+            {
+              "@quantity@": 40,
+              "@begins_day@": 180,
+              "@last_day@": 91,
+              "@type@": "Percent",
+              "@amount@": "",
+              "@date@": ""
+            },
+            {
+              "@quantity@": 40,
+              "@begins_day@": 90,
+              "@last_day@": 31,
+              "@type@": "Percent",
+              "@amount@": "",
+              "@date@": ""
+            },
+            {
+              "@quantity@": 10,
+              "@begins_day@": 30,
+              "@last_day@": 1,
+              "@type@": "Percent",
+              "@amount@": "",
+              "@date@": ""
+            }
+          ]
+        },
+        "tipo_dato": "4",
+        "override_rules": [
+          {
+            "auth_id": 0,
+            "min": "",
+            "max": "",
+            "level": 1
+          }
+        ],
+        "tipo_rango": "0",
+        "rangos": [
+          {
+            "selecto": true,
+            "inicio": 0,
+            "fin": 0
+          }
+        ],
+        "estado": "1"
+      }
+    },
+    "opcional": "0",
+    "es_editable": false,
+    "estado_autorizacion": "0",
+    "nivel_autorizacion": "0",
+    "cumple_con_base": true,
+    "updated": false
+  }
+]

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="events_promociones">
+	<entities>
+		<data-source id="mysql8-16e279b9a23-c0a161f27094bfb">
+			<entity id="1" name="event_evento_promocion" fq-name="clv_events.event_evento_promocion">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="2" name="event_grupo" fq-name="clv_events.event_grupo">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="3" name="event_promocion" fq-name="clv_events.event_promocion">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="4" name="event_tipo_promocion" fq-name="clv_events.event_tipo_promocion">
+				<path name="clv_events"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="fk_event_evento_promocion_event_grupo1" fq-name="clv_events.event_evento_promocion.fk_event_evento_promocion_event_grupo1" type="fk" pk-ref="2" fk-ref="1"/>
+		<relation name="fk_event_evento_promocion_event_promocion1" fq-name="clv_events.event_evento_promocion.fk_event_evento_promocion_event_promocion1" type="fk" pk-ref="3" fk-ref="1"/>
+		<relation name="fk_evento_promocion_event_tipo_promocion1" fq-name="clv_events.event_promocion.fk_evento_promocion_event_tipo_promocion1" type="fk" pk-ref="4" fk-ref="3"/>
+	</relations>
+</diagram>

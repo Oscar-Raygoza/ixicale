@@ -1,0 +1,52 @@
+{
+    "folders": [
+        {
+            "name": "MainFolder",
+            "path": "."
+            // "path": "/home/ixicale/.sf"
+        },
+        {
+            "name": "DBeaver",
+            "path": "./../Clever/DBeaver/Scripts"
+        },
+        {
+            "name": "POSTLOGIN",
+            "path": "/var/www/html/NODE/clv-service-web"
+        },
+        {
+            "name": "Weddings-2020.12.04 [2020.07]",
+            "path": "/var/www/html/NODE/clv-service-webwed"
+        },
+        {
+            "name": "Events-api",
+            "path": "/var/www/html/PHP/clv-events-api"
+        },
+        {
+            "name": "Events-fe",
+            "path": "/var/www/html/NODE/clv-events-fe"
+            // },
+            // {
+            //     "name": "Products-API",
+            //     "path": "/var/www/html/PHP/clv-products-api"
+        }
+    ],
+    "settings": {
+        "editor.tabSize": 4,
+        "editor.rulers": [80, 115, 120],
+        "workbench.colorCustomizations": {
+            "editorRuler.foreground": "#59a1ff"
+        },
+        // default terminal
+        "terminal.integrated.shell.linux": "/usr/bin/bash",
+        // prettier settings (must be installed)
+        "prettier.tabWidth": 4,
+        "prettier.printWidth": 120,
+        "prettier.disableLanguages": [
+            "py",
+            ".py"
+        ],
+        "prettier.jsxSingleQuote": true,
+        "prettier.singleQuote": true,
+        "terminal.integrated.shell.windows": ""
+    }
+}

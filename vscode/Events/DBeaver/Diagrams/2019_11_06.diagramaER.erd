@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="2019_11_06.diagramaER.erd">
+	<entities>
+		<data-source id="mysql8-16e279b9a23-c0a161f27094bfb">
+			<entity id="1" name="event_acceso_invitado" fq-name="clv_events.event_acceso_invitado" order="0" x="1270" y="1093">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="2" name="event_condicion_promocion" fq-name="clv_events.event_condicion_promocion" order="1" x="1295" y="303">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="3" name="event_dashboard_corte" fq-name="clv_events.event_dashboard_corte" order="2" x="970" y="1460">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="4" name="event_dashboard_descripcion_corte" fq-name="clv_events.event_dashboard_descripcion_corte" order="3" x="964" y="1819">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="5" name="event_dashboard_meta" fq-name="clv_events.event_dashboard_meta" order="4" x="2065" y="1252">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="6" name="event_dashboard_planner_meta" fq-name="clv_events.event_dashboard_planner_meta" order="5" x="1840" y="1624">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="7" name="event_dashboard_planner_temp" fq-name="clv_events.event_dashboard_planner_temp" order="6" x="1469" y="1625">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="8" name="event_dashboard_premios" fq-name="clv_events.event_dashboard_premios" order="7" x="2315" y="1496">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="9" name="event_detalle_asset" fq-name="clv_events.event_detalle_asset" order="8" x="65" y="951">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="10" name="event_detalle_extrainfo" fq-name="clv_events.event_detalle_extrainfo" order="9" x="65" y="1262">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="11" name="event_detalle_item" fq-name="clv_events.event_detalle_item" order="10" x="386" y="1078">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="12" name="event_detalle_pago" fq-name="clv_events.event_detalle_pago" order="11" x="389" y="1730">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="13" name="event_detalle_solicitud" fq-name="clv_events.event_detalle_solicitud" order="12" x="65" y="1551">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="14" name="event_evento" fq-name="clv_events.event_evento" order="13" x="398" y="690">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="15" name="event_evento_locacion" fq-name="clv_events.event_evento_locacion" order="14" x="396" y="332">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="16" name="event_evento_locacion_style" fq-name="clv_events.event_evento_locacion_style" order="15" x="661" y="317">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="17" name="event_evento_promocion" fq-name="clv_events.event_evento_promocion" order="16" x="1001" y="696">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="18" name="event_grupo" fq-name="clv_events.event_grupo" order="17" x="716" y="597">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="19" name="event_grupo_pago" fq-name="clv_events.event_grupo_pago" order="18" x="692" y="1695">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="20" name="event_locacion" fq-name="clv_events.event_locacion" order="19" x="403" y="22">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="21" name="event_locacion_style" fq-name="clv_events.event_locacion_style" order="20" x="675" y="57">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="22" name="event_metas" fq-name="clv_events.event_metas" order="21" x="1816" y="1234">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="23" name="event_promocion" fq-name="clv_events.event_promocion" order="22" x="1313" y="524">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="24" name="event_reserva_cobro" fq-name="clv_events.event_reserva_cobro" order="23" x="991" y="314">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="25" name="event_saldo_favor" fq-name="clv_events.event_saldo_favor" order="24" x="725" y="1273">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="26" name="event_soporte_evento_promocion" fq-name="clv_events.event_soporte_evento_promocion" order="25" x="1284" y="854">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="27" name="event_tipo_condicion_promocion" fq-name="clv_events.event_tipo_condicion_promocion" order="26" x="1613" y="307">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="28" name="event_tipo_evento" fq-name="clv_events.event_tipo_evento" order="27" x="59" y="572">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="29" name="event_tipo_evento_texto" fq-name="clv_events.event_tipo_evento_texto" order="28" x="59" y="267">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="30" name="event_tipo_promocion" fq-name="clv_events.event_tipo_promocion" order="29" x="1619" y="546">
+				<path name="clv_events"/>
+			</entity>
+			<entity id="31" name="event_traduccion_atributo" fq-name="clv_events.event_traduccion_atributo" order="30" x="1033" y="1096">
+				<path name="clv_events"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="fk_event_dashboard_planner_meta_event_dashboard_meta1" fq-name="clv_events.event_dashboard_planner_meta.fk_event_dashboard_planner_meta_event_dashboard_meta1" type="fk" pk-ref="5" fk-ref="6"/>
+		<relation name="fk_event_dashboard_premios_event_dashboard_meta1" fq-name="clv_events.event_dashboard_premios.fk_event_dashboard_premios_event_dashboard_meta1" type="fk" pk-ref="5" fk-ref="8"/>
+		<relation name="fk_event_detalle_asset_event_detalle_item1" fq-name="clv_events.event_detalle_asset.fk_event_detalle_asset_event_detalle_item1" type="fk" pk-ref="11" fk-ref="9"/>
+		<relation name="fk_clv_detalle_evento_extrainfo_clv_detalle_evento" fq-name="clv_events.event_detalle_extrainfo.fk_clv_detalle_evento_extrainfo_clv_detalle_evento" type="fk" pk-ref="11" fk-ref="10"/>
+		<relation name="dk_event_detalle_pago_event_detalle" fq-name="clv_events.event_detalle_pago.dk_event_detalle_pago_event_detalle" type="fk" pk-ref="11" fk-ref="12"/>
+		<relation name="fk_clv_detalle_evento_solicitud_clv_detalle_evento" fq-name="clv_events.event_detalle_solicitud.fk_clv_detalle_evento_solicitud_clv_detalle_evento" type="fk" pk-ref="11" fk-ref="13"/>
+		<relation name="fk_event_detalle_item" fq-name="clv_events.event_saldo_favor.fk_event_detalle_item" type="fk" pk-ref="11" fk-ref="25"/>
+		<relation name="fk_event_detalle_item_event_evento1" fq-name="clv_events.event_detalle_item.fk_event_detalle_item_event_evento1" type="fk" pk-ref="14" fk-ref="11"/>
+		<relation name="fk_even_evento_locacion_event_evento" fq-name="clv_events.event_evento_locacion.fk_even_evento_locacion_event_evento" type="fk" pk-ref="14" fk-ref="15"/>
+		<relation name="fk_event_evento_locacion_style_event_evento_locacion" fq-name="clv_events.event_evento_locacion_style.fk_event_evento_locacion_style_event_evento_locacion" type="fk" pk-ref="15" fk-ref="16"/>
+		<relation name="fk_event_soporte_evento_promocion_event_evento_promocion1" fq-name="clv_events.event_soporte_evento_promocion.fk_event_soporte_evento_promocion_event_evento_promocion1" type="fk" pk-ref="17" fk-ref="26"/>
+		<relation name="fk_event_evento_event_grupo1" fq-name="clv_events.event_evento.fk_event_evento_event_grupo1" type="fk" pk-ref="18" fk-ref="14"/>
+		<relation name="fk_event_evento_promocion_event_grupo1" fq-name="clv_events.event_evento_promocion.fk_event_evento_promocion_event_grupo1" type="fk" pk-ref="18" fk-ref="17"/>
+		<relation name="fk_event_datos_sociedad" fq-name="clv_events.event_reserva_cobro.fk_event_datos_sociedad" type="fk" pk-ref="18" fk-ref="24"/>
+		<relation name="fk_event_grupo" fq-name="clv_events.event_saldo_favor.fk_event_grupo" type="fk" pk-ref="18" fk-ref="25"/>
+		<relation name="fk_event_detalle_pago_event_grupo_Pago" fq-name="clv_events.event_detalle_pago.fk_event_detalle_pago_event_grupo_Pago" type="fk" pk-ref="19" fk-ref="12"/>
+		<relation name="fk_event_evento_locacion_event_locacion" fq-name="clv_events.event_evento_locacion.fk_event_evento_locacion_event_locacion" type="fk" pk-ref="20" fk-ref="15"/>
+		<relation name="fk_event_evento_locacion_style" fq-name="clv_events.event_evento_locacion_style.fk_event_evento_locacion_style" type="fk" pk-ref="21" fk-ref="16"/>
+		<relation name="fk_event_condicion_promocion_event_promocion1" fq-name="clv_events.event_condicion_promocion.fk_event_condicion_promocion_event_promocion1" type="fk" pk-ref="23" fk-ref="2"/>
+		<relation name="fk_event_evento_promocion_event_promocion1" fq-name="clv_events.event_evento_promocion.fk_event_evento_promocion_event_promocion1" type="fk" pk-ref="23" fk-ref="17"/>
+		<relation name="fk_event_condicion_promocion_event_tipo_condicion_promocion1" fq-name="clv_events.event_condicion_promocion.fk_event_condicion_promocion_event_tipo_condicion_promocion1" type="fk" pk-ref="27" fk-ref="2"/>
+		<relation name="fk_event_evento_event_tipo_evento1" fq-name="clv_events.event_evento.fk_event_evento_event_tipo_evento1" type="fk" pk-ref="28" fk-ref="14"/>
+		<relation name="fk_event_tipo_evento_texto_event_tipo_evento1" fq-name="clv_events.event_tipo_evento_texto.fk_event_tipo_evento_texto_event_tipo_evento1" type="fk" pk-ref="28" fk-ref="29"/>
+		<relation name="fk_evento_promocion_event_tipo_promocion1" fq-name="clv_events.event_promocion.fk_evento_promocion_event_tipo_promocion1" type="fk" pk-ref="30" fk-ref="23"/>
+	</relations>
+</diagram>

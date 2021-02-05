@@ -1,0 +1,30 @@
+{
+    "folders": [
+        {
+            "name": "Benefit - loot",
+            "path": "."
+        },
+        {
+            "name": "clv-benefit-api",
+            "path": "/var/www/html/PHP/clv-benefit-api"
+        },
+        {
+            "name": "Front End",
+            "path": "/var/www/html/NODE/clv-benefit-fe"
+        },
+        {
+            "name": "python",
+            "path": "/home/ixicale/Documentos/projects/python/benefit_copy_template"
+        }
+    ],
+    "settings": {
+        "editor.rulers": [80, 119],
+        "workbench.colorCustomizations": {
+            "editorRuler.foreground": "#59a1ff"
+        },
+        "prettier.jsxSingleQuote": true,
+        "prettier.tabWidth": 4,
+        "prettier.singleQuote": true,
+        "prettier.printWidth": 120,
+    }
+}

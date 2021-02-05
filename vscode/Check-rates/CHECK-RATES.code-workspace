@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "check-rates-settings",
+			"path": "."
+		},
+		{
+			"path": "/srv/http/clv_python/clv-check-rates"
+		},
+		{
+			"path": "/srv/http/x_factor/SteampunkFactory-Python"
+		}
+	],
+	"settings": {
+		"editor.rulers": [
+			80,
+			115
+		],
+		"workbench.colorCustomizations": {
+			"editorRuler.foreground": "#59a1ff"
+		}
+	}
+}
