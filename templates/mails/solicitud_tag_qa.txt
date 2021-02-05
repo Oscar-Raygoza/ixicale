@@ -1,0 +1,23 @@
+Creación Servidor | QA | Python | API
+
+______________________________________________________
+
+Muy buenas tardes compañeros de data center,
+
+Solicito su apoyo para lo siguiente;
+
+Tipo Server: Python - Flask
+Ambiente: CALIDAD
+Branch: master
+Tag: clv-report-api.2019.10.17.1
+URL Afectada: SIN DEFINIR
+Servidores: SIN DEFINIR
+Prioridad: Alta
+Fecha Realización: 16/10/2019
+Hora Realización: 04:50
+Objetivo: Primer desplegue de las aplicaciones de Python en calidad
+Sistema afectado: clv-report-api
+
+Notas:
+URL del tag
+https://github.com/fbenitez/clv-report-api/releases/tag/clv-report-api.2019.10.17.1
