@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH="/home/ixicale/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -33,7 +33,7 @@ ZSH_THEME="agnosterzak"
 # export UPDATE_ZSH_DAYS=13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS=true
+# DISABLE_MAGIC_FUNCTIONS="true"
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -107,9 +107,11 @@ export PHP="$UBUN_HTTP/PHP"
 
 export SF="$HOME/.sf"
 export MY_BASH="$SF/SteampunkFactory-Bash"
-export POSTMAN_LOG="$MY_BASH/logger/postman"
-export MY_LOOT="$SF/SteampunkFactory-Loot"
 export MY_CONF="$SF/SteampunkFactory-MySettings"
+export MY_LOOT="$SF/SteampunkFactory-Loot"
+export MY_TEMPLATE="$MY_CONF/templates/"
+export RUN_BASH="$MY_CONF/develop/bash"
+export POSTMAN_LOG="$MY_CONF/logger/postman"
 # # Set envoirement linux's variables
 # export MNJR_P_HTTP="/srv/http"
 # export MNJR_PYTHON="$MNJR_P_HTTP/clv_python"
@@ -126,15 +128,14 @@ export MY_CONF="$SF/SteampunkFactory-MySettings"
 # export MANJARO_PATH_MY_SETTINGS="$MNJR_P_HTTP/x_factor/SteampunkFactory-MySettings"
 # export MANJARO_PATH_MY_PYTHON="$MNJR_P_HTTP/x_factor/SteampunkFactory-Python"
 # export MANJARO_PATH_MY_BASH="/home/isaias/SteampunkFactory-Bash"
-# Set easy access commands
+# # Set easy access commands
 # export EDIT_ZSH='atom ~/.zshrc'
 # export PYTHON_INIT_VENV='bash ~/SteampunkFactory-Bash/python_executer.setup_install.sh'
 # export PYTHON_EXEC='bash ~/SteampunkFactory-Bash/python_executer.sh'
 #endregion
 
-
 #region alias
-alias postman='~/Postman/Postman'
+# alias postman='~/Postman/Postman'
 alias gis='git status'
 alias gic='git checkout'
 alias gif='git fetch --all'
@@ -143,5 +144,12 @@ alias gips='git push'
 alias gipl='git pull'
 alias gicx='git checkout ixicale'
 alias gimex='git merge ixicale'
-
+installNODE () { cd $NODE; PROYECT="$1"; echo "Project -> $PROYECT";rm -rf $NODE/$PROYECT; git clone git@github.com:fbenitez/$PROYECT.git; $NODE/$PROYECT; gic dev; npm i; npm run dev; }
+installPHP () { cd $PHP; PROYECT="$1"; echo "Project -> $PROYECT";rm -rf $PHP/$PROYECT; git clone git@github.com:fbenitez/$PROYECT.git; gic dev; composer install --ignore-platform-reqs; }
+logPostman () { _time=`date +%Y.%m%b.%d.%H%M%S%N.%A`; destiny="$POSTMAN_LOG/$_time.logger"; echo $destiny; ~/Postman/Postman >> $destiny & }
+logOpera () { _time=`date +%Y.%m%b.%d.%H%M%S%N.%A`; destiny="$POSTMAN_LOG/$_time.logger"; echo $destiny; opera >> $destiny & }
+rst () { source ~/.zshrc; echo -e "\t==================\n\tSe reinicio la consola!\n\t==================" }
+TEMPLATE_issues () { cat $MY_TEMPLATE/issues.md ; cat $MY_TEMPLATE/issues.md | xclip -sel clip; }
+copyColapse () { DOC_STR_TEMPLATE="<details>\n  <summary>\n\n  </summary>\n  <p>\n\n    Hola Mundo\n\n  </p>\n</details>"; echo -e $DOC_STR_TEMPLATE; echo -e $DOC_STR_TEMPLATE | xclip -sel clip; }
 #endregion
+
