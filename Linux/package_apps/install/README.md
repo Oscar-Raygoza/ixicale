@@ -17,6 +17,7 @@ Ayuda para instalar los diferentes software para permitir el desarrollo dentro d
 - [Software personalizado](#personalizados)
     1. [Instalar Terminator](#terminator-install)
     1. [Instalar Oh My ZSH](#zsh-install)
+    1. [Instalar xclip](#xclip-install)
 
 ## Software desarrollo
 
@@ -273,6 +274,25 @@ zsh --version
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 gedit ~/.zshrc # edita si gustas!
 source ~/.zshrc
+```
+
+</p>
+</details>
+
+
+</p>
+</details>
+
+<details>
+<summary>
+<b >Instalar xclip</b>
+<a id="xclip-install" href="#index-page">[↑]</a>
+</summary>
+<p>
+
+```sh
+sudo apt update; sudo apt -y upgrade;
+sudo apt install xclip
 ```
 
 </p>
