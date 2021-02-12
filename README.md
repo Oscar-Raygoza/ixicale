@@ -14,3 +14,14 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+# Hola Comunidad!
+
+## My GitHub stats
+
+[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=ixicale&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+
+## Top Langs
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ixicale&layout=compact&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+
