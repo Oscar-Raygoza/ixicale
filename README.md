@@ -16,8 +16,6 @@ Here are some ideas to get you started:
 -->
 
 
-# Hola Comunidad!
-
 ## My GitHub stats
 
 [![My GitHub stats](https://github-readme-stats.vercel.app/api?username=ixicale&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
@@ -27,4 +25,4 @@ Here are some ideas to get you started:
 
 ## Wakatime stats
 
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime/?username=ixicale)](https://github.com/anuraghazra/github-readme-stats)
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ixicale&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
