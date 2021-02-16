@@ -26,4 +26,8 @@ Here are some ideas to get you started:
 ## Wakatime stats
 
 <!--START_SECTION:waka-->
+```text
+JavaScript   1 hr 9 mins     █████████████████░░░░░░░░   68.03 % 
+PHP          32 mins         ████████░░░░░░░░░░░░░░░░░   31.97 % 
+```
 <!--END_SECTION:waka-->
