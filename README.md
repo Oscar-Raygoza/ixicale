@@ -89,10 +89,8 @@ Hi,I'm a Fullstack Developer, Technical Content Writer and Problem Setter. Apart
 > NOTE: Wakatime does not indicate my skill level or anything like that, it's a GitHub metric of which languages have the most code on GitHub. It's a new feature of github-readme-stats linked with Wakanda.
 
 <!--START_SECTION:waka-->
-
 ```text
-JavaScript   1 hr 9 mins     █████████████████░░░░░░░░   68.03 %
-PHP          32 mins         ████████░░░░░░░░░░░░░░░░░   31.97 %
+JavaScript   1 hr 9 mins     █████████████████░░░░░░░░   68.03 % 
+PHP          32 mins         ████████░░░░░░░░░░░░░░░░░   31.97 % 
 ```
-
 <!--END_SECTION:waka-->
