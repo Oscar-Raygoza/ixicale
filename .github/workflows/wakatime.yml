@@ -1,10 +1,9 @@
 name: Wakatime Readme 
 
 on:
-  workflow_dispatch:
   schedule:
     # Runs each 5 mins
-    - cron: "1 * * * 1-6"
+    - cron: "2 * * * 1-6"
 
 jobs:
   update-readme:
