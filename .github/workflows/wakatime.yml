@@ -2,8 +2,8 @@ name: Wakatime Readme
 
 on:
   schedule:
-    # Runs each 5 mins
-    - cron: "2 * * * 1-6"
+    # Runs every hour, on the hour on Mon, Tue, Wed, Thu, Fri and Sat
+    - cron: "0 * * * 1-6"
 
 jobs:
   update-readme:
