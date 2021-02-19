@@ -52,6 +52,15 @@ Hi,I'm a Fullstack Developer, Technical Content Writer and Problem Setter. Apart
             />
         </code>
     </a>
+    <a href="https://wakatime.com/@ixicale" >
+        <code>
+            <img
+                class="text-red" height="20" width="20"
+                src="https://wakatime.com/static/img/wakatime.svg"
+            />
+        </code>
+    </a>
+    
 </p>
 
 **Languages:**
@@ -76,9 +85,15 @@ Hi,I'm a Fullstack Developer, Technical Content Writer and Problem Setter. Apart
 <code><img height="20" width="20" alt="markdown" src="https://raw.githubusercontent.com/github/explore/master/topics/markdown/markdown.png" /></code>
 <code><img height="20" width="20" alt="git" src="https://raw.githubusercontent.com/github/explore/master/topics/git/git.png" /></code>
 <code><img height="20" width="20" alt="github" src="https://raw.githubusercontent.com/github/explore/master/topics/github/github.png" /></code>
-<code><img height="20" width="20" alt="linux" src="https://raw.githubusercontent.com/github/explore/master/topics/linux/linux.png" /></code>
 <code><img height="20" width="20" alt="powershell" src="https://raw.githubusercontent.com/github/explore/master/topics/powershell/powershell.png" /></code>
 <code><img height="20" width="20" alt="visual-studio-code" src="https://raw.githubusercontent.com/github/explore/master/topics/visual-studio-code/visual-studio-code.png" /></code>
+<code><img height="20" width="20" alt="visual-studio-code" src="https://dbeaver.io/wp-content/uploads/2015/09/beaver-head.png" /></code>
+
+
+**Operating system:**
+
+<code><img height="20" width="20" alt="linux" src="https://raw.githubusercontent.com/github/explore/master/topics/linux/linux.png" /></code>
+<code><img height="20" width="20" alt="linux" src="https://raw.githubusercontent.com/github/explore/master/topics/windows/windows.png" /></code>
 
 ## My GitHub stats
 
@@ -86,7 +101,7 @@ Hi,I'm a Fullstack Developer, Technical Content Writer and Problem Setter. Apart
 
 ## Wakatime stats
 
-> NOTE: Wakatime does not indicate my skill level or anything like that, it's a GitHub metric of which languages have the most code on GitHub. It's a new feature of github-readme-stats linked with Wakanda.
+> NOTE: Wakatime does not indicate my skill level or anything like that, it's a GitHub metric of which languages have the most code on GitHub. It's a new feature of github-readme-stats linked with Wakatime.
 
 <!--START_SECTION:waka-->
 ```text
