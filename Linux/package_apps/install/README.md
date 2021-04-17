@@ -30,9 +30,9 @@ Ayuda para instalar los diferentes software para permitir el desarrollo dentro d
 
 ```sh
 sudo apt update; sudo apt -y upgrade;
-sudo apt install git
-git config --global user.email ixicaleescalante@gmail.com
-git config --global user.name ixicale
+sudo apt install git;
+git config --global user.email ixicaleescalante@gmail.com;
+git config --global user.name ixicale;
 ```
 
 </p>
@@ -47,8 +47,8 @@ git config --global user.name ixicale
 
 ```sh
 sudo apt update; sudo apt -y upgrade;
-ssh-keygen
-cat ~/.ssh/id_rsa.pub # agregar a github en configuraciones
+ssh-keygen;
+cat ~/.ssh/id_rsa.pub; # agregar a github en configuraciones
 ```
 
 </p>
@@ -63,12 +63,12 @@ cat ~/.ssh/id_rsa.pub # agregar a github en configuraciones
 
 ```sh
 sudo apt update; sudo apt -y upgrade;
-sudo add-apt-repository ppa:ondrej/php
-sudo apt-get install php7.2-dev php7.2-curl php7.2-mbstring php7.2-json php7.2-mysql php7.2-fpm
-ss -pl | grep php
-sudo systemctl status php7.2-fpm
-sudo chown -R $USER:$USER /var/www/html
-echo -e "<?php\nphpinfo();\n" > /var/www/html/info.php
+sudo add-apt-repository ppa:ondrej/php;
+sudo apt-get install php7.2-dev php7.2-curl php7.2-mbstring php7.2-json php7.2-mysql php7.2-fpm;
+ss -pl | grep php;
+sudo systemctl status php7.2-fpm;
+sudo chown -R $USER:$USER /var/www/html;
+echo -e "<?php\nphpinfo();\n" > /var/www/html/info.php;
 ```
 
 try to open php info: <http://localhost/info.php>
@@ -85,11 +85,11 @@ try to open php info: <http://localhost/info.php>
 
 ```sh
 sudo apt update; sudo apt -y upgrade;
-sudo apt install nginx
-sudo gedit /etc/nginx/nginx.conf
-sudo cp /etc/nginx/nginx.conf /etc/nginx/nginx_backup_initial.conf
-sudo gedit /etc/nginx/nginx.conf # descomentar 'server_tokens off' # descomentar ese contenido
-sudo gedit /etc/nginx/sites-available/default # configuracion php7.2
+sudo apt install nginx;
+sudo gedit /etc/nginx/nginx.conf;
+sudo cp /etc/nginx/nginx.conf /etc/nginx/nginx_backup_initial.conf;
+sudo gedit /etc/nginx/nginx.conf; # descomentar 'server_tokens off' # descomentar ese contenido
+sudo gedit /etc/nginx/sites-available/default; # configuracion php7.2
 ```
 
 ```nix
@@ -104,11 +104,11 @@ location ~ \.php$ {
 ```
 
 ```sh
-sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/ # Crear enlace en caso de que no exista (debe existir)
-sudo systemctl restart nginx
-sudo nginx -t
-sudo chown -R $USER:$USER /var/www/html
-sudo ufw app list # verificar que exista 'Nginx Full' | 'Nginx HTTP' | 'Nginx HTTPS'
+sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/; # Crear enlace en caso de que no exista (debe existir)
+sudo systemctl restart nginx;
+sudo nginx -t;
+sudo chown -R $USER:$USER /var/www/html;
+sudo ufw app list; # verificar que exista 'Nginx Full' | 'Nginx HTTP' | 'Nginx HTTPS'
 ```
 
 </p>
@@ -123,7 +123,7 @@ sudo ufw app list # verificar que exista 'Nginx Full' | 'Nginx HTTP' | 'Nginx HT
 
 ```sh
 sudo apt update; sudo apt -y upgrade;
-sudo apt install composer
+sudo apt install composer;
 ```
 
 </p>
@@ -137,14 +137,14 @@ sudo apt install composer
 <p>
 
 ```sh
-sudo apt update; sudo apt -y upgrade;
-sudo apt -y install openjdk-11-jdk openjdk-11-jre
-java -version
-wget -O - https://dbeaver.io/debs/dbeaver.gpg.key | sudo apt-key add -
-echo "deb https://dbeaver.io/debs/dbeaver-ce /" | sudo tee /etc/apt/sources.list.d/dbeaver.list
-sudo apt update
-sudo apt -y install dbeaver-ce
-apt policy dbeaver-ce
+sudo apt update; sudo apt -y upgrade;;
+sudo apt -y install openjdk-11-jdk openjdk-11-jre;
+java -version;
+wget -O - https://dbeaver.io/debs/dbeaver.gpg.key | sudo apt-key add -;
+echo "deb https://dbeaver.io/debs/dbeaver-ce /" | sudo tee /etc/apt/sources.list.d/dbeaver.list;
+sudo apt update;
+sudo apt -y install dbeaver-ce;
+apt policy dbeaver-ce;
 ```
 
 </p>
@@ -159,9 +159,9 @@ apt policy dbeaver-ce
 
 ```sh
 sudo apt update; sudo apt -y upgrade;
-sudo apt-get -y install curl
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt install nodejs
+sudo apt-get -y install curl;
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -;
+sudo apt install nodejs;
 echo -e "node\t-> $(node --version)\nnpm\t-> $(npm --version)"
 ```
 
@@ -176,8 +176,8 @@ echo -e "node\t-> $(node --version)\nnpm\t-> $(npm --version)"
 <p>
 
 ```sh
-mkdir ~/.tmp_repos
-cd ~/.tmp_repos
+mkdir ~/.tmp_repos;
+cd ~/.tmp_repos;
 ```
 
 </p>
@@ -269,11 +269,11 @@ sudo apt-get install terminator; terminator & exit
 
 ```sh
 sudo apt update; sudo apt -y upgrade;
-sudo apt install zsh
-zsh --version
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-gedit ~/.zshrc # edita si gustas!
-source ~/.zshrc
+sudo apt install zsh;
+zsh --version;
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)";
+gedit ~/.zshrc; # edita si gustas!
+source ~/.zshrc;
 ```
 
 </p>
