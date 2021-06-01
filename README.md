@@ -105,6 +105,8 @@ Hi,I'm a Fullstack Developer, Technical Content Writer and Problem Setter. Apart
 
 <!--START_SECTION:waka-->
 ```text
-No Activity tracked this Week
+Python       31 mins         ██████████████████████▒░░   89.94 % 
+Other        2 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.82 % 
+JavaScript   1 min           █░░░░░░░░░░░░░░░░░░░░░░░░   04.25 % 
 ```
 <!--END_SECTION:waka-->
