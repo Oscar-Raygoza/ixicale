@@ -22,7 +22,7 @@ Hi,I'm a Fullstack Developer, Technical Content Writer and Problem Setter. Apart
 
 **Talking about Personal Stuffs:**
 
--   🔭 I’m currently Developer at Palace Resorts.
+-   🔭 I’m currently Developer at Cargamos.
 -   🌱 I’m currently learning Flutter.
 -   👯 Part of Developer Community.
 -   📫 Find me on:
