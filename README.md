@@ -105,10 +105,10 @@ Hi,I'm a Fullstack Developer, Technical Content Writer and Problem Setter. Apart
 
 <!--START_SECTION:waka-->
 ```text
-Python     11 hrs 59 mins  █████████████████▒░░░░░░░   68.79 % 
-Other      4 hrs 59 mins   ███████░░░░░░░░░░░░░░░░░░   28.66 % 
-Markdown   13 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.29 % 
-JSON       10 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.02 % 
-Text       2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.21 % 
+Python       9 hrs 48 mins   ███████████████░░░░░░░░░░   60.60 % 
+Other        5 hrs 22 mins   ████████▒░░░░░░░░░░░░░░░░   33.28 % 
+Markdown     25 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.63 % 
+JSON         16 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.72 % 
+Git Config   13 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.43 % 
 ```
 <!--END_SECTION:waka-->
